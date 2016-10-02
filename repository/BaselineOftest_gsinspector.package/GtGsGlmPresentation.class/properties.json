@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOftest_gsinspector",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsGlmPresentation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
