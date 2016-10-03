@@ -2,11 +2,17 @@
 	"class" : {
 		"clearTestInstance" : "AndreiChis 10/3/2016 18:23",
 		"forOop:" : "AndreiChis 10/3/2016 18:01",
-		"makeTestInstance" : "AndreiChis 10/3/2016 18:35" },
+		"makeTestInstance" : "AndreiChis 10/3/2016 18:35",
+		"serializeInstance" : "AndreiChis 10/3/2016 19:00" },
 	"instance" : {
+		"excludedInstVarNames" : "AndreiChis 10/3/2016 18:48",
 		"forOop:" : "AndreiChis 10/3/2016 18:30",
+		"fromSton:" : "AndreiChis 10/3/2016 18:51",
 		"initialize" : "AndreiChis 10/3/2016 17:49",
 		"presentations" : "AndreiChis 10/3/2016 17:50",
+		"stonInstVarNames" : "AndreiChis 10/3/2016 18:49",
+		"stonOn:" : "AndreiChis 10/3/2016 18:49",
+		"stonProcessSubObjects:" : "AndreiChis 10/3/2016 18:50",
 		"title" : "AndreiChis 10/3/2016 17:03",
 		"title:" : "AndreiChis 10/3/2016 17:03",
 		"topezServer" : "AndreiChis 10/3/2016 18:27",

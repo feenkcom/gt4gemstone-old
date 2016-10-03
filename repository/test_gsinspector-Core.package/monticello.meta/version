@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.4' message 'made a GtGsInspectorProxy1 with two custom presentations' id 'c16c64e6-049a-42f0-8a67-c372ec35a3ad' date '3 October 2016' time '6:45:12.001713 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.3' message 'basic implementation of GtGsGlmPresentation1 (this should communicate through blocks)
-' id '1537fa01-1a1f-5e31-979e-e6855eb1628b' date '3 October 2016' time '5:57:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.5' message 'serialization support' id 'f4f70c58-d830-48e9-a490-a42b2ebbdccb' date '3 October 2016' time '7:01:42.751635 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.4' message 'made a GtGsInspectorProxy1 with two custom presentations
+' id 'e3c79b67-8941-5848-9794-810d975692c2' date '3 October 2016' time '6:45:13 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
