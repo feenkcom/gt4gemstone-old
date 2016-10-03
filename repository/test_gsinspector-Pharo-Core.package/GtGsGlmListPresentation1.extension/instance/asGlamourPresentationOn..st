@@ -1,7 +1,7 @@
 *test_gsinspector-Pharo-Core
 asGlamourPresentationOn: aComposite 
 
-	^ GLMListPresentation new 
+	^ aComposite list 
 		title: [ 
 			self gemstoneClient session
 				send: #value
@@ -10,5 +10,9 @@ asGlamourPresentationOn: aComposite
 			self gemstoneClient objectSerializer fromString: 
 				(self gemstoneClient session
 					send: #value
-					to: self displayBlockOopType) ]";
-		format: [ :anIntem | ]"
+					to: self displayBlockOopType) ];
+		format: [ :anAssociation | 
+			anAssociation value ];
+		send: [ :anAssociation ||serializedProxy|
+			serializedProxy := self gemstoneClient session executeString: 'GtGsInspectorProxy1 serializeInstance: (GtGsInspectorProxy1 forOop: ', anAssociation key, ' )'.
+			self gemstoneClient objectSerializer fromString: serializedProxy ]
