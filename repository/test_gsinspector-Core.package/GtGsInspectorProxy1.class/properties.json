@@ -1,15 +1,17 @@
 {
 	"category" : "test_gsinspector-Core",
 	"classinstvars" : [
-		 ],
+		"anInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"topezServer",
+		"targetObject",
 		"title",
 		"presentations",
 		"curentPresentation" ],
-	"name" : "GtGsInspectorProxy",
+	"name" : "GtGsInspectorProxy1",
 	"pools" : [
 		 ],
 	"super" : "Object",
