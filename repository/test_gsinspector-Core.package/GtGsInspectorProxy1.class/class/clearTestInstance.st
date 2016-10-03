@@ -1,4 +1,4 @@
 as yet unclassified
 clearTestInstance
 
-	anInstance := nil
+	testInstance := nil

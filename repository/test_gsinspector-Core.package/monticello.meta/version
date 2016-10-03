@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.9' message 'create GtGsGlmListPresentation1' id '7a1b1fd1-ea4d-4412-aab4-91cf1c3ca551' date '3 October 2016' time '7:31:45.964523 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.8' message 'strange error in git
-' id 'c75daa61-019f-5007-ac84-1e0b729d05c9' date '3 October 2016' time '7:26:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.10' message 'better serialization of instances' id '80e8dc42-ace7-4b26-ace7-b338ed691417' date '3 October 2016' time '7:51:26.023368 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.9' message 'create GtGsGlmListPresentation1
+' id '8d9dd7e2-aa65-5013-bd36-d6dcd1b24517' date '3 October 2016' time '7:31:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

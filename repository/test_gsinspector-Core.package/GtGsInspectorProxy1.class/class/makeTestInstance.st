@@ -1,4 +1,4 @@
 as yet unclassified
 makeTestInstance
 
-	anInstance := GtGsInspectorProxy1 forOop: TextDiffBuilder asOop
+	testInstance := GtGsInspectorProxy1 forOop: TextDiffBuilder asOop

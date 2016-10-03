@@ -1,7 +1,7 @@
 {
 	"category" : "test_gsinspector-Core",
 	"classinstvars" : [
-		"anInstance" ],
+		"testInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
