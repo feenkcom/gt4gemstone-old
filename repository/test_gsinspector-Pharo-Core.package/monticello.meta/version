@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Pharo-Core-AndreiChis.2' message 'very first version of GtGsInspector1' id '2bd00dd2-a27b-49c8-8406-825b7ab1c225' date '3 October 2016' time '5:57:46.699579 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.1' message 'Package for Pharo specific code
-' id 'a81f4070-795e-5a25-937e-67f6451e84cc' date '2 October 2016' time '6:27:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Pharo-Core-AndreiChis.3' message 'no #formatBlockOopType' id '34de3758-88e7-40f1-b62f-d039c102b4ea' date '3 October 2016' time '7:02:02.079225 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.2' message 'very first version of GtGsInspector1
+' id '4bbaa6f2-912a-551d-a5e5-446e4afc77b9' date '3 October 2016' time '5:57:48 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
