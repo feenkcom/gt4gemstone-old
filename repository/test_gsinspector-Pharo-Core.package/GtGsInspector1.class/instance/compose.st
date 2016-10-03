@@ -10,4 +10,6 @@ compose
 				display: [ :anInspectorProxy | 
 					(GLMCompositePresentation new with: [ :anotherComposite | 
 						anInspectorProxy presentations do: [ :aGemstonePresentation |
-							aGemstonePresentation asGlamourPresentationOn: aComposite ] ] ) ] ] ].
+							aGemstonePresentation asGlamourPresentationOn: aComposite.
+							aComposite presentations do: [ :each |
+								each gemstoneClient: gemstoneClient ] ] ] ) ] ] ].

@@ -7,7 +7,8 @@ asGlamourPresentationOn: aComposite
 				send: #value
 				to: self titleBlockOopType ];
 		display: [ 
-			self gemstoneClient session
-				send: #value
-				to: self displayBlockOopType ]";
+			self gemstoneClient objectSerializer fromString: 
+				(self gemstoneClient session
+					send: #value
+					to: self displayBlockOopType) ]";
 		format: [ :anIntem | ]"
