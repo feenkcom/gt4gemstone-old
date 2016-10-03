@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  #(#'gemstoneClient' #'topezServer' #'titleBlockOop' #'displayBlockOop')
+  ^  #(#'gemstoneClient' #'topezServer' #'titleBlock' #'displayBlock')
