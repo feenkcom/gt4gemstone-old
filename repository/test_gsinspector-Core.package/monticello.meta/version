@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.15' message 'fixes in the state presentation' id '920dbc91-aeed-4e74-9ecd-8f46eca2deb0' date '5 October 2016' time '5:40:42.078898 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.14' message 'use #asOop and not #oop
-' id '04586979-6075-5c04-b729-a563fa59f68e' date '5 October 2016' time '5:35:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.16' message 'fixed #instVarPairsFor:' id '6ae42f7c-cfc2-4cdc-b7e5-8d375899acaa' date '5 October 2016' time '5:46:28.290482 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.15' message 'fixes in the state presentation
+' id 'd5f916a2-a5ed-51da-818e-271a13b72573' date '5 October 2016' time '5:40:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

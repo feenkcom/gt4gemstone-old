@@ -3,6 +3,6 @@ instVarPairsFor: anObject
 	| instVarNames instVarPairs |
 	instVarNames := anObject class allInstVarNames.
 	instVarPairs := Array new: instVarNames size.
-	anObject class allInstVarNames withIndexDo: [ :each :index | 
-		instVarPairs add: each -> (self instVarAt: index)].
+	instVarNames withIndexDo: [ :each :index | 
+		instVarPairs add: (each -> (anObject instVarAt: index))].
 	^ instVarPairs
