@@ -14,5 +14,7 @@ asGlamourPresentationOn: aComposite
 		format: [ :anAssociation | 
 			anAssociation value ];
 		send: [ :anAssociation ||serializedProxy|
-			serializedProxy := self gemstoneClient session executeString: 'GtGsInspectorProxy1 serializeInstance: (GtGsInspectorProxy1 forOop: ', anAssociation key, ' )'.
+			serializedProxy := self gemstoneClient session executeString: '
+				GtGsInspectorProxy1 
+					serializeInstance: (GtGsInspectorProxy1 forOop: ', anAssociation key asString , ' )'.
 			self gemstoneClient objectSerializer fromString: serializedProxy ]
