@@ -1,5 +1,5 @@
 accessing - cache
 cache
-	^ self cache ifNil: [ 
+	^ cache ifNil: [ 
 		"An actual LRU cache could be used here."
 		cache := Dictionary new ]
