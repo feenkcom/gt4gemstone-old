@@ -2,11 +2,11 @@
 gtGsInspectorRawTreePresentationWith: aSerializer
 
 	^ GtGsGlmTreePresentation new
-		titleBlock: [ self inspectorName ];
+		titleBlock: [ 'Raw' ];
 		displayBlock: [
 			self instVarPairsFor: self ];
 		childrenBlock: [ :anOop | |targetObject|
 			targetObject := (Object _objectForOop: anOop).
 			self instVarPairsFor: targetObject ];
-		formatBlock: [ :anAssociation |  anAssociation key, anAssociation value inspectorName ];
+		formatBlock: [ :anAssociation |  anAssociation key, ':  ', anAssociation value inspectorName ];
 		oopComputationBlock: [ :anAssociation | anAssociation value asOop ]

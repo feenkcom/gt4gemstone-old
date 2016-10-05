@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.17' message 'use OrderedCollection instead of Array' id '5b5cfb00-99fc-4cc3-8e88-192f32a80b23' date '5 October 2016' time '5:55:55.401501 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.16' message 'fixed #instVarPairsFor:
-' id '6805a5d9-f4c5-5a6f-8492-17befc421478' date '5 October 2016' time '5:46:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.18' message 'fixed cache methods; improved Raw presentation' id 'c4c47fae-f241-4bb7-b8d1-788c27c85a20' date '5 October 2016' time '6:08:32.403549 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.17' message 'use OrderedCollection instead of Array
+' id '2378a9e5-147b-5a07-a105-a1feb03e4ac6' date '5 October 2016' time '5:55:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
