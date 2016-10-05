@@ -2,4 +2,22 @@
 	"class" : {
 		 },
 	"instance" : {
-		 } }
+		"cache" : "AndreiChis 10/5/2016 15:06",
+		"cacheAt:" : "AndreiChis 10/5/2016 16:40",
+		"cacheAt:ifAbsentPut:" : "AndreiChis 10/5/2016 16:40",
+		"cacheAt:put:" : "AndreiChis 10/5/2016 16:40",
+		"displayBlock" : "AndreiChis 10/5/2016 14:01",
+		"displayBlock:" : "AndreiChis 10/5/2016 14:01",
+		"excludedInstVarNames" : "AndreiChis 10/5/2016 16:47",
+		"fromSton:" : "AndreiChis 10/5/2016 14:01",
+		"gemstoneClient" : "AndreiChis 10/5/2016 14:01",
+		"gemstoneClient:" : "AndreiChis 10/5/2016 14:01",
+		"selfOop" : "AndreiChis 10/5/2016 14:12",
+		"serializer" : "AndreiChis 10/5/2016 16:47",
+		"serializer:" : "AndreiChis 10/5/2016 16:47",
+		"setOops" : "AndreiChis 10/5/2016 14:09",
+		"stonInstVarNames" : "AndreiChis 10/5/2016 14:01",
+		"stonOn:" : "AndreiChis 10/5/2016 14:10",
+		"stonProcessSubObjects:" : "AndreiChis 10/5/2016 14:01",
+		"titleBlock" : "AndreiChis 10/5/2016 14:01",
+		"titleBlock:" : "AndreiChis 10/5/2016 14:01" } }

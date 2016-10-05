@@ -8,6 +8,7 @@
 	"instvars" : [
 		"topezServer",
 		"targetObject",
+		"targetObjectOop",
 		"title",
 		"presentations",
 		"curentPresentation" ],

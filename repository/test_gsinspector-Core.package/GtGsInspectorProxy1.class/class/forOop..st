@@ -1,4 +1,4 @@
-as yet unclassified
+instance-creation
 forOop: anOop
 
 	^ self new 

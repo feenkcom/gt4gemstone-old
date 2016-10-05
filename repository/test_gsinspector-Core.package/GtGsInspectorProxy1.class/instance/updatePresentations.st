@@ -1,8 +1,7 @@
-as yet unclassified
+updating
 updatePresentations
 	
 	presentations := OrderedCollection new.
-	presentations add: (targetObject gtGsInspectorRawList1Presentation1With: self topezServer objectSerializer).
-	presentations add: (targetObject gtGsInspectorRawList1Presentation2With: self topezServer objectSerializer).
+	presentations add: (targetObject gtGsInspectorRawTreePresentationWith: self topezServer objectSerializer).
 	
-	presentations do: [ :aPresentation | aPresentation topezServer: self topezServer ]
+	presentations do: [ :aPresentation | aPresentation serializer: self topezServer objectSerializer]

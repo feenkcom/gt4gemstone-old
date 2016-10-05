@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selfOop",
-		"cache",
-		"serializer",
-		"gemstoneClient",
-		"titleBlock",
-		"displayBlock" ],
-	"name" : "GtGsGlmPresentation",
+		"formatBlock",
+		"oopComputationBlock" ],
+	"name" : "GtGsGlmListingPresentation",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GtGsGlmPresentation",
 	"type" : "normal" }

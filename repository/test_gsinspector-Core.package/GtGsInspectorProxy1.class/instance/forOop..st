@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 forOop: anOop
 
 	targetObject := Object _objectForOop: anOop.

@@ -1,3 +1,3 @@
 accessing
-presentations
+gsPresentations
 	^ presentations ifNil: [ presentations := OrderedCollection new ]
