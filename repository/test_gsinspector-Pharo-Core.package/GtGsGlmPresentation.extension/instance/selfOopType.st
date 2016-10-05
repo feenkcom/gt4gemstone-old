@@ -1,3 +1,3 @@
 *test_gsinspector-Pharo-Core
 selfOopType
-	^ self gemstoneClient session asOopType: self displayBlockOop
+	^ self gemstoneClient session asOopType: self selfOop
