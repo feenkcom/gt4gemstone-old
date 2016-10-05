@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.18' message 'fixed cache methods; improved Raw presentation' id 'c4c47fae-f241-4bb7-b8d1-788c27c85a20' date '5 October 2016' time '6:08:32.403549 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.17' message 'use OrderedCollection instead of Array
-' id '2378a9e5-147b-5a07-a105-a1feb03e4ac6' date '5 October 2016' time '5:55:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.19' message 'fixed return value in #computeChildrenFor:' id '421a8a3c-f96f-45b6-86d4-64a7cd496277' date '5 October 2016' time '6:12:16.805779 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.18' message 'fixed cache methods; improved Raw presentation
+' id '9ccee4c8-908c-562f-8d91-706e47cf31a8' date '5 October 2016' time '6:08:38 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
