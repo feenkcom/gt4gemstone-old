@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.14' message 'use #asOop and not #oop' id 'e280af8c-0c41-4377-910f-cc32092b1f0f' date '5 October 2016' time '5:35:19.584791 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.13' message 'fixed infinite recursion in #cache
-' id 'ca85b6d0-0260-54c4-90f3-11a952007426' date '5 October 2016' time '5:23:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.15' message 'fixes in the state presentation' id '920dbc91-aeed-4e74-9ecd-8f46eca2deb0' date '5 October 2016' time '5:40:42.078898 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.14' message 'use #asOop and not #oop
+' id '04586979-6075-5c04-b729-a563fa59f68e' date '5 October 2016' time '5:35:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

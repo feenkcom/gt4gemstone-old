@@ -4,11 +4,9 @@ gtGsInspectorRawTreePresentationWith: aSerializer
 	^ GtGsGlmTreePresentation new
 		titleBlock: [ self inspectorName ];
 		displayBlock: [
-			self class allInstVarNames withIndexDo: [ :each :index | 
-				each -> (self instVarAt: index)] ];
+			self instVarPairsFor: self ];
 		childrenBlock: [ :anOop | |targetObject|
 			targetObject := (Object _objectForOop: anOop).
-			targetObject class allInstVarNames withIndexDo: [ :each :index | 
-				each -> (targetObject instVarAt: index) ] ];
+			self instVarPairsFor: targetObject ];
 		formatBlock: [ :anAssociation |  anAssociation key, anAssociation value inspectorName ];
 		oopComputationBlock: [ :anAssociation | anAssociation value asOop ]
