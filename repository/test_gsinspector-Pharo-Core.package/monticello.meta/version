@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Pharo-Core-AndreiChis.7' message 'several fixes ' id 'a5809802-ea4e-4cda-b724-bac5b040553e' date '5 October 2016' time '6:20:36.067316 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.6' message 'new GtGsGlmPresentation implementation that does not uses blocks to communicate
-' id 'fa05b387-74e0-56ab-b084-df987b6c6dad' date '5 October 2016' time '5:05:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Pharo-Core-AndreiChis.8' message 'experiment with #gsGtClassIconId' id '5bd60b6f-00a8-42b6-99dd-4eb2dd02f770' date '5 October 2016' time '6:49:19.968238 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.7' message 'several fixes
+' id 'af9d9edc-1bd9-567a-8fb5-bda091b72b31' date '5 October 2016' time '6:20:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
