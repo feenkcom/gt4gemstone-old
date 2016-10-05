@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"formatBlock",
-		"oopComputationBlock" ],
+		"oopComputationBlock",
+		"iconIdBlock" ],
 	"name" : "GtGsGlmListingPresentation",
 	"pools" : [
 		 ],

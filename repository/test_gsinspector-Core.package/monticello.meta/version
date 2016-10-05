@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.20' message 'second fix #computeChildrenFor:' id '82d07fa5-6e24-479c-9073-47f55cb3448e' date '5 October 2016' time '6:14:51.606737 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.19' message 'fixed return value in #computeChildrenFor:
-' id '0bd2a0ac-bd2f-5fdc-87b4-525c9c716a01' date '5 October 2016' time '6:12:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.21' message 'experiment with #gsGtClassIconId' id '7a8e4f55-151a-4040-a560-c1d0b8ef5a9f' date '5 October 2016' time '6:48:55.950914 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.20' message 'second fix #computeChildrenFor:
+' id '5733143e-c4db-52f2-8b71-743ca25e86cc' date '5 October 2016' time '6:14:53 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
