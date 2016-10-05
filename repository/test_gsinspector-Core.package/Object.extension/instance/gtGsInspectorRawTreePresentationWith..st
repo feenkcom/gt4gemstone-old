@@ -11,4 +11,4 @@ gtGsInspectorRawTreePresentationWith: aSerializer
 			targetObject class allInstVarNames withIndexDo: [ :each :index | 
 				each -> (targetObject instVarAt: index) ] ];
 		formatBlock: [ :anAssociation |  anAssociation key, anAssociation value inspectorName ];
-		oopComputationBlock: [ :anAssociation | anAssociation value oop ]
+		oopComputationBlock: [ :anAssociation | anAssociation value asOop ]
