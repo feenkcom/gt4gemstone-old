@@ -3,9 +3,9 @@ applyFormattingTo: currentObjects
 	| formattedValues |
 	
 	formattedValues := OrderedCollection new: (currentObjects size).
-	currentObjects withIndexDo: [ :each :index |
-		formattedValues 
-			at: index
-			put: (self oopComputationBlock value: each) -> (self formatBlock value: each) ].
+	currentObjects do: [ :each |
+		formattedValues add: 
+			(self oopComputationBlock value: each) -> 
+			(self formatBlock value: each) ].
 	^ formattedValues
 	

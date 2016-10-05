@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.16' message 'fixed #instVarPairsFor:' id '6ae42f7c-cfc2-4cdc-b7e5-8d375899acaa' date '5 October 2016' time '5:46:28.290482 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.15' message 'fixes in the state presentation
-' id 'd5f916a2-a5ed-51da-818e-271a13b72573' date '5 October 2016' time '5:40:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.17' message 'use OrderedCollection instead of Array' id '5b5cfb00-99fc-4cc3-8e88-192f32a80b23' date '5 October 2016' time '5:55:55.401501 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.16' message 'fixed #instVarPairsFor:
+' id '6805a5d9-f4c5-5a6f-8492-17befc421478' date '5 October 2016' time '5:46:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
