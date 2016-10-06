@@ -6,6 +6,6 @@ computeChildrenFor: anOop
 	
 	childNodes := OrderedCollection new: (childObjects size).
 	childObjects do: [ :anObject |
-		childNodes add: (super buildDisplayNodeFor: anObject) ].
+		childNodes add: (self buildDisplayNodeFor: anObject) ].
 	
 	^ childNodes

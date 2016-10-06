@@ -1,0 +1,16 @@
+{
+	"category" : "test_gsinspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"formatBlock",
+		"oopComputationBlock",
+		"iconIdBlock" ],
+	"name" : "GtGsGlmListingPresentation",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmPresentation",
+	"type" : "normal" }
