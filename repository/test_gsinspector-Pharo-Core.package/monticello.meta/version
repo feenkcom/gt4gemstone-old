@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Pharo-Core-AndreiChis.8' message 'experiment with #gsGtClassIconId' id '5bd60b6f-00a8-42b6-99dd-4eb2dd02f770' date '5 October 2016' time '6:49:19.968238 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.7' message 'several fixes
-' id 'af9d9edc-1bd9-567a-8fb5-bda091b72b31' date '5 October 2016' time '6:20:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Pharo-Core-AndreiChis.9' message 'experiment with a new tree implementation' id '693cbb7e-6d29-4a71-9d9f-25dd9cda9220' date '6 October 2016' time '6:37:53.912403 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.8' message 'experiment with #gsGtClassIconId
+' id 'f5ad2742-ad8c-51a5-83e9-69969e26146d' date '5 October 2016' time '6:49:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

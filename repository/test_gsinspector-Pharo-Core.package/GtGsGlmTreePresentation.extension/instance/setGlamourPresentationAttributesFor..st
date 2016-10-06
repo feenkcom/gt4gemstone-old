@@ -4,5 +4,9 @@ setGlamourPresentationAttributesFor: aPresentation
 	
 	aPresentation 
 		shouldRootsExpand: self shouldRootsExpand;
-		children: [ :anAssociation |
-			self executeRemotely: #computeChildrenFor: withArguments: { anAssociation key } ]
+		children: [ :aListNode |
+			aListNode hasChildNodes
+				ifFalse: [ ^ #() ]
+				ifTrue: [  
+					aListNode areChildNodesExpanded ifFalse: [ self updateChildNodesFor: aListNode ].
+					aListNode childNodes ] ]

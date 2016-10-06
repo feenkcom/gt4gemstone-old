@@ -8,13 +8,13 @@ setGlamourPresentationAttributesFor: aPresentation
 		title: [
 			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #computeTitle ] ];
 		display: [ 
-			self cacheAt: #'displayValues' ifAbsentPut: [ self executeRemotely: #'computeDisplayValues' ] ];
-		"icon: [ 
-			self cacheAt: #'icon' ifAbsentPut: [ self executeRemotely: #'computeDisplayValues' ] ];"
-		format: [ :anAssociation | 
-			anAssociation value ];
-		send: [ :anAssociation ||serializedProxy|
+			self cacheAt: #'displayNodes' ifAbsentPut: [ self executeRemotely: #'computeDisplayNodes' ] ];
+		icon: [ :aListNode | 
+			Smalltalk ui icons iconNamed: aListNode iconId ];
+		format: [ :aListNode | 
+			aListNode displayValue ];
+		send: [ :aListNode ||serializedProxy|
 			serializedProxy := self gemstoneClient session executeString: '
 				GtGsInspectorProxy1 
-					serializeInstance: (GtGsInspectorProxy1 forOop: ' , anAssociation key asString , ' )'.
+					serializeInstance: (GtGsInspectorProxy1 forOop: ' , aListNode targetObjectOop asString , ' )'.
 			self gemstoneClient objectSerializer fromString: serializedProxy ]
