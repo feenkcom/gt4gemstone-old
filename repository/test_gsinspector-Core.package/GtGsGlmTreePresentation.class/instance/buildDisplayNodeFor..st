@@ -9,5 +9,5 @@ buildDisplayNodeFor: anObject
 	childNodes := OrderedCollection new: (childObjects size).
 	childObjects do: [ :each |
 		childNodes add: (super buildDisplayNodeFor: each) ].
-	
+	^ displayNode
 	

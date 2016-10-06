@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.22' message 'experiment with a new tree implementation' id '6593f82d-7bb6-4f34-a9e8-11522525c78e' date '6 October 2016' time '6:37:19.073886 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.21' message 'experiment with #gsGtClassIconId
-' id '1c3a15ad-fbd8-5c3d-87b3-38142c309aa4' date '5 October 2016' time '6:48:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.23' message 'fixed return value in #buildDisplayNodeFor:' id '324cf800-644e-4bd5-8de1-f3846fba52cb' date '6 October 2016' time '6:44:36.250227 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.22' message 'experiment with a new tree implementation
+' id '7ca763b4-4572-5d0a-bba0-21994f8fea7b' date '6 October 2016' time '6:37:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
