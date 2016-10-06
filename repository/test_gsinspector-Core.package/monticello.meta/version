@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.31' message 'different solution for obtaining the number of indexed variables' id 'd1931892-3401-47a6-a5c9-08cfd811edc5' date '6 October 2016' time '11:58:30.334103 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.30' message 'fix in #gsGtVariableValuePairs
-' id '3aa67634-d472-5cfe-bcb2-56d6ec2994ff' date '6 October 2016' time '11:33:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.32' message 'use #_at: to access indexed variables' id '0da9afd1-eb53-4e5d-9c85-cdbba32256eb' date '7 October 2016' time '12:03:07.258851 am' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.31' message 'different solution for obtaining the number of indexed variables
+' id '7bf72a28-9855-5a29-8ff1-e18773548042' date '6 October 2016' time '11:58:32 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

@@ -6,10 +6,10 @@ gsGtVariableValuePairs
 	bindings := OrderedCollection new: instVarNames size.
 	
 	1 to: (indexedVarsSize min: 21) do: [ :index | 
-		bindings add: (index asString -> (self basicAt: index)) ].
+		bindings add: (index asString -> (self _at: index)) ].
 	
 	((indexedVarsSize - 20) max: 22) to: indexedVarsSize do: [ :index | 
-		bindings add: (index asString -> (self basicAt: index)) ].
+		bindings add: (index asString -> (self _at: index)) ].
 	
 	instVarNames withIndexDo: [ :each :index | 
 		bindings add: (each -> (self instVarAt: index))].
