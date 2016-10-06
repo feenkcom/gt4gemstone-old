@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.27' message 'reuse the raw presentation from Pharo' id 'e0569aa5-6f7d-4a23-907c-9ef49cc6831b' date '6 October 2016' time '11:15:41.943224 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.26' message 'fixed ugly super calls.
-' id 'b2e5b382-82fb-5c45-8c33-e53f4752ca44' date '6 October 2016' time '11:02:14 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.28' message 'use size instead of #basicSize' id 'dbb46acf-2ccf-4782-a9c7-e89012d90aca' date '6 October 2016' time '11:23:04.360202 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.27' message 'reuse the raw presentation from Pharo
+' id 'b2be5cc7-4593-5ec4-8f7b-75549e7d9fd7' date '6 October 2016' time '11:15:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
