@@ -6,7 +6,7 @@ setGlamourPresentationAttributesFor: aPresentation
 		shouldRootsExpand: self shouldRootsExpand;
 		children: [ :aListNode |
 			aListNode hasChildNodes
-				ifFalse: [ ^ #() ]
+				ifFalse: [ #() ]
 				ifTrue: [  
 					aListNode areChildNodesExpanded ifFalse: [ self updateChildNodesFor: aListNode ].
 					aListNode childNodes ] ]

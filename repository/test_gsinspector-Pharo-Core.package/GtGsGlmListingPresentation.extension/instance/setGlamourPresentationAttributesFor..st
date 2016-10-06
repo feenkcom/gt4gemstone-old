@@ -1,10 +1,9 @@
 *test_gsinspector-Pharo-Core
 setGlamourPresentationAttributesFor: aPresentation 
-	aPresentation crLog.
+
 	 aPresentation
 		shouldValidate: false;
 		allowsRecursiveSearch: false;
-		icon: [ Smalltalk ui icons iconNamed: #classIcon ];
 		title: [
 			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #computeTitle ] ];
 		display: [ 
