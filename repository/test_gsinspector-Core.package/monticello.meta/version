@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.21' message 'experiment with #gsGtClassIconId' id '7a8e4f55-151a-4040-a560-c1d0b8ef5a9f' date '5 October 2016' time '6:48:55.950914 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.20' message 'second fix #computeChildrenFor:
-' id '5733143e-c4db-52f2-8b71-743ca25e86cc' date '5 October 2016' time '6:14:53 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.22' message 'experiment with a new tree implementation' id '6593f82d-7bb6-4f34-a9e8-11522525c78e' date '6 October 2016' time '6:37:19.073886 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.21' message 'experiment with #gsGtClassIconId
+' id '1c3a15ad-fbd8-5c3d-87b3-38142c309aa4' date '5 October 2016' time '6:48:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

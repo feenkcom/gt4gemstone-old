@@ -1,0 +1,14 @@
+{
+	"category" : "test_gsinspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"childNodes" ],
+	"name" : "GtGsGlmTreeNode",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmListNode",
+	"type" : "normal" }

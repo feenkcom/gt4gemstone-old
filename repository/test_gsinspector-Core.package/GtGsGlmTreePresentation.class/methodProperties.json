@@ -2,10 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
+		"buildDisplayNodeFor:" : "AndreiChis 10/6/2016 18:22",
 		"childrenBlock" : "AndreiChis 10/5/2016 17:08:52",
 		"childrenBlock:" : "AndreiChis 10/5/2016 17:08:52",
-		"computeChildrenFor:" : "AndreiChis 10/5/2016 18:14",
+		"computeAllChildNodesFor:" : "AndreiChis 10/6/2016 18:34",
+		"computeChildrenFor:" : "AndreiChis 10/6/2016 18:33",
 		"excludedInstVarNames" : "AndreiChis 10/5/2016 14:51",
+		"initialize" : "AndreiChis 10/6/2016 17:01",
+		"listNodeClass" : "AndreiChis 10/6/2016 16:53",
 		"rootsExpanded" : "AndreiChis 10/5/2016 15:04",
 		"shouldRootsExpand" : "AndreiChis 10/5/2016 15:05",
 		"shouldRootsExpand:" : "AndreiChis 10/5/2016 15:03" } }

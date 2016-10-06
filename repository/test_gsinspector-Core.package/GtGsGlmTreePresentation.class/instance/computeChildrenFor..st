@@ -1,6 +1,11 @@
 callbacks
 computeChildrenFor: anOop
-	| childrenValues formattedChildrenValues |
-	childrenValues := self childrenBlock value: anOop.
-	formattedChildrenValues := self applyFormattingTo: childrenValues.
-	^ self serializer toString: formattedChildrenValues
+	| childObjects childNodes |
+	
+	childObjects := self childrenBlock value: anOop.
+	
+	childNodes := OrderedCollection new: (childObjects size).
+	childObjects do: [ :anObject |
+		childNodes add: (super buildDisplayNodeFor: anObject) ].
+	
+	^ childNodes

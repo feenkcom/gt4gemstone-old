@@ -1,0 +1,16 @@
+{
+	"category" : "test_gsinspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"displayValue",
+		"iconId",
+		"targetObjectOop" ],
+	"name" : "GtGsGlmListNode",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

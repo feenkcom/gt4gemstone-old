@@ -9,5 +9,5 @@ gtGsInspectorRawTreePresentationWith: aSerializer
 			targetObject := (Object _objectForOop: anOop).
 			self instVarPairsFor: targetObject ];
 		formatBlock: [ :anAssociation | anAssociation key, ':  ', anAssociation value inspectorName ];
-		"iconIdBlock: [ :anAssociation | anAssociation value gsGtClassIconId ];"
+		iconIdBlock: [ :anAssociation | anAssociation value gsGtClassIconId ];
 		oopComputationBlock: [ :anAssociation | anAssociation value asOop ]
