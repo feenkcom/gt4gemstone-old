@@ -4,10 +4,10 @@ gtGsInspectorRawTreePresentationWith: aSerializer
 	^ GtGsGlmTreePresentation new
 		titleBlock: [ 'Raw' ];
 		displayBlock: [
-			self gsGtVariableValuePairsFor: self ];
+			self gsGtVariableValuePairs ];
 		childrenBlock: [ :anOop | |targetObject|
 			targetObject := (Object _objectForOop: anOop).
-			self gsGtVariableValuePairsFor: targetObject ];
+			targetObject gsGtVariableValuePairs ];
 		formatBlock: [ :anAssociation | anAssociation key, ':  ', anAssociation value inspectorName ];
 		iconIdBlock: [ :anAssociation | anAssociation value class gsGtClassIconId ];
 		oopComputationBlock: [ :anAssociation | anAssociation value asOop ]

@@ -1,7 +1,7 @@
 *test_gsinspector-Core
-gsGtVariableValuePairsFor: anObject
+gsGtVariableValuePairs
 	| instVarNames bindings |
-	instVarNames := anObject class allInstVarNames.
+	instVarNames := self class allInstVarNames.
 	bindings := OrderedCollection new: instVarNames size.
 	
 	1 to: (self size min: 21) do: [ :index | 
@@ -11,5 +11,5 @@ gsGtVariableValuePairsFor: anObject
 		bindings add: (index asString -> (self basicAt: index)) ].
 	
 	instVarNames withIndexDo: [ :each :index | 
-		bindings add: (each -> (anObject instVarAt: index))].
+		bindings add: (each -> (self instVarAt: index))].
 	^ bindings
