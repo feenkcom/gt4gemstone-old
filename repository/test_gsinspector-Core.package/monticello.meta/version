@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.26' message 'fixed ugly super calls.' id 'd95427f9-0b06-44ac-8478-dd0ad5a64a60' date '6 October 2016' time '11:02:11.646143 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.25' message 'fixed call to gsGtClassIconId
-' id 'bea8b0e8-2268-51b8-b164-af7f6cf7703b' date '6 October 2016' time '7:03:15 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.27' message 'reuse the raw presentation from Pharo' id 'e0569aa5-6f7d-4a23-907c-9ef49cc6831b' date '6 October 2016' time '11:15:41.943224 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.26' message 'fixed ugly super calls.
+' id 'b2e5b382-82fb-5c45-8c33-e53f4752ca44' date '6 October 2016' time '11:02:14 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
