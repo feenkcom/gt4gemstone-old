@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.24' message 'set #childNodes in buildDisplayNodeFor:' id '14d4faed-a9f3-43ee-b167-09fda20a664a' date '6 October 2016' time '6:47:32.049263 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.23' message 'fixed return value in #buildDisplayNodeFor:
-' id '9f6a3835-317f-5fec-b235-77ba22f9afb6' date '6 October 2016' time '6:44:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.25' message 'fixed call to gsGtClassIconId' id '503ee773-b9d9-4a83-911f-807f74454663' date '6 October 2016' time '7:03:14.346118 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.24' message 'set #childNodes in buildDisplayNodeFor:
+' id '4957b77c-2df4-5460-9c7b-a36fb63660a9' date '6 October 2016' time '6:47:33 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
