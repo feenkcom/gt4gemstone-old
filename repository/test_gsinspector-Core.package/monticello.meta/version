@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.30' message 'fix in #gsGtVariableValuePairs' id 'e0087a18-b3b1-43e6-a6c0-4823ec27b7c0' date '6 October 2016' time '11:33:55.939591 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.29' message 'use ''index asString'' as key for indeed variables
-' id 'a7212cf2-0119-5462-930e-b19d3a55d307' date '6 October 2016' time '11:27:38 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.31' message 'different solution for obtaining the number of indexed variables' id 'd1931892-3401-47a6-a5c9-08cfd811edc5' date '6 October 2016' time '11:58:30.334103 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.30' message 'fix in #gsGtVariableValuePairs
+' id '3aa67634-d472-5cfe-bcb2-56d6ec2994ff' date '6 October 2016' time '11:33:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
