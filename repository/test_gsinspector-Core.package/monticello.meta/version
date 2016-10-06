@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.28' message 'use size instead of #basicSize' id 'dbb46acf-2ccf-4782-a9c7-e89012d90aca' date '6 October 2016' time '11:23:04.360202 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.27' message 'reuse the raw presentation from Pharo
-' id 'b2be5cc7-4593-5ec4-8f7b-75549e7d9fd7' date '6 October 2016' time '11:15:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.29' message 'use ''index asString'' as key for indeed variables' id '3d268f7d-a20f-4919-83e8-49705892a554' date '6 October 2016' time '11:27:35.261661 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.28' message 'use size instead of #basicSize
+' id '27cf6ef2-bd07-57b0-ba9b-ba1f7af2abff' date '6 October 2016' time '11:23:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
