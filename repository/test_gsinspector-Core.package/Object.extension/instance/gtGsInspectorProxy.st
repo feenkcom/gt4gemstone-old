@@ -1,4 +1,4 @@
 *test_gsinspector-Core
 gtGsInspectorProxy
 
-	^ GtGsInspector1 createAndSerializeProxyFor: self
+	^ GtGsInspectorProxy1  createAndSerializeProxyFor: self

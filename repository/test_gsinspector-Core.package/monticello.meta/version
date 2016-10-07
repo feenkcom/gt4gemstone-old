@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.35' message '#instance map is on the class size' id '7a2c37cf-18a2-4e25-95e6-da9e451d7bd6' date '7 October 2016' time '4:50:47.072456 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.34' message '- allow a remote presentation to change the remote value;- store the proxy object in the session temps
-' id 'e14943d0-67d6-5d0e-95d4-094bc524ddd6' date '7 October 2016' time '4:28:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.36' message 'fixed gtGsInspectorProxy' id 'dd95710d-0311-41fc-bf14-7a8a21c4afd6' date '7 October 2016' time '5:05:25.68906 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.35' message '#instance map is on the class size
+' id '26ffe0e6-b9e1-5f35-acf5-014c452a545f' date '7 October 2016' time '5:01:04 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
