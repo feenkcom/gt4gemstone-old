@@ -1,9 +1,9 @@
 accessing - topez
 topezInspectorProxyCache
-	| topezInstanceMap |
+	"| topezInstanceMap |
 	
-	topezInstanceMap := self topezServer class concreteClass instanceMap.
-	^ topezInstanceMap
+	topezInstanceMap := self topezServer class concreteClass instanceMap."
+	^ SessionTemps current
 		at: #'GtGs_Inspector_ProxyCache'
-		ifAbsent: [ topezInstanceMap at: #'GtGs_Inspector_ProxyCache' put: Dictionary new].
+		ifAbsent: [ SessionTemps current at: #'GtGs_Inspector_ProxyCache' put: Dictionary new].
 	
