@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.36' message 'fixed gtGsInspectorProxy' id 'dd95710d-0311-41fc-bf14-7a8a21c4afd6' date '7 October 2016' time '5:05:25.68906 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.35' message '#instance map is on the class size
-' id '26ffe0e6-b9e1-5f35-acf5-014c452a545f' date '7 October 2016' time '5:01:04 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.37' message 'fixed topezInspectorProxyCache' id '95497d11-9953-42b5-b9e6-59b626aba010' date '7 October 2016' time '5:06:27.668783 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.36' message 'fixed gtGsInspectorProxy
+' id 'bfe35d08-d663-5199-a8c6-c945d3586fe5' date '7 October 2016' time '5:05:27 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
