@@ -1,7 +1,7 @@
 initialization
 updateUninitializedBlocks
 	
-	titleBlock := [ 'GlmPresentation' ].
-	displayBlock := [ { self } ].
-	sendBlock := [ :anOop | anOop ]
+	titleBlock ifNil: [ titleBlock := [ 'GlmPresentation' ] ].
+	displayBlock ifNil: [ displayBlock := [ { self } ] ].
+	sendBlock ifNil: [ sendBlock := [ :anOop | anOop ] ]
 	

@@ -2,4 +2,4 @@ initialization
 updateUninitializedBlocks
 	super updateUninitializedBlocks.
 	
-	childrenBlock := [ :anOop | #() ]
+	childrenBlock ifNil: [childrenBlock := [ :anOop | #() ]]

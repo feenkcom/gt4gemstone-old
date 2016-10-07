@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.38' message 'update the topez server before setting the presentations' id 'f068019d-cd4b-49d4-baec-181da4b27db7' date '7 October 2016' time '5:10:58.684554 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.37' message 'fixed topezInspectorProxyCache
-' id 'd8ca320e-a2a2-5e23-bd70-68f4c1217e09' date '7 October 2016' time '5:06:32 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.39' message 'fixed #updateUninitializedBlocks' id '5b5db41f-f4f3-4dfe-94a8-746ffad991e0' date '7 October 2016' time '5:22:27.661551 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.38' message 'update the topez server before setting the presentations
+' id 'f04dcfe9-57d2-5bbc-8375-ca62c8ae3dab' date '7 October 2016' time '5:11:02 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

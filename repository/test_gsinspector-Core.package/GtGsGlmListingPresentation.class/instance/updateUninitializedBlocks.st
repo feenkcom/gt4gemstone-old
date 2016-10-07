@@ -2,6 +2,6 @@ initialization
 updateUninitializedBlocks
 	super updateUninitializedBlocks.
 	
-	formatBlock := [ :anObject | anObject inspectorName ].
-	oopComputationBlock := [ :anObject | anObject asOop ].
-	iconIdBlock := [ :anObject |  nil ]
+	formatBlock ifNil: [ formatBlock := [ :anObject | anObject inspectorName ] ].
+	oopComputationBlock ifNil: [ oopComputationBlock := [ :anObject | anObject asOop ] ].
+	iconIdBlock ifNil: [ iconIdBlock := [ :anObject |  nil ] ]
