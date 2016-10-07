@@ -11,7 +11,8 @@
 		"serializer",
 		"gemstoneClient",
 		"titleBlock",
-		"displayBlock" ],
+		"displayBlock",
+		"sendBlock" ],
 	"name" : "GtGsGlmPresentation",
 	"pools" : [
 		 ],

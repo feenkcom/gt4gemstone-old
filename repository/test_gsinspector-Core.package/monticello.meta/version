@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.33' message 'first slots then instance variables' id '9d20bb74-6d78-4f43-ab47-fdf42a03e7cd' date '7 October 2016' time '12:06:10.913883 am' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.32' message 'use #_at: to access indexed variables
-' id 'ba86e221-6ced-5265-9bc3-cc8277c59bcd' date '7 October 2016' time '12:03:08 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.34' message '- allow a remote presentation to change the remote value;- store the proxy object in the session temps' id '7fd52070-c63e-493b-97da-68136c6670b1' date '7 October 2016' time '4:28:52.866255 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.33' message 'first slots then instance variables
+' id '1049c7d5-d000-5cd5-ad54-6cd44787f276' date '7 October 2016' time '12:06:13 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

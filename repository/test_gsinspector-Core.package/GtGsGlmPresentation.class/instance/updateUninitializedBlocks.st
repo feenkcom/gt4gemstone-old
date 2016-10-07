@@ -1,7 +1,7 @@
 initialization
-initialize
-	super initialize.
+updateUninitializedBlocks
 	
 	titleBlock := [ 'GlmPresentation' ].
 	displayBlock := [ { self } ].
+	sendBlock := [ :anOop | anOop ]
 	

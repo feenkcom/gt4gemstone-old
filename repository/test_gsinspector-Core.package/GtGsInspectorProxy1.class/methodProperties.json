@@ -1,17 +1,21 @@
 {
 	"class" : {
 		"clearTestInstance" : "AndreiChis 10/3/2016 19:50",
-		"forOop:" : "AndreiChis 10/3/2016 18:01",
+		"createAndSerializeProxyFor:" : "AndreiChis 10/7/2016 16:04",
+		"createAndSerializeProxyForOop:" : "AndreiChis 10/7/2016 15:59",
+		"forOop:" : "AndreiChis 10/7/2016 15:47",
 		"makeTestInstance" : "AndreiChis 10/3/2016 19:50",
 		"serializeInstance:" : "AndreiChis 10/3/2016 19:50",
 		"serializeTestInstance" : "AndreiChis 10/3/2016 19:50",
 		"testInstance" : "AndreiChis 10/3/2016 19:50" },
 	"instance" : {
+		"asTopazSerializedString" : "AndreiChis 10/7/2016 16:00",
 		"excludedInstVarNames" : "AndreiChis 10/3/2016 18:48",
-		"forOop:" : "AndreiChis 10/5/2016 15:29",
+		"forOop:" : "AndreiChis 10/7/2016 15:46",
 		"fromSton:" : "AndreiChis 10/3/2016 18:51",
 		"gsPresentations" : "AndreiChis 10/5/2016 15:24",
-		"serializer:" : "AndreiChis 10/5/2016 17:00",
+		"linkWithTopezServer" : "AndreiChis 10/7/2016 16:27",
+		"serializer:" : "AndreiChis 10/7/2016 00:06:13",
 		"setOops" : "AndreiChis 10/5/2016 15:24",
 		"stonInstVarNames" : "AndreiChis 10/3/2016 18:49",
 		"stonOn:" : "AndreiChis 10/5/2016 15:21",
@@ -19,7 +23,7 @@
 		"targetObject" : "AndreiChis 10/5/2016 15:24",
 		"title" : "AndreiChis 10/3/2016 17:03",
 		"title:" : "AndreiChis 10/3/2016 17:03",
+		"topezInspectorProxyCache" : "AndreiChis 10/7/2016 16:10",
 		"topezServer" : "AndreiChis 10/3/2016 18:27",
-		"updatePresentations" : "AndreiChis 10/5/2016 17:01",
-		"updatePresentations2Old" : "AndreiChis 10/5/2016 15:22",
-		"updateTopezServer" : "AndreiChis 10/3/2016 18:30" } }
+		"updatePresentations" : "AndreiChis 10/7/2016 16:24",
+		"updatePresentations2Old" : "AndreiChis 10/5/2016 15:22" } }
