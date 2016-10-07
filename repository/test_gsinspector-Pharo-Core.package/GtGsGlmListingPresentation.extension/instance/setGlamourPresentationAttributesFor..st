@@ -13,7 +13,6 @@ setGlamourPresentationAttributesFor: aPresentation
 		format: [ :aListNode | 
 			aListNode displayValue ];
 		send: [ :aListNode ||serializedProxy|
-			serializedProxy := self gemstoneClient session executeString: '
-				GtGsInspectorProxy1 
-					serializeInstance: (GtGsInspectorProxy1 forOop: ' , aListNode targetObjectOop asString , ' )'.
-			self gemstoneClient objectSerializer fromString: serializedProxy ]
+			serializedProxy := self 
+				executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
+				withArguments: { aListNode targetObjectOop asString } ]

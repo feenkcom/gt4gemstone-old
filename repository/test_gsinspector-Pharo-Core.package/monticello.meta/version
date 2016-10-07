@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Pharo-Core-AndreiChis.10' message 'cleaning up' id '4925dae3-2e9d-4242-8646-9010525d12e6' date '6 October 2016' time '11:02:38.962636 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.9' message 'experiment with a new tree implementation
-' id 'a676c972-6ce9-5a19-8c04-9d27b2044c9f' date '6 October 2016' time '6:37:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Pharo-Core-AndreiChis.11' message '- allow a remote presentation to change the remote value;- use FastTable' id 'd0fa4202-0bd9-4336-b9b6-fc60259fe2e4' date '7 October 2016' time '4:29:22.169201 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.10' message 'cleaning up
+' id '5af684f1-05f6-5493-8890-156ed6a241a2' date '6 October 2016' time '11:02:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
