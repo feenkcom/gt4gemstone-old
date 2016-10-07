@@ -1,0 +1,14 @@
+{
+	"category" : "test_gsinspector-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SessionTemps",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

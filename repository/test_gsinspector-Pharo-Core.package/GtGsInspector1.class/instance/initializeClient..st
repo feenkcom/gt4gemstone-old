@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeClient: aGemstoneClient
 
 	gemstoneClient ifNil: [ 

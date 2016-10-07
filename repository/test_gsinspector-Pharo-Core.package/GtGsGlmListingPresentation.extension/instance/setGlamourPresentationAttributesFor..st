@@ -9,10 +9,11 @@ setGlamourPresentationAttributesFor: aPresentation
 		display: [ 
 			self cacheAt: #'displayNodes' ifAbsentPut: [ self executeRemotely: #'computeDisplayNodes' ] ];
 		icon: [ :aListNode | 
-			Smalltalk ui icons iconNamed: aListNode iconId ];
+			aListNode iconId   
+				ifNotNil: [ Smalltalk ui icons iconNamed: aListNode iconId ] ];
 		format: [ :aListNode | 
 			aListNode displayValue ];
 		send: [ :aListNode ||serializedProxy|
 			serializedProxy := self 
 				executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
-				withArguments: { aListNode targetObjectOop asString } ]
+				withArguments: { aListNode targetObjectOop } ]

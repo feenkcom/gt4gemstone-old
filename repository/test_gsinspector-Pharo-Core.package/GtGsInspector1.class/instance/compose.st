@@ -1,4 +1,4 @@
-as yet unclassified
+building
 compose
 
 	self title: [ :anInspectorProxy | 'GtGsInspector1 on ', anInspectorProxy title].
@@ -12,3 +12,7 @@ compose
 						anInspectorProxy gsPresentations do: [ :aGemstonePresentation |
 							aGemstonePresentation gemstoneClient: gemstoneClient.
 							aGemstonePresentation asGlamourPresentationOn: anotherComposite ] ] ) ] ] ].
+		
+	self first when: GLMPaneReplaced send: #actOnPaneReplaced: to: self.
+	self first when: GLMPaneRemoved send: #actOnPaneRemoved: to: self.
+	self when: GLMBrowserClosing send: #actOnBrowserClosing: to: self.
