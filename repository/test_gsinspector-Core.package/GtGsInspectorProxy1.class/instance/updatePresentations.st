@@ -1,10 +1,12 @@
 updating
 updatePresentations
-	
+	| aPresentation |
 	presentations := OrderedCollection new.
-	presentations add: (targetObject gtGsInspectorRawTreePresentationWith: self topezServer objectSerializer).
+	aPresentation := targetObject gtGsInspectorRawTreePresentationWith: self topezServer objectSerializer.
+	aPresentation ifNotNil: [  
+		presentations add: aPresentation ].
 	
-	presentations do: [ :aPresentation | 
-			aPresentation 
+	presentations do: [ :each | 
+			each 
 				serializer: self topezServer objectSerializer;
 				updateUninitializedBlocks ]
