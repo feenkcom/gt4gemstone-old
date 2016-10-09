@@ -1,3 +1,6 @@
 *test_gsinspector-Core
 gtGsInspectorName
-	^ super inspectorName
+  | ws |
+  ws := PrintStream printingOn: String new maxSize: 100.
+  self printOn: ws.
+  ^ ws contents
