@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Pharo-Core-AndreiChis.13' message 'use #selfOop instead of #targetObjectOop' id '09ba303d-afc6-4597-8503-1b0e37c10eb8' date '9 October 2016' time '4:57:31.085004 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.12' message '- small fixes;- proxies are not yet removed from the session.
-' id 'e8a4f6a8-fe23-52b2-b507-081f8c5ddcaa' date '7 October 2016' time '6:02:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Pharo-Core-AndreiChis.14' message 'use the clasical tree presentation for now' id 'd8dc3bfd-12f8-448e-92a2-f0b620ba7520' date '9 October 2016' time '6:38:48.692238 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Pharo-Core-AndreiChis.13' message 'use #selfOop instead of #targetObjectOop
+' id '7e4f8c7d-0a59-5912-ab22-55df1a9b38b6' date '9 October 2016' time '4:57:33 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

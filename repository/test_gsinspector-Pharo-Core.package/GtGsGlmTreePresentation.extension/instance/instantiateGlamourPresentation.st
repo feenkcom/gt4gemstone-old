@@ -1,4 +1,4 @@
 *test_gsinspector-Pharo-Core
 instantiateGlamourPresentation
 
-	^ GLMFastTreePresentation new
+	^ GLMTreePresentation new
