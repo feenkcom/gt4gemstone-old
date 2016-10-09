@@ -11,7 +11,7 @@
 		"title",
 		"presentations",
 		"curentPresentation" ],
-	"name" : "GtGsInspectorProxy1",
+	"name" : "GtGsInspectorProxy",
 	"pools" : [
 		 ],
 	"super" : "Object",

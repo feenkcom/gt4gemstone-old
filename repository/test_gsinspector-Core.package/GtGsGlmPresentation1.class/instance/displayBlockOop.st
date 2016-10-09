@@ -1,3 +1,0 @@
-accessing
-displayBlockOop
-	^ displayBlockOop
