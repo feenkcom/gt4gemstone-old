@@ -1,2 +1,2 @@
-(name 'test_gsinspector-Core-AndreiChis.45' message 'first attempt to fix the inspection of forwarder objects' id 'cfc79d77-f0b7-45bd-920a-5a204a51f83d' date '9 October 2016' time '5:54:23.290551 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.44' message '#computeChildrenFor: takes as parameter the node object
-' id 'ef5e9446-61ff-59f9-b458-6181f968a7ae' date '9 October 2016' time '5:26:45 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'test_gsinspector-Core-AndreiChis.46' message 'removed targetObjectOop from the inspector proxy' id 'b09616a6-883c-490a-a52f-afd38c1829e9' date '9 October 2016' time '5:59:07.582343 pm' author 'AndreiChis' ancestors ((name 'test_gsinspector-Core-AndreiChis.45' message 'first attempt to fix the inspection of forwarder objects
+' id '7ecf7c6f-6b04-508d-b6a8-eb11db11bf3f' date '9 October 2016' time '5:54:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
