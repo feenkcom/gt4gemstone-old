@@ -6,6 +6,6 @@ buildDisplayNodesFor: currentObjects
 	currentObjects do: [ :anObject | |currentNode|
 		currentNode := self buildDisplayNodeFor: anObject.
 		currentNode
-			childNodes: (self computeChildrenFor: currentNode selfOop).
+			childNodes: (self computeChildrenFor: currentNode).
 		displayNodes add: currentNode ].
 	^ displayNodes

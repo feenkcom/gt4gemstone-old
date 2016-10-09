@@ -1,8 +1,8 @@
 callbacks
-computeChildrenFor: aNodeOop
+computeChildrenFor: aNodeObject
 	| childObjects childNodes |
 	
-	childObjects := self childrenBlock value: ((Object _objectForOop: aNodeOop) targetObject).
+	childObjects := self childrenBlock value: aNodeObject targetObject.
 	
 	childNodes := OrderedCollection new: (childObjects size).
 	childObjects do: [ :anObject |
