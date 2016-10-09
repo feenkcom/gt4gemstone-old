@@ -8,6 +8,7 @@
 	"instvars" : [
 		"displayValue",
 		"iconId",
+		"targetObject",
 		"targetObjectOop" ],
 	"name" : "GtGsGlmListNode",
 	"pools" : [
