@@ -5,8 +5,8 @@ gtGsInspectorRawTreePresentationWith: aSerializer
 		titleBlock: [ 'Raw' ];
 		displayBlock: [
 			self gsGtVariableValuePairs ];
-		childrenBlock: [ :anObject |
-			anObject gsGtVariableValuePairs ];
+		childrenBlock: [ :anAssociation |
+			anAssociation value gsGtVariableValuePairs ];
 		formatBlock: [ :anAssociation | anAssociation key, ':  ', anAssociation value inspectorName ];
 		iconIdBlock: [ :anAssociation | anAssociation value class gsGtClassIconId ];
 		sendBlock: [ :anAssociation | anAssociation value ]
