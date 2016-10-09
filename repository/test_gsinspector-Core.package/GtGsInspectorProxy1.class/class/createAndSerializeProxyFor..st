@@ -1,5 +1,5 @@
 instance-creation
 createAndSerializeProxyFor: anObject
 	
-	^ self createAndSerializeProxyForOop: anObject asOop.
+	^ self createAndSerializeProxyForOop: (Reflection oopOf: anObject).
 		

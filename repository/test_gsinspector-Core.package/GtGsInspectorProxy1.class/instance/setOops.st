@@ -1,4 +1,4 @@
 config
 setOops
 
-	self targetObject ifNotNil: [ :anObject | targetObjectOop := anObject asOop ]
+	self targetObjectOop ifNil: [ targetObjectOop := Reflection oopOf: self targetObject ]
