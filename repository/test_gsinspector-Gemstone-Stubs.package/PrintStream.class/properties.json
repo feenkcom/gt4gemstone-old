@@ -1,0 +1,14 @@
+{
+	"category" : "test_gsinspector-Gemstone-Stubs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PrintStream",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
