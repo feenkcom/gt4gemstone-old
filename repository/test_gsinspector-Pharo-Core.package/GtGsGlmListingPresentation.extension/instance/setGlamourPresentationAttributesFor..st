@@ -16,4 +16,4 @@ setGlamourPresentationAttributesFor: aPresentation
 		send: [ :aListNode ||serializedProxy|
 			serializedProxy := self 
 				executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
-				withArguments: { aListNode targetObjectOop } ]
+				withArguments: { aListNode selfOop } ]
