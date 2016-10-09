@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"selfOop",
 		"displayValue",
 		"iconId",
-		"targetObject",
-		"targetObjectOop" ],
+		"targetObject" ],
 	"name" : "GtGsGlmListNode",
 	"pools" : [
 		 ],

@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  super excludedInstVarNames, #(#'formatBlock' #'oopComputationBlock' #'iconIdBlock')
+  ^  super excludedInstVarNames, #(#'formatBlock' #'iconIdBlock')

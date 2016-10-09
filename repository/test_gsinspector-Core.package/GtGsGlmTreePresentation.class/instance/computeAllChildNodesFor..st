@@ -1,6 +1,6 @@
 callbacks
-computeAllChildNodesFor: aListOfOops
+computeAllChildNodesFor: aListOfNodeOops
 	| updatedChildNodes |
 	
-	updatedChildNodes := (self serializer fromString: aListOfOops) collect: [ :anOop | self computeChildrenFor: anOop ].
+	updatedChildNodes := (self serializer fromString: aListOfNodeOops) collect: [ :aNodeOop | self computeChildrenFor: aNodeOop ].
 	^ self serializer toString: updatedChildNodes

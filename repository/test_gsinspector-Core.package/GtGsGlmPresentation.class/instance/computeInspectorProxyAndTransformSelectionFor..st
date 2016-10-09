@@ -1,4 +1,5 @@
 callbacks
-computeInspectorProxyAndTransformSelectionFor: anOop
+computeInspectorProxyAndTransformSelectionFor: aNodeOop
 
-	^ GtGsInspectorProxy1 createAndSerializeProxyForOop: (self sendBlock cull: anOop)
+	^ GtGsInspectorProxy1 createAndSerializeProxyFor: (
+			self sendBlock cull: (Object _objectForOop: aNodeOop) targetObject)
