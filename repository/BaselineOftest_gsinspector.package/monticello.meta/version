@@ -1,2 +1,0 @@
-(name 'BaselineOftest_gsinspector-AndreiChis.4' message 'Renamed baseline' id '1108b747-e791-4bd1-9858-372c7bd974bb' date '10 October 2016' time '11:11:21.636793 am' author 'AndreiChis' ancestors ((name 'BaselineOftest_gsinspector-AndreiChis.3' message 'moved classes to test_gsinspector-Core
-' id '05988603-5c36-5173-9d7d-243cd629442d' date '2 October 2016' time '6:20:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
