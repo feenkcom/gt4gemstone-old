@@ -1,4 +1,0 @@
-*test_gsinspector-Pharo-Core
-setGlamourPresentationAttributesFor: aPresentation 
-
-	self subclassResponsibility
