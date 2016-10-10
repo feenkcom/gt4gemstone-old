@@ -2,7 +2,7 @@ TDObjectGatewayLeafNode{#name:'Gt4Gemstone',#contents:'^ TDProjectSpecEntryDefin
     baseline: \'Gt4Gemstone\'
       repository: \'github://chisandrei/Gt4Gemstone:master/repository\'
       loads: #( \'default\' );
-    installScript: \'project clone --https Gt4Gemstone\';
+    installScript: \'project clone Gt4Gemstone\';
     status: #( #\'inactive\' );
     locked: false;
     yourself.
