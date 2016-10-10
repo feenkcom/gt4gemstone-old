@@ -1,1 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.1' message 'Renamed baseline package' id 'f73a5b5d-10c1-40a4-8416-cb15fe34f43a' date '10 October 2016' time '11:12:42.219921 am' author 'AndreiChis' ancestors () stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.2' message 'updated BaselineOfGt4Gemstone' id 'e40608f6-747e-4188-997c-82724e5feb24' date '10 October 2016' time '11:43:34.254879 am' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.1' message 'Renamed baseline package
+' id 'ddf032f7-2aa1-5b12-9acb-1e19aefe5a7d' date '10 October 2016' time '11:12:43 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
