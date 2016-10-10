@@ -1,0 +1,20 @@
+{
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selfOop",
+		"cache",
+		"serializer",
+		"gemstoneClient",
+		"titleBlock",
+		"displayBlock",
+		"sendBlock" ],
+	"name" : "GtGsGlmPresentation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

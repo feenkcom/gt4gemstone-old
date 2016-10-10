@@ -1,0 +1,4 @@
+testing
+isChildNodesInitialized
+
+	^ childNodes notNil

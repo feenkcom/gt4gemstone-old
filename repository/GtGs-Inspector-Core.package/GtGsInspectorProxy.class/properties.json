@@ -1,0 +1,18 @@
+{
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [
+		"testInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topezServer",
+		"targetObject",
+		"title",
+		"presentations",
+		"curentPresentation" ],
+	"name" : "GtGsInspectorProxy",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
