@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.9' message 'load the column values when loading the  children' id 'ee2df4cd-f22b-49de-95d6-858075e21352' date '12 October 2016' time '7:27:30.717728 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.8' message 'Set a node type in GtGsGlmTablePresentation
-' id '546d8440-b3d1-5b9c-8163-3fe45a0b6835' date '12 October 2016' time '7:18:46 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.10' message 'fixed return statement in #buildDisplayNodeFor:' id '114df807-c0e7-478a-9e29-5bb901ffba85' date '12 October 2016' time '7:32:11.879017 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.9' message 'load the column values when loading the  children
+' id 'fbbfbbc5-19f1-5b74-9093-9813009f381a' date '12 October 2016' time '7:27:34 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

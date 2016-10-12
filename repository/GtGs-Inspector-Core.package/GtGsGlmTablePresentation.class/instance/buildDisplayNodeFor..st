@@ -5,5 +5,6 @@ buildDisplayNodeFor: anObject
 	displayNode := super buildDisplayNodeFor: anObject.
 	self columns do: [ :aGsColumn |
 		displayNode columnValues add: (
-			aGsColumn computationBlock value: displayNode targetObject) ]
+			aGsColumn computationBlock value: displayNode targetObject) ].
+	^ displayNode
 	
