@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.5' message 'fix in #gtGsInspectorRawTablePresentationWith:' id '32f324dc-c2bf-4105-8f5b-7285f5460a67' date '12 October 2016' time '7:12:15.17823 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.4' message 'basic support for specifying table presentations
-' id '89fbd816-573c-59d5-acf8-6ed2e85ec1ad' date '12 October 2016' time '7:09:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.6' message 'fixed methods for adding columns' id '033b72e4-7b61-4afa-83a9-2fd1735ab62e' date '12 October 2016' time '7:13:47.314797 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.5' message 'fix in #gtGsInspectorRawTablePresentationWith:
+' id 'dd8b6660-aef1-5791-8ac9-49972fb17fca' date '12 October 2016' time '7:12:16 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
