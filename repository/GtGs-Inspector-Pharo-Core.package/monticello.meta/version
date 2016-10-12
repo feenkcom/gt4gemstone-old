@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.2' message 'Basic support for inspecting proxy objects.' id '5ef933d4-843b-4c47-a972-a2aed36fdaac' date '12 October 2016' time '3:20:50.736163 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.1' message 'renamed packages
-' id '5979ffda-0ad8-5270-b5ab-fb329835b95a' date '10 October 2016' time '11:22:56 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.3' message 'basic support for specifying table presentations' id '24e949cc-9130-45c2-9c0e-ca7bfa59a2cb' date '12 October 2016' time '7:10:17.321815 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.2' message 'Basic support for inspecting proxy objects.
+' id '86414142-ccc4-5e00-8a91-9ecb05abd3ca' date '12 October 2016' time '3:20:53 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
