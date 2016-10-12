@@ -2,7 +2,7 @@
 gtGsInspectorRawTablePresentationWith: aSerializer
 	<gtGsInspectorPresentationOrder: 6>
 
-	^ GtGsGlmTreePresentation new
+	^ GtGsGlmTablePresentation new
 		titleBlock: [ 'Raw - Table' ];
 		displayBlock: [
 			self gtGsVariableValuePairs ];
