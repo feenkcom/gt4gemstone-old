@@ -1,15 +1,13 @@
 updating
 updatePresentations
-	| aPresentation |
-	presentations := OrderedCollection new.
-	aPresentation := targetObject gtGsInspectorRawTreePresentationWith: self topezServer objectSerializer.
-	aPresentation ifNotNil: [  
-		presentations add: aPresentation ].
-	aPresentation := targetObject gtGsInspectorRawTablePresentationWith: self topezServer objectSerializer.
-	aPresentation ifNotNil: [  
-		presentations add: aPresentation ].
+	| aPresentation aComposite|
+	aComposite := GtGsGlmCompositePresentation new.
+	aPresentation := targetObject gtGsInspectorRawTreePresentationIn: aComposite.
+	aPresentation := targetObject gtGsInspectorRawTablePresentationIn: aComposite.
 	
-	presentations do: [ :each | 
-			each 
-				serializer: self topezServer objectSerializer;
-				updateUninitializedBlocks ]
+	aComposite presentations do: [ :each | 
+		each 
+			serializer: self topezServer objectSerializer;
+			updateUninitializedBlocks ].
+
+	presentations := aComposite presentations

@@ -1,8 +1,8 @@
 *GtGs-Inspector-Core
-gtGsInspectorRawTreePresentationWith: aSerializer
+gtGsInspectorRawTreePresentationIn: aComposite
 	<gtGsInspectorPresentationOrder: 6>
 	
-	^ GtGsGlmTreePresentation new
+	^ aComposite tree
 		title: [ 'Raw - Tree' ];
 		display: [
 			self gtGsVariableValuePairsWithSelfIf: true ];

@@ -1,9 +1,11 @@
 *GtGs-Inspector-Core
-gtGsVariableValuePairs
+gtGsVariableValuePairsWithSelfIf: aBoolean
 	| instVarNames bindings indexedVarsSize |
 	instVarNames := self class allInstVarNames.
 	indexedVarsSize := self basicSize - instVarNames size.
-	bindings := OrderedCollection new: instVarNames size.
+	bindings := OrderedCollection new: instVarNames size + 1.
+	
+	aBoolean ifTrue: [ bindings add: 'self' -> self ].
 	
 	instVarNames withIndexDo: [ :each :index | 
 		bindings add: (each -> (self instVarAt: index))].
