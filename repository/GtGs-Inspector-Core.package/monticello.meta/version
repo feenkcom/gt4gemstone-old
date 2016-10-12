@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.2' message 'Basic support for inspecting proxy objects.' id 'c8d6801c-c960-4c0d-af87-9fadbe93c98a' date '12 October 2016' time '3:20:22.960213 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.1' message 'renamed packages
-' id '696c708d-8be4-5425-b995-76233dc4fd1d' date '10 October 2016' time '11:22:30 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.3' message 'removed testing code from GtGsInspectorProxy' id '182b4040-efcb-4bbf-b867-2f39fb40a17d' date '12 October 2016' time '5:40:49.913215 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.2' message 'Basic support for inspecting proxy objects.
+' id '36b8e4b2-052b-5df2-815b-d57b2dd87e42' date '12 October 2016' time '3:20:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
