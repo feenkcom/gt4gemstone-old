@@ -1,4 +1,3 @@
 accessing
 add: aPresentation
-	aPresentation ifNotNil: [  
-		self presentations add: aPresentation ]
+	^ self presentations add: aPresentation 
