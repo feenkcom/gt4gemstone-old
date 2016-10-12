@@ -1,1 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.1' message 'renamed packages' id 'e6abf735-b037-480a-93d6-6b2cf1d5e339' date '10 October 2016' time '11:22:21.958135 am' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.2' message 'Basic support for inspecting proxy objects.' id 'c8d6801c-c960-4c0d-af87-9fadbe93c98a' date '12 October 2016' time '3:20:22.960213 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.1' message 'renamed packages
+' id '696c708d-8be4-5425-b995-76233dc4fd1d' date '10 October 2016' time '11:22:30 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

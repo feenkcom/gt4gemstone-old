@@ -1,3 +1,3 @@
 accessing
 targetObject
-	^ targetObject 
+	^ targetObject

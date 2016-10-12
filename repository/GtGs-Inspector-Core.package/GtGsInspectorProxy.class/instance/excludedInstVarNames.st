@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^ #(#'topezServer' #'targetObject')
+  ^ #(#'gemstoneClient' #'topezServer' #'targetObject')
