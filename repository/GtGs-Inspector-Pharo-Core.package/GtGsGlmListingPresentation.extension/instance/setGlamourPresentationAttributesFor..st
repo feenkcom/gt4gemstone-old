@@ -5,7 +5,7 @@ setGlamourPresentationAttributesFor: aPresentation
 		shouldValidate: false;
 		allowsRecursiveSearch: false;
 		title: [
-			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #computeTitle ] ];
+			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #'computeTitle' ] ];
 		display: [ 
 			self cacheAt: #'displayNodes' ifAbsentPut: [ self executeRemotely: #'computeDisplayNodes' ] ];
 		icon: [ :aListNode | 
@@ -16,4 +16,7 @@ setGlamourPresentationAttributesFor: aPresentation
 		send: [ :aListNode ||serializedProxy|
 			serializedProxy := self 
 				executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
-				withArguments: { aListNode selfOop } ]
+				withArguments: { aListNode selfOop }.
+			serializedProxy
+				gemstoneClient: self gemstoneClient;
+				yourself ]
