@@ -1,0 +1,1 @@
+I am the root of all domain object for the address book application
