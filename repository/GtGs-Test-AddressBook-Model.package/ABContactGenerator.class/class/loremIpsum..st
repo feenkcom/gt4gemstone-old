@@ -7,7 +7,7 @@ loremIpsum: size
 	
 	| words out |
 	words := (self loremIpsum findTokens: ' ,.') collect: #asLowercase.
-	(out := LimitedWriteStream on: (self new: size))
+	(out := LimitedWriteStream on: (String new: size))
 		setLimit: size - 2 
 		limitBlock: [ 
 			^ out originalContents 
