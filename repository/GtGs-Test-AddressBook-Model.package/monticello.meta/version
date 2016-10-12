@@ -1,1 +1,2 @@
-(name 'GtGs-Test-AddressBook-Model-AndreiChis.1' message 'Added the address book example.' id '0576c6fb-9537-4758-b529-535b54a8573e' date '12 October 2016' time '5:10:10.514021 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Test-AddressBook-Model-AndreiChis.2' message 'Copied the logic for generating descriptions from the String class to the class ABContactGenerator' id 'f00e4998-f128-4e21-ba01-9bf81d09c6c1' date '12 October 2016' time '5:14:41.19975 pm' author 'AndreiChis' ancestors ((name 'GtGs-Test-AddressBook-Model-AndreiChis.1' message 'Added the address book example.
+' id '86e6b851-bf2a-5b06-838d-bacd392e9a5b' date '12 October 2016' time '5:10:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
