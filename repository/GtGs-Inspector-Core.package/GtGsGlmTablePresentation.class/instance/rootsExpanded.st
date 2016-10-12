@@ -1,3 +1,3 @@
 scripting
-rootsExpanded 
+rootsExpanded
 	self shouldRootsExpand: true

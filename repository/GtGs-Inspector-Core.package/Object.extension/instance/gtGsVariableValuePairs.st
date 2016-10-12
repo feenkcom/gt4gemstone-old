@@ -1,5 +1,5 @@
 *GtGs-Inspector-Core
-gsGtVariableValuePairs
+gtGsVariableValuePairs
 	| instVarNames bindings indexedVarsSize |
 	instVarNames := self class allInstVarNames.
 	indexedVarsSize := self basicSize - instVarNames size.

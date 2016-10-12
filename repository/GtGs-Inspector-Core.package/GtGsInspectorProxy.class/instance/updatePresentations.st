@@ -5,6 +5,9 @@ updatePresentations
 	aPresentation := targetObject gtGsInspectorRawTreePresentationWith: self topezServer objectSerializer.
 	aPresentation ifNotNil: [  
 		presentations add: aPresentation ].
+	aPresentation := targetObject gtGsInspectorRawTablePresentationWith: self topezServer objectSerializer.
+	aPresentation ifNotNil: [  
+		presentations add: aPresentation ].
 	
 	presentations do: [ :each | 
 			each 

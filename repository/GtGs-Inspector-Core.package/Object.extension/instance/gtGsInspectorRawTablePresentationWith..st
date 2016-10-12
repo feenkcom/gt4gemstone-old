@@ -1,13 +1,14 @@
 *GtGs-Inspector-Core
-gtGsInspectorRawTreePresentationWith: aSerializer
+gtGsInspectorRawTablePresentationWith: aSerializer
 	<gtGsInspectorPresentationOrder: 6>
-	
+
 	^ GtGsGlmTreePresentation new
-		titleBlock: [ 'Raw - Tree' ];
+		titleBlock: [ 'Raw - Table' ];
 		displayBlock: [
 			self gtGsVariableValuePairs ];
 		children: [ :anAssociation |
 			anAssociation value gtGsVariableValuePairs ];
-		formatBlock: [ :anAssociation | anAssociation key, ':  ', anAssociation value gtGsInspectorName ];
+		column: 'Variable' evaluated: [ :anAssociation | anAssociation key ];
+		column: 'Variable' evaluated: [ :anAssociation | anAssociation value gtGsInspectorName ];
 		iconIdBlock: [ :anAssociation | anAssociation value class gtGsClassIconId ];
 		sendBlock: [ :anAssociation | anAssociation value ]

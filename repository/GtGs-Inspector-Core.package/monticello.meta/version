@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.3' message 'removed testing code from GtGsInspectorProxy' id '182b4040-efcb-4bbf-b867-2f39fb40a17d' date '12 October 2016' time '5:40:49.913215 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.2' message 'Basic support for inspecting proxy objects.
-' id '36b8e4b2-052b-5df2-815b-d57b2dd87e42' date '12 October 2016' time '3:20:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.4' message 'basic support for specifying table presentations' id '8a11c169-dfa3-4ea4-a885-6aa78e6f0011' date '12 October 2016' time '7:09:53.30406 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.3' message 'removed testing code from GtGsInspectorProxy
+' id '7ca3f914-00f4-5816-b07a-153965fe5906' date '12 October 2016' time '5:40:53 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

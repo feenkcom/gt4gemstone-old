@@ -1,4 +1,4 @@
 *GtGs-Inspector-Core
-gsGtClassIconId
+gtGsClassIconId
 
 	^ #classIcon

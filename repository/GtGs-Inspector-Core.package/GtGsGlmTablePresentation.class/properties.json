@@ -6,10 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"childNodes",
-		"columnValues" ],
-	"name" : "GtGsGlmTreeNode",
+		"childrenBlock",
+		"rootsExpanded",
+		"columns" ],
+	"name" : "GtGsGlmTablePresentation",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmListNode",
+	"super" : "GtGsGlmListingPresentation",
 	"type" : "normal" }

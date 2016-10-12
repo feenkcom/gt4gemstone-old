@@ -5,6 +5,6 @@ computeAllChildNodesFor: aListOfNodeOops
 	updatedChildNodes := (self serializer fromString: aListOfNodeOops) 
 		collect: [ :aNodeOop | | nodeObject |
 			nodeObject := (Object _objectForOop: aNodeOop).
-			nodeObject childNodes: (self computeChildrenFor: nodeObject).
+			self computeAndUpdateChildNodesFor: nodeObject.
 			nodeObject childNodes ].
 	^ self serializer toString: updatedChildNodes

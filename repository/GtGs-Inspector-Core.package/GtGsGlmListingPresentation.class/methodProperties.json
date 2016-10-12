@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"buildDisplayNodeFor:" : "AndreiChis 10/9/2016 16:48",
-		"buildDisplayNodesFor:" : "AndreiChis 10/6/2016 18:12",
+		"buildDisplayNodesFor:" : "AndreiChis 10/12/2016 18:51",
+		"computeAllChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
+		"computeAndUpdateChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
 		"computeDisplayNodes" : "AndreiChis 10/6/2016 16:44",
 		"computeTitle" : "AndreiChis 10/5/2016 16:48",
 		"excludedInstVarNames" : "AndreiChis 10/9/2016 16:47",

@@ -1,5 +1,5 @@
 callbacks
-computeChildrenFor: aNodeObject
+computeAndUpdateChildNodesFor: aNodeObject
 	| childObjects childNodes |
 	
 	childObjects := self childrenBlock value: aNodeObject targetObject.
@@ -8,4 +8,5 @@ computeChildrenFor: aNodeObject
 	childObjects do: [ :anObject |
 		childNodes add: (self buildDisplayNodeFor: anObject) ].
 	
-	^ childNodes
+	aNodeObject
+			childNodes: childNodes.

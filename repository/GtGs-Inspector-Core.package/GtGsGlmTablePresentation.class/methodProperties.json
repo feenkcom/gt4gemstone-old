@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addColumn:" : "AndreiChis 10/12/2016 18:16",
+		"buildDisplayNodesFor:" : "AndreiChis 10/12/2016 18:49",
+		"children:" : "AndreiChis 10/12/2016 18:01",
+		"childrenBlock" : "AndreiChis 10/12/2016 17:54",
+		"column:evaluated:" : "AndreiChis 10/12/2016 17:55",
+		"column:evaluated:width:" : "AndreiChis 10/12/2016 17:56",
+		"columns" : "AndreiChis 10/12/2016 18:16",
+		"excludedInstVarNames" : "AndreiChis 10/12/2016 18:15",
+		"rootsExpanded" : "AndreiChis 10/12/2016 17:59",
+		"shouldRootsExpand" : "AndreiChis 10/12/2016 17:59",
+		"shouldRootsExpand:" : "AndreiChis 10/12/2016 17:59",
+		"updateUninitializedBlocks" : "AndreiChis 10/12/2016 18:58" } }

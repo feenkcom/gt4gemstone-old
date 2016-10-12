@@ -1,4 +1,4 @@
 *GtGs-Inspector-Core
-gsGtVariableValuePairs
+gtGsVariableValuePairs
 	"No fields for the moment"
 	^ #()
