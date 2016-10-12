@@ -10,10 +10,13 @@ loremIpsum: size
 	(out := LimitedWriteStream on: (String new: size))
 		setLimit: size - 2 
 		limitBlock: [ 
-			^ out originalContents 
-				at: size - 1 put: $.; 
-				at: size put: Character cr; 
-				yourself ].
+			"Make it work on Pharo and Gemstone"
+			^ ((out respondsTo: #'originalContents')
+				ifTrue: [ out originalContents ]
+				ifFalse: [ out collection ])
+					at: size - 1 put: $.; 
+					at: size put: Character cr; 
+					yourself ].
 	[ 
 		out << self loremIpsum; cr; cr.
 		5 atRandom timesRepeat: [
