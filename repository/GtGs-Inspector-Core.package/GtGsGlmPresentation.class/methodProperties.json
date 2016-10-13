@@ -7,6 +7,7 @@
 		"cacheAt:ifAbsentPut:" : "AndreiChis 10/5/2016 18:02",
 		"cacheAt:put:" : "AndreiChis 10/5/2016 18:02",
 		"computeInspectorProxyAndTransformSelectionFor:" : "AndreiChis 10/9/2016 18:54",
+		"computeTitle" : "AndreiChis 10/13/2016 10:16",
 		"display:" : "AndreiChis 10/12/2016 19:44",
 		"displayBlock" : "AndreiChis 10/5/2016 14:01",
 		"displayBlock:" : "AndreiChis 10/5/2016 14:01",
@@ -27,4 +28,6 @@
 		"title:" : "AndreiChis 10/12/2016 19:43",
 		"titleBlock" : "AndreiChis 10/5/2016 14:01",
 		"titleBlock:" : "AndreiChis 10/5/2016 14:01",
+		"updateCache" : "AndreiChis 10/13/2016 10:16",
+		"updateTitleCache" : "AndreiChis 10/13/2016 10:16",
 		"updateUninitializedBlocks" : "AndreiChis 10/9/2016 16:41" } }

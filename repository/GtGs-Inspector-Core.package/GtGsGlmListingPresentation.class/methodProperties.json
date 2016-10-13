@@ -6,8 +6,7 @@
 		"buildDisplayNodesFor:" : "AndreiChis 10/12/2016 18:51",
 		"computeAllChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
 		"computeAndUpdateChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
-		"computeDisplayNodes" : "AndreiChis 10/6/2016 16:44",
-		"computeTitle" : "AndreiChis 10/5/2016 16:48",
+		"computeDisplayNodes" : "AndreiChis 10/13/2016 10:18",
 		"excludedInstVarNames" : "AndreiChis 10/9/2016 16:47",
 		"format:" : "AndreiChis 10/12/2016 19:45",
 		"formatBlock" : "AndreiChis 10/5/2016 14:11",
@@ -15,4 +14,6 @@
 		"iconIdBlock" : "AndreiChis 10/6/2016 16:55",
 		"iconIdBlock:" : "AndreiChis 10/6/2016 16:55",
 		"listNodeClass" : "AndreiChis 10/6/2016 16:53",
+		"updateCache" : "AndreiChis 10/13/2016 10:18",
+		"updateDisplayNodes" : "AndreiChis 10/13/2016 10:18",
 		"updateUninitializedBlocks" : "AndreiChis 10/9/2016 17:51" } }

@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.12' message 'simplified #GtGsGlmCompositePresentation' id '335d8a52-a1ab-4f8b-870d-8cbac51f21c1' date '12 October 2016' time '8:17:16.652022 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.11' message 'Introduced a GtGsGlmCompositePresentation
-' id 'e4edb86d-8c85-5309-ae80-82f502d646fe' date '12 October 2016' time '8:13:02 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.13' message 'update the cache of a presentation before making a request.' id '8ca00048-6a1a-42e1-9ef0-7c78f4408751' date '13 October 2016' time '10:27:03.9381 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.12' message 'simplified #GtGsGlmCompositePresentation
+' id 'bb4e1ce6-6ed7-5cb9-b0b4-7128f3032bb0' date '12 October 2016' time '8:17:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

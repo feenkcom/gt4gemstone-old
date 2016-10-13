@@ -1,5 +1,5 @@
 scripting
 column: aBlockOrString evaluated: aBlock
 	self addColumn: (GtGsGlmTableColumn new 
-		title: aBlockOrString; 
+		titleBlock: aBlockOrString; 
 		computationBlock: aBlock)

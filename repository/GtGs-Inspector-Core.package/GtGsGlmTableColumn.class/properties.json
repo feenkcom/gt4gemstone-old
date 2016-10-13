@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"title",
 		"width",
+		"titleCache",
+		"titleBlock",
 		"computationBlock" ],
 	"name" : "GtGsGlmTableColumn",
 	"pools" : [

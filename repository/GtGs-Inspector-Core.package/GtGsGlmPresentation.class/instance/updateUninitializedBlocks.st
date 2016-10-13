@@ -1,4 +1,4 @@
-initialization
+updating
 updateUninitializedBlocks
 	
 	titleBlock ifNil: [ titleBlock := [ 'GlmPresentation' ] ].

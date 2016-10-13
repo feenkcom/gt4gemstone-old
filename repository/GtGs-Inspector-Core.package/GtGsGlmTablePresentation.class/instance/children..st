@@ -1,3 +1,3 @@
 scripting
 children: aBlock
-	childrenBlock := aBlock
+	self childrenBlock: aBlock
