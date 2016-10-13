@@ -1,9 +1,9 @@
 *GtGs-Inspector-Core
 gtGsInspectorRawTreePresentationIn: aComposite
-	<gtGsInspectorPresentationOrder: 6>
+	"<gtGsInspectorPresentationOrder: 6>"
 	
 	^ aComposite tree
-		title: [ 'Raw - Tree' ];
+		title: [ 'Raw' ];
 		display: [
 			self gtGsVariableValuePairsWithSelfIf: true ];
 		children: [ :anAssociation |

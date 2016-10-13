@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.16' message 'updated the state presentation for Client Forwarder' id 'db2502b2-5166-4cb2-baa3-d4ed161d252d' date '13 October 2016' time '11:49:03.959213 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.15' message 'made the inspector load presentations using pragmas
-' id 'd511f905-ecde-54fe-abc9-50d441b57963' date '13 October 2016' time '11:22:13 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.17' message 'disabled gtGsInspectorRawTablePresentationIn:' id 'ab1c5401-bc89-485d-a01c-08a14dec34b2' date '13 October 2016' time '1:32:16.556045 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.16' message 'updated the state presentation for Client Forwarder
+' id '02180ef3-2641-5a3d-9a65-36e827baa795' date '13 October 2016' time '11:49:07 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
