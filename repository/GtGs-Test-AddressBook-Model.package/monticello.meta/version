@@ -1,2 +1,2 @@
-(name 'GtGs-Test-AddressBook-Model-AndreiChis.4' message 'Make ABContactGenerator work on both Pharo and Gemstone' id '6ee11095-1efc-4c25-80d0-78fb801c0637' date '12 October 2016' time '5:32:30.754536 pm' author 'AndreiChis' ancestors ((name 'GtGs-Test-AddressBook-Model-AndreiChis.3' message 'fixed #loremIpsum:
-' id '9cbe5f1e-5f6f-5389-991a-2d01fcab12c1' date '12 October 2016' time '5:24:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Test-AddressBook-Model-AndreiChis.5' message 'added presentations for gemstone inspector' id '5b1edcff-2e07-4384-9ca4-acb587bf891f' date '13 October 2016' time '11:23:22.528852 am' author 'AndreiChis' ancestors ((name 'GtGs-Test-AddressBook-Model-AndreiChis.4' message 'Make ABContactGenerator work on both Pharo and Gemstone
+' id 'fb89bbdf-acf5-5cb1-bb53-1052cbb27097' date '12 October 2016' time '5:32:32 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

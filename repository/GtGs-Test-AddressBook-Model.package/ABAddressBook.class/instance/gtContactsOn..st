@@ -1,6 +1,8 @@
 printing
 gtContactsOn: aComposite
 	<gtInspectorPresentationOrder: 5>
+	<gtGsInspectorPresentationOrder: 5>
+	
 	aComposite table
 		title: 'Contacts';
 		display: [ self contacts ];
