@@ -1,4 +1,4 @@
-initialization
+updating
 updateUninitializedBlocks
 	super updateUninitializedBlocks.
 	

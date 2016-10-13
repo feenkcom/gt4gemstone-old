@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.13' message 'update the cache of a presentation before making a request.' id '8ca00048-6a1a-42e1-9ef0-7c78f4408751' date '13 October 2016' time '10:27:03.9381 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.12' message 'simplified #GtGsGlmCompositePresentation
-' id 'bb4e1ce6-6ed7-5cb9-b0b4-7128f3032bb0' date '12 October 2016' time '8:17:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.14' message 'fixed updateCache' id '222dac91-d970-4b06-ae51-5cc970ea058e' date '13 October 2016' time '10:31:11.226862 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.13' message 'update the cache of a presentation before making a request.
+' id '288bb031-5939-5ead-b2cc-d77b99e760ce' date '13 October 2016' time '10:27:06 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
