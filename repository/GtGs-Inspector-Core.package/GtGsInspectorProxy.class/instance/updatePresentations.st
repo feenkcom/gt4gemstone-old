@@ -1,9 +1,10 @@
 updating
 updatePresentations
-	| aPresentation aComposite|
+	| aComposite |
 	aComposite := GtGsGlmCompositePresentation new.
-	aPresentation := targetObject gtGsInspectorRawTreePresentationIn: aComposite.
-	aPresentation := targetObject gtGsInspectorRawTablePresentationIn: aComposite.
+	targetObject 
+		gtGsInspectorPresentationsIn: aComposite
+		inContext: self.
 	
 	aComposite presentations do: [ :each | 
 		each 

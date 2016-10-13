@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.14' message 'fixed updateCache' id '222dac91-d970-4b06-ae51-5cc970ea058e' date '13 October 2016' time '10:31:11.226862 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.13' message 'update the cache of a presentation before making a request.
-' id '288bb031-5939-5ead-b2cc-d77b99e760ce' date '13 October 2016' time '10:27:06 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.15' message 'made the inspector load presentations using pragmas' id '900400f8-8ee4-4921-a126-517409793a9d' date '13 October 2016' time '11:22:10.139474 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.14' message 'fixed updateCache
+' id 'aaf849d2-f26e-5265-988e-707ec21dcf8b' date '13 October 2016' time '10:31:13 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
