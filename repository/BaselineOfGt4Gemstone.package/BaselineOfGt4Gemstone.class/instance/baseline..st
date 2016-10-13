@@ -32,12 +32,11 @@ baseline: spec
                 repository: 'github://dalehenrich/Tugrik:master/repository' ].
 		spec
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('Tugrik') ];
-			package: 'GtGs-Test-AddressBook-Model';
-			package: 'GtGs-Test-AddressBook-Extensions-Pharo' with: [ spec requires: #('GtGs-Test-AddressBook-Model') ].
+			package: 'GtGs-Test-AddressBook-Model'.
 			
 		spec
 			group: 'Core'
 				with: #('GtGs-Inspector-Core');
 			group: 'Tests'
-				with: #('GtGs-Test-AddressBook-Model' 'GtGs-Test-AddressBook-Extensions-Pharo');
+				with: #('GtGs-Test-AddressBook-Model');
 			group: 'default' with: #('Core' 'Tests')  ]

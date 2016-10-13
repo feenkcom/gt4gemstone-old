@@ -1,3 +1,4 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.3' message 'Added the address book example.' id '2d129d50-4bb4-45c4-9309-f33591571bcd' date '12 October 2016' time '5:09:15.067289 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.2' message 'updated BaselineOfGt4Gemstone
+(name 'BaselineOfGt4Gemstone-AndreiChis.4' message 'Do not load the Pharo edtensions for AddressBook on gemstone' id 'b1615a18-8cfd-4fe5-80be-46a4f219a631' date '13 October 2016' time '6:04:59.642831 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.3' message 'Added the address book example.
+' id '7f249552-0960-5a01-a191-ebc58337544e' date '12 October 2016' time '5:09:16 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.2' message 'updated BaselineOfGt4Gemstone
 ' id '2f7bd09c-3cd9-5775-9427-c4e9fb088a4e' date '10 October 2016' time '11:43:37 am' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.1' message 'Renamed baseline package
-' id 'ddf032f7-2aa1-5b12-9acb-1e19aefe5a7d' date '10 October 2016' time '11:12:43 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())
+' id 'ddf032f7-2aa1-5b12-9acb-1e19aefe5a7d' date '10 October 2016' time '11:12:43 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
