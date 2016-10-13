@@ -6,7 +6,6 @@ gtGsInspectorPresentationsIn: aComposite inContext: aContext
 		from: (Reflection classOf: self)
 		to: Object
 		sortedUsing: [ :x :y | (x argumentAt: 1) < (y argumentAt: 1) ].
-	"pragmas := pragmas select: [ :aPragma | aGTInspector shouldDisplayPresentationCreateBy: aPragma method ]."
 
 	pragmas
 		do: [ :aPragma | 

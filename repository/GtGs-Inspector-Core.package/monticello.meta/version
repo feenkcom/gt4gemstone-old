@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.15' message 'made the inspector load presentations using pragmas' id '900400f8-8ee4-4921-a126-517409793a9d' date '13 October 2016' time '11:22:10.139474 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.14' message 'fixed updateCache
-' id 'aaf849d2-f26e-5265-988e-707ec21dcf8b' date '13 October 2016' time '10:31:13 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.16' message 'updated the state presentation for Client Forwarder' id 'db2502b2-5166-4cb2-baa3-d4ed161d252d' date '13 October 2016' time '11:49:03.959213 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.15' message 'made the inspector load presentations using pragmas
+' id 'd511f905-ecde-54fe-abc9-50d441b57963' date '13 October 2016' time '11:22:13 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
