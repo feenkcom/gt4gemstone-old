@@ -1,5 +1,8 @@
 {
 	"class" : {
-		 },
+		"forSessionDescriptionNamed:" : "AndreiChis 10/14/2016 10:27",
+		"inspectorExampleScript" : "AndreiChis 10/14/2016 13:47" },
 	"instance" : {
+		"performStringRemotely:" : "AndreiChis 10/14/2016 10:39",
+		"performStringRemotelyAndInspect:" : "AndreiChis 10/14/2016 10:38",
 		"todeServerCreationStringWithOptions:" : "AndreiChis 10/7/2016 15:24" } }
