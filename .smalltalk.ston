@@ -3,7 +3,7 @@ SmalltalkCISpec {
     SCIMetacelloLoadSpec {
       #baseline : 'Gt4Gemstone',
       #load : [ 'default' ],
-      #directory : 'repository',
+      #directory : 'src',
       #onWarningLog : true,
       #platforms : [ #gemstone, #pharo ]
     }

@@ -1,1 +1,2 @@
-# test_gt4gemstone
+# gt4gemstone
+The Glamorous Toolkit for remote work with Gemstone/S
