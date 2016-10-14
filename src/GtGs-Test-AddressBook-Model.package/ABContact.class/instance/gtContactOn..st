@@ -1,7 +1,6 @@
 printing
 gtContactOn: aComposite
 	<gtInspectorPresentationOrder: 14>
-	<gtGsInspectorPresentationOrder: 14>
 	
 	^ aComposite table
 		title: [ 'Details' ];
