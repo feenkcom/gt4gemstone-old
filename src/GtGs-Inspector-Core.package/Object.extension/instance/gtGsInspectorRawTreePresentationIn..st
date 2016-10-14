@@ -1,6 +1,6 @@
 *GtGs-Inspector-Core
 gtGsInspectorRawTreePresentationIn: aComposite
-	"<gtGsInspectorPresentationOrder: 6>"
+	"<gtInspectorPresentationOrder: 6>"
 	
 	^ aComposite tree
 		title: [ 'Raw' ];
@@ -10,4 +10,5 @@ gtGsInspectorRawTreePresentationIn: aComposite
 			anAssociation value gtGsVariableValuePairsWithSelfIf: false ];
 		format: [ :anAssociation | anAssociation key, ':  ', anAssociation value gtGsInspectorName ];
 		iconIdBlock: [ :anAssociation | anAssociation value class gtGsClassIconId ];
-		send: [ :anAssociation | anAssociation value ]
+		send: [ :anAssociation | anAssociation value ];
+		when: [ self gtGsIsGemstone ]

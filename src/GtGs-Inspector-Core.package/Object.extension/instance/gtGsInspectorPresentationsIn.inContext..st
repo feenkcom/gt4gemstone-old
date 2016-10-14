@@ -2,7 +2,7 @@
 gtGsInspectorPresentationsIn: aComposite inContext: aContext
 	| pragmas |
 	pragmas := Pragma
-		allNamed: #gtGsInspectorPresentationOrder:
+		allNamed: #gtInspectorPresentationOrder:
 		from: (Reflection classOf: self)
 		to: Object
 		sortedUsing: [ :x :y | (x argumentAt: 1) < (y argumentAt: 1) ].
