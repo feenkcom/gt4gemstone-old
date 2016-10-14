@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.7' message 'no actions for the moment for the gemstone inspector' id 'cd9f2742-1016-42bc-b9b0-8dcbfab8d6c1' date '14 October 2016' time '2:08:28.186903 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.6' message 'basic api for opening the inspector
-' id '3e9b7c20-3fcc-5713-a29d-c73012b5b7fc' date '14 October 2016' time '1:50:10 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-TravisCI.2' message 'removed prototype inspector' id '808e9027-c404-4fd9-97ec-d6734640b238' date '14 October 2016' time '3:57:48.88531 pm' author 'TravisCI' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.1' message 'Renamed the sources folder from repository to src
+' id 'b8869262-bc85-5cc0-8f77-7edaead5e2c7' date '14 October 2016' time '2:31:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

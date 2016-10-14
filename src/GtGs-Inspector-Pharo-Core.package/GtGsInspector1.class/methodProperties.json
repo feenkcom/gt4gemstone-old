@@ -1,9 +1,0 @@
-{
-	"class" : {
-		"withClient:" : "AndreiChis 10/3/2016 17:06" },
-	"instance" : {
-		"actOnBrowserClosing:" : "AndreiChis 10/7/2016 16:41",
-		"actOnPaneRemoved:" : "AndreiChis 10/7/2016 16:41",
-		"actOnPaneReplaced:" : "AndreiChis 10/7/2016 16:40",
-		"compose" : "AndreiChis 10/10/2016 15:52",
-		"initializeClient:" : "AndreiChis 10/3/2016 17:05" } }
