@@ -1,6 +1,6 @@
 *GtGs-Inspector-Core
 gtGsInspectorRawTablePresentationIn: aComposite
-	<gtInspectorPresentationOrder: 5>
+	<gtInspectorPresentationOrder: 10>
 
 	^ aComposite table
 		title: [ 'Raw' ];
