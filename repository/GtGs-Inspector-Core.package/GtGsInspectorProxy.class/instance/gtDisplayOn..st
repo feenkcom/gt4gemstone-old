@@ -1,3 +1,3 @@
-as yet unclassified
+printing
 gtDisplayOn: stream
 	stream nextPutAll: title

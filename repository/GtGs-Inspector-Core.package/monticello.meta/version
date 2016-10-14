@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.17' message 'disabled gtGsInspectorRawTablePresentationIn:' id 'ab1c5401-bc89-485d-a01c-08a14dec34b2' date '13 October 2016' time '1:32:16.556045 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.16' message 'updated the state presentation for Client Forwarder
-' id '02180ef3-2641-5a3d-9a65-36e827baa795' date '13 October 2016' time '11:49:07 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.18' message 'categorized methods' id '7f046fff-f5c1-4b86-9c72-3e8a2e2088a3' date '14 October 2016' time '2:07:47.977224 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.17' message 'disabled gtGsInspectorRawTablePresentationIn:
+' id '759f2c04-0fac-5766-bec1-c361cc01fd8a' date '13 October 2016' time '1:32:18 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
