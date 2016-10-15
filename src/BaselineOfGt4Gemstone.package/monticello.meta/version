@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.2' message 'added GtGs-Inspector-Tests to baseline' id '08679273-836a-44e3-abba-3fe18f0a83db' date '15 October 2016' time '1:07:02.095777 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.1' message 'Renamed the sources folder from repository to src
-' id 'e914dd1b-bb30-5c5f-8d34-c9b2fdab9d4b' date '14 October 2016' time '2:31:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.3' message 'fixed baseline for gemstone' id '17bba67f-346c-49c1-abfb-b4b0a948d219' date '15 October 2016' time '1:19:38.230315 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.2' message 'added GtGs-Inspector-Tests to baseline
+' id '39089b20-23c8-5a35-b034-db15d309a0a2' date '15 October 2016' time '1:07:02 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
