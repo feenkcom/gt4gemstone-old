@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.6' message 'added Details presentation for Integer objects' id 'cf902f27-622a-4949-99b0-ac3f88a5bcee' date '15 October 2016' time '3:33:10.869852 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.5' message 'set the gemstone client to a gemstone presentation when the client is set to the proxy
-' id 'c66c47ae-0e6e-5687-82e2-49d00c8002eb' date '15 October 2016' time '12:53:10 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.7' message 'added #performStringAndBuildProxyFor:' id '91ac6916-e8c3-48b7-aec9-62081518af33' date '15 October 2016' time '3:48:36.187887 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.6' message 'added Details presentation for Integer objects
+' id '113e51a1-efd5-5482-827b-bfc2b703e1e2' date '15 October 2016' time '3:33:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
