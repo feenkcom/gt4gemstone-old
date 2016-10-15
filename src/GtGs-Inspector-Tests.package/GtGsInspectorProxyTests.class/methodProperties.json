@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"client" : "AndreiChis 10/15/2016 12:15",
+		"debugMode" : "AndreiChis 10/15/2016 12:15",
+		"sessionDescription" : "AndreiChis 10/15/2016 12:14",
+		"setUp" : "AndreiChis 10/15/2016 12:14",
+		"tearDown" : "AndreiChis 10/15/2016 12:14",
+		"testRemoteProxyInitialization" : "AndreiChis 10/15/2016 12:38",
+		"testStatePresentationContent" : "AndreiChis 10/15/2016 12:47",
+		"testStatePresentationStructure" : "AndreiChis 10/15/2016 12:46" } }
