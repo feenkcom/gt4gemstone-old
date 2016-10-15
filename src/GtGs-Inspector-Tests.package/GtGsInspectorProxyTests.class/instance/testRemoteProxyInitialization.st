@@ -1,8 +1,8 @@
-running
+testing
 testRemoteProxyInitialization
 	| inspectorProxy |
 	
-	inspectorProxy := self client buildRemoteInspectorProxyFrom: '42'.
+	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.
 	
 	self assert: inspectorProxy ~= nil. 
 	self assert: inspectorProxy gemstoneClient equals: self client. 

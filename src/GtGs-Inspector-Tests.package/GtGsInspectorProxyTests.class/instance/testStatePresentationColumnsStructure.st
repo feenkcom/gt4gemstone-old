@@ -1,8 +1,8 @@
-running
-testStatePresentationStructure
+testing
+testStatePresentationColumnsStructure
 	| inspectorProxy statePresentation |
 	
-	inspectorProxy := self client buildRemoteInspectorProxyFrom: '42'.
+	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.
 	self assert: inspectorProxy gsPresentations size equals: 1.
 	
 	statePresentation :=inspectorProxy gsPresentations first.

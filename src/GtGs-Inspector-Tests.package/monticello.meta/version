@@ -1,1 +1,2 @@
-(name 'GtGs-Inspector-Tests-AndreiChis.1' message 'first tests for the inspector' id '89cb7051-93cb-4f59-a28e-fe3464f32f33' date '15 October 2016' time '12:56:30.229917 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Inspector-Tests-AndreiChis.2' message 'improved tests' id '2fe3ee55-c169-40c1-8440-2f2d72a20677' date '15 October 2016' time '1:46:28.108429 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Tests-AndreiChis.1' message 'first tests for the inspector
+' id '0c46cc4e-a99f-5ae4-a247-450c7ef01c61' date '15 October 2016' time '12:56:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
