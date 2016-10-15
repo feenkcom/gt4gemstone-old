@@ -1,8 +1,10 @@
 {
 	"class" : {
+		"forDefaultSessionDescription" : "AndreiChis 10/15/2016 12:54",
 		"forSessionDescriptionNamed:" : "AndreiChis 10/14/2016 10:27",
 		"inspectorExampleScript" : "AndreiChis 10/14/2016 13:47" },
 	"instance" : {
+		"buildRemoteInspectorProxyFrom:" : "AndreiChis 10/15/2016 12:27",
 		"performStringRemotely:" : "TravisCI 10/14/2016 16:46",
-		"performStringRemotelyAndInspect:" : "AndreiChis 10/14/2016 10:38",
+		"performStringRemotelyAndInspect:" : "AndreiChis 10/15/2016 12:27",
 		"todeServerCreationStringWithOptions:" : "AndreiChis 10/7/2016 15:24" } }
