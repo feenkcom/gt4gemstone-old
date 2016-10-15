@@ -53,7 +53,7 @@ baseline: spec
 			group: 'Core'
 				with: #('GtGs-Inspector-Core');
 			group: 'Tests'
-				with: #('GtGs-Inspector-Tests' 'GtGs-Test-AddressBook-Model');
+				with: #('GtGs-Inspector-Tests');
 			group: 'Examples'
-				with: #('GtGs-Inspector-Tests' 'GtGs-Test-AddressBook-Model');
+				with: #('GtGs-Examples-AddressBook-Model');
 			group: 'default' with: #('Core' 'Tests' 'Examples')  ]
