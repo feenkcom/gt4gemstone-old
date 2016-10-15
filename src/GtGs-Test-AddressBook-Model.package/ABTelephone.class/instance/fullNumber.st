@@ -1,4 +1,0 @@
-accessing
-fullNumber
-
-	^ '+',prefix,'-',number

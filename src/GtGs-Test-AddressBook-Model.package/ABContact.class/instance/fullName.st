@@ -1,3 +1,0 @@
-accessing
-fullName
-	^firstName, ' ',lastName
