@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Examples-AddressBook-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ABContactGenerator",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

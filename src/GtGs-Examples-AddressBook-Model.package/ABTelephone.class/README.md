@@ -1,0 +1,1 @@
+I model a simple telefon number

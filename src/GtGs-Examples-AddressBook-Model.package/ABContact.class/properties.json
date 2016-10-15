@@ -1,0 +1,18 @@
+{
+	"category" : "GtGs-Examples-AddressBook-Model",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 1/28/2015 00:37",
+	"instvars" : [
+		"address",
+		"firstName",
+		"lastName",
+		"avatarId",
+		"description" ],
+	"name" : "ABContact",
+	"pools" : [
+		 ],
+	"super" : "ABDomainObject",
+	"type" : "normal" }
