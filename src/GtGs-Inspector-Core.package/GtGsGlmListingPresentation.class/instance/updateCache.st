@@ -1,4 +1,4 @@
 updating
 updateCache
 	super updateCache.
-	self updateDisplayNodes
+	self updateDisplayValue

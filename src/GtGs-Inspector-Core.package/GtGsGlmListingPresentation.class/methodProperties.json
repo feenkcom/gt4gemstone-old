@@ -2,18 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildDisplayNodeFor:" : "AndreiChis 10/9/2016 16:48",
+		"buildDisplayNodeFor:" : "TravisCI 10/15/2016 22:50",
 		"buildDisplayNodesFor:" : "AndreiChis 10/12/2016 18:51",
 		"computeAllChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
 		"computeAndUpdateChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
-		"computeDisplayNodes" : "AndreiChis 10/13/2016 10:18",
-		"excludedInstVarNames" : "AndreiChis 10/9/2016 16:47",
-		"format:" : "AndreiChis 10/12/2016 19:45",
-		"formatBlock" : "AndreiChis 10/5/2016 14:11",
-		"formatBlock:" : "AndreiChis 10/5/2016 14:11",
+		"computeDisplayValue" : "TravisCI 10/15/2016 23:08",
+		"excludedInstVarNames" : "TravisCI 10/15/2016 22:18",
 		"iconIdBlock" : "AndreiChis 10/6/2016 16:55",
 		"iconIdBlock:" : "AndreiChis 10/6/2016 16:55",
 		"listNodeClass" : "AndreiChis 10/6/2016 16:53",
-		"updateCache" : "AndreiChis 10/13/2016 10:18",
-		"updateDisplayNodes" : "AndreiChis 10/13/2016 10:18",
+		"updateCache" : "TravisCI 10/15/2016 23:08",
+		"updateDisplayValue" : "TravisCI 10/15/2016 23:08",
 		"updateUninitializedBlocks" : "AndreiChis 10/9/2016 17:51" } }

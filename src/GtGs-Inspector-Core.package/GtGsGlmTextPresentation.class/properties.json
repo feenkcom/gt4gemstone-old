@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "GtGsGlmCodePresentation",
+	"name" : "GtGsGlmTextPresentation",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmPresentation",
+	"super" : "GtGsGlmFormattedPresentation",
 	"type" : "normal" }

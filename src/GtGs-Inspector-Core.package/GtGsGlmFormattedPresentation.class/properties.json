@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconIdBlock" ],
-	"name" : "GtGsGlmListingPresentation",
+		"formatBlock" ],
+	"name" : "GtGsGlmFormattedPresentation",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmFormattedPresentation",
+	"super" : "GtGsGlmPresentation",
 	"type" : "normal" }

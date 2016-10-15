@@ -1,0 +1,1 @@
+This is the root surrogate presentation that lives in Gemstone. Its subclasses duplicate the interface from the Glamour presentations and they know how to serialize the information needed for displaying the Glamour presentation on the client.
