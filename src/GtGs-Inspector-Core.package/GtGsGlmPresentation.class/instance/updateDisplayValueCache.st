@@ -1,7 +1,7 @@
 updating
-updateDisplayValue
+updateDisplayValueCache
 	| currentObjects |
 	currentObjects := self displayBlock value.
 	self 
 		cacheAt: #'displayValue' 
-		put: (self buildDisplayNodesFor: currentObjects)
+		put: (self buildDisplayValueFor: currentObjects)

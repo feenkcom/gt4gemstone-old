@@ -1,4 +1,4 @@
 callbacks
 computeDisplayValue
-	self updateDisplayValue.
+	self updateDisplayValueCache.
 	^ self serializer toString: (self cacheAt: #'displayValue')

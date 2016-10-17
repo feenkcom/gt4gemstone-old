@@ -4,13 +4,11 @@
 	"instance" : {
 		"buildDisplayNodeFor:" : "AndreiChis 10/17/2016 11:35",
 		"buildDisplayNodesFor:" : "AndreiChis 10/12/2016 18:51",
+		"buildDisplayValueFor:" : "AndreiChis 10/17/2016 11:47",
 		"computeAllChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
 		"computeAndUpdateChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
-		"computeDisplayValue" : "AndreiChis 10/17/2016 11:37",
 		"excludedInstVarNames" : "TudorGirba 10/15/2016 23:12:24",
 		"iconIdBlock" : "AndreiChis 10/6/2016 16:55",
 		"iconIdBlock:" : "AndreiChis 10/6/2016 16:55",
 		"listNodeClass" : "AndreiChis 10/6/2016 16:53",
-		"updateCache" : "TudorGirba 10/15/2016 23:12:24",
-		"updateDisplayValue" : "AndreiChis 10/17/2016 11:37",
 		"updateUninitializedBlocks" : "AndreiChis 10/9/2016 17:51" } }
