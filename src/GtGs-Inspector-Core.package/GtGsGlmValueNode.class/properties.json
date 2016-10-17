@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconId" ],
-	"name" : "GtGsGlmListNode",
+		"selfOop",
+		"formattedValue",
+		"targetObject" ],
+	"name" : "GtGsGlmValueNode",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmValueNode",
+	"super" : "Object",
 	"type" : "normal" }
