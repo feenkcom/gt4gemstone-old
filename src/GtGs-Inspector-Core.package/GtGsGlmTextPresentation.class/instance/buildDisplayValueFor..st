@@ -1,5 +1,5 @@
 private
 buildDisplayValueFor: anObject
 
-	^ GtGsGlmValueNode
+	^ GtGsGlmValueNode new
 		formattedValue: (self formatBlock value: anObject) 
