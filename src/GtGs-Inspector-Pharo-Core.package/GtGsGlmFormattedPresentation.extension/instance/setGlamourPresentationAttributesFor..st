@@ -2,4 +2,4 @@
 setGlamourPresentationAttributesFor: aPresentation 
 	super setGlamourPresentationAttributesFor: aPresentation.
 	aPresentation
-		format: [ :aListNode | aListNode displayValue ]
+		format: [ :aListNode | aListNode formattedValue ]
