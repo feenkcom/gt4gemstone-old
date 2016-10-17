@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildDisplayValueFor:" : "AndreiChis 10/17/2016 11:47",
+		"buildDisplayValueFor:" : "AndreiChis 10/17/2016 12:11:45",
 		"cache" : "AndreiChis 10/5/2016 17:22",
 		"cacheAt:" : "AndreiChis 10/5/2016 18:02",
 		"cacheAt:ifAbsentPut:" : "AndreiChis 10/5/2016 18:02",
 		"cacheAt:put:" : "AndreiChis 10/5/2016 18:02",
-		"computeDisplayValue" : "AndreiChis 10/17/2016 11:45",
+		"computeDisplayValue" : "AndreiChis 10/17/2016 12:11:45",
 		"computeInspectorProxyAndTransformSelectionFor:" : "AndreiChis 10/9/2016 18:54",
 		"computeTitle" : "AndreiChis 10/13/2016 10:16",
 		"display:" : "AndreiChis 10/12/2016 19:44",
@@ -30,8 +30,8 @@
 		"title:" : "AndreiChis 10/12/2016 19:43",
 		"titleBlock" : "AndreiChis 10/5/2016 14:01",
 		"titleBlock:" : "AndreiChis 10/5/2016 14:01",
-		"updateCache" : "AndreiChis 10/17/2016 11:45",
-		"updateDisplayValueCache" : "AndreiChis 10/17/2016 11:46",
+		"updateCache" : "AndreiChis 10/17/2016 12:11:45",
+		"updateDisplayValueCache" : "AndreiChis 10/17/2016 12:11:45",
 		"updateTitleCache" : "AndreiChis 10/13/2016 10:16",
-		"updateUninitializedBlocks" : "AndreiChis 10/17/2016 13:58",
-		"when:" : "AndreiChis 10/14/2016 18:48" } }
+		"updateUninitializedBlocks" : "AndreiChis 10/17/2016 14:06:30",
+		"when:" : "AndreiChis 10/15/2016 12:53:10" } }
