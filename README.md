@@ -19,6 +19,18 @@ Open a Pharo Playground and execute:
 
 This opens a specialized Playground that works remotely with Gemstone. You can see that it is distinct because it has a blue border.
 
+##Screenshots
+
+<img src="doc/raw-inspector.png"/>
+
+<img src="doc/dictionary-inspector.png"/>
+
+<img src="doc/custom-inspector.png"/>
+
+<img src="doc/string-inspector.png"/>
+
+
+
 ##Utility scripts
 
 Updating the code of gt4gemstone in a Gemstone stone:
