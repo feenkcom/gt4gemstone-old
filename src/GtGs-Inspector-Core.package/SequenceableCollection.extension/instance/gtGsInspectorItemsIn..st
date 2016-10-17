@@ -12,4 +12,5 @@ gtGsInspectorItemsIn: aComposite
 		column: 'Index' evaluated: [ :anAssociation | 
 			anAssociation key asString ] width: 50;
 		column: 'Item' evaluated: [ :anAssociation | 
-			anAssociation value gtGsInspectorName ]
+			anAssociation value gtGsInspectorName ];
+		send: [ :anAssociation | anAssociation value ]
