@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-TravisCI.8' message 'added extensions to core' id '5a0a35a8-99a4-4122-aa53-a31dea7b8acf' date '17 October 2016' time '3:35:21.869932 pm' author 'TravisCI' ancestors ((name 'BaselineOfGt4Gemstone-TudorGirba.7' message 'added extensions to gemstone
-' id '9226bfe0-cdbf-51e0-a9b5-524a351bdd60' date '17 October 2016' time '3:32:56 pm' author 'TudorGirba' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.9' message 'Added GtGs-Playground-Pharo-Core to the baseline for pharo.' id '9c307cda-d8a5-4d0c-92ba-a7349c28a749' date '17 October 2016' time '5:33:44.513479 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-TudorGirba.8' message 'added extensions to core
+' id '2c4da2e0-24cd-5192-bf6b-272e11524ed2' date '17 October 2016' time '3:35:23 pm' author 'TudorGirba' ancestors () stepChildren ())) stepChildren ())

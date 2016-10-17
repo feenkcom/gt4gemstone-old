@@ -30,13 +30,14 @@ baseline: spec
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Inspector-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Examples-AddressBook-Model';
 			package: 'GtGs-Examples-AddressBook-Extensions-Pharo' with: [ spec requires: #('GtGs-Examples-AddressBook-Model') ].
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core');
+				with: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Tests');
 			group: 'Examples'
