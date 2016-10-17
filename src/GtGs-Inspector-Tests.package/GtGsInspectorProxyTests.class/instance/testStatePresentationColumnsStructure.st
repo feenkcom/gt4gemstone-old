@@ -12,7 +12,7 @@ testStatePresentationColumnsStructure
 	self assert: statePresentation columns size equals: 2.
 	
 	self assert: (statePresentation cache includesKey: #title).
-	self assert: (statePresentation cache includesKey: #displayNodes).
+	self assert: (statePresentation cache includesKey: #displayValue).
 	
 	self assert: statePresentation columns first titleCache equals: 'Variable'.
 	self assert: statePresentation columns second titleCache equals: 'Value'.
