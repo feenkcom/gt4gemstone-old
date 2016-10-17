@@ -1,3 +1,3 @@
-accessing - actions
+accessing-actions
 defaultSelectionActions
 	^ self remoteExecutionSelectionActions, self localExecutionSelectionActions

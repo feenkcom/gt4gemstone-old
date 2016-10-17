@@ -1,1 +1,2 @@
-(name 'GtGs-Playground-Pharo-Core-AndreiChis.1' message 'Basic version of the Playground.' id '9380b509-8e1e-4274-8bfb-09ca1c535595' date '17 October 2016' time '5:30:08.25997 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Playground-Pharo-Core-AndreiChis.2' message 'Made ''Do it and go'' work (in a hacky way)' id '2ed96e52-8523-4eef-ac43-fd58a6e86c78' date '17 October 2016' time '6:08:46.530976 pm' author 'AndreiChis' ancestors ((name 'GtGs-Playground-Pharo-Core-AndreiChis.1' message 'Basic version of the Playground.
+' id 'f767cd65-dc73-5ad5-b2f3-d01fc3a52b49' date '17 October 2016' time '5:30:08 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

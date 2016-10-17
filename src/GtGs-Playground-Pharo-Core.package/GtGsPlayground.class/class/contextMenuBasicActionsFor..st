@@ -1,4 +1,4 @@
-as yet unclassified
+menu
 contextMenuBasicActionsFor: aPlayground
 	
 	^ aPlayground defaultSelectionActions
