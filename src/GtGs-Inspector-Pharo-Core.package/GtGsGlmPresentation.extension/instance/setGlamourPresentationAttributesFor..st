@@ -1,2 +1,15 @@
 *GtGs-Inspector-Pharo-Core
 setGlamourPresentationAttributesFor: aPresentation 
+
+	aPresentation
+		title: [
+			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #'computeTitle' ] ];
+		display: [ 
+			self cacheAt: #'displayValue' ifAbsentPut: [ self executeRemotely: #computeDisplayValue ] ];
+		send: [ :aListNode ||serializedProxy|
+			serializedProxy := self 
+				executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
+				withArguments: { aListNode selfOop }.
+			serializedProxy
+				gemstoneClient: self gemstoneClient;
+				yourself ]
