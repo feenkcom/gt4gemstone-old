@@ -1,5 +1,5 @@
 # gt4gemstone
-The Glamorous Toolkit for remote work with Gemstone/S
+gt4gemstone is the Glamorous Toolkit for remote work with Gemstone/S. It is a project developed by feenk.com.
 
 ## Installation
 
@@ -13,7 +13,7 @@ After installing [GsDevKit](https://github.com/GsDevKit/GsDevKit_home#installati
 
 Open a Pharo Playground and execute:
 
-    gtClient := GtGsMinimalClient forSessionDescriptionNamed: SCIGemStoneServerConfigSpec defaultSessionName.
+    gtClient := GtGsMinimalClient forDefaultSessionDescription.
     gsPlayground := (GtGsPlayground forGemstoneClient: gtClient).
     gsPlayground openEmpty.
 
