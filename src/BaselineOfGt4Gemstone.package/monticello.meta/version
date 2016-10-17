@@ -1,7 +1,2 @@
-(name 'BaselineOfGt4Gemstone-TravisCI.7' message 'added extensions to gemstone' id 'a537defd-065f-443f-b8a1-eac363038029' date '17 October 2016' time '3:32:55.998432 pm' author 'TravisCI' ancestors ((name 'BaselineOfGt4Gemstone-TudorGirba.6' message 'added extensions
-' id '57689f72-03dd-588a-8f26-e6cc1a682058' date '17 October 2016' time '3:28:01 pm' author 'TudorGirba' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.5' message 'fixed gemstone baseline
-' id 'ec69de08-066d-5063-a585-5e9cd1fccf23' date '15 October 2016' time '3:21:10 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.4' message 'removed Tugrik dependency
-' id '15f3db48-bfbe-576b-997b-b87203145f5d' date '15 October 2016' time '3:17:16 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.3' message 'fixed baseline for gemstone
-' id 'fef227dd-a51a-51ff-90cc-04121eec35a5' date '15 October 2016' time '1:19:39 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.2' message 'added GtGs-Inspector-Tests to baseline
-' id '39089b20-23c8-5a35-b034-db15d309a0a2' date '15 October 2016' time '1:07:02 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.1' message 'Renamed the sources folder from repository to src
-' id 'e914dd1b-bb30-5c5f-8d34-c9b2fdab9d4b' date '14 October 2016' time '2:31:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-TravisCI.8' message 'added extensions to core' id '5a0a35a8-99a4-4122-aa53-a31dea7b8acf' date '17 October 2016' time '3:35:21.869932 pm' author 'TravisCI' ancestors ((name 'BaselineOfGt4Gemstone-TudorGirba.7' message 'added extensions to gemstone
+' id '9226bfe0-cdbf-51e0-a9b5-524a351bdd60' date '17 October 2016' time '3:32:56 pm' author 'TudorGirba' ancestors () stepChildren ())) stepChildren ())

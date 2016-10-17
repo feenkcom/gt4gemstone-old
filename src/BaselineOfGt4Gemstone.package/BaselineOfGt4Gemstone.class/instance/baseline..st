@@ -53,7 +53,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Inspector-Core');
+				with: #('GtGs-Inspector-Core' 'GtGs-Inspector-Extensions');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Tests');
 			group: 'Examples'
