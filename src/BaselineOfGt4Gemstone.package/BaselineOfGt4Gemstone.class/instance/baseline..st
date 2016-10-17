@@ -48,6 +48,7 @@ baseline: spec
 		spec
 			package: 'GtGs-Inspector-Core';
 			package: 'GtGs-Inspector-Tests' with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Examples-AddressBook-Model'.
 			
 		spec
