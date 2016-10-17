@@ -13,4 +13,5 @@ gtGsInspectorItemsIn: aComposite
 			anAssociation key asString ] width: 50;
 		column: 'Item' evaluated: [ :anAssociation | 
 			anAssociation value gtGsInspectorName ];
-		send: [ :anAssociation | anAssociation value ]
+		send: [ :anAssociation | anAssociation value ];
+		when: [ self gtGsIsGemstone ]
