@@ -20,7 +20,7 @@ remoteExecutionSelectionActions
 				title: 'Inspect it (remote)'; 
 				action: [ :aPresentation |
 					aPresentation highlightAndDo: [ :selectedText |
-						(self gemstoneClient buildRemoteInspectorProxyFrom: selectedText) inspect ] ];  
+						(self gemstoneClient buildRemoteInspectorProxyFrom: selectedText) ] ];  
 				keymap: PharoShortcuts current inspectItShortcut; 
 				icon: GLMUIThemeExtraIcons glamorousInspect;
 				withSeparatorAfter;
