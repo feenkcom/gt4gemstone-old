@@ -1,2 +1,3 @@
-(name 'GtGs-Playground-Pharo-Core-AndreiChis.2' message 'Made ''Do it and go'' work (in a hacky way)' id '2ed96e52-8523-4eef-ac43-fd58a6e86c78' date '17 October 2016' time '6:08:46.530976 pm' author 'AndreiChis' ancestors ((name 'GtGs-Playground-Pharo-Core-AndreiChis.1' message 'Basic version of the Playground.
-' id 'f767cd65-dc73-5ad5-b2f3-d01fc3a52b49' date '17 October 2016' time '5:30:08 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Playground-Pharo-Core-AndreiChis.3' message 'added openContents:' id 'c3ddd0de-0d0c-419b-9cbc-c82c8a2d5ebd' date '17 October 2016' time '6:15:31.130244 pm' author 'AndreiChis' ancestors ((name 'GtGs-Playground-Pharo-Core-AndreiChis.2' message 'Made ''Do it and go'' work (in a hacky way)
+' id '4840326f-dc5a-554f-982e-f24eefa52741' date '17 October 2016' time '6:08:47 pm' author 'AndreiChis' ancestors ((name 'GtGs-Playground-Pharo-Core-AndreiChis.1' message 'Basic version of the Playground.
+' id 'f767cd65-dc73-5ad5-b2f3-d01fc3a52b49' date '17 October 2016' time '5:30:08 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())
