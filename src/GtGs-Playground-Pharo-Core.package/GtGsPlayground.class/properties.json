@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Playground-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gemstoneClient" ],
+	"name" : "GtGsPlayground",
+	"pools" : [
+		 ],
+	"super" : "GTPlayground",
+	"type" : "normal" }
