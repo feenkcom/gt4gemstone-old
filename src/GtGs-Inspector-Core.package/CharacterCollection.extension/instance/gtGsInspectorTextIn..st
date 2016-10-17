@@ -2,6 +2,6 @@
 gtGsInspectorTextIn: composite
 	<gtInspectorPresentationOrder: -10>
 	
-	composite text
+	^ composite text
 		title: 'String';
 		display: [ self truncateWithElipsisTo: 100000 ]

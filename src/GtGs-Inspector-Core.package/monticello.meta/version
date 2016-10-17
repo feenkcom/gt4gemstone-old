@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.18' message 'fixed #buildDisplayValueFor:' id '8f19a224-4544-4917-a39c-7a447b2222cc' date '17 October 2016' time '1:49:35.530742 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.17' message 'added GtGsGlmFormattedPresentation>>#updateUninitializedBlocks
-' id 'dab2c5fa-aa2e-5d9b-8845-9ddc622b583e' date '17 October 2016' time '1:48:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.19' message 'updated #updateUninitializedBlocks' id '278e1f0f-520f-4ec5-9f6e-eab1dcf8e3e3' date '17 October 2016' time '2:03:11.611782 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.18' message 'fixed #buildDisplayValueFor:
+' id 'fbc06c9b-76e5-5c4d-9289-5a0ffe47dc0a' date '17 October 2016' time '1:49:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
