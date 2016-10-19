@@ -7,9 +7,9 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 		doItReceiver: [ self ];
 		display: [  ];
 		gsAct: [ :aGsPresenntation |
-			aGsPresenntation selection: ((aGsPresenntation highlightedTextAsString)
+			aGsPresenntation selection: (GtGsInspectorProxy forObject: (aGsPresenntation highlightedTextAsString
 				 evaluateInContext: aGsPresenntation doItReceiver value
-    			 symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList) ] 
+    			 symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList))   ] 
 			on: $d 
 			entitled: 'Do it and go (remote)';
 		gsAct: [ :aGsPresenntation |
