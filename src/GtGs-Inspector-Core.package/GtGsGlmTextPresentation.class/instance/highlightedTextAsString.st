@@ -1,4 +1,4 @@
 accessing - remote
 highlightedTextAsString
 
-	^ self requestToPharoFor: #highlightedTextAsString
+	^ self requestToPharoPresentationFor: #highlightedTextAsString 
