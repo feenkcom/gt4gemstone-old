@@ -8,7 +8,7 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 		display: [  ];
 		gsAct: [ :aGsPresenntation |
 			(aGsPresenntation highlightedTextAsString)
-				 evaluateInContext: aGsPresenntation doItReceiver
+				 evaluateInContext: aGsPresenntation doItReceiver value
     			 symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList ] 
 			on: $d 
 			entitled: 'Do it';

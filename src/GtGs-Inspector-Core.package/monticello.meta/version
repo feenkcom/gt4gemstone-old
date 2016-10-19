@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.26' message 'fixed GtGsGlmTextPresentation>>#requestToPharoFor:' id '2f413632-8fa0-4b17-9c04-68a85230373d' date '19 October 2016' time '8:43:23.046235 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.25' message 'added doItReceiver to GtGsGlmTextPresentation
-' id 'df5c7c7f-5139-54d1-b15a-6d79b7f7e838' date '19 October 2016' time '8:37:40 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.27' message 'small fix for #doItReceiver' id '29c6078b-eb83-43e2-b132-99a3e4973afc' date '19 October 2016' time '8:48:35.299463 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.26' message 'fixed GtGsGlmTextPresentation>>#requestToPharoFor:
+' id '069e1379-3731-521c-9c11-b72f45034bd7' date '19 October 2016' time '8:43:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
