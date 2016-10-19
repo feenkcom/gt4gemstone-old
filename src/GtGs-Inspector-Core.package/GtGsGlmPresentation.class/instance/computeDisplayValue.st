@@ -1,4 +1,4 @@
 callbacks
 computeDisplayValue
 	self updateDisplayValueCache.
-	^ self serializer toString: (self cacheAt: #'displayValue')
+	^ self topezServer objectSerializer toString: (self cacheAt: #'displayValue')

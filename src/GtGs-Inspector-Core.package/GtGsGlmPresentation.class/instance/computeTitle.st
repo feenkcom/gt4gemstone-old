@@ -1,5 +1,5 @@
 callbacks
 computeTitle
 	self updateTitleCache.
-	^ self serializer toString: (self cacheAt: #'title')
+	^ self topezServer objectSerializer toString: (self cacheAt: #'title')
 	

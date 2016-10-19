@@ -8,7 +8,8 @@ updatePresentations
 	
 	aComposite presentations do: [ :each | 
 		each 
-			serializer: self topezServer objectSerializer;
+			proxyOwner: self;
+			updateForwarder;
 			updateUninitializedBlocks;
 			updateCache ].
 

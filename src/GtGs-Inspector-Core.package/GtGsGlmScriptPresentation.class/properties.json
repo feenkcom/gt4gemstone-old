@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"withCodeExecutionActions" ],
+	"name" : "GtGsGlmScriptPresentation",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmTextPresentation",
+	"type" : "normal" }

@@ -8,8 +8,12 @@
 	"instvars" : [
 		"selfOop",
 		"cache",
-		"serializer",
+		"gsActions",
+		"proxyOwner",
 		"gemstoneClient",
+		"selfForwarder",
+		"selfForwarderOop",
+		"glamourPresentation",
 		"titleBlock",
 		"displayBlock",
 		"sendBlock" ],

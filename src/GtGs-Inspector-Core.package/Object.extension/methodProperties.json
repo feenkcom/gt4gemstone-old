@@ -3,9 +3,10 @@
 		 },
 	"instance" : {
 		"gtGsClassIconId" : "AndreiChis 10/12/2016 18:25",
+		"gtGsInspectorEvaluatorPresentationIn:" : "AndreiChis 10/19/2016 20:19",
 		"gtGsInspectorName" : "AndreiChis 10/9/2016 17:50",
-		"gtGsInspectorPresentationsIn:inContext:" : "AndreiChis 10/15/2016 12:53:10",
+		"gtGsInspectorPresentationsIn:inContext:" : "TravisCI 10/14/2016 17:57",
 		"gtGsInspectorProxy" : "AndreiChis 10/12/2016 19:51",
-		"gtGsInspectorRawTablePresentationIn:" : "AndreiChis 10/15/2016 12:53:10",
-		"gtGsInspectorRawTreePresentationIn:" : "AndreiChis 10/15/2016 12:53:10",
+		"gtGsInspectorRawTablePresentationIn:" : "AndreiChis 10/14/2016 19:19",
+		"gtGsInspectorRawTreePresentationIn:" : "TravisCI 10/14/2016 17:57",
 		"gtGsVariableValuePairsWithSelfIf:" : "AndreiChis 10/12/2016 19:53" } }

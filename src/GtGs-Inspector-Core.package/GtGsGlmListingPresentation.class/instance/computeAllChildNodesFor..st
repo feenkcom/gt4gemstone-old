@@ -2,9 +2,9 @@ callbacks
 computeAllChildNodesFor: aListOfNodeOops
 	| updatedChildNodes |
 	
-	updatedChildNodes := (self serializer fromString: aListOfNodeOops) 
+	updatedChildNodes := (self topezServer objectSerializer fromString: aListOfNodeOops) 
 		collect: [ :aNodeOop | | nodeObject |
 			nodeObject := (Object _objectForOop: aNodeOop).
 			self computeAndUpdateChildNodesFor: nodeObject.
 			nodeObject childNodes ].
-	^ self serializer toString: updatedChildNodes
+	^ self topezServer objectSerializer toString: updatedChildNodes

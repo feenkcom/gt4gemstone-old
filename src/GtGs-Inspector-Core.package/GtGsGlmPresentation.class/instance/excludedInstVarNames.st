@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  #(#'serializer' #'gemstoneClient' #'titleBlock' #'displayBlock' #'sendBlock')
+  ^  #(#'proxyOwner' #'gemstoneClient' #'selfForwarder' #'glamourPresentation' #'titleBlock' #'displayBlock' #'sendBlock')
