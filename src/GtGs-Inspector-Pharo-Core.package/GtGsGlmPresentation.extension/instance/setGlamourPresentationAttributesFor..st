@@ -12,4 +12,10 @@ setGlamourPresentationAttributesFor: aPresentation
 				withArguments: { aListNode selfOop }.
 			serializedProxy
 				gemstoneClient: self gemstoneClient;
-				yourself ]
+				yourself ].
+		
+	self gsActions withIndexDo: [ :aGsAction :anIndex |
+		aPresentation actions add:
+			(aGsAction 
+				asGlamourActionFromGsPresentation: self
+				withId: anIndex) ]
