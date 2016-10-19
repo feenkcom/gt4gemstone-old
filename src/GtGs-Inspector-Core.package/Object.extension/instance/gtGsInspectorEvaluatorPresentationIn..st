@@ -5,7 +5,7 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 	^ aComposite pharoScript
 		title: [ 'Evaluator (remote)' ];
 		doItReceiver: [ self ];
-		display: [ '' ];
+		display: [  ];
 		gsAct: [ :aGsPresenntation |
 			(aGsPresenntation highlightedTextAsString)
 				 evaluateInContext: aGsPresenntation doItReceiver
