@@ -7,6 +7,7 @@ gtGsRemoteExecutionSelectionActionsWith: aGsCodeExecutor
 					aPresentation highlightAndDo: [ :aText |
 						aPresentation selection: (aGsCodeExecutor buildRemoteInspectorProxyFrom: aText) ] ];  
 				shortcut: $g; 
+				withSeparatorBefore;
 				yourself.
 		(GLMGenericAction new) 
 				title: 'Do it (remote)';
