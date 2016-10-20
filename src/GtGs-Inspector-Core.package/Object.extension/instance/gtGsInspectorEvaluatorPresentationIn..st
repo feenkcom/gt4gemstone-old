@@ -1,11 +1,12 @@
 *GtGs-Inspector-Core
 gtGsInspectorEvaluatorPresentationIn: aComposite
-	<gtInspectorPresentationOrder: 6>
+	<gtInspectorPresentationOrder: 12>
 	
 	^ aComposite pharoScript
-		title: [ 'Evaluator (remote)' ];
+		title: [ 'Evaluator' ];
 		doItReceiver: [ self ];
 		display: [ self inspectorName ];
+		format: [ :aString | aString ];
 		gsAct: [ :aGsPresenntation |
 			aGsPresenntation selection: (GtGsInspectorProxy forObject: (aGsPresenntation highlightedTextAsString
 				 evaluateInContext: aGsPresenntation doItReceiver

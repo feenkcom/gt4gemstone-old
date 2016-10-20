@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.33' message 'added #performString: to ScriptPresentation' id '42510e95-8543-490a-bb17-1d3bfde697c1' date '20 October 2016' time '12:05:58.346436 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.32' message 'added custom API for executing code in a context
-' id '0fe38aab-97ec-5ac5-a013-b333767885c1' date '20 October 2016' time '11:58:42 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.34' message '- basic support for storing the name of class in the cache for a script presentation' id 'bcdc1182-2644-44cc-b95c-1420646bb5e1' date '20 October 2016' time '5:23:29.048149 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.33' message 'added #performString: to ScriptPresentation
+' id 'eee72953-d37a-50a0-a5da-ce9caeab6d6d' date '20 October 2016' time '12:06 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

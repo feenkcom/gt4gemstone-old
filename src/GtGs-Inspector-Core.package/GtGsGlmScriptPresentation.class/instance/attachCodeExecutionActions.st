@@ -1,4 +1,4 @@
-as yet unclassified
+scripting
 attachCodeExecutionActions
 
 	withCodeExecutionActions := true 
