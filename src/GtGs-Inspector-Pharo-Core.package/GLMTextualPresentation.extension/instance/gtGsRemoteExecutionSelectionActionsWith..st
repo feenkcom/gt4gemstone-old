@@ -19,6 +19,7 @@ gtGsRemoteExecutionSelectionActionsWith: aGsCodeExecutor
 		(GLMGenericAction new) 
 				title: 'Inspect it (remote)'; 
 				action: [ :aPresentation |
+					self halt.
 					aPresentation highlightAndDo: [ :aText |
 						(aGsCodeExecutor buildRemoteInspectorProxyFrom: aText) inspect ] ];  
 				keymap: PharoShortcuts current inspectItShortcut; 

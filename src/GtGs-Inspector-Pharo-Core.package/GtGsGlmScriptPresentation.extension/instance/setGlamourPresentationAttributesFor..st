@@ -7,10 +7,10 @@ setGlamourPresentationAttributesFor: aPresentation
 			addAll: (aPresentation gtGsRemoteExecutionSelectionActionsWith: self);
 			addAll: aPresentation gtGsLocalExecutionSelectionActions.
 
-		aPresentation display: [ 
+		aPresentation format: [ :aListNode |
 			String streamContents: [ :stream | 
 				stream 
-					nextPutAll: self obtainDisplayValue asComment;
+					nextPutAll: aListNode formattedValue asComment;
 					cr;
 					nextPutAll: (GTSnippets snippetAt: (self cacheAt: #className)) ] ].
 			
