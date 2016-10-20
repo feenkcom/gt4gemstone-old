@@ -34,5 +34,6 @@ gtGsLocalExecutionSelectionActions
 				title: 'Profile it (local)'; 
 				action: [ :aPresentation |
 					aPresentation profileSelection ]; 
+				withSeparatorAfter;
 				yourself.
 		 }

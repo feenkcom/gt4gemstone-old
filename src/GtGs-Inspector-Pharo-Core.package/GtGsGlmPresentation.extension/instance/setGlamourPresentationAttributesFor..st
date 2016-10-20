@@ -22,4 +22,10 @@ setGlamourPresentationAttributesFor: aPresentation
 		aPresentation actions add:
 			(aGsAction 
 				asGlamourActionFromGsPresentation: self
+				withId: anIndex) ].
+			
+	self gsSelectionActions withIndexDo: [ :aGsAction :anIndex |
+		aPresentation selectionActions add:
+			(aGsAction 
+				asGlamourActionFromGsPresentation: self
 				withId: anIndex) ]

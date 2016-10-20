@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.22' message 'Append the text stored by GTSnippet in the format block' id 'b4f4063a-a611-4343-a4bd-6dd08a413220' date '20 October 2016' time '5:42:53.41488 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.21' message 'linked the Evaluator with GTSnippets
-' id '40928090-821d-5f37-b03b-2122027408ea' date '20 October 2016' time '5:24:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.23' message 'load also remote selection actions for a presentation' id '4b6c7c85-fa42-47dc-afba-d2f9c25182c7' date '20 October 2016' time '5:49:09.823704 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.22' message 'Append the text stored by GTSnippet in the format block
+' id 'cbf9625f-7489-5863-9991-b35a001c87d7' date '20 October 2016' time '5:42:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
