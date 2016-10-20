@@ -1,15 +1,13 @@
 {
 	"class" : {
-		"contextMenuBasicActionsFor:" : "AndreiChis 10/17/2016 18:08:47",
-		"forGemstoneClient:" : "AndreiChis 10/17/2016 18:08:47" },
+		"contextMenuBasicActionsFor:" : "AndreiChis 10/17/2016 16:56",
+		"forGemstoneClient:" : "AndreiChis 10/17/2016 16:44" },
 	"instance" : {
-		"codeIn:" : "AndreiChis 10/17/2016 18:08:47",
-		"compose" : "TravisCI 10/17/2016 21:21",
-		"defaultPlaygroundTitle" : "AndreiChis 10/17/2016 18:08:47",
-		"defaultSelectionActions" : "AndreiChis 10/17/2016 18:08:47",
-		"gemstoneClient" : "AndreiChis 10/17/2016 18:08:47",
-		"gemstoneClient:" : "AndreiChis 10/17/2016 18:08:47",
-		"localExecutionSelectionActions" : "AndreiChis 10/17/2016 18:08:47",
-		"openContents:" : "AndreiChis 10/17/2016 18:15:31",
-		"openEmpty" : "AndreiChis 10/17/2016 18:08:47",
-		"remoteExecutionSelectionActions" : "AndreiChis 10/17/2016 18:20:08" } }
+		"codeIn:" : "AndreiChis 10/17/2016 18:06",
+		"compose" : "TudorGirba 10/17/2016 21:22:20",
+		"defaultPlaygroundTitle" : "AndreiChis 10/17/2016 17:37",
+		"defaultSelectionActions" : "AndreiChis 10/20/2016 11:08",
+		"gemstoneClient" : "AndreiChis 10/17/2016 15:28",
+		"gemstoneClient:" : "AndreiChis 10/17/2016 15:28",
+		"openContents:" : "AndreiChis 10/17/2016 18:13",
+		"openEmpty" : "AndreiChis 10/17/2016 16:45" } }

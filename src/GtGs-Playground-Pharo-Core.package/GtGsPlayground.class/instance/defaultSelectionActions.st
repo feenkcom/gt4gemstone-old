@@ -1,3 +1,4 @@
 accessing-actions
 defaultSelectionActions
-	^ self remoteExecutionSelectionActions, self localExecutionSelectionActions
+	^ self codePresentation gtGsRemoteExecutionSelectionActionsWith: self gemstoneClient, 
+	  self codePresentation gtGsLocalExecutionSelectionActions
