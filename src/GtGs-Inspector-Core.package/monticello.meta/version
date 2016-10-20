@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.32' message 'added custom API for executing code in a context' id '99a9450a-4e64-4bbe-bdeb-50f63eb9ba7e' date '20 October 2016' time '11:58:40.86746 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.31' message 'execute code in the context returned by #doItContext
-' id 'ad2bdba5-ae30-58ac-8ec1-1c96b1bbd013' date '20 October 2016' time '11:23:37 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.33' message 'added #performString: to ScriptPresentation' id '42510e95-8543-490a-bb17-1d3bfde697c1' date '20 October 2016' time '12:05:58.346436 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.32' message 'added custom API for executing code in a context
+' id '0fe38aab-97ec-5ac5-a013-b333767885c1' date '20 October 2016' time '11:58:42 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
