@@ -9,6 +9,7 @@
 		"selfOop",
 		"cache",
 		"gsActions",
+		"gsSelectionActions",
 		"proxyOwner",
 		"gemstoneClient",
 		"selfForwarder",
