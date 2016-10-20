@@ -2,4 +2,5 @@
 	"class" : {
 		 },
 	"instance" : {
-		"performStringAndBuildProxyFor:" : "AndreiChis 10/15/2016 15:47" } }
+		"performStringAndBuildProxyFor:" : "AndreiChis 10/20/2016 11:20",
+		"performStringAndBuildProxyFor:inContext:" : "AndreiChis 10/20/2016 11:20" } }
