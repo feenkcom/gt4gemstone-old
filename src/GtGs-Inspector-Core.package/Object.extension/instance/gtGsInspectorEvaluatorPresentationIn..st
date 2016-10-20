@@ -8,15 +8,12 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 		display: [ self inspectorName ];
 		format: [ :aString | aString ];
 		gsSelectionAct: [ :aGsPresenntation |
-			aGsPresenntation selection: (GtGsInspectorProxy forObject: (aGsPresenntation highlightedTextAsString
-				 evaluateInContext: aGsPresenntation doItReceiver
-    			 symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList))   ] 
+				aGsPresenntation selection: (
+					aGsPresenntation performStringAndBuildProxyFor: aGsPresenntation highlightedTextAsString) ] 
 			on: $d 
 			entitled: 'Do it and go (experimental)';
 		gsSelectionAct: [ :aGsPresenntation |
-			(aGsPresenntation highlightedTextAsString)
-				 evaluateInContext: aGsPresenntation doItReceiver
-    			 symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList ] 
+				aGsPresenntation performString: aGsPresenntation highlightedTextAsString ] 
 			on: $d 
 			entitled: 'Do it (experimental)';
 		attachCodeExecutionActions;

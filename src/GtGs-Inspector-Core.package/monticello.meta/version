@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.36' message 'fixed bug in #gsSelectionActions' id '62e7681c-be51-4378-b8c5-6a354f22f176' date '20 October 2016' time '5:54:48.463779 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.35' message 'add several experimental actions
-' id '6976f89d-f58f-5a1a-bc85-bc54d13caea6' date '20 October 2016' time '5:48:43 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.37' message 'simplified the experimental actions' id 'fd09327f-a0ff-4ae0-9945-9b155e9cf9e2' date '20 October 2016' time '6:14:45.557037 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.36' message 'fixed bug in #gsSelectionActions
+' id '031815a2-1d16-5a22-b373-9293e54ae1e9' date '20 October 2016' time '5:54:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

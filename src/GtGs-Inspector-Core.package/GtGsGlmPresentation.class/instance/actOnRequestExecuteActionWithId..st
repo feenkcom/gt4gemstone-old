@@ -1,4 +1,5 @@
 callbacks
 actOnRequestExecuteActionWithId: anInteger
 
-	(self gsActions at: anInteger) executeForPresentation: self
+	self flag: 'For the moment only support selection actions'.
+	(self gsSelectionActions at: anInteger) executeForPresentation: self
