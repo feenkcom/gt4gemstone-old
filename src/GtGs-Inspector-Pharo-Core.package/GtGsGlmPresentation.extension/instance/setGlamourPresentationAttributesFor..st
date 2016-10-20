@@ -5,7 +5,7 @@ setGlamourPresentationAttributesFor: aPresentation
 		title: [
 			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #'computeTitle' ] ];
 		display: [ 
-			self cacheAt: #'displayValue' ifAbsentPut: [ self executeRemotely: #computeDisplayValue ] ];
+			self obtainDisplayValue ];
 		send: [ :aListNode ||serializedProxy|
 			aListNode class = GtGsInspectorProxy 
 			ifTrue: [ aListNode ]
