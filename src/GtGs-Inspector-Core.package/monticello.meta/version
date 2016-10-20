@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.37' message 'simplified the experimental actions' id 'fd09327f-a0ff-4ae0-9945-9b155e9cf9e2' date '20 October 2016' time '6:14:45.557037 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.36' message 'fixed bug in #gsSelectionActions
-' id '031815a2-1d16-5a22-b373-9293e54ae1e9' date '20 October 2016' time '5:54:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.38' message 'serialize the entire array of arguments when making request to pharo' id '438d581c-4b1c-4732-978e-6cedf7911792' date '20 October 2016' time '6:21:09.992337 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.37' message 'simplified the experimental actions
+' id 'f8e089f1-56ff-50b4-8b7f-347aed64cc78' date '20 October 2016' time '6:14:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
