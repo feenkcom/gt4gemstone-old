@@ -20,7 +20,7 @@ gtGsRemoteExecutionSelectionActionsWith: aGsCodeExecutor
 				title: 'Inspect it (remote)'; 
 				action: [ :aPresentation |
 					aPresentation highlightAndDo: [ :aText |
-						(aGsCodeExecutor buildRemoteInspectorProxyFrom: aText) ] ];  
+						(aGsCodeExecutor buildRemoteInspectorProxyFrom: aText) inspect ] ];  
 				keymap: PharoShortcuts current inspectItShortcut; 
 				icon: GLMUIThemeExtraIcons glamorousInspect;
 				withSeparatorAfter;
