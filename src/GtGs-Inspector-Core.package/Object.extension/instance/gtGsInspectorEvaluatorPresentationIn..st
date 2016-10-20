@@ -10,11 +10,11 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 		gsSelectionAct: [ :aGsPresenntation |
 				aGsPresenntation selection: (
 					aGsPresenntation performString: aGsPresenntation highlightedTextAsString) gtGsInspectorProxy ] 
-			on: $d 
+			on: nil 
 			entitled: 'Do it and go (experimental)';
 		gsSelectionAct: [ :aGsPresenntation |
 				aGsPresenntation performString: aGsPresenntation highlightedTextAsString ] 
-			on: $d 
+			on: nil
 			entitled: 'Do it (experimental)';
 		attachCodeExecutionActions;
 		when: [ self gtGsIsGemstone ]
