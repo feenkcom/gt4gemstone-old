@@ -1,4 +1,4 @@
 *GtGs-Inspector-Pharo-Core
 buildRemoteInspectorProxyFrom: aString
 
-	^ self buildRemoteInspectorProxyFrom: aString inContext: self selfOopType
+	^ self gemstoneClient buildRemoteInspectorProxyFrom: aString inContext: self selfOopType
