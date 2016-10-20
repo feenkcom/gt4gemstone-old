@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  super excludedInstVarNames, #(#'doItReceiver')
+  ^  super excludedInstVarNames, #(#'doItReceiverBlock')

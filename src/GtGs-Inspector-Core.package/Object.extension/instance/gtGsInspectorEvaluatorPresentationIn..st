@@ -5,17 +5,18 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 	^ aComposite pharoScript
 		title: [ 'Evaluator (remote)' ];
 		doItReceiver: [ self ];
-		display: [  ];
+		display: [ self inspectorName ];
 		gsAct: [ :aGsPresenntation |
 			aGsPresenntation selection: (GtGsInspectorProxy forObject: (aGsPresenntation highlightedTextAsString
-				 evaluateInContext: aGsPresenntation doItReceiver value
+				 evaluateInContext: aGsPresenntation doItReceiver
     			 symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList))   ] 
 			on: $d 
 			entitled: 'Do it and go (remote)';
 		gsAct: [ :aGsPresenntation |
 			(aGsPresenntation highlightedTextAsString)
-				 evaluateInContext: aGsPresenntation doItReceiver value
+				 evaluateInContext: aGsPresenntation doItReceiver
     			 symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList ] 
 			on: $d 
 			entitled: 'Do it (remote)';
+		attachCodeExecutionActions;
 		when: [ self gtGsIsGemstone ]

@@ -1,4 +1,4 @@
 scripting
-doItReceiver: anObject
+doItReceiver: aBlock
 
-	doItReceiver := anObject
+	self doItReceiverBlock: aBlock

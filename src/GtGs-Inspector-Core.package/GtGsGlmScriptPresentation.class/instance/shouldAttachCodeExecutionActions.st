@@ -1,4 +1,4 @@
 as yet unclassified
 shouldAttachCodeExecutionActions
 
-	withCodeExecutionActions := true 
+	^ withCodeExecutionActions ifNil:  [ false ] 

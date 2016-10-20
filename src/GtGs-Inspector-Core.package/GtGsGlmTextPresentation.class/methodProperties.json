@@ -3,7 +3,9 @@
 		 },
 	"instance" : {
 		"buildDisplayValueFor:" : "AndreiChis 10/17/2016 14:05",
-		"doItReceiver" : "AndreiChis 10/19/2016 20:35",
-		"doItReceiver:" : "AndreiChis 10/19/2016 20:34",
-		"excludedInstVarNames" : "AndreiChis 10/19/2016 20:35",
+		"doItReceiver" : "AndreiChis 10/20/2016 10:30",
+		"doItReceiver:" : "AndreiChis 10/20/2016 10:31",
+		"doItReceiverBlock" : "AndreiChis 10/20/2016 10:30",
+		"doItReceiverBlock:" : "AndreiChis 10/20/2016 10:30",
+		"excludedInstVarNames" : "AndreiChis 10/20/2016 10:30",
 		"highlightedTextAsString" : "AndreiChis 10/19/2016 20:57" } }
