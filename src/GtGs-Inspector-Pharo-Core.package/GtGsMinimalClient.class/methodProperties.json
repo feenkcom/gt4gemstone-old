@@ -6,6 +6,7 @@
 	"instance" : {
 		"buildRemoteInspectorProxyFrom:" : "AndreiChis 10/20/2016 11:14",
 		"buildRemoteInspectorProxyFrom:inContext:" : "AndreiChis 10/20/2016 11:14",
-		"performStringRemotely:" : "TravisCI 10/14/2016 16:46",
+		"performStringRemotely:" : "AndreiChis 10/20/2016 11:50",
+		"performStringRemotely:inContext:" : "AndreiChis 10/20/2016 11:49",
 		"performStringRemotelyAndInspect:" : "AndreiChis 10/15/2016 12:27",
 		"todeServerCreationStringWithOptions:" : "AndreiChis 10/7/2016 15:24" } }
