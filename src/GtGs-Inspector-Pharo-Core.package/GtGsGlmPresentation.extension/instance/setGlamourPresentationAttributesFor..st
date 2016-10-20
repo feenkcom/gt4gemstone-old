@@ -7,12 +7,16 @@ setGlamourPresentationAttributesFor: aPresentation
 		display: [ 
 			self cacheAt: #'displayValue' ifAbsentPut: [ self executeRemotely: #computeDisplayValue ] ];
 		send: [ :aListNode ||serializedProxy|
-			serializedProxy := self 
-				executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
-				withArguments: { aListNode selfOop }.
-			serializedProxy
-				gemstoneClient: self gemstoneClient;
-				yourself ].
+			aListNode class = GtGsInspectorProxy 
+			ifTrue: [ aListNode ]
+			ifFalse: [ 
+				self flag: 'A better solution is needed here'.
+				serializedProxy := self 
+					executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
+					withArguments: { aListNode selfOop }.
+				serializedProxy
+					gemstoneClient: self gemstoneClient;
+					yourself ] ].
 		
 	self gsActions withIndexDo: [ :aGsAction :anIndex |
 		aPresentation actions add:
