@@ -8,7 +8,12 @@ setGlamourPresentationAttributesFor: aPresentation
 			self obtainDisplayValue ];
 		send: [ :aListNode ||serializedProxy|
 			aListNode class = GtGsInspectorProxy 
-			ifTrue: [ aListNode ]
+			ifTrue: [ 
+				self flag: 'needed because of the experimental actions that
+				populate the selection through a call from gemstone.'.
+				aListNode gemstoneClient ifNil: [ 
+					aListNode gemstoneClient: self gemstoneClient ].
+				aListNode ]
 			ifFalse: [ 
 				self flag: 'A better solution is needed here'.
 				serializedProxy := self 
