@@ -9,7 +9,7 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 		format: [ :aString | aString ];
 		gsSelectionAct: [ :aGsPresenntation |
 				aGsPresenntation selection: (
-					aGsPresenntation performStringAndBuildProxyFor: aGsPresenntation highlightedTextAsString) ] 
+					aGsPresenntation performString: aGsPresenntation highlightedTextAsString) gtGsInspectorProxy ] 
 			on: $d 
 			entitled: 'Do it and go (experimental)';
 		gsSelectionAct: [ :aGsPresenntation |
