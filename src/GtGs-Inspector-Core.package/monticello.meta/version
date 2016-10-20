@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.35' message 'add several experimental actions' id '42a823db-0755-4f63-a2f9-fd4559d36557' date '20 October 2016' time '5:48:40.793972 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.34' message '- basic support for storing the name of class in the cache for a script presentation
-' id 'a7879003-23fe-5622-b9c7-d005da262af8' date '20 October 2016' time '5:23:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.36' message 'fixed bug in #gsSelectionActions' id '62e7681c-be51-4378-b8c5-6a354f22f176' date '20 October 2016' time '5:54:48.463779 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.35' message 'add several experimental actions
+' id '6976f89d-f58f-5a1a-bc85-bc54d13caea6' date '20 October 2016' time '5:48:43 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

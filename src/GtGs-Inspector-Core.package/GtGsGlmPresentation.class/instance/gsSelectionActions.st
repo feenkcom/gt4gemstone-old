@@ -1,4 +1,4 @@
 accessing
 gsSelectionActions
 
-	^ gsSelectionActions ifNil: [ gsActions := OrderedCollection new ]
+	^ gsSelectionActions ifNil: [ gsSelectionActions := OrderedCollection new ]
