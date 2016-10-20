@@ -1,4 +1,4 @@
 accessing ports
 selection: aValue
 
-	self requestToPharoPresentationFor: #selection: withArguments: { aValue }
+	self requestToPharoPresentationWithoutSerializedReturnFor: #selection: withArguments: { aValue }
