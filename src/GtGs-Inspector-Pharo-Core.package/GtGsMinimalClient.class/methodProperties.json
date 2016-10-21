@@ -1,12 +1,18 @@
 {
 	"class" : {
-		"forDefaultSessionDescription" : "AndreiChis 10/15/2016 12:54",
+		"forDefaultSessionDescription" : "AndreiChis 10/21/2016 17:32",
 		"forSessionDescriptionNamed:" : "AndreiChis 10/14/2016 10:27",
 		"inspectorExampleScript" : "AndreiChis 10/14/2016 13:47" },
 	"instance" : {
 		"buildRemoteInspectorProxyFrom:" : "AndreiChis 10/20/2016 11:14",
 		"buildRemoteInspectorProxyFrom:inContext:" : "AndreiChis 10/20/2016 11:14",
+		"detailedDescription" : "AndreiChis 10/21/2016 18:12",
+		"loginWith:" : "AndreiChis 10/21/2016 18:06",
 		"performStringRemotely:" : "AndreiChis 10/20/2016 11:50",
 		"performStringRemotely:inContext:" : "AndreiChis 10/20/2016 11:49",
 		"performStringRemotelyAndInspect:" : "AndreiChis 10/15/2016 12:27",
+		"printDetailedDescriptionOn:" : "AndreiChis 10/21/2016 18:13",
+		"printOn:" : "AndreiChis 10/21/2016 18:02",
+		"startTime" : "AndreiChis 10/21/2016 18:05",
+		"startTime:" : "AndreiChis 10/21/2016 18:05",
 		"todeServerCreationStringWithOptions:" : "AndreiChis 10/7/2016 15:24" } }

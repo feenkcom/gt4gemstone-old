@@ -1,14 +1,14 @@
 {
 	"category" : "GtGs-Inspector-Pharo-Core",
 	"classinstvars" : [
-		 ],
+		"uniqueInstance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"startTime" ],
-	"name" : "GtGsMinimalClient",
+		"gemstoneClients" ],
+	"name" : "GtGsSessionsLifecycleHandler",
 	"pools" : [
 		 ],
-	"super" : "TDMinimalClient",
+	"super" : "Object",
 	"type" : "normal" }

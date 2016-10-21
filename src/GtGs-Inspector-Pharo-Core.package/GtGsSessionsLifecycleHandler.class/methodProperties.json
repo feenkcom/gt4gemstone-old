@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"availableSessionDescriptions" : "AndreiChis 10/21/2016 17:28",
+		"cleanUp" : "AndreiChis 10/13/2016 11:57",
+		"createSessionDescriptionFrom:" : "AndreiChis 10/21/2016 17:29",
+		"new" : "AndreiChis 10/13/2016 11:57",
+		"newClientForSessionDescription:" : "AndreiChis 10/21/2016 17:34",
+		"reset" : "AndreiChis 10/21/2016 19:18",
+		"uniqueInstance" : "AndreiChis 10/13/2016 11:56",
+		"worldMenuOn:" : "AndreiChis 10/21/2016 19:29" },
+	"instance" : {
+		"gemstoneClients" : "AndreiChis 10/21/2016 17:35",
+		"logoutAndRemove:" : "AndreiChis 10/21/2016 18:33",
+		"terminateAllGemstoneClients" : "AndreiChis 10/21/2016 19:19" } }

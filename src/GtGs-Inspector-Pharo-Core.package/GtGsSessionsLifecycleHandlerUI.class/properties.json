@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"startTime" ],
-	"name" : "GtGsMinimalClient",
+		 ],
+	"name" : "GtGsSessionsLifecycleHandlerUI",
 	"pools" : [
 		 ],
-	"super" : "TDMinimalClient",
+	"super" : "GLMCompositePresentation",
 	"type" : "normal" }
