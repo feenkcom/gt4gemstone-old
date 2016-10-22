@@ -10,7 +10,7 @@ environment:
     - SMALLTALK: GemStone-3.3.0
 
 platform:
-  - x86
+  - x64
 
 install:
   - '%CYG_EXE% -qnNdO -R "%CYG_ROOT%" -s "%CYG_MIRROR%" -l "%CYG_CACHE%" -P unzip'
