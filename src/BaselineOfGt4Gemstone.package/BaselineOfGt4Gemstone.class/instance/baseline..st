@@ -56,8 +56,6 @@ baseline: spec
 		spec
 			group: 'Core'
 				with: #('GtGs-Inspector-Core' 'GtGs-Inspector-Extensions');
-			group: 'Tests'
-				with: #('GtGs-Common-Resources-Tests');
 			group: 'Examples'
-				with: #('GtGs-Examples-AddressBook-Model');
-			group: 'default' with: #('Core' 'Tests' 'Examples')  ]
+				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Common-Resources-Tests');
+			group: 'default' with: #('Core' 'Examples')  ]
