@@ -3,7 +3,7 @@ installSelectionActionsOn: aPresentation
 
 	aPresentation
 		selectionAct: [ :currentPresentation |
-				(GtGsPlayground forGemstoneClient: currentPresentation selection) openEmpty ] 
+				currentPresentation selection openGemstonePlayground ] 
 			entitled: 'Open Gemstone playground';
 		selectionAct: [ :currentPresentation |
 				currentPresentation selection sessionDescription inspect ] 
@@ -12,7 +12,6 @@ installSelectionActionsOn: aPresentation
 				currentPresentation selection performStringRemotelyAndInspect: 'SessionTemps' ] 
 			entitled: 'Inspect SessionTemps (remote)';
 		selectionAct: [ :currentPresentation |
-				self closeAllRemoteWindowsFor: currentPresentation selection.
 				GtGsSessionsLifecycleHandler uniqueInstance logoutAndRemove: currentPresentation selection.
 				currentPresentation update ] 
 			entitled: 'Logout'

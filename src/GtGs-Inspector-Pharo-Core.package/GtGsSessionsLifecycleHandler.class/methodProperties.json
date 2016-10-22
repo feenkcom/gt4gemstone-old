@@ -4,11 +4,14 @@
 		"cleanUp" : "AndreiChis 10/13/2016 11:57",
 		"createSessionDescriptionFrom:" : "AndreiChis 10/21/2016 17:29",
 		"new" : "AndreiChis 10/13/2016 11:57",
+		"newClientForDefaultSessionDescription" : "AndreiChis 10/22/2016 15:37",
 		"newClientForSessionDescription:" : "AndreiChis 10/21/2016 17:34",
+		"newClientForSessionDescriptionNamed:" : "AndreiChis 10/22/2016 15:35",
 		"reset" : "AndreiChis 10/21/2016 19:18",
 		"uniqueInstance" : "AndreiChis 10/13/2016 11:56",
 		"worldMenuOn:" : "AndreiChis 10/21/2016 19:29" },
 	"instance" : {
+		"closeAllRemoteWindowsFor:" : "AndreiChis 10/22/2016 15:45",
 		"gemstoneClients" : "AndreiChis 10/21/2016 17:35",
-		"logoutAndRemove:" : "AndreiChis 10/21/2016 18:33",
+		"logoutAndRemove:" : "AndreiChis 10/22/2016 15:45",
 		"terminateAllGemstoneClients" : "AndreiChis 10/21/2016 19:19" } }
