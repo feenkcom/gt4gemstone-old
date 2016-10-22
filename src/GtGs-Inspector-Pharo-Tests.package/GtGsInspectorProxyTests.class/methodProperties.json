@@ -1,0 +1,14 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"client" : "AndreiChis 10/15/2016 12:15",
+		"debugMode" : "AndreiChis 10/15/2016 12:15",
+		"newBasicTestObject" : "AndreiChis 10/15/2016 13:27",
+		"sessionDescription" : "AndreiChis 10/15/2016 12:14",
+		"setUp" : "AndreiChis 10/15/2016 12:14",
+		"tearDown" : "AndreiChis 10/15/2016 12:14",
+		"testRemoteProxyInitialization" : "AndreiChis 10/15/2016 13:00",
+		"testStatePresentationColumnsStructure" : "AndreiChis 10/22/2016 15:40",
+		"testStatePresentationContent" : "AndreiChis 10/17/2016 11:37",
+		"testStatePresentationTreeStructure" : "AndreiChis 10/22/2016 15:41" } }
