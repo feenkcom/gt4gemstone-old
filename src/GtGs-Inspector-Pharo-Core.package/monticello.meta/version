@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.29' message 'improved api' id 'c097c300-d51f-49f8-a1d4-c587db098317' date '22 October 2016' time '10:06:20.012784 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.28' message 'added an api to the client for opening a playground
-' id '3d6d941e-5215-5ed7-9080-fcefbcad5d58' date '22 October 2016' time '3:46:14 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.30' message 'clear all clients when closing the image ' id '8d48ce46-2978-441f-a288-2abf9210201c' date '22 October 2016' time '10:24:33.605555 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.29' message 'improved api
+' id '3975f695-27a7-515a-9cc0-13635237ed6f' date '22 October 2016' time '10:06:22 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

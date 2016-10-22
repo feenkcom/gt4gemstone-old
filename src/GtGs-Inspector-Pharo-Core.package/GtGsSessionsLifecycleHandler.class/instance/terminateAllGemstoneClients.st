@@ -1,5 +1,5 @@
 actions api
 terminateAllGemstoneClients
 
-	self gemstoneClients do: [ :aGemstoneClient |
-		self logoutAndRemove: aGemstoneClient ]
+	self gemstoneClients do: #logout.
+	gemstoneClients := OrderedCollection new. 
