@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Tests-AndreiChis.4' message 'updated tests' id 'e4b9087b-c524-4988-9ccc-ebeb78d69971' date '22 October 2016' time '3:42:55.218101 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Tests-AndreiChis.3' message 'updated tests to use #displayValue instead of #displayNodes
-' id '313b46f7-df5d-596d-a690-726cf8b3d040' date '17 October 2016' time '12:00:13 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Tests-AndreiChis.5' message 'moved test resources to a different package' id 'a0b8134f-ea67-4485-a5f8-09c6a4a7bb1d' date '22 October 2016' time '4:14:04.610273 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Tests-AndreiChis.4' message 'updated tests
+' id 'bc29ee91-b868-5f82-8e36-7b876d7f1cca' date '22 October 2016' time '3:42:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
