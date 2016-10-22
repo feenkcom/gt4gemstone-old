@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Inspector-Gemstone-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsInspectorGemstoneTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
