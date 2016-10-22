@@ -1,4 +1,4 @@
-as yet unclassified
+login/logout
 loginWith: aSessionDescription
 
 	super loginWith: aSessionDescription.

@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"forDefaultSessionDescription" : "AndreiChis 10/21/2016 17:32",
-		"forSessionDescriptionNamed:" : "AndreiChis 10/14/2016 10:27",
-		"inspectorExampleScript" : "AndreiChis 10/14/2016 13:47" },
+		"forSessionDescriptionNamed:" : "AndreiChis 10/14/2016 10:27" },
 	"instance" : {
+		"abortSession" : "AndreiChis 10/22/2016 21:47",
 		"buildRemoteInspectorProxyFrom:" : "AndreiChis 10/20/2016 11:14",
 		"buildRemoteInspectorProxyFrom:inContext:" : "AndreiChis 10/20/2016 11:14",
+		"commitSession" : "AndreiChis 10/22/2016 21:45",
 		"detailedDescription" : "AndreiChis 10/21/2016 18:12",
 		"loginWith:" : "AndreiChis 10/21/2016 18:06",
 		"openGemstonePlayground" : "AndreiChis 10/22/2016 15:39",

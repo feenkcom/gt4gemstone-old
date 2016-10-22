@@ -1,4 +1,4 @@
-building
+building actions
 installSelectionActionsOn: aPresentation
 
 	aPresentation
@@ -10,7 +10,15 @@ installSelectionActionsOn: aPresentation
 			entitled: 'Inspect session description';
 		selectionAct: [ :currentPresentation |
 				currentPresentation selection performStringRemotelyAndInspect: 'SessionTemps' ] 
-			entitled: 'Inspect SessionTemps (remote)';
+			entitled: 'Inspect SessionTemps (remote)'.
+	aPresentation selectionActions last withSeparatorAfter.
+	aPresentation
+		selectionAct: [ :currentPresentation |
+				currentPresentation selection commitSession ] 
+			entitled: 'Commit';
+		selectionAct: [ :currentPresentation |
+				currentPresentation selection abortSession ] 
+			entitled: 'Abort';
 		selectionAct: [ :currentPresentation |
 				GtGsSessionsLifecycleHandler uniqueInstance logoutAndRemove: currentPresentation selection.
 				currentPresentation update ] 

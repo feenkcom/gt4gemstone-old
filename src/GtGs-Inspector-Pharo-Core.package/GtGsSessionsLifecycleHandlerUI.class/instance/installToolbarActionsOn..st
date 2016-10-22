@@ -1,4 +1,4 @@
-building
+building actions
 installToolbarActionsOn: aPresentation
 
 	aPresentation

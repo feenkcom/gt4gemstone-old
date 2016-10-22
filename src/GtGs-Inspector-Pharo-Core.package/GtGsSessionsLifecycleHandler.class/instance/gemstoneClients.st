@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 gemstoneClients
 
 	^ gemstoneClients ifNil: [ gemstoneClients := OrderedCollection new ]

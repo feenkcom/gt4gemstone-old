@@ -1,4 +1,4 @@
-as yet unclassified
+scripting opening
 open
 
 	^ self openOn: GtGsSessionsLifecycleHandler uniqueInstance

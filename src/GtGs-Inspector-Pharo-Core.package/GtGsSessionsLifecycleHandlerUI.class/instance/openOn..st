@@ -1,4 +1,4 @@
-as yet unclassified
+scripting opening
 openOn: anObject
 	
 	^ (super openOn: anObject)

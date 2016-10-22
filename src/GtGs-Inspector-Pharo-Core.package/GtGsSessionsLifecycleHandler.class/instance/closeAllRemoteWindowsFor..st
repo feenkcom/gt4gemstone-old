@@ -1,4 +1,4 @@
-as yet unclassified
+actions api
 closeAllRemoteWindowsFor: aGemstoneClient
 
 	(SystemWindow allSubInstances select: [:w | 

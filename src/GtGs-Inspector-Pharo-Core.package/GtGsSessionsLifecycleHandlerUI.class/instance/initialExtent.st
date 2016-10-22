@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 initialExtent
 	^ 700 @ 500

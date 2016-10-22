@@ -1,4 +1,4 @@
-as yet unclassified
+actions api
 buildRemoteInspectorProxyFrom: aString inContext: anOopType
 	| serializedProxy materializedProxy |
 	serializedProxy := self session 

@@ -1,4 +1,4 @@
-as yet unclassified
+actions api
 logoutAndRemove: aGemstoneClient
 	self closeAllRemoteWindowsFor: aGemstoneClient.
 	aGemstoneClient logout.

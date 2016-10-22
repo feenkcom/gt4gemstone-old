@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printDetailedDescriptionOn: aStream
 
 	aStream 

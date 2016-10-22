@@ -1,4 +1,4 @@
-accessing
+private
 createSessionDescriptionFrom: aFile
 
 	[ ^ TDSessionDescription importFrom: aFile fullName ]

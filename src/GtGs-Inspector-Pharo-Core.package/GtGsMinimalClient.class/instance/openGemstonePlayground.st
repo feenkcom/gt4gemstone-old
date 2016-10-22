@@ -1,4 +1,4 @@
-as yet unclassified
+actions api
 openGemstonePlayground
 
 	(GtGsPlayground forGemstoneClient: self) openEmpty

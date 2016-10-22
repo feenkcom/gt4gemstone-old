@@ -1,4 +1,4 @@
-as yet unclassified
+actions api
 openGemstonePlaygroundWithContents: aText
 
 	(GtGsPlayground forGemstoneClient: self)

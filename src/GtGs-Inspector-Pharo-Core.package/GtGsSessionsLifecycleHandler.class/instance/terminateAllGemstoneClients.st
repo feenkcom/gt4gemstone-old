@@ -1,4 +1,4 @@
-as yet unclassified
+actions api
 terminateAllGemstoneClients
 
 	self gemstoneClients do: [ :aGemstoneClient |

@@ -1,4 +1,4 @@
-as yet unclassified
+actions api
 performStringRemotelyAndInspect: aString
 	| inspectorProxy |
 	inspectorProxy := self buildRemoteInspectorProxyFrom: aString.
