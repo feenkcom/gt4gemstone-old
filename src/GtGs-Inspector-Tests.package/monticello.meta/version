@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Tests-AndreiChis.3' message 'updated tests to use #displayValue instead of #displayNodes' id 'fe5bf7db-31eb-4e7d-ad02-e4f5ba7673c3' date '17 October 2016' time '12:00:12.676194 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Tests-AndreiChis.2' message 'improved tests
-' id 'c6c81cf9-4c97-59a0-9ccb-13b53f5eea2e' date '15 October 2016' time '1:46:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Tests-AndreiChis.4' message 'updated tests' id 'e4b9087b-c524-4988-9ccc-ebeb78d69971' date '22 October 2016' time '3:42:55.218101 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Tests-AndreiChis.3' message 'updated tests to use #displayValue instead of #displayNodes
+' id '313b46f7-df5d-596d-a690-726cf8b3d040' date '17 October 2016' time '12:00:13 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
