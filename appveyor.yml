@@ -20,4 +20,4 @@ install:
 build: off
 
 test_script:
-  - '%CYG_BASH% -lc "cd $APPVEYOR_BUILD_FOLDER; exec 0</dev/null; $SCI_RUN"'
+  - '%CYG_BASH% -lc "cd $APPVEYOR_BUILD_FOLDER; exec 0</dev/null; $SCI_RUN -v -s GemStone-3.3.0"'
