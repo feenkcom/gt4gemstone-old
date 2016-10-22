@@ -1,4 +1,4 @@
-# gt4gemstone
+# gt4gemstone [![Build Status](https://travis-ci.org/feenkcom/gt4gemstone.png?branch=master)](https://travis-ci.org/feenkcom/gt4gemstone)
 gt4gemstone is the Glamorous Toolkit for remote work with Gemstone/S. It is a project developed by feenk.com.
 
 ## Installation
