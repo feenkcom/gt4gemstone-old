@@ -1,0 +1,3 @@
+cleanup
+clearWindow
+	uniqueInstance := nil

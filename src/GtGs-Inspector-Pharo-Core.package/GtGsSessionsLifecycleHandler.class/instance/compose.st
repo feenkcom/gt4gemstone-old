@@ -7,8 +7,10 @@ compose
 	listPresentation := self list.
 	listPresentation
 		title: 'Current Active Sessions';
-		display: [ GtGsSessionsLifecycleHandler uniqueInstance gemstoneClients ];
+		display: [ self gemstoneClients ];
 		format: #detailedDescription.
 	
 	self installSelectionActionsOn: listPresentation.
 	self installToolbarActionsOn: listPresentation.
+	
+	self when: GLMBrowserClosing send: #actOnBrowserClosing: to: self.

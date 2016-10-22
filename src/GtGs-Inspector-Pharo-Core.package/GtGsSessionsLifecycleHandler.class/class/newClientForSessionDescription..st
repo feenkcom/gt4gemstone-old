@@ -3,5 +3,5 @@ newClientForSessionDescription: aSessionDescription
 	| gemstoneClient |
 
 	gemstoneClient := GtGsMinimalClient loginWith: aSessionDescription.
-	self uniqueInstance gemstoneClients add: gemstoneClient.
+	self gemstoneClients add: gemstoneClient.
 	^ gemstoneClient

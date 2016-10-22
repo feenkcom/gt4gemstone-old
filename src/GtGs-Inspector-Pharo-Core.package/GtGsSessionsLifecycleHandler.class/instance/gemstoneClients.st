@@ -1,4 +1,4 @@
 accessing
 gemstoneClients
 
-	^ gemstoneClients ifNil: [ gemstoneClients := OrderedCollection new ]
+	^ self class gemstoneClients

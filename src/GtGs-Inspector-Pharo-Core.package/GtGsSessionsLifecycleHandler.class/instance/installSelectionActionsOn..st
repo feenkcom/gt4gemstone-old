@@ -20,6 +20,6 @@ installSelectionActionsOn: aPresentation
 				currentPresentation selection abortSession ] 
 			entitled: 'Abort';
 		selectionAct: [ :currentPresentation |
-				GtGsSessionsLifecycleHandler uniqueInstance logoutAndRemove: currentPresentation selection.
+				self logoutAndRemove: currentPresentation selection.
 				currentPresentation update ] 
 			entitled: 'Logout'

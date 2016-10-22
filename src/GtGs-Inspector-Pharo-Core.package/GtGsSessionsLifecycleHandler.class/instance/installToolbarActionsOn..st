@@ -6,9 +6,9 @@ installToolbarActionsOn: aPresentation
 			(GLMPopupAction new
 				action: [ :currentPresentation | 
 					GtGsSessionsDescriptionsListBrick new
-						on: GtGsSessionsLifecycleHandler availableSessionDescriptions;
+						on: self class availableSessionDescriptions;
 						when: #createSession do: [ :aSessionDescription |
-							GtGsSessionsLifecycleHandler newClientForSessionDescription: aSessionDescription.
+							self class newClientForSessionDescription: aSessionDescription.
 							currentPresentation update ];
 						yourself ]; 
 				icon: Smalltalk ui icons glamorousMore;

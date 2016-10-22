@@ -1,14 +1,15 @@
 {
 	"category" : "GtGs-Inspector-Pharo-Core",
 	"classinstvars" : [
-		"uniqueInstance" ],
+		"uniqueInstance",
+		"gemstoneClients" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gemstoneClients" ],
+		 ],
 	"name" : "GtGsSessionsLifecycleHandler",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GLMCompositePresentation",
 	"type" : "normal" }

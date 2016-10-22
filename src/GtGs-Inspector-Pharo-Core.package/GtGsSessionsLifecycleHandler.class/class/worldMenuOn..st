@@ -9,8 +9,8 @@ worldMenuOn: aBuilder
 		with: [
 			(aBuilder item: #'Open sessions handler') 
 				order: 0;
-				action: [ GtGsSessionsLifecycleHandlerUI open ].
-			(aBuilder item: #'Close all sessions (not working yet)')
+				action: [ self open ].
+			(aBuilder item: #'Close all sessions')
 				order: 2;
-				action: [  ];
+				action: [ self deleteGemstoneClients ];
 				withSeparatorAfter ]
