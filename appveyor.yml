@@ -11,7 +11,7 @@ environment:
 
 platform:
   - x86
- 
+
 install:
   - '%CYG_EXE% -qnNdO -R "%CYG_ROOT%" -s "%CYG_MIRROR%" -l "%CYG_CACHE%" -P unzip'
   - ps: Start-FileDownload "https://dl.dropboxusercontent.com/u/74244847/feenk/smalltalkCI-master.zip" "C:\smalltalkCI.zip"
