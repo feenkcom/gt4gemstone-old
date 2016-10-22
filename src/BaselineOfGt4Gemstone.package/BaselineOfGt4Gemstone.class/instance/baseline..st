@@ -61,4 +61,4 @@ baseline: spec
 				with: #('GtGs-Inspector-Gemstone-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model');
-			group: 'default' with: #('Core' 'Examples')  ]
+			group: 'default' with: #('Core' 'Tests' 'Examples')  ]
