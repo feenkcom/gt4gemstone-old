@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.9' message 'Added GtGs-Playground-Pharo-Core to the baseline for pharo.' id '9c307cda-d8a5-4d0c-92ba-a7349c28a749' date '17 October 2016' time '5:33:44.513479 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-TudorGirba.8' message 'added extensions to core
-' id '2c4da2e0-24cd-5192-bf6b-272e11524ed2' date '17 October 2016' time '3:35:23 pm' author 'TudorGirba' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.10' message 'added GtGs-Common-Resources-Tests' id 'e5517032-3e48-44c3-9ab8-fe3bdb31a3f5' date '22 October 2016' time '4:14:39.699674 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.9' message 'Added GtGs-Playground-Pharo-Core to the baseline for pharo.
+' id 'd3b57de8-e02f-5211-afe1-0dfc67e65f14' date '17 October 2016' time '5:33:45 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

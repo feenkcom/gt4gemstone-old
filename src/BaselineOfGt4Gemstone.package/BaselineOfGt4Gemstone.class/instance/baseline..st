@@ -31,7 +31,8 @@ baseline: spec
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
-			package: 'GtGs-Inspector-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
+			package: 'GtGs-Common-Resources-Tests';
+			package: 'GtGs-Inspector-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Examples-AddressBook-Model';
 			package: 'GtGs-Examples-AddressBook-Extensions-Pharo' with: [ spec requires: #('GtGs-Examples-AddressBook-Model') ].
 			
@@ -39,7 +40,7 @@ baseline: spec
 			group: 'Core'
 				with: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core');
 			group: 'Tests'
-				with: #('GtGs-Inspector-Tests');
+				with: #('GtGs-Inspector-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Examples-AddressBook-Extensions-Pharo');
 			group: 'default' with: #('Core' 'Tests' 'Examples') ].
@@ -48,7 +49,7 @@ baseline: spec
 
 		spec
 			package: 'GtGs-Inspector-Core';
-			package: 'GtGs-Inspector-Tests' with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Examples-AddressBook-Model'.
 			
@@ -56,7 +57,7 @@ baseline: spec
 			group: 'Core'
 				with: #('GtGs-Inspector-Core' 'GtGs-Inspector-Extensions');
 			group: 'Tests'
-				with: #('GtGs-Inspector-Tests');
+				with: #('GtGs-Common-Resources-Tests');
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model');
 			group: 'default' with: #('Core' 'Tests' 'Examples')  ]
