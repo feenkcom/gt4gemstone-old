@@ -1,6 +1,6 @@
 language: smalltalk
 sudo: false
- 
+
 os:
   - linux
 
@@ -9,6 +9,8 @@ env:
 
 smalltalk:
   - GemStone-3.3.0
+  
+smalltalk_config: .smalltalk.ston
 
 cache:
   directories:
