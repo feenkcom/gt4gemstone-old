@@ -1,0 +1,17 @@
+{
+	"category" : "GtGs-Common-Resources-Tests",
+	"classinstvars" : [
+		"testInstance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"x",
+		"y",
+		"z",
+		"w" ],
+	"name" : "GtGsTestObjectBasic",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
