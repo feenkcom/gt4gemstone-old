@@ -1,3 +1,3 @@
 as yet unclassified
 concreteClass
-  ^ Smalltalk at: self concreteClassName asSymbol
+  ^ GtGsTopezServer "Smalltalk at: self concreteClassName asSymbol"
