@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.45' message 'use GtGsBareTopezServer' id 'e62f631f-81bb-4fe5-ab6d-054b80d23bb2' date '26 October 2016' time '2:38:23.449463 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.44' message 'Added GtGsBareTopezServer: it uses STON and does not require tODE
-' id '2e40eb8c-4cfb-5796-a720-e43a728bbccd' date '26 October 2016' time '2:36:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.46' message 'Hardcode the name of the server class' id '10491dc2-7c30-4c73-a36f-f8435593fb66' date '26 October 2016' time '2:50:39.255768 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.45' message 'use GtGsBareTopezServer
+' id '845d5ab9-8a49-57c5-aa22-4f0e75159a8d' date '26 October 2016' time '2:38:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
