@@ -17,10 +17,11 @@ loginWith: aSessionDescription
 	todeServerOop := resultArray at: 1.
 	todeClientOopType := (resultArray at: 3) gciResultToGsOopType: self session.
 	todeServerOopType := todeServerOop gciResultToGsOopType: self session.
-	(resultArray at: 2)
+
+	"(resultArray at: 2)
 		ifNotNil: [ :transcriptOop | 
 			transcriptOopType := transcriptOop gciResultToGsOopType: self session.
-			self session registerClientObjectForwarderOopType: transcriptOopType for: Transcript ].
+			self session registerClientObjectForwarderOopType: transcriptOopType for: Transcript ]."
 	self session registerClientObjectForwarderOopType: todeClientOopType for: self.
 "	resultArray size > 3
 		ifTrue: [ | protocolSignature objSerializer serverApiVersionString |
