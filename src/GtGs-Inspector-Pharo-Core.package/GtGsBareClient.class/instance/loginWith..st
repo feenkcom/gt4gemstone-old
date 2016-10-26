@@ -1,6 +1,7 @@
 as yet unclassified
 loginWith: aSessionDescription
 	| todeServerCreationString jsonString resultArray todeServerOop transcriptOopType authorId |
+	self startTime: DateAndTime now.
 	self sessionDescription: aSessionDescription.
 	session := (GsDevKitSession new sessionDescription: aSessionDescription) session.
 	session clientObj: self.
