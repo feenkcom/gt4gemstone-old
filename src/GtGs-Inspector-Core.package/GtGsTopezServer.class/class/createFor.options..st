@@ -17,6 +17,6 @@ createFor: aShellId options: optionArray
   resultArray := {(topezServer asOop).
   nil "transcriptClientForwarderOop".
   (Reflection oopOf: topezClientClientForwarder).
-  ("{'STON' . '0.9.1'}"  TodeObjectSerializer protocolSignatureArray).
+  ("{'STON' . '0.9.1'}"  (GsSession currentSession symbolList objectNamed: 'TodeObjectSerializer') protocolSignatureArray).
   (self todeServerAPIVersionString)}.
-  ^ TodeObjectSerializer preferredSerializer toJsonString: resultArray
+  ^ (GsSession currentSession symbolList objectNamed: 'TodeObjectSerializer') preferredSerializer toJsonString: resultArray
