@@ -1,4 +1,4 @@
 updating
 updateTopezServer
 	
-	topezServer := GtGsTopezServer for: 1
+	topezServer := GtGsBareTopezServer for: 1
