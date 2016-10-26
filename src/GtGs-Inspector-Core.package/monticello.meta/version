@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.62' message 'do not use #compiledMethodAt:ifAbsent:' id '05c57aad-d7be-42de-a31f-6ef53c8d2849' date '26 October 2016' time '6:16:23.221884 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.61' message 'added a custom implementation of #gtGsLookupSelector:
-' id '06632886-1439-513f-854e-30b00021a61d' date '26 October 2016' time '6:08:17 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.63' message 'Do not use #withIndexDo: in GemStone' id '1ca0c9aa-d551-43a5-a4c3-5676d174f7fa' date '26 October 2016' time '6:23:40.370146 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.62' message 'do not use #compiledMethodAt:ifAbsent:
+' id 'da2b09a4-857d-55e4-b329-5c084838aa5d' date '26 October 2016' time '6:16:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

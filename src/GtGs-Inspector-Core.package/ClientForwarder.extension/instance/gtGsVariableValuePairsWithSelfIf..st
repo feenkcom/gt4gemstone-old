@@ -7,7 +7,7 @@ gtGsVariableValuePairsWithSelfIf: aBoolean
 	
 	aBoolean ifTrue: [ bindings add: 'self' -> self ].
 	
-	instVarNames withIndexDo: [ :each :index | 
+	instVarNames gtGsWithIndexDo: [ :each :index | 
 		bindings add: (each -> (Reflection fetchFrom: self at: index))].
 	
 	^ bindings
