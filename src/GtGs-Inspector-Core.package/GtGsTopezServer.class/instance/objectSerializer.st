@@ -1,5 +1,5 @@
 topez
 objectSerializer
   objectSerializer
-    ifNil: [ objectSerializer := TodeObjectSerializer defaultSerializer ].
+    ifNil: [ objectSerializer := (GsSession currentSession symbolList objectNamed: 'TodeObjectSerializer') defaultSerializer ].
   ^ objectSerializer

@@ -1,6 +1,6 @@
 topez
 serializeObjectsUsing: protocol version: protocolVersionString
-  objectSerializer := TodeObjectSerializer
+  objectSerializer := (GsSession currentSession symbolList objectNamed: 'TodeObjectSerializer') 
     serializeUsing:
       {protocol.
       protocolVersionString}.
