@@ -4,7 +4,7 @@ gtGsInspectorPresentationsIn: aComposite inContext: aContext
 	
 	objectClass := Reflection classOf: self.
 	inspectorSelectors := objectClass allSelectors select: [ :aSelector |
-		((objectClass lookupSelector: aSelector) sourceString includesString:  '<gtInspectorPresentationOrder:') and: [ 
+		((self gtGsLookupSelector: aSelector) sourceString includesString:  '<gtInspectorPresentationOrder:') and: [ 
 			(aSelector beginsWith: 'gtGsInspector') or: [ aSelector beginsWith: 'gtInspector' ] ]  ].
 	inspectorSelectors remove: #gtGsInspectorPresentationsIn:inContext:.
 	inspectorSelectors do: [ :aSelector | 
