@@ -5,7 +5,7 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 	^ aComposite pharoScript
 		title: [ 'Evaluator' ];
 		doItReceiver: [ self ];
-		display: [ self inspectorName ];
+		display: [ self gtGsInspectorName ];
 		format: [ :aString | aString ];
 		gsSelectionAct: [ :aGsPresenntation |
 				aGsPresenntation selection: (
