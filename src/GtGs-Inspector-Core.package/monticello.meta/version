@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.46' message 'Hardcode the name of the server class' id '10491dc2-7c30-4c73-a36f-f8435593fb66' date '26 October 2016' time '2:50:39.255768 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.45' message 'use GtGsBareTopezServer
-' id '845d5ab9-8a49-57c5-aa22-4f0e75159a8d' date '26 October 2016' time '2:38:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.47' message 'fixed the registration of GtGsBareTopezServer into the session temps' id '45d14a6d-f2fe-4559-be96-0409873e99b9' date '26 October 2016' time '2:53:57.739239 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.46' message 'Hardcode the name of the server class
+' id '34310f5c-e215-5d55-831d-898a51d4ddbe' date '26 October 2016' time '2:50:43 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
