@@ -1,6 +1,15 @@
 *GtGs-Inspector-Core
 gtGsInspectorPresentationsIn: aComposite inContext: aContext
-	| pragmas |
+	| objectClass inspectorSelectors |
+	
+	objectClass := Reflection classOf: self.
+	inspectorSelectors := objectClass allSelectors select: [ :aSelector |
+		((objectClass lookupSelector: aSelector) sourceString includesString:  '<gtInspectorPresentationOrder:') and: [ 
+			(aSelector beginsWith: 'gtGsInspector') or: [ aSelector beginsWith: 'gtInspector' ] ]  ].
+	inspectorSelectors do: [ :aSelector | 
+		self perform: aSelector selector withArguments: { aComposite } ]
+
+	"| pragmas |
 	pragmas := Pragma
 		allNamed: #gtInspectorPresentationOrder:
 		from: (Reflection classOf: self)
@@ -10,4 +19,4 @@ gtGsInspectorPresentationsIn: aComposite inContext: aContext
 	pragmas
 		do: [ :aPragma | 
 			aPragma selector numArgs = 1 ifTrue: [ 
-				self perform: aPragma selector withArguments: { aComposite } ] ]
+				self perform: aPragma selector withArguments: { aComposite } ] ]"
