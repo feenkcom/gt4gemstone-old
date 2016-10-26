@@ -7,7 +7,7 @@ gtGsInspectorPresentationsIn: aComposite inContext: aContext
 		((objectClass lookupSelector: aSelector) sourceString includesString:  '<gtInspectorPresentationOrder:') and: [ 
 			(aSelector beginsWith: 'gtGsInspector') or: [ aSelector beginsWith: 'gtInspector' ] ]  ].
 	inspectorSelectors do: [ :aSelector | 
-		self perform: aSelector selector withArguments: { aComposite } ]
+		self perform: aSelector withArguments: { aComposite } ]
 
 	"| pragmas |
 	pragmas := Pragma
