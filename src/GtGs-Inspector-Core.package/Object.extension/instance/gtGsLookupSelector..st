@@ -10,6 +10,6 @@ gtGsLookupSelector: selector
   [ lookupClass == nil ]
     whileFalse: [ 
       (lookupClass includesSelector: selector)
-        ifTrue: [ ^ lookupClass compiledMethodAt: selector ifAbsent: [ nil ] ].
+        ifTrue: [ ^ lookupClass compiledMethodAt: selector otherwise: nil ].
       lookupClass := lookupClass superclass ].
   ^ nil
