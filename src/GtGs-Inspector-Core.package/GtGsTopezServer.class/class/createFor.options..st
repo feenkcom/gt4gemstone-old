@@ -3,7 +3,7 @@ createFor: aShellId options: optionArray
   | topezServer transcriptClientForwarder topezClientClientForwarder resultArray transcriptClientForwarderOop |
   topezServer := self for: aShellId.
   topezClientClientForwarder := ClientForwarder new.
-  (optionArray includes: #'transcript')
+"  (optionArray includes: #'transcript')
     ifTrue: [ 
       Smalltalk
         at: #'TranscriptProxy'
@@ -11,11 +11,11 @@ createFor: aShellId options: optionArray
           transcriptClientForwarder := ClientForwarder new.
           cl registerTranscriptClientForwarder: transcriptClientForwarder.
           transcriptClientForwarderOop := Reflection
-            oopOf: transcriptClientForwarder ] ].
+            oopOf: transcriptClientForwarder ] ]."
   topezServer topezClientForwarder: topezClientClientForwarder.
   topezServer platformInitialize.
   resultArray := {(topezServer asOop).
-  transcriptClientForwarderOop.
+  nil "transcriptClientForwarderOop".
   (Reflection oopOf: topezClientClientForwarder).
   ("{'STON' . '0.9.1'}"  TodeObjectSerializer protocolSignatureArray).
   (self todeServerAPIVersionString)}.
