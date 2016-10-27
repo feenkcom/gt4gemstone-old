@@ -5,12 +5,12 @@ loremIpsum: size
 	
 	"self loremIpsum: 2048"
 	
-	| words out |
+	"| words out |
 	words := (self loremIpsum findTokens: ' ,.') collect: #asLowercase.
 	(out := LimitedWriteStream on: (String new: size))
 		setLimit: size - 2 
 		limitBlock: [ 
-			"Make it work on Pharo and Gemstone"
+			
 			^ ((out respondsTo: #'originalContents')
 				ifTrue: [ out originalContents ]
 				ifFalse: [ out collection ])
@@ -24,4 +24,4 @@ loremIpsum: size
 	 			out << words atRandom capitalized.
 				20 atRandom timesRepeat: [ out space; << words atRandom ].
 				out nextPut: $.; space ].
-			out cr; cr ] ] repeat
+			out cr; cr ] ] repeat"

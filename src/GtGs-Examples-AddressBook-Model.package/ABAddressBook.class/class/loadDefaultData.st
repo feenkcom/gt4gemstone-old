@@ -5,7 +5,7 @@ loadDefaultData
 	ABContact new
 		firstName: 'Andrei';
 		lastName: 'Chis';
-		description: (ABContactGenerator loremIpsum: 1024);
+		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new
 				city: 'Bern';
@@ -16,7 +16,7 @@ loadDefaultData
 	ABContact new
 		firstName: 'Aliaksei';
 		lastName: 'Syrel';
-		description: (ABContactGenerator loremIpsum: 1024);
+		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new
 				city: 'Bern';
@@ -27,7 +27,7 @@ loadDefaultData
 	ABContact new
 		firstName: 'Tudor';
 		lastName: 'Girba';
-		description: (ABContactGenerator loremIpsum: 1024);
+		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new
 				city: 'Bern';
@@ -39,7 +39,7 @@ loadDefaultData
 	ABContact new
 		firstName: 'Juraj';
 		lastName: 'Kubelka';
-		description: (ABContactGenerator loremIpsum: 1024);
+		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new
 				city: 'Santiago';
@@ -50,7 +50,7 @@ loadDefaultData
 	ABContact new
 		firstName: 'Stefan';
 		lastName: 'Reichhart';
-		description: (ABContactGenerator loremIpsum: 1024);
+		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new
 				city: 'Bern';
@@ -61,7 +61,7 @@ loadDefaultData
 	ABContact new
 		firstName: 'John';
 		lastName: 'Doe';
-		description: (ABContactGenerator loremIpsum: 1024);
+		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new
 				city: 'Lille';
