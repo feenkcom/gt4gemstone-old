@@ -4,7 +4,10 @@ gtGsInspectorItemsIn: composite
 	
 	^ (composite table)
 		title: 'Items';
-		display: [ self associations ];
+		display: [ | aCollection |
+  			aCollection := Array new.
+			self associationsDo: [ :assn | aCollection add: assn ].
+			aCollection ];
 		children: [ :anAssociation | 
 			(anAssociation value isDictionary) 
 				ifTrue: [ anAssociation value associations ] 
