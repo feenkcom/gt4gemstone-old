@@ -1,6 +1,6 @@
 running
 setUp
 	super setUp.
-	client := (GtGsMinimalClient loginWith: self sessionDescription)
+	client := (GtGsBareClient loginWith: self sessionDescription)
 		debugMode: self debugMode;
 		yourself
