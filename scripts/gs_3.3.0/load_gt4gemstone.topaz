@@ -1,0 +1,19 @@
+run
+| packageManager repo repoPath summary |
+  packageManager := CypressPackageManager2 new. 
+  repoPath := (System performOnServer: 'echo ${GT4GEMSTONE}/src/').
+  repoPath := repoPath copyFrom: 1 to: repoPath size - 1.
+  repo := CypressAbstractRepository
+    onUrl: ('cypressfiletree:', repoPath) asUrl
+    alias: ''.
+  #('GtGs-Inspector-Core' )
+    do: [ :each | Transcript cr show: 'Loading ' , each , '...'.
+      summary := packageManager
+        loadPackageFrom: (CypressKnownPackageInformation named: each)
+        defaultSymbolDictionaryName: #'Globals'
+        inRepository: repo.
+      summary isEmpty
+        ifFalse: [ self error: 'Could not reload package named: ' , each printString ].
+      Transcript show: 'done' ].
+%
+

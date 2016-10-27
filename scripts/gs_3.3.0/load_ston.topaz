@@ -1,0 +1,19 @@
+run
+| packageManager repo repoPath summary |
+  packageManager := CypressPackageManager2 new.
+  repoPath := (System performOnServer: 'echo ${GT4GEMSTONE}/external/ston/repository/').
+  repoPath := repoPath copyFrom: 1 to: repoPath size - 1.
+  repo := CypressAbstractRepository
+    onUrl: ('cypressfiletree:', repoPath) asUrl
+    alias: ''.
+  #('STON-Core' 'STON-GemStoneCommon-Core' 'STON-GemStoneBase-Core' 'STON-Tests' 'STON-GemStoneCommon-Tests' 'STON-GemStoneBase-Tests')
+    do: [ :each | Transcript cr show: 'Loading ' , each , '...'.
+      summary := packageManager
+        loadPackageFrom: (CypressKnownPackageInformation named: each)
+        defaultSymbolDictionaryName: #'Globals'
+        inRepository: repo.
+      summary isEmpty
+        ifFalse: [ self error: 'Could not reload package named: ' , each printString ].
+      Transcript show: 'done' ].
+%
+

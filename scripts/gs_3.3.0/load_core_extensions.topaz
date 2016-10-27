@@ -1,0 +1,8 @@
+input $GT4GEMSTONE/scripts/gs_3.3.0/extensions_block.gs
+errorCount
+input $GT4GEMSTONE/scripts/gs_3.3.0/extensions_character_collection.gs
+errorCount
+input $GT4GEMSTONE/scripts/gs_3.3.0/extensions_symbol.gs
+errorCount
+input $GT4GEMSTONE/scripts/gs_3.3.0/extensions_object.gs
+errorCount

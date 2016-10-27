@@ -1,0 +1,4 @@
+input $GT4GEMSTONE/scripts/gs_3.3.0/bootstrap_cypress.topaz
+errorCount
+input $GT4GEMSTONE/scripts/gs_3.3.0/load_ston.topaz
+errorCount
