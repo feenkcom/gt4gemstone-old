@@ -3,7 +3,7 @@ testStatePresentationContent
 	| inspectorProxy displayNodes |
 	
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.	
-	displayNodes := inspectorProxy gsPresentations first cacheAt: #displayValue.
+	displayNodes := inspectorProxy gsPresentations second cacheAt: #displayValue.
 	
 	self assertCollection: displayNodes first columnValues 
 	     hasSameElements: { 'self'. 'aGtGsTestObjectBasic' }.

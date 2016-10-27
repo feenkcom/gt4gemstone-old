@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.2' message 'use GtGsBareClient in tests' id '255a8a99-093b-4694-9dfd-f2434de09408' date '27 October 2016' time '9:44:30.216876 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.1' message 'test package for Pharo related tests
-' id '1672e209-d511-52f3-9557-2d776e1f8b24' date '22 October 2016' time '4:34:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.3' message 'fixed tests' id '9b5071fb-0048-43d7-a633-a263df096476' date '27 October 2016' time '9:55:37.418456 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.2' message 'use GtGsBareClient in tests
+' id '43e0c783-d212-5b99-a0ed-e3947bd620c6' date '27 October 2016' time '9:44:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

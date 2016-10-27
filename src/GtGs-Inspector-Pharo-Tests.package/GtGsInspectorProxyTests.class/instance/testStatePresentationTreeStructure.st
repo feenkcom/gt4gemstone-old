@@ -5,7 +5,7 @@ testStatePresentationTreeStructure
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.
 	self assert: inspectorProxy gsPresentations size equals: 2.
 	
-	displayNodes := inspectorProxy gsPresentations first cacheAt: #displayValue.
+	displayNodes := inspectorProxy gsPresentations second cacheAt: #displayValue.
 	self assert: displayNodes size equals: 5.
 	self assert: (displayNodes allSatisfy: [ :aNode | aNode class = GtGsGlmTreeNode ]).
 	self assert: displayNodes first childNodes size equals: 4.
