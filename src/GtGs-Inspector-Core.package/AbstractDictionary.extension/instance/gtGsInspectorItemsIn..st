@@ -1,6 +1,7 @@
 *GtGs-Inspector-Core
 gtGsInspectorItemsIn: composite
-
+	<gtInspectorPresentationOrder: 1>
+	
 	^ (composite table)
 		title: 'Items';
 		display: [ self associations ];

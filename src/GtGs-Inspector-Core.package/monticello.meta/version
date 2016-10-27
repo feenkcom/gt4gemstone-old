@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.66' message 'use blocks for setting the title of the columns' id '9b8b7569-4567-4f52-86e6-07201eddec87' date '26 October 2016' time '6:34:34.481557 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.65' message 'removed #gtGsInspectorRawTreePresentationIn:
-' id '4e355961-237b-5fb6-9367-07004e42ce5a' date '26 October 2016' time '6:33:16 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.67' message 'added gtInspectorPresentationOrder: to AbstractDictionary>>#gtGsInspectorItemsIn:' id '8bf260ac-777f-4e04-800b-3854ba7e4547' date '27 October 2016' time '9:43:16.372868 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.66' message 'use blocks for setting the title of the columns
+' id '33c2a0b8-a5d4-50dd-af22-94e10e4a914f' date '26 October 2016' time '6:34:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
