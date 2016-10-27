@@ -3,14 +3,18 @@ gtGsInspectorItemsIn: composite
 	<gtInspectorPresentationOrder: 1>
 	
 	^ (composite table)
-		title: 'Items';
+		title: 'Items' ;
 		display: [ | aCollection |
   			aCollection := Array new.
 			self associationsDo: [ :assn | aCollection add: assn ].
 			aCollection ];
 		children: [ :anAssociation | 
-			(anAssociation value isDictionary) 
-				ifTrue: [ anAssociation value associations ] 
+			(anAssociation value isKindOf:	AbstractDictionary) 
+				ifTrue: [ 
+					| aCollection |
+  					aCollection := Array new.
+					anAssociation value  associationsDo: [ :assn | aCollection add: assn ].
+					aCollection ] 
 				ifFalse: [ #() ] ];
 		column: [ 'Key' ] 
 			evaluated: [ :anAssociation | anAssociation key gtGsInspectorName ];
