@@ -1,6 +1,6 @@
 *GtGs-Inspector-Core
 gtGsInspectorIntegerIn: composite
-	<gtInspectorPresentationOrder: 30>
+
 	^ composite table
 		title: 'Integer';
 		display: [ | associations |
