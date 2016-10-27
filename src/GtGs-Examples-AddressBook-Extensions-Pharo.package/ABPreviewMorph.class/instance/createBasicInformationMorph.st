@@ -4,7 +4,7 @@ createBasicInformationMorph
 		hSpaceFill;
 		useHorizontalLinearLayout;
 		addBrickBack: (self newImageMorph
-			normalImage: self contact avatar;
+			normalImage: (self contact avatar ifNil: [Form extent: 16@16]);
 			hShrinkWrap;
 			vShrinkWrap;
 			marginLeft: 10;
