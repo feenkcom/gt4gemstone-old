@@ -1,4 +1,4 @@
 accessing
 avatar
 	"No avatar for now."
-	^ Form extent: 16@16
+	^ nil "Form extent: 16@16"
