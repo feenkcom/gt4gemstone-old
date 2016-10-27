@@ -2,7 +2,7 @@
 
 theArgs="$*"
 
-if ["${GT4GEMSTONE}x" = "x"] ; then
+if [ "${GT4GEMSTONE}x" = "x" ] ; then
   localDir="`dirname \"$0\"`"              # relative
   export GT4GEMSTONE="`( cd \"${localDir}/..\" && pwd )`"  # absolutized and normalized
   if [ -z "$GT4GEMSTONE" ] ; then
