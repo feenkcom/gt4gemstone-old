@@ -12,9 +12,9 @@ gtGsInspectorItemsIn: composite
 			(anAssociation value isDictionary) 
 				ifTrue: [ anAssociation value associations ] 
 				ifFalse: [ #() ] ];
-		column: 'Key' 
+		column: [ 'Key' ] 
 			evaluated: [ :anAssociation | anAssociation key gtGsInspectorName ];
-		column: 'Value' 
+		column: [ 'Value' ]
 			evaluated: [ :anAssociation | anAssociation value gtGsInspectorName ];
 		send: [ :anAssociation | 
 			anAssociation value ]
