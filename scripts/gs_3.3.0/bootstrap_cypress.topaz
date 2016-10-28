@@ -1,17 +1,17 @@
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Cypress-GemStoneCompatibilityLayer.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Cypress-GemStoneCompatibilityLayer.gs
 errorCount
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Cypress-Definitions.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Cypress-Definitions.gs
 errorCount
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Cypress-Structure.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Cypress-Structure.gs
 errorCount
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Cypress-GemStoneFileServer.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Cypress-GemStoneFileServer.gs
 errorCount
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Network-Url.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Network-Url.gs
 errorCount
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Cypress-MesssageDigest.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Cypress-MesssageDigest.gs
 errorCount
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Cypress-PackageManagement.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Cypress-PackageManagement.gs
 errorCount
-input $GT4GEMSTONE/external/CypressReferenceImplementation/topaz/Cypress-Comparison.gs
+input $GT4GEMSTONE/CypressReferenceImplementation/topaz/Cypress-Comparison.gs
 errorCount
 
