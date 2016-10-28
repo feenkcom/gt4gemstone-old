@@ -15,13 +15,22 @@ source ${GT4GEMSTONE}/bin/private/shFeedback.sh
 start_banner
 echo "[Info] GT4GEMSTONE=${GT4GEMSTONE}"
 
+export GT4GEMSTONE_STON_REPO="${GT4GEMSTONE}/external/ston/repository/"
+export GT4GEMSTONE_REPO="${GT4GEMSTONE}/src/"
+
 externalResourcesDir="${GT4GEMSTONE}/external"
+internalScripts="${GT4GEMSTONE}/scripts/gs_3.3.0"
+externalScripts="${externalResourcesDir}/scripts/gs_3.3.0"
+cypressDir="${externalResourcesDir}/CypressReferenceImplementation"
+cypressRepo="https://github.com/dalehenrich/CypressReferenceImplementation.git"
+stonDir="${externalResourcesDir}/ston"
+stonRepo="https://github.com/GsDevKit/ston.git"
+
+
 if [ ! -d "$externalResourcesDir" ]; then
   mkdir $externalResourcesDir
 fi
 
-cypressDir="${externalResourcesDir}/CypressReferenceImplementation"
-cypressRepo="https://github.com/dalehenrich/CypressReferenceImplementation.git"
 echo "[Info] cypressDir=${cypressDir}"
 if [ ! -d "$cypressDir" ]; then
   echo "[Info] Cloning git repo '${cypressRepo}'"
@@ -31,8 +40,6 @@ else
   git -C $cypressDir pull
 fi
 
-stonDir="${externalResourcesDir}/ston"
-stonRepo="https://github.com/GsDevKit/ston.git"
 echo "[Info] stonDir=${stonDir}"
 if [ ! -d "$stonDir" ]; then
   echo "[Info] Cloning git repo '${stonRepo}'"
@@ -43,8 +50,43 @@ else
   git -C $stonDir pull
 fi
 
+echo "[Info] Configuring scripts"
+
+if [ ! -d "$externalScripts" ]; then
+mkdir -p "$externalScripts"
+else
+echo "[Info] Recreate $externalScripts"
+rm -rf "$externalScripts"
+mkdir -p "$externalScripts"
+fi
+
+
+#echo "cp ${internalScripts} ${externalScripts}"
+cp ${internalScripts}/*.gs ${externalScripts}/
+
+_GT4GEMSTONE="${GT4GEMSTONE//\//\\/}"
+scriptsUsingGt4Gemstone=("bootstrap_cypress.topaz" "load_core_extensions.topaz" "load_dependencies.topaz" "load_full.topaz")
+echo $_GT4GEMSTONE
+for script in "${scriptsUsingGt4Gemstone[@]}"
+do
+  echo "$script"
+  echo "sed -e 's/\$GT4GEMSTONE/${_GT4GEMSTONE}/g' $internalScripts/$script > $externalScripts/$script"
+  sed -e s/\$GT4GEMSTONE/${_GT4GEMSTONE}/g $internalScripts/$script > $externalScripts/$script
+done
+
+_GT4GEMSTONE_STON_REPO="${GT4GEMSTONE_STON_REPO//\//\\/}"
+sed -e s/"System performOnServer: 'echo \$GT4GEMSTONE_STON_REPO'"/"'${_GT4GEMSTONE_STON_REPO}'"/g $internalScripts/load_ston.topaz > $externalScripts/load_ston.topaz
+
+_GT4GEMSTONE_REPO="${GT4GEMSTONE_REPO//\//\\/}"
+sed -e s/"System performOnServer: 'echo \$GT4GEMSTONE_REPO'"/"'${_GT4GEMSTONE_REPO}'"/g $internalScripts/load_gt4gemstone.topaz > $externalScripts/load_gt4gemstone.topaz
+
 
 exit_0_banner
+
+
+
+# scp -r . gsadmin@192.168.4.114:/gemstone/gt4gemstone
+
 
 
 # input /home/andrei/feenk/scripts/symbolExtensions.gs
