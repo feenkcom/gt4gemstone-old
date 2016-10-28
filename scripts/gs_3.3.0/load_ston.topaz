@@ -2,7 +2,6 @@ run
 | packageManager repo repoPath summary |
   packageManager := CypressPackageManager2 new.
   repoPath := System performOnServer: 'echo $GT4GEMSTONE_STON_REPO'.
-  repoPath := repoPath copyFrom: 1 to: repoPath size - 1.
   repo := CypressAbstractRepository
     onUrl: ('cypressfiletree:', repoPath) asUrl
     alias: ''.

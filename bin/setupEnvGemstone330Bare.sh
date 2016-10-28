@@ -64,16 +64,18 @@ fi
 #echo "cp ${internalScripts} ${externalScripts}"
 cp ${internalScripts}/*.gs ${externalScripts}/
 
-_GT4GEMSTONE="${GT4GEMSTONE}/external"
+_GT4GEMSTONE="${GT4GEMSTONE}"
 __GT4GEMSTONE="${_GT4GEMSTONE//\//\\/}"
-scriptsUsingGt4Gemstone=("bootstrap_cypress.topaz" "load_core_extensions.topaz" "load_dependencies.topaz" "load_full.topaz")
+scriptsUsingGt4Gemstone=("load_core_extensions.topaz" "load_dependencies.topaz" "load_full.topaz")
 echo $_GT4GEMSTONE
 for script in "${scriptsUsingGt4Gemstone[@]}"
 do
   echo "$script"
   echo "sed -e 's/\$GT4GEMSTONE/${__GT4GEMSTONE}/g' $internalScripts/$script > $externalScripts/$script"
-  sed -e s/\$GT4GEMSTONE/${__GT4GEMSTONE}/g $internalScripts/$script > $externalScripts/$script
+  sed -e s/\$GT4GEMSTONE/"${__GT4GEMSTONE}\\/external"/g $internalScripts/$script > $externalScripts/$script
 done
+
+sed -e s/\$GT4GEMSTONE/"${__GT4GEMSTONE}"/g "$internalScripts/bootstrap_cypress.topaz" > "$externalScripts/bootstrap_cypress.topaz"
 
 _GT4GEMSTONE_STON_REPO="${GT4GEMSTONE_STON_REPO//\//\\/}"
 sed -e s/"System performOnServer: 'echo \$GT4GEMSTONE_STON_REPO'"/"'${_GT4GEMSTONE_STON_REPO}'"/g $internalScripts/load_ston.topaz > $externalScripts/load_ston.topaz
