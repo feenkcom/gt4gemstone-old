@@ -7,7 +7,7 @@ gt4gemstone can also be installed in a GemStone/S 64 stone that was not created 
 $ git clone https://github.com/feenkcom/gt4gemstone.git
 $ ./gt4gemstone/setupEnvGemstone330Bare.sh
 ``` 
-The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable `$GT4GEMSTONE` to point to the folder `gt4gemstone`. This variable needs to be accessible from within the running stone. This could require restarting the stone.
+The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable `$GT4GEMSTONE` to point to the folder `gt4gemstone`. This variable needs to be accessible from within the running stone. This could require restarting the stone and tye netldi service.
 
 ## Load the code within the stone.
 
@@ -39,3 +39,21 @@ topaz 1> errorCount
 topaz 1> commit
 ```
 If there are no errors the `errorCount` command will return `0`.
+
+## Connecting to this server
+
+To connect to a stone that does not use GsDevKit one needs to use the client `GtGsBareClient`.
+```
+gtClient := GtGsBareClient forSessionDescriptionNamed: 'gt4gemstone'.
+gtClient performStringRemotelyAndInspect: 'Object'.
+gtClient performStringRemotelyAndInspect: 'Dictionary new add: (1->2); yourself'.
+gtClient performStringRemotelyAndInspect: 'System stoneName asString.'.
+
+gtClient openGemstonePlayground. 
+gtClient openGemstonePlaygroundWithContents: 'ABAddressBook 
+		reset; 
+		loadDefaultData.
+ABAddressBook default.'.
+
+gtClient logout
+```
