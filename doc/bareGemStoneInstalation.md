@@ -7,7 +7,7 @@ gt4gemstone can also be installed in a GemStone/S 64 stone that was not created 
 $ git clone https://github.com/feenkcom/gt4gemstone.git
 $ ./gt4gemstone/setupEnvGemstone330Bare.sh
 ``` 
-The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable `$GT4GEMSTONE` to point to the folder `gt4gemstone`. This variable needs to be accessible from within the running stone. 
+The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable `$GT4GEMSTONE` to point to the folder `gt4gemstone`. This variable needs to be accessible from within the running stone. This could require restarting the stone.
 
 ## Load the code within the stone.
 
