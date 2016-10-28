@@ -9,11 +9,11 @@ $ cd gt4gemstone
 $ export GT4GEMSTONE=`pwd`
 $ ./bin/setupEnvGemstone330Bare.sh
 ``` 
-The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable and configures the instalation scripts.
+The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable and configures the installation scripts.
 
 ## Load the code within the stone.
 
-The code should be loaded using Topaz. Topaz can be started using the `topaz` command present in the `bin` folder of a GemStone/S 64 instalation. The `login` command will promt for a password.
+First the stone should be started. Then the code should be loaded using Topaz. Topaz can be started using the `topaz` command present in the `bin` folder of a GemStone/S 64 installation. The `login` command will promt for a password.
 ```
 topaz> set gemstone <stone_name>
 topaz> set username <user_name>
@@ -27,7 +27,7 @@ topaz> set username SystemUser
 topaz> login
 ```
 
-Next run the instalation script, verify if there are errors and commit the session.
+Next run the installation script, verify if there are errors and commit the session.
 ```
 topaz 1> input <PATH_TO_GT4GEMSTONE>/external/scripts/gs_3.3.0/load_full.topaz
 topaz 1> errorCount
@@ -37,7 +37,7 @@ If there are no errors the `errorCount` command will return `0`.
 
 ## Connecting to this server
 
-To connect to a stone that does not use GsDevKit one needs to use the client `GtGsBareClient`.
+First a client should be created using GsDevKit. To connect to a stone that does not use GsDevKit one needs to use the class `GtGsBareClient`.
 ```
 gtClient := GtGsBareClient forSessionDescriptionNamed: 'gt4gemstone'.
 gtClient performStringRemotelyAndInspect: 'Object'.
