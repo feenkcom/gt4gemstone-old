@@ -9,7 +9,7 @@ $ cd gt4gemstone
 $ export GT4GEMSTONE=`pwd`
 $ ./setupEnvGemstone330Bare.sh
 ``` 
-The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable `$GT4GEMSTONE` to point to the folder `gt4gemstone`. This variable needs to be accessible from within the running stone. This could require restarting the stone and tye netldi service.
+The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable and configures the instalation scripts.
 
 ## Load the code within the stone.
 
@@ -27,16 +27,9 @@ topaz> set username SystemUser
 topaz> login
 ```
 
-Check now that topaz can access $GT4GEMSTONE.
-```
-topaz 1> run
-System performOnServer: 'echo ${GT4GEMSTONE}'
-%
-```
-
 Next run the instalation script, verify if there are errors and commit the session.
 ```
-topaz 1> input $GT4GEMSTONE/scripts/gs_3.3.0/load_full.topaz
+topaz 1> input <PATH_TO_GT4GEMSTONE>/external/scripts/gs_3.3.0/load_full.topaz
 topaz 1> errorCount
 topaz 1> commit
 ```
