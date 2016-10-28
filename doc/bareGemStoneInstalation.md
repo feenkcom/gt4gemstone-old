@@ -2,14 +2,14 @@
 
 gt4gemstone can also be installed in a GemStone/S 64 stone that was not created using GsDevKit. The following steps describe the inslation process  on a Linux server.
 
-1. Downloading the gt4gemstone and its dependencies
+## Downloading the gt4gemstone and its dependencies
 ```
 $ git clone https://github.com/feenkcom/gt4gemstone.git
 $ ./gt4gemstone/setupEnvGemstone330Bare.sh
 ``` 
 The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies and sets the environmental variable `$GT4GEMSTONE` to point to the folder `gt4gemstone`. This variable needs to be accessible from within the running stone. 
 
-2. Load the code within the stone.
+## Load the code within the stone.
 
 The code should be loaded using Topaz. Topaz can be started using the `topaz` command present in the `bin` folder of a GemStone/S 64 instalation. The `login` command will promt for a password.
 ```
