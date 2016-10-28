@@ -64,14 +64,15 @@ fi
 #echo "cp ${internalScripts} ${externalScripts}"
 cp ${internalScripts}/*.gs ${externalScripts}/
 
-_GT4GEMSTONE="${GT4GEMSTONE//\//\\/}"
+_GT4GEMSTONE="${GT4GEMSTONE}/external"
+__GT4GEMSTONE="${_GT4GEMSTONE//\//\\/}"
 scriptsUsingGt4Gemstone=("bootstrap_cypress.topaz" "load_core_extensions.topaz" "load_dependencies.topaz" "load_full.topaz")
 echo $_GT4GEMSTONE
 for script in "${scriptsUsingGt4Gemstone[@]}"
 do
   echo "$script"
-  echo "sed -e 's/\$GT4GEMSTONE/${_GT4GEMSTONE}/g' $internalScripts/$script > $externalScripts/$script"
-  sed -e s/\$GT4GEMSTONE/${_GT4GEMSTONE}/g $internalScripts/$script > $externalScripts/$script
+  echo "sed -e 's/\$GT4GEMSTONE/${__GT4GEMSTONE}/g' $internalScripts/$script > $externalScripts/$script"
+  sed -e s/\$GT4GEMSTONE/${__GT4GEMSTONE}/g $internalScripts/$script > $externalScripts/$script
 done
 
 _GT4GEMSTONE_STON_REPO="${GT4GEMSTONE_STON_REPO//\//\\/}"
