@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.71' message 'refactored gtGsInspectorItemsIn: to work without tode' id '6509fb30-bd16-4049-8d23-9aa34b654e6b' date '27 October 2016' time '10:34:21.805634 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.70' message 'use blocks when setting the title of a column
-' id 'ea8e009e-b3f3-5043-adaa-e424a9e6e434' date '27 October 2016' time '10:27:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.72' message 'added #collectDebuggerStackForProcess:' id '5e505a9e-cb0c-476e-90d5-2d5e822b1acc' date '8 November 2016' time '1:07:37.495898 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.71' message 'refactored gtGsInspectorItemsIn: to work without tode
+' id '4dabbf61-2421-5d86-a0eb-9dbe3ff8018e' date '27 October 2016' time '10:34:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

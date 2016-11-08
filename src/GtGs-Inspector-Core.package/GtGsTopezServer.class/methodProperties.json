@@ -11,8 +11,10 @@
 		"todeServerAPIVersionString" : "TravisCI 10/26/2016 13:35" },
 	"instance" : {
 		"authorInitials:" : "TravisCI 10/26/2016 14:02",
+		"collectDebuggerStackForProcess:" : "AndreiChis 11/8/2016 13:05",
 		"effectiveApiVersion" : "TravisCI 10/26/2016 14:13",
 		"effectiveApiVersion:" : "TravisCI 10/26/2016 14:13",
+		"exception:process:" : "AndreiChis 11/8/2016 10:21",
 		"objectSerializer" : "AndreiChis 10/26/2016 15:46",
 		"objectSerializer:" : "TravisCI 10/26/2016 13:47",
 		"performString:" : "TravisCI 10/26/2016 13:48",
