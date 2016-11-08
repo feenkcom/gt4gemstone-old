@@ -1,4 +1,4 @@
-as yet unclassified
+private
 todeServerCreationStringWithOptions: withOptions
 	| str |
 	str := 'GtGsBareTopezServer createFor: 1'.

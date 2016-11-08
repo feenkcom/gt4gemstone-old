@@ -1,4 +1,4 @@
-as yet unclassified
+login/logout
 loginWith: aSessionDescription
 	| todeServerCreationString jsonString resultArray todeServerOop transcriptOopType authorId |
 	self startTime: DateAndTime now.

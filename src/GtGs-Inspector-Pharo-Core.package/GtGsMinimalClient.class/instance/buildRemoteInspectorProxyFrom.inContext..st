@@ -5,7 +5,7 @@ buildRemoteInspectorProxyFrom: aString inContext: anOopType
 		send: #performStringAndBuildProxyFor: 
 		to: anOopType 
 		withArgs: { aString }.
-		
+	serializedProxy ifNil: [ ^ nil ].
 	materializedProxy := self objectSerializer fromString: serializedProxy.
 	materializedProxy gemstoneClient: self.
 	^ materializedProxy
