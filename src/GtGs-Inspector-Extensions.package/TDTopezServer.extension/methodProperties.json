@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"collectDebuggerStackForProcess:" : "AndreiChis 11/8/2016 13:30",
 		"performString:" : "AndreiChis 10/20/2016 19:05:42",
 		"performString:inContext:" : "AndreiChis 10/20/2016 19:05:42",
 		"performStringAndBuildProxyFor:" : "AndreiChis 10/20/2016 19:05:42",
