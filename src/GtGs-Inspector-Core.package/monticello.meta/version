@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.74' message 'another try in #collectDebuggerStackForProcess:' id '10615c72-50fd-4735-b801-9fea94aa6137' date '8 November 2016' time '1:31:10.147248 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.73' message 'experimenting with collectDebuggerStackForProcess:
-' id 'f6ad8d7c-5640-5824-bb8d-c7239841bd99' date '8 November 2016' time '1:24:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.75' message 'updated GtGsTopezServer>>#collectDebuggerStackForProcess:' id 'c92546c7-856b-44b8-9457-ef6adf0f7284' date '8 November 2016' time '1:54:49.333463 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.74' message 'another try in #collectDebuggerStackForProcess:
+' id '13c11a05-5d21-570e-a2ad-0a36fe1609a9' date '8 November 2016' time '1:31:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

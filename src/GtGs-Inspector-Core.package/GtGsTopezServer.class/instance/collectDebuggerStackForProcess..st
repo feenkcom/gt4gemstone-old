@@ -1,5 +1,5 @@
 as yet unclassified
-collectDebuggerStackForProcess: aProcessOop
+collectDebuggerStackForProcess: aGsProcess
 	| stackReport |
-	stackReport := (Object _objectForOop: aProcessOop) stackReportToLevel: 100 withArgsAndTemps: true andMethods: true.
+	stackReport := aGsProcess stackReportToLevel: 100 withArgsAndTemps: true andMethods: true.
 	^ self objectSerializer toString: stackReport
