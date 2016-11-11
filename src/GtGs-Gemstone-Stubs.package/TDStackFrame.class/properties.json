@@ -6,7 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"stack",
+		"frameIndex",
+		"frameContents",
+		"next",
+		"previous",
+		"argAndTempNames",
+		"selectionRange" ],
 	"name" : "TDStackFrame",
 	"pools" : [
 		 ],

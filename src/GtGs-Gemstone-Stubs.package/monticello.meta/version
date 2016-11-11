@@ -1,2 +1,2 @@
-(name 'GtGs-Gemstone-Stubs-AndreiChis.8' message 'debugger stubs' id '62253b6f-679c-4778-b304-f495a1b4544d' date '11 November 2016' time '6:26:33.306713 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.7' message 'Added GsCurrentSession and GsSession
-' id 'cbd3d1ea-de52-550a-af89-7c90174d66a1' date '26 October 2016' time '3:50:14 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Gemstone-Stubs-AndreiChis.9' message 'no attributes for TDStackFrame' id '87edfb70-cca5-4f61-85a1-490e391d26d2' date '11 November 2016' time '6:36:35.445685 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.8' message 'debugger stubs
+' id '5eec3d2f-28ca-5bdb-a15b-a28c0cc54bd9' date '11 November 2016' time '6:26:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
