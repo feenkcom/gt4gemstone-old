@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.4' message 'Do not serialize #frameContents' id '3eaf88a2-f73d-4d99-a55b-d02b8a3723b2' date '11 November 2016' time '7:02:23.294706 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.3' message 'Fixed GtGsDebuggerStack>>#stonOn:
-' id '7bd20305-8685-515a-a309-44c2de0093c9' date '11 November 2016' time '6:43:22 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.5' message 'cache the printString representation of a frame context' id 'bf07de0b-82bd-475c-84de-fc2e4e137285' date '11 November 2016' time '7:08:44.062674 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.4' message 'Do not serialize #frameContents
+' id '4eafa742-f9ba-5831-811c-4eb80a6749cf' date '11 November 2016' time '7:02:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

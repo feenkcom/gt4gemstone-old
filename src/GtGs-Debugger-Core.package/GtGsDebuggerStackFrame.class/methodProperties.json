@@ -2,8 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"cachePrintString" : "AndreiChis 11/11/2016 19:07",
 		"excludedInstVarNames" : "AndreiChis 11/11/2016 19:00",
 		"fromSton:" : "AndreiChis 11/11/2016 19:00",
 		"stonInstVarNames" : "AndreiChis 11/11/2016 19:00",
 		"stonOn:" : "AndreiChis 11/11/2016 19:00",
-		"stonProcessSubObjects:" : "AndreiChis 11/11/2016 19:00" } }
+		"stonProcessSubObjects:" : "AndreiChis 11/11/2016 19:00",
+		"updateCache" : "AndreiChis 11/11/2016 19:06" } }
