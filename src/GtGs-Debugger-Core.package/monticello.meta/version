@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.3' message 'Fixed GtGsDebuggerStack>>#stonOn:' id '3c8c0adb-f651-46a8-8280-ca83d79469ad' date '11 November 2016' time '6:43:20.599959 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.2' message 'no attributes for GtGsDebuggerStackFrame
-' id '6b880ef8-1caf-5dc5-b5df-7efb9fe2b2fa' date '11 November 2016' time '6:36:53 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.4' message 'Do not serialize #frameContents' id '3eaf88a2-f73d-4d99-a55b-d02b8a3723b2' date '11 November 2016' time '7:02:23.294706 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.3' message 'Fixed GtGsDebuggerStack>>#stonOn:
+' id '7bd20305-8685-515a-a309-44c2de0093c9' date '11 November 2016' time '6:43:22 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
