@@ -1,12 +1,15 @@
 as yet unclassified
 debuggerRequested: returnValue
-	|exception stackReport|
-	exception := thisContext sender receiver.
+	|gsNotification stackReport|
+	gsNotification := thisContext sender receiver.
+	
+	GtGsGenericStackDebugger debugSession: (GtGsDebuggerSession 
+		forClient: self andNotification: gsNotification).
 
 	stackReport := self objectSerializer fromString: (self session 
 		send: #collectDebuggerStackForProcess:
 		to: self todeServerOopType
-		withArgs: {exception contextOopType}).
+		withArgs: {gsNotification contextOopType}).
 	Smalltalk tools transcript 
 		open;
 		show: ('-' repeat: 50);
