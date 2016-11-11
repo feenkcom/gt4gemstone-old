@@ -28,9 +28,11 @@ baseline: spec
 		spec 
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
+			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
+			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Pharo-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Examples-AddressBook-Model';
@@ -38,7 +40,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core');
+				with: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Pharo-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'
@@ -50,13 +52,14 @@ baseline: spec
 		spec
 			package: 'GtGs-Inspector-Core';
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Gemstone-Tests' with: [ spec requires: #('GtGs-Inspector-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Examples-AddressBook-Model'.
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Inspector-Core' 'GtGs-Inspector-Extensions');
+				with: #('GtGs-Inspector-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Gemstone-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'
