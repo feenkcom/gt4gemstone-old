@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildDebuggerStackForException:fromProcess:" : "AndreiChis 11/11/2016 18:17",
+		"buildDebuggerStackForException:fromProcess:" : "AndreiChis 11/11/2016 19:10",
 		"collectDebuggerStackForProcess:" : "AndreiChis 11/8/2016 13:30",
 		"performString:" : "AndreiChis 10/20/2016 19:05:42",
 		"performString:inContext:" : "AndreiChis 10/20/2016 19:05:42",

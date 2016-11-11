@@ -5,5 +5,6 @@ buildDebuggerStackForException: aGsException fromProcess: aGsProcess
    		process: aGsProcess;
     	exception: aGsException;
 		createFrames;
+		updateCache;
     	yourself.
 	^ self objectSerializer toString: stack

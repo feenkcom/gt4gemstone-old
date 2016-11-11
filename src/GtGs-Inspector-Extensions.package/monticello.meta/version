@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Extensions-AndreiChis.5' message 'Topaz server should build a GtGsDebuggerStack' id 'b85ca20e-c7f2-457e-92e3-a86007b9967f' date '11 November 2016' time '6:28:59.1514 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Extensions-AndreiChis.4' message 'no dependency to topaz in GtGs-Inspector-Core
-' id '097b256d-b081-5f00-860e-ee802f3e89e5' date '8 November 2016' time '5:09:27 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Extensions-AndreiChis.6' message 'update the cache of the stack before serializing it ' id 'c1ccf5ed-2f1f-4315-99ac-7ed287063820' date '11 November 2016' time '7:10:46.211094 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Extensions-AndreiChis.5' message 'Topaz server should build a GtGsDebuggerStack
+' id 'd4295361-241c-569e-923a-885bef691cbe' date '11 November 2016' time '6:29 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
