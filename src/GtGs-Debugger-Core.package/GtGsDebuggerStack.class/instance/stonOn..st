@@ -1,6 +1,5 @@
 ston
 stonOn: stonWriter
-  self setOops.
   stonWriter
     writeObject: self
     streamMap: [ :dictionary | 
