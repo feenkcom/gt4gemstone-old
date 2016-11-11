@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Debugger-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsGenericStackDebugger",
+	"pools" : [
+		 ],
+	"super" : "GTMoldableDebugger",
+	"type" : "normal" }

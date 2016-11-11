@@ -1,0 +1,2 @@
+building actions
+installDebuggingActionsFor: aPresentation 

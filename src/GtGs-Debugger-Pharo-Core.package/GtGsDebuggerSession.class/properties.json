@@ -1,0 +1,16 @@
+{
+	"category" : "GtGs-Debugger-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gemstoneClient",
+		"gemstoneNotification",
+		"gemstoneStack" ],
+	"name" : "GtGsDebuggerSession",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
