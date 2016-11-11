@@ -3,5 +3,5 @@ stackWidgetIn: composite
 
 	^ composite list	
 		title: 'Stack';
-		display: [:aSession | self retrieveStackFrom: aSession];
+		display: [:aSession | (self retrieveStackFrom: aSession) frames ];
 		format: #cachePrintString

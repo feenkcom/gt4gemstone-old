@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.2' message 'format the stack' id '1b128cd2-87a7-4fcd-9f05-520040bf3e12' date '11 November 2016' time '7:09:03.815626 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.1' message 'basic skeleton for GtGsGenericStackDebugger
-' id '2b0e2d4d-9f90-5bd1-a789-0609cb7d1ff2' date '11 November 2016' time '6:26:17 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.3' message 'fixed stackWidgetIn:' id '55d31bdd-0a12-4a3b-b688-36b35f7bded0' date '11 November 2016' time '7:13:40.725098 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.2' message 'format the stack
+' id '4abe5572-64c3-5b97-9f7f-16944dfab4f1' date '11 November 2016' time '7:09:04 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
