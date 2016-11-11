@@ -1,7 +1,2 @@
-(name 'GtGs-Gemstone-Stubs-AndreiChis.7' message 'Added GsCurrentSession and GsSession' id '983cf3bc-d9e9-4a19-9220-bf1d606261c9' date '26 October 2016' time '3:50:12.947023 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.6' message 'added GsPackagePolicy
-' id '01949831-be7c-5cae-ab92-b88992edbd9c' date '26 October 2016' time '2:14:49 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-TudorGirba.5' message 'added GsNMethod
-' id '2f633f19-435a-5b7b-8d0f-27348a1e6408' date '17 October 2016' time '3:22:42 pm' author 'TudorGirba' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.4' message 'added stub class CharacterCollection
-' id '8487ddae-30f9-5769-b873-a92e981ed5fd' date '17 October 2016' time '12:09:17 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.3' message 'added TDTopezServer as a stub
-' id 'd4545a9a-5e8f-557b-8762-783f082e5a14' date '15 October 2016' time '3:48:02 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.2' message 'Added AbstractDictionary
-' id 'ab741828-0854-58f9-8aee-81130eeb6d18' date '14 October 2016' time '6:03:22 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.1' message 'Renamed the sources folder from repository to src
-' id '0e102828-0493-53bb-9bae-f01795e6a54a' date '14 October 2016' time '2:31:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
+(name 'GtGs-Gemstone-Stubs-AndreiChis.8' message 'debugger stubs' id '62253b6f-679c-4778-b304-f495a1b4544d' date '11 November 2016' time '6:26:33.306713 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.7' message 'Added GsCurrentSession and GsSession
+' id 'cbd3d1ea-de52-550a-af89-7c90174d66a1' date '26 October 2016' time '3:50:14 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
