@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Debugger-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsDebuggerStack",
+	"pools" : [
+		 ],
+	"super" : "TDStack",
+	"type" : "normal" }

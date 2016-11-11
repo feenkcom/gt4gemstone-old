@@ -1,0 +1,1 @@
+(name 'GtGs-Debugger-Core-AndreiChis.1' message 'Added GtGsDebuggerStack and GtGsDebuggerStackFrame; currently they inherit from the coresponding tode classes.' id '9995b749-9d1e-41a9-944b-48da9c537b31' date '11 November 2016' time '6:25:31.820648 pm' author 'AndreiChis' ancestors () stepChildren ())
