@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gemstoneClient",
-		"gemstoneNotification",
-		"gemstoneStack" ],
-	"name" : "GtGsDebuggerSession",
+		 ],
+	"name" : "GtGsDebuggerVariablesBrowser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GLMCompositePresentation",
 	"type" : "normal" }

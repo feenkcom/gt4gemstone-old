@@ -1,5 +1,5 @@
-as yet unclassified
+building presentations
 stackIn: composite
 
 	^ (self stackWidgetIn: composite)
-		"with: [ :stackWidget | self installStackDebuggingActionsFor: stackWidget ]"
+		with: [ :stackWidget | self installStackDebuggingActionsFor: stackWidget ]

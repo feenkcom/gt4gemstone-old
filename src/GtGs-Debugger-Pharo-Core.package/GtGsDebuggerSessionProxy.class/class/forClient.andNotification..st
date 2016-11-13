@@ -3,4 +3,4 @@ forClient: aGsClient andNotification: gsNotification
 
 	^ self new 	
 		gemstoneClient: aGsClient;
-		updateStackForNotification: gsNotification
+		updateGemstonSessionForNotification: gsNotification

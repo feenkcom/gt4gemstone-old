@@ -1,3 +1,3 @@
 as yet unclassified
 stack
-	^ gemstoneStack
+	^ gemstoneSession stack

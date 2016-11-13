@@ -1,11 +1,19 @@
 {
 	"class" : {
 		"defaultTitle" : "AndreiChis 11/11/2016 15:53",
-		"sessionClass" : "AndreiChis 11/10/2016 12:07" },
+		"sessionClass" : "AndreiChis 11/13/2016 16:21",
+		"variablesBrowserClass" : "AndreiChis 11/13/2016 16:06" },
 	"instance" : {
+		"contextToSelectFrom:" : "AndreiChis 11/13/2016 17:04",
 		"debuggerStructureIn:" : "AndreiChis 11/10/2016 11:53",
-		"debuggerTransmissionsIn:" : "AndreiChis 11/10/2016 11:54",
-		"installDebuggingActionsFor:" : "AndreiChis 11/10/2016 13:57",
+		"debuggerTransmissionsIn:" : "AndreiChis 11/13/2016 16:51",
+		"installCodeActionsFor:" : "AndreiChis 11/13/2016 16:53",
+		"installDebuggingActionsFor:" : "AndreiChis 11/13/2016 16:51",
+		"installStackDebuggingActionsFor:" : "AndreiChis 11/13/2016 16:54",
+		"methodCodeIn:forContext:" : "AndreiChis 11/13/2016 16:53",
+		"methodCodeWidgetIn:forContext:" : "AndreiChis 11/13/2016 16:59",
 		"retrieveStackFrom:" : "AndreiChis 11/11/2016 19:13",
-		"stackIn:" : "AndreiChis 11/11/2016 15:52",
-		"stackWidgetIn:" : "AndreiChis 11/11/2016 19:13" } }
+		"selectionChanged:" : "AndreiChis 11/13/2016 16:52",
+		"stackIn:" : "AndreiChis 11/13/2016 16:54",
+		"stackWidgetIn:" : "AndreiChis 11/13/2016 16:57",
+		"transmitFromStackToCodeIn:" : "AndreiChis 11/13/2016 16:53" } }

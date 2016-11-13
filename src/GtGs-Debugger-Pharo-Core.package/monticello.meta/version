@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.3' message 'fixed stackWidgetIn:' id '55d31bdd-0a12-4a3b-b688-36b35f7bded0' date '11 November 2016' time '7:13:40.725098 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.2' message 'format the stack
-' id '4abe5572-64c3-5b97-9f7f-16944dfab4f1' date '11 November 2016' time '7:09:04 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.4' message '- GtGsDebuggerSessionProxy uses a GtGsDebuggerSession instead of directly referencing GtGsDebuggerStack- added the source code in the debugger' id 'ae7076b8-d731-4f79-81c4-5cb68e37f7a6' date '13 November 2016' time '5:09:32.380786 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.3' message 'fixed stackWidgetIn:
+' id '8b7458e5-74a0-5552-9a86-cfd659895b86' date '11 November 2016' time '7:13:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

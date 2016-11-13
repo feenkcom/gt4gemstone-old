@@ -1,4 +1,4 @@
 as yet unclassified
 sessionClass
 
-	^ GtGsDebuggerSession 
+	^ GtGsDebuggerSessionProxy 
