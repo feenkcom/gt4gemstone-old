@@ -2,10 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"cachePrintString" : "AndreiChis 11/11/2016 19:07",
+		"cachedFrameLabel" : "AndreiChis 11/13/2016 16:57",
+		"cachedSourceCode" : "AndreiChis 11/13/2016 16:57",
 		"excludedInstVarNames" : "AndreiChis 11/11/2016 19:00",
 		"fromSton:" : "AndreiChis 11/11/2016 19:00",
+		"gtGsContextVariablesPresentation" : "AndreiChis 11/13/2016 16:42",
 		"stonInstVarNames" : "AndreiChis 11/11/2016 19:00",
 		"stonOn:" : "AndreiChis 11/11/2016 19:00",
 		"stonProcessSubObjects:" : "AndreiChis 11/11/2016 19:00",
-		"updateCache" : "AndreiChis 11/11/2016 19:06" } }
+		"updateCache" : "AndreiChis 11/13/2016 16:46",
+		"updateSourceCode" : "AndreiChis 11/13/2016 16:47" } }

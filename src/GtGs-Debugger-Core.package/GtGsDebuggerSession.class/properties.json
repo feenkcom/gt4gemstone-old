@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"frameLabel",
-		"sourceCode",
-		"variabesPresentation" ],
-	"name" : "GtGsDebuggerStackFrame",
+		"stack" ],
+	"name" : "GtGsDebuggerSession",
 	"pools" : [
 		 ],
-	"super" : "TDStackFrame",
+	"super" : "Object",
 	"type" : "normal" }

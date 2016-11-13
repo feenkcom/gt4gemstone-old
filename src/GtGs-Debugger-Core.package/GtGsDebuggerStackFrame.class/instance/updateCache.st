@@ -1,4 +1,5 @@
-as yet unclassified
+updating
 updateCache
 
-	cachePrintString := self printString
+	frameLabel := self printString.
+	"sourceCode := self homeMethodSource."
