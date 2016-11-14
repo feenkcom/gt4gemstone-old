@@ -17,7 +17,7 @@ variablesIn: composite
 		column: 'Value' 
 			evaluated: [ :variableNode | variableNode formattedValue ];
 		send: [ :variableNode | |serializedProxy|
-			self halt.
+			"self halt."
 			serializedProxy := self debugger session gemstoneClient
 				executeRemotely: #serializedInspectorProxyForTargetObject
 				on: (self debugger session gemstoneClient session 
