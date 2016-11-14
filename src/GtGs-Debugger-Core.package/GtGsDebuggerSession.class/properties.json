@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"stack" ],
+		"stack",
+		"selfOop",
+		"topezServer" ],
 	"name" : "GtGsDebuggerSession",
 	"pools" : [
 		 ],

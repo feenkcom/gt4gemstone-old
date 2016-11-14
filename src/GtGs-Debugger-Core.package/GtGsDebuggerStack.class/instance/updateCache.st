@@ -1,4 +1,5 @@
 as yet unclassified
 updateCache
-
-	self frames do: #updateCache
+		
+	self frames do: #updateCacheBasic.
+	self currentFrame updateCacheFull

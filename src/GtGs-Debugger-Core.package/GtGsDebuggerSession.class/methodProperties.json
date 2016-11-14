@@ -2,6 +2,15 @@
 	"class" : {
 		"forException:fromProcess:" : "AndreiChis 11/13/2016 16:29" },
 	"instance" : {
+		"excludedInstVarNames" : "AndreiChis 11/14/2016 10:04",
+		"fromSton:" : "AndreiChis 11/14/2016 10:03",
 		"selectedCodeRangeForContext:" : "AndreiChis 11/13/2016 17:02",
 		"stack" : "AndreiChis 11/13/2016 16:32",
-		"updateSessionForException:fromProcess:" : "AndreiChis 11/13/2016 17:02" } }
+		"stonInstVarNames" : "AndreiChis 11/14/2016 10:03",
+		"stonOn:" : "AndreiChis 11/14/2016 10:03",
+		"stonProcessSubObjects:" : "AndreiChis 11/14/2016 10:03",
+		"topezServer" : "AndreiChis 11/13/2016 17:52",
+		"topezServer:" : "AndreiChis 11/14/2016 10:02",
+		"updateCache" : "AndreiChis 11/13/2016 17:44",
+		"updateSessionForException:fromProcess:" : "AndreiChis 11/13/2016 17:45",
+		"updateStackFrameWithIndex:" : "AndreiChis 11/13/2016 22:33" } }
