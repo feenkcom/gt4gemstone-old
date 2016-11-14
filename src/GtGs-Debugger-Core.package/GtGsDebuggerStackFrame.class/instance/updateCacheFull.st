@@ -1,5 +1,7 @@
 updating
 updateCacheFull
 
+	self selectionRange.
 	sourceCode := self homeMethodSource.
-	self selectionRange
+	inspectorVariableNodes := self inspectorVariableNodes.
+	"variabesPresentation := self buildVariablesPresentation."

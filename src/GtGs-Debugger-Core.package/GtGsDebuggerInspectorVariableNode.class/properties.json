@@ -6,13 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selfOop",
-		"frameLabel",
-		"sourceCode",
-		"inspectorVariableNodes",
-		"variabesPresentation" ],
-	"name" : "GtGsDebuggerStackFrame",
+		"type",
+		"variableName" ],
+	"name" : "GtGsDebuggerInspectorVariableNode",
 	"pools" : [
 		 ],
-	"super" : "TDStackFrame",
+	"super" : "GtGsGlmValueNode",
 	"type" : "normal" }
