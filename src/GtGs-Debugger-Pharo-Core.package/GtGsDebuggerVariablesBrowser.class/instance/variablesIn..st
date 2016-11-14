@@ -1,6 +1,5 @@
 as yet unclassified
 variablesIn: composite
-	
 	^ composite table
 		showOnly: 50;
 		shouldValidate: false;
@@ -17,11 +16,16 @@ variablesIn: composite
 			width: 175;
 		column: 'Value' 
 			evaluated: [ :variableNode | variableNode formattedValue ];
-		send: [ :variableNode | 
-			self debugger session gemstoneClient
-				send: #gtGsSerializedInspectorProxy 
-				to: (self debugger session gemstoneClient session 
-						asOopType: variableNode selfOop) ];
+		send: [ :variableNode | |serializedProxy|
+			self halt.
+			serializedProxy := self debugger session gemstoneClient
+				executeRemotely: #serializedInspectorProxyForTargetObject
+				on: (self debugger session gemstoneClient session 
+						asOopType: variableNode selfOop)
+				withArguments: #().
+			serializedProxy
+					gemstoneClient: self debugger session gemstoneClient;
+					yourself ];
 		onChangeOfPort: #rawSelection 
 			act: [ :aPresentation | 
 				self debugger selectedVariableName: aPresentation rawSelection variableName ]

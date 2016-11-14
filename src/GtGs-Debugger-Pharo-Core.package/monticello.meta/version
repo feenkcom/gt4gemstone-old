@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.6' message 'embed the inspector in the debugger' id '80741bdd-5cd3-4d43-9306-7e9b367bf533' date '14 November 2016' time '2:55:20.868462 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.5' message 'the debugger should update the source code when a context is selected
-' id '1df50280-2cb6-5b97-a830-be9af4de192b' date '14 November 2016' time '10:07:06 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.7' message 'fixed the integration of the inspector in the debugger' id '92be3da8-d197-4681-95b5-a36714cb80db' date '14 November 2016' time '3:28:12.237601 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.6' message 'embed the inspector in the debugger
+' id 'a768161f-2e43-55a7-91e1-2eb7fd5f2d22' date '14 November 2016' time '2:55:22 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

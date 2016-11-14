@@ -16,3 +16,7 @@ debuggerTransmissionsIn: browser
 		transformed: [ :context | 
 			self selectionChanged: context ].
 	self transmitFromStackToCodeIn: browser.
+	browser transmit
+		from: #stack port: #selection;
+		to: #inspector;
+		andShow: [ :composite | self inspectorIn: composite ] 

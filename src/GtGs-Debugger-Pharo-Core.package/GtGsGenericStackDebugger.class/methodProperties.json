@@ -6,7 +6,7 @@
 	"instance" : {
 		"contextToSelectFrom:" : "AndreiChis 11/13/2016 17:21",
 		"debuggerStructureIn:" : "AndreiChis 11/10/2016 11:53",
-		"debuggerTransmissionsIn:" : "AndreiChis 11/13/2016 16:51",
+		"debuggerTransmissionsIn:" : "AndreiChis 11/14/2016 14:58",
 		"inspectorIn:" : "AndreiChis 11/14/2016 11:26",
 		"inspectorIn:on:" : "AndreiChis 11/14/2016 11:26",
 		"installCodeActionsFor:" : "AndreiChis 11/13/2016 16:53",
@@ -16,6 +16,8 @@
 		"methodCodeWidgetIn:forContext:" : "AndreiChis 11/13/2016 16:59",
 		"retrieveStackFrom:" : "AndreiChis 11/11/2016 19:13",
 		"selectedContext" : "AndreiChis 11/14/2016 09:59",
+		"selectedVariableName" : "AndreiChis 11/14/2016 14:59",
+		"selectedVariableName:" : "AndreiChis 11/14/2016 14:59",
 		"selectionChanged:" : "AndreiChis 11/13/2016 16:52",
 		"stackIn:" : "AndreiChis 11/13/2016 16:54",
 		"stackWidgetIn:" : "AndreiChis 11/14/2016 10:06",
