@@ -1,2 +1,2 @@
-(name 'GtGs-Gemstone-Stubs-AndreiChis.11' message 'added utility method to TDStackFrame' id 'a0706ac2-fd7c-4aa3-884e-e4bd741d5240' date '14 November 2016' time '10:07:37.459765 am' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.10' message 'Added TDStack>>#frames
-' id 'c6b2b6e7-282c-5c9f-a554-bd8b42ac2f20' date '11 November 2016' time '7:14:01 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Gemstone-Stubs-AndreiChis.12' message 'TDStackFrame>>#frameIndex' id '9299c52d-df8e-48a7-ae45-c6c95c0f8378' date '14 November 2016' time '2:55:40.283085 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.11' message 'added utility method to TDStackFrame
+' id '7b7416f8-c647-5c2f-8f9e-4a9cca82e54a' date '14 November 2016' time '10:07:39 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
