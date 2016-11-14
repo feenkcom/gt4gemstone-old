@@ -8,7 +8,7 @@
 	"instvars" : [
 		"gemstoneClient",
 		"gemstoneNotification",
-		"gemstoneSession" ],
+		"gemstoneDebuggerSession" ],
 	"name" : "GtGsDebuggerSessionProxy",
 	"pools" : [
 		 ],

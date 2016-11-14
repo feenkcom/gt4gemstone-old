@@ -1,3 +1,3 @@
 accessing context
 contextToSelectFrom: aSession
-	^ aSession currentFrame
+	^ aSession stack currentFrame

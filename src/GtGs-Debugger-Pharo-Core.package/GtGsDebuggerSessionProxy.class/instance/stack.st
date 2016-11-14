@@ -1,3 +1,3 @@
 as yet unclassified
 stack
-	^ gemstoneSession stack
+	^ self gemstoneDebuggerSession stack

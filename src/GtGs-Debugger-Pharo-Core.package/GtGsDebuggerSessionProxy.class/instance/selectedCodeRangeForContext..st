@@ -1,0 +1,4 @@
+as yet unclassified
+selectedCodeRangeForContext: selectedContext
+
+	^ self gemstoneDebuggerSession selectedCodeRangeForContext: selectedContext
