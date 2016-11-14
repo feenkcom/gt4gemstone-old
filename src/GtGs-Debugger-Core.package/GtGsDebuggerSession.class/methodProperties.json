@@ -2,6 +2,7 @@
 	"class" : {
 		"forException:fromProcess:" : "AndreiChis 11/13/2016 16:29" },
 	"instance" : {
+		"addToSessionTemps" : "AndreiChis 11/14/2016 15:59",
 		"excludedInstVarNames" : "AndreiChis 11/14/2016 10:04",
 		"fromSton:" : "AndreiChis 11/14/2016 10:03",
 		"selectedCodeRangeForContext:" : "AndreiChis 11/13/2016 17:02",
