@@ -7,9 +7,9 @@ buildInspectorVariableNodes
 	actualReceiver := self rawReceiver ~~ self frameSelf 
 		ifTrue: [ self receiver ]
       ifFalse: [ self frameSelf ].
-	currentNodes addAll:  (actualReceiver gtGsVariableValuePairsWithSelfIf: false) collect: [ :aPair |
+	currentNodes addAll: ((actualReceiver gtGsVariableValuePairsWithSelfIf: false) collect: [ :aPair |
 		GtGsDebuggerInspectorVariableNode new
 			variableName: aPair key;
 			type: 'attribute';
-			targetObject: aPair value ].
+			targetObject: aPair value ]).
 	^ currentNodes
