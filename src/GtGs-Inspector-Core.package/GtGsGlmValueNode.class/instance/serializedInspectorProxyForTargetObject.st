@@ -1,0 +1,4 @@
+accessing
+serializedInspectorProxyForTargetObject
+
+	^ self targetObject gtGsSerializedInspectorProxy
