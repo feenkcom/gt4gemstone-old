@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.8' message 'removed halt' id '6c14e7ec-e23c-4899-a1b8-3545846cbf20' date '14 November 2016' time '4:01:32.974861 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.7' message 'fixed the integration of the inspector in the debugger
-' id 'd5943a75-1edc-50d9-9f92-68c1585702a6' date '14 November 2016' time '3:28:14 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.9' message 'GtGsDebugSessionProxy should handle the client process that triggered the error. ' id '2c220fbe-9485-4647-87b4-5dcbf944834f' date '14 November 2016' time '5:03:53.975961 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.8' message 'removed halt
+' id '2e84d513-8d82-55d0-9ef4-9557e837591e' date '14 November 2016' time '4:01:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

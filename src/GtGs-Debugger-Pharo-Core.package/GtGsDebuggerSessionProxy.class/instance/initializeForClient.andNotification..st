@@ -1,5 +1,6 @@
 as yet unclassified
-updateGemstonDebuggerSessionForNotification: aGsNotification
+initializeForClient: aGsClient andNotification: aGsNotification
+	gemstoneClient := aGsClient.
 	gemstoneNotification := aGsNotification.
 	gemstoneDebuggerSession := self gemstoneClient objectSerializer fromString: (self gemstoneClient session 
 		send: #buildDebuggerSessionForException:fromProcess:
