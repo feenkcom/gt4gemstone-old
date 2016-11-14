@@ -10,5 +10,5 @@
 	"name" : "GtGsDebuggerVariablesBrowser",
 	"pools" : [
 		 ],
-	"super" : "GLMCompositePresentation",
+	"super" : "GTDebuggerVariablesBrowser",
 	"type" : "normal" }
