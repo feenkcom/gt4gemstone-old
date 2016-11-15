@@ -6,3 +6,5 @@ input $GT4GEMSTONE/scripts/gs_3.3.0/extensions_symbol.gs
 errorCount
 input $GT4GEMSTONE/scripts/gs_3.3.0/extensions_object.gs
 errorCount
+input $GT4GEMSTONE/scripts/gs_3.3.0/extensions_character.gs
+errorCount
