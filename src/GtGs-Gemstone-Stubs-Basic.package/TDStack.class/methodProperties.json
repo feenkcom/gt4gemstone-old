@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"createFrames" : "AndreiChis 11/15/2016 22:41",
+		"currentFrame" : "AndreiChis 11/15/2016 22:41",
+		"debugTool" : "AndreiChis 11/15/2016 22:41",
+		"debugTool:" : "AndreiChis 11/15/2016 22:41",
+		"exception" : "AndreiChis 11/15/2016 22:41",
+		"exception:" : "AndreiChis 11/15/2016 22:42",
+		"frameNode:index:topez:" : "AndreiChis 11/15/2016 22:42",
+		"frames" : "AndreiChis 11/15/2016 22:42",
+		"navigateFrame:" : "AndreiChis 11/15/2016 22:42",
+		"navigateStack:" : "AndreiChis 11/15/2016 22:42",
+		"printOn:" : "AndreiChis 11/15/2016 22:42",
+		"process" : "AndreiChis 11/15/2016 22:42",
+		"process:" : "AndreiChis 11/15/2016 22:42",
+		"processOop" : "AndreiChis 11/15/2016 22:42",
+		"refreshViews" : "AndreiChis 11/15/2016 22:43",
+		"resetFrames" : "AndreiChis 11/15/2016 22:43",
+		"signallerFrame:" : "AndreiChis 11/15/2016 22:43",
+		"stack" : "AndreiChis 11/15/2016 22:43",
+		"terminateProcess" : "AndreiChis 11/15/2016 22:43",
+		"trimStackTo:" : "AndreiChis 11/15/2016 22:43",
+		"trimmed" : "AndreiChis 11/15/2016 22:43",
+		"trimmed:" : "AndreiChis 11/15/2016 22:43" } }
