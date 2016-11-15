@@ -9,4 +9,4 @@ buildVariables: names withType: aString
 			targetObject := self 
 				objectFor: variableName 
 				ifAbsent: [ variableNode formattedValue: 'missing element'. nil ].
-			variableNode targetObject: 'missing element' ].
+			variableNode targetObject: targetObject ].
