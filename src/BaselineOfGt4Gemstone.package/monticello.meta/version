@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.14' message 'added the debugger to the baseline' id 'fcd3a23f-9724-4d7e-8ae2-62506d499fc5' date '11 November 2016' time '6:34:05.882609 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.13' message 'readded the tests group to the gemstone baseline
-' id '4fc45922-ae0a-5183-bc28-2350ab5e4e36' date '22 October 2016' time '5:26:13 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.15' message 'added ''GtGs-Gemstone-Stubs-Basic'' to the pharo baseline' id '32da3ccb-b3f6-4157-a0c4-3176c2132dbe' date '15 November 2016' time '11:23:10.120326 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.14' message 'added the debugger to the baseline
+' id 'a52e68b1-cec6-5691-97c5-519591c7b0ae' date '11 November 2016' time '6:34:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
