@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.15' message 'fix in #targetObject:' id 'faf4b110-0d0d-41b6-a633-09fab0ad804c' date '15 November 2016' time '11:14:57.838029 am' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.14' message 'fixed buildVariables:withType:
-' id 'c7885da4-259d-5053-a27a-0227c317520b' date '15 November 2016' time '11:10:27 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.16' message 'override #printOn: in the stack and stack frame classes so that they can be executed on the pharo side.' id '91793d7e-0685-4dab-b330-528d4fe72564' date '15 November 2016' time '11:06:28.498086 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.15' message 'fix in #targetObject:
+' id 'ec09623c-5f0a-59f3-9025-4f0389b6461e' date '15 November 2016' time '11:15 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
