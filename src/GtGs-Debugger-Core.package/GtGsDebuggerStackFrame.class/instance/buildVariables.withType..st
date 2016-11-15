@@ -2,11 +2,11 @@ as yet unclassified
 buildVariables: names withType: aString
 
 	^ names 
-		collect: [ :variableName ||targetObject|
-			targetObject := (self 
-				objectFor: variableName 
-				ifAbsent: [ nil ]).
-			GtGsDebuggerInspectorVariableNode new
+		collect: [ :variableName || targetObject variableNode |
+			variableNode := GtGsDebuggerInspectorVariableNode new
 				variableName: variableName;
-				type: aString;
-				targetObject: targetObject ].
+				type: aString.
+			targetObject := self 
+				objectFor: variableName 
+				ifAbsent: [ variableNode formattedValue: 'missing element'. nil ].
+			variableNode targetObject: 'missing element' ].
