@@ -8,7 +8,11 @@
 	"instvars" : [
 		"stack",
 		"selfOop",
-		"topezServer" ],
+		"topezServer",
+		"processResult",
+		"processTerminated",
+		"selfForwarder",
+		"selfForwarderOop" ],
 	"name" : "GtGsDebuggerSession",
 	"pools" : [
 		 ],

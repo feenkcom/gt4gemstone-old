@@ -4,4 +4,5 @@ updateSessionForException: aGsException fromProcess: aGsProcess
    		process: aGsProcess;
     	exception: aGsException;
 		yourself.
+	self updateForwarder.
 	self updateCache
