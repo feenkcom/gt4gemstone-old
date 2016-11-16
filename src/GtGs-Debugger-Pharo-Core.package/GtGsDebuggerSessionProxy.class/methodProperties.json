@@ -1,18 +1,18 @@
 {
 	"class" : {
-		"forClient:andNotification:in:" : "AndreiChis 11/14/2016 16:28" },
+		"forClient:andNotification:in:" : "AndreiChis 11/14/2016 17:33:53" },
 	"instance" : {
-		"clear" : "AndreiChis 11/14/2016 16:43",
-		"clientProcess" : "AndreiChis 11/14/2016 16:29",
-		"clientProcess:" : "AndreiChis 11/14/2016 16:29",
-		"detectUIProcess" : "AndreiChis 11/14/2016 16:25",
-		"gemstoneClient" : "AndreiChis 11/11/2016 17:45",
-		"gemstoneDebuggerSession" : "AndreiChis 11/13/2016 22:30",
-		"gemstoneDebuggerSessionOopType" : "AndreiChis 11/13/2016 22:31",
-		"initializeForClient:andNotification:" : "AndreiChis 11/14/2016 16:28",
-		"isAboutUIProcess" : "AndreiChis 11/14/2016 16:33",
-		"name" : "AndreiChis 11/14/2016 17:25",
-		"selectedCodeRangeForContext:" : "AndreiChis 11/13/2016 22:30",
-		"stack" : "AndreiChis 11/13/2016 22:30",
-		"terminate" : "AndreiChis 11/14/2016 16:42",
-		"updateStackFrame:" : "AndreiChis 11/14/2016 11:21" } }
+		"clear" : "AndreiChis 11/14/2016 17:33:53",
+		"clientProcess" : "AndreiChis 11/14/2016 17:33:53",
+		"clientProcess:" : "AndreiChis 11/14/2016 17:33:53",
+		"detectUIProcess" : "AndreiChis 11/14/2016 17:33:53",
+		"gemstoneClient" : "AndreiChis 11/14/2016 17:33:53",
+		"gemstoneDebuggerSession" : "AndreiChis 11/14/2016 17:33:53",
+		"gemstoneDebuggerSessionOopType" : "AndreiChis 11/14/2016 17:33:53",
+		"initializeForClient:andNotification:" : "AndreiChis 11/14/2016 17:33:53",
+		"isAboutUIProcess" : "AndreiChis 11/14/2016 17:33:53",
+		"name" : "AndreiChis 11/14/2016 17:33:53",
+		"selectedCodeRangeForContext:" : "AndreiChis 11/14/2016 17:33:53",
+		"stack" : "AndreiChis 11/14/2016 17:33:53",
+		"terminate" : "AndreiChis 11/14/2016 17:33:53",
+		"updateStackFrame:" : "AndreiChis 11/14/2016 17:33:53" } }

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"selectedVariableForContext:" : "AndreiChis 11/14/2016 15:26",
-		"variablesFromContext:" : "AndreiChis 11/14/2016 14:32",
-		"variablesIn:" : "AndreiChis 11/14/2016 15:36" } }
+		"compose" : "TravisCI 11/16/2016 01:43",
+		"selectedVariableForContext:" : "AndreiChis 11/14/2016 17:33:53",
+		"variablesFromContext:" : "AndreiChis 11/14/2016 17:33:53",
+		"variablesIn:" : "TravisCI 11/16/2016 01:45" } }
