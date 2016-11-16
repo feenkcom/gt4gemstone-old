@@ -1,1 +1,2 @@
-(name 'GtGs-Common-Resources-Tests-AndreiChis.1' message 'Common resources for tests go here' id '3a5054ba-326f-4dc5-b022-d775c1183f1c' date '22 October 2016' time '4:13:29.865903 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Common-Resources-Tests-AndreiChis.2' message 'added a class for experimenting with tests' id 'ac786a5b-81f7-4765-8bbf-b13f6ac30afe' date '16 November 2016' time '12:33:48.826956 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.1' message 'Common resources for tests go here
+' id 'ee6a760d-894b-5df1-8a96-ea9f4b744a05' date '22 October 2016' time '4:13:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
