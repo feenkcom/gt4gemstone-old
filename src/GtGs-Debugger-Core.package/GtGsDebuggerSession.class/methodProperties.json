@@ -1,24 +1,26 @@
 {
 	"class" : {
-		"forException:fromProcess:" : "AndreiChis 11/13/2016 16:29" },
+		"forException:fromProcess:" : "AndreiChis 11/16/2016 23:54" },
 	"instance" : {
 		"addToSessionTemps" : "AndreiChis 11/14/2016 15:59",
-		"dbContinue" : "AndreiChis 11/16/2016 22:42",
-		"dbFinishStep" : "AndreiChis 11/16/2016 23:41",
+		"computeStack" : "AndreiChis 11/17/2016 00:02",
+		"computeStackFrameWithIndex:" : "AndreiChis 11/16/2016 23:51",
+		"dbContinue" : "AndreiChis 11/17/2016 00:00",
+		"dbFinishStep" : "AndreiChis 11/16/2016 23:55",
 		"debugExceptionSymbols" : "AndreiChis 11/16/2016 11:23",
 		"excludedInstVarNames" : "AndreiChis 11/16/2016 21:24",
 		"fromSton:" : "AndreiChis 11/14/2016 10:03",
+		"initializeForwarder" : "AndreiChis 11/16/2016 23:52",
+		"initializeSessionForException:fromProcess:" : "AndreiChis 11/16/2016 23:54",
 		"selectedCodeRangeForContext:" : "AndreiChis 11/13/2016 17:02",
 		"selfForwarder" : "AndreiChis 11/16/2016 13:58",
 		"selfForwarderOop" : "AndreiChis 11/16/2016 13:51",
 		"selfOop" : "AndreiChis 11/14/2016 11:14",
 		"stack" : "AndreiChis 11/13/2016 16:32",
+		"stack:" : "AndreiChis 11/17/2016 00:06",
 		"stonInstVarNames" : "AndreiChis 11/14/2016 10:03",
 		"stonOn:" : "AndreiChis 11/14/2016 10:03",
 		"stonProcessSubObjects:" : "AndreiChis 11/14/2016 10:03",
 		"topezServer" : "AndreiChis 11/13/2016 17:52",
 		"topezServer:" : "AndreiChis 11/14/2016 10:02",
-		"updateCache" : "AndreiChis 11/13/2016 17:44",
-		"updateForwarder" : "AndreiChis 11/16/2016 13:46",
-		"updateSessionForException:fromProcess:" : "AndreiChis 11/16/2016 13:46",
-		"updateStackFrameWithIndex:" : "AndreiChis 11/13/2016 22:33" } }
+		"updateCache" : "AndreiChis 11/16/2016 23:53" } }

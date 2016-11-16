@@ -1,5 +1,5 @@
-as yet unclassified
-updateForwarder
+initialization
+initializeForwarder
 
 	selfForwarder := ClientForwarder new.
 	selfForwarderOop := Reflection oopOf: selfForwarder

@@ -1,5 +1,5 @@
 as yet unclassified
 updateCache
 
-	selfOop := self asOop.
+	selfOop ifNil: [ selfOop := self asOop ].
 	self stack updateCache.
