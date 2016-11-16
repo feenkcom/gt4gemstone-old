@@ -10,6 +10,6 @@ dbFinishStep
       processTerminated == true ])
     ifTrue: [ 
     	^ #'close' ].
-  ^ self objectSerializer toString:
+  ^ self topezServer objectSerializer toString:
       {#'listIndex:'.
       (currentFrame frameIndex)}
