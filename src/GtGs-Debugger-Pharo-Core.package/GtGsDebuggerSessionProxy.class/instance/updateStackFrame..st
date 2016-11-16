@@ -2,7 +2,7 @@ as yet unclassified
 updateStackFrame: aStackFrame
 	| updatedStackFrame |
 	updatedStackFrame := self gemstoneClient
-		executeRemotely: #updateStackFrameWithIndex: 
+		executeRemotely: #computeStackFrameWithIndex: 
 		on: self gemstoneDebuggerSessionOopType
 		withArguments: {aStackFrame frameIndex}.
 	aStackFrame updateFromFrame: updatedStackFrame

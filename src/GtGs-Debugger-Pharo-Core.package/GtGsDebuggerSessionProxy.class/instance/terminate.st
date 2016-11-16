@@ -12,6 +12,6 @@ terminate
 		ifNil: [ 
 			"Assume the interrupted process was resumed."
 			"Kill the active process if the error was in the UI as there should be only one UI process."
-			self openedOnUIProcess
+			self isAboutUIProcess
 				ifTrue: [Processor terminateActive] ]
 	
