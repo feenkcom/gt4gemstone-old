@@ -15,4 +15,4 @@ dbContinue
 "  self topez ensureSessionMethodsEnabled."
   stack resetFrames.
 
-  ^ processResult
+  ^ self dbFinishStep

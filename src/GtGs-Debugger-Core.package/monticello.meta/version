@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.21' message 'do not serialize the forwarder in GtGsDebuggerSession ' id '3e127649-e403-460b-9ebd-a3a750bff002' date '16 November 2016' time '9:25:26.037757 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.20' message 'added #dbContinue and a client forwarder to GtGsDebuggerSession
-' id '161954d8-0427-5aac-95a0-b67fc897c886' date '16 November 2016' time '2:20:04 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.22' message 'compute and return a result in #dbContinue' id '84e3b553-be45-4a10-b445-6aeaa2847e4f' date '16 November 2016' time '11:39:29.447523 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.21' message 'do not serialize the forwarder in GtGsDebuggerSession
+' id '426e1e84-64e4-5431-b9c5-92ccf6ceaeb3' date '16 November 2016' time '9:25:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
