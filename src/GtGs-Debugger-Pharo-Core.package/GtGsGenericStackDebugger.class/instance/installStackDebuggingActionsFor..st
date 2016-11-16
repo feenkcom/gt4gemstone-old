@@ -1,3 +1,6 @@
 building actions
 installStackDebuggingActionsFor: aPresentation 
-	self flag: #TODO
+	
+	self 
+		installActionsForRootPragmas: self stackDebuggingActionsPragmas 
+		in: aPresentation
