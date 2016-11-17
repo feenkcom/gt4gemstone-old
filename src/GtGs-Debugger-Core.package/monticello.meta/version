@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.26' message 'serialize #close in #dbFinishStep' id 'ef48e2e5-fee8-40aa-88d7-238a5648cb25' date '17 November 2016' time '11:05:52.107129 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.25' message 'do not call #fromString: on the result
-' id '488fa230-1290-5862-8431-7e727eeb5a58' date '17 November 2016' time '11:02:23 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.27' message '#dbFinishStep should always return an array' id '31b069ba-8baf-4179-bda9-df7639858f04' date '17 November 2016' time '11:07:35.556045 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.26' message 'serialize #close in #dbFinishStep
+' id 'd790e31f-ed67-536e-b550-97013cc614d3' date '17 November 2016' time '11:05:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
