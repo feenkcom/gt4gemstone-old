@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.24' message 'return an updated version of the stack when requested' id '3764317c-d445-479a-b094-7f3709eda12d' date '17 November 2016' time '12:09:10.27397 am' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.23' message 'Fix in #dbFinishStep
-' id '0418a322-30bb-5398-97b0-b5ceb22ac8cc' date '16 November 2016' time '11:42:09 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.25' message 'do not call #fromString: on the result' id '5008cbd2-5c76-4dc5-aa70-d7152fcf5c15' date '17 November 2016' time '11:02:20.119416 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.24' message 'return an updated version of the stack when requested
+' id '46182656-9c13-50c3-995f-0b309c219765' date '17 November 2016' time '12:09:13 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
