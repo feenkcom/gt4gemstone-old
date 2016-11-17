@@ -1,4 +1,4 @@
-debugging actions
+callbacks
 listIndex: frameIndex
 	| updatedStack |
 	updatedStack := self gemstoneClient
@@ -6,3 +6,4 @@ listIndex: frameIndex
 		on: self gemstoneDebuggerSessionOopType
 		withArguments: {}.
 	self gemstoneDebuggerSession stack: updatedStack.
+	self debugger updateBrowser.
