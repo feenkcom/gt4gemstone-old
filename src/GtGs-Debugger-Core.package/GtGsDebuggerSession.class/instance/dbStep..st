@@ -2,7 +2,7 @@ debugging actions
 dbStep: stepDirective
   | level stepId processOop  |
 
-  processOop := self processOop.
+  processOop := self stack processOop.
   stepId := #(#'into' #'over') indexOf: stepDirective.
   stepId == 1
     ifTrue: [ level := 0 ]

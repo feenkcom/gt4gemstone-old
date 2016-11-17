@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.28' message 'basic support for #stepInto and #stepOver' id 'c5d1f3f0-ff1d-44c2-b166-23ad48d76b88' date '17 November 2016' time '11:57:35.174153 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.27' message '#dbFinishStep should always return an array
-' id '4ebb16df-4603-5a44-b2e1-4ee307f15330' date '17 November 2016' time '11:07:38 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.29' message 'the stack holds the #processOop and not the session' id '4ca54843-c007-4fbc-89ab-caca478f6584' date '18 November 2016' time '12:18:25.551535 am' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.28' message 'basic support for #stepInto and #stepOver
+' id 'e604ac17-a1ae-5385-b606-fac8aa5e6e45' date '17 November 2016' time '11:57:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
