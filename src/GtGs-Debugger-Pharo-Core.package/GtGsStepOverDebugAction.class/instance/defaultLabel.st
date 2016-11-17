@@ -1,4 +1,4 @@
 accessing
 defaultLabel
 
-	^ 'Proceed'
+	^ 'Step over'

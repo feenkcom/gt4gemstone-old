@@ -1,9 +1,9 @@
 debugging actions
-resumeGemstoneProcess
+stepInto
 	| processResult |
 
 	processResult := self gemstoneClient
-		executeRemotely: #dbContinue 
+		executeRemotely: #dbStepInto 
 		on: self gemstoneDebuggerSessionOopType
 		withArguments: #().
 
