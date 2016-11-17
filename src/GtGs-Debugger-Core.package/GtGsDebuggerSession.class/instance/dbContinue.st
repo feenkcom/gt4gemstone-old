@@ -1,4 +1,4 @@
-as yet unclassified
+debugging actions
 dbContinue
   | processOop |
   processOop := self stack processOop.
