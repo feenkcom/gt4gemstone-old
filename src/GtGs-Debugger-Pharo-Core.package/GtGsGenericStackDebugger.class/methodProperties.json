@@ -8,6 +8,7 @@
 		"useBasicStackViewer:" : "AndreiChis 11/18/2016 17:25",
 		"variablesBrowserClass" : "AndreiChis 11/13/2016 16:06" },
 	"instance" : {
+		"compose" : "AndreiChis 11/18/2016 17:58",
 		"contextToSelectFrom:" : "AndreiChis 11/13/2016 17:21",
 		"debuggerStructureIn:" : "AndreiChis 11/10/2016 11:53",
 		"debuggerTransmissionsIn:" : "AndreiChis 11/14/2016 14:58",
@@ -18,6 +19,7 @@
 		"installStackDebuggingActionsFor:" : "AndreiChis 11/16/2016 11:49",
 		"methodCodeIn:forContext:" : "AndreiChis 11/18/2016 11:11",
 		"methodCodeWidgetIn:forContext:" : "AndreiChis 11/13/2016 16:59",
+		"openOn:" : "AndreiChis 11/18/2016 18:00",
 		"retrieveStackFrom:" : "AndreiChis 11/11/2016 19:13",
 		"selectStackFrameAtIndex:" : "AndreiChis 11/18/2016 11:14",
 		"selectedContext" : "AndreiChis 11/14/2016 09:59",
@@ -29,6 +31,7 @@
 		"stackIn:" : "AndreiChis 11/13/2016 16:54",
 		"stackPresentation" : "AndreiChis 11/18/2016 11:06",
 		"stackWidgetIn:" : "AndreiChis 11/18/2016 11:37",
+		"title" : "AndreiChis 11/18/2016 18:02",
 		"transmitFromStackToCodeIn:" : "AndreiChis 11/13/2016 16:53",
 		"updateBrowser" : "AndreiChis 11/18/2016 11:15",
 		"updateSelectionInterval" : "AndreiChis 11/18/2016 11:17" } }
