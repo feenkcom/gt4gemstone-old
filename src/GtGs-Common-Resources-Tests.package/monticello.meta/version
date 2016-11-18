@@ -1,2 +1,2 @@
-(name 'GtGs-Common-Resources-Tests-AndreiChis.3' message 'Added #methodWithBlockWithParametersA:b: ' id '68b395da-2e90-4f17-bc40-0a90a3a64ee6' date '18 November 2016' time '12:24:27.745757 am' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.2' message 'added a class for experimenting with tests
-' id '59d4b2b0-5d3b-5920-999b-87fa1cca0c88' date '16 November 2016' time '12:33:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Common-Resources-Tests-AndreiChis.4' message 'two more methos for testing the stepping in the debugger' id '9394fb61-1558-41a2-a0e0-f798ac3517be' date '18 November 2016' time '2:34:00.438966 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.3' message 'Added #methodWithBlockWithParametersA:b:
+' id 'ad1e7572-9d0a-5e93-8152-fcd0f3c16909' date '18 November 2016' time '12:24:30 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

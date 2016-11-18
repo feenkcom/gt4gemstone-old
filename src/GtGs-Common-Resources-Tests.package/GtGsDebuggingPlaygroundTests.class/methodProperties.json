@@ -4,4 +4,6 @@
 	"instance" : {
 		"initialize" : "AndreiChis 11/16/2016 12:33",
 		"methodWithBlockWithParametersA:b:" : "AndreiChis 11/18/2016 00:24",
+		"methodWithInstructionsAfterBlock" : "AndreiChis 11/18/2016 14:29",
+		"methodWithInstructionsAfterSimpleBlock" : "AndreiChis 11/18/2016 14:30",
 		"methodWithSimpleBlock" : "AndreiChis 11/16/2016 12:33" } }
