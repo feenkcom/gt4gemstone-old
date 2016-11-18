@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.18' message 'added a restart action' id '1837fd8b-4941-4a3d-8f99-17657506208d' date '18 November 2016' time '2:52:03.973618 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.17' message 'fixes when updating the debugger as a results of an action.
-' id '673e8da4-fd09-50f4-84d9-7fa4589038c3' date '18 November 2016' time '11:46:52 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.19' message 'label the proxy presentations using Proxy in the debugger' id 'deec888c-ed28-4da1-a22a-beb6d0f6a3ca' date '18 November 2016' time '2:59:11.039299 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.18' message 'added a restart action
+' id 'c31a53ef-79b3-5bc7-8ebd-5d6a9a8f302c' date '18 November 2016' time '2:52:06 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
