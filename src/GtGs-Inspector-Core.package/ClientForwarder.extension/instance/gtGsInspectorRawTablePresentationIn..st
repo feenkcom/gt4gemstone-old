@@ -3,7 +3,7 @@ gtGsInspectorRawTablePresentationIn: aComposite
 	<gtInspectorPresentationOrder: 5>
 
 	^ aComposite table
-		title: [ 'Raw - Table' ];
+		title: [ 'Raw' ];
 		display: [
 			self gtGsVariableValuePairsWithSelfIf: true ];
 		children: [ :anAssociation |
