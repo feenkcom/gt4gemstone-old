@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.19' message 'label the proxy presentations using Proxy in the debugger' id 'deec888c-ed28-4da1-a22a-beb6d0f6a3ca' date '18 November 2016' time '2:59:11.039299 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.18' message 'added a restart action
-' id 'c31a53ef-79b3-5bc7-8ebd-5d6a9a8f302c' date '18 November 2016' time '2:52:06 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.20' message 'added step through' id 'dc8b6872-5ed2-48df-8e7c-06222bd2d951' date '18 November 2016' time '3:55:22.922993 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.19' message 'label the proxy presentations using Proxy in the debugger
+' id '55adaf51-7ecc-5641-82be-3e42dbf73d58' date '18 November 2016' time '2:59:13 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

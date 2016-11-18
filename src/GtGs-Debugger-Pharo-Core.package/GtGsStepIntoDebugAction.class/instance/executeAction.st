@@ -1,4 +1,4 @@
 actions
 executeAction
 
-	self session stepInto.
+	self session stepIntoGemstoneProcess

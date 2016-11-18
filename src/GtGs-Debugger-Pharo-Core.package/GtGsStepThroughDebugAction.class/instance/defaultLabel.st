@@ -1,4 +1,4 @@
 accessing
 defaultLabel
 
-	^ 'Into'
+	^ 'Through'

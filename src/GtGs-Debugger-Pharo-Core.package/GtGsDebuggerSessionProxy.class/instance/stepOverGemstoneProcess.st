@@ -1,5 +1,5 @@
 debugging actions
-stepOver
+stepOverGemstoneProcess
 	| processResult |
 
 	processResult := self gemstoneClient

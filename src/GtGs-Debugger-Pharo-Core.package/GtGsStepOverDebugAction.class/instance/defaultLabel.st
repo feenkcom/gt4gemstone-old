@@ -1,4 +1,4 @@
 accessing
 defaultLabel
 
-	^ 'Step over'
+	^ 'Over'

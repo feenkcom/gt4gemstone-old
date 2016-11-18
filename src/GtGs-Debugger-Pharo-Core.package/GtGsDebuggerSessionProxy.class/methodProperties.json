@@ -30,7 +30,8 @@
 		"resumeGemstoneProcess" : "AndreiChis 11/18/2016 14:51",
 		"selectedCodeRangeForContext:" : "AndreiChis 11/13/2016 22:30",
 		"stack" : "AndreiChis 11/13/2016 22:30",
-		"stepInto" : "AndreiChis 11/18/2016 14:46",
-		"stepOver" : "AndreiChis 11/18/2016 14:46",
+		"stepIntoGemstoneProcess" : "AndreiChis 11/18/2016 15:11",
+		"stepOverGemstoneProcess" : "AndreiChis 11/18/2016 15:10",
+		"stepThroughGemstoneProcess" : "AndreiChis 11/18/2016 15:10",
 		"terminate" : "AndreiChis 11/16/2016 21:29",
 		"updateStackFrameIfRequired:" : "AndreiChis 11/18/2016 11:35" } }
