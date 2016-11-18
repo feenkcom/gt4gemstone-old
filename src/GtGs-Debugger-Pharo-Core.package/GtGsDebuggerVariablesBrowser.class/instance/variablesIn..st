@@ -1,4 +1,4 @@
-as yet unclassified
+private building
 variablesIn: composite
 	^ composite table
 		showOnly: 50;

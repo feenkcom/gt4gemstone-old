@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 selectStackFrameAtIndex: aFrameIndex
 	self stackPresentation selection: (self session stack frames at: aFrameIndex)
 	"(self stackPresentation port: #selection)

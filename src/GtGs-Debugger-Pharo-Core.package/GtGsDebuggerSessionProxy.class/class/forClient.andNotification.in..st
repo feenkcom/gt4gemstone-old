@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 forClient: aGsClient andNotification: gsNotification in: aClientProcess
 
 	^ self new 	

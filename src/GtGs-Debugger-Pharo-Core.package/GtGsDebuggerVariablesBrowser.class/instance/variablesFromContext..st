@@ -1,4 +1,4 @@
-as yet unclassified
+private building
 variablesFromContext: aContext 
 
 	^ aContext inspectorVariableNodes

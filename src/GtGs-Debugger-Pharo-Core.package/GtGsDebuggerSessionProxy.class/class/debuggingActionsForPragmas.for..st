@@ -1,4 +1,4 @@
-as yet unclassified
+actions registration
 debuggingActionsForPragmas: aSymbolsCollection for: aDebugger
 	self flag: 'split me'.
 	^ (((aSymbolsCollection 

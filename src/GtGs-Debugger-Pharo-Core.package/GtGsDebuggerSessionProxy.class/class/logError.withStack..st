@@ -1,4 +1,4 @@
-as yet unclassified
+logging
 logError: errorMessage withStack: aGemstoneStack
 
 	" we should think about integrating a toothpick here someday"

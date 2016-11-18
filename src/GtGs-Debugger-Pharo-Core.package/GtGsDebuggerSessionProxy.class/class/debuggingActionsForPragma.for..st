@@ -1,4 +1,4 @@
-as yet unclassified
+actions registration
 debuggingActionsForPragma: aSymbol for: aDebugger
 	^ (DebugAction allSubclasses reject: [ :each | each hasAbstractMethods ])
 		inject: OrderedCollection new

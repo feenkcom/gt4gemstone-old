@@ -1,4 +1,4 @@
-as yet unclassified
+logging
 logSystemDetailsOn: stream
 
 	stream print: Date today; space; print: Time now; cr.

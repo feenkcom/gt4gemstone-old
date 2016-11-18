@@ -1,4 +1,4 @@
-as yet unclassified
+actions registration
 debuggingActionsFromClass: aClass forPragma: aSymbol forDebugger: aDebugger
 	| pragmas actions |
 	pragmas := Pragma 

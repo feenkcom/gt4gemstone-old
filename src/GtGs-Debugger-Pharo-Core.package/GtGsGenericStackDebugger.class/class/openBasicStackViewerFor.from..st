@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 openBasicStackViewerFor: aGemstoneNotification from: aGemstoneClient
 	| stackReport |
 	
