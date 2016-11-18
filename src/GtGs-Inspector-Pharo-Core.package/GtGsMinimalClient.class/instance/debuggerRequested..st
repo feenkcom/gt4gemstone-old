@@ -1,4 +1,4 @@
-as yet unclassified
+exception handling
 debuggerRequested: returnValue
 	| gsNotification |
 	gsNotification := thisContext sender receiver.
