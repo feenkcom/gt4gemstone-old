@@ -6,4 +6,6 @@ listIndex: frameIndex
 		on: self gemstoneDebuggerSessionOopType
 		withArguments: {}.
 	self gemstoneDebuggerSession stack: updatedStack.
-	self debugger updateBrowser.
+	self debugger 
+		updateBrowser;
+		selectStackFrameAtIndex: frameIndex

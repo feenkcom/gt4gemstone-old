@@ -6,5 +6,6 @@ stackWidgetIn: composite
 		display: [:aSession | (self retrieveStackFrom: aSession) frames ];
 		format: #cachedFrameLabel;
 		send: [ :aStackFrame |
-			self session updateStackFrame: aStackFrame.
+			self session updateStackFrameIfRequired: aStackFrame.
+			self session navigateFrame: aStackFrame.
 			aStackFrame ]

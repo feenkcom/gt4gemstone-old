@@ -1,6 +1,7 @@
 as yet unclassified
-updateStackFrame: aStackFrame
+updateStackFrameIfRequired: aStackFrame
 	| updatedStackFrame |
+	aStackFrame needsFullUpdate ifFalse: [ ^ self ].
 	updatedStackFrame := self gemstoneClient
 		executeRemotely: #computeStackFrameWithIndex: 
 		on: self gemstoneDebuggerSessionOopType

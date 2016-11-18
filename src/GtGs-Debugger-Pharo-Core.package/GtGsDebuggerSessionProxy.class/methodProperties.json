@@ -21,14 +21,15 @@
 		"initializeForClient:andNotification:" : "AndreiChis 11/16/2016 13:48",
 		"interruptedContext" : "AndreiChis 11/16/2016 11:54",
 		"isAboutUIProcess" : "AndreiChis 11/14/2016 16:33",
-		"listIndex:" : "AndreiChis 11/17/2016 22:22",
+		"listIndex:" : "AndreiChis 11/18/2016 11:12",
 		"name" : "AndreiChis 11/17/2016 22:12",
+		"navigateFrame:" : "AndreiChis 11/18/2016 11:32",
 		"performGemstoneResult:" : "AndreiChis 11/17/2016 23:38",
 		"resumeClientProcess" : "AndreiChis 11/16/2016 14:06",
 		"resumeGemstoneProcess" : "AndreiChis 11/17/2016 23:38",
 		"selectedCodeRangeForContext:" : "AndreiChis 11/13/2016 22:30",
 		"stack" : "AndreiChis 11/13/2016 22:30",
-		"stepInto" : "AndreiChis 11/17/2016 23:37",
+		"stepInto" : "AndreiChis 11/18/2016 11:39",
 		"stepOver" : "AndreiChis 11/17/2016 23:38",
 		"terminate" : "AndreiChis 11/16/2016 21:29",
-		"updateStackFrame:" : "AndreiChis 11/16/2016 23:51" } }
+		"updateStackFrameIfRequired:" : "AndreiChis 11/18/2016 11:35" } }
