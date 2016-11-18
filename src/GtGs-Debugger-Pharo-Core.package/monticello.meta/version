@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.20' message 'added step through' id 'dc8b6872-5ed2-48df-8e7c-06222bd2d951' date '18 November 2016' time '3:55:22.922993 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.19' message 'label the proxy presentations using Proxy in the debugger
-' id '55adaf51-7ecc-5641-82be-3e42dbf73d58' date '18 November 2016' time '2:59:13 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.21' message 'if the selection is an empty array return an empty inverval' id '56b8bf8d-b74a-4f31-b52a-ac7667c17ecd' date '18 November 2016' time '4:04:59.928789 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.20' message 'added step through
+' id '41165191-e9d7-5884-b75f-6f16fd9f0c0e' date '18 November 2016' time '3:55:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

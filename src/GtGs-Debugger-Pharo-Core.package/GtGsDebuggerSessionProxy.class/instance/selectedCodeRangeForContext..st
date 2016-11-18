@@ -1,4 +1,6 @@
 as yet unclassified
 selectedCodeRangeForContext: selectedContext
+	| selectionInterval |
 
-	^ self gemstoneDebuggerSession selectedCodeRangeForContext: selectedContext
+	selectionInterval := self gemstoneDebuggerSession selectedCodeRangeForContext: selectedContext.
+	^ selectionInterval ifEmpty: [ 1 to: 0 ]
