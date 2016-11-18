@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Debugger-Pharo-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client" ],
+	"name" : "GtGsDebuggerSessionProxyTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Debugger-Pharo-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gemstoneDebuggerSession" ],
+	"name" : "GtGsBareTestClient",
+	"pools" : [
+		 ],
+	"super" : "GtGsBareClient",
+	"type" : "normal" }
