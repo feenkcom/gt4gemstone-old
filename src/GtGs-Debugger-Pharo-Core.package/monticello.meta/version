@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.24' message 'categorized methods' id 'de53adbf-4187-489c-81da-379ba8b1c0a7' date '18 November 2016' time '6:36:33.535299 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.23' message '- custom border color for the debugger- custom title for the debugger window
-' id '66e5a1f9-998f-5d69-8d4a-0c03f9b1ad96' date '18 November 2016' time '6:05:46 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.25' message 'added accessor for #gemstoneNotification' id '8d27bf31-c2c0-439b-b812-0cee017b0ad2' date '18 November 2016' time '8:11:39.672224 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.24' message 'categorized methods
+' id 'e985b034-e73b-5b7f-9f4d-47bbf9f72aaf' date '18 November 2016' time '6:36:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
