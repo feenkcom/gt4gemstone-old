@@ -5,7 +5,8 @@ dbStep: stepDirective
   processOop := self stack processOop.
   stepId := #(#'into' #'over') indexOf: stepDirective.
   stepId == 1
-    ifTrue: [ level := 0 ]
+    "ifTrue: [ level := 0 ]"
+	 ifTrue: [ level := self stack currentFrame frameIndex ]
     ifFalse: [ level := self stack currentFrame frameIndex ].
   "self topez disableSessionMethods."
    processResult := self selfForwarder
