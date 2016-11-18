@@ -1,17 +1,18 @@
 debugging actions
 dbContinue
-  | processOop |
-  processOop := self stack processOop.
+  | currentStack processOop |
+	currentStack := self stack.
+	processOop := currentStack processOop.
 "  self topez disableSessionMethods."
-  processResult := self selfForwarder
-    perform: #'dbContinue:'
-    with: processOop.
-  processResult isSymbol
-    ifTrue: [ processTerminated := (self debugExceptionSymbols includes: processResult) not ]
-    ifFalse: [ 
-     " processResult := self topezServer objectSerializer fromString: processResult."
-      processTerminated := false ].
+	processResult := self selfForwarder
+		perform: #'dbContinue:'
+		with: processOop.
+	processResult isSymbol
+		ifTrue: [ processTerminated := (self debugExceptionSymbols includes: processResult) not ]
+		ifFalse: [ 
+			" processResult := self topezServer objectSerializer fromString: processResult."
+			processTerminated := false ].
 "  self topez ensureSessionMethodsEnabled."
-  self stack resetFrames.
+	currentStack resetFrames.
 
-  ^ self dbFinishStep
+	^ self dbFinishStep
