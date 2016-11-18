@@ -3,7 +3,6 @@ testStackInitialization
 	| sessionProxy stack |
 	sessionProxy := self buildDebuggerSessionFor: '1/0'.
 	stack := sessionProxy stack.
-	self halt.
 	
 	self assert: stack frames ~= nil.
 	self assert: stack currentFrame ~= nil.
@@ -13,4 +12,3 @@ testStackInitialization
 	
 	self assert: stack frames size equals: 10.
 	self assert: (stack frames includes: stack currentFrame).
-	self assert: stack currentFrame needsFullUpdate not

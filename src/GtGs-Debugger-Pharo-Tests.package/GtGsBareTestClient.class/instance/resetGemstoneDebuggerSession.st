@@ -1,3 +1,0 @@
-accessing
-resetGemstoneDebuggerSession
-	gemstoneDebuggerSession := nil

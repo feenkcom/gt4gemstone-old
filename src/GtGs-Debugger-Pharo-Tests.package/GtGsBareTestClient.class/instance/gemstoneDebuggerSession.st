@@ -1,3 +1,0 @@
-accessing
-gemstoneDebuggerSession
-	^ gemstoneDebuggerSession

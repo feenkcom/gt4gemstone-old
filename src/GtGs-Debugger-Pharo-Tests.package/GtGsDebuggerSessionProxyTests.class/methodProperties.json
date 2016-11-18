@@ -10,4 +10,5 @@
 		"setUp" : "AndreiChis 11/18/2016 19:56",
 		"tearDown" : "AndreiChis 11/18/2016 19:00",
 		"testRemoteSessionInitialization" : "AndreiChis 11/18/2016 20:07",
-		"testStackInitialization" : "AndreiChis 11/18/2016 20:10" } }
+		"testStackFramesInitialization" : "AndreiChis 11/18/2016 21:36",
+		"testStackInitialization" : "AndreiChis 11/18/2016 21:35" } }
