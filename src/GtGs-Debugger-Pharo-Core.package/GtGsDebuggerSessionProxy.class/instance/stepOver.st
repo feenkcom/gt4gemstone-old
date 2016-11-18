@@ -7,5 +7,5 @@ stepOver
 		on: self gemstoneDebuggerSessionOopType
 		withArguments: #().
 
-	self performGemstoneResult: processResult
+	self handleResponseActions: processResult
 	

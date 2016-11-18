@@ -1,5 +1,5 @@
 as yet unclassified
-performGemstoneResult: processResult
+handleResponseActions: processResult
 	
 	processResult size = 1 
 		ifTrue: [ self perform: processResult first ].

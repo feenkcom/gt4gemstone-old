@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.17' message 'fixes when updating the debugger as a results of an action.' id 'c047fd64-c46c-4975-a5e1-6f96843b0cd1' date '18 November 2016' time '11:46:49.600862 am' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.16' message 'Step into and step over actions
-' id 'e1bc9707-aa88-57f4-a142-f51ad447d20c' date '17 November 2016' time '11:58:16 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.18' message 'added a restart action' id '1837fd8b-4941-4a3d-8f99-17657506208d' date '18 November 2016' time '2:52:03.973618 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.17' message 'fixes when updating the debugger as a results of an action.
+' id '673e8da4-fd09-50f4-84d9-7fa4589038c3' date '18 November 2016' time '11:46:52 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
