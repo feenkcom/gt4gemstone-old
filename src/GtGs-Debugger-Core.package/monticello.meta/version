@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.29' message 'the stack holds the #processOop and not the session' id '4ca54843-c007-4fbc-89ab-caca478f6584' date '18 November 2016' time '12:18:25.551535 am' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.28' message 'basic support for #stepInto and #stepOver
-' id 'e604ac17-a1ae-5385-b606-fac8aa5e6e45' date '17 November 2016' time '11:57:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.30' message '- dbRestart- several utility metods for loading stack frames' id 'ffbccaf2-d91a-4cde-abec-879f05633ba9' date '18 November 2016' time '11:38:27.886355 am' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.29' message 'the stack holds the #processOop and not the session
+' id '61c204c0-beae-53b2-bfad-c41be51ccf51' date '18 November 2016' time '12:18:28 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
