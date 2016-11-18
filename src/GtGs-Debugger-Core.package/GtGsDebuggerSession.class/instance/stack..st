@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 stack: aStack
 	stack := aStack

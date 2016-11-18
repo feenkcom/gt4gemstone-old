@@ -1,4 +1,4 @@
-as yet unclassified
+private
 buildVariables: names withType: aString
 
 	^ names 

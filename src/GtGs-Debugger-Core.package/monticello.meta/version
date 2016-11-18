@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.34' message 'added dbStepThrough ' id '7fceaadd-730e-403d-b4d3-2e4c1a3aa45b' date '18 November 2016' time '3:54:25.618323 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.33' message 'fixed typo in dbStep:
-' id 'c8a5f1b7-a785-55ea-83b8-ec5a42d0c73d' date '18 November 2016' time '2:26:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.35' message 'categorized methods' id 'd0fc08bf-c3f8-4173-834c-805eeb1289ea' date '18 November 2016' time '6:33:52.42946 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.34' message 'added dbStepThrough
+' id '183f40b7-20ce-5e43-8502-efd0fbcd6bf3' date '18 November 2016' time '3:54:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

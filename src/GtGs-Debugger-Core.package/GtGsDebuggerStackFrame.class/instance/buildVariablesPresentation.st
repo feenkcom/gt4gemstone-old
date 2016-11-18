@@ -1,4 +1,4 @@
-as yet unclassified
+private
 buildVariablesPresentation
 
 	^ GtGsGlmTablePresentation new 

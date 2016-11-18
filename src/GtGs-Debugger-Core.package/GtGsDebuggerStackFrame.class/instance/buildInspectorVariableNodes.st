@@ -1,4 +1,4 @@
-as yet unclassified
+private
 buildInspectorVariableNodes
 	| currentNodes actualReceiver |
 	currentNodes := OrderedCollection new.

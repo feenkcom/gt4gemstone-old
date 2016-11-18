@@ -1,3 +1,3 @@
-as yet unclassified
+callbacks
 navigateFrame: aFrameIndex
 	self stack navigateFrame: aFrameIndex

@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 needsFullUpdate
 
 	^ sourceCode isNil or: [ inspectorVariableNodes isNil ]

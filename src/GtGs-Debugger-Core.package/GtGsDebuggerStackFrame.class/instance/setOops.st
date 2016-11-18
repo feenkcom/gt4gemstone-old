@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 setOops
 
 	selfOop := self asOop

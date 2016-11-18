@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateFromFrame: aStackFrame
 
 	sourceCode := aStackFrame cachedSourceCode.

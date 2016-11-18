@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 debugExceptionSymbols
   "see TDTopezClient>>handleDebugExceptionsDuring:"
 

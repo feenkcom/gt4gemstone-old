@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 printDebugOn: aStream
   | frameSelf |
   self frameContents ifNil: [ ^ aStream nextPutAll: '..bad frame...' ].
