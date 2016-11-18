@@ -36,6 +36,7 @@ baseline: spec
 			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Pharo-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core' 'GtGs-Common-Resources-Tests') ];
+			package: 'GtGs-Debugger-Pharo-Tests' with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Examples-AddressBook-Model';
 			package: 'GtGs-Examples-AddressBook-Extensions-Pharo' with: [ spec requires: #('GtGs-Examples-AddressBook-Model') ].
 			
@@ -43,7 +44,7 @@ baseline: spec
 			group: 'Core'
 				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core');
 			group: 'Tests'
-				with: #('GtGs-Inspector-Pharo-Tests' 'GtGs-Common-Resources-Tests');
+				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Examples-AddressBook-Extensions-Pharo');
 			group: 'default' with: #('Core' 'Tests' 'Examples') ].
