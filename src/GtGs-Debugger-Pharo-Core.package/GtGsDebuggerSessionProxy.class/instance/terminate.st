@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 terminate
 	"Action that needs to be executed after the window containing this debug session is closed, 
 	in order to terminate the right process."

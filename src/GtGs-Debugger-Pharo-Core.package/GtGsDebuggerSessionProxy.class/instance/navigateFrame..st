@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 navigateFrame: aStackFrame
 
 	self gemstoneClient session

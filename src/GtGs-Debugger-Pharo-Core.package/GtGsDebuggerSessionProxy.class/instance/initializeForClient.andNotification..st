@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeForClient: aGsClient andNotification: aGsNotification
 	| gemstoneDebuggerSessionOopType |
 	gemstoneClient := aGsClient.
@@ -7,6 +7,6 @@ initializeForClient: aGsClient andNotification: aGsNotification
 		send: #buildDebuggerSessionForException:fromProcess:
 		to: self gemstoneClient todeServerOopType
 		withArgs: {gemstoneNotification exceptionOopType. gemstoneNotification contextOopType}).
-		
+	self logStackToFileIfNeeded.
 	gemstoneDebuggerSessionOopType := gemstoneDebuggerSession selfForwarderOop gciResultToGsOopType: self gemstoneClient session.
 	self gemstoneClient session registerClientObjectForwarderOopType: gemstoneDebuggerSessionOopType for: self.

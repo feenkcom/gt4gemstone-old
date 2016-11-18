@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateStackFrameIfRequired: aStackFrame
 	| updatedStackFrame |
 	aStackFrame needsFullUpdate ifFalse: [ ^ self ].

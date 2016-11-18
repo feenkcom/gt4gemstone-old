@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 gemstoneDebuggerSessionOopType
 	^ self gemstoneClient session asOopType: self gemstoneDebuggerSession selfOop
