@@ -39,16 +39,38 @@ If there are no errors the `errorCount` command will return `0`.
 
 First a client should be created using GsDevKit. To connect to a stone that does not use GsDevKit one needs to use the class `GtGsBareClient`.
 ```
-gtClient := GtGsBareClient forSessionDescriptionNamed: 'gt4gemstone'.
+session := TDSessionDescription new 
+	name: 'Gt4Gemstone33_VirtualBox';
+	stoneHost: '192.168.1.40';
+	stoneName: 'gt4gemstone';
+	gemHost: '192.168.1.40';
+	netLDI: 'netldi64_330';
+	netLDIPort: '10530';
+	gemTask: 'gemnetobject';
+	userId: 'SystemUser';
+	password: 'swordfish';
+	gemstoneVersion: '3.3.0'.
+gtClient := GtGsBareClient loginWith: session.
+
+"---INSPECTOR---"
 gtClient performStringRemotelyAndInspect: 'Object'.
 gtClient performStringRemotelyAndInspect: 'Dictionary new add: (1->2); yourself'.
 gtClient performStringRemotelyAndInspect: 'System stoneName asString.'.
 
+"---PLAYGROUND---"
 gtClient openGemstonePlayground. 
 gtClient openGemstonePlaygroundWithContents: 'ABAddressBook 
-		reset; 
-		loadDefaultData.
+        reset; 
+        loadDefaultData.
 ABAddressBook default.'.
+
+"---DEBUGGER---"
+gtClient openGemstonePlaygroundWithContents: 'self halt. GtGsDebuggingPlaygroundTests new methodWithPrintStringInBlock'.
+gtClient performStringRemotely: '1/0'.
+gtClient performStringRemotely: '
+    ABAddressBook loadDefaultData.
+    self halt.
+    ABAddressBook reset'.
 
 gtClient logout
 ```
