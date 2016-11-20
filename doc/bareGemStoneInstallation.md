@@ -35,9 +35,30 @@ topaz 1> commit
 ```
 If there are no errors the `errorCount` command will return `0`.
 
+## Updating the client image
+
+First the gt4gemstone project should be updated from git. If the project was downloaded using GsDevKit it can be updated using:
+```
+$ cd $GS_HOME/shared/repos/gt4gemstone
+$ git pull
+```
+
+Second the project gt4gemstone should be updated/loaded in the Pharo image on the client. If the client is named `Gt4Gemstone` then the Pharo image can be found at `$GS_HOME/dev/clients/Gt4Gemstone/Gt4Gemstone.image`. The image can then be updated using the following script:
+
+```
+Metacello new
+   baseline: 'Gt4Gemstone';
+	repository: 'gitfiletree://<PATH_TO_GT4GEMSTONE_REPO>/src';
+	onLock: [ :ex | ex honor ];
+	onWarning: [ :ex | ex resume ];
+   load.
+```
+In the above script `<PATH_TO_GT4GEMSTONE_REPO>` should be replaced with the absolute path to the folder containing the project gt4gemstone (for example `/gemstone/gt4mestone/`).
+Also  the above script requires GitFileTree. If not present in the image GitFileTree can be loaded from the Catalog Browser: World Menu -> Tools -> Catalog Browser. (search for 'gitfiletree', right click on GitFileTree and select 'Install stable version').
+
 ## Connecting to this server
 
-First a client should be created using GsDevKit. To connect to a stone that does not use GsDevKit one needs to use the class `GtGsBareClient`.
+Afterwards a connection to a stone that does not use GsDevKit can be created using the class `GtGsBareClient`.
 ```
 session := TDSessionDescription new 
 	name: 'Gt4Gemstone33_VirtualBox';
