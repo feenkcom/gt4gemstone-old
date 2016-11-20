@@ -1,4 +1,4 @@
-# gt4gemston sever instalation without GsDevKit
+# gt4gemstone sever instalation without GsDevKit
 
 gt4gemstone can also be installed in a GemStone/S 64 stone that was not created using GsDevKit. The following steps describe the inslation process  on a Linux server.
 
