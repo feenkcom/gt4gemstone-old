@@ -37,6 +37,7 @@ This opens a specialized Playground that works remotely with Gemstone. You can s
 
 <img src="doc/string-inspector.png"/>
 
+<img src="doc/basic-debugger.png"/>
 
 
 ##Utility scripts
@@ -50,3 +51,7 @@ Updating the code of gt4gemstone in a Gemstone stone:
 Evaluating and inspecting a remote command:
 
     gtClient performStringRemotelyAndInspect: '40+2'.
+
+Triggering a debugger:
+
+    self halt. GtGsDebuggingPlaygroundTests new methodWithPrintStringInBlock
