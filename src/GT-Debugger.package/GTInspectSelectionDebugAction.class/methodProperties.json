@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"gtActionFor:" : "AndreiChis 1/11/2016 15:59",
+		"gtBasicInspectActionFor:" : "AndreiChis 1/11/2016 15:59" },
+	"instance" : {
+		"defaultKeyText" : "AndreiChis 4/17/2014 10:23",
+		"defaultLabel" : "AndreiChis 4/17/2014 10:24",
+		"defaultOrder" : "AndreiChis 5/7/2014 11:09",
+		"executeAction" : "AndreiChis 1/11/2016 15:41",
+		"id" : "AndreiChis 4/17/2014 10:23",
+		"initialize" : "AndreiChis 1/11/2016 15:41",
+		"makeBasicInspect" : "AndreiChis 1/11/2016 15:40" } }
