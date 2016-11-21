@@ -1,4 +1,4 @@
 api - gemstone
 asSerializedString
 
-	^ topezServer toString: self
+	^ topezServer objectSerializer toString: self
