@@ -1,3 +1,3 @@
 accessing
 interruptedContext
-	^ self stack frames first 
+	^ self stack frames first
