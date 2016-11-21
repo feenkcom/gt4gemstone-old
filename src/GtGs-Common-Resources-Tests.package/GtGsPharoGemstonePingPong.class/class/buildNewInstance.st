@@ -3,4 +3,5 @@ buildNewInstance
 	^ self new 	
 		setOop;
 		initializeForwarder;
-		yourself
+		updateTopezServer;
+		asSerializedString

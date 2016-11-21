@@ -1,10 +1,11 @@
 {
 	"class" : {
 		"buildInstanceUsing:" : "AndreiChis 11/21/2016 17:46",
-		"buildNewInstance" : "AndreiChis 11/21/2016 17:55",
+		"buildNewInstance" : "AndreiChis 11/21/2016 18:16",
 		"fetchInstanceFromGemstoneUsing:" : "AndreiChis 11/21/2016 17:50" },
 	"instance" : {
-		"excludedInstVarNames" : "AndreiChis 11/21/2016 17:39",
+		"asSerializedString" : "AndreiChis 11/21/2016 18:15",
+		"excludedInstVarNames" : "AndreiChis 11/21/2016 18:15",
 		"executeFirstForwarderCallToGemstoneWithArg:" : "AndreiChis 11/21/2016 18:03",
 		"executeSecondForwarderCallToGemstoneWithArg:" : "AndreiChis 11/21/2016 18:03",
 		"fromSton:" : "AndreiChis 11/21/2016 17:40",
@@ -19,4 +20,5 @@
 		"setOop" : "AndreiChis 11/21/2016 17:54",
 		"stonInstVarNames" : "AndreiChis 11/21/2016 17:40",
 		"stonOn:" : "AndreiChis 11/21/2016 17:54",
-		"stonProcessSubObjects:" : "AndreiChis 11/21/2016 17:40" } }
+		"stonProcessSubObjects:" : "AndreiChis 11/21/2016 17:40",
+		"updateTopezServer" : "AndreiChis 11/21/2016 18:15" } }

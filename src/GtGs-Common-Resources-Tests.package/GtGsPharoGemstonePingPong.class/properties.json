@@ -9,7 +9,8 @@
 		"selfOop",
 		"selfForwarder",
 		"selfForwarderOop",
-		"gemstoneClient" ],
+		"gemstoneClient",
+		"topezServer" ],
 	"name" : "GtGsPharoGemstonePingPong",
 	"pools" : [
 		 ],

@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  #(#'selfForwarder')
+  ^  #(#'selfForwarder' #'topezServer')
