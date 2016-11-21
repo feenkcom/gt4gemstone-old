@@ -1,2 +1,2 @@
-(name 'GtGs-Common-Resources-Tests-AndreiChis.9' message 'fix in #asSerializedString' id '2b3b55a5-6fd2-4163-8f0d-453ab5d2c0f2' date '21 November 2016' time '6:18:48.293279 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.8' message 'return a serialized object from GtGsPharoGemstonePingPong>>buildNewInstance
-' id 'd4eee641-0974-554a-9e51-9149b45368a2' date '21 November 2016' time '6:17:43 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Common-Resources-Tests-AndreiChis.10' message 'small experiments' id '23203c81-0320-4e49-89ef-0dfccf28e2f4' date '21 November 2016' time '6:46:39.995666 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.9' message 'fix in #asSerializedString
+' id '200a047d-0044-5706-9bbb-cef8bc0bd67d' date '21 November 2016' time '6:18:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
