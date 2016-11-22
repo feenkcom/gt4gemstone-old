@@ -1,2 +1,2 @@
-(name 'GtGs-Common-Resources-Tests-AndreiChis.10' message 'small experiments' id '23203c81-0320-4e49-89ef-0dfccf28e2f4' date '21 November 2016' time '6:46:39.995666 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.9' message 'fix in #asSerializedString
-' id '200a047d-0044-5706-9bbb-cef8bc0bd67d' date '21 November 2016' time '6:18:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Common-Resources-Tests-AndreiChis.11' message 'added methodWithBlockWithinBlockA:B:C: ' id '6c420c00-5cd6-4b6b-a2c9-e25b230a92bd' date '22 November 2016' time '10:56:53.102022 am' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.10' message 'small experiments
+' id 'd2d0bba0-97b4-5a7d-9a5f-ac62b25babcb' date '21 November 2016' time '6:46:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
