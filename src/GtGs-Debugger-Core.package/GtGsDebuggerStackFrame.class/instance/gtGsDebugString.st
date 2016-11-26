@@ -1,0 +1,3 @@
+printing
+gtGsDebugString
+ 	^ self cachedFrameLabel
