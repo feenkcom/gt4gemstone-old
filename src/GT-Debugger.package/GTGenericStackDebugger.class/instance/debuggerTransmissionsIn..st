@@ -4,7 +4,7 @@ debuggerTransmissionsIn: browser
 	browser transmit
 		fromOutsideEntityPort;
 		to: #stack;
-		andShow: [ :composite | self stackIn: composite ].
+		andShow: [ :aComposite | self stackIn: aComposite  ].
 	browser transmit
 		from: #stack port: #entity;
 		to: #stack port: #selection;
