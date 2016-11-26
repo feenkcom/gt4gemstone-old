@@ -1,0 +1,3 @@
+accessing
+stackDebuggingActionsPragmas
+	^ #(gsStackDebuggingAction)

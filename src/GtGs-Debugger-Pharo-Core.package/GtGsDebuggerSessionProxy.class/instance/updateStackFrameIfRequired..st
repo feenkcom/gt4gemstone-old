@@ -6,4 +6,6 @@ updateStackFrameIfRequired: aStackFrame
 		executeRemotely: #computeStackFrameWithIndex: 
 		on: self gemstoneDebuggerSessionOopType
 		withArguments: {aStackFrame frameIndex}.
-	aStackFrame updateFromFrame: updatedStackFrame
+	aStackFrame updateFromFrame: updatedStackFrame.
+	
+	self navigateFrame: aStackFrame

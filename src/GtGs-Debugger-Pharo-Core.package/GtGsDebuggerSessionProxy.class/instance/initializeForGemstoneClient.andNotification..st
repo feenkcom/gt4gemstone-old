@@ -1,5 +1,5 @@
 initialization
-initializeForClient: aGsClient andNotification: aGsNotification
+initializeForGemstoneClient: aGsClient andNotification: aGsNotification
 	| gemstoneDebuggerSessionOopType |
 	gemstoneClient := aGsClient.
 	gemstoneNotification := aGsNotification.
@@ -10,3 +10,4 @@ initializeForClient: aGsClient andNotification: aGsNotification
 	self logStackToFileIfNeeded.
 	gemstoneDebuggerSessionOopType := gemstoneDebuggerSession selfForwarderOop gciResultToGsOopType: self gemstoneClient session.
 	self gemstoneClient session registerClientObjectForwarderOopType: gemstoneDebuggerSessionOopType for: self.
+	self clientSession ifNotNil: [ :aSession | aSession name: self name ]

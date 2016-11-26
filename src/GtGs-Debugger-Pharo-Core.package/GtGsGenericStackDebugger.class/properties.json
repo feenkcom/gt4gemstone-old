@@ -6,7 +6,7 @@
 		"UseBasicStackViewer" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"isClosing" ],
 	"name" : "GtGsGenericStackDebugger",
 	"pools" : [
 		 ],

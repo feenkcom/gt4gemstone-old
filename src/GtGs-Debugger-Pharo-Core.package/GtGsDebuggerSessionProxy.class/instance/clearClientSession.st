@@ -1,0 +1,3 @@
+private
+clearClientSession
+	self clientSession clear
