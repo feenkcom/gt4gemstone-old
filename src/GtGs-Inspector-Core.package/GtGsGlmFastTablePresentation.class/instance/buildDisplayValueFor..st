@@ -3,5 +3,5 @@ buildDisplayValueFor: currentObjects
 	displayObjects := currentObjects.
 	numberOfElements := displayObjects size.
 	currentIndex := (self amountToShow 
-		ifNil: [ numberOfElements size ]) min: numberOfElements size.
+		ifNil: [ numberOfElements ]) min: numberOfElements.
 	^ self buildDisplayNodesFrom: 1 to: currentIndex.
