@@ -1,4 +1,3 @@
 accessing
 selector
-	self flag: #TODO.
-	^ nil
+	^ cachedSelector ifNil: [ cachedSelector := super selector ]
