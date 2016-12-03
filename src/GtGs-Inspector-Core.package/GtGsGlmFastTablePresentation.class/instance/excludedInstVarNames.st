@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  super excludedInstVarNames, #(#'cachedDisplayObjects' #'currentIndex')
+  ^  super excludedInstVarNames, #(#'displayObjects' #'currentIndex')
