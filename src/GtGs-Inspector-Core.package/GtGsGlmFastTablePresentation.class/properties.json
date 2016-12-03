@@ -1,0 +1,18 @@
+{
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"displayObjects",
+		"currentIndex",
+		"numberOfElements",
+		"amountToShow",
+		"amountToIncrement" ],
+	"name" : "GtGsGlmFastTablePresentation",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmTablePresentation",
+	"type" : "normal" }

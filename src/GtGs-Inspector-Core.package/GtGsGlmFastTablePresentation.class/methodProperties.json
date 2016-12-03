@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"amountToIncrement" : "AndreiChis 12/3/2016 21:45",
+		"amountToShow" : "AndreiChis 12/3/2016 22:03",
+		"buildDisplayNodesFrom:to:" : "AndreiChis 12/3/2016 21:54",
+		"buildDisplayValueFor:" : "AndreiChis 12/3/2016 22:07",
+		"excludedInstVarNames" : "AndreiChis 12/3/2016 21:46",
+		"incrementBy:" : "AndreiChis 12/3/2016 22:08",
+		"numberOfElements" : "AndreiChis 12/3/2016 21:21",
+		"showOnly:" : "AndreiChis 12/3/2016 21:42" } }
