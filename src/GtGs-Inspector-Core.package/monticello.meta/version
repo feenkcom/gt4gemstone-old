@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.84' message 'fixed STON serialization in GtGsGlmFastTablePresentation' id '3fe28406-0cab-4e63-8032-c28cb2821791' date '3 December 2016' time '10:18:17.315021 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.83' message 'Fast table keeps track of the number of displayed items.
-' id '2b813062-11fc-568f-bed1-10294692497d' date '3 December 2016' time '10:15:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.85' message 'dummy commit to check loading' id '8e3d7070-45bd-43cf-b633-9be6eb0955ae' date '3 December 2016' time '10:25:38.20314 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.84' message 'fixed STON serialization in GtGsGlmFastTablePresentation
+' id '19b51bc0-21a8-508d-84d5-1cbb2e707e0a' date '3 December 2016' time '10:18:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

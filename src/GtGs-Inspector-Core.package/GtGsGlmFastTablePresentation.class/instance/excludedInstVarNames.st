@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  super excludedInstVarNames, #(#'displayObjects' #'currentIndex')
+  ^  super excludedInstVarNames, #(#'displayObjects'  #'currentIndex')
