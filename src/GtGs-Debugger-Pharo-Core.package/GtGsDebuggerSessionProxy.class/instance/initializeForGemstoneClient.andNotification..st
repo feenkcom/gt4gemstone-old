@@ -3,7 +3,7 @@ initializeForGemstoneClient: aGsClient andNotification: aGsNotification
 	| gemstoneDebuggerSessionOopType |
 	gemstoneClient := aGsClient.
 	gemstoneNotification := aGsNotification.
-	gemstoneDebuggerSession := self gemstoneClient objectSerializer fromString: (self gemstoneClient session 
+	gemstoneDebuggerSession := self gemstoneClient objectSerializer fromString: (self gemstoneClient 
 		send: #buildDebuggerSessionForException:fromProcess:
 		to: self gemstoneClient todeServerOopType
 		withArgs: {gemstoneNotification exceptionOopType. gemstoneNotification contextOopType}).

@@ -2,7 +2,7 @@ actions
 openBasicStackViewerFor: aGemstoneNotification from: aGemstoneClient
 	| stackReport |
 	
-	stackReport := aGemstoneClient objectSerializer fromString: (aGemstoneClient session 
+	stackReport := aGemstoneClient objectSerializer fromString: (aGemstoneClient 
 		send: #collectDebuggerStackForProcess:
 		to: aGemstoneClient todeServerOopType
 		withArgs: {aGemstoneNotification contextOopType}).
