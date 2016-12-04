@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.88' message 'use showOnly in AbstractDictionary>>#gtGsInspectorLazyItemsIn:' id 'a2d02cf2-b6b7-402e-9031-62c99798a0af' date '4 December 2016' time '4:40:35.402667 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.87' message 'added #computeDiffToIncludeElementAt:
-' id '0c9f52ec-0374-581e-b7d3-a5bf8ed3c714' date '4 December 2016' time '4:38:39 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.89' message 'Fix in computeDiffToIncludeElementAt:' id 'a11d41d4-30f8-489d-adf4-79d61840971d' date '4 December 2016' time '4:45:38.53652 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.88' message 'use showOnly in AbstractDictionary>>#gtGsInspectorLazyItemsIn:
+' id '5594ea34-d2ee-5721-a635-addc504b878b' date '4 December 2016' time '4:40:38 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
