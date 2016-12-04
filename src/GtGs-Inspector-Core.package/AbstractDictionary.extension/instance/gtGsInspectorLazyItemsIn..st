@@ -2,9 +2,9 @@
 gtGsInspectorLazyItemsIn: composite
 	<gtInspectorPresentationOrder: 1>
 	
-	^ composite lazyTable
+	^ composite fastTable
 		title: 'Items (lazy)' ;
-		showOnly: 100;
+		enableLazyLoading;
 		display: [ | aCollection |
   			aCollection := Array new.
 			self associationsDo: [ :assn | aCollection add: assn ].

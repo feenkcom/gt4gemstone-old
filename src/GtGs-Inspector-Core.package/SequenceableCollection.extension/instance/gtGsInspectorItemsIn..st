@@ -2,7 +2,7 @@
 gtGsInspectorItemsIn: aComposite
 	<gtInspectorPresentationOrder: 0>
 	self flag: 'Remove this pragma when the inspector can use pragmas to find presentations'.
-	^ aComposite lazyTable
+	^ aComposite fastTable
 		title: 'Items';
 		enableLazyLoading;
 		display: [

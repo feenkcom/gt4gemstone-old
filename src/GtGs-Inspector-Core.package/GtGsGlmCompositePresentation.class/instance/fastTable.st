@@ -1,3 +1,3 @@
 scripting
-lazyTable 
+fastTable 
 	^ self custom: GtGsGlmFastTablePresentation new
