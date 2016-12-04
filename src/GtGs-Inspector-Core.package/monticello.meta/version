@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.90' message 'Correctly compute limits in #computeDiffToIncludeElementAt:' id '89fab4fa-c060-47bc-b5dd-96f8f3353bb6' date '4 December 2016' time '4:50:51.706776 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.89' message 'Fix in computeDiffToIncludeElementAt:
-' id '7a993aa6-5a08-522c-9270-bb18c32afab5' date '4 December 2016' time '4:45:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.91' message 'Use lazy loading in SequeanceCollection>>#gtGsInspectorItemsIn:' id '8c3769b1-04bd-4d3a-b582-d7ae0fcd2f10' date '4 December 2016' time '5:23:53.033912 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.90' message 'Correctly compute limits in #computeDiffToIncludeElementAt:
+' id '46e8cbc2-782a-5cab-b30c-772700e60462' date '4 December 2016' time '4:50:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
