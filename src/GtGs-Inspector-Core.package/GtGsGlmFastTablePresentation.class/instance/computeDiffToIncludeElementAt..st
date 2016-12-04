@@ -1,11 +1,11 @@
 as yet unclassified
 computeDiffToIncludeElementAt: anIndex
-	| previousIndex newNodes |
+	| startIndex newNodes |
 	
-	previousIndex := currentIndex.
+	startIndex := currentIndex + 1.
 	[ currentIndex < anIndex ] whileTrue: [ 
 		currentIndex := currentIndex + self amountToIncrement ].
-	newNodes := self buildDisplayNodesFrom: 1 to: currentIndex.
+	newNodes := self buildDisplayNodesFrom: startIndex to: currentIndex.
 	(self cacheAt: #displayValue) addAll: newNodes.
 	
 	^ self topezServer objectSerializer toString: newNodes
