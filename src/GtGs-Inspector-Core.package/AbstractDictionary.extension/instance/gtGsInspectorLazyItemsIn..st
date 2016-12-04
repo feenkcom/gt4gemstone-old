@@ -4,6 +4,7 @@ gtGsInspectorLazyItemsIn: composite
 	
 	^ composite lazyTable
 		title: 'Items (lazy)' ;
+		showOnly: 100;
 		display: [ | aCollection |
   			aCollection := Array new.
 			self associationsDo: [ :assn | aCollection add: assn ].

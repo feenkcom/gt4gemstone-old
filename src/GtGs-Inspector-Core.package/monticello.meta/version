@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.87' message 'added #computeDiffToIncludeElementAt:' id '83faf78a-9e77-4bd8-b6d3-52a6ed39dc44' date '4 December 2016' time '4:38:36.116849 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.86' message 'fix in buildDisplayValueFor:
-' id '596f501c-40ae-53c6-adaa-96353c84feb7' date '3 December 2016' time '10:31:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.88' message 'use showOnly in AbstractDictionary>>#gtGsInspectorLazyItemsIn:' id 'a2d02cf2-b6b7-402e-9031-62c99798a0af' date '4 December 2016' time '4:40:35.402667 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.87' message 'added #computeDiffToIncludeElementAt:
+' id '0c9f52ec-0374-581e-b7d3-a5bf8ed3c714' date '4 December 2016' time '4:38:39 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
