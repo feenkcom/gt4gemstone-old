@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GtGsGlmMorphicLazyFastTableRenderer",
+		"gtGsPresentation" ],
+	"name" : "GtGsGlmFastTablePresentationWrapper",
 	"pools" : [
 		 ],
-	"super" : "GLMMorphicFastTableRenderer",
+	"super" : "GLMFastTablePresentation",
 	"type" : "normal" }

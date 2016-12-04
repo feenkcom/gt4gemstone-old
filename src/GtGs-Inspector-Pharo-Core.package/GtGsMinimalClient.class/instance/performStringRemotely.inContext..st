@@ -1,7 +1,7 @@
 actions api
 performStringRemotely: aString inContext: anOopType
 	
-	^ self session 
+	^ self 
 		send: #performString: 
 		to: anOopType 
 		withArgs: { aString }.

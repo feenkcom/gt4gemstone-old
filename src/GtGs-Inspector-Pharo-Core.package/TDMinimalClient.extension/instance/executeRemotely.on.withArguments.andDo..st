@@ -2,7 +2,7 @@
 executeRemotely: aSymbol on: anOopType withArguments: anArray andDo: aBlock
 	| computationResult |
 	computationResult := self objectSerializer fromString: 
-		(self session
+		(self
 			send: aSymbol
 			to: anOopType
 			withArgs: anArray).

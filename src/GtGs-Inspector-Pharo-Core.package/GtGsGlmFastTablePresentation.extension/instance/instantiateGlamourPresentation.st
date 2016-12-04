@@ -1,3 +1,3 @@
 *GtGs-Inspector-Pharo-Core
 instantiateGlamourPresentation
-	^ GtGsGlmLazyFastTablePresentationWrapper new
+	^ GtGsGlmFastTablePresentationWrapper new
