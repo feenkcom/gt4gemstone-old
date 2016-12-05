@@ -3,8 +3,8 @@ computeDiffToIncludeElementAt: anIndex inCache: cachedDisplayValue forPresentati
 	| startIndex stopIndex newNodes |
 	
 	"The interval of objects that need to be computed and send back to the client"
-	startIndex := 1 max: (anIndex - self amountToIncrement).
-	stopIndex  := self numberOfElements min: (anIndex + self amountToIncrement).
+	startIndex := 1 max: (anIndex - aGSPresentation amountToIncrement).
+	stopIndex  := aGSPresentation numberOfElements min: (anIndex + aGSPresentation amountToIncrement).
 	
 	"Increase the size of the cache to ensure that it can hold all elements, if required."
 	cachedDisplayValue size + 1 to: stopIndex do: [ :index |
@@ -14,7 +14,7 @@ computeDiffToIncludeElementAt: anIndex inCache: cachedDisplayValue forPresentati
 	newNodes := OrderedCollection new: (stopIndex - startIndex + 1).
 	startIndex to: stopIndex do: [ :index | | newValueNode |
 		(cachedDisplayValue at: index) isNil ifTrue: [
-			newValueNode := self buildDisplayNodeAt: index.
+			newValueNode := aGSPresentation buildDisplayNodeAt: index.
 			newNodes add: (index -> newValueNode) ] ].
 	
 	diff := newNodes

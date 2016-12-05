@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.104' message 'Fixed compilation error in GemStone' id '23ef7256-c0b7-4d2a-b73f-c57a8b4d5c13' date '5 December 2016' time '10:23:57.146216 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.103' message 'Finished GtGsGlmFragmentedLoadingStrategy
-' id '42a73049-5527-50a6-957a-26ad119b1639' date '5 December 2016' time '10:22:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.105' message 'fix in GtGsGlmFragmentedLoadingStrategy' id '990cde57-5929-4b63-a2db-a8e1287f61d7' date '5 December 2016' time '10:27:22.949469 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.104' message 'Fixed compilation error in GemStone
+' id '50253faa-77f3-5720-990a-4c4d56933e74' date '5 December 2016' time '10:24:01 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
