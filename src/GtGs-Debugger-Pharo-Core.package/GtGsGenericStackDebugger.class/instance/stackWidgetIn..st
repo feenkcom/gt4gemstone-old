@@ -1,7 +1,7 @@
 building presentations
 stackWidgetIn: composite
 
-	^ composite list	
+	^ composite fastList	
 		title: 'Stack';
 		display: [:aSession | self retrieveStackFrom: aSession ];
 		format: #gtGsDebugString;
