@@ -1,0 +1,3 @@
+accessing
+inspectorDataSizeInMemory
+	^ super inspectorDataSizeInMemory + displayObjects physicalSize
