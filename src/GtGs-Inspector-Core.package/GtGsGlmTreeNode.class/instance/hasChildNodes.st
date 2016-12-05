@@ -1,4 +1,4 @@
 testing
 hasChildNodes
 
-	^ self childNodes size > 0
+	^  childNodes notNil and: [ childNodes size > 0 ]
