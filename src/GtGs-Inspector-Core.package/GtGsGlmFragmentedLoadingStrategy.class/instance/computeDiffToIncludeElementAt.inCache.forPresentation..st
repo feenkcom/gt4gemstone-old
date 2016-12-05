@@ -2,7 +2,7 @@ as yet unclassified
 computeDiffToIncludeElementAt: anIndex inCache: cachedDisplayValue forPresentation: aGSPresentation
 	| startIndex stopIndex newNodes |
 	
-	"The interval of objects that need to be computed and send back to the client".
+	"The interval of objects that need to be computed and send back to the client"
 	startIndex := 1 max: (anIndex - self amountToIncrement).
 	stopIndex  := self numberOfElements min: (anIndex + self amountToIncrement).
 	
