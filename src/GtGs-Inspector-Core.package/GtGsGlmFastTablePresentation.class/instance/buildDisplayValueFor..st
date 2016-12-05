@@ -1,5 +1,6 @@
 private
 buildDisplayValueFor: currentObjects
+	| currentIndex |
 	displayObjects := currentObjects.
 	numberOfElements := displayObjects size.
 	currentIndex := (self amountToShow 

@@ -1,11 +1,13 @@
 as yet unclassified
 computeDiffToIncludeElementAt: anIndex
-	| startIndex newNodes |
+	| cachedDisplayValue loadingStrategy |
 	
-	startIndex := currentIndex + 1.
-	[ currentIndex < anIndex ] whileTrue: [ 
-		currentIndex := currentIndex + self amountToIncrement ].
-	newNodes := self buildDisplayNodesFrom: startIndex to: currentIndex.
-	(self cacheAt: #displayValue) addAll: newNodes.
+	cachedDisplayValue := self cacheAt: #displayValue.
 	
-	^ self topezServer objectSerializer toString: newNodes
+	loadingStrategy := self loadingStrategyClass new
+		computeDiffToIncludeElementAt: anIndex 
+		inCache: cachedDisplayValue 
+		forPresentation: self.
+	loadingStrategy applyToCache: cachedDisplayValue.
+	
+	^ self topezServer objectSerializer toString: loadingStrategy

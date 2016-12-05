@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"displayObjects",
-		"numberOfElements",
-		"amountToIncrement",
-		"amountToShow" ],
-	"name" : "GtGsGlmFastTablePresentation",
+		 ],
+	"name" : "GtGsGlmElementsLoadingStrategy",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmTablePresentation",
+	"super" : "Object",
 	"type" : "normal" }
