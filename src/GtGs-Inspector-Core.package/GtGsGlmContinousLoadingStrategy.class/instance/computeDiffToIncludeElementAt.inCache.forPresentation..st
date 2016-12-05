@@ -7,7 +7,7 @@ computeDiffToIncludeElementAt: anIndex inCache: cachedDisplayValue forPresentati
 	[ stopIndex < anIndex ] whileTrue: [ 
 		stopIndex := stopIndex + aGSPresentation amountToIncrement ].
 	
-	"The interval of objects that need to be computed and send back to the client".
+	"The interval of objects that need to be computed and send back to the client"
 	startIndex := 1 max: startIndex.
 	stopIndex := aGSPresentation numberOfElements min: stopIndex.
 	
