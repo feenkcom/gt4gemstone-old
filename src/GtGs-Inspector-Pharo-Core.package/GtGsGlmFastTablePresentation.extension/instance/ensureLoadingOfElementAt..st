@@ -1,10 +1,10 @@
 *GtGs-Inspector-Pharo-Core
 ensureLoadingOfElementAt: anIndex
-	| diffResult |
+	| cachedDisplayValue loadingStrategy |
 
-	diffResult := self 
+	cachedDisplayValue := self cacheAt: #displayValue.
+	loadingStrategy := self 
 		executeRemotely: #computeDiffToIncludeElementAt: 
 		withArguments: {anIndex}.
-		
-	"Update the cached displayValue based on the diff result."
-	(self cacheAt: #displayValue) addAll: diffResult.
+
+	loadingStrategy applyToCache: cachedDisplayValue
