@@ -1,4 +1,4 @@
-as yet unclassified
+callbacks
 computeDiffToIncludeElementAt: anIndex
 	| cachedDisplayValue loadingStrategy |
 	
