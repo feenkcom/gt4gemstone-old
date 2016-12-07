@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-TravisCI.110' message 'use #enableLazyLoading in #gtGsInspectorItemsIn:' id '6e2fc09d-1217-4533-b311-61e93999a097' date '7 December 2016' time '11:57:38.940088 pm' author 'TravisCI' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.109' message 'Do not use #enableLazyLoading for the moment.
-' id '1db65ae0-8586-563b-898a-8d0c39ffd311' date '7 December 2016' time '11:55:45 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-TravisCI.111' message 'Display only 200 characters in gtGsInspectorName' id '60b8eada-1721-4931-a22b-f2ace61aba0e' date '8 December 2016' time '12:01:01.240015 am' author 'TravisCI' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.110' message 'use #enableLazyLoading in #gtGsInspectorItemsIn:
+' id '396202ea-ebdf-54a3-9a46-56ec973228c2' date '7 December 2016' time '11:57:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
