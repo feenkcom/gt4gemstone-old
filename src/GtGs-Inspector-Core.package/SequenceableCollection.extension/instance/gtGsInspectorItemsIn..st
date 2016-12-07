@@ -4,7 +4,7 @@ gtGsInspectorItemsIn: aComposite
 	self flag: 'Remove this pragma when the inspector can use pragmas to find presentations'.
 	^ aComposite fastTable
 		title: 'Items';
-		enableLazyLoading;
+		"enableLazyLoading;"
 		display: [
 			[(1 to: self size) collect: [ :index | 
 				self flag: 'log the error'.
