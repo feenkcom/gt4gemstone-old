@@ -26,6 +26,7 @@ baseline: spec
                     'github://GsDevKit/GsDevKit_home:dev/shared/repos/TodeClient' ].
 
 		spec 
+		   package: 'GT-Debugger';
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
@@ -47,7 +48,9 @@ baseline: spec
 				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Examples-AddressBook-Extensions-Pharo');
-			group: 'default' with: #('Core' 'Tests' 'Examples') ].
+			group: 'Pharo'
+				with: #('GT-Debugger');
+			group: 'default' with: #('Core' 'Tests' 'Examples' 'Pharo') ].
 		
 	 spec for: #'gemstone' do: [
 
