@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allMenuActions" : "usmanbhatti 11/16/2015 15:21",
+		"announcer" : "CyrilFerlicot 11/4/2015 17:12",
+		"basicElements" : "CyrilFerlicot 11/10/2015 11:56",
+		"calculateElements" : "CyrilFerlicot 11/10/2015 11:56",
+		"collectionToDragPassenger:" : "CyrilFerlicot 11/10/2015 11:56",
+		"elementOrZeroAt:" : "CyrilFerlicot 11/10/2015 11:56",
+		"elementShouldBeDisplayed:" : "CyrilFerlicot 11/10/2015 11:56",
+		"executeMenuAction:" : "CyrilFerlicot 11/4/2015 17:22",
+		"explicitSelection:" : "CyrilFerlicot 1/5/2016 12:15",
+		"glamourPresentation" : "CyrilFerlicot 11/9/2015 10:49",
+		"glamourPresentation:" : "CyrilFerlicot 11/9/2015 10:49",
+		"menuColumn:row:" : "usmanbhatti 11/16/2015 15:18",
+		"newDataSourceMatching:" : "CyrilFerlicot 11/17/2015 12:13",
+		"readyToBeDisplayed" : "usmanbhatti 11/17/2015 10:28",
+		"selection:" : "CyrilFerlicot 12/30/2015 16:26",
+		"strongSelection:" : "CyrilFerlicot 12/30/2015 15:28",
+		"when:do:" : "CyrilFerlicot 11/4/2015 17:12",
+		"when:send:to:" : "CyrilFerlicot 11/4/2015 17:12" } }

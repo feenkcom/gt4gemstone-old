@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actionBlock" : "CyrilFerlicot 11/4/2015 11:23",
+		"actionName" : "CyrilFerlicot 11/4/2015 11:42",
+		"enableFilter" : "CyrilFerlicot 11/4/2015 11:16",
+		"enableFilterWithAction:" : "CyrilFerlicot 11/4/2015 11:41",
+		"enableFilterWithAction:named:" : "CyrilFerlicot 11/4/2015 11:41",
+		"enableSearch" : "CyrilFerlicot 11/4/2015 11:16",
+		"filterOn:" : "CyrilFerlicot 11/4/2015 15:26",
+		"isFilterable" : "CyrilFerlicot 11/4/2015 11:17",
+		"isSearchable" : "CyrilFerlicot 11/4/2015 11:17",
+		"needActionButton" : "CyrilFerlicot 11/4/2015 11:18",
+		"parameters" : "CyrilFerlicot 11/4/2015 11:20",
+		"searchOn:" : "CyrilFerlicot 11/4/2015 15:27" } }
