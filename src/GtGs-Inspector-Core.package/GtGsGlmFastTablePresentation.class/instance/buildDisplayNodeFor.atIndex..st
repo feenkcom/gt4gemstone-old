@@ -1,10 +1,10 @@
 private
 buildDisplayNodeFor: anObject atIndex: anIndex
  	| displayNode |
-	self flag: 'this solutions duplicates the logic from #buildDisplayNodeFor:. This is not good.'.
+	"this solutions duplicates the logic from #buildDisplayNodeFor:. This is not good.".
 
 	displayNode := self listNodeClass new
-		formattedValue: (self formatBlock value: anObject);
+		formattedValue: (self formatBlock ifNotNil: [ :aBlock | aBlock value: anObject ]);
 		iconId: (self iconIdBlock value: anObject);
 		targetObject: anObject.
 	"displayNode := super buildDisplayNodeFor: anObject."

@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.115' message '''self'' should not have children in the Raw view' id 'c8e9e7e1-9127-4494-afac-d561dd195e05' date '12 December 2016' time '11:40:33.973582 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.114' message 'Compute column values in a tree presentation.
-' id '8c3e9b76-8205-5db1-923b-9eb1d22fa867' date '12 December 2016' time '11:16:22 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.116' message 'Reset the format block if a tree presentation has columns.' id '96b8a1ac-9ca4-4ac6-9bc4-e3dda954dbdd' date '12 December 2016' time '4:46:41.013597 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.115' message '''self'' should not have children in the Raw view
+' id '3d5c1ad8-4e2f-58d9-bd50-1fd78c518797' date '12 December 2016' time '11:40:37 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
