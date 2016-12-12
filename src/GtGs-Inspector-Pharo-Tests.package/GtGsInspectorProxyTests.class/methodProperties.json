@@ -2,13 +2,21 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertTreeNodesChildFlagFor:equals:" : "AndreiChis 12/12/2016 15:22",
+		"assertTreeNodesColumnsContentFor:equals:" : "AndreiChis 12/12/2016 16:53",
+		"assertTreeNodesInitialStructureFor:" : "AndreiChis 12/12/2016 15:20",
 		"client" : "AndreiChis 10/22/2016 16:34:21",
 		"debugMode" : "AndreiChis 10/22/2016 16:34:21",
 		"newBasicTestObject" : "AndreiChis 10/22/2016 16:34:21",
+		"newComposeTestObject" : "AndreiChis 12/12/2016 16:51",
 		"sessionDescription" : "AndreiChis 10/27/2016 21:44",
 		"setUp" : "AndreiChis 10/26/2016 20:42",
 		"tearDown" : "AndreiChis 10/22/2016 16:34:21",
 		"testRemoteProxyInitialization" : "AndreiChis 10/22/2016 16:34:21",
-		"testStatePresentationColumnsStructure" : "AndreiChis 10/27/2016 21:54",
-		"testStatePresentationContent" : "AndreiChis 10/27/2016 21:55",
-		"testStatePresentationTreeStructure" : "AndreiChis 10/27/2016 21:55" } }
+		"testStatePresentationChildrenContent" : "AndreiChis 12/12/2016 16:55",
+		"testStatePresentationChildrenStructure" : "AndreiChis 12/12/2016 15:23",
+		"testStatePresentationColumnsContent" : "AndreiChis 12/12/2016 16:57",
+		"testStatePresentationColumnsStructure" : "AndreiChis 12/12/2016 11:30",
+		"testStatePresentationStructureRootNodesWithChildren" : "AndreiChis 12/12/2016 15:26",
+		"testStatePresentationStructureRootNodesWithoutChildren" : "AndreiChis 12/12/2016 15:25",
+		"testStatePresentationUninitializedContent" : "AndreiChis 12/12/2016 11:45" } }
