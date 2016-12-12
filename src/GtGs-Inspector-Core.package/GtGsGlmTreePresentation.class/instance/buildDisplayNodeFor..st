@@ -1,8 +1,13 @@
 as yet unclassified
 buildDisplayNodeFor: anObject
-	| node |
+	| displayNode |
 	
-	node := super buildDisplayNodeFor: anObject.
+	displayNode := super buildDisplayNodeFor: anObject.
 	self hasChildNodesBlock ifNotNil: [ :aBlock |
-		node hasChildNodes: (aBlock value: anObject) ].
-	^ node
+		displayNode hasChildNodes: (aBlock value: anObject) ].
+	
+	self columns do: [ :aGsColumn |
+		displayNode columnValues add: (
+			aGsColumn computationBlock value: displayNode targetObject) ].
+
+	^ displayNode
