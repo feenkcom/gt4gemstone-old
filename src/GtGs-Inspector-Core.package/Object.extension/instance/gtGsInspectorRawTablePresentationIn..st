@@ -2,10 +2,11 @@
 gtGsInspectorRawTablePresentationIn: aComposite
 	<gtInspectorPresentationOrder: 10>
 
-	^ aComposite table
+	^ (self gtGsIsGemstone ifTrue: [ aComposite tree ] ifFalse: [ aComposite table ])
 		title: [ 'Raw' ];
 		display: [
 			self gtGsVariableValuePairsWithSelfIf: true ];
+		hasChildren: [ :anAssociation | (Reflection sizeOf: anAssociation value) > 0 ];
 		children: [ :anAssociation |
 			anAssociation value gtGsVariableValuePairsWithSelfIf: false ];
 		column: [ 'Variable' ] evaluated: [ :anAssociation | anAssociation key ];

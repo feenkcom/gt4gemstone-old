@@ -3,5 +3,5 @@ buildDisplayNodeAt: anIndex
 	| currentNode |
 	
 	currentNode := self buildDisplayNodeFor: (displayObjects at: anIndex) atIndex: anIndex.
-	self computeAndUpdateChildNodesFor: currentNode.
+	"self computeAndUpdateChildNodesFor: currentNode."
 	^ currentNode
