@@ -1,13 +1,13 @@
 *GtGs-Inspector-Core
 gtGsInspectorItemsIn: aComposite
 	<gtInspectorPresentationOrder: 0>
-	self flag: 'Remove this pragma when the inspector can use pragmas to find presentations'.
+	
 	^ aComposite fastTable
 		title: 'Items';
 		enableLazyLoading;
 		display: [
 			[(1 to: self size) collect: [ :index | 
-				self flag: 'log the error'.
+				"TODO: log the error"
 				index -> (self at: index) ]] on: Error do:[#()]];
 		column: 'Index' evaluated: [ :anAssociation | 
 			anAssociation key asString ] width: 50;
