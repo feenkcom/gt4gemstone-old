@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.117' message 'Fixed compilation error in gemstone' id 'f6b9c790-08e0-41a9-b7d9-d884753f5008' date '12 December 2016' time '4:48:03.342796 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.116' message 'Reset the format block if a tree presentation has columns.
-' id '8ca8ed24-9cff-5afa-9725-d589c61cc8ba' date '12 December 2016' time '4:46:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.118' message 'Return false if the attribute hasChildNode is not set.' id '511a35b4-cb8e-4ca6-a6e0-2aa0cb0e4aef' date '12 December 2016' time '5:04:07.856073 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.117' message 'Fixed compilation error in gemstone
+' id '64fdcfdc-706a-5933-82df-3d4b4bd7a013' date '12 December 2016' time '4:48:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
