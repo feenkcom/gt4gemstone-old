@@ -1,7 +1,7 @@
 private
 buildDisplayNodeFor: anObject atIndex: anIndex
  	| displayNode |
-	"this solutions duplicates the logic from #buildDisplayNodeFor:. This is not good.".
+	"this solutions duplicates the logic from #buildDisplayNodeFor:. This is not good."
 
 	displayNode := self listNodeClass new
 		formattedValue: (self formatBlock ifNotNil: [ :aBlock | aBlock value: anObject ]);

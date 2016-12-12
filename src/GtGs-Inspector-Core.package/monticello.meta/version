@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.116' message 'Reset the format block if a tree presentation has columns.' id '96b8a1ac-9ca4-4ac6-9bc4-e3dda954dbdd' date '12 December 2016' time '4:46:41.013597 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.115' message '''self'' should not have children in the Raw view
-' id '3d5c1ad8-4e2f-58d9-bd50-1fd78c518797' date '12 December 2016' time '11:40:37 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.117' message 'Fixed compilation error in gemstone' id 'f6b9c790-08e0-41a9-b7d9-d884753f5008' date '12 December 2016' time '4:48:03.342796 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.116' message 'Reset the format block if a tree presentation has columns.
+' id '8ca8ed24-9cff-5afa-9725-d589c61cc8ba' date '12 December 2016' time '4:46:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
