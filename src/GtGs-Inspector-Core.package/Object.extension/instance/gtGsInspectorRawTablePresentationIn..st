@@ -6,7 +6,10 @@ gtGsInspectorRawTablePresentationIn: aComposite
 		title: [ 'Raw' ];
 		display: [
 			self gtGsVariableValuePairsWithSelfIf: true ];
-		hasChildren: [ :anAssociation | (Reflection sizeOf: anAssociation value) > 0 ];
+		hasChildren: [ :anAssociation | 
+			anAssociation key = 'self' 
+				ifTrue: [ false ]
+				ifFalse: [ (Reflection sizeOf: anAssociation value) > 0 ] ];
 		children: [ :anAssociation |
 			anAssociation value gtGsVariableValuePairsWithSelfIf: false ];
 		column: [ 'Variable' ] evaluated: [ :anAssociation | anAssociation key ];
