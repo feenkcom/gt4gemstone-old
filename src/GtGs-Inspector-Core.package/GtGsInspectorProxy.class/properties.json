@@ -11,7 +11,7 @@
 		"targetObject",
 		"title",
 		"presentations",
-		"curentPresentation" ],
+		"curentPresentationIndex" ],
 	"name" : "GtGsInspectorProxy",
 	"pools" : [
 		 ],

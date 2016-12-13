@@ -1,4 +1,4 @@
 updating
 updateCache
-	self updateTitleCache.
+	self updateCacheBasic.
 	self updateDisplayValueCache

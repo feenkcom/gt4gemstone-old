@@ -1,3 +1,3 @@
 updating
-updateCache
+updateCacheBasic
 	titleCache := self titleBlock value.

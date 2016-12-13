@@ -11,6 +11,8 @@ updatePresentations
 			proxyOwner: self;
 			updateForwarder;
 			updateUninitializedBlocks;
-			updateCache ].
+			updateCacheBasic ].
+	aComposite presentations size > 0 ifTrue: [
+		 aComposite presentation first updateCache ].
 
 	presentations := aComposite presentations

@@ -1,5 +1,5 @@
 *GtGs-Inspector-Core
-gtGsInspectorRawTablePresentationIn: aComposite
+gtGsInspectorBRawTablePresentationIn: aComposite
 	<gtInspectorPresentationOrder: 5>
 
 	^ aComposite table

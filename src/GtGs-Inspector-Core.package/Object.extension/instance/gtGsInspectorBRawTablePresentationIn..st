@@ -1,5 +1,5 @@
 *GtGs-Inspector-Core
-gtGsInspectorRawTablePresentationIn: aComposite
+gtGsInspectorBRawTablePresentationIn: aComposite
 	<gtInspectorPresentationOrder: 10>
 
 	^ (self gtGsIsGemstone ifTrue: [ aComposite tree ] ifFalse: [ aComposite table ])

@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildDisplayNodeFor:" : "AndreiChis 12/12/2016 17:25:47",
-		"buildDisplayNodesFor:" : "AndreiChis 12/12/2016 17:25:47",
+		"buildDisplayNodeFor:" : "AndreiChis 12/12/2016 16:24",
+		"buildDisplayNodesFor:" : "TravisCI 12/12/2016 10:08",
 		"buildDisplayValueFor:" : "AndreiChis 10/20/2016 19:05:42",
 		"computeAllChildNodesFor:" : "AndreiChis 10/20/2016 19:05:42",
 		"computeAndUpdateChildNodesFor:" : "AndreiChis 10/12/2016 18:51",
-		"computeChildNodesFor:" : "AndreiChis 12/12/2016 17:25:47",
+		"computeChildNodesFor:" : "TravisCI 12/12/2016 10:04",
 		"excludedInstVarNames" : "AndreiChis 10/20/2016 19:05:42",
 		"iconIdBlock" : "AndreiChis 10/6/2016 16:55",
 		"iconIdBlock:" : "AndreiChis 10/6/2016 16:55",
