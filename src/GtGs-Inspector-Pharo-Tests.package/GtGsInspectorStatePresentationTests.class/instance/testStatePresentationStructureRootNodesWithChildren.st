@@ -3,7 +3,7 @@ testStatePresentationStructureRootNodesWithChildren
 	| inspectorProxy rootDisplayNodes |
 	
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newComposeTestObject.	
-	rootDisplayNodes := inspectorProxy gsPresentations second cacheAt: #displayValue.
+	rootDisplayNodes := inspectorProxy gsPresentations first cacheAt: #displayValue.
 	
 	self assert: rootDisplayNodes size equals: 5.
 	

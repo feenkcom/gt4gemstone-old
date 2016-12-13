@@ -3,7 +3,7 @@ testStatePresentationChildrenStructure
 	| inspectorProxy gsStatePresentation fourthRootNode fourthRootNodeLastChild |
 	
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newComposeTestObject.
-	gsStatePresentation := inspectorProxy gsPresentations second.
+	gsStatePresentation := inspectorProxy gsPresentations first.
 	fourthRootNode := (gsStatePresentation cacheAt: #displayValue) fourth.
 	
 	self assert: fourthRootNode rawChildNodes equals: nil.

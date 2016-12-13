@@ -3,7 +3,7 @@ testStatePresentationColumnsContent
 	| inspectorProxy displayNodes |
 	
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.	
-	displayNodes := inspectorProxy gsPresentations second cacheAt: #displayValue.
+	displayNodes := inspectorProxy gsPresentations first cacheAt: #displayValue.
 	
 	self assertTreeNodesColumnsContentFor: displayNodes equals: {
 		{ 'self'. 'aGtGsTestObjectBasic' }.
