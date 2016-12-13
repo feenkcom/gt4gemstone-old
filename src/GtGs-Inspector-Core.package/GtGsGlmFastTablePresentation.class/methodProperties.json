@@ -7,12 +7,14 @@
 		"buildDisplayNodeAt:" : "TravisCI 12/12/2016 10:18",
 		"buildDisplayNodeFor:atIndex:" : "AndreiChis 12/12/2016 16:47",
 		"buildDisplayNodesFrom:to:" : "TravisCI 12/6/2016 15:42",
-		"buildDisplayValueFor:" : "AndreiChis 12/5/2016 13:07",
+		"buildDisplayValueFor:" : "AndreiChis 12/13/2016 15:38",
 		"computeDiffToIncludeElementAt:" : "AndreiChis 12/5/2016 15:09",
+		"computeNumberOfElements" : "AndreiChis 12/13/2016 15:41",
 		"enableLazyLoading" : "AndreiChis 12/4/2016 17:09",
 		"excludedInstVarNames" : "AndreiChis 12/5/2016 21:19",
 		"incrementBy:" : "AndreiChis 12/3/2016 22:08",
 		"inspectorDataSizeInMemory" : "AndreiChis 12/5/2016 09:57",
 		"loadingStrategyClass" : "AndreiChis 12/5/2016 22:20",
-		"numberOfElements" : "AndreiChis 12/13/2016 15:16",
-		"showOnly:" : "AndreiChis 12/3/2016 21:42" } }
+		"numberOfElements" : "AndreiChis 12/13/2016 15:25",
+		"showOnly:" : "AndreiChis 12/3/2016 21:42",
+		"updateDisplayValueCache" : "AndreiChis 12/13/2016 15:38" } }

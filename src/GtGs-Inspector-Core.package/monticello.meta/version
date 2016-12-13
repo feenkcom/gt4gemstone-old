@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.123' message 'Return 0 if #numberOfElements is nil.' id '2e3fd4d5-46b8-4995-9821-91053ddb3a13' date '13 December 2016' time '3:21:28.220288 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.122' message 'Fixed typo in #updatePresentations
-' id '13074583-7e76-559a-8901-82fbca2a64ee' date '13 December 2016' time '11:04:56 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.124' message 'Added a callback for computing the number of elements from a list presentation.' id '0dad80bf-494a-4199-b307-cb4157a05633' date '13 December 2016' time '3:45:03.489277 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.123' message 'Return 0 if #numberOfElements is nil.
+' id '05763914-1a16-5a6d-ba76-55f3273d4e21' date '13 December 2016' time '3:21:32 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

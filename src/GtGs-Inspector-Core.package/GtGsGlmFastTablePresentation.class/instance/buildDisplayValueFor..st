@@ -1,7 +1,7 @@
 private
 buildDisplayValueFor: currentObjects
 	| currentIndex |
-	displayObjects := currentObjects.
+	displayObjects ifNil: [ displayObjects := currentObjects ].
 	numberOfElements := displayObjects size.
 	currentIndex := (self amountToShow 
 		ifNil: [ numberOfElements ]) min: numberOfElements.
