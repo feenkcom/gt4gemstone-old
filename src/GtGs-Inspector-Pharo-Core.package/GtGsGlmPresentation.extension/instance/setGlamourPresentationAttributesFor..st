@@ -2,8 +2,7 @@
 setGlamourPresentationAttributesFor: aPresentation 
 
 	aPresentation
-		title: [
-			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #'computeTitle' ] ];
+		title: (self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #'computeTitle' ]) ;
 		display: [ 
 			self obtainDisplayValue ];
 		send: [ :aListNode ||serializedProxy|
