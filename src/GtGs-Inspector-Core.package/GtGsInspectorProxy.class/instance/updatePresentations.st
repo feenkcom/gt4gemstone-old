@@ -13,6 +13,6 @@ updatePresentations
 			updateUninitializedBlocks;
 			updateCacheBasic ].
 	aComposite presentations size > 0 ifTrue: [
-		 aComposite presentation first updateCache ].
+		 aComposite presentations first updateCache ].
 
 	presentations := aComposite presentations
