@@ -1,3 +1,4 @@
 as yet unclassified
 numberOfRows
-	^ self gtGsPresentation numberOfElements
+	"This method is called by FastTable before calling the display block that computes the elements."
+	^ self gtGsPresentation obtainNumberOfElements

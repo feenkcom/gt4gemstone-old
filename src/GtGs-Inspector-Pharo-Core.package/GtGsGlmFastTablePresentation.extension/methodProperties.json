@@ -4,4 +4,5 @@
 	"instance" : {
 		"ensureLoadingOfElementAt:" : "AndreiChis 12/5/2016 15:38",
 		"instantiateGlamourPresentation" : "AndreiChis 12/4/2016 17:47",
-		"setGlamourPresentationAttributesFor:" : "AndreiChis 12/3/2016 23:08" } }
+		"obtainNumberOfElements" : "AndreiChis 12/13/2016 15:36",
+		"setGlamourPresentationAttributesFor:" : "AndreiChis 12/13/2016 15:33" } }
