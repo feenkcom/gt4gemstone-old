@@ -3,4 +3,5 @@ computeNumberOfElements
 
 	displayObjects 
 		ifNil: [ displayObjects := self displayBlock value ].
-	^ numberOfElements := displayObjects size
+	numberOfElements := displayObjects size.
+	^ self topezServer objectSerializer toString: numberOfElements
