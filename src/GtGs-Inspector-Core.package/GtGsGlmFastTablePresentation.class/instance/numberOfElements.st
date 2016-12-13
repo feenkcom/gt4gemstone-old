@@ -1,3 +1,3 @@
 accessing
 numberOfElements
-	^ numberOfElements
+	^ numberOfElements ifNil: [ 0 ]
