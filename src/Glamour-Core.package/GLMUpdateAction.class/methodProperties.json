@@ -1,0 +1,19 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOn:" : "TudorGirba 2/15/2011 10:40",
+		"announcement" : "tg 5/2/2010 23:50",
+		"announcement:" : "tg 5/2/2010 23:50",
+		"announcerObjects" : "tg 5/3/2010 00:19",
+		"computeAnnouncerObjects" : "tg 5/3/2010 00:12",
+		"condition" : "tg 5/2/2010 23:46",
+		"condition:" : "tg 5/2/2010 23:46",
+		"initialize" : "tg 5/24/2010 17:19",
+		"postCopy" : "tg 5/3/2010 01:19",
+		"presentation" : "tg 5/2/2010 23:46",
+		"presentation:" : "tg 5/2/2010 23:46",
+		"registerInPresentation" : "BernardoContreras 11/12/2014 21:18",
+		"transformation" : "tg 5/3/2010 01:18",
+		"transformation:" : "tg 5/3/2010 01:18",
+		"unregisterFromAllAnnouncements" : "HenrikSperreJohansen 3/12/2011 11:59" } }

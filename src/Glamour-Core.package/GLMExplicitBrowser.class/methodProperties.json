@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addNewPane" : "jorge.ressia 6/2/2009 21:48",
+		"addNewPaneNamed:" : "tg 3/31/2010 22:49",
+		"custom:" : "tg 1/11/2010 20:39",
+		"from:" : "tg 1/11/2010 20:38",
+		"fromOutside:" : "TudorGirba 12/2/2010 20:10",
+		"fromOutsidePort:" : "TudorGirba 12/2/2010 20:10",
+		"innerPortEvent:" : "DamienCassou 7/3/2011 19:52",
+		"lastTransmission" : "tg 1/11/2010 20:37",
+		"paneNamed:" : " 4/5/09 22:18",
+		"passivelyFrom:" : "tg 1/11/2010 20:38",
+		"sendTo:from:" : "tg 1/14/2010 16:10",
+		"sendTo:from:with:" : "tg 1/14/2010 16:10",
+		"sendTo:fromOutside:" : " 4/5/09 22:18",
+		"sendToOutside:from:" : " 4/5/09 22:18",
+		"showOn:" : "DamienCassou 7/9/2011 20:19",
+		"updateContextWith:" : "jorge.ressia 6/2/2009 23:25" } }

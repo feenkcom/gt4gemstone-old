@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"on:previouslyValued:" : "jorge.ressia 5/30/2009 11:47",
+		"on:previouslyValued:in:" : "jorge.ressia 5/30/2009 12:55" },
+	"instance" : {
+		"hasChanged" : "DamienCassou 7/3/2011 19:52",
+		"initializeOn:previouslyValued:" : "jorge.ressia 5/30/2009 13:01",
+		"initializeOn:previouslyValued:in:" : "jorge.ressia 5/30/2009 12:58",
+		"isEntityPort" : "TudorGirba 6/14/2014 12:20",
+		"isSelectionPort" : "TudorGirba 6/14/2014 12:20",
+		"oldValue" : " 4/5/09 22:18",
+		"pane" : " 4/5/09 22:18",
+		"port" : " 4/5/09 22:18",
+		"portName" : " 4/5/09 22:18",
+		"printOn:" : "tg 2/17/2010 19:10",
+		"transmissionContext" : "tg 12/18/2009 23:58",
+		"value" : " 4/5/09 22:18" } }

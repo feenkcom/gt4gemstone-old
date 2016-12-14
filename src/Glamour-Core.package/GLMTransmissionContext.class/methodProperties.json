@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addPort:" : "TudorGirba 7/21/2011 13:43",
+		"can:announce:" : "tg 12/19/2009 00:26",
+		"canAnnounceMatchingPresentationsChanged:" : "tg 12/19/2009 00:25",
+		"canAnnouncePresentationsChanged:" : "tg 12/19/2009 00:23",
+		"forbid:toAnnounce:" : "tg 12/19/2009 00:21",
+		"forbidToAnnounceMatchingPresentationsChanged:" : "tg 12/19/2009 00:22",
+		"forbidToAnnouncePresentationsChanged:" : "tg 12/19/2009 00:22",
+		"forbiddenAnnouncements" : "tg 12/19/2009 00:20",
+		"forbiddenAnnouncements:" : "tg 12/19/2009 00:19",
+		"includesPort:" : "TudorGirba 7/21/2011 13:46",
+		"ports" : "tg 12/18/2009 23:33",
+		"ports:" : "tg 12/18/2009 23:32",
+		"postCopy" : "TudorGirba 7/9/2011 23:54",
+		"printOn:" : "TudorGirba 7/21/2011 13:39" } }

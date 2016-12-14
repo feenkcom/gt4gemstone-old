@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"copyAccordingToPaneMapping:inNewBrowser:" : "tg 12/30/2009 03:05",
+		"hasPane" : "tg 1/5/2010 13:40",
+		"isEntityPort" : "TudorGirba 6/14/2014 12:21",
+		"isSelectionPort" : "TudorGirba 6/14/2014 12:21",
+		"name" : " 4/5/09 22:18",
+		"name:" : " 4/5/09 22:18",
+		"notingPresentationChangeDo:" : "simondenier 4/15/2010 15:56",
+		"printOn:" : "tg 1/13/2010 16:31",
+		"receive:" : "tg 12/18/2009 23:53",
+		"receive:in:" : "tg 12/18/2009 23:53",
+		"silentValue:" : "TudorGirba 4/18/2011 19:42",
+		"transientValue:" : "TudorGirba 4/18/2011 19:45",
+		"validate:" : "JorgeRessia 11/6/2009 13:10",
+		"value" : " 4/5/09 22:18",
+		"value:" : "tg 2/17/2010 14:02",
+		"value:in:" : "tg 12/18/2009 23:55" } }
