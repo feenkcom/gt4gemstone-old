@@ -1,5 +1,5 @@
 callbacks
-computeNumberOfElements
+computeTotalNumberOfElements
 
 	displayObjects 
 		ifNil: [ displayObjects := self displayBlock value ].
