@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"asDisabledForm:" : "AndreiChis 12/14/2016 17:54",
+		"basicButton" : "AndreiChis 12/14/2016 17:51",
+		"basicIcon" : "AndreiChis 12/14/2016 17:52",
+		"buildGoBackwardButtons" : "AndreiChis 12/14/2016 22:42",
+		"buildGoForwardButtons" : "AndreiChis 12/14/2016 22:42",
+		"buildPanel" : "AndreiChis 12/14/2016 18:57",
+		"buttonLabel:actionSelector:arguments:getEnabled:help:" : "AndreiChis 12/14/2016 18:18",
+		"endIndexEditor" : "AndreiChis 12/14/2016 18:35",
+		"endIndexValue" : "AndreiChis 12/14/2016 18:34",
+		"initialize" : "AndreiChis 12/14/2016 19:51",
+		"pagerColor" : "AndreiChis 12/14/2016 19:51",
+		"preferedFont" : "AndreiChis 12/14/2016 17:55",
+		"spacer:" : "AndreiChis 12/14/2016 17:58",
+		"startIndexEditor" : "AndreiChis 12/14/2016 18:34",
+		"startIndexValue" : "AndreiChis 12/14/2016 18:34",
+		"textEntryLabel:get:set:help:class:" : "AndreiChis 12/14/2016 17:57" } }

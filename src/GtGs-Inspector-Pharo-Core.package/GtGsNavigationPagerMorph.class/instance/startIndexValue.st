@@ -1,0 +1,3 @@
+accessing
+startIndexValue
+	^ 1

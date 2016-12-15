@@ -1,0 +1,3 @@
+accessing
+endIndexValue
+	^ 100

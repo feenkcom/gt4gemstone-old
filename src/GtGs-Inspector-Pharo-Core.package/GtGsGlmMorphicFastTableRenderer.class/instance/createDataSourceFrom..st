@@ -1,3 +1,3 @@
-as yet unclassified
+initialization
 createDataSourceFrom: aPresentation
 	^ GtGsGlmFastLazyTableDataSource new
