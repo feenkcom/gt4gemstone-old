@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ensureLoadingOfElementAt:" : "AndreiChis 12/5/2016 15:38",
-		"ensureLoadingOfElementsBetween:and:" : "AndreiChis 12/15/2016 11:28",
-		"instantiateGlamourPresentation" : "AndreiChis 12/4/2016 17:47",
-		"obtainTotalNumberOfElements" : "AndreiChis 12/15/2016 10:21",
-		"setGlamourPresentationAttributesFor:" : "AndreiChis 12/13/2016 15:33" } }
+		"ensureLoadingOfElementAt:" : "AndreiChis 12/12/2016 17:15:15",
+		"ensureLoadingOfElementsBetween:and:" : "AndreiChis 12/15/2016 18:05:07",
+		"instantiateGlamourPresentation" : "AndreiChis 12/12/2016 17:15:15",
+		"obtainTotalNumberOfElements" : "AndreiChis 12/15/2016 18:05:07",
+		"setGlamourPresentationAttributesFor:" : "AndreiChis 12/12/2016 17:15:15" } }
