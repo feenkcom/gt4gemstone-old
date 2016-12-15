@@ -3,16 +3,16 @@ buildGoForwardButtons
 	| nextPageButton lastPageButton |
 	nextPageButton := self
 		buttonLabel: MorphTreeNavigationBar smallToRightIcon 
-		actionSelector: #nextPage
+		actionSelector: #loadNextPage
 		arguments: {}
-		getEnabled: nil "#notOnLastPage"
-		help: 'Next page'.
+		getEnabled: #isLastElementNotDisplayed
+		help: 'Load the next ', dataSource amountToIncrement asString, ' elements'.
 
 	lastPageButton := self
 		buttonLabel: MorphTreeNavigationBar smallToRightEndIcon
-		actionSelector: #fullList
+		actionSelector: #jumpToLastPage
 		arguments: {}
-		getEnabled: nil "#notOnLastPage"
-		help: 'Last page'.
+		getEnabled: #isLastElementNotDisplayed
+		help: 'Display the last ', dataSource numberOfLoadedElements asString, ' elements'.
 		
 	^ { nextPageButton . lastPageButton }

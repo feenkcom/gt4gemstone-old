@@ -3,16 +3,16 @@ buildGoBackwardButtons
 	| previousPageButton firstPageButton |
 	firstPageButton := self
 		buttonLabel: MorphTreeNavigationBar smallToLeftEndIcon 
-		actionSelector: #fullList
+		actionSelector: #jumpToFirstPage
 		arguments: {}
-		getEnabled: nil "#notOnLastPage"
-		help: 'First page'.
+		getEnabled: #isFirstElementNotDisplayed
+		help: 'Display the first ', (dataSource numberOfLoadedElements - 1) asString, ' elements'.
 		
 	previousPageButton := self
 		buttonLabel: MorphTreeNavigationBar smallToLeftIcon
-		actionSelector: #nextPage
+		actionSelector: #loadPreviousPage
 		arguments: {}
-		getEnabled: nil "#notOnLastPage"
-		help: 'Previous page'.
+		getEnabled: #isFirstElementNotDisplayed
+		help: 'Load the previous ', dataSource amountToIncrement asString, ' elements'.
 		
 	^ { firstPageButton . previousPageButton }

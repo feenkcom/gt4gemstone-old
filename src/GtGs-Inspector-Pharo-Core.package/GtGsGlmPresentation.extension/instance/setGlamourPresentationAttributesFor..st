@@ -14,7 +14,9 @@ setGlamourPresentationAttributesFor: aPresentation
 					aListNode gemstoneClient: self gemstoneClient ].
 				aListNode ]
 			ifFalse: [ | presentationTitle |
-				presentationTitle := self extractPresentationToSelectFrom: originPorts first pane.
+				(originPorts isNotNil  and: [ originPorts size > 0 ]) 
+					ifTrue: [ presentationTitle := self extractPresentationToSelectFrom: originPorts first pane. ]
+					ifFalse: [ presentationTitle := nil ].
 				serializedProxy := self 
 					executeRemotely: #computeNextInspectorProxyFor:andSelect:
 					withArguments: { 

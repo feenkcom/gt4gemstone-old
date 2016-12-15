@@ -1,3 +1,3 @@
 accessing
 startIndexValue
-	^ 1
+	^ dataSource startIndex

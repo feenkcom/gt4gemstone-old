@@ -1,3 +1,0 @@
-accessing
-endIndexValue
-	^ 100

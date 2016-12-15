@@ -1,8 +1,9 @@
-as yet unclassified
+accessing
 elementAt: anIndex
-
-	anIndex > self elements size ifTrue: [
+	^ super elementAt: (self translateIndex: anIndex).
+	
+	"anIndex > self elements size ifTrue: [
 		self ensureLoadingOfElementAt: anIndex ].
 	(self elements at: anIndex) isNil ifTrue: [
 		self ensureLoadingOfElementAt: anIndex ].
-	^ self elements at: anIndex
+	^ self elements at: anIndex"
