@@ -9,6 +9,7 @@
 		"buildDisplayNodesFrom:to:" : "TravisCI 12/6/2016 15:42",
 		"buildDisplayValueFor:" : "AndreiChis 12/15/2016 10:45",
 		"computeDiffToIncludeElementAt:" : "AndreiChis 12/5/2016 15:09",
+		"computeDiffToIncludeElementsBetween:and:" : "AndreiChis 12/15/2016 11:30",
 		"computeTotalNumberOfElements" : "AndreiChis 12/15/2016 10:21",
 		"enableLazyLoading" : "AndreiChis 12/4/2016 17:09",
 		"excludedInstVarNames" : "AndreiChis 12/5/2016 21:19",
