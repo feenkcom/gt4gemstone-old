@@ -1,4 +1,5 @@
-as yet unclassified
+printing
 printOn: aStream
-
-	1/0
+	self shouldTriggerPrintingError ifTrue: [ 1/0 ].
+	^ super printOn: aStream
+	
