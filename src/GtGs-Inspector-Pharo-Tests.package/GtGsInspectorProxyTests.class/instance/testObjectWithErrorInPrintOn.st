@@ -1,5 +1,5 @@
 testing
-testObjectWithErrorInIPrintOn
+testObjectWithErrorInPrintOn
 	| erroneousResult |
 
 	erroneousResult := self client performStringRemotely: 
