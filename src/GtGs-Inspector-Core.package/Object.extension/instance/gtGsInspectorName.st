@@ -2,7 +2,10 @@
 gtGsInspectorName
   | ws contents |
   ws := PrintStream printingOn: String new "maxSize: 100".
-  self printOn: ws.
+
+  [ self printOn: ws ] 
+	on: Error 
+	do: [ ^ '<error printing>' ].
   contents := ws _collection.
 
   ^ contents size > 200
