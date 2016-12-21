@@ -5,7 +5,7 @@ gtGsInspectorName
 
   [ self printOn: ws ] 
 	on: Error 
-	do: [ ^ '<error printing>' ].
+	do: [ :error | ^ '<error printing>' ].
   contents := ws _collection.
 
   ^ contents size > 200
