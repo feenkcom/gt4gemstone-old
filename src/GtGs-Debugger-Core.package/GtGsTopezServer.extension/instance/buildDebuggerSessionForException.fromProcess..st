@@ -5,4 +5,4 @@ buildDebuggerSessionForException: aGsException fromProcess: aGsProcess
 		forException: aGsException fromProcess: aGsProcess.
 	debuggerSession topezServer: self.
 	debuggerSession addToSessionTemps.
-	^ self objectSerializer toString: debuggerSession 
+	^ self objectSerializer toString: debuggerSession

@@ -1,4 +1,4 @@
 converting
 asTopazSerializedString
 
-	^ self topezServer objectSerializer toString: self 
+	^ self topezServer objectSerializer toString: self

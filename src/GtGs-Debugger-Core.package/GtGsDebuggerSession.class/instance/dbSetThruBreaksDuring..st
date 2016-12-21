@@ -1,5 +1,7 @@
 debugging actions
 dbSetThruBreaksDuring: aBlock
+  "only used when effectiveApiVersion is less that 1.4.0"
+
   | currentStack allBreakpointsSourceOffsets srcOffsets frame method ipMarkerArray stepIps thruStepPoints |
   currentStack := self stack.
   frame := currentStack currentFrame.

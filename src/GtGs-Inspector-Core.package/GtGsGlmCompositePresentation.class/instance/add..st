@@ -1,3 +1,3 @@
 accessing
 add: aPresentation
-	^ self presentations add: aPresentation 
+	^ self presentations add: aPresentation
