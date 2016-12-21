@@ -1,11 +1,12 @@
 building presentations
 stackWidgetIn: composite
 
-	^ composite list	
+	^ composite fastList	
 		title: 'Stack';
-		display: [:aSession | (self retrieveStackFrom: aSession) frames ];
-		format: #cachedFrameLabel;
+		display: [:aSession | self retrieveStackFrom: aSession ];
+		format: #gtGsDebugString;
 		send: [ :aStackFrame |
-			self session updateStackFrameIfRequired: aStackFrame.
-			self session navigateFrame: aStackFrame.
+			aStackFrame class = GtGsDebuggerStackFrame ifTrue: [  
+				self session updateStackFrameIfRequired: aStackFrame ].
+			"self session navigateFrame: aStackFrame."
 			aStackFrame ]

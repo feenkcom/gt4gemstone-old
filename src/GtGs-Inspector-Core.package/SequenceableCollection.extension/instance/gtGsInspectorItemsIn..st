@@ -1,13 +1,13 @@
 *GtGs-Inspector-Core
 gtGsInspectorItemsIn: aComposite
-
-	^ aComposite table
+	<gtInspectorPresentationOrder: 0>
+	
+	^ aComposite fastTable
 		title: 'Items';
+		enableLazyLoading;
 		display: [
-			self flag: 'This will not work for the optimized version of this presentation.
-			A generator should be used that can return key-value pairs on demand.'.
 			[(1 to: self size) collect: [ :index | 
-				self flag: 'log the error'.
+				"TODO: log the error"
 				index -> (self at: index) ]] on: Error do:[#()]];
 		column: 'Index' evaluated: [ :anAssociation | 
 			anAssociation key asString ] width: 50;

@@ -1,0 +1,16 @@
+{
+	"category" : "GtGs-Common-Resources-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 12/21/2016 11:40",
+	"instvars" : [
+		"x",
+		"y",
+		"triggerPrintingError" ],
+	"name" : "GtGsTestObjectWithPrintError",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

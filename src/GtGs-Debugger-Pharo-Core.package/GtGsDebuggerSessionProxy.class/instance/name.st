@@ -1,3 +1,3 @@
 accessing
 name
-	^ gemstoneNotification description
+	^ self gemstoneClient printString, ' - ',  gemstoneNotification description

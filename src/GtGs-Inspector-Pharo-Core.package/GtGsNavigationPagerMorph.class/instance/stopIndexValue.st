@@ -1,0 +1,3 @@
+accessing
+stopIndexValue
+	^ dataSource stopIndex

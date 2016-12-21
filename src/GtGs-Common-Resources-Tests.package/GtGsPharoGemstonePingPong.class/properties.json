@@ -1,0 +1,18 @@
+{
+	"category" : "GtGs-Common-Resources-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selfOop",
+		"selfForwarder",
+		"selfForwarderOop",
+		"gemstoneClient",
+		"topezServer" ],
+	"name" : "GtGsPharoGemstonePingPong",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

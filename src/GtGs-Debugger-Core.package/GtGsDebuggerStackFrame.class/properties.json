@@ -10,7 +10,8 @@
 		"frameLabel",
 		"sourceCode",
 		"inspectorVariableNodes",
-		"variabesPresentation" ],
+		"variabesPresentation",
+		"cachedSelector" ],
 	"name" : "GtGsDebuggerStackFrame",
 	"pools" : [
 		 ],

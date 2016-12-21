@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"initialize" : "tg 5/24/2010 17:05",
+		"logger" : "tg 5/24/2010 16:47",
+		"logger:" : "tg 5/24/2010 16:48" },
+	"instance" : {
+		"announce:" : "tg 5/25/2010 23:53",
+		"initialize" : "TudorGirba 5/18/2011 12:06",
+		"logger" : "tg 5/24/2010 16:43",
+		"logger:" : "tg 5/24/2010 16:43",
+		"postCopy" : "TudorGirba 7/11/2011 11:20" } }

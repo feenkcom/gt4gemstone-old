@@ -5,6 +5,6 @@ buildDisplayNodesFor: currentObjects
 	displayNodes := OrderedCollection new: (currentObjects size).
 	currentObjects do: [ :anObject | |currentNode|
 		currentNode := self buildDisplayNodeFor: anObject.
-		self computeAndUpdateChildNodesFor: currentNode.
+		"self computeAndUpdateChildNodesFor: currentNode."
 		displayNodes add: currentNode ].
 	^ displayNodes

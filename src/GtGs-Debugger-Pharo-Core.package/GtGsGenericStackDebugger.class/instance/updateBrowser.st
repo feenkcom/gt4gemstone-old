@@ -1,4 +1,3 @@
 updating
 updateBrowser
-	super updateBrowser.
-	self updateSelectionInterval.
+	self isClosing ifFalse: [ super updateBrowser ]

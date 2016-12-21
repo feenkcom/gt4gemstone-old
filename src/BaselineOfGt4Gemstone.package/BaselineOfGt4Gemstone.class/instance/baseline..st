@@ -26,12 +26,15 @@ baseline: spec
                     'github://GsDevKit/GsDevKit_home:dev/shared/repos/TodeClient' ].
 
 		spec 
+		   package: 'GT-Debugger';
+			package: 'Glamour-Core';
+			package: 'Glamour-FastTable';
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core') ];
-			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Core' 'Glamour-FastTable' 'Glamour-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Common-Resources-Tests';
@@ -47,7 +50,9 @@ baseline: spec
 				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Examples-AddressBook-Extensions-Pharo');
-			group: 'default' with: #('Core' 'Tests' 'Examples') ].
+			group: 'Pharo'
+				with: #('GT-Debugger' 'Glamour-FastTable' 'Glamour-Core');
+			group: 'default' with: #('Core' 'Tests' 'Examples' 'Pharo') ].
 		
 	 spec for: #'gemstone' do: [
 

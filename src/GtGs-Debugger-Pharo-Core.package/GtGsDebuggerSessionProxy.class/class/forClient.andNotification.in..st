@@ -2,6 +2,6 @@ instance creation
 forClient: aGsClient andNotification: gsNotification in: aClientProcess
 
 	^ self new 	
-		clientProcess: aClientProcess;
-		detectUIProcess;
-		initializeForClient: aGsClient andNotification: gsNotification
+		initializeClientSessionForProcess: aClientProcess;
+		initializeForGemstoneClient: aGsClient andNotification: gsNotification;
+		yourself

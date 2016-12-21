@@ -1,0 +1,1 @@
+I log a low-level request done to a remove stone by a client using GsGciSession. I only indicate that the client initiated a request. A different event will be logged if the request is successfully completed.

@@ -11,6 +11,6 @@ updatePresentations
 			proxyOwner: self;
 			updateForwarder;
 			updateUninitializedBlocks;
-			updateCache ].
+			updateCacheBasic ].
 
 	presentations := aComposite presentations

@@ -1,4 +1,4 @@
 actions
 executeAction
-
-	self session resumeGemstoneProcess.
+	self session resume.
+	self debugger close.

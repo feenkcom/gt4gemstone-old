@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  super excludedInstVarNames, #(#'childrenBlock')
+  ^  super excludedInstVarNames, #(#'childrenBlock' #'hasChildNodesBlock')

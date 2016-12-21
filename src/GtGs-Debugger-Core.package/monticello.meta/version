@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.35' message 'categorized methods' id 'd0fc08bf-c3f8-4173-834c-805eeb1289ea' date '18 November 2016' time '6:33:52.42946 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.34' message 'added dbStepThrough
-' id '183f40b7-20ce-5e43-8502-efd0fbcd6bf3' date '18 November 2016' time '3:54:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.39' message 'updated GtGsDebuggerStackFrame to obtain self directly using #objectAt:' id '1442d803-c960-4c23-a301-5b16f4b58e2c' date '3 December 2016' time '6:59:17.430671 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.38' message 'updated GtGsDebuggerStackFrame>>#selector to cache the selector.
+' id '38e795f8-62b5-5f35-a619-78908c6692f2' date '3 December 2016' time '6:43:06 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

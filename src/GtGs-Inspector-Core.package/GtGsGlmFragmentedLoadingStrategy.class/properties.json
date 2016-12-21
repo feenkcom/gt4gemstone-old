@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"diff" ],
+	"name" : "GtGsGlmFragmentedLoadingStrategy",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmElementsLoadingStrategy",
+	"type" : "normal" }

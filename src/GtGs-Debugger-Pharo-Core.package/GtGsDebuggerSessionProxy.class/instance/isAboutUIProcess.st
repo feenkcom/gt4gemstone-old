@@ -1,4 +1,4 @@
 testing
 isAboutUIProcess
 
-	^errorWasInUIProcess 
+	^ self clientSession isAboutUIProcess

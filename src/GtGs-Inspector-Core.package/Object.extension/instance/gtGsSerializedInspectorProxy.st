@@ -1,4 +1,4 @@
 *GtGs-Inspector-Core
 gtGsSerializedInspectorProxy
 
-	^ GtGsInspectorProxy createAndSerializeProxyFor: self
+	^ self gtGsSerializedInspectorProxyAndSelect: nil

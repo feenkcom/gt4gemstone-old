@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"ensureLoadingOfElementAt:" : "AndreiChis 12/12/2016 17:15:15",
+		"ensureLoadingOfElementsBetween:and:" : "AndreiChis 12/15/2016 18:05:07",
+		"instantiateGlamourPresentation" : "AndreiChis 12/12/2016 17:15:15",
+		"obtainTotalNumberOfElements" : "AndreiChis 12/15/2016 18:05:07",
+		"setGlamourPresentationAttributesFor:" : "AndreiChis 12/12/2016 17:15:15" } }

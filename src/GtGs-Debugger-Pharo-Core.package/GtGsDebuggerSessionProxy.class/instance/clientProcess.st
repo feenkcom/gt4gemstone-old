@@ -1,4 +1,4 @@
 accessing
 clientProcess
 
-	^ clientProcess
+	^ self clientSession interruptedProcess

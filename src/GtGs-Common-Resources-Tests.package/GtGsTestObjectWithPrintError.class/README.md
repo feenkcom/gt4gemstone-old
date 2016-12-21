@@ -1,0 +1,1 @@
+I am an object that contains an error in the #printOn: method. I am used to test that the inspector behaves corectly when  inspecting objects with fauly #printOn: methods. 

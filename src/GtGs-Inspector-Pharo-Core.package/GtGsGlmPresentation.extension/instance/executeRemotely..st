@@ -2,6 +2,6 @@
 executeRemotely: aSymbol
 
 	^ self gemstoneClient objectSerializer fromString: 
-		(self gemstoneClient session
+		(self gemstoneClient
 			send: aSymbol
 			to: self selfOopType)

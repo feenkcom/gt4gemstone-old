@@ -4,11 +4,12 @@ setGlamourPresentationAttributesFor: aPresentation
 	
 	aPresentation 
 		shouldRootsExpand: self shouldRootsExpand;
+		hasChildren: [ :aListNode | aListNode hasChildNodes ];
 		children: [ :aListNode |
 			aListNode hasChildNodes
 				ifFalse: [ #() ]
 				ifTrue: [  
-					aListNode areChildNodesExpanded ifFalse: [ self updateChildNodesFor: aListNode ].
+					aListNode isChildNodesInitialized ifFalse: [ self updateChildNodesFor: aListNode ].
 					aListNode childNodes ] ].
 
 	self columns withIndexDo: [ :aGsColumn :index | 

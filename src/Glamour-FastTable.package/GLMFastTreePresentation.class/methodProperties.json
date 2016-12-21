@@ -1,0 +1,22 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addColumn:" : "TravisCI 12/11/2016 20:40",
+		"column:evaluated:" : "TravisCI 12/11/2016 20:40",
+		"column:evaluated:modified:" : "TravisCI 12/11/2016 23:31",
+		"column:valueFor:" : "TravisCI 12/11/2016 20:46",
+		"columns" : "TravisCI 12/11/2016 20:40",
+		"columns:" : "TravisCI 12/11/2016 20:40",
+		"expandedUntil:" : "CyrilFerlicot 11/10/2015 14:06",
+		"hasChildren:" : "TravisCI 12/12/2016 00:05",
+		"hasChildrenBlock" : "TravisCI 12/12/2016 00:05",
+		"initialize" : "CyrilFerlicot 11/4/2015 11:02",
+		"maxDepth" : "CyrilFerlicot 11/4/2015 16:25",
+		"maxDepth:" : "CyrilFerlicot 11/4/2015 16:26",
+		"parameters" : "CyrilFerlicot 11/4/2015 11:03",
+		"renderGlamorouslyOn:" : "CyrilFerlicot 11/3/2015 14:37",
+		"shouldShowHeader" : "TravisCI 12/11/2016 20:45",
+		"strategy" : "CyrilFerlicot 11/4/2015 16:23",
+		"strategy:" : "CyrilFerlicot 11/4/2015 16:23",
+		"titleValueOfColumn:" : "TravisCI 12/11/2016 20:45" } }

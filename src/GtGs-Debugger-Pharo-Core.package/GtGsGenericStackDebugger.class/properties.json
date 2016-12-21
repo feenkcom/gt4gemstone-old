@@ -6,9 +6,9 @@
 		"UseBasicStackViewer" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedVariableName" ],
+		"isClosing" ],
 	"name" : "GtGsGenericStackDebugger",
 	"pools" : [
 		 ],
-	"super" : "GTMoldableDebugger",
+	"super" : "GTGenericStackDebugger",
 	"type" : "normal" }

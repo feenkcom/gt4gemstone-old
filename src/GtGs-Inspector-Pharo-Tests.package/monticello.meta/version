@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.3' message 'fixed tests' id '9b5071fb-0048-43d7-a633-a263df096476' date '27 October 2016' time '9:55:37.418456 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.2' message 'use GtGsBareClient in tests
-' id '43e0c783-d212-5b99-a0ed-e3947bd620c6' date '27 October 2016' time '9:44:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.8' message 'Added a test for #gtGsInspectorName when the object has an error in #printOn:' id '271d65ac-df7b-4037-bb24-3e7d51b7c0a9' date '21 December 2016' time '5:21:16.438566 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.7' message 'Test a state presentation for an object with an error in #printOn:
+' id 'c39b4588-c2d5-5e03-a673-2ffb8fc6777e' date '21 December 2016' time '5:13:39 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

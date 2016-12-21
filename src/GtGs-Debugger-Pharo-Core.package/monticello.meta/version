@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Core-AndreiChis.25' message 'added accessor for #gemstoneNotification' id '8d27bf31-c2c0-439b-b812-0cee017b0ad2' date '18 November 2016' time '8:11:39.672224 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.24' message 'categorized methods
-' id 'e985b034-e73b-5b7f-9f4d-47bbf9f72aaf' date '18 November 2016' time '6:36:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Core-AndreiChis.30' message 'Use FastTable to display the variables of the context in the debugger.' id '24f3c606-030c-4fd4-8e0e-99c26566665a' date '5 December 2016' time '11:26:52.282753 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Core-AndreiChis.29' message 'Use FastTable when showing the debugger stack.
+' id '16a6dc9e-bac2-59f6-9a73-5d7f69b50732' date '5 December 2016' time '11:12:23 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

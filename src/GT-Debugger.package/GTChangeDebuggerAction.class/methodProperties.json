@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"changeDebuggerActionsForContext:excluding:" : "AndreiChis 1/10/2016 17:50",
+		"debuggersForContext:excluding:" : "AndreiChis 1/10/2016 17:41",
+		"gtChangeDebuggerActionsFor:" : "AndreiChis 1/8/2016 23:17" },
+	"instance" : {
+		"debuggerClass:" : "AndreiChis 6/18/2013 17:51",
+		"defaultCategory" : "AndreiChis 8/30/2013 14:39",
+		"defaultOrder" : "AndreiChis 8/30/2013 14:39",
+		"executeAction" : "RogerStebler 3/3/2016 16:26",
+		"initialize" : "AndreiChis 1/10/2016 15:39",
+		"newDebugger" : "RogerStebler 3/3/2016 16:26" } }

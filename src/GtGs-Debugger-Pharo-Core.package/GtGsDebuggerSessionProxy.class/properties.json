@@ -6,12 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"clientProcess",
-		"errorWasInUIProcess",
+		"clientSession",
 		"debugger",
 		"gemstoneClient",
 		"gemstoneNotification",
-		"gemstoneDebuggerSession" ],
+		"gemstoneDebuggerSession",
+		"ignoreNextClear" ],
 	"name" : "GtGsDebuggerSessionProxy",
 	"pools" : [
 		 ],

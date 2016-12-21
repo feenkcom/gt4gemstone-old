@@ -4,9 +4,7 @@ buildInspectorVariableNodes
 	currentNodes := OrderedCollection new.
 	currentNodes addAll: (self buildVariables: self baseNodeNames withType: 'implicit').
 	currentNodes addAll: (self buildVariables: self argAndTempNames withType: 'temp' ).
-	actualReceiver := self rawReceiver ~~ self frameSelf 
-		ifTrue: [ self receiver ]
-      ifFalse: [ self frameSelf ].
+	actualReceiver := self objectFor: '(self)' ifAbsent: [ ^ currentNodes ].
 	currentNodes addAll: ((actualReceiver gtGsVariableValuePairsWithSelfIf: false) collect: [ :aPair |
 		GtGsDebuggerInspectorVariableNode new
 			variableName: aPair key;

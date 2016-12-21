@@ -2,10 +2,6 @@ debugging actions
 resumeGemstoneProcess
 	| processResult |
 
-	processResult := self gemstoneClient
-		executeRemotely: #dbContinue 
-		on: self gemstoneDebuggerSessionOopType
-		withArguments: #().
-
+	processResult := self basicResumeGemstoneProcess.
 	self handleResponseActions: processResult
 	

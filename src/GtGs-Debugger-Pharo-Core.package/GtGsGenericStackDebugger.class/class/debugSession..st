@@ -7,5 +7,6 @@ debugSession: aSession
 		defer: [ | debugger | 
 			debugger := self new.
 			aSession debugger: debugger.
+			aSession updateClientContext.
 			debugger openOn: aSession ].
 	aSession clientProcess suspend

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnPaneAdded:" : "AndreiChis 1/10/2016 14:19",
+		"actOnPaneRemoved:" : "AndreiChis 1/10/2016 18:59",
+		"attachExtraBehaviourToPresentationsIn:" : "AndreiChis 1/10/2016 14:43",
+		"compose" : "AndreiChis 1/10/2016 18:51",
+		"debugger" : "AndreiChis 1/10/2016 18:46",
+		"debugger:" : "AndreiChis 1/10/2016 18:46",
+		"isPresentation:inPane:" : "AndreiChis 1/10/2016 14:40",
+		"notifyPaneRemoved" : "AndreiChis 1/10/2016 18:58",
+		"notifyPaneRemoved:" : "AndreiChis 1/10/2016 18:56" } }

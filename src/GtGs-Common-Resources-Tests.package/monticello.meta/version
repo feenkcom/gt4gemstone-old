@@ -1,2 +1,2 @@
-(name 'GtGs-Common-Resources-Tests-TravisCI.6' message 'added testing method for the debugger' id 'fabf5a57-c772-4b99-b261-0794947e39b2' date '20 November 2016' time '8:35:40.99466 pm' author 'TravisCI' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.5' message 'added methodWithPrintStringInBlock
-' id 'd5af2884-0fb5-5a38-bdd6-39e0afdb1a56' date '18 November 2016' time '6:13:54 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Common-Resources-Tests-AndreiChis.14' message 'Improved GtGsTestObjectWithPrintError' id '81bbbbcd-1010-4116-8348-373a28e3b660' date '21 December 2016' time '4:47:47.08878 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.13' message 'Added an object with an error in #printOn:
+' id 'a7f9f26d-1c48-5cf6-8ade-b13dac258c50' date '21 December 2016' time '4:30:49 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

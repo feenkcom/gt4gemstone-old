@@ -1,0 +1,5 @@
+api - gemstone
+initializeForwarder
+
+	selfForwarder := ClientForwarder new.
+	selfForwarderOop := Reflection oopOf: selfForwarder

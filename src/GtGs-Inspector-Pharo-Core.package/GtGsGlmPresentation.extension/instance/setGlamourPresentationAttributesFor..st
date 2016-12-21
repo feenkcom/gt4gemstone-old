@@ -2,11 +2,10 @@
 setGlamourPresentationAttributesFor: aPresentation 
 
 	aPresentation
-		title: [
-			self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #'computeTitle' ] ];
+		title: (self cacheAt: #'title' ifAbsentPut: [ self executeRemotely: #'computeTitle' ]) ;
 		display: [ 
 			self obtainDisplayValue ];
-		send: [ :aListNode ||serializedProxy|
+		send: [ :aListNode :originPorts ||serializedProxy|
 			aListNode class = GtGsInspectorProxy 
 			ifTrue: [ 
 				self flag: 'needed because of the experimental actions that
@@ -14,11 +13,14 @@ setGlamourPresentationAttributesFor: aPresentation
 				aListNode gemstoneClient ifNil: [ 
 					aListNode gemstoneClient: self gemstoneClient ].
 				aListNode ]
-			ifFalse: [ 
-				self flag: 'A better solution is needed here'.
+			ifFalse: [ | presentationTitle |
+				(originPorts isNotNil  and: [ originPorts size > 0 ]) 
+					ifTrue: [ presentationTitle := self extractPresentationToSelectFrom: originPorts first pane. ]
+					ifFalse: [ presentationTitle := nil ].
 				serializedProxy := self 
-					executeRemotely: #computeInspectorProxyAndTransformSelectionFor: 
-					withArguments: { aListNode selfOop }.
+					executeRemotely: #computeNextInspectorProxyFor:andSelect:
+					withArguments: { 
+						aListNode selfOop. self gemstoneClient objectSerializer toString: presentationTitle }.
 				serializedProxy
 					gemstoneClient: self gemstoneClient;
 					yourself ] ].

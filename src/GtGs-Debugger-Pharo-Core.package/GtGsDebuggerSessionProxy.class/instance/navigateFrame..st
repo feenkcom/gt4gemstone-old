@@ -1,7 +1,7 @@
 actions
 navigateFrame: aStackFrame
 
-	self gemstoneClient session
+	self gemstoneClient
 		send: #navigateFrame: 
 		to: self gemstoneDebuggerSessionOopType
 		withArgs: {aStackFrame frameIndex}.

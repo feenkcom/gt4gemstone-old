@@ -1,3 +1,4 @@
 building presentations
 retrieveStackFrom: aSession
-	^ aSession stack
+
+	^ aSession stack frames, aSession clientSession stack

@@ -1,4 +1,4 @@
 accessing
 selfForwarderOop
-	self flag: #experimental.
+	<flag: #experimental>
 	^ selfForwarderOop

@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testErrorInPrintOnMethodInExpandedChild" : "AndreiChis 12/21/2016 17:12",
+		"testErrorInPrintOnMethodInSelf" : "AndreiChis 12/21/2016 16:56",
+		"testStatePresentationChildrenContent" : "AndreiChis 12/13/2016 16:16:47",
+		"testStatePresentationChildrenStructure" : "AndreiChis 12/13/2016 16:16:47",
+		"testStatePresentationColumnsContent" : "AndreiChis 12/13/2016 12:01",
+		"testStatePresentationColumnsStructure" : "AndreiChis 12/13/2016 12:01",
+		"testStatePresentationStructureRootNodesWithChildren" : "AndreiChis 12/13/2016 12:01",
+		"testStatePresentationStructureRootNodesWithoutChildren" : "AndreiChis 12/13/2016 12:01",
+		"testStatePresentationUninitializedContent" : "AndreiChis 12/13/2016 12:01" } }
