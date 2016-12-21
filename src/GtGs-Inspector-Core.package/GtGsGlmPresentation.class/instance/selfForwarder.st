@@ -1,4 +1,4 @@
 accessing
 selfForwarder
-	self flag: #experimental.
+	<flag: #experimental>
 	^ selfForwarder
