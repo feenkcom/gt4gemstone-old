@@ -15,5 +15,6 @@
 		"tearDown" : "AndreiChis 10/22/2016 16:34:21",
 		"testEvaluatorPresentationDisplayValueLazyLoad" : "AndreiChis 12/13/2016 11:21",
 		"testLoadingOnlyOfTheRequestedPresentation" : "AndreiChis 12/16/2016 16:48",
+		"testObjectWithErrorInIPrintOn" : "AndreiChis 12/21/2016 17:20",
 		"testRemoteProxyInitialization" : "AndreiChis 10/22/2016 16:34:21",
 		"testRemoteProxyInitializationOfPresentations" : "AndreiChis 12/13/2016 11:12" } }
