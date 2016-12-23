@@ -60,6 +60,7 @@ baseline: spec
 			baseline: 'Tode'
          		with: [ 
               spec
+					loads: #('Topez-Server-3x-DebugTools');
                 repository: 'github://dalehenrich/tode:dev/repository' ].
 
 		spec

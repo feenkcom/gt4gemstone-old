@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.20' message 'Load the dev version of tode when loading gt4gemstone on a stone.' id 'e5db8a9d-11fb-4d17-b67f-27b2601697fb' date '23 December 2016' time '6:00:26.588973 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.19' message 'Added Glamour-Core to the baseline.
-' id '511c5f5d-e399-5378-a8f6-b3e66dad3d49' date '14 December 2016' time '2:52:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.21' message 'load only Topez-Server-3x-DebugTools' id 'ae892762-cc92-40ef-9393-7e72818aae36' date '23 December 2016' time '6:12:34.877775 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.20' message 'Load the dev version of tode when loading gt4gemstone on a stone.
+' id '60ff79f7-f5c6-55a8-a0c3-81ca565f92a4' date '23 December 2016' time '6:00:29 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
