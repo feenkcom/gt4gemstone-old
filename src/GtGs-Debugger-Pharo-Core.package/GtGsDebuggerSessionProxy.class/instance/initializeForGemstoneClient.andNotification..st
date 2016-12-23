@@ -6,7 +6,7 @@ initializeForGemstoneClient: aGsClient andNotification: aGsNotification
 	gemstoneDebuggerSession := self gemstoneClient objectSerializer fromString: (self gemstoneClient 
 		send: #buildDebuggerSessionForException:fromProcess:
 		to: self gemstoneClient todeServerOopType
-		withArgs: {gemstoneNotification exceptionOopType. gemstoneNotification contextOopType}).
+		withArgs: {gemstoneNotification gci32xErrSType exceptionObj . gemstoneNotification contextOopType}).
 	self logStackToFileIfNeeded.
 	gemstoneDebuggerSessionOopType := gemstoneDebuggerSession selfForwarderOop gciResultToGsOopType: self gemstoneClient session.
 	self gemstoneClient session registerClientObjectForwarderOopType: gemstoneDebuggerSessionOopType for: self.
