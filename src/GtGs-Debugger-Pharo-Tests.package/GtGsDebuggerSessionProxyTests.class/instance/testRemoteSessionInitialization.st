@@ -13,4 +13,4 @@ testRemoteSessionInitialization
 	self assert: sessionProxy gemstoneNotification ~= nil. 
 	
 	self assert: sessionProxy gemstoneNotification errorNumber equals: 2026. 
-	self assert: sessionProxy name equals: 'a ZeroDivide occurred (error 2026), reason:numErrIntDivisionByZero, attempt to divide 1 by zero'. 
+	self assert: (sessionProxy name includesSubstring: 'a ZeroDivide occurred (error 2026), reason:numErrIntDivisionByZero, attempt to divide 1 by zero'). 
