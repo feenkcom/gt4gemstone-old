@@ -6,9 +6,9 @@ buildDebuggerSessionFor: aString
 		do: [ :notification | 
 			^ GtGsDebuggerSessionProxy 
 				forClient: self client 
-				andNotification: (TDRuntimeError new
-					gciSession: notification gciSession;
+				andNotification: notification "(TDRuntimeError new
 					gci32xErrSType: notification gci32xErrSType;
-					yourself) 
+					gciSession: notification gciSession;
+					yourself)" 
 				in: nil ] .
 	^ nil
