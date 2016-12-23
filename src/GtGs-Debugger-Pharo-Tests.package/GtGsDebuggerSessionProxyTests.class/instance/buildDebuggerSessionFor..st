@@ -2,7 +2,7 @@ as yet unclassified
 buildDebuggerSessionFor: aString
 
 	[self client performStringRemotely: aString ] 
-		on: TDNotification 
+		on: TDErrorNotification 
 		do: [ :notification | 
 			[ notification defaultRuntimeError] 
 				on: TDRuntimeError 
