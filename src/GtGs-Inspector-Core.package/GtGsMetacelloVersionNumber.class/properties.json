@@ -11,4 +11,4 @@
 	"pools" : [
 		 ],
 	"super" : "Magnitude",
-	"type" : "normal" }
+	"type" : "variable" }
