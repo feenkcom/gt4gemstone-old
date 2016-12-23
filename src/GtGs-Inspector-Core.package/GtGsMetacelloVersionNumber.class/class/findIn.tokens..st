@@ -5,9 +5,10 @@ findIn: aString tokens: delimiters
 	| tokens keyStart keyStop separators |
 
 	tokens := OrderedCollection new.
-	separators := delimiters isCharacter 
+	separators := delimiters.
+	"separators := delimiters isCharacter 
 		ifTrue: [Array with: delimiters]
-		ifFalse: [delimiters].
+		ifFalse: [delimiters]."
 	keyStop := 1.
 	[keyStop <= aString size] whileTrue:
 		[keyStart := self skipIn: aString Delimiters: separators startingAt: keyStop.
