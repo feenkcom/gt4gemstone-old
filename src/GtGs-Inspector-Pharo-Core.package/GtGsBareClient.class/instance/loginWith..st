@@ -23,25 +23,25 @@ loginWith: aSessionDescription
 			transcriptOopType := transcriptOop gciResultToGsOopType: self session.
 			self session registerClientObjectForwarderOopType: transcriptOopType for: Transcript ]."
 	self session registerClientObjectForwarderOopType: todeClientOopType for: self.
-"	resultArray size > 3
+	resultArray size > 3
 		ifTrue: [ | protocolSignature objSerializer serverApiVersionString |
-			protocolSignature := resultArray at: 4.
+			"protocolSignature := resultArray at: 4.
 			objSerializer := TodeObjectSerializer serializeUsing: protocolSignature.
 			self session
 				send: #serializeObjectsUsing:version:
 				to: todeServerOopType
 				withArgs: objSerializer protocolSignatureArray.
-			self objectSerializer: objSerializer.
+			self objectSerializer: objSerializer."
 			serverApiVersionString := resultArray size > 4
 				ifTrue: [ resultArray at: 5 ]
 				ifFalse: [ '1.0.0' ].
-			self serverApiVersion: serverApiVersionString asMetacelloVersionNumber ]."
+			self serverApiVersion: serverApiVersionString asMetacelloVersionNumber ].
 	authorId := self sessionDescription authorId.
 	authorId isEmpty
 		ifTrue: [ authorId := Author fullName ].
 	self send: #authorInitials: to: todeServerOopType withArgs: {authorId}.
-	"self effectiveApiVersion >= '1.3.0' asMetacelloVersionNumber
+	self effectiveApiVersion >= '1.3.0' asMetacelloVersionNumber
 		ifTrue: [ self session
 				send: #effectiveApiVersion:
 				to: todeServerOopType
-				withArgs: {self effectiveApiVersion asString} ]"
+				withArgs: {self effectiveApiVersion asString} ]
