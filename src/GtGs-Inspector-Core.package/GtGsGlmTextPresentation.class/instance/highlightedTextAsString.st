@@ -1,4 +1,4 @@
 experimental
 highlightedTextAsString
 	<flag: #experimental>
-	^ self requestToPharoPresentationFor: #highlightedTextAsString 
+	^ self requestToPharoPresentationFor: #highlightedTextAsString

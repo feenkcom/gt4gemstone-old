@@ -6,4 +6,4 @@ buildVariablesPresentation
 		display: [ self inspectorVariableNodes ];
 		column: [ 'Variable' ] evaluated: [ :anAssociation | anAssociation key ];
 		column: [ 'Value' ] evaluated: [ :anAssociation | anAssociation value gtGsInspectorName ];
-		send: [ :anAssociation | anAssociation value ] 
+		send: [ :anAssociation | anAssociation value ]

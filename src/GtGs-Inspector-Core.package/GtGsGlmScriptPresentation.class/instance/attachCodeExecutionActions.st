@@ -1,4 +1,4 @@
 scripting
 attachCodeExecutionActions
 
-	withCodeExecutionActions := true 
+	withCodeExecutionActions := true

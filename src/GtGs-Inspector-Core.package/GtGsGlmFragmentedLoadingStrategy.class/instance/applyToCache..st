@@ -9,4 +9,4 @@ applyToCache: aDisplayValueCache
 		aDisplayValueCache add: nil ].
 	
 	diff do: [ :assoc |
-		aDisplayValueCache at: assoc key put: assoc value ] 
+		aDisplayValueCache at: assoc key put: assoc value ]

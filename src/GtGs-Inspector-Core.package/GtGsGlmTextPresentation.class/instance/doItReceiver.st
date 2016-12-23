@@ -1,4 +1,4 @@
 accessing
 doItReceiver
 
-	^ self doItReceiverBlock value 
+	^ self doItReceiverBlock value

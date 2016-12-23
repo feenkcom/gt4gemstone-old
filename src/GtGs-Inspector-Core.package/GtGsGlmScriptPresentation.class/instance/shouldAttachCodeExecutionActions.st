@@ -1,4 +1,4 @@
 accessing
 shouldAttachCodeExecutionActions
 
-	^ withCodeExecutionActions ifNil:  [ false ] 
+	^ withCodeExecutionActions ifNil:  [ false ]

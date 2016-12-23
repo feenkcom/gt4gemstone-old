@@ -1,3 +1,3 @@
 scripting
 format: aBlock
-	self formatBlock: aBlock 
+	self formatBlock: aBlock
