@@ -3,7 +3,7 @@
 		"debuggingActionsForPragma:for:" : "AndreiChis 11/16/2016 11:55",
 		"debuggingActionsForPragmas:for:" : "AndreiChis 11/16/2016 11:54",
 		"debuggingActionsFromClass:forPragma:forDebugger:" : "AndreiChis 11/16/2016 11:55",
-		"forClient:andNotification:in:" : "AndreiChis 11/23/2016 18:30",
+		"forClient:andNotification:in:" : "AndreiChis 12/23/2016 17:20",
 		"logError:withStack:" : "AndreiChis 11/18/2016 17:12",
 		"logSystemDetailsOn:" : "AndreiChis 11/18/2016 17:12" },
 	"instance" : {
@@ -26,7 +26,7 @@
 		"gemstoneNotification" : "AndreiChis 11/18/2016 19:19",
 		"handleResponseActions:" : "AndreiChis 11/18/2016 14:46",
 		"initializeClientSessionForProcess:" : "AndreiChis 11/25/2016 00:23",
-		"initializeForGemstoneClient:andNotification:" : "AndreiChis 12/23/2016 16:04",
+		"initializeForGemstoneClient:andNotification:" : "AndreiChis 12/23/2016 17:58",
 		"interruptedContext" : "AndreiChis 11/21/2016 16:43",
 		"isAboutUIProcess" : "AndreiChis 11/23/2016 17:44",
 		"isInterruptedContextDoesNotUnderstand" : "AndreiChis 11/25/2016 00:25",
