@@ -4,9 +4,10 @@ buildDebuggerSessionFor: aString
 	[self client performStringRemotely: aString ] 
 		on: TDErrorNotification 
 		do: [ :notification | 
-			[ notification defaultRuntimeError] 
-				on: TDRuntimeError 
-				do: [ :error |
-					^ GtGsDebuggerSessionProxy 
-						forClient: self client andNotification: error in: nil ] ].
+			^ GtGsDebuggerSessionProxy 
+				forClient: self client 
+				andNotification: (TDRuntimeError 
+					gciSession: notification gciSession 
+					gci32xErrSType: notification gci32xErrSType) 
+				in: nil ] .
 	^ nil
