@@ -57,7 +57,13 @@ baseline: spec
 	 spec for: #'gemstone' do: [
 
 		spec
-			package: 'GtGs-Inspector-Core';
+			baseline: 'Tode'
+         		with: [ 
+              spec
+                repository: 'github://dalehenrich/tode:dev/repository' ].
+
+		spec
+			package: 'GtGs-Inspector-Core' with: [ spec requires: #('Tode') ];
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Common-Resources-Tests';
