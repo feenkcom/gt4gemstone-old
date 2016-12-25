@@ -5,13 +5,9 @@ gtGsInspectorItemsIn: aComposite
 	^ aComposite fastTable
 		title: 'Items';
 		enableLazyLoading;
-		display: [
-			[(1 to: self size) collect: [ :index | 
-				"TODO: log the error"
-				index -> (self at: index) ]] on: Error do:[#()]];
-		column: 'Index' evaluated: [ :anAssociation | 
-			anAssociation key asString ] width: 50;
-		column: 'Item' evaluated: [ :anAssociation | 
-			anAssociation value gtGsInspectorName ];
-		send: [ :anAssociation | anAssociation value ];
+		display: [ self ];
+		column: 'Index' evaluated: [ :anItem :anIndex | 
+			anIndex asString ] width: 50;
+		column: 'Item' evaluated: [ :anItem | 
+			anItem gtGsInspectorName ];
 		when: [ self gtGsIsGemstone ]
