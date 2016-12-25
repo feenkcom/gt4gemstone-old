@@ -1,4 +1,4 @@
 accessing
 updateStopIndexTo: anInteger
 
-	stopIndex := anInteger
+	^ stopIndex := anInteger

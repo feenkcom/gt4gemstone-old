@@ -1,3 +1,3 @@
 initialization
 createDataSourceFrom: aPresentation
-	^ GtGsGlmFastListPresentationWrapper new
+	^ GtGsGlmFastLazyListDataSource new

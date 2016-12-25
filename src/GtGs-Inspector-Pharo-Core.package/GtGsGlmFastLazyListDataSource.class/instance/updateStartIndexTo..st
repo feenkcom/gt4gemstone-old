@@ -1,4 +1,4 @@
 accessing
 updateStartIndexTo: anInteger
 
-	startIndex := anInteger
+	^ startIndex := anInteger
