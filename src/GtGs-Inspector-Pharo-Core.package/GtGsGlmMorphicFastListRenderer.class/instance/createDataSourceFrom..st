@@ -1,0 +1,3 @@
+initialization
+createDataSourceFrom: aPresentation
+	^ GtGsGlmFastListPresentationWrapper new

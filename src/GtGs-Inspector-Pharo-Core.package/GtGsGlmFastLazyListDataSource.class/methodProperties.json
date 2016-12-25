@@ -1,0 +1,28 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"amountToIncrement" : "",
+		"displaysAllElements" : "",
+		"elementAt:" : "AndreiChis 12/25/2016 22:56",
+		"elements" : "AndreiChis 12/25/2016 22:57",
+		"ensureLoadingOfElementAt:" : "",
+		"ensureLoadingOfElementsBetween:and:" : "",
+		"glamourPresentation" : "AndreiChis 12/25/2016 22:57",
+		"gtGsPresentation" : "",
+		"initialAmountOfElementsToDisplay" : "",
+		"jumpToFirstPage" : "",
+		"jumpToIndex:" : "",
+		"jumpToLastPage" : "",
+		"loadNextPage" : "",
+		"loadPreviousPage" : "",
+		"numberOfLoadedElements" : "",
+		"numberOfRows" : "",
+		"rawStartIndex" : "AndreiChis 12/25/2016 22:58",
+		"rawStopIndex" : "AndreiChis 12/25/2016 22:58",
+		"startIndex" : "",
+		"stopIndex" : "",
+		"table" : "AndreiChis 12/25/2016 22:58",
+		"totalNumberOfRows" : "",
+		"updateStartIndexTo:" : "AndreiChis 12/25/2016 22:58",
+		"updateStopIndexTo:" : "AndreiChis 12/25/2016 22:59" } }

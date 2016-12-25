@@ -1,0 +1,3 @@
+accessing
+glamourPresentation
+	^ super glamourPresentation

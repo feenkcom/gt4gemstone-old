@@ -1,7 +1,8 @@
 {
-	"category" : "GtGs-Inspector-Pharo-Core",
+	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
 	"classinstvars" : [
 		 ],
+	"classtraitcomposition" : "GtGsGlmFastTableLazyDataSource classTrait",
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
@@ -12,4 +13,5 @@
 	"pools" : [
 		 ],
 	"super" : "GLMFastTableDataSource",
+	"traitcomposition" : "GtGsGlmFastTableLazyDataSource",
 	"type" : "normal" }
