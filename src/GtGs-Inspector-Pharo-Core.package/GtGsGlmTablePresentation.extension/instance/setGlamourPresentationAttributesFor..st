@@ -1,16 +1,6 @@
 *GtGs-Inspector-Pharo-Core
 setGlamourPresentationAttributesFor: aPresentation 
 	super setGlamourPresentationAttributesFor: aPresentation.
-	
-	aPresentation 
-		shouldRootsExpand: self shouldRootsExpand;
-		hasChildren: [ :aListNode | aListNode hasChildNodes ];
-		children: [ :aListNode |
-			aListNode hasChildNodes
-				ifFalse: [ #() ]
-				ifTrue: [  
-					aListNode isChildNodesInitialized ifFalse: [ self updateChildNodesFor: aListNode ].
-					aListNode childNodes ] ].
 
 	self columns withIndexDo: [ :aGsColumn :index | 
 		aPresentation addColumn: (GLMTableColumn new
