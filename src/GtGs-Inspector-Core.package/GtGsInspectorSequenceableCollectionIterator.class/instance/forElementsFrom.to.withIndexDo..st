@@ -5,6 +5,6 @@ forElementsFrom: startIndex to: endIndex withIndexDo: aBlock
 	self assert: startIndex <= endIndex.
 	
 	limitedStartIndex := 1 max: startIndex.
-	limitedEndIndex := targetCollection min: endIndex.
+	limitedEndIndex := targetCollection size min: endIndex.
 	limitedStartIndex to: limitedEndIndex do: [ :anIndex |
 		aBlock value: (targetCollection at: anIndex) value: anIndex ]
