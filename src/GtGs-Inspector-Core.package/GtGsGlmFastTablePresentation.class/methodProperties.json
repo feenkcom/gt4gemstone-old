@@ -4,11 +4,10 @@
 	"instance" : {
 		"amountToIncrement" : "AndreiChis 12/5/2016 13:16",
 		"amountToShow" : "AndreiChis 12/5/2016 13:16",
-		"buildDisplayNodeAt:" : "TravisCI 12/12/2016 10:18",
 		"buildDisplayNodeFor:atIndex:" : "AndreiChis 12/12/2016 16:47",
 		"buildDisplayNodesFrom:to:" : "AndreiChis 12/25/2016 18:16",
 		"buildDisplayValueFor:" : "AndreiChis 12/15/2016 10:45",
-		"computeDiffToIncludeElementAt:" : "AndreiChis 12/5/2016 15:09",
+		"computeDiffToIncludeElementAt:" : "AndreiChis 12/25/2016 18:53",
 		"computeDiffToIncludeElementsBetween:and:" : "AndreiChis 12/25/2016 18:29",
 		"computeTotalNumberOfElements" : "AndreiChis 12/15/2016 10:21",
 		"enableLazyLoading" : "AndreiChis 12/4/2016 17:09",

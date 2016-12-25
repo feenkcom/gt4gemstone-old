@@ -3,7 +3,4 @@
 		 },
 	"instance" : {
 		"applyToCache:" : "DaleHenrichs 12/21/2016 15:07:35",
-		"applyToCacheFromPresentation:" : "AndreiChis 12/24/2016 18:11",
-		"computeDiffToIncludeElementAt:inCache:forPresentation:" : "AndreiChis 12/5/2016 22:26",
-		"computeDiffToIncludeElementsBetween:and:inCache:forPresentation:" : "AndreiChis 12/15/2016 11:31",
 		"computeDiffToIncludeElementsBetween:and:withIterator:forPresentation:" : "AndreiChis 12/24/2016 18:03" } }

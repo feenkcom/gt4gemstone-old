@@ -1,13 +1,11 @@
 callbacks
 computeDiffToIncludeElementAt: anIndex
-	| cachedDisplayValue loadingStrategy |
-	
-	cachedDisplayValue := self cacheAt: #displayValue.
+	| loadingStrategy |
 	
 	loadingStrategy := self loadingStrategyClass new
 		computeDiffToIncludeElementAt: anIndex 
-		inCache: cachedDisplayValue 
+		withIterator: displayObjects gtGsInspectorElementsIterator 
 		forPresentation: self.
-	loadingStrategy applyToCache: cachedDisplayValue.
+	loadingStrategy applyToCacheFromPresentation: self.
 	
 	^ self topezServer objectSerializer toString: loadingStrategy

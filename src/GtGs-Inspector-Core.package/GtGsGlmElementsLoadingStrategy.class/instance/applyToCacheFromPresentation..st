@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 applyToCacheFromPresentation: aGsPresentation
 
 	self applyToCache: aGsPresentation cachedDisplayValue

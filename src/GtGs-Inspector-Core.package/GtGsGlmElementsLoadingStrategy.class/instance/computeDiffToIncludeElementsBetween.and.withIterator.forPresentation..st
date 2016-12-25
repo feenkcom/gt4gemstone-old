@@ -1,0 +1,4 @@
+actions
+computeDiffToIncludeElementsBetween: aStartIndex and: aStopIndex withIterator: anIterator forPresentation: aGSPresentation
+
+	self subclassResponsibility

@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 computeDiffToIncludeElementsBetween: aStartIndex and: aStopIndex withIterator: anIterator forPresentation: aGSPresentation
 	| startIndex stopIndex cachedDisplayValue newNodes |
 	
