@@ -5,7 +5,7 @@ computeDiffToIncludeElementsBetween: aStartIndex and: aStopIndex
 	loadingStrategy := self loadingStrategyClass new
 		computeDiffToIncludeElementsBetween: aStartIndex 
 		and: aStopIndex
-		withIterator: displayObjects gtgsInspectorElementsIterator 
+		withIterator: displayObjects gtGsInspectorElementsIterator 
 		forPresentation: self.
 	loadingStrategy applyToCacheToPresentation: self.
 	
