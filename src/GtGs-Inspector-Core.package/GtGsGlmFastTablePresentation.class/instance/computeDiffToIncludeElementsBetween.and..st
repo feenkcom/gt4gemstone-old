@@ -1,14 +1,12 @@
 callbacks
 computeDiffToIncludeElementsBetween: aStartIndex and: aStopIndex
-	| cachedDisplayValue loadingStrategy |
-	
-	cachedDisplayValue := self cacheAt: #displayValue.
+	| loadingStrategy |
 	
 	loadingStrategy := self loadingStrategyClass new
 		computeDiffToIncludeElementsBetween: aStartIndex 
 		and: aStopIndex
-		inCache: cachedDisplayValue 
+		withIterator: displayObjects gtgsInspectorElementsIterator 
 		forPresentation: self.
-	loadingStrategy applyToCache: cachedDisplayValue.
+	loadingStrategy applyToCacheToPresentation: self.
 	
 	^ self topezServer objectSerializer toString: loadingStrategy
