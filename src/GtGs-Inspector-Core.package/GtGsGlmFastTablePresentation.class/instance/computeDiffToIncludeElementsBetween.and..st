@@ -7,6 +7,6 @@ computeDiffToIncludeElementsBetween: aStartIndex and: aStopIndex
 		and: aStopIndex
 		withIterator: displayObjects gtGsInspectorElementsIterator 
 		forPresentation: self.
-	loadingStrategy applyToCacheToPresentation: self.
+	loadingStrategy applyToCacheFromPresentation: self.
 	
 	^ self topezServer objectSerializer toString: loadingStrategy
