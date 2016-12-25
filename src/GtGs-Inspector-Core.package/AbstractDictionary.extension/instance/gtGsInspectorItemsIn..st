@@ -2,7 +2,7 @@
 gtGsInspectorItemsIn: composite
 	<gtInspectorPresentationOrder: 1>
 	
-	^ (composite fastTable)
+	^ composite fastTable
 		title: 'Items' ;
 		enableLazyLoading;
 		display: [ | aCollection |
