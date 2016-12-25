@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.151' message 'Added a generic iterator for collections that uses #do' id 'fca74978-a60c-4546-a8b3-4ed297a29896' date '26 December 2016' time '12:05:29.766722 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.150' message 'Rely on fastList and fastTable
-' id 'afffd57e-35e7-5e26-a7f3-483e83ab4bc3' date '25 December 2016' time '11:41:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.152' message 'Directly use ''self keys'' in #gtGsInspectorKeysIn:' id '504f6d2f-14ae-47a2-985a-9845fb92edb1' date '26 December 2016' time '12:09:04.955023 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.151' message 'Added a generic iterator for collections that uses #do
+' id '3199837f-507c-5c46-b453-8e4baea0026c' date '26 December 2016' time '12:05:33 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

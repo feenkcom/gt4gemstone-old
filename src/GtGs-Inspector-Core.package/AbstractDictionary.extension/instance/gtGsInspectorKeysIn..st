@@ -5,7 +5,4 @@ gtGsInspectorKeysIn: composite
 	^ composite fastList
 		title: 'Keys';
 		enableLazyLoading;
-		display: [ | aCollection |
-  			aCollection := Array new.
-			self keysDo: [ :aKey | aCollection add: aKey ].
-			aCollection ]
+		display: [ self keys ]
