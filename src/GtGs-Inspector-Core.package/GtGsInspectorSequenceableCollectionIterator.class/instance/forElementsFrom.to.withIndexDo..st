@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 forElementsFrom: startIndex to: endIndex withIndexDo: aBlock
 	| limitedStartIndex limitedEndIndex |
 	self assert: targetCollection notNil.

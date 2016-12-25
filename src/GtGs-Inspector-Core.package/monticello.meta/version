@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.150' message 'Rely on fastList and fastTable' id '3e845f34-985f-4e89-997f-892e91c1c932' date '25 December 2016' time '11:41:17.719965 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.149' message 'Use GtGsGlmTablePresentation
-' id '879e1a69-b058-51e9-baee-e4e41e8ee133' date '25 December 2016' time '11:07:49 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.151' message 'Added a generic iterator for collections that uses #do' id 'fca74978-a60c-4546-a8b3-4ed297a29896' date '26 December 2016' time '12:05:29.766722 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.150' message 'Rely on fastList and fastTable
+' id 'afffd57e-35e7-5e26-a7f3-483e83ab4bc3' date '25 December 2016' time '11:41:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

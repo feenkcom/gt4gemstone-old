@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "GtGsInspectorSequenceableCollectionIterator",
+	"name" : "GtGsInspectorCollectionIterator",
 	"pools" : [
 		 ],
 	"super" : "GtGsInspectorElementsIterator",

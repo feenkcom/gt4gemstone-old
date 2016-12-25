@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GtGsInspectorSequenceableCollectionIterator",
+		"targetCollection" ],
+	"name" : "GtGsInspectorElementsIterator",
 	"pools" : [
 		 ],
-	"super" : "GtGsInspectorElementsIterator",
+	"super" : "Object",
 	"type" : "normal" }
