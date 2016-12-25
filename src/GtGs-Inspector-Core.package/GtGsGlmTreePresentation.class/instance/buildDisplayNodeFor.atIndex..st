@@ -1,13 +1,13 @@
 private
-buildDisplayNodeFor: anObject
+buildDisplayNodeFor: anObject atIndex: anIndex
 	| displayNode |
 	
-	displayNode := super buildDisplayNodeFor: anObject.
+	displayNode := super buildDisplayNodeFor: anObject atIndex: anIndex.
 	self hasChildNodesBlock ifNotNil: [ :aBlock |
 		displayNode hasChildNodes: (aBlock value: anObject) ].
 	
 	self columns do: [ :aGsColumn |
 		displayNode columnValues add: (
-			aGsColumn computationBlock value: displayNode targetObject) ].
+			aGsColumn computationBlock cull: displayNode targetObject cull: anIndex) ].
 
 	^ displayNode

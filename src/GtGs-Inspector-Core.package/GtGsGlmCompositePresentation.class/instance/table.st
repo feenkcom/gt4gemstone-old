@@ -1,3 +1,3 @@
 scripting
 table 
-	^ self custom: GtGsGlmTablePresentation new
+	^ self custom: GtGsGlmFastTablePresentation new
