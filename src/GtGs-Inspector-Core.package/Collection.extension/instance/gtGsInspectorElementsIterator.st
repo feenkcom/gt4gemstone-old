@@ -2,4 +2,4 @@
 gtGsInspectorElementsIterator
 
 	^ GtGsInspectorPluggableCollectionIterator new
-		iterationSelector: #do
+		iterationSelector: #do:
