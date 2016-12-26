@@ -4,7 +4,7 @@ computeDiffToIncludeElementAt: anIndex
 	
 	loadingStrategy := self loadingStrategyClass new
 		computeDiffToIncludeElementAt: anIndex 
-		withIterator: displayObjects gtGsInspectorElementsIterator 
+		withIterator: (self iteratorFor: displayObjects)
 		forPresentation: self.
 	loadingStrategy applyToCacheFromPresentation: self.
 	

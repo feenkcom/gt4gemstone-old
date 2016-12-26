@@ -5,10 +5,13 @@ gtGsInspectorItemsIn: composite
 	^ composite fastTable
 		title: 'Items' ;
 		enableLazyLoading;
-		display: [ | aCollection |
+		display: [ self ];
+		iterator: [ GtGsInspectorPluggableCollectionIterator new
+			iterationSelector: #associationsDo: ];
+		"display: [ | aCollection |
   			aCollection := Array new.
 			self associationsDo: [ :assn | aCollection add: assn ].
-			aCollection ];
+			aCollection ];"
 		"children: [ :anAssociation | 
 			(anAssociation value isKindOf:	AbstractDictionary) 
 				ifTrue: [ 

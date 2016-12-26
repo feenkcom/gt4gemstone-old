@@ -1,4 +1,4 @@
 *GtGs-Inspector-Core
 gtGsInspectorElementsIterator
 
-	^ GtGsInspectorSequenceableCollectionIterator for: self
+	^ GtGsInspectorSequenceableCollectionIterator new

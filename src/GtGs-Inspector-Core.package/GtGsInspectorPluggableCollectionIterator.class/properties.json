@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GtGsInspectorCollectionIterator",
+		"iterationSelector" ],
+	"name" : "GtGsInspectorPluggableCollectionIterator",
 	"pools" : [
 		 ],
 	"super" : "GtGsInspectorElementsIterator",

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 forElementsFrom: startIndex to: endIndex withIndexDo: aBlock
 	| limitedStartIndex limitedEndIndex iterationIndex|
 	self assert: targetCollection notNil.
@@ -8,7 +8,7 @@ forElementsFrom: startIndex to: endIndex withIndexDo: aBlock
 	limitedEndIndex := targetCollection size min: endIndex.
 	
 	iterationIndex := 1.
-	targetCollection do: [ :anElement |
+	targetCollection perform: self iterationSelector with: [ :anElement |
 		"Terminate the iteration if the last element was visited."
 		iterationIndex > limitedEndIndex ifTrue: [ ^ self ].
 		

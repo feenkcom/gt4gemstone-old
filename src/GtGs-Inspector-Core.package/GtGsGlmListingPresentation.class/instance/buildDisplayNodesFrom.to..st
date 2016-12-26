@@ -3,7 +3,7 @@ buildDisplayNodesFrom: startIndex to: endIndex
 	| displayNodes |
 	
 	displayNodes := OrderedCollection new: (endIndex - startIndex + 1 + 1).
-	displayObjects gtGsInspectorElementsIterator
+	(self iteratorFor: displayObjects)
 		forElementsFrom: startIndex 
 		to: endIndex 
 		withIndexDo: [ :anObject :anIndex | | newValueNode |
