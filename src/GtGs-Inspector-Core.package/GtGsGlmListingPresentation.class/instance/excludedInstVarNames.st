@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^  super excludedInstVarNames, #(#'iconIdBlock' #'displayObjects')
+  ^  super excludedInstVarNames, #(#'iconIdBlock' #'iteratorBlock' #'displayObjects')
