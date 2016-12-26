@@ -1,5 +1,5 @@
 *GtGs-Inspector-Core
-gtGsInspectorKeysIn: composite
+gtGsInspectorBKeysIn: composite
 	<gtInspectorPresentationOrder: 1>
 
 	^ composite fastList

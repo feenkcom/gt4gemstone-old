@@ -1,7 +1,6 @@
 *GtGs-Inspector-Core
-gtGsInspectorItemsIn: composite
+gtGsInspectorAItemsIn: composite
 	<gtInspectorPresentationOrder: 0>
-	"Same implementation as in Collection"
 	
 	^ composite fastList
 		title: 'Items';

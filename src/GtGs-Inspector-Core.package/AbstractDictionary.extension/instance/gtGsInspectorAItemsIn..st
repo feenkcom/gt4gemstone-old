@@ -1,5 +1,5 @@
 *GtGs-Inspector-Core
-gtGsInspectorItemsIn: composite
+gtGsInspectorAItemsIn: composite
 	<gtInspectorPresentationOrder: 1>
 	
 	^ composite fastTable
