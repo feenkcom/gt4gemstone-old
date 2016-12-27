@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.10' message 'The third presentation is the Items one' id '0b598b96-073d-4390-a772-dd698e70cba0' date '23 December 2016' time '2:59:28.994929 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.9' message 'Fixed typo (#testObjectWithErrorInIPrintOn)
-' id 'bd429965-37b1-52b6-a4f9-a245c7c04b85' date '21 December 2016' time '5:29:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.11' message 'fixed #testLoadingOnlyOfTheRequestedPresentation' id 'cf36a760-4977-4eaa-9995-85eafc335436' date '27 December 2016' time '10:53:53.776892 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.10' message 'The third presentation is the Items one
+' id 'ae01c514-4390-56c6-a81e-cfbc15792b65' date '23 December 2016' time '2:59:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
