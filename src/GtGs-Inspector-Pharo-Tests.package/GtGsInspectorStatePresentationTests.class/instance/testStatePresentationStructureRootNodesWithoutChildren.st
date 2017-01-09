@@ -8,4 +8,4 @@ testStatePresentationStructureRootNodesWithoutChildren
 	self assert: rootDisplayNodes size equals: 5.
 	
 	self assertTreeNodesInitialStructureFor: rootDisplayNodes.
-	self assertTreeNodesChildFlagFor: rootDisplayNodes equals: { false. false. false. false. false}.
+	self assertNodesChildFlagFor: rootDisplayNodes equals: { false. false. false. false. false}.

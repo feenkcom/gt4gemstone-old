@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertTreeNodesChildFlagFor:equals:" : "AndreiChis 12/13/2016 16:16:47",
-		"assertTreeNodesColumnsContentFor:equals:" : "AndreiChis 12/13/2016 16:16:47",
+		"assertNodesChildFlagFor:equals:" : "AndreiChis 1/9/2017 21:02",
+		"assertNodesColumnsContentFor:equals:" : "AndreiChis 1/9/2017 21:03",
 		"assertTreeNodesInitialStructureFor:" : "AndreiChis 12/12/2016 15:20",
 		"client" : "AndreiChis 10/22/2016 16:34:21",
 		"debugMode" : "AndreiChis 10/22/2016 16:34:21",
