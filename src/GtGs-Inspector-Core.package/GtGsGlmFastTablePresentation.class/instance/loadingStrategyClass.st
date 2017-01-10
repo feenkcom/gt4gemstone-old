@@ -1,3 +1,0 @@
-accessing
-loadingStrategyClass
-	^ GtGsGlmFragmentedLoadingStrategy
