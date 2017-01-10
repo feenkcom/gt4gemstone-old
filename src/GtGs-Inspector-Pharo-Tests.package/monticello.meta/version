@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.12' message 'Basic support for testing presentations for collections.' id 'ef0fe8f4-85fd-4566-8c3f-2c1086737a9b' date '9 January 2017' time '10:05:21.217259 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.11' message 'fixed #testLoadingOnlyOfTheRequestedPresentation
-' id '85f905de-bc4f-518b-bcfd-47ac4e335304' date '27 December 2016' time '10:53:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.13' message 'Tests for basic collections.' id 'a8d1d394-1604-4703-817c-4d3d520e63a6' date '10 January 2017' time '11:14:00.605423 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.12' message 'Basic support for testing presentations for collections.
+' id '7a97e034-00b8-5c71-94e2-816f51287ef0' date '9 January 2017' time '10:05:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

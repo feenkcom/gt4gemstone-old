@@ -1,4 +1,4 @@
-as yet unclassified
+utils
 buildDiffToIncludeElementsIn: aGsPresentation between: aStartIndex and: aStopIndex 
 	| loadingStrategy |
 	

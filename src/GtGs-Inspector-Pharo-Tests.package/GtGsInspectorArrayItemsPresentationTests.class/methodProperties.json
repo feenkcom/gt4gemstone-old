@@ -1,16 +1,6 @@
 {
 	"class" : {
-		 },
+		"isAbstract" : "AndreiChis 1/10/2017 22:41" },
 	"instance" : {
-		"amountToIncrement" : "AndreiChis 1/9/2017 21:24",
-		"amountToShow" : "AndreiChis 1/9/2017 21:07",
-		"assertLoadingStrategy:hasContentFrom:to:" : "AndreiChis 1/9/2017 22:01",
-		"buildDiffToIncludeElementsIn:between:and:" : "AndreiChis 1/9/2017 21:44",
-		"buildItemsPresentationToTest" : "AndreiChis 1/9/2017 21:10",
 		"newCollectionToTest" : "AndreiChis 1/9/2017 20:55",
-		"numberOfElements" : "AndreiChis 1/9/2017 21:20",
-		"testInitialAmmoutsForLazyLoading" : "AndreiChis 1/9/2017 21:26",
-		"testItemsPresentationInitialValues" : "AndreiChis 1/9/2017 21:45",
-		"testItemsPresentationLoadLastValues" : "AndreiChis 1/9/2017 21:58",
-		"testNumberOfElements" : "AndreiChis 1/9/2017 21:31",
 		"valuesFrom:to:" : "AndreiChis 1/9/2017 21:13" } }

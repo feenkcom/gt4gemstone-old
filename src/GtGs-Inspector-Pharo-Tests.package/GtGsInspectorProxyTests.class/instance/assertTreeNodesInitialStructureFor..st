@@ -1,4 +1,4 @@
-utils
+assertions
 assertTreeNodesInitialStructureFor: aCollectionOfNodes
 
 	self assert: (aCollectionOfNodes allSatisfy: [ :aNode | aNode class = GtGsGlmTreeNode ]).

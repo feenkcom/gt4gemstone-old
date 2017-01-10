@@ -1,0 +1,9 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"testEvaluatorPresentationDisplayValueLazyLoad" : "AndreiChis 1/10/2017 22:30",
+		"testLoadingOnlyOfTheRequestedPresentation" : "AndreiChis 1/10/2017 22:30",
+		"testObjectWithErrorInPrintOn" : "AndreiChis 1/10/2017 22:30",
+		"testRemoteProxyInitialization" : "AndreiChis 1/10/2017 22:30",
+		"testRemoteProxyInitializationOfPresentations" : "AndreiChis 1/10/2017 22:30" } }

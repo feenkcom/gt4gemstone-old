@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertNodesColumnsContentFor:equals:" : "AndreiChis 1/10/2017 23:03",
 		"testErrorInPrintOnMethodInExpandedChild" : "AndreiChis 1/9/2017 21:03",
 		"testErrorInPrintOnMethodInSelf" : "AndreiChis 1/9/2017 21:03",
 		"testStatePresentationChildrenContent" : "AndreiChis 1/9/2017 21:03",

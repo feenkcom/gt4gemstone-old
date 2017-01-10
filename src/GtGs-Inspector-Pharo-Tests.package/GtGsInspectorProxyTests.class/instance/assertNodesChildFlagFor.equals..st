@@ -1,4 +1,4 @@
-utils
+assertions
 assertNodesChildFlagFor: aColectionOfNodes equals: hasChildNodesFlags
 	
 	aColectionOfNodes withIndexDo: [ :aNode :anIndex |

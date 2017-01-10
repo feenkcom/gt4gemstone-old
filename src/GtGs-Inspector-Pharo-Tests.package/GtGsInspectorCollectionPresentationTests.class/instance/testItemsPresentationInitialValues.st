@@ -6,4 +6,4 @@ testItemsPresentationInitialValues
 	cacheDisplayValue := itemsPresentation cacheAt: #displayValue.
 	
 	self assert: cacheDisplayValue size equals: itemsPresentation amountToShow.
-	self assertNodesColumnsContentFor: cacheDisplayValue equals: (self valuesFrom: 1 to: self amountToShow). 
+	self assertNodesContentFor: cacheDisplayValue equals: (self valuesFrom: 1 to: self amountToShow). 

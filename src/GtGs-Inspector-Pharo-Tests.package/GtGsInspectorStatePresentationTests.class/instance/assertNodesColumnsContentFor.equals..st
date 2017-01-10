@@ -1,4 +1,4 @@
-utils
+assertions
 assertNodesColumnsContentFor: aColectionOfNodes  equals: aListOfValues
 
 	aColectionOfNodes withIndexDo: [ :aNode :anIndex |
