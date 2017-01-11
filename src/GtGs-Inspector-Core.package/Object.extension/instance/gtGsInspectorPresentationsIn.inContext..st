@@ -6,6 +6,7 @@ gtGsInspectorPresentationsIn: aComposite inContext: aContext
 	inspectorSelectors := objectClass allSelectors select: [ :aSelector |
 		((self gtGsLookupSelector: aSelector) sourceString includesString:  '<gtInspectorPresentationOrder:') and: [ 
 			(aSelector beginsWith: 'gtGsInspector') or: [ aSelector beginsWith: 'gtInspector' ] ]  ].
+	inspectorSelectors := inspectorSelectors asSet.
 	inspectorSelectors remove: #gtGsInspectorPresentationsIn:inContext:.
 	
 	inspectorSelectors := inspectorSelectors sortWithBlock: [ :aSelector : anotherSelector |

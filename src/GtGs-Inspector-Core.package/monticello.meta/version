@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.161' message 'Do not use #assert: in the GemStone code.' id 'bd5227f5-6b0b-42e8-ae29-35a377809f4a' date '11 January 2017' time '11:37:24.833534 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.160' message 'Removed GtGsGlmFastTablePresentation
-' id 'e8ca7981-379d-5545-8be2-0e7e9bbec527' date '10 January 2017' time '11:24:16 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.162' message 'Convert the list of selectors into a set to remove duplicates.' id '03235e3d-c735-4815-92fa-3cacb49717ea' date '11 January 2017' time '11:50:08.325968 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.161' message 'Do not use #assert: in the GemStone code.
+' id '45378190-58bc-5823-b099-2d551d11074d' date '11 January 2017' time '11:37:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
