@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.160' message 'Removed GtGsGlmFastTablePresentation' id 'e17b0da9-e516-4675-8e12-e7f41c75fa6e' date '10 January 2017' time '11:24:12.479179 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.159' message 'Accessor methods in GtGsGlmFragmentedLoadingStrategy for testing purposes.
-' id '028e27d3-834a-5f08-bb0e-d83e79ed59bc' date '9 January 2017' time '10:03:08 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.161' message 'Do not use #assert: in the GemStone code.' id 'bd5227f5-6b0b-42e8-ae29-35a377809f4a' date '11 January 2017' time '11:37:24.833534 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.160' message 'Removed GtGsGlmFastTablePresentation
+' id 'e8ca7981-379d-5545-8be2-0e7e9bbec527' date '10 January 2017' time '11:24:16 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

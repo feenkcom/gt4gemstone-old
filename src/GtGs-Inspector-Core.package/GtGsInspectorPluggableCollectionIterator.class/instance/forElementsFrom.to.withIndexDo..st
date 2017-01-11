@@ -1,8 +1,8 @@
 accessing
 forElementsFrom: startIndex to: endIndex withIndexDo: aBlock
 	| limitedStartIndex limitedEndIndex iterationIndex|
-	self assert: targetCollection notNil.
-	self assert: startIndex <= endIndex.
+	"self assert: targetCollection notNil.
+	self assert: startIndex <= endIndex."
 	
 	limitedStartIndex := 1 max: startIndex.
 	limitedEndIndex := targetCollection size min: endIndex.
