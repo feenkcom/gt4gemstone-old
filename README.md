@@ -15,7 +15,7 @@ The current stable version is 0.1. To install it use the following instructions 
     createClient -t pharo Gt4Gemstone -l -v Pharo5.0 -z $GS_HOME/shared/repos/gt4gemstone/.smalltalk.ston
     startClient Gt4Gemstone -s Gt4Gemstone33
     
-For installing the gt4gemstone in a stone that does not require GsDevKit see [gt4gemstone server instalation without GsDevKit](doc/bareGemStoneInstallation.md)
+For installing the gt4gemstone in a stone that does not require GsDevKit see [gt4gemstone server instalation without GsDevKit](doc/bareGemStoneInstallation.md). For installing and configuring GsDevKit on Windows see [GsDevKit Windows Installation](doc/windowsGsDevKitInstallation.md)
 
 ##Opening a GT Gemstone remote Playground
 
