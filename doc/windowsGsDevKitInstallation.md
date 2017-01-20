@@ -26,4 +26,4 @@ Once all this is done you can create a new client called `Gt4Gemstone` and start
     createClient -t pharo Gt4Gemstone -l -v Pharo5.0 -s gs_330 -z $GS_HOME/shared/repos/gt4gemstone/.smalltalk.ston
     startClient Gt4Gemstone -s gt4gemstone
 
-Afterwards the server side needs to be configured. For installing and connecting to a server image that does not rely on GsDevit see [gt4gemstone server instalation without GsDevKit](doc/bareGemStoneInstallation.md).
+Afterwards the server side needs to be configured. For installing and connecting to a server image that does not rely on GsDevit see [gt4gemstone server instalation without GsDevKit](/doc/bareGemStoneInstallation.md).
