@@ -78,6 +78,15 @@ gtClient performStringRemotelyAndInspect: 'Object'.
 gtClient performStringRemotelyAndInspect: 'Dictionary new add: (1->2); yourself'.
 gtClient performStringRemotelyAndInspect: 'System stoneName asString.'.
 
+gtClient performStringRemotely: '
+| size collection |
+size := 1000000.
+collection := IdentityDictionary new: size.
+1 to:  size do: [ :index |
+    collection at: index put: index ].
+SessionTemps current at: #LARGE_COLLECTION put: collection'.
+gtClient performStringRemotelyAndInspect: '(SessionTemps current at: #LARGE_COLLECTION) '.
+
 "---PLAYGROUND---"
 gtClient openGemstonePlayground. 
 gtClient openGemstonePlaygroundWithContents: 'ABAddressBook 
