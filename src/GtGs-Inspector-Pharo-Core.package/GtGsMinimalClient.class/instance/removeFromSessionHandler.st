@@ -1,0 +1,3 @@
+login/logout
+removeFromSessionHandler
+	GtGsSessionsLifecycleHandler removeGemstoneClient: self

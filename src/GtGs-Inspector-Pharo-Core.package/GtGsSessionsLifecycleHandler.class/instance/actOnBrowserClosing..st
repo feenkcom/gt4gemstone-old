@@ -1,5 +1,5 @@
 callbacks
 actOnBrowserClosing: ann
 
-	self class clearWindow
+	self class clearInstance
 	

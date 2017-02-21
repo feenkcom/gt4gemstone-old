@@ -7,7 +7,7 @@ worldMenuOn: aBuilder
 		label: 'GT4Gemstone';
 		withSeparatorAfter;
 		with: [
-			(aBuilder item: #'Open sessions handler') 
+			(aBuilder item: #'Open sessions handler')
 				order: 0;
 				action: [ self open ].
 			(aBuilder item: #'Close all sessions')

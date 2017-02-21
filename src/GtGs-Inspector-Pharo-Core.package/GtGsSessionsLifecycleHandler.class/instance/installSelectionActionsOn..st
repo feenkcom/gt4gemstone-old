@@ -9,6 +9,9 @@ installSelectionActionsOn: aPresentation
 				currentPresentation selection sessionDescription inspect ] 
 			entitled: 'Inspect session description';
 		selectionAct: [ :currentPresentation |
+				currentPresentation selection inspect ] 
+			entitled: 'Inspect client';
+		selectionAct: [ :currentPresentation |
 				currentPresentation selection performStringRemotelyAndInspect: 'SessionTemps' ] 
 			entitled: 'Inspect SessionTemps (remote)'.
 	aPresentation selectionActions last withSeparatorAfter.
@@ -20,6 +23,5 @@ installSelectionActionsOn: aPresentation
 				currentPresentation selection abortSession ] 
 			entitled: 'Abort';
 		selectionAct: [ :currentPresentation |
-				self logoutAndRemove: currentPresentation selection.
-				currentPresentation update ] 
-			entitled: 'Logout'
+				currentPresentation selection logout ] 
+			entitled: 'Remove'

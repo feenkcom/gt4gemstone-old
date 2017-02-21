@@ -1,4 +1,5 @@
 login/logout
 logout
 	self closeAllRemoteWindows.
-	super logout
+	super logout.
+	self removeFromSessionHandler

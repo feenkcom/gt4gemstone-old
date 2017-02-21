@@ -7,8 +7,7 @@ printDetailedDescriptionOn: aStream
 		nextPutAll: self sessionDescription userId;
 		nextPutAll: ' - '.
 		
-	self startTime printHMSOn: aStream.
-	self startTime printYMDOn: aStream withLeadingSpace: true.
+	self printCreationTimeOn: aStream.
 	
 	aStream
 		nextPutAll: ']';

@@ -2,9 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"ensureLoadingOfElementAt:" : "AndreiChis 12/25/2016 22:23",
-		"ensureLoadingOfElementsBetween:and:" : "AndreiChis 12/25/2016 22:22",
-		"obtainTotalNumberOfElements" : "AndreiChis 12/25/2016 22:22",
+		"ensureLoadingOfElementAt:" : "AndreiChis 1/10/2017 23:23:56",
+		"ensureLoadingOfElementsBetween:and:" : "AndreiChis 1/10/2017 23:23:56",
+		"obtainTotalNumberOfElements" : "AndreiChis 1/10/2017 23:23:56",
 		"setGlamourPresentationAttributesFor:" : "AndreiChis 10/22/2016 22:51:04",
-		"updateAllChildNodesFor:" : "TravisCI 12/12/2016 09:47",
-		"updateChildNodesFor:" : "TravisCI 12/12/2016 09:50" } }
+		"updateAllChildNodesFor:" : "AndreiChis 12/16/2016 00:59:56",
+		"updateChildNodesFor:" : "AndreiChis 12/16/2016 00:59:56" } }

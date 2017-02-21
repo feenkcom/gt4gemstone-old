@@ -44,4 +44,6 @@ loginWith: aSessionDescription
 		ifTrue: [ self session
 				send: #effectiveApiVersion:
 				to: todeServerOopType
-				withArgs: {self effectiveApiVersion asString} ]
+				withArgs: {self effectiveApiVersion asString} ].
+	self registerWithSessionHandler.
+	

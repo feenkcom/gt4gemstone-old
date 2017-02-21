@@ -1,3 +1,3 @@
 cleanup
-clearWindow
+clearInstance
 	uniqueInstance := nil
