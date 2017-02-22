@@ -2,10 +2,11 @@
 	"category" : "GtGs-Inspector-Pharo-Core",
 	"classinstvars" : [
 		"uniqueInstance",
-		"gemstoneClients" ],
+		"gemstoneClients",
+		"defaultClientType" ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "TravisCI 2/22/2017 15:19",
 	"instvars" : [
 		 ],
 	"name" : "GtGsSessionsLifecycleHandler",

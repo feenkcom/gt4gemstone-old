@@ -1,6 +1,6 @@
 cleanup
 cleanUp
 	"Clean unique instance."	
-	self deleteGemstoneClients.
+	self removeGemstoneClients.
 	uniqueInstance ifNotNil: [ uniqueInstance delete ].
 	uniqueInstance := nil

@@ -9,13 +9,13 @@ compose
 		title: 'Current Active Sessions';
 		display: [ self gemstoneClients ];
 		column: 'Name' evaluated: [ :aGemstoneClient | 
-			aGemstoneClient sessionDescription name ] width: 150;
+			self formatString: aGemstoneClient sessionDescription name for: aGemstoneClient ] width: 150;
 		column: 'User' evaluated: [ :aGemstoneClient | 
-			aGemstoneClient sessionDescription userId ] width: 100;
-		column: 'Creation' evaluated: [ :aGemstoneClient | 
-			aGemstoneClient creationTimeDescription ] width: 150;
+			self formatString: aGemstoneClient sessionDescription userId for: aGemstoneClient ] width: 100;
+		column: 'Login time' evaluated: [ :aGemstoneClient | 
+			self formatString: aGemstoneClient creationTimeDescription  for: aGemstoneClient ] width: 150;
 		column: 'Session ID' evaluated: [ :aGemstoneClient | 
-			aGemstoneClient session identityHash asString ].	
+			self formatString: aGemstoneClient sessionHashDescription for: aGemstoneClient  ].	
 	
 	self installSelectionActionsOn: clientPresentation.
 	self installToolbarActionsOn: clientPresentation.

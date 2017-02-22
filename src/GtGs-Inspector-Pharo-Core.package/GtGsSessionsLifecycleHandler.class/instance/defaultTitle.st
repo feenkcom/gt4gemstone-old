@@ -1,3 +1,3 @@
 accessing
 defaultTitle
-	^ 'Gemstone Sessions Handler'
+	^ 'GemStone Sessions Handler'

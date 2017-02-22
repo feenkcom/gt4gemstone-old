@@ -1,3 +1,3 @@
 system startup
 shutDown: isImageQuitting
-	isImageQuitting ifTrue: [ self deleteGemstoneClients ]
+	isImageQuitting ifTrue: [ self logoutGemstoneClients ]

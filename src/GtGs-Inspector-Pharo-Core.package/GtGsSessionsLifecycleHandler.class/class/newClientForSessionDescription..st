@@ -1,4 +1,4 @@
 instance creation
 newClientForSessionDescription: aSessionDescription
 
-	GtGsBareClient loginWith: aSessionDescription.
+	self defaultClientType asClass loginWith: aSessionDescription.

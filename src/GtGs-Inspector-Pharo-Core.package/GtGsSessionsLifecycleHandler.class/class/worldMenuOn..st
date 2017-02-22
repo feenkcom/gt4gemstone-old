@@ -9,8 +9,11 @@ worldMenuOn: aBuilder
 		with: [
 			(aBuilder item: #'Open sessions handler')
 				order: 0;
-				action: [ self open ].
-			(aBuilder item: #'Close all sessions')
+				action: [ self open ];
+				withSeparatorAfter.
+			(aBuilder item: #'Logout from all sessions')
 				order: 2;
-				action: [ self deleteGemstoneClients ];
-				withSeparatorAfter ]
+				action: [ self logoutGemstoneClients ].
+			(aBuilder item: #'Remove all sessions')
+				order: 2;
+				action: [ self removeGemstoneClients ] ]
