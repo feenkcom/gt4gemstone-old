@@ -3,8 +3,8 @@
 		"forException:fromProcess:" : "AndreiChis 11/16/2016 23:54" },
 	"instance" : {
 		"addToSessionTemps" : "AndreiChis 11/14/2016 15:59",
-		"computeStack" : "DaleHenrichs 12/22/2016 05:53:50",
-		"computeStackFrameWithIndex:" : "DaleHenrichs 12/22/2016 05:53:50",
+		"computeStack" : "AndreiChis 2/23/2017 15:25",
+		"computeStackFrameWithIndex:" : "AndreiChis 2/23/2017 15:24",
 		"dbContinue" : "AndreiChis 11/18/2016 15:07",
 		"dbFinishStep" : "AndreiChis 11/17/2016 23:07",
 		"dbRestart" : "AndreiChis 11/18/2016 10:44",
@@ -30,4 +30,4 @@
 		"stonProcessSubObjects:" : "AndreiChis 11/14/2016 10:03",
 		"topezServer" : "AndreiChis 11/13/2016 17:52",
 		"topezServer:" : "AndreiChis 11/14/2016 10:02",
-		"updateCache" : "AndreiChis 11/16/2016 23:53" } }
+		"updateCache" : "AndreiChis 2/23/2017 15:25" } }

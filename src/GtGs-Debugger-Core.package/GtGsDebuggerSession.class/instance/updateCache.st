@@ -2,4 +2,4 @@ actions
 updateCache
 
 	selfOop ifNil: [ selfOop := self asOop ].
-	self stack updateCache.
+	self stack updateCacheIn: self.

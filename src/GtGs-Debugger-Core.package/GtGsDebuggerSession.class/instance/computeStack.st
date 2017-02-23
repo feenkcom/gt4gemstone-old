@@ -1,4 +1,4 @@
 callbacks
 computeStack
-	self stack updateCache.
+	self stack updateCacheIn: self.
 	^ self topezServer objectSerializer toString: self stack
