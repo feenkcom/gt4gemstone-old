@@ -1,14 +1,14 @@
 *GtGs-Debugger-Pharo-Core
 methodCodeIn: aComposite forDebugger: aDebugger
 
-	^ aComposite text
+	aComposite custom: self methodPresentation
+
+	"^ aComposite text
 		title: 'Source';
 		format: [ self cachedSourceCode ifNil: [ 'missing source code' ] ];
 		initialize: [ :code | 
 			code selectionInterval: (aDebugger session selectedCodeRangeForContext: aDebugger currentContext) ];
-		with: [ :code | "aDebugger
-			installActionsForRootPragmas: #(gsStackDebuggingAction) 
-			in: code" ]
+		with: [ :code |  ]"
 		
 		";
 		smalltalkClass: [  aContext methodClass ];
