@@ -3,5 +3,5 @@ performString: aString
 
 	^ self topezServer 
 		performString: aString 
-		inContext: self doItContext 
+		inContext: self doItReceiver
 		literalVars: self literalVars
