@@ -3,6 +3,11 @@ setGlamourPresentationAttributesFor: aPresentation
 	super setGlamourPresentationAttributesFor: aPresentation.
 	
 	self shouldAttachCodeExecutionActions ifTrue: [ 
+		aPresentation selectionActions 
+			add: (aPresentation gtGsRemoteDoItAndGoActionsWith: self);
+			addAll: (aPresentation gtGsRemoteExecutionSelectionActionsWith: self);
+			addAll: aPresentation gtGsLocalExecutionSelectionActions.
+		
 		aPresentation format: [ :aListNode |
 			String streamContents: [ :stream | 
 				stream 

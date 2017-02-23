@@ -1,14 +1,6 @@
 *GtGs-Inspector-Pharo-Core
 gtGsRemoteExecutionSelectionActionsWith: aGsCodeExecutor
 	^ { 
-		GLMGenericAction new
-				title: 'Do it and go (remote)';
-				action: [ :aPresentation |
-					aPresentation highlightAndDo: [ :aText |
-						aPresentation selection: (aGsCodeExecutor buildRemoteInspectorProxyFrom: aText) ] ];  
-				shortcut: $g; 
-				withSeparatorBefore;
-				yourself.
 		(GLMGenericAction new) 
 				title: 'Do it (remote)';
 				action: [ :aPresentation |
