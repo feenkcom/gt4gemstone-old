@@ -29,6 +29,7 @@ baseline: spec
 		   package: 'GT-Debugger';
 			package: 'Glamour-Core';
 			package: 'Glamour-FastTable';
+			package: 'Glamour-Morphic-Renderer';
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
@@ -51,7 +52,7 @@ baseline: spec
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Examples-AddressBook-Extensions-Pharo');
 			group: 'Pharo'
-				with: #('GT-Debugger' 'Glamour-FastTable' 'Glamour-Core');
+				with: #('GT-Debugger' 'Glamour-FastTable' 'Glamour-Core' 'Glamour-Morphic-Renderer');
 			group: 'default' with: #('Core' 'Tests' 'Examples' 'Pharo') ].
 		
 	 spec for: #'gemstone' do: [
