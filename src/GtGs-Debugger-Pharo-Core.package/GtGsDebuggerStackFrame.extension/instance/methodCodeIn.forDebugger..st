@@ -1,7 +1,8 @@
 *GtGs-Debugger-Pharo-Core
 methodCodeIn: aComposite forDebugger: aDebugger
 
-	aComposite custom: self methodPresentation
+	self methodPresentation gemstoneClient: aDebugger session gemstoneClient.
+	self methodPresentation asGlamourPresentationOn: aComposite
 
 	"^ aComposite text
 		title: 'Source';
