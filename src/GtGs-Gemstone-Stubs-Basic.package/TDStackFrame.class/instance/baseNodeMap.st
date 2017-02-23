@@ -12,11 +12,11 @@ baseNodeMap
 				ifTrue: [ 
 					map add: '(receiver)' -> #'rawReceiver'.
 					hasSelf
-				ifFalse: [ map add: '(self)' -> #'rawSelf' ] ]
-		ifFalse: [ map add: '(self)' -> #'rawSelf' ].
-		map
-			add: '(home)' -> #'homeMethod';
-			yourself ]
+						ifFalse: [ map add: '(self)' -> #'rawSelf' ] ]
+				ifFalse: [ map add: '(self)' -> #'rawSelf' ].
+			map
+				add: '(home)' -> #'homeMethod';
+				yourself ]
     ifFalse: [ 
 		hasSelf
 			ifFalse: [ map
