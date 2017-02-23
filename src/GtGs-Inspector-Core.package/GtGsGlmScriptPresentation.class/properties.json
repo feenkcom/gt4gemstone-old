@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"withCodeExecutionActions" ],
+		 ],
 	"name" : "GtGsGlmScriptPresentation",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmTextPresentation",
+	"super" : "GtGsGlmCodePresentation",
 	"type" : "normal" }

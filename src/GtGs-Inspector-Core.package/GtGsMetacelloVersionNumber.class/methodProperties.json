@@ -1,11 +1,11 @@
 {
 	"class" : {
-		"extractNumericComponent:" : "AndreiChis 12/23/2016 21:35:39",
-		"findIn:Delimiters:startingAt:" : "AndreiChis 12/23/2016 21:35:39",
-		"findIn:tokens:" : "AndreiChis 12/23/2016 22:41",
-		"fromString:" : "AndreiChis 12/23/2016 21:35:39",
-		"skipIn:Delimiters:startingAt:" : "AndreiChis 12/23/2016 21:35:39" },
+		"extractNumericComponent:" : "TravisCI 12/23/2016 20:45",
+		"findIn:Delimiters:startingAt:" : "TravisCI 12/23/2016 20:43",
+		"findIn:tokens:" : "AndreiChis 1/11/2017 23:50:11",
+		"fromString:" : "TravisCI 12/23/2016 20:44",
+		"skipIn:Delimiters:startingAt:" : "TravisCI 12/23/2016 20:43" },
 	"instance" : {
-		"<" : "AndreiChis 12/23/2016 21:35:39",
-		"collapseZeros" : "AndreiChis 12/23/2016 21:35:39",
-		"compareLessThan:" : "AndreiChis 12/23/2016 21:35:39" } }
+		"<" : "TravisCI 12/23/2016 20:50",
+		"collapseZeros" : "TravisCI 12/23/2016 20:51",
+		"compareLessThan:" : "TravisCI 12/23/2016 20:55" } }

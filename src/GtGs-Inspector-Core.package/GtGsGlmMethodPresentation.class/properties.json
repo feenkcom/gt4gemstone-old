@@ -6,11 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"doItReceiverBlock",
-		"literalVarsBlock",
-		"withCodeExecutionActions" ],
-	"name" : "GtGsGlmTextPresentation",
+		 ],
+	"name" : "GtGsGlmMethodPresentation",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmFormattedPresentation",
+	"super" : "GtGsGlmCodePresentation",
 	"type" : "normal" }

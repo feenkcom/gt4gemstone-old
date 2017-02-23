@@ -1,6 +1,4 @@
 executing
-performString: aString inContext: anObject
-	^ aString 
-		evaluateInContext: anObject
-    	symbolList: GsCurrentSession currentSession symbolList.
+performString: aString inContext: compilationContext
+	^ self performString: aString inContext: compilationContext literalVars: nil
 	

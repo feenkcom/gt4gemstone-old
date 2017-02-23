@@ -2,11 +2,19 @@
 	"class" : {
 		 },
 	"instance" : {
-		"buildDisplayValueFor:" : "AndreiChis 12/12/2016 17:25:47",
-		"doItReceiver" : "DaleHenrichs 12/21/2016 15:07:35",
+		"attachCodeExecutionActions" : "AndreiChis 2/23/2017 15:11",
+		"buildDisplayValueFor:" : "AndreiChis 12/23/2016 14:55:43",
+		"doItReceiver" : "AndreiChis 2/23/2017 14:31",
 		"doItReceiver:" : "AndreiChis 10/20/2016 19:05:42",
 		"doItReceiverBlock" : "AndreiChis 10/20/2016 19:05:42",
 		"doItReceiverBlock:" : "AndreiChis 10/20/2016 19:05:42",
-		"excludedInstVarNames" : "AndreiChis 10/20/2016 19:05:42",
-		"highlightedTextAsString" : "DaleHenrichs 12/21/2016 15:07:35",
-		"inspectorDataSizeInMemory" : "AndreiChis 12/12/2016 17:25:47" } }
+		"excludedInstVarNames" : "AndreiChis 2/23/2017 14:21",
+		"highlightedTextAsString" : "AndreiChis 12/23/2016 14:55:43",
+		"inspectorDataSizeInMemory" : "AndreiChis 12/23/2016 14:55:43",
+		"literalVars" : "AndreiChis 2/23/2017 14:31",
+		"literalVars:" : "AndreiChis 2/23/2017 14:20",
+		"literalVarsBlock" : "AndreiChis 2/23/2017 14:19",
+		"literalVarsBlock:" : "AndreiChis 2/23/2017 14:19",
+		"performString:" : "AndreiChis 2/23/2017 15:12",
+		"performStringAndBuildProxyFor:" : "AndreiChis 2/23/2017 15:12",
+		"shouldAttachCodeExecutionActions" : "AndreiChis 2/23/2017 15:11" } }

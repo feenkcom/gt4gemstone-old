@@ -7,10 +7,6 @@ updatePresentations
 		inContext: self.
 	
 	aComposite presentations do: [ :each | 
-		each 
-			proxyOwner: self;
-			updateForwarder;
-			updateUninitializedBlocks;
-			updateCacheBasic ].
+		each updateForOwner: self  ].
 
 	presentations := aComposite presentations

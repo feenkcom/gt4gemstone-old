@@ -1,5 +1,3 @@
 executing
 performStringAndBuildProxyFor: aString inContext: anObject
-	| resultObject |
-	resultObject := self performString: aString inContext: anObject.
-	^ resultObject gtGsSerializedInspectorProxy
+	^ self performStringAndBuildProxyFor: aString inContext: anObject literalVars: nil

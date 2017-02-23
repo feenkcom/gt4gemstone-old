@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"gtGsInspectorIntegerIn:" : "AndreiChis 1/10/2017 23:24:16",
-		"gtGsMetacelloIntegerLessThanSelf:" : "AndreiChis 12/23/2016 21:35:39",
-		"gtGsMetacelloStringLessThanSelf:" : "AndreiChis 12/23/2016 21:35:39",
-		"gtGsMetacelloVersionComponentLessThan:" : "AndreiChis 12/23/2016 21:35:39" } }
+		"gtGsInspectorIntegerIn:" : "AndreiChis 1/11/2017 23:50:11",
+		"gtGsMetacelloIntegerLessThanSelf:" : "TravisCI 12/23/2016 21:04",
+		"gtGsMetacelloStringLessThanSelf:" : "TravisCI 12/23/2016 21:04",
+		"gtGsMetacelloVersionComponentLessThan:" : "TravisCI 12/23/2016 21:04" } }
