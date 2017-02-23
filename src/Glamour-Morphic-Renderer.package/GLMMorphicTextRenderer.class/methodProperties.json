@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnContextChanged:" : "TudorGirba 2/10/2014 06:38",
+		"actOnPresentationUpdated:" : "TudorGirba 6/3/2013 08:21",
+		"registerEventsForPresentation:" : "CyrilFerlicot 5/22/2015 14:45",
+		"render:" : "CyrilFerlicot 5/22/2015 14:45",
+		"selectLine" : "AndreiChis 2/27/2014 17:23",
+		"textModelFor:" : "TudorGirba 9/20/2011 23:39",
+		"textMorphForModel:" : "StephaneDucasse 1/9/2016 10:08" } }

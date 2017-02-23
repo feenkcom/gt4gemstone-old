@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnContextChanged:" : "AlainPlantec 8/2/2013 18:23",
+		"actOnPresentationUpdated:" : "AlainPlantec 8/2/2013 15:51",
+		"actOnTextEditorRequest:" : "AndreiChis 1/11/2016 15:27",
+		"modelFor:" : "TudorGirba 6/3/2013 23:47",
+		"morph" : "AndreiChis 1/18/2016 10:31",
+		"registerEventsForPresentation:" : "CyrilFerlicot 5/22/2015 14:28",
+		"render:" : "AndreiChis 10/10/2015 20:49" } }

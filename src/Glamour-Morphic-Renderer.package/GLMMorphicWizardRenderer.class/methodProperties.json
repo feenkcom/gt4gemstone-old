@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnPaneAdded:" : "cyrilledelaunay 4/4/2011 14:52",
+		"actOnPaneRemoved:" : "cyrilledelaunay 4/4/2011 15:53",
+		"actOnPaneReplaced:" : "cyrilledelaunay 3/31/2011 16:33",
+		"addMorphFromObject:toContainer:" : "cyrilledelaunay 3/31/2011 17:25",
+		"parentRenderer" : "cyrilledelaunay 4/1/2011 14:16",
+		"parentRenderer:" : "cyrilledelaunay 4/1/2011 14:17",
+		"registerAnnouncementsFor:" : "CyrilFerlicot 5/22/2015 14:42",
+		"render:" : "cyrilledelaunay 4/4/2011 16:43" } }

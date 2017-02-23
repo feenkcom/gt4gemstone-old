@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnPresentationUpdated:" : "TudorGirba 2/15/2011 11:23",
+		"handlePotentialStatusbarFor:" : "TudorGirba 3/3/2013 21:52",
+		"render:" : "AndreiChis 4/18/2016 17:05",
+		"renderToolbarForPresentation:inMorph:" : "AndreiChis 3/25/2015 14:04",
+		"setLabelOf:for:" : "AndreiChis 10/9/2014 17:41",
+		"setPotentialBackgroundColorFor:" : "TudorGirba 2/11/2014 06:39",
+		"titleFor:" : "tg 8/24/2010 22:04" } }

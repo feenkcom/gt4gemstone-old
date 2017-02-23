@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnContextChanged:" : "AndreiChis 11/3/2013 12:08",
+		"actOnUpdatedPresentation:" : "TudorGirba 2/20/2012 15:18",
+		"newTreeMorph" : "AndreiChis 3/16/2015 14:40",
+		"render:" : "CyrilFerlicot 5/22/2015 14:20",
+		"suspendedAnnouncements" : "AndreiChis 11/3/2013 11:48",
+		"textInputFor:withHelpMessage:" : "TudorGirba 2/24/2016 19:18",
+		"treeMorphFor:and:" : "StephaneDucasse 1/9/2016 10:09" } }
