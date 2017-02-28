@@ -67,6 +67,7 @@ baseline: spec
 
 		spec
 			package: 'GtGs-Inspector-Core' with: [ spec requires: #('Tode') ];
+			package: 'GtGs-Inspector-SystemExtensions';
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Common-Resources-Tests';
