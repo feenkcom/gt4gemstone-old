@@ -7,23 +7,21 @@ compose
 		browser transmit
 			to: #classes;
 			andShow: [ :aComposite :inspectorProxy | 
-				self classesIn: aComposite from: inspectorProxy methodsBrowser ].
-"		browser transmit
-			to: #classes port: #selection;
-			transformed: [:each | each class ]."
+				self classesIn: aComposite from: inspectorProxy codeBrowser ].
 		browser transmit
-			fromOutsidePort: #entity;
 			from: #classes;
+			fromOutsidePort: #entity;
+			when: [ :classNode | classNode notNil ];
 			to: #methods;
-			andShow: [ :aComposite :inspectorProxy :selectedNode |
-				selectedNode ifNotNil: [ 
-					self methodsIn: aComposite for: selectedNode from: inspectorProxy methodsBrowser ] ].
+			andShow: [ :aComposite :classNode :inspectorProxy |
+					self methodsIn: aComposite for: classNode from: inspectorProxy codeBrowser ].
 		browser transmit
 			from: #methods;
 			fromOutsidePort: #entity;
 			to: #source;
-			when: [ :method | method notNil ];
-			andShow: [ :a :method :object | self sourceOf: method for: object in: a ].
+			andShow: [ :aComposite :methodNode :inspectorProxy | 
+				methodNode ifNotNil: [
+					self codeIn: aComposite for: methodNode from: inspectorProxy codeBrowser ] ].
 		browser transmit
 			toOutsidePort: #selection;
 			from: #methods port: #evaluatedObject.

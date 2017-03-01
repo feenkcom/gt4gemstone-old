@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.65' message 'display the list of methods belonging to a class' id 'e22dd503-6d94-4679-89d0-6189c331e153' date '1 March 2017' time '6:34:42.430495 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.64' message 'Basic version of a GtGsInspectorMethodsBrowserClient
-' id 'f160bf7e-f4b0-5ab4-82af-04c52cb3dadf' date '1 March 2017' time '5:55:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.66' message 'refactorings' id 'e5794388-21f1-4578-8c8f-774c304a4943' date '1 March 2017' time '7:04:59.406414 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.65' message 'display the list of methods belonging to a class
+' id '35bc87db-8989-5f0e-85e9-c381302976cb' date '1 March 2017' time '6:34:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
