@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.169' message 'Compute the presentation shwoing the code of a method' id '89d1a89d-b383-4224-bb96-929698b71e9d' date '1 March 2017' time '6:54:02.758717 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.168' message 'compute the presentation showing the methods of a class
-' id '1c33aed8-e231-5423-b0cc-e556c41c7077' date '1 March 2017' time '6:26:43 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.170' message 'bind self to the current object in the current object in the editor' id '85e281c9-0d1b-4e6c-bcc4-46d687310861' date '1 March 2017' time '7:04:30.801548 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.169' message 'Compute the presentation shwoing the code of a method
+' id '1fb0ab5c-c3e3-5f5d-bc1e-e84c6cab0d26' date '1 March 2017' time '6:54:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

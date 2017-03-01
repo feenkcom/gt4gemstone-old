@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^ #(#'topezServer')
+  ^ #(#'topezServer' #'targetObject:')

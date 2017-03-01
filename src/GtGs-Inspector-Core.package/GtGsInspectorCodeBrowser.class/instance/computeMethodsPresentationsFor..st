@@ -1,5 +1,5 @@
 callbacks
 computeMethodsPresentationsFor: aNode
 
-	self initializeMethodsPresentationFor: aNode targetObject.
+	self buildMethodsPresentationFor: aNode targetObject.
 	^ self topezServer objectSerializer toString: self methodsPresentation

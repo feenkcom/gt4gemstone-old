@@ -3,5 +3,6 @@ computeObjectMethodBrowser
 	
 	codeBrowser := GtGsInspectorCodeBrowser new 
 		topezServer: self topezServer;
-		initializeSuperclassesPresentationFor: self targetObject class.
+		targetObject: self targetObject;
+		buildSuperclassesPresentationFor: self targetObject class.
 	^ self topezServer objectSerializer toString: codeBrowser

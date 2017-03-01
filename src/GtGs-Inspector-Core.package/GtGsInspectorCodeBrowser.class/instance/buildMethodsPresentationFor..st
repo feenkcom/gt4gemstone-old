@@ -1,5 +1,5 @@
-initialization
-initializeMethodsPresentationFor: aClass
+building presentations
+buildMethodsPresentationFor: aClass
 	
 	methodsPresentation := GtGsGlmListPresentation new
 		display: [ aClass localSelectors collect: [ :aSelector | 
