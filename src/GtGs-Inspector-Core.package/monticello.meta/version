@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.165' message 'Basic version of a methods browser on the gemstone side.' id '85645f6c-6186-42d0-b4fa-51b6d6efc0fd' date '1 March 2017' time '4:56:49.684864 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.164' message 'use #doItReceiver not #doItContext in a GsTextPresentation
-' id '58f1ff89-9ee1-5389-b527-e5aa2c4f76f2' date '23 February 2017' time '5:07:38 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.166' message 'Allow the title of a presentation to be nil' id 'b65e7289-6a40-459a-9cea-cf328567da63' date '1 March 2017' time '5:20:47.4391 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.165' message 'Basic version of a methods browser on the gemstone side.
+' id '4292feb0-b1af-5e18-aac4-3f683255ee40' date '1 March 2017' time '4:56:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

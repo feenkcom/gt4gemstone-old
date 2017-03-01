@@ -5,4 +5,6 @@ initializeSuperclassesFor: aClass
 		title: [ 'Source' ];
 		display: [ aClass  withAllSuperclasses reversed ];
 		format: [ :currentClass | currentClass gtGsInspectorName ].
-	superclassesPresentation updateForOwner: self
+	superclassesPresentation 
+		updateForOwner: self;
+		updateCache
