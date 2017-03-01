@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.168' message 'compute the presentation showing the methods of a class' id '993d247e-8ffd-4f8e-ba43-8cc597eef9c6' date '1 March 2017' time '6:26:39.198197 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.167' message 'remove the title for the superclass presentation
-' id '5f0b1b15-c9f0-5f0e-ab9a-db590a2d8264' date '1 March 2017' time '5:23:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.169' message 'Compute the presentation shwoing the code of a method' id '89d1a89d-b383-4224-bb96-929698b71e9d' date '1 March 2017' time '6:54:02.758717 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.168' message 'compute the presentation showing the methods of a class
+' id '1c33aed8-e231-5423-b0cc-e556c41c7077' date '1 March 2017' time '6:26:43 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

@@ -13,7 +13,7 @@
 		"title",
 		"presentations",
 		"curentPresentationIndex",
-		"methodsBrowser" ],
+		"codeBrowser" ],
 	"name" : "GtGsInspectorProxy",
 	"pools" : [
 		 ],

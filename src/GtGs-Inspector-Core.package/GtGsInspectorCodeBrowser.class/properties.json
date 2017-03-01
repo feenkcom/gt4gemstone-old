@@ -11,7 +11,7 @@
 		"superclassesPresentation",
 		"methodsPresentation",
 		"codePresentation" ],
-	"name" : "GtGsInspectorMethodsBrowser",
+	"name" : "GtGsInspectorCodeBrowser",
 	"pools" : [
 		 ],
 	"super" : "Object",

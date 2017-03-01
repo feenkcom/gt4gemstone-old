@@ -1,7 +1,7 @@
 callbacks
 computeObjectMethodBrowser
 	
-	methodsBrowser := GtGsInspectorMethodsBrowser new 
+	codeBrowser := GtGsInspectorCodeBrowser new 
 		topezServer: self topezServer;
 		initializeSuperclassesPresentationFor: self targetObject class.
-	^ self topezServer objectSerializer toString: methodsBrowser
+	^ self topezServer objectSerializer toString: codeBrowser
