@@ -2,8 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
+		"addNavigationBlockIn:from:" : "AndreiChis 3/1/2017 17:54",
+		"extractPresentationToSelectFrom:" : "AndreiChis 3/1/2017 17:47",
 		"gtInspectorActions" : "AndreiChis 10/14/2016 13:51",
-		"gtInspectorMetaIn:" : "AndreiChis 10/10/2016 15:47",
+		"gtInspectorMetaIn:" : "AndreiChis 2/23/2017 17:52:46",
 		"gtInspectorRawIn:" : "AndreiChis 10/10/2016 15:47",
-		"gtInspectorTargetObjectPresentationsIn:" : "AndreiChis 10/15/2016 12:52",
-		"inspect" : "AndreiChis 10/10/2016 16:51" } }
+		"gtInspectorRemoteMetaIn:" : "AndreiChis 3/1/2017 17:33",
+		"gtInspectorTargetObjectPresentationsIn:" : "AndreiChis 3/1/2017 17:44",
+		"inspect" : "AndreiChis 10/10/2016 16:51",
+		"selfOopType" : "AndreiChis 3/1/2017 15:29" } }
