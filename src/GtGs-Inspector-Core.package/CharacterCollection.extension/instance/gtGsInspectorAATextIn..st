@@ -1,5 +1,5 @@
 *GtGs-Inspector-Core
-gtGsInspectorTextIn: composite
+gtGsInspectorAATextIn: composite
 	<gtInspectorPresentationOrder: -10>
 	
 	^ composite text

@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.171' message 'fixed typo in excludedInstVarNames' id '2798b872-8c3c-4498-9432-c4ae9492a7d6' date '1 March 2017' time '7:09:31.745774 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.170' message 'bind self to the current object in the current object in the editor
-' id '7b5c21bd-81d5-57d0-ba79-427297645fdf' date '1 March 2017' time '7:04:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.172' message '- sort selectors in the editor- show first the String presentation' id 'ef4a424a-f81e-4649-af63-81e29a045e5e' date '1 March 2017' time '7:15:26.814761 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.171' message 'fixed typo in excludedInstVarNames
+' id 'abaf48bc-4647-5fe4-a336-5f80e482241d' date '1 March 2017' time '7:09:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
