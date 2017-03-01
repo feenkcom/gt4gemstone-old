@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.166' message 'Allow the title of a presentation to be nil' id 'b65e7289-6a40-459a-9cea-cf328567da63' date '1 March 2017' time '5:20:47.4391 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.165' message 'Basic version of a methods browser on the gemstone side.
-' id '4292feb0-b1af-5e18-aac4-3f683255ee40' date '1 March 2017' time '4:56:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.167' message 'remove the title for the superclass presentation' id '44f2cefc-7b61-4b6c-8fd6-9e3d82edffaf' date '1 March 2017' time '5:23:16.284852 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.166' message 'Allow the title of a presentation to be nil
+' id '474662f6-1c0a-5e2a-9d58-292122f82d9f' date '1 March 2017' time '5:20:52 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
