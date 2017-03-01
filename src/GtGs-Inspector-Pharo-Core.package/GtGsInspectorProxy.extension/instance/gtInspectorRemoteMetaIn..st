@@ -4,13 +4,12 @@ gtInspectorRemoteMetaIn: aComposite
 	
 	aComposite dynamic 
 		title: 'Meta';
-		display: [ | remoteBrowser |
-			remoteBrowser := self gemstoneClient 
+		display: [ 
+			methodsBrowser := self gemstoneClient 
 				executeRemotely: #computeObjectMethodBrowser
 				on: self selfOopType
-				withArguments: #() 
-				andDo: [ :aResult | aResult ].
+				withArguments: #().
 		
 			(GtGsInspectorMethodsBrowserClient new 
 				gemstoneClient: self gemstoneClient;
-				startOn: remoteBrowser) ]
+				startOn: self) ]

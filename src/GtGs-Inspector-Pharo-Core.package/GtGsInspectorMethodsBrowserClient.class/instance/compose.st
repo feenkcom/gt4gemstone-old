@@ -6,8 +6,8 @@ compose
 			row: #source.
 		browser transmit
 			to: #classes;
-			andShow: [ :aComposite :aRemoteBrowser | 
-				self classesIn: aComposite from: aRemoteBrowser ].
+			andShow: [ :aComposite :inspectorProxy | 
+				self classesIn: aComposite from: inspectorProxy methodsBrowser ].
 "		browser transmit
 			to: #classes port: #selection;
 			transformed: [:each | each class ]."
@@ -15,7 +15,9 @@ compose
 			fromOutsidePort: #entity;
 			from: #classes;
 			to: #methods;
-			andShow: [ :a | self methodsIn: a ].
+			andShow: [ :aComposite :inspectorProxy :selectedNode |
+				selectedNode ifNotNil: [ 
+					self methodsIn: aComposite for: selectedNode from: inspectorProxy methodsBrowser ] ].
 		browser transmit
 			from: #methods;
 			fromOutsidePort: #entity;
