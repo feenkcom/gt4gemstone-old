@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertNodesChildFlagFor:equals:" : "AndreiChis 1/9/2017 21:02",
-		"assertTreeNodesInitialStructureFor:" : "AndreiChis 12/12/2016 15:20",
+		"assertNodesChildFlagFor:equals:" : "AndreiChis 1/10/2017 23:14:03",
+		"assertTreeNodesInitialStructureFor:" : "AndreiChis 1/10/2017 23:14:03",
 		"client" : "AndreiChis 10/22/2016 16:34:21",
 		"debugMode" : "AndreiChis 10/22/2016 16:34:21",
 		"newBasicTestObject" : "AndreiChis 10/22/2016 16:34:21",
-		"newComposeTestObject" : "AndreiChis 12/12/2016 16:51",
-		"newTestObjectWithPrintingError" : "AndreiChis 12/21/2016 17:05",
+		"newComposeTestObject" : "AndreiChis 12/23/2016 14:59:31",
+		"newTestObjectWithPrintingError" : "AndreiChis 12/23/2016 14:59:31",
 		"sessionDescription" : "AndreiChis 10/27/2016 21:44",
 		"setUp" : "AndreiChis 10/26/2016 20:42",
 		"tearDown" : "AndreiChis 10/22/2016 16:34:21" } }

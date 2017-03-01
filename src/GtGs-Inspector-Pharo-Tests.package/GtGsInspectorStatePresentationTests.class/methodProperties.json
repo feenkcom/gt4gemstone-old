@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"assertNodesColumnsContentFor:equals:" : "AndreiChis 1/10/2017 23:03",
-		"testErrorInPrintOnMethodInExpandedChild" : "AndreiChis 1/9/2017 21:03",
-		"testErrorInPrintOnMethodInSelf" : "AndreiChis 1/9/2017 21:03",
-		"testStatePresentationChildrenContent" : "AndreiChis 1/9/2017 21:03",
-		"testStatePresentationChildrenStructure" : "AndreiChis 1/9/2017 21:02",
-		"testStatePresentationColumnsContent" : "AndreiChis 1/9/2017 21:03",
-		"testStatePresentationColumnsStructure" : "AndreiChis 12/13/2016 12:01",
-		"testStatePresentationStructureRootNodesWithChildren" : "AndreiChis 1/9/2017 21:02",
-		"testStatePresentationStructureRootNodesWithoutChildren" : "AndreiChis 1/9/2017 21:02",
-		"testStatePresentationUninitializedContent" : "AndreiChis 12/13/2016 12:01" } }
+		"assertNodesColumnsContentFor:equals:" : "AndreiChis 1/10/2017 23:14:03",
+		"testErrorInPrintOnMethodInExpandedChild" : "AndreiChis 1/10/2017 23:14:03",
+		"testErrorInPrintOnMethodInSelf" : "AndreiChis 1/10/2017 23:14:03",
+		"testStatePresentationChildrenContent" : "AndreiChis 1/10/2017 23:14:03",
+		"testStatePresentationChildrenStructure" : "AndreiChis 1/10/2017 23:14:03",
+		"testStatePresentationColumnsContent" : "AndreiChis 1/10/2017 23:14:03",
+		"testStatePresentationColumnsStructure" : "AndreiChis 12/23/2016 14:59:31",
+		"testStatePresentationStructureRootNodesWithChildren" : "AndreiChis 1/10/2017 23:14:03",
+		"testStatePresentationStructureRootNodesWithoutChildren" : "AndreiChis 1/10/2017 23:14:03",
+		"testStatePresentationUninitializedContent" : "AndreiChis 12/23/2016 14:59:31" } }

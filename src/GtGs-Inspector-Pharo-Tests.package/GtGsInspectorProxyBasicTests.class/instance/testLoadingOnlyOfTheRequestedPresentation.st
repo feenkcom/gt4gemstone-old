@@ -4,7 +4,7 @@ testLoadingOnlyOfTheRequestedPresentation
 	
 	inspectorProxy := self client objectSerializer fromString: (self client performStringRemotely: ' ''a test string'' gtGsSerializedInspectorProxyAndSelect: ''Items''.').
 	inspectorProxy gemstoneClient: self client.
-	gsItemsPresentation := inspectorProxy gsPresentations first.
+	gsItemsPresentation := inspectorProxy gsPresentations second.
 	
 	self assert: (gsItemsPresentation cache includesKey: #displayValue).
 	
