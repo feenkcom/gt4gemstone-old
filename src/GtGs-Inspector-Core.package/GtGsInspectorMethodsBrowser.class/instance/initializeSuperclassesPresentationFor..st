@@ -1,5 +1,5 @@
 initialization
-initializeSuperclassesFor: aClass
+initializeSuperclassesPresentationFor: aClass
 	
 	superclassesPresentation := GtGsGlmListPresentation new
 		display: [ aClass  withAllSuperclasses reversed ];

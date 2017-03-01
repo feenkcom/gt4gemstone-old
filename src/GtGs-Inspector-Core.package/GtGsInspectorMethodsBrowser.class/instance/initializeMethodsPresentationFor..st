@@ -1,8 +1,8 @@
 initialization
-initializeMethodsFor: aClass
+initializeMethodsPresentationFor: aClass
 	
 	methodsPresentation := GtGsGlmListPresentation new
-		display: [ aClass withAllSuperclasses localSelectors ];
+		display: [ aClass localSelectors ];
 		format: [ :aSelector | aSelector asString ].
 	methodsPresentation 
 		updateForOwner: self;
