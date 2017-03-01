@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.170' message 'bind self to the current object in the current object in the editor' id '85e281c9-0d1b-4e6c-bcc4-46d687310861' date '1 March 2017' time '7:04:30.801548 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.169' message 'Compute the presentation shwoing the code of a method
-' id '1fb0ab5c-c3e3-5f5d-bc1e-e84c6cab0d26' date '1 March 2017' time '6:54:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.171' message 'fixed typo in excludedInstVarNames' id '2798b872-8c3c-4498-9432-c4ae9492a7d6' date '1 March 2017' time '7:09:31.745774 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.170' message 'bind self to the current object in the current object in the editor
+' id '7b5c21bd-81d5-57d0-ba79-427297645fdf' date '1 March 2017' time '7:04:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
