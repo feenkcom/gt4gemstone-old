@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.66' message 'refactorings' id 'e5794388-21f1-4578-8c8f-774c304a4943' date '1 March 2017' time '7:04:59.406414 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.65' message 'display the list of methods belonging to a class
-' id '35bc87db-8989-5f0e-85e9-c381302976cb' date '1 March 2017' time '6:34:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.67' message 'Added a ''Reset'' actions to the session manager' id '6404ee09-420b-4971-b52e-cee9340f484a' date '1 March 2017' time '7:17:52.941929 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.66' message 'refactorings
+' id '47cea9ea-2099-59c1-9342-5178cd8523ca' date '1 March 2017' time '7:05:03 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

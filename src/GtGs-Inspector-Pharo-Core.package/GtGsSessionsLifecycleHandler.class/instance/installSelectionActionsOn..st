@@ -27,6 +27,12 @@ installSelectionActionsOn: aPresentation
 			entitled: 'Abort'
 			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ];
 		selectionAct: [ :currentPresentation |
+				currentPresentation selection
+					logout;
+					login ] 
+			entitled: 'Reset'
+			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ];
+		selectionAct: [ :currentPresentation |
 				currentPresentation selection logout ] 
 			entitled: 'Logout'
 			condition: [ :currentPresentation | currentPresentation selection 
