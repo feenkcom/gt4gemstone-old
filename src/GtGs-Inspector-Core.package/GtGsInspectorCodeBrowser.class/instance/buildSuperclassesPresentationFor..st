@@ -5,5 +5,4 @@ buildSuperclassesPresentationFor: aClass
 		display: [ aClass  withAllSuperclasses reversed ];
 		format: [ :currentClass | currentClass gtGsInspectorName ].
 	superclassesPresentation 
-		updateForOwner: self;
-		updateCache
+		updateForOwner: self

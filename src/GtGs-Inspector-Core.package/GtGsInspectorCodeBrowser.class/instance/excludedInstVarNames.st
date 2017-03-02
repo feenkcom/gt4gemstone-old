@@ -1,3 +1,0 @@
-ston
-excludedInstVarNames
-  ^ #(#'topezServer' #'targetObject')

@@ -4,21 +4,12 @@
 	"instance" : {
 		"buildCodePresentationFor:" : "AndreiChis 3/1/2017 19:03",
 		"buildMethodsPresentationFor:" : "AndreiChis 3/1/2017 19:14",
-		"buildSuperclassesPresentationFor:" : "AndreiChis 3/1/2017 19:03",
+		"buildSuperclassesPresentationFor:" : "AndreiChis 3/2/2017 17:56",
 		"codePresentation" : "AndreiChis 3/1/2017 18:50",
 		"codePresentation:" : "AndreiChis 3/1/2017 18:50",
 		"computeCodePresentationsFor:" : "AndreiChis 3/1/2017 19:03",
 		"computeMethodsPresentationsFor:" : "AndreiChis 3/1/2017 19:03",
-		"excludedInstVarNames" : "AndreiChis 3/1/2017 19:09",
-		"fromSton:" : "AndreiChis 3/1/2017 16:03",
 		"methodsPresentation" : "AndreiChis 3/1/2017 18:24",
 		"methodsPresentation:" : "AndreiChis 3/1/2017 18:50",
-		"selfOop" : "AndreiChis 3/1/2017 18:30",
-		"setOops" : "AndreiChis 3/1/2017 16:04",
-		"stonInstVarNames" : "AndreiChis 3/1/2017 16:03",
-		"stonOn:" : "AndreiChis 3/1/2017 16:03",
-		"stonProcessSubObjects:" : "AndreiChis 3/1/2017 16:03",
 		"superclassesPresentation" : "AndreiChis 3/1/2017 16:05",
-		"targetObject:" : "AndreiChis 3/1/2017 19:02",
-		"topezServer" : "AndreiChis 3/1/2017 15:52",
-		"topezServer:" : "AndreiChis 3/1/2017 15:52" } }
+		"updateCache" : "AndreiChis 3/2/2017 14:02" } }

@@ -6,11 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"superclassesPresentation",
-		"methodsPresentation",
-		"codePresentation" ],
-	"name" : "GtGsInspectorCodeBrowser",
+		"selfOop",
+		"cache",
+		"topezServer",
+		"targetObject",
+		"titleBlock",
+		"glamourPresentation" ],
+	"name" : "GtGsGlmBrowser",
 	"pools" : [
 		 ],
-	"super" : "GtGsGlmBrowser",
+	"super" : "Object",
 	"type" : "normal" }

@@ -12,8 +12,7 @@
 		"targetObject",
 		"title",
 		"presentations",
-		"curentPresentationIndex",
-		"codeBrowser" ],
+		"curentPresentationIndex" ],
 	"name" : "GtGsInspectorProxy",
 	"pools" : [
 		 ],
