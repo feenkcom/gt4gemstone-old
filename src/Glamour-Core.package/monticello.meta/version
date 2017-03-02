@@ -1,2 +1,2 @@
-(name 'Glamour-Core-AndreiChis.2' message 'Added GLMPresentation>>#selectionAct:entitled:condition: ' id '8743f8a3-5e87-4780-96b9-9e83f1daae9d' date '22 February 2017' time '3:36:52.698861 pm' author 'AndreiChis' ancestors ((name 'Glamour-Core-AndreiChis.1' message 'Pass also the origin ports as an argument to the #send block of a presentation.
-' id '5ffc59fa-62f6-57fb-8f90-9b974c14fb26' date '14 December 2016' time '2:49:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'Glamour-Core-AndreiChis.3' message 'do not call #sourceContext:' id 'fbbca96e-9fa3-41f0-b15c-fc6bddf9136e' date '2 March 2017' time '6:03:11.802926 pm' author 'AndreiChis' ancestors ((name 'Glamour-Core-AndreiChis.2' message 'Added GLMPresentation>>#selectionAct:entitled:condition:
+' id '825be489-c593-5aa1-80bf-a23f48520459' date '22 February 2017' time '3:36:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
