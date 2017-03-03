@@ -6,22 +6,22 @@ compose
 			row: #source.
 		browser transmit
 			to: #classes;
-			andShow: [ :aComposite :inspectorProxy | 
-				self classesIn: aComposite from: inspectorProxy codeBrowser ].
+			andShow: [ :aComposite | 
+				self classesIn: aComposite ].
 		browser transmit
 			from: #classes;
 			fromOutsidePort: #entity;
 			when: [ :classNode | classNode notNil ];
 			to: #methods;
-			andShow: [ :aComposite :classNode :inspectorProxy |
-					self methodsIn: aComposite for: classNode from: inspectorProxy codeBrowser ].
+			andShow: [ :aComposite :classNode |
+					self methodsIn: aComposite for: classNode ].
 		browser transmit
 			from: #methods;
 			fromOutsidePort: #entity;
 			to: #source;
-			andShow: [ :aComposite :methodNode :inspectorProxy | 
+			andShow: [ :aComposite :methodNode | 
 				methodNode ifNotNil: [
-					self codeIn: aComposite for: methodNode from: inspectorProxy codeBrowser ] ].
+					self codeIn: aComposite for: methodNode ] ].
 		browser transmit
 			toOutsidePort: #selection;
 			from: #methods port: #evaluatedObject.
