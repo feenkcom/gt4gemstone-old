@@ -3,4 +3,5 @@ gtGsInspectorMetaIn: aComposite
 	<gtInspectorPresentationOrder: 9>
 	
 	self gtGsIsGemstone ifTrue: [ 
-		aComposite custom: GtGsInspectorCodeBrowser new ]
+		aComposite custom: (GtGsInspectorCodeBrowser new
+			title: [ 'Meta' ]) ]
