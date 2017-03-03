@@ -1,2 +1,3 @@
 updating
 updateCache
+	self updateCacheBasic

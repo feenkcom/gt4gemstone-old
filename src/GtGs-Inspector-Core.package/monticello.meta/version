@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.174' message 'Missing GtGsGlmBrowser>>#targetObject' id '549b23a6-0d0f-4f65-ab5c-795ea29a7155' date '3 March 2017' time '11:00:50.582184 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.173' message 'Added GtGsGlmBrowser as an abstraction for building browsers in Gemstone.
-' id 'e828ea35-6a57-5a0a-af2f-95bb9c5c4584' date '2 March 2017' time '6:05:53 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.175' message 'GtGsGlmBrowser is now a subclass of GtGsGlmPresentation' id '373d7716-98ee-4188-8da5-80c4eff93f74' date '3 March 2017' time '6:20:40.425205 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.174' message 'Missing GtGsGlmBrowser>>#targetObject
+' id '02acb5d1-e985-5985-af79-6224bfb24dbc' date '3 March 2017' time '11:00:55 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

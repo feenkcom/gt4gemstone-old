@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selfOop",
-		"cache",
 		"topezServer",
-		"targetObject",
-		"titleBlock",
-		"glamourPresentation" ],
+		"targetObject" ],
 	"name" : "GtGsGlmBrowser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "GtGsGlmPresentation",
 	"type" : "normal" }

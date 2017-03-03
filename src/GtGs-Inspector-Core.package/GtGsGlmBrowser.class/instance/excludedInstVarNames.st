@@ -1,3 +1,3 @@
 ston
 excludedInstVarNames
-  ^ #(#'topezServer' #'targetObject' #'glamourPresentation' #'titleBlock')
+  ^ super excludedInstVarNames, #(#'topezServer' #'targetObject')
