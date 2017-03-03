@@ -1,4 +1,5 @@
 updating
 updateCacheBasic
 	super updateCacheBasic.
-	self buildSuperclassesPresentationFor: self targetObject class.
+	(self superclassesPresentationFor: self targetObject class)
+		updateForOwner: self.
