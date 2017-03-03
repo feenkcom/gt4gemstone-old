@@ -1,4 +1,4 @@
 updating
-updateCache
+updateCacheBasic
 
 	self buildSuperclassesPresentationFor: self targetObject class.

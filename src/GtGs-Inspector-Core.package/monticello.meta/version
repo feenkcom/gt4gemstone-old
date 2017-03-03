@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.176' message 'added a title to GtGsInspectorCodeBrowser' id '3ff3302d-8c15-46dc-911c-fe4bf359ce48' date '3 March 2017' time '6:24:18.991133 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.175' message 'GtGsGlmBrowser is now a subclass of GtGsGlmPresentation
-' id '3423ac22-69c5-5096-b193-1099133a1faf' date '3 March 2017' time '6:20:45 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.177' message 'Implement updateCacheBasic in the remote code browser.' id '8185614e-30dc-427d-9278-13dd4a049d12' date '3 March 2017' time '6:30:53.602343 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.176' message 'added a title to GtGsInspectorCodeBrowser
+' id '7ebae492-a15b-52b5-b19e-773d9ede521f' date '3 March 2017' time '6:24:23 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
