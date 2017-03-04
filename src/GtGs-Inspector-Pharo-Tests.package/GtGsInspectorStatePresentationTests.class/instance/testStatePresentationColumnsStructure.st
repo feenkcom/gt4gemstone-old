@@ -3,7 +3,7 @@ testStatePresentationColumnsStructure
 	| inspectorProxy statePresentation |
 	
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.
-	self assert: inspectorProxy gsPresentations size equals: 2.
+	self assert: inspectorProxy gsPresentations size equals: 3.
 	
 	statePresentation :=inspectorProxy gsPresentations first.
 	self assert: statePresentation class equals: GtGsGlmTreePresentation.
