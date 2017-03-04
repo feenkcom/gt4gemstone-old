@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.179' message 'Added a dedicated API for creating a remote presentation in a browser.' id '89379768-4eeb-41b9-9c6d-e7024aeea041' date '3 March 2017' time '6:55:28.746643 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.178' message 'call super in updateCacheBasic
-' id 'df47d974-a9a3-540e-b32d-7174d5807534' date '3 March 2017' time '6:33:01 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.180' message 'basic method for saving code' id '6fa7686e-28e1-4de6-bb25-2037300a0ce2' date '4 March 2017' time '8:22:31.57675 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.179' message 'Added a dedicated API for creating a remote presentation in a browser.
+' id '3385cdab-60b3-5eb2-8c61-e90638d94cb8' date '3 March 2017' time '6:55:34 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
