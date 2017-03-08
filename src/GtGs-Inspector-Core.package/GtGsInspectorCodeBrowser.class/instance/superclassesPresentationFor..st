@@ -2,7 +2,7 @@ building presentations
 superclassesPresentationFor: aClass
 	
 	^ superclassesPresentation := GtGsGlmListPresentation new
-		display: [ aClass allSuperclasses gtGsReversed 
+		display: [ aClass allSuperClasses gtGsReversed 
 			addLast: aClass;
 			yourself ];
 		format: [ :currentClass | currentClass gtGsInspectorName ] 

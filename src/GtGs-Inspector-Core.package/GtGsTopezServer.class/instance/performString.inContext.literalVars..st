@@ -9,7 +9,7 @@ performString: aString inContext: compilationContext literalVars: litVarArrayOrN
     		flags: 0) _executeInContext: compilationContext  ]
 		ifFalse: [ ^ aString
 			evaluateInContext: compilationContext
-    		symbolList: GsCurrentSession currentSession symbolList, (litVarArrayOrNil ifNil: [#()]).
+    		symbolList: GsCurrentSession currentSession symbolList.
 	 ]
 	
 	
