@@ -8,5 +8,5 @@ dotSelfLiteralArray
     litVarArray
       add: tempVar;
       add:
-          (SymbolAssociation key: tempVar value: (self argAndTempNamesAt: index)) ].
+          (SymbolAssociation newWithKey: tempVar value: (self argAndTempNamesAt: index)) ].
   ^ litVarArray

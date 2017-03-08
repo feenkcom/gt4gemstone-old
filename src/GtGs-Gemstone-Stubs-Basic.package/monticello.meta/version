@@ -1,2 +1,2 @@
-(name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.6' message 'added #dotSelfLiteralArray' id 'e8d18432-93ee-46dd-bae4-56f52068b364' date '23 February 2017' time '3:58:07.649129 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.5' message 'Added #argOrTempNamed:ifAbsent:
-' id '1f783cf9-20b5-51b5-aae5-ba14ffa476bc' date '9 December 2016' time '5:14:03 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.7' message 'Use #newWithKey:value: in dotSelfLiteralArray' id '4c6f66e1-1525-4d87-b6fc-435e6bce2a3f' date '8 March 2017' time '10:42:07.545049 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.6' message 'added #dotSelfLiteralArray
+' id 'db2ffa1a-eb37-5f05-9b0a-af5b87ce541a' date '23 February 2017' time '3:58:11 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
