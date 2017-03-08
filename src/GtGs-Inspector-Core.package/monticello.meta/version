@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.180' message 'basic method for saving code' id '6fa7686e-28e1-4de6-bb25-2037300a0ce2' date '4 March 2017' time '8:22:31.57675 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.179' message 'Added a dedicated API for creating a remote presentation in a browser.
-' id '3385cdab-60b3-5eb2-8c61-e90638d94cb8' date '3 March 2017' time '6:55:34 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.181' message 'attempt to make tools work in gemstone 3.3.0' id 'b89be0b3-4f2d-454e-8838-63d101e04c72' date '8 March 2017' time '10:25:39.26859 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.180' message 'basic method for saving code
+' id '35a6c26d-1b65-50f1-9f3a-ae73b54592d7' date '4 March 2017' time '8:22:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
