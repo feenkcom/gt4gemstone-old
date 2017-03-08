@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.181' message 'attempt to make tools work in gemstone 3.3.0' id 'b89be0b3-4f2d-454e-8838-63d101e04c72' date '8 March 2017' time '10:25:39.26859 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.180' message 'basic method for saving code
-' id '35a6c26d-1b65-50f1-9f3a-ae73b54592d7' date '4 March 2017' time '8:22:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.182' message 'withAllSuperclasses does not exist in bare gemstone 3.3.0' id '3bab9071-20e6-41ef-a08f-01a1f74618d8' date '8 March 2017' time '10:42:45.349599 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.181' message 'attempt to make tools work in gemstone 3.3.0
+' id '9b912fce-953f-5b88-adb6-ad903b10d06f' date '8 March 2017' time '10:25:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
