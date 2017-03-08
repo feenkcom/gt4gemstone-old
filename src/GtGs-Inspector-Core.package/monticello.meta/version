@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.185' message 'use gtGsWithGemstoneLineEndings' id '38853191-6bb5-400c-92e1-35c330c0fcc0' date '8 March 2017' time '11:08:40.712932 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.184' message 'Use #selectors instead of #localSelectors
-' id '6357becd-a2ee-5578-9359-09699b2660ad' date '8 March 2017' time '11:03:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.186' message 'Updated compilation to work in a bare gemstone 3.3.0' id '76540cc8-2e12-4341-9ec9-494211420e8b' date '8 March 2017' time '11:27:19.451389 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.185' message 'use gtGsWithGemstoneLineEndings
+' id '94e9c5b2-6736-5f8e-9cb8-fddc89015d69' date '8 March 2017' time '11:08:46 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
