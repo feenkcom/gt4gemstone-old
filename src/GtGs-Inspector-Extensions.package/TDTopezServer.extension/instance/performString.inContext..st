@@ -1,6 +1,4 @@
 *GtGs-Inspector-Extensions
-performString: aString inContext: anObject
-	^ aString 
-		evaluateInContext: anObject
-    	symbolList: (Smalltalk at: #GsCurrentSession) currentSession symbolList.
+performString: aString inContext: compilationContext
+	^ self performString: aString inContext: compilationContext literalVars: nil
 	
