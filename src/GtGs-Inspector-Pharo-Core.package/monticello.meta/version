@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.68' message 'use the API of the remote browser to create presentations' id 'c2216a84-90c5-41fa-a547-35024bd08697' date '3 March 2017' time '6:56:59.642297 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.67' message 'Added a ''Reset'' actions to the session manager
-' id 'e040fff5-edd4-58d3-8a09-591e45388d27' date '1 March 2017' time '7:17:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.69' message 'basic support for saving code' id '71e672f4-b34a-4b62-90da-adf2c8176a11' date '8 March 2017' time '9:13:53.878831 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.68' message 'use the API of the remote browser to create presentations
+' id '8579e9e1-5580-5645-bf76-2c6157add3f5' date '3 March 2017' time '6:57:04 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

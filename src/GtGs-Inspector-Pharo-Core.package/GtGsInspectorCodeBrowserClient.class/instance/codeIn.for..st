@@ -16,3 +16,5 @@ codeIn: aComposite for: methodNode
 			shortcut: $g; 
 			withSeparatorBefore;
 			yourself).
+			
+	gsCodePresentation glamourPresentation actions add: self saveAction
