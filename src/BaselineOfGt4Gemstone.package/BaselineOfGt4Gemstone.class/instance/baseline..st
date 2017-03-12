@@ -30,10 +30,11 @@ baseline: spec
 			package: 'Glamour-Core';
 			package: 'Glamour-FastTable';
 			package: 'Glamour-Morphic-Renderer';
+			package: 'GtGs-BareProxy-Pharo';
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-Inspector-SystemExtensions';
-			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
+			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-BareProxy-Pharo' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Core' 'Glamour-FastTable' 'Glamour-Core') ];
@@ -47,7 +48,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core');
+				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core' 'GtGs-BareProxy-Pharo');
 			group: 'Tests'
 				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
