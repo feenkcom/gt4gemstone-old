@@ -9,7 +9,7 @@ gtGsInspectorContactOn: aComposite
 					'city' -> self address city.
 					'country' -> self address country.
 					'telephone' -> self address telephone fullNumber } ];
-		column: 'Detail' evaluated: #key;
-		column: 'Value' evaluated: #value;
+		column: ['Detail'] evaluated: #key;
+		column: ['Value'] evaluated: #value;
 		send: #value
 		
