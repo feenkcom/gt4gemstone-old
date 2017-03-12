@@ -3,7 +3,7 @@ addExplicitNavigationBlockIn: glamourPresentation from: aGemstonePresentation
 
 	glamourPresentation send: [ :aNode |
 		aGemstonePresentation  gemstoneClient bareProxyForOopType: 
-			(aGemstonePresentation 
+			(aGemstonePresentation gemstoneClient
 				send: #computeSendValueFor:
 				to: aGemstonePresentation selfOopType 
 				withArgs: { aNode selfOop })  ]
