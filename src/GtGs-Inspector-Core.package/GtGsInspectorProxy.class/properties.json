@@ -11,8 +11,7 @@
 		"selfOop",
 		"targetObject",
 		"title",
-		"presentations",
-		"curentPresentationIndex" ],
+		"presentations" ],
 	"name" : "GtGsInspectorProxy",
 	"pools" : [
 		 ],
