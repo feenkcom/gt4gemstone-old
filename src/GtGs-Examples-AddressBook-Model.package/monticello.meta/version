@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Model-AndreiChis.8' message 'Fixed gtGsInspectorContactOn:' id 'cfba6a58-edb2-4f89-98e5-a29b8b74349e' date '12 March 2017' time '2:05:49.906044 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.7' message 'fixed inspector presentation for the address book example
-' id 'b1e3ad54-5029-5699-96d0-21081afff906' date '12 March 2017' time '1:53:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Model-AndreiChis.9' message 'finally fixed gtGsInspectorContactOn:' id 'bbf9dfee-86f6-4638-b552-14538a169d3b' date '12 March 2017' time '2:09:24.525857 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.8' message 'Fixed gtGsInspectorContactOn:
+' id '4a3ccee1-2a43-51f9-a090-8e68d794caad' date '12 March 2017' time '2:05:53 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
