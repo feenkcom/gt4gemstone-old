@@ -13,7 +13,7 @@ installSelectionActionsOn: aPresentation
 				currentPresentation selection inspect ] 
 			entitled: 'Inspect client';
 		selectionAct: [ :currentPresentation |
-				currentPresentation selection performStringRemotelyAndInspect: 'SessionTemps' ] 
+				(currentPresentation selection buildRemoteInspectorProxyFrom: 'SessionTemps') inspect ] 
 			entitled: 'Inspect SessionTemps (remote)'
 			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
 	aPresentation selectionActions last withSeparatorAfter.
