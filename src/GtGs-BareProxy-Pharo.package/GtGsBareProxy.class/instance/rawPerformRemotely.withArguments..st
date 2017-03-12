@@ -1,5 +1,5 @@
 actions - proxy
-barePerformRemotely: aSelector withArguments: argumentsArray
+rawPerformRemotely: aSelector withArguments: argumentsArray
 	^ self gemstoneClient 
 		send: aSelector 
 		to: self selfOopType
