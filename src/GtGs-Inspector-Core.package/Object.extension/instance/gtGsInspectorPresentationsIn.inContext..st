@@ -6,7 +6,7 @@ gtGsInspectorPresentationsIn: aComposite inContext: aContext
 	inspectorSelectors := objectClass allSelectors select: [ :aSelector |
 		aContext isMethodCreatingPresentation: (self gtGsLookupSelector: aSelector) ].
 	inspectorSelectors := inspectorSelectors asSet.
-	inspectorSelectors remove: #gtGsInspectorPresentationsIn:inContext:.
+	inspectorSelectors remove: #gtGsInspectorPresentationsIn:inContext: ifAbsent: [].
 	
 	inspectorSelectors := inspectorSelectors sortWithBlock: [ :aSelector : anotherSelector |
 		aSelector < anotherSelector ].
