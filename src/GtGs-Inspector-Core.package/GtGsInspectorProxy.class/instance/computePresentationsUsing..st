@@ -3,7 +3,7 @@ computePresentationsUsing: aSelector
 	| aComposite presentation |
 
 	aComposite := GtGsGlmCompositePresentation new.
-	self perform: aSelector with: aComposite.
+	self targetObject perform: aSelector with: aComposite.
 	aComposite presentations size = 0 ifTrue: [ ^ nil ].
 	
 	presentation := aComposite presentations first.
