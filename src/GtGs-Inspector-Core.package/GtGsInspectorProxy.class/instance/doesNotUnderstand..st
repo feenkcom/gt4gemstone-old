@@ -5,6 +5,8 @@ doesNotUnderstand: aMessage
 	
 	^ (self remotePresentationUsing: aMessage selector)
 		ifNil: [ super doesNotUnderstand: aMessage  ] 
-		ifNotNil: [ :aGsPresentation | 
+		ifNotNil: [ :aGsPresentation ||glamourPresentation| 
 			self gsPresentations add: aGsPresentation. "Cache the presentation"
-			aGsPresentation asGlamourPresentationOn: aMessage arguments first ]. 
+			glamourPresentation := aGsPresentation asGlamourPresentationOn: aMessage arguments first.
+			self addExplicitNavigationBlockIn: glamourPresentation from: aGsPresentation.
+			^ glamourPresentation ] 
