@@ -1,5 +1,5 @@
 *GtGs-Inspector-Pharo-Core
-addNavigationBlockIn: glamourPresentation from: aGemstonePresentation
+addInspectorImplicitNavigationBlockIn: glamourPresentation from: aGemstonePresentation
 
 	glamourPresentation send: [ :aListNode :originPorts |
 		aListNode class = GtGsInspectorProxy 
