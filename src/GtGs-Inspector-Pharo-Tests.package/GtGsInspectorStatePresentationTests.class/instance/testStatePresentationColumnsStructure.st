@@ -8,7 +8,7 @@ testStatePresentationColumnsStructure
 	statePresentation :=inspectorProxy gsPresentations first.
 	self assert: statePresentation class equals: GtGsGlmTreePresentation.
 	self assert: statePresentation gemstoneClient equals: self client.
-	self assert: statePresentation cache size equals: 2.
+	self assert: statePresentation cache size equals: 3.
 	self assert: statePresentation columns size equals: 2.
 	
 	self assert: (statePresentation cache includesKey: #title).
