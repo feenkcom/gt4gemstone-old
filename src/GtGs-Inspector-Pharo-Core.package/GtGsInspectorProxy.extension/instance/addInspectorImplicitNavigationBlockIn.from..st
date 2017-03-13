@@ -2,7 +2,7 @@
 addInspectorImplicitNavigationBlockIn: glamourPresentation from: aGemstonePresentation
 
 	glamourPresentation send: [ :aListNode :originPorts |
-		aListNode class = GtGsInspectorProxy 
+		(aListNode isKindOf: GtGsInspectorProxy)
 			ifTrue: [ 
 				self flag: 'needed because of the experimental actions that
 				populate the selection through a call from gemstone.'.
