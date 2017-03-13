@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.205' message 'do not use addFirst when working with arrays' id 'f6aa752c-51ee-4062-bb5e-4769136d829c' date '13 March 2017' time '3:59:25.099993 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.204' message 'Do not display superclasses in reverse order.
-' id 'd884ee86-8c76-593c-9d51-0a4f654695a4' date '13 March 2017' time '3:56:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.206' message 'experimental presentations' id '7d1b2c50-700c-47bb-af82-ab61393cf221' date '13 March 2017' time '6:35:14.764476 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.205' message 'do not use addFirst when working with arrays
+' id '10c97efd-c633-5e15-9572-617ef405fab2' date '13 March 2017' time '3:59:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
