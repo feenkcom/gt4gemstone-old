@@ -1,5 +1,8 @@
 accessing
 proxyMappings
-	^ { 
-		#'GsNMethod' -> #'GtGsMethodInspectorProxy' .
-		#'Class'     -> #'GtGsClassInspectorProxy' }
+	| mappings |
+	mappings := Dictionary new.
+	mappings
+		at: #'GsNMethod' put: #'GtGsMethodInspectorProxy';
+		at: #'Class'     put: #'GtGsClassInspectorProxy'.
+	^ mappings
