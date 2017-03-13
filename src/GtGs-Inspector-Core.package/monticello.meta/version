@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.201' message 'fixed typo' id 'fc255694-51c9-4280-a86d-849c2d3c5ad3' date '13 March 2017' time '3:10:10.281422 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.200' message 'Use a different way of overriding the custom presentations in the special inspectors
-' id 'dc0ecaba-b091-51a0-b5c9-9fc26d0de8fa' date '13 March 2017' time '3:08:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.202' message 'fixed inspectorPresentationsIn:' id '962be462-dfcf-4a02-ae9b-2ab950fc6002' date '13 March 2017' time '3:12:07.445535 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.201' message 'fixed typo
+' id 'cb6a2139-b413-5e51-93b2-d62697c9ab6e' date '13 March 2017' time '3:10:15 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
