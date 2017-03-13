@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.207' message 'clean-ups' id 'd48ac6b9-69fd-4b26-b227-6f98ed7cd92c' date '13 March 2017' time '9:08:00.656477 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.206' message 'experimental presentations
-' id 'd110d46d-d212-5358-9d92-0ec2c9be5137' date '13 March 2017' time '6:35:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.208' message 'Store also the oop of the target object in the inspector proxy.' id 'dd28bac9-ddd9-4370-b832-bb86a9b36a31' date '13 March 2017' time '10:02:31.112946 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.207' message 'clean-ups
+' id '43d1009a-288b-5e47-b032-7b9a091c6360' date '13 March 2017' time '9:08:06 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

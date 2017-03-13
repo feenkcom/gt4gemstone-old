@@ -10,6 +10,7 @@
 		"topezServer",
 		"selfOop",
 		"targetObject",
+		"targetObjectOop",
 		"title",
 		"presentations" ],
 	"name" : "GtGsInspectorProxy",
