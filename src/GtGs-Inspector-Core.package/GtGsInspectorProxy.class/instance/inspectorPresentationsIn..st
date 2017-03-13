@@ -1,5 +1,5 @@
 as yet unclassified
-inspectorPresentationsIn: aComposite.
+inspectorPresentationsIn: aComposite
 
 	targetObject 
 		gtGsInspectorPresentationsIn: aComposite
