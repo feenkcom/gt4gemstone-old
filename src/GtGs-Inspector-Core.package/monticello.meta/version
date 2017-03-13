@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.206' message 'experimental presentations' id '7d1b2c50-700c-47bb-af82-ab61393cf221' date '13 March 2017' time '6:35:14.764476 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.205' message 'do not use addFirst when working with arrays
-' id '10c97efd-c633-5e15-9572-617ef405fab2' date '13 March 2017' time '3:59:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.207' message 'clean-ups' id 'd48ac6b9-69fd-4b26-b227-6f98ed7cd92c' date '13 March 2017' time '9:08:00.656477 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.206' message 'experimental presentations
+' id 'd110d46d-d212-5358-9d92-0ec2c9be5137' date '13 March 2017' time '6:35:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
