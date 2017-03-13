@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.204' message 'Do not display superclasses in reverse order.' id '411a3b73-7098-4840-9f16-bc6407874cdb' date '13 March 2017' time '3:56:18.644095 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.203' message 'removed inspector annotation from gtGsInspectorSourceCodeIn:
-' id 'b44a79cf-255d-56a1-b8a8-31a87c2bb798' date '13 March 2017' time '3:37:03 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.205' message 'do not use addFirst when working with arrays' id 'f6aa752c-51ee-4062-bb5e-4769136d829c' date '13 March 2017' time '3:59:25.099993 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.204' message 'Do not display superclasses in reverse order.
+' id 'd884ee86-8c76-593c-9d51-0a4f654695a4' date '13 March 2017' time '3:56:24 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

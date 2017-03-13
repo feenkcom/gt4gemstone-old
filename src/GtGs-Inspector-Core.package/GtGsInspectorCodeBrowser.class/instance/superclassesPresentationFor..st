@@ -2,8 +2,6 @@ building presentations
 superclassesPresentationFor: aClass
 	
 	^ superclassesPresentation := GtGsGlmListPresentation new
-		display: [ aClass allSuperClasses  
-			addFirst: aClass;
-			yourself ];
+		display: [ {aClass} , aClass allSuperClasses ];
 		format: [ :currentClass | currentClass gtGsInspectorName ] 
 		

@@ -5,8 +5,6 @@ gtGsInspectorSuperclassesIn: aComposite
 		gemstoneOrRemoteWith: [ 
 			aComposite fastList
 				title: [ 'Superclasses' ];
-				display: [ self targetObject allSuperClasses 
-					addFirst: self targetObject;
-					yourself ];
+				display: [ {self targetObject}, self targetObject allSuperClasses  ];
 				format: [ :currentClass | currentClass gtGsInspectorName ] ]
 		on: aComposite
