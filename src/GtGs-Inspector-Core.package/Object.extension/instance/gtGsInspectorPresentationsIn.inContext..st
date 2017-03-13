@@ -1,10 +1,8 @@
 *GtGs-Inspector-Core
 gtGsInspectorPresentationsIn: aComposite inContext: aContext
-	| objectClass inspectorSelectors |
+	| inspectorSelectors |
 	
-	objectClass := Reflection classOf: self.
-	inspectorSelectors := objectClass allSelectors select: [ :aSelector |
-		aContext isMethodCreatingPresentation: (self gtGsLookupSelector: aSelector) ].
+	inspectorSelectors := aContext selectorsCreatingPresentationsForObject: self.
 	inspectorSelectors := inspectorSelectors asSet.
 	inspectorSelectors remove: #gtGsInspectorPresentationsIn:inContext: ifAbsent: [].
 	

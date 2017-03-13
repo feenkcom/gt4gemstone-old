@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.198' message 'Added titles to code presentations.' id '534c6ec7-d99a-4e2b-ac13-c3c9506f4b62' date '13 March 2017' time '12:00:37.694276 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.197' message 'handle class objects separately when creating a proxy
-' id '9c2342bb-2e44-5b63-89a4-4fe64aa0b0bb' date '13 March 2017' time '11:57:11 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.199' message 'Do load the inspector presentations of a special proxy object using annotations.' id '1d6dc26c-6224-4abd-91bf-c4d2480a9fb3' date '13 March 2017' time '2:57:36.343047 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.198' message 'Added titles to code presentations.
+' id '2f9c19c6-588a-55b5-9383-48953771ba56' date '13 March 2017' time '12:00:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

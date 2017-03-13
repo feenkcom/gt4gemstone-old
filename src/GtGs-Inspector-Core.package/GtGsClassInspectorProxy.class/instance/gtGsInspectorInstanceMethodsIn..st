@@ -1,6 +1,5 @@
 as yet unclassified
 gtGsInspectorInstanceMethodsIn: aComposite
-	<gtInspectorPresentationOrder: 15>
 	
 	self 
 		gemstoneOrRemoteWith: [ 
