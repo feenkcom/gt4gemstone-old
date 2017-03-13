@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.202' message 'fixed inspectorPresentationsIn:' id '962be462-dfcf-4a02-ae9b-2ab950fc6002' date '13 March 2017' time '3:12:07.445535 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.201' message 'fixed typo
-' id 'cb6a2139-b413-5e51-93b2-d62697c9ab6e' date '13 March 2017' time '3:10:15 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.203' message 'removed inspector annotation from gtGsInspectorSourceCodeIn:' id '83cf363d-f083-4d26-be74-b0328352823a' date '13 March 2017' time '3:36:58.28224 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.202' message 'fixed inspectorPresentationsIn:
+' id 'c2fa5ac5-832e-57f2-82e7-5f23d31e2557' date '13 March 2017' time '3:12:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

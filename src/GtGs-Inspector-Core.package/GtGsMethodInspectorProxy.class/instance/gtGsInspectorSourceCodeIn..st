@@ -1,6 +1,5 @@
 printing
 gtGsInspectorSourceCodeIn: aComposite
-	<gtInspectorPresentationOrder: 9>
 	
 	self 
 		gemstoneOrRemoteWith: [ 
