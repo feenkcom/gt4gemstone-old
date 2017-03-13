@@ -1,7 +1,7 @@
 initialization
-forOop: anOop
+forObject: anObject
 
-	targetObject := Object _objectForOop: anOop.
+	targetObject := anObject.
 	self title: targetObject gtGsInspectorName.
 	self updateTopezServer.
 	self updatePresentations.

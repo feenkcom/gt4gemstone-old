@@ -1,7 +1,4 @@
 instance-creation
 forOop: anOop
 	
-	^ self new
-		forOop: anOop;
-		linkWithTopezServer;
-		yourself
+	^ self forObject: (Object _objectForOop: anOop)
