@@ -2,9 +2,7 @@ updating
 updatePresentations
 	| aComposite |
 	aComposite := GtGsGlmCompositePresentation new.
-	targetObject 
-		gtGsInspectorPresentationsIn: aComposite
-		inContext: self.
+	self inspectorPresentationsIn: aComposite.
 	
 	aComposite presentations do: [ :each | 
 		each cache at: #inspectorPresentation put: true.
