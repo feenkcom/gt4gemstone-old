@@ -2,10 +2,10 @@
 	"class" : {
 		"createAndSerializeProxyFor:andSelect:" : "AndreiChis 3/12/2017 23:48",
 		"createAndSerializeProxyForOop:andSelect:" : "AndreiChis 3/12/2017 23:49",
-		"forObject:" : "AndreiChis 3/13/2017 10:47",
+		"forObject:" : "AndreiChis 3/13/2017 11:56",
 		"forOop:" : "AndreiChis 3/12/2017 23:48",
-		"proxyClassForObject:" : "AndreiChis 3/13/2017 11:51",
-		"proxyMappings" : "AndreiChis 3/13/2017 10:43" },
+		"proxyForObject:" : "AndreiChis 3/13/2017 11:56",
+		"proxyMappings" : "AndreiChis 3/13/2017 11:56" },
 	"instance" : {
 		"asTopazSerializedString" : "AndreiChis 12/23/2016 14:55:43",
 		"computePresentationFor:using:" : "AndreiChis 3/13/2017 11:19",

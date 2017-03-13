@@ -3,6 +3,5 @@ proxyMappings
 	| mappings |
 	mappings := Dictionary new.
 	mappings
-		at: #'GsNMethod' put: #'GtGsMethodInspectorProxy';
-		at: #'Class'     put: #'GtGsClassInspectorProxy'.
+		at: #'GsNMethod' put: #'GtGsMethodInspectorProxy'.
 	^ mappings

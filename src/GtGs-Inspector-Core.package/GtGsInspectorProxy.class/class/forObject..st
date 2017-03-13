@@ -1,7 +1,7 @@
 instance-creation
 forObject: anObject
 	
-	^ (self proxyClassForObject: anObject) new
+	^ (self proxyForObject: anObject)
 		forObject: anObject;
 		linkWithTopezServer;
 		yourself
