@@ -1,10 +1,11 @@
 as yet unclassified
-gemstoneWith: aBlock orRemoteWith: aSelector on: aComposite
+gemstoneWith: aBlock orRemoteWith: aPresentationSelector on: aComposite
 
 	self gtGsIsGemstone 
 		ifTrue: [
 			aBlock cull: aComposite ]
 		ifFalse: [
 			self 
-				glamourPresentationUsing: aSelector
+				glamourPresentationFor: #yourself
+				using: aPresentationSelector
 				on: aComposite ]

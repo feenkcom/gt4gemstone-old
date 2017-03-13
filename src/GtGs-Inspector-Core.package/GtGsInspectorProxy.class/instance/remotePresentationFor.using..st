@@ -1,10 +1,11 @@
 as yet unclassified
-remotePresentationUsing: aSelector
+remotePresentationFor: anObjectSelector using: aPresentationSelector
 	| remotePresentation |
+	
 	remotePresentation := self gemstoneClient 
-		executeRemotely: #computePresentationsUsing:
+		executeRemotely: #computePresentationFor:using:
 		on: (self gemstoneClient session asOopType: self selfOop)
-		withArguments: { aSelector }.
+		withArguments: { anObjectSelector. aPresentationSelector }.
 	^ remotePresentation 
 		gemstoneClient: self gemstoneClient;
 		yourself

@@ -4,5 +4,6 @@ doesNotUnderstand: aMessage
 		^ super doesNotUnderstand: aMessage ].
 	
 	^ self 
-		glamourPresentationUsing: aMessage selector 
+		glamourPresentationFor: #targetObject
+		using: aMessage selector 
 		on: aMessage arguments first

@@ -1,10 +1,10 @@
 as yet unclassified
-gtGsInspectorSourceCodeIn: aComposite
+gtGsInspectorSuperclassesIn: aComposite
 	<gtInspectorPresentationOrder: 15>
 	
 	self 
 		gemstoneOrRemoteWith: [ 
-			aComposite fastList new
+			aComposite fastList
 				display: [ self targetObject allSuperClasses gtGsReversed 
 					addLast: self targetObject;
 					yourself ];

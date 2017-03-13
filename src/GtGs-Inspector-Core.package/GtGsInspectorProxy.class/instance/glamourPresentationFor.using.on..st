@@ -1,7 +1,7 @@
 as yet unclassified
-glamourPresentationUsing: aSelector on: aCanvas
+glamourPresentationFor: anObjectSelector using: aPresentationSelector on: aCanvas
 
-	^ (self remotePresentationUsing: aSelector)
+	^ (self remotePresentationFor: anObjectSelector using: aPresentationSelector)
 		ifNotNil: [ :aGsPresentation ||glamourPresentation| 
 			self gsPresentations add: aGsPresentation. "Cache the presentation"
 			glamourPresentation := aGsPresentation asGlamourPresentationOn: aCanvas.

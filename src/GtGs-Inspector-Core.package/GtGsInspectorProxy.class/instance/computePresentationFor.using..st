@@ -1,9 +1,9 @@
 as yet unclassified
-computePresentationsUsing: aSelector
+computePresentationFor: anObjectSelector using: aPresentationSelector
 	| aComposite presentation |
 
 	aComposite := GtGsGlmCompositePresentation new.
-	self targetObject perform: aSelector with: aComposite.
+	(self perform: anObjectSelector) perform: aPresentationSelector with: aComposite.
 	aComposite presentations size = 0 ifTrue: [ ^ nil ].
 	
 	presentation := aComposite presentations first.
