@@ -15,7 +15,11 @@ installSelectionActionsOn: aPresentation
 		selectionAct: [ :currentPresentation |
 				(currentPresentation selection buildRemoteInspectorProxyFrom: 'SessionTemps') inspect ] 
 			entitled: 'Inspect SessionTemps (remote)'
-			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
+			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ];
+		selectionAct: [ :currentPresentation | |currentClient|
+				currentClient := currentPresentation selection.
+				currentClient class loginWith: (self duplicateSessionDescription: currentClient sessionDescription) ] 
+			entitled: 'Duplicate'.
 	aPresentation selectionActions last withSeparatorAfter.
 	aPresentation
 		selectionAct: [ :currentPresentation |
