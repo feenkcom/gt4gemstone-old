@@ -1,3 +1,7 @@
 actions api
 buildRemoteBareProxyFrom: aString
-	^ self bareProxyForOopType: (self session executeString: aString)
+	| computationResult |
+	computationResult := self session executeString: aString.
+	^ computationResult class = GsGciOopType 
+		ifTrue: [ self bareProxyForOopType: computationResult ]
+		ifFalse: [ computationResult ]
