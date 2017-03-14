@@ -12,5 +12,5 @@ printDetailedDescriptionOn: aStream
 	aStream
 		nextPutAll: ']';
 		nextPutAll: ' [';
-		nextPutAll: self session identityHash asString;
+		nextPutAll: self sessionId asString;
 		nextPutAll: ']'

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"startTime" ],
+		"startTime",
+		"sessionId" ],
 	"name" : "GtGsMinimalClient",
 	"pools" : [
 		 ],

@@ -15,7 +15,7 @@ compose
 		column: 'Login time' evaluated: [ :aGemstoneClient | 
 			self formatString: aGemstoneClient creationTimeDescription  for: aGemstoneClient ] width: 150;
 		column: 'Session ID' evaluated: [ :aGemstoneClient | 
-			self formatString: aGemstoneClient sessionHashDescription for: aGemstoneClient  ].	
+			self formatString: aGemstoneClient sessionIdDescription for: aGemstoneClient  ].	
 	
 	self installSelectionActionsOn: clientPresentation.
 	self installToolbarActionsOn: clientPresentation.
