@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.5' message 'added a morph presentations for an address book' id '07328899-0a60-42ce-a3e1-27b4178cea43' date '13 March 2017' time '10:12:43.403614 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.4' message 'fixed examples
-' id '07cce4da-85a3-5f3c-879a-2772fd695e6f' date '12 March 2017' time '1:54:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.6' message 'use the new proxy creation API' id '5488e0e0-1f3a-4f61-9712-f3f73ad49182' date '16 March 2017' time '5:25:25.485844 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.5' message 'added a morph presentations for an address book
+' id '32bd9721-e8b8-5fa4-bb3d-8d30645dd4f3' date '13 March 2017' time '10:12:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

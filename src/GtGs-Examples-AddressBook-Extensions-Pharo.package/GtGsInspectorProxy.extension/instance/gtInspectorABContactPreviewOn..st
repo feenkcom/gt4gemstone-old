@@ -4,5 +4,5 @@ gtInspectorABContactPreviewOn: aComposite
 	
 	^ aComposite morph 
 		title: 'Preview';
-		display: [ ABPreviewMorph new contact: (self gemstoneClient bareProxyForOopType: self targetObjectOopType) ];
+		display: [ ABPreviewMorph new contact: (self gemstoneClient bareProxyForOopType: self targetObjectOopType ofType: GtGsBareProxy) ];
 		when: [ self title beginsWith: 'anABContact(' ]
