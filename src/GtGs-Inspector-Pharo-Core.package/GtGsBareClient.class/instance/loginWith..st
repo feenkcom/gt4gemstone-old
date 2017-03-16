@@ -6,7 +6,7 @@ loginWith: aSessionDescription
 	session := (GsDevKitSession new sessionDescription: aSessionDescription) session.
 	session clientObj: self.
 	[ todeServerCreationString := self todeServerCreationStringWithOptions: true.
-	jsonString := self session executeString: todeServerCreationString ]
+	jsonString := self executeString: todeServerCreationString ]
 		on: TDErrorNotification
 		do: [ :ex | 
 			self
@@ -41,7 +41,7 @@ loginWith: aSessionDescription
 		ifTrue: [ authorId := Author fullName ].
 	self send: #authorInitials: to: todeServerOopType withArgs: {authorId}.
 	self effectiveApiVersion >= '1.3.0' asMetacelloVersionNumber
-		ifTrue: [ self session
+		ifTrue: [ self
 				send: #effectiveApiVersion:
 				to: todeServerOopType
 				withArgs: {self effectiveApiVersion asString} ].

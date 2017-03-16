@@ -1,4 +1,4 @@
 accessing
 isActive
 
-	^ self session notNil
+	^ self session notNil and: [ self session isSessionValid ]

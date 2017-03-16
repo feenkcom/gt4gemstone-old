@@ -1,3 +1,3 @@
 private
 initializeSessionId
-	sessionId := self session executeString: 'System session'
+	sessionId := self executeString: 'System session'
