@@ -1,4 +1,4 @@
-as yet unclassified
+reflective operations
 gemstoneOrRemoteWith: aBlock on: aComposite
 
 	^ self gtGsIsGemstone 
@@ -6,6 +6,6 @@ gemstoneOrRemoteWith: aBlock on: aComposite
 			aBlock cull: aComposite ]
 		ifFalse: [
 			self 
-				glamourPresentationFor: #yourself
+				inspectorPresentationFor: #yourself
 				using: thisContext sender selector
 				on: aComposite ]

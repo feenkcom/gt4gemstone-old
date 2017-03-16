@@ -1,5 +1,5 @@
 testing
-isMethodCreatingPresentation: aGsMethod
+isMethodCreatingInspectorPresentation: aGsMethod
 
 	^ (aGsMethod sourceString includesString: '<gtInspectorPresentationOrder:') and: [ 
 			(aGsMethod selector beginsWith: 'gtGsInspector') 

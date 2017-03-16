@@ -1,4 +1,4 @@
-as yet unclassified
+reflective operations
 inspectorPresentationsIn: aComposite
 
 	targetObject 

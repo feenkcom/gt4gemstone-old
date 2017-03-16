@@ -1,5 +1,5 @@
-as yet unclassified
-computePresentationFor: anObjectSelector using: aPresentationSelector
+reflective operations
+computeInspectorPresentationFor: anObjectSelector using: aPresentationSelector
 	| aComposite presentation |
 
 	aComposite := GtGsGlmCompositePresentation new.
