@@ -27,6 +27,7 @@ baseline: spec
 
 		spec 
 		   package: 'GT-Debugger';
+			package: 'GT-Inspector';
 			package: 'Glamour-Core';
 			package: 'Glamour-FastTable';
 			package: 'Glamour-Morphic-Renderer';
@@ -55,7 +56,7 @@ baseline: spec
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Examples-AddressBook-Extensions-Pharo');
 			group: 'Pharo'
-				with: #('GT-Debugger' 'Glamour-FastTable' 'Glamour-Core' 'Glamour-Morphic-Renderer');
+				with: #('GT-Debugger' 'GT-Inspector' 'Glamour-FastTable' 'Glamour-Core' 'Glamour-Morphic-Renderer');
 			group: 'default' with: #('Core' 'Tests' 'Examples' 'Pharo') ].
 		
 	 spec for: #'gemstone' do: [

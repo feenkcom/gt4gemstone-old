@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.26' message 'added GtGs-Editor-Pharo-Core' id 'f8ac1950-7e1e-4c5f-9ce2-ce81cf00880b' date '16 March 2017' time '5:35:01.354685 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.25' message 'Added GtGs-BareProxy-Pharo to the #pharo baseline
-' id '2a2ceb21-bc60-5677-8d0a-b15301071a55' date '12 March 2017' time '8:17:49 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.27' message 'load GT-Inspector' id 'b7f2e0e6-5a06-4226-9c6e-94c0afa42d30' date '16 March 2017' time '5:37:52.534052 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.26' message 'added GtGs-Editor-Pharo-Core
+' id '114be99a-e3b6-5576-bdb4-a78e59f2f25f' date '16 March 2017' time '5:35:05 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
