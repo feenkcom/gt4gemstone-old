@@ -1,0 +1,18 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"basicVariableValuePairsFor:" : "AndreiChis 4/21/2016 16:05",
+		"compose" : "TudorGirba 1/4/2016 20:38",
+		"evaluatorIn:" : "AndreiChis 4/28/2016 11:09",
+		"generateCacheFor:" : "AndreiChis 4/21/2016 16:02",
+		"generateHashFor:" : "AndreiChis 4/21/2016 16:02",
+		"iconFor:" : "TudorGirba 1/4/2016 20:39",
+		"iconFor:error:" : "TudorGirba 1/4/2016 20:39",
+		"printStringOf:" : "TudorGirba 1/4/2016 20:44",
+		"rebuildCacheFor:" : "AndreiChis 4/20/2016 17:32",
+		"shouldRefresh" : "AndreiChis 4/20/2016 17:30",
+		"stringWithoutInitialCommentFrom:" : "AliakseiSyrel 3/24/2016 01:00",
+		"updateInstanceVariable:from:basedOn:" : "TudorGirba 1/4/2016 20:39",
+		"variableValuePairsFor:" : "AndreiChis 4/21/2016 16:01",
+		"variablesIn:" : "AndreiChis 3/15/2017 19:23" } }

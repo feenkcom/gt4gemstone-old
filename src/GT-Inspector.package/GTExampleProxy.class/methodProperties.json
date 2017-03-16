@@ -1,0 +1,26 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"=" : "StefanReichhart 4/2/2016 19:03",
+		"detachFromSystem" : "StefanReichhart 8/25/2015 20:56",
+		"equalsExample:" : "StefanReichhart 8/2/2015 12:08",
+		"example" : "StefanReichhart 8/23/2015 17:43",
+		"example:" : "StefanReichhart 6/17/2015 13:10",
+		"exists" : "StefanReichhart 8/25/2015 22:01",
+		"gtDebuggerSourceIn:" : "StefanReichhart 7/18/2015 19:37",
+		"gtDisplayOn:" : "StefanReichhart 9/2/2015 21:41",
+		"gtDisplaySummaryOn:" : "StefanReichhart 8/2/2015 14:00",
+		"gtInspectorDependenciesIn:" : "StefanReichhart 8/2/2015 14:14",
+		"gtInspectorSourceIn:" : "StefanReichhart 8/2/2015 14:14",
+		"gtSpotterDependenciesFor:" : "StefanReichhart 8/24/2015 21:31",
+		"gtSpotterDependentsFor:" : "StefanReichhart 8/25/2015 22:10",
+		"gtSpotterPreviewIn:" : "StefanReichhart 8/2/2015 13:58",
+		"hash" : "StefanReichhart 4/2/2016 17:56",
+		"isValid" : "StefanReichhart 9/12/2015 12:17",
+		"matchesMethod:" : "StefanReichhart 8/25/2015 22:01",
+		"owner" : "StefanReichhart 8/25/2015 22:00",
+		"owner:" : "StefanReichhart 8/25/2015 22:00",
+		"resolve" : "StefanReichhart 8/26/2015 21:03",
+		"withExampleDo:" : "StefanReichhart 7/18/2015 19:37",
+		"withExampleDo:ifAbsent:" : "StefanReichhart 7/18/2015 19:37" } }

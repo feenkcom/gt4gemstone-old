@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"context" : "StefanReichhart 3/28/2016 18:54",
+		"context:" : "StefanReichhart 3/28/2016 18:54",
+		"debug" : "StefanReichhart 8/25/2015 21:36",
+		"detachFromSystem" : "StefanReichhart 9/12/2015 20:32",
+		"example" : "StefanReichhart 6/28/2015 16:53",
+		"example:" : "StefanReichhart 6/28/2015 16:53",
+		"expectedError" : "StefanReichhart 8/23/2015 13:46",
+		"expectedError:" : "StefanReichhart 8/23/2015 13:46",
+		"gtDisplayOn:" : "StefanReichhart 4/10/2016 11:09",
+		"isError" : "StefanReichhart 8/23/2015 13:47",
+		"isExpectedError" : "StefanReichhart 8/23/2015 13:53",
+		"isFailure" : "StefanReichhart 8/23/2015 13:47",
+		"isSuccess" : "StefanReichhart 8/23/2015 13:47",
+		"isUnexpectedError" : "StefanReichhart 8/23/2015 13:54",
+		"returnValue" : "StefanReichhart 8/2/2015 11:59",
+		"returnValue:" : "StefanReichhart 8/2/2015 11:59",
+		"run" : "StefanReichhart 8/25/2015 21:36",
+		"unexpectedError" : "StefanReichhart 8/23/2015 13:46",
+		"unexpectedError:" : "StefanReichhart 8/23/2015 13:47" } }

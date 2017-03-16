@@ -1,0 +1,21 @@
+{
+	"class" : {
+		"exampleASTBrowser" : "AndreiChis 1/27/2015 23:30",
+		"exampleCodeBrowser" : "AndreiChis 1/27/2015 23:30",
+		"exampleFileBrowser" : "AndreiChis 1/27/2015 23:30",
+		"exampleFullInspector" : "AndreiChis 1/27/2015 23:30",
+		"exampleHelpBrowser" : "AndreiChis 3/6/2015 10:33",
+		"exampleRawInspector" : "AndreiChis 1/27/2015 23:30" },
+	"instance" : {
+		"addAllSignatures" : "AndreiChis 12/13/2014 11:28",
+		"addAndSelectAllSignatures" : "AndreiChis 12/13/2014 11:33",
+		"addAndSelectSignatureFor:" : "AndreiChis 12/13/2014 11:46",
+		"addSignatureFor:" : "AndreiChis 12/13/2014 11:24",
+		"allPresentationMethods" : "AndreiChis 12/13/2014 11:32",
+		"changeFilterRequestFor:" : "AndreiChis 12/13/2014 12:06",
+		"initialize" : "AndreiChis 12/13/2014 11:43",
+		"inspectorPragmaKey" : "AndreiChis 12/13/2014 11:31",
+		"printSignature:" : "AndreiChis 12/13/2014 12:06",
+		"replaceSelectedSignaturesWith:in:" : "AndreiChis 12/13/2014 11:46",
+		"shouldDisplayPresentationCreateBy:" : "AndreiChis 12/13/2014 12:03",
+		"signatureFor:" : "AndreiChis 12/13/2014 12:03" } }

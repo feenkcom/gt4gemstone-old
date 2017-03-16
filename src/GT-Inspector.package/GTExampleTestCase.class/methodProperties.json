@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"isAbstract" : "StefanReichhart 9/26/2015 11:24" },
+	"instance" : {
+		"packageNames" : "StefanReichhart 9/26/2015 10:17",
+		"packages:" : "StefanReichhart 9/26/2015 10:49",
+		"run:" : "StefanReichhart 9/26/2015 11:11",
+		"runCase" : "StefanReichhart 9/26/2015 11:12",
+		"runExample:fromContainer:" : "StefanReichhart 4/10/2016 10:56",
+		"runExampleContainers:" : "StefanReichhart 9/26/2015 11:38",
+		"testExamples" : "StefanReichhart 9/26/2015 11:17" } }
