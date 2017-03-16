@@ -1,4 +1,4 @@
-actions api
+actions - api
 openGemstonePlaygroundWithContents: aText
 
 	(GtGsPlayground forGemstoneClient: self)

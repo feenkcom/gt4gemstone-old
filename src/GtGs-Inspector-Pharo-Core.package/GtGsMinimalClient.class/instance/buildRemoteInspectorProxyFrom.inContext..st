@@ -1,4 +1,4 @@
-actions api
+actions - proxy
 buildRemoteInspectorProxyFrom: aString inContext: anOopType
 	| serializedProxy materializedProxy |
 	serializedProxy := self 

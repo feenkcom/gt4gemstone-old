@@ -1,4 +1,4 @@
-actions api
+actions - api
 closeAllRemoteWindows
 
 	(SystemWindow allSubInstances select: [:w | 

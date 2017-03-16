@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.81' message 'display the actual session id' id 'dd0bb0ac-f73c-4171-9e59-140b3ae5f1d7' date '14 March 2017' time '2:12:39.043831 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.80' message 'added the possibility to duplicate a session in the session browser
-' id 'bacc20ba-bf2a-53db-911a-1db19226ff7e' date '14 March 2017' time '1:45:01 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.82' message 'updated api for creating a bare proxy' id '2a25f05a-0022-4dfb-a008-3225540c1466' date '16 March 2017' time '5:31:56.964047 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.81' message 'display the actual session id
+' id '7195849c-4322-5300-a8bb-635d068674ba' date '14 March 2017' time '2:12:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

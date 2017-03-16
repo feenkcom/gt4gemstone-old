@@ -1,4 +1,4 @@
-actions api
+actions - proxy
 performStringRemotely: aString inContext: anOopType
 	
 	^ self 

@@ -1,3 +1,3 @@
 *GtGs-Inspector-Pharo-Core
 gtGsPerformRemotelyOn: aGemstoneClient
-	^ aGemstoneClient buildRemoteBareProxyFrom: (self sourceNode formattedCode, ' value')
+	^ self gtGsPerformRemotelyOn: aGemstoneClient withArguments: #()
