@@ -1,0 +1,3 @@
+gci api
+registerForGarbageCollection
+	self class registerForGarbageCollectionOop: self selfOop

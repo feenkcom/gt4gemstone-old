@@ -1,16 +1,14 @@
 {
 	"category" : "GtGs-BareProxy-Pharo",
 	"classinstvars" : [
-		"garbageCollectionProxyMap",
-		"garbageCollectionMutex" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gemstoneClient",
-		"selfOopType" ],
-	"name" : "GtGsBareProxy",
+		 ],
+	"name" : "GtGsBareCollectionProxy",
 	"pools" : [
 		 ],
-	"super" : "ProtoObject",
+	"super" : "GtGsBareProxy",
 	"type" : "normal" }

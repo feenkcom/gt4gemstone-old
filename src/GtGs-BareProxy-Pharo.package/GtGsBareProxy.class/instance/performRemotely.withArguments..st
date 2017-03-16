@@ -11,5 +11,10 @@ performRemotely: aSelector withArguments: argumentsArray
 		withArgs: (argumentsArray collect: [ :anObject |
 			anObject gtGsBareProxyAsArgument ]).
 	^ result class = GsGciOopType 
-		ifTrue: [ self gemstoneClient bareProxyForOopType: result ]
+		ifTrue: [ self gemstoneClient bareProxyForOopType: result ofType: GtGsBareProxy ]
 		ifFalse: [ result ]
+		
+		"^ self gemstoneClient buildRemoteBareProxyFrom: (
+			self 
+				computationStringFor: aSelector 
+				withArguments: argumentsArray)"

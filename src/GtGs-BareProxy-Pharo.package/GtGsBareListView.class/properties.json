@@ -1,16 +1,19 @@
 {
 	"category" : "GtGs-BareProxy-Pharo",
 	"classinstvars" : [
-		"garbageCollectionProxyMap",
-		"garbageCollectionMutex" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
 		"gemstoneClient",
-		"selfOopType" ],
-	"name" : "GtGsBareProxy",
+		"remoteFormatBlock",
+		"localFormatBlock",
+		"iconIdBlock",
+		"shouldUseSTON",
+		"command" ],
+	"name" : "GtGsBareListView",
 	"pools" : [
 		 ],
-	"super" : "ProtoObject",
+	"super" : "Object",
 	"type" : "normal" }

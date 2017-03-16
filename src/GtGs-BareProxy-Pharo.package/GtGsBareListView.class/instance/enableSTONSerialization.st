@@ -1,0 +1,3 @@
+accessing
+enableSTONSerialization
+	shouldUseSTON := true

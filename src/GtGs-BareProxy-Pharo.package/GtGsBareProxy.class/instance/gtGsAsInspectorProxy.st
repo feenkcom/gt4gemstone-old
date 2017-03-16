@@ -1,4 +1,4 @@
-transforming
+converting - proxy
 gtGsAsInspectorProxy
 	^ self gemstoneClient 
-		buildRemoteInspectorProxyFrom: 'Object _objectForOop: ', self selfOop asString 
+		buildRemoteInspectorProxyFrom: self gtGsAsBlockStringArgument
