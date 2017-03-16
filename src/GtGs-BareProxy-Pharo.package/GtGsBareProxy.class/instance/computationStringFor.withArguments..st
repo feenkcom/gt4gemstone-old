@@ -8,5 +8,5 @@ computationStringFor: aSelector withArguments: argumentsArray
 			ifTrue: [ aStream nextPutAll: ' perform: ', aSelector ]
 			ifFalse: [ 
 				aStream nextPutAll: ' perform: ', aSelector, ' withArguments: '.
-				argumentsArray gtGsAsStringArgumentsArrayOn: aStream ].
+				aStream nextPutAll: argumentsArray gtGsAsStringArgumentsArray ].
 		aStream nextPutAll: ' ] value ' ]
