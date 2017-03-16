@@ -1,1 +1,2 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.1' message 'basic version of a code editor' id 'b9cf1a3e-ba61-4a37-9511-4066c7d5f640' date '16 March 2017' time '5:32:45.60117 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.2' message 'basic extension for Glamour (andShowDynamic:)' id '5752c139-b6ba-4d2f-a772-7f01f9a91ed0' date '16 March 2017' time '5:39:18.848969 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.1' message 'basic version of a code editor
+' id '50c917b5-a4b2-59ac-bc95-24de68f0f0e7' date '16 March 2017' time '5:32:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
