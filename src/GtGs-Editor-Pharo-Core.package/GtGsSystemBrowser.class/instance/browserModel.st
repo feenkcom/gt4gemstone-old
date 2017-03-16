@@ -1,0 +1,3 @@
+accessing
+browserModel
+	^ self entity
