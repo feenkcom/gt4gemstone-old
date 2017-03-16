@@ -17,4 +17,4 @@ executeCommandWithStringSerialization
 		aStream nextPut: Character cr.
 		aStream nextPutAll: 'result' ]) contents.
 	
-	^ self locallyFormatElements: (self gemstoneClient session executeString: stringCommand) lines 
+	^ self locallyFormatElements: (self gemstoneClient executeString: stringCommand) lines 
