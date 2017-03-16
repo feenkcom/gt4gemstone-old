@@ -1,1 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.1' message 'start a remote model for the code editor' id '300eb9de-84f9-4e41-b711-60f42ca60654' date '17 March 2017' time '12:33:16.311432 am' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.2' message 'added the <glamourRemotePresentation> tag in the remote code model' id 'c7f98bad-f49e-43bb-9f6b-1903514ec781' date '17 March 2017' time '12:41:50.727354 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.1' message 'start a remote model for the code editor
+' id '58f17fd9-f3ee-5f71-aa79-b5e08079f627' date '17 March 2017' time '12:33:17 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

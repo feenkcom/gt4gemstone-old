@@ -1,5 +1,6 @@
 as yet unclassified
 classCreationTemplateForSystemDictionary: aSystemDictionary
+	<glamourRemotePresentation>
 	
 	^ GtGsGlmTextPresentation new
 		display: [ 'Object subclass: ''NameOfSubclass''
