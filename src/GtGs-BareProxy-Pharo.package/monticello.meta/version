@@ -1,2 +1,2 @@
-(name 'GtGs-BareProxy-Pharo-AndreiChis.7' message 'clean up' id '088c78cd-3951-4935-a085-3be1bdb945b7' date '17 March 2017' time '12:30:07.142955 am' author 'AndreiChis' ancestors ((name 'GtGs-BareProxy-Pharo-AndreiChis.6' message 'refactored #gtGsAsStringArgumentsArrayOn:
-' id 'de4f845c-6ee5-5319-945a-fe5310f377f8' date '16 March 2017' time '11:36:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-BareProxy-Pharo-AndreiChis.8' message 'fixed gtGsAsStringArgumentsArray' id '285c02dc-70ba-4b23-9c45-44fc1a6c1b97' date '17 March 2017' time '12:59:36.795672 am' author 'AndreiChis' ancestors ((name 'GtGs-BareProxy-Pharo-AndreiChis.7' message 'clean up
+' id 'c744f2fe-de17-59a3-a3a3-76ff67726e26' date '17 March 2017' time '12:30:11 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
