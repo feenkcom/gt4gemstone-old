@@ -5,6 +5,6 @@ categoriesForClassLogic
 		targetClass := (GsSession currentSession symbolList 
 			objectNamed: currentClassName asSymbol).
 		isMeta ifTrue: [ targetClass := targetClass class ].
-		targetClass categories sortWithBlock: [ :a :b | a < b ] ]
+		targetClass categoryNames sortWithBlock: [ :a :b | a < b ] ]
 	
 	

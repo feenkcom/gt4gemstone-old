@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.4' message 'fixed issues related with text presentations' id 'c7d62ad9-a790-465b-861b-f0d625a13095' date '17 March 2017' time '1:14:28.479825 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.3' message 'category rename
-' id '6b0f2052-9e22-5fb3-aa25-82baeb9de438' date '17 March 2017' time '1:03:58 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.5' message 'use #categoryNames instead of #categories' id '208b11ac-3dd9-4331-9b24-66afc0e4a92d' date '17 March 2017' time '1:19:21.660369 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.4' message 'fixed issues related with text presentations
+' id '699e3aba-db8f-5ebd-827e-2f09a0f717ee' date '17 March 2017' time '1:14:33 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
