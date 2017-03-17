@@ -1,5 +1,5 @@
 *GtGs-Inspector-Pharo-Core
-asGlamourPresentation
+gtGsAsGlamourPresentation
 	| gsPresentationOopType |
 	
 	self glamourPresentation: self instantiateGlamourPresentation.

@@ -7,6 +7,6 @@ glamourPresentationFor: anObjectSelector using: aPresentationSelector withArgume
 		withArguments: argumentsArray gtGsAsStringArgumentsArray)
 			ifNotNil: [ :aGsPresentation ||glamourPresentation| 
 				self gsPresentations add: aGsPresentation. "Cache the presentation"
-				glamourPresentation := aGsPresentation asGlamourPresentation.
+				glamourPresentation := aGsPresentation gtGsAsGlamourPresentation.
 				self addExplicitNavigationBlockIn: glamourPresentation from: aGsPresentation.
 				glamourPresentation ] 
