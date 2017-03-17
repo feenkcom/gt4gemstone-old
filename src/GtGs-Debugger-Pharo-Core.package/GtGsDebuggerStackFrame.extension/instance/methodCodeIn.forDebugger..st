@@ -5,7 +5,7 @@ methodCodeIn: aComposite forDebugger: aDebugger
 		self methodPresentation gemstoneClient: aDebugger session gemstoneClient.
 		
 		anotherComposite := GLMCompositePresentation new.
-		self methodPresentation asGlamourPresentationOn: anotherComposite.
+		self methodPresentation gtGsAsGlamourPresentationOn: anotherComposite.
 		
 		"Add a custom do it and go action"
 		anotherComposite last selectionActions addFirst: (GLMGenericAction new
