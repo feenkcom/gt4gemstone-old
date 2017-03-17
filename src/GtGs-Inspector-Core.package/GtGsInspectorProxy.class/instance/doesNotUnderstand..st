@@ -3,17 +3,15 @@ doesNotUnderstand: aMessage
 	self gtGsIsGemstone ifTrue: [ 
 		^ super doesNotUnderstand: aMessage ].
 	
-	(self requestTypeForRemotePresentation: aMessage selector)
+	(self perform: #requestTypeForRemotePresentation: withArguments: {aMessage selector})
 		ifNil: [ ^ super doesNotUnderstand: aMessage ]
 		ifNotNil: [ :aRequestType |
 			aRequestType = #glamour ifTrue: [ 
 				^ self 
-					glamourPresentationFor: #targetObject
-					using: aMessage selector 
-					withArguments: aMessage arguments ].
+					perform: #glamourPresentationFor:using:withArguments:
+					withArguments: { #targetObject . aMessage selector . aMessage arguments} ].
 			aRequestType = #inspector ifTrue: [ 
 				^ self 
-					inspectorPresentationFor: #targetObject
-					using: aMessage selector 
-					on: aMessage arguments first ].
+					perform: #inspectorPresentationFor:using:on:
+					withArguments: { #targetObject . aMessage selector . aMessage arguments first }  ].
 			 ^ super doesNotUnderstand: aMessage ]

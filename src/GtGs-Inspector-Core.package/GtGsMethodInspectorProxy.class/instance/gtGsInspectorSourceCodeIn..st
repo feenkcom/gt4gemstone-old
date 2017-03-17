@@ -7,5 +7,6 @@ gtGsInspectorSourceCodeIn: aComposite
 				title: [ 'Source' ];
 				display: [ self targetObject sourceString ];
 				format: [ :aString | aString ] ]
+		using: #gtGsInspectorSourceCodeIn:
 		on: aComposite
 		

@@ -8,4 +8,5 @@ gtGsInspectorInstanceMethodsIn: aComposite
 				display: [ (self targetObject selectors sortWithBlock: [ :a :b | a <= b ]) 
 				collect: [ :aSelector | self targetObject compiledMethodAt: aSelector ] ];
 				format: [ :aMethod | aMethod selector asString ] ]
+		using: #gtGsInspectorInstanceMethodsIn:
 		on: aComposite
