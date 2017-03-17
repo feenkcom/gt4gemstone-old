@@ -15,5 +15,5 @@ executeCommandWithSTONSerialization
 			 ].'.
 		aStream nextPut: Character cr.
 		aStream nextPutAll: 'STON toString: result' ]) contents. 
-	self halt.
+	
 	^ self locallyFormatElements: (STON fromString: (self gemstoneClient executeString: stringCommand))
