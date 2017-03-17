@@ -23,7 +23,7 @@ methodsBrowserIn: aMainComposite isMeta: isClassSide
 		to: #categories;
 		andShowDynamic: [ :aComposite :aClassName |
 			(self browserModel categoriesViewForClass: aClassName isMeta: isClassSide) 
-				asGlamourPresentationOn: aComposite ].
+				gtGsAsGlamourPresentationOn: aComposite ].
 	browser transmit 
 		fromOutsidePort: #seletedClass;
 		to: #methods;
@@ -34,7 +34,7 @@ methodsBrowserIn: aMainComposite isMeta: isClassSide
 		to: #methods;
 		andShowDynamic: [ :aComposite :aCategoryName | 
 			(self browserModel methodsViewForCategory: aCategoryName isMeta: isClassSide) 
-				asGlamourPresentationOn: aComposite ].
+				gtGsAsGlamourPresentationOn: aComposite ].
 			
 	browser transmit
 		from: #categories port: #selection;

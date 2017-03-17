@@ -1,5 +1,5 @@
 *GtGs-Editor-Pharo-Core
-asGlamourPresentationOn: aComposite
+gtGsAsGlamourPresentationOn: aComposite
 
 	^ aComposite text
 		display: [ self truncateWithElipsisTo: 100000 ]

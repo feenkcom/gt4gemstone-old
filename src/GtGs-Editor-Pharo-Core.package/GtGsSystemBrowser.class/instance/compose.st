@@ -14,7 +14,7 @@ compose
 	browser transmit 
 		to: #symbols;
 		andShow: [ :aComposite :aModel |
-			aModel symbolDictionariesListView asGlamourPresentationOn: aComposite ].
+			aModel symbolDictionariesListView gtGsAsGlamourPresentationOn: aComposite ].
 	browser transmit 
 		to: #classes;
 		andShow: [ :aComposite | 
@@ -27,14 +27,14 @@ compose
 	browser transmit 
 		to: #source;
 		andShow: [ :aComposite | 
-			 (self browserModel classCreationTemplateForSystemDictionary: nil) asGlamourPresentationOn: aComposite  ].
+			 (self browserModel classCreationTemplateForSystemDictionary: nil) gtGsAsGlamourPresentationOn: aComposite  ].
 		
 	browser transmit
 		from: #symbols;
 		to: #classes;
 		andShowDynamic: [ :aComposite :aSystemDictionaryName |
 			(self browserModel classesViewForSystemDictionary: aSystemDictionaryName)
-				asGlamourPresentationOn: aComposite ].
+				gtGsAsGlamourPresentationOn: aComposite ].
 	browser transmit 
 		from: #symbols;
 		to: #methods.
