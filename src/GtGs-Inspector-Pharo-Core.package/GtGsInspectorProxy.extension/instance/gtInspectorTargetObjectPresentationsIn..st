@@ -5,6 +5,6 @@ gtInspectorTargetObjectPresentationsIn: aComposite
 	(self gsPresentations select: [ :aGemstonePresentation |
 		aGemstonePresentation cache at: #inspectorPresentation ifAbsent: [ false ] ])
 			do: [ :aGemstonePresentation | |glamourPresentation|
-				glamourPresentation := aGemstonePresentation asGlamourPresentationOn: aComposite.
+				glamourPresentation := aGemstonePresentation gtGsAsGlamourPresentationOn: aComposite.
 				self addInspectorImplicitNavigationBlockIn: glamourPresentation from: aGemstonePresentation.
 				glamourPresentation ]

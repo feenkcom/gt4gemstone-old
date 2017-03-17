@@ -1,3 +1,3 @@
 *GtGs-Inspector-Pharo-Core
-asGlamourPresentationOn: aComposite
+gtGsAsGlamourPresentationOn: aComposite
 	^ aComposite custom: self

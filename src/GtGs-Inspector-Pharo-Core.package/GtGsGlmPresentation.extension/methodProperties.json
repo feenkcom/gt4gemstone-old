@@ -3,11 +3,11 @@
 		 },
 	"instance" : {
 		"asGlamourPresentation" : "AndreiChis 3/16/2017 22:55",
-		"asGlamourPresentationOn:" : "AndreiChis 3/16/2017 22:55",
 		"executeRemotely:" : "AndreiChis 12/16/2016 00:59:56",
 		"executeRemotely:withArguments:" : "AndreiChis 10/22/2016 22:51:04",
 		"executeRemotely:withArguments:andDo:" : "AndreiChis 11/11/2016 18:03",
 		"executeRemotelyActionWithId:" : "AndreiChis 12/16/2016 00:59:56",
+		"gtGsAsGlamourPresentationOn:" : "AndreiChis 3/17/2017 13:28",
 		"instantiateGlamourPresentation" : "AndreiChis 10/5/2016 14:58",
 		"obtainDisplayValue" : "AndreiChis 10/22/2016 22:51:04",
 		"requestFromGemstoneFor:" : "AndreiChis 10/22/2016 22:51:04",
