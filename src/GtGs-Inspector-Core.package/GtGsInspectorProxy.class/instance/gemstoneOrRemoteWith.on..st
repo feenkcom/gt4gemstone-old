@@ -7,5 +7,4 @@ gemstoneOrRemoteWith: aBlock on: aComposite
 		ifFalse: [
 			self 
 				inspectorPresentationFor: #yourself
-				using: thisContext sender selector
 				on: aComposite ]
