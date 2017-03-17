@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.4' message 'added <glamourRemotePresentation>' id '260552b1-0f27-4c44-88a0-47e595ac9bf1' date '17 March 2017' time '1:06:15.633457 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.3' message 'more presentations
-' id 'ffc1d9a4-1b26-5e8c-aafd-820843e84f21' date '17 March 2017' time '1:03:02 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.5' message 'fixed #classesViewForSystemDictionary:' id 'aac7d74c-08c6-48cb-805b-cb3d868d68ae' date '17 March 2017' time '1:08:48.698272 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.4' message 'added <glamourRemotePresentation>
+' id 'ce79dd4a-ce23-5da2-a816-b96b868e92de' date '17 March 2017' time '1:06:20 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
