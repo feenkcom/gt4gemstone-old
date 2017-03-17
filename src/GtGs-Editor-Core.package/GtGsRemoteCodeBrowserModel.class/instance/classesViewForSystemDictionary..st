@@ -1,5 +1,6 @@
 accessing - views
 classesViewForSystemDictionary: aSystemDictionary
+	<glamourRemotePresentation>
 	
 	^ GtGsGlmListPresentation new
 		display: self classesForSystemDictionaryLogic;

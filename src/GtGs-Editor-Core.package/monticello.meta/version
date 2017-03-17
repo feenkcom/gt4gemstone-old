@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.3' message 'more presentations' id '0969c8d0-c75a-48e7-9116-2138b28e6f66' date '17 March 2017' time '1:02:57.880313 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.2' message 'added the <glamourRemotePresentation> tag in the remote code model
-' id 'e36bda18-5964-5311-b9ba-f8632c11c5fe' date '17 March 2017' time '12:41:52 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.4' message 'added <glamourRemotePresentation>' id '260552b1-0f27-4c44-88a0-47e595ac9bf1' date '17 March 2017' time '1:06:15.633457 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.3' message 'more presentations
+' id 'ffc1d9a4-1b26-5e8c-aafd-820843e84f21' date '17 March 2017' time '1:03:02 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
