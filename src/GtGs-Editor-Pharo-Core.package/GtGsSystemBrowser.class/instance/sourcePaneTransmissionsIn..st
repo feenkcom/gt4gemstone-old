@@ -5,8 +5,8 @@ sourcePaneTransmissionsIn: browser
 		from: #symbols;
 		to: #source;
 		andShowDynamic: [ :aComposite :aSystemDictionaryName | 
-			aComposite text
-				display: [ self browserModel classCreationTemplateForSystemDictionary: aSystemDictionaryName ] ].
+			(self browserModel classCreationTemplateForSystemDictionary: aSystemDictionaryName )
+				asGlamourPresentationOn: aComposite ].
 	browser transmit 
 		from: #classes;
 		to: #source;
@@ -17,8 +17,7 @@ sourcePaneTransmissionsIn: browser
 		from: #methods port: #category;
 		to: #source;
 		andShowDynamic: [ :aComposite |
-			aComposite text
-				display: [ self browserModel methodCreationTemplate ] ].
+			self browserModel methodCreationTemplate asGlamourPresentationOn: aComposite ].
 	browser transmit 
 		from: #methods port: #instance;
 		to: #source;
