@@ -5,7 +5,7 @@ classCreationTemplateForSystemDictionary: aSystemDictionaryName
 	classVars: #()
 	classInstVars: #()
 	poolDictionaries: #()
-	inDictionary: ''',aSystemDictionaryName,'''
+	inDictionary: ''', (aSystemDictionaryName ifNil: ['']) ,'''
 	category: ''''
 	options: #()
 '

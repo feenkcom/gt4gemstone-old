@@ -1,4 +1,4 @@
-remote - blocks
+remote - logic
 methodsForCategoryLogic
 	
 	^ [ :currentCategoryName :currentClassName :isMeta | |targetClass targetCategory|

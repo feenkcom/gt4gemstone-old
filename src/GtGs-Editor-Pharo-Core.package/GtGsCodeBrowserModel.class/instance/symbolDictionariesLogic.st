@@ -1,4 +1,4 @@
-remote - blocks
+remote - logic
 symbolDictionariesLogic
 
 	^ [ GsSession currentSession symbolList names ]

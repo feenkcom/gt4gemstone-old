@@ -27,8 +27,7 @@ compose
 	browser transmit 
 		to: #source;
 		andShow: [ :aComposite | 
-			aComposite text
-				display: [ self browserModel classCreationTemplateForSystemDictionary: '' ] ].
+			 (self browserModel classCreationTemplateForSystemDictionary: nil) asGlamourPresentationOn: aComposite  ].
 		
 	browser transmit
 		from: #symbols;

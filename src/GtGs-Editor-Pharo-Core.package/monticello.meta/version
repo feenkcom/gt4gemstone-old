@@ -1,2 +1,3 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.2' message 'basic extension for Glamour (andShowDynamic:)' id '5752c139-b6ba-4d2f-a772-7f01f9a91ed0' date '16 March 2017' time '5:39:18.848969 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.1' message 'basic version of a code editor
-' id '50c917b5-a4b2-59ac-bc95-24de68f0f0e7' date '16 March 2017' time '5:32:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.3' message 'category rename' id '84b28aca-895c-456d-886e-2456cde3fa4f' date '17 March 2017' time '1:03:56.270064 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.2' message 'basic extension for Glamour (andShowDynamic:)
+' id '63f50871-8040-5777-9fda-e61990b32653' date '16 March 2017' time '5:39:20 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.1' message 'basic version of a code editor
+' id '50c917b5-a4b2-59ac-bc95-24de68f0f0e7' date '16 March 2017' time '5:32:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())
