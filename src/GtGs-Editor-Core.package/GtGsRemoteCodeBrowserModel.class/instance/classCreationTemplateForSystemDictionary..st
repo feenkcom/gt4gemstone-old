@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - views
 classCreationTemplateForSystemDictionary: aSystemDictionary
 	<glamourRemotePresentation>
 	
@@ -8,7 +8,7 @@ classCreationTemplateForSystemDictionary: aSystemDictionary
 	classVars: #()
 	classInstVars: #()
 	poolDictionaries: #()
-	inDictionary: ''', aSystemDictionary ,'''
+	inDictionary: ''', (aSystemDictionary ifNil: [ '' ] ifNotNil: [ aSystemDictionary name ]) ,'''
 	category: ''''
 	options: #()
 ' ] 

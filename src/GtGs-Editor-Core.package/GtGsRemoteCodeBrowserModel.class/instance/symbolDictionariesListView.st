@@ -1,7 +1,8 @@
-as yet unclassified
+accessing - views
 symbolDictionariesListView
 	<glamourRemotePresentation>
 	
 	^ GtGsGlmListPresentation new
-		display: [ GsSession currentSession symbolList names ]
+		display: self symbolDictionariesLogic;
+		format: [ :each | each asString ]
 		
