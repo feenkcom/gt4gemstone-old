@@ -1,5 +1,5 @@
 code execution
-compileSource: theSource classified: aCategoryName inClassNamed: aClassName onClassSideIf: isClassSide
+compileSource: methodString classified: aCategoryName inClassNamed: aClassName onClassSideIf: isClassSide
   | methodClass |
   
 	methodClass := GsCurrentSession currentSession symbolList objectNamed: aClassName.
@@ -7,17 +7,17 @@ compileSource: theSource classified: aCategoryName inClassNamed: aClassName onCl
 	(methodClass includesSelector: #compile:classified:)
 		ifTrue: [ 
 			methodClass
- 		   		compile: theSource gtGsWithGemstoneLineEndings
+ 		   		compile: methodString gtGsWithGemstoneLineEndings
    				classified: (aCategoryName ifNil: [ 'as yet unclassified' ]).
   			"(selector asSymbol ~~ newSelector)
     			ifTrue: [ self differentMethodCreated: newSelector ]."
-  			^ true]
+  			^ self parseSelector: methodString for: methodClass ]
 		ifFalse: [ 
 			methodClass
-				compileMethod: theSource gtGsWithGemstoneLineEndings
+				compileMethod: methodString gtGsWithGemstoneLineEndings
    				dictionaries: GsCurrentSession currentSession symbolList
     			category: (aCategoryName ifNil: [ 'as yet unclassified' ])
    				environmentId: 0.
-			^ true ]
+			^ self parseSelector: methodString for: methodClass ]
 
   

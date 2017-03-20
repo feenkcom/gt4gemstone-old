@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.213' message 'added the ability to save a method in GtGsTopezServer' id 'a8eabda7-e8ee-4b18-919e-d85e3c61e7d2' date '20 March 2017' time '5:40:51.473069 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.212' message 'Move several methods to the Pharo side.
-' id 'fbcdbe07-e56e-5660-ab6a-92c4a1665be9' date '17 March 2017' time '12:09:40 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.214' message 'When compiling a new method return its selector' id 'b8de94a5-1a61-4847-ada7-131c6889dc6e' date '20 March 2017' time '6:15:20.670332 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.213' message 'added the ability to save a method in GtGsTopezServer
+' id '57226e86-b505-5936-a07d-690a2e3829e8' date '20 March 2017' time '5:40:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
