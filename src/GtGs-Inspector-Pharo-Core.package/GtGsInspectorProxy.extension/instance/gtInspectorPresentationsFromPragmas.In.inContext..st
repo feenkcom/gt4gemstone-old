@@ -1,10 +1,12 @@
 *GtGs-Inspector-Pharo-Core
-gtInspectorTargetObjectPresentationsIn: aComposite
-	<gtInspectorPresentationOrder: 1>
-	
+gtInspectorPresentationsFromPragmas: aCollection In: composite inContext: aGTInspector
+
 	(self gsPresentations select: [ :aGemstonePresentation |
 		aGemstonePresentation cache at: #inspectorPresentation ifAbsent: [ false ] ])
 			do: [ :aGemstonePresentation | |glamourPresentation|
-				glamourPresentation := aGemstonePresentation gtGsAsGlamourPresentationOn: aComposite.
+				glamourPresentation := aGemstonePresentation gtGsAsGlamourPresentationOn: composite.
 				self addInspectorImplicitNavigationBlockIn: glamourPresentation from: aGemstonePresentation.
-				glamourPresentation ]
+				glamourPresentation ].
+	
+	super gtInspectorPresentationsFromPragmas: aCollection In: composite inContext: aGTInspector.
+	
