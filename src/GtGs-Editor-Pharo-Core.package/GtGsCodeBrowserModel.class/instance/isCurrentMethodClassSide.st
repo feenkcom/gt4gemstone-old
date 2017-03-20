@@ -1,0 +1,3 @@
+testing
+isCurrentMethodClassSide
+	^ currentSide = #class

@@ -1,7 +1,7 @@
 building
 compose
 	| browser |
-
+	
 	browser := self tabulator.
 	browser 
 		row: [ :aRow |
@@ -14,7 +14,7 @@ compose
 	browser transmit 
 		to: #symbols;
 		andShow: [ :aComposite :aModel |
-			aModel symbolDictionariesListView gtGsAsGlamourPresentationOn: aComposite ].
+			aModel symbolDictionariesListPresentationIn: aComposite ].
 	browser transmit 
 		to: #classes;
 		andShow: [ :aComposite | 
@@ -27,14 +27,13 @@ compose
 	browser transmit 
 		to: #source;
 		andShow: [ :aComposite | 
-			 (self browserModel classCreationTemplateForSystemDictionary: nil) gtGsAsGlamourPresentationOn: aComposite  ].
-		
+			 self browserModel classCreationTemplateIn: aComposite forSystemDictionary: nil ].
+	
 	browser transmit
 		from: #symbols;
 		to: #classes;
-		andShowDynamic: [ :aComposite :aSystemDictionaryName |
-			(self browserModel classesViewForSystemDictionary: aSystemDictionaryName)
-				gtGsAsGlamourPresentationOn: aComposite ].
+		andShowDynamic: [ :aComposite :aSystemDictionary |
+			self browserModel classesPresentationIn: aComposite forSystemDictionary: aSystemDictionary ].
 	browser transmit 
 		from: #symbols;
 		to: #methods.
@@ -44,5 +43,4 @@ compose
 		to: #methods port: #seletedClass.
 	
 	self sourcePaneTransmissionsIn: browser.
-		
 	

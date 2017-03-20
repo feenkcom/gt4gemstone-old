@@ -5,8 +5,7 @@ sourcePaneTransmissionsIn: browser
 		from: #symbols;
 		to: #source;
 		andShowDynamic: [ :aComposite :aSystemDictionaryName | 
-			(self browserModel classCreationTemplateForSystemDictionary: aSystemDictionaryName )
-				gtGsAsGlamourPresentationOn: aComposite ].
+			self browserModel classCreationTemplateIn: aComposite forSystemDictionary: aSystemDictionaryName ].
 	browser transmit 
 		from: #classes;
 		to: #source;
@@ -17,18 +16,16 @@ sourcePaneTransmissionsIn: browser
 		from: #methods port: #category;
 		to: #source;
 		andShowDynamic: [ :aComposite |
-			self browserModel methodCreationTemplate gtGsAsGlamourPresentationOn: aComposite ].
+			self browserModel methodCreationTemplateIn: aComposite ].
 	browser transmit 
 		from: #methods port: #instance;
 		to: #source;
 		andShowDynamic: [ :aComposite :aMethodSelector |
-			(self browserModel sourceCodeForMethod: aMethodSelector isMeta: false)
-				gtGsAsGlamourPresentationOn: aComposite ].
+			self browserModel sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: false withCodeExecutor: self ].
 	browser transmit 
 		from: #methods port: #class;
 		to: #source;
 		andShowDynamic: [ :aComposite :aMethodSelector |
-			(self browserModel sourceCodeForMethod: aMethodSelector isMeta: true)
-				gtGsAsGlamourPresentationOn: aComposite ].
+			self browserModel sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: true  withCodeExecutor: self ].
 		
 	

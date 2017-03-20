@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"browser" : "AndreiChis 3/20/2017 18:27",
 		"browserModel" : "AndreiChis 3/14/2017 14:57",
-		"compose" : "AndreiChis 3/17/2017 13:28",
-		"methodsBrowserIn:isMeta:" : "AndreiChis 3/17/2017 13:28",
-		"sourcePaneTransmissionsIn:" : "AndreiChis 3/17/2017 13:28" } }
+		"compileRemoteMethodCode:" : "AndreiChis 3/20/2017 18:47",
+		"compose" : "AndreiChis 3/20/2017 17:28",
+		"currentMethodsPresentation" : "AndreiChis 3/20/2017 18:32",
+		"methodsBrowserIn:isMeta:" : "AndreiChis 3/20/2017 17:27",
+		"sourcePaneTransmissionsIn:" : "AndreiChis 3/20/2017 18:19" } }
