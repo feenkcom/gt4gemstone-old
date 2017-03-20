@@ -1,11 +1,8 @@
 accessing - views
-classesViewForSystemDictionary: aSystemDictionary
+classesPresentationIn: aComposite forSystemDictionary: aSystemDictionary
 	<glamourRemotePresentation>
 	
-	^ GtGsGlmListPresentation new
+	^ aComposite fastList
 		display: [ self classesForSystemDictionaryLogic value: aSystemDictionary ] ;
 		format: [ :each | each asString ]
-	
-	
-	
 	

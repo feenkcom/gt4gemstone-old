@@ -1,8 +1,7 @@
 accessing - views
-symbolDictionariesListView
-	<glamourRemotePresentation>
-	
-	^ GtGsGlmListPresentation new
+symbolDictionariesListPresentationIn: aComposite
+
+	^ aComposite list
 		display: self symbolDictionariesLogic;
 		format: [ :each | each asString ]
 		

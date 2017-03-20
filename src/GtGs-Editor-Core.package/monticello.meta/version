@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.5' message 'fixed #classesViewForSystemDictionary:' id 'aac7d74c-08c6-48cb-805b-cb3d868d68ae' date '17 March 2017' time '1:08:48.698272 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.4' message 'added <glamourRemotePresentation>
-' id 'ce79dd4a-ce23-5da2-a816-b96b868e92de' date '17 March 2017' time '1:06:20 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.6' message 'Updated the remote model to reflect the changes from the code browser. ' id 'ff28eb24-fbb7-4043-839d-0f64b58dd2c6' date '20 March 2017' time '6:55:37.688743 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.5' message 'fixed #classesViewForSystemDictionary:
+' id '91f459aa-19fe-5e65-b461-0b17bdd08e26' date '17 March 2017' time '1:08:53 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

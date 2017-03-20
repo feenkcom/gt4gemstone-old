@@ -1,8 +1,7 @@
 accessing - views
-classCreationTemplateForSystemDictionary: aSystemDictionary
-	<glamourRemotePresentation>
-	
-	^ GtGsGlmTextPresentation new
+classCreationTemplateIn: aComposite forSystemDictionary: aSystemDictionary
+
+	^ aComposite text
 		display: [ 'Object subclass: ''NameOfSubclass''
 	instVarNames: #()
 	classVars: #()
@@ -10,5 +9,4 @@ classCreationTemplateForSystemDictionary: aSystemDictionary
 	poolDictionaries: #()
 	inDictionary: ''', (aSystemDictionary ifNil: [ '' ] ifNotNil: [ aSystemDictionary name ]) ,'''
 	category: ''''
-	options: #()
-' ] 
+	options: #()' ]

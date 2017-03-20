@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"classCreationTemplateForSystemDictionary:" : "AndreiChis 3/17/2017 00:57",
-		"classesForSystemDictionaryLogic" : "AndreiChis 3/17/2017 00:53",
-		"classesViewForSystemDictionary:" : "AndreiChis 3/17/2017 01:08",
-		"symbolDictionariesListView" : "AndreiChis 3/17/2017 00:58",
-		"symbolDictionariesLogic" : "AndreiChis 3/17/2017 00:53" } }
+		"classCreationTemplateIn:forSystemDictionary:" : "AndreiChis 3/20/2017 16:14",
+		"classesForSystemDictionaryLogic" : "AndreiChis 3/20/2017 16:10",
+		"classesPresentationIn:forSystemDictionary:" : "AndreiChis 3/20/2017 16:13",
+		"symbolDictionariesListPresentationIn:" : "AndreiChis 3/20/2017 16:10",
+		"symbolDictionariesLogic" : "AndreiChis 3/20/2017 16:08" } }

@@ -1,4 +1,4 @@
 remote - logic
 symbolDictionariesLogic
 
-	^ [ GsSession currentSession symbolList names ]
+	^ [ GsSession currentSession symbolList ]
