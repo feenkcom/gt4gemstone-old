@@ -1,7 +1,7 @@
 transforming
-gtGsBareAsListView
+gtGsBareAsCollectionFormatter
 
-	^ self gemstoneClient buildRemoteListView
+	^ self gemstoneClient buildRemoteCollectionFormatter
 			disableSTONSerialization;
 			command: (self gtGsAsBlockStringArgument) ;
 			yourself
