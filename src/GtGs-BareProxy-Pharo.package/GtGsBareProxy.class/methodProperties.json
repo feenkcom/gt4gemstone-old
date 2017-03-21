@@ -1,16 +1,12 @@
 {
 	"class" : {
-		"decreaseGarbageCollectionCounterForProxy:" : "AndreiChis 3/21/2017 21:51",
-		"garbageCollectionMutex" : "AndreiChis 3/16/2017 17:12",
-		"garbageCollectionProxyMap" : "AndreiChis 3/16/2017 17:12",
-		"registerForGarbageCollectionProxy:" : "AndreiChis 3/21/2017 21:42",
-		"removeFromGarbareCollectionProxy:" : "AndreiChis 3/21/2017 21:56" },
+		 },
 	"instance" : {
 		"basicInspect" : "AndreiChis 3/12/2017 00:00",
 		"computationStringFor:withArguments:" : "AndreiChis 3/16/2017 23:19",
 		"doesNotUnderstand:" : "AndreiChis 3/16/2017 17:23",
 		"executor" : "AndreiChis 3/21/2017 21:42",
-		"finalize" : "AndreiChis 3/21/2017 21:55",
+		"finalize" : "AndreiChis 3/21/2017 22:22",
 		"gemstoneClient" : "AndreiChis 3/9/2017 22:15",
 		"gemstoneClient:" : "AndreiChis 3/9/2017 22:14",
 		"gtDisplayString" : "AndreiChis 3/11/2017 17:15",
@@ -29,7 +25,6 @@
 		"rawPerformRemotely:" : "AndreiChis 3/11/2017 23:53",
 		"rawPerformRemotely:with:" : "AndreiChis 3/11/2017 23:53",
 		"rawPerformRemotely:withArguments:" : "AndreiChis 3/11/2017 23:53",
-		"registerForGarbageCollection" : "AndreiChis 3/21/2017 20:55",
 		"remoteClass" : "AndreiChis 3/11/2017 17:00",
 		"remoteGtGsInspectorName" : "AndreiChis 3/11/2017 17:04",
 		"remotePrintString" : "AndreiChis 3/11/2017 17:00",

@@ -1,8 +1,7 @@
 {
 	"category" : "GtGs-BareProxy-Pharo",
 	"classinstvars" : [
-		"garbageCollectionProxyMap",
-		"garbageCollectionMutex" ],
+		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
