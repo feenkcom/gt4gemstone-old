@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.6' message 'Updated the remote model to reflect the changes from the code browser. ' id 'ff28eb24-fbb7-4043-839d-0f64b58dd2c6' date '20 March 2017' time '6:55:37.688743 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.5' message 'fixed #classesViewForSystemDictionary:
-' id '91f459aa-19fe-5e65-b461-0b17bdd08e26' date '17 March 2017' time '1:08:53 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.7' message 'Added support for a cache ClassOrganizer.' id '27585298-c904-4120-869d-6add0b4fd789' date '21 March 2017' time '11:31:27.488154 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.6' message 'Updated the remote model to reflect the changes from the code browser.
+' id '2007db94-c11d-5439-aad6-8b63943e143b' date '20 March 2017' time '6:55:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
