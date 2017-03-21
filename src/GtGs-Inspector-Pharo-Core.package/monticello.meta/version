@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.95' message 'Added finalization for inspector proxies.' id '4bd0d726-9f7d-4206-a887-cf1e41ca371e' date '21 March 2017' time '11:14:40.688727 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.94' message 'Added a GtGsProxyFinalizer to every gemstone client implementing remote gc of bare proxies.
-' id 'f5938f6a-d1f0-51d1-a339-581d5e4b8888' date '21 March 2017' time '10:34:58 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.96' message 'Removed logging statement.' id 'efa3884c-ae09-4e3d-b00b-a8f786241076' date '21 March 2017' time '11:15:39.161849 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.95' message 'Added finalization for inspector proxies.
+' id '43d69a0d-6b86-5fb9-b2b3-b4f0b67b623b' date '21 March 2017' time '11:14:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
