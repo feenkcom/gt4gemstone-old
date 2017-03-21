@@ -6,11 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"startTime",
-		"sessionId",
-		"proxyFinalizer" ],
-	"name" : "GtGsMinimalClient",
+		"garbageCollectionProxyMap",
+		"garbageCollectionMutex" ],
+	"name" : "GtGsProxyFinalizer",
 	"pools" : [
 		 ],
-	"super" : "TDMinimalClient",
+	"super" : "Object",
 	"type" : "normal" }

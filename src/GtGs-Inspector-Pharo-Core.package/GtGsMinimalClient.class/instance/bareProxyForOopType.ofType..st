@@ -1,6 +1,6 @@
 private
 bareProxyForOopType: anOopType ofType: aProxyClass
-	^ aProxyClass new 
+	^ self proxyFinalizer registerForGarbageCollectionBareProxy: (
+		aProxyClass new 
 			gemstoneClient: self;
-			selfOopType: anOopType ";
-			registerForGarbageCollection"
+			selfOopType: anOopType)
