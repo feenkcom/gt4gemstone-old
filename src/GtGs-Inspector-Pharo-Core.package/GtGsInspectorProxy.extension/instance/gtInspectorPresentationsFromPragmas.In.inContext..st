@@ -4,7 +4,7 @@ gtInspectorPresentationsFromPragmas: aCollection In: composite inContext: aGTIns
 	(self gsPresentations select: [ :aGemstonePresentation |
 		aGemstonePresentation cache at: #inspectorPresentation ifAbsent: [ false ] ])
 			do: [ :aGemstonePresentation | |glamourPresentation|
-				glamourPresentation := aGemstonePresentation gtGsAsGlamourPresentationOn: composite.
+				glamourPresentation := aGemstonePresentation gtGsAsGlamourPresentationIn: composite.
 				self addInspectorImplicitNavigationBlockIn: glamourPresentation from: aGemstonePresentation.
 				glamourPresentation ].
 	

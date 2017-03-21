@@ -6,6 +6,6 @@ inspectorPresentationFor: anObjectSelector using: aPresentationSelector on: aCan
 		using: aPresentationSelector)
 			ifNotNil: [ :aGsPresentation ||glamourPresentation| 
 				self gsPresentations add: aGsPresentation. "Cache the presentation"
-				glamourPresentation := aGsPresentation gtGsAsGlamourPresentationOn: aCanvas.
+				glamourPresentation := aGsPresentation gtGsAsGlamourPresentationIn: aCanvas.
 				self addExplicitNavigationBlockIn: glamourPresentation from: aGsPresentation.
 				glamourPresentation ] 

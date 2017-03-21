@@ -3,7 +3,7 @@ codeIn: aComposite for: methodNode
   | gsCodePresentation |
 
 	gsCodePresentation := (gemstoneBrowser remoteCodePresentationFor: methodNode) 
-		gtGsAsGlamourPresentationOn: aComposite;
+		gtGsAsGlamourPresentationIn: aComposite;
 		yourself.
 	
 	"Add a the do it and go action"
