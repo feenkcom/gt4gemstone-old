@@ -6,15 +6,15 @@ compose
 	browser 
 		row: [ :aRow |
 			aRow
-				column: #symbols;
+				column: #containers;
 				column: #classes;
 				column: #methods span: 3 ] span: 2;
 		row: #source span: 3.
 	
 	browser transmit 
-		to: #symbols;
-		andShow: [ :aComposite :aModel |
-			aModel symbolDictionariesListPresentationIn: aComposite ].
+		to: #containers;
+		andShow: [ :aComposite  |
+			self containersPresentationIn: aComposite ].
 	browser transmit 
 		to: #classes;
 		andShow: [ :aComposite | 
@@ -23,19 +23,23 @@ compose
 		to: #methods;
 		andShow: [ :aComposite |
 			self methodsBrowserIn: aComposite isMeta: false.
-			self methodsBrowserIn: aComposite isMeta: true ].
+			self methodsBrowserIn: aComposite isMeta: true.
+			"aComposite onChangeOfPort: #activePresentation act: [ :presentation |
+				(presentation pane port: #activePresentation) value 
+					ifNotNil: [ :activePresentation | 
+						 ] ]" ].
 	browser transmit 
 		to: #source;
 		andShow: [ :aComposite | 
-			 self browserModel classCreationTemplateIn: aComposite forSystemDictionary: nil ].
+			 self classCreationTemplateIn: aComposite forContainer: nil ].
 	
 	browser transmit
-		from: #symbols;
+		from: #containers;
 		to: #classes;
-		andShowDynamic: [ :aComposite :aSystemDictionary |
-			self browserModel classesPresentationIn: aComposite forSystemDictionary: aSystemDictionary ].
+		andShowDynamic: [ :aComposite :aSymbol |
+			self classesPresentationIn: aComposite for: aSymbol ].
 	browser transmit 
-		from: #symbols;
+		from: #containers;
 		to: #methods.
 	
 	browser transmit 

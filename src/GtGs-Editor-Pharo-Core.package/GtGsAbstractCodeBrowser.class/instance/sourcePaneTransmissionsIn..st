@@ -2,10 +2,10 @@ building
 sourcePaneTransmissionsIn: browser
 	
 	browser transmit 
-		from: #symbols;
+		from: #containers;
 		to: #source;
-		andShowDynamic: [ :aComposite :aSystemDictionaryName | 
-			self browserModel classCreationTemplateIn: aComposite forSystemDictionary: aSystemDictionaryName ].
+		andShowDynamic: [ :aComposite :aContainerName | 
+			self classCreationTemplateIn: aComposite forContainer: aContainerName ].
 	browser transmit 
 		from: #classes;
 		to: #source;

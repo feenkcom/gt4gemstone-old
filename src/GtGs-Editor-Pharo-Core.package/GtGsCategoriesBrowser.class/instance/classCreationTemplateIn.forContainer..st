@@ -1,0 +1,4 @@
+building presentations
+classCreationTemplateIn: aComposite forContainer: aContainerName
+
+	self browserModel classCreationTemplateIn: aComposite forCategory: aContainerName
