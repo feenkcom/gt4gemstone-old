@@ -1,6 +1,6 @@
 *GtGs-Examples-AddressBook-Extensions-Pharo
 spotterAddressBookFor: aStep
-     <spotterOrder: -1>
+    " <spotterOrder: -1>"
      aStep listProcessor
                allCandidates: [:x | { ABAddressBook default } ];
                title: 'Address books';
