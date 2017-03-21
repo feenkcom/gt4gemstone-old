@@ -1,10 +1,13 @@
 remote - logic
 categoriesForClassLogic
 	
-	^ [ :currentClassName :isMeta | |targetClass|
+	^ [ :currentClassName :isMeta | |targetClass categoryNames|
 		targetClass := (GsSession currentSession symbolList 
 			objectNamed: currentClassName asSymbol).
 		isMeta ifTrue: [ targetClass := targetClass class ].
-		targetClass categoryNames sortWithBlock: [ :a :b | a < b ] ]
+		categoryNames := targetClass categoryNames sortWithBlock: [ :a :b | a < b ].
+		categoryNames size > 0 
+			ifTrue: [ { '--all--' } , categoryNames ] 
+			ifFalse: [ categoryNames ] ]
 	
 	

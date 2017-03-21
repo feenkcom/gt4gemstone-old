@@ -1,12 +1,11 @@
 building presentations
-methodCreationTemplateIn: aComposite
+sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: isClassSide
 
+	self methodSelector: aMethodSelector.
 	^ aComposite pharoMethod
-		display: [ 'messageSelectorAndArgumentNames
-	"comment stating purpose of message"
-
-	| temporary variable names |
-	statements' ];
+		display: [ self sourceCodeForMethodLogic
+			gtGsPerformRemotelyOn: self gemstoneClient 
+			withArguments: { methodSelector . className . isClassSide } ];
 		with: [ :aPresentation | 
 			aPresentation selectionActions 
 				addAll: (aPresentation gtGsRemoteExecutionSelectionActionsWith: self);

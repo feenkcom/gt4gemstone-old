@@ -1,3 +1,3 @@
 testing
-isCurrentMethodClassSide
+isClassSideActive
 	^ currentSide = #class

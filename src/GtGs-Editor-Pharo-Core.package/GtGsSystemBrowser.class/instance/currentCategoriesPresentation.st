@@ -1,8 +1,8 @@
 accessing - presentations
-currentMethodsPresentation
+currentCategoriesPresentation
 	| methodBrowsers |
 	
 	methodBrowsers := (self browser paneNamed: #methods) presentations presentations.
 	^ ((self browserModel isClassSideActive
 		ifFalse: [ methodBrowsers first ] ifTrue: [ methodBrowsers second ]) 
-			paneNamed: #methods) presentations first cachedPresentation first
+			paneNamed: #categories) presentations first cachedPresentation first

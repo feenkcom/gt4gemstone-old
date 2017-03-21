@@ -5,6 +5,7 @@ categoriesPresentationIn: aComposite forClass: aClassName isMeta: isClassSide
 	^ aComposite fastList
 		display: [ (self categoriesForClassLogic 
 			gtGsBareAsCollectionFormatterOn: self gemstoneClient 
-			withArguments: { aClassName . isClassSide}) elements ]
+			withArguments: { className . isClassSide }) elements 
+				ifEmpty: [ { 'no messages' } ] ]
 	
 	

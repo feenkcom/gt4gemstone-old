@@ -10,8 +10,7 @@ sourcePaneTransmissionsIn: browser
 		from: #classes;
 		to: #source;
 		andShowDynamic: [ :aComposite :aClassName | 
-			(self browserModel classDefinitionSourceFor: aClassName)
-				gtGsAsGlamourPresentationOn: aComposite ].
+			self browserModel classDefinitionSourceIn: aComposite for: aClassName ].
 	browser transmit 
 		from: #methods port: #category;
 		to: #source;
@@ -21,11 +20,11 @@ sourcePaneTransmissionsIn: browser
 		from: #methods port: #instance;
 		to: #source;
 		andShowDynamic: [ :aComposite :aMethodSelector |
-			self browserModel sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: false withCodeExecutor: self ].
+			self browserModel sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: false ].
 	browser transmit 
 		from: #methods port: #class;
 		to: #source;
 		andShowDynamic: [ :aComposite :aMethodSelector |
-			self browserModel sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: true  withCodeExecutor: self ].
+			self browserModel sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: true ].
 		
 	

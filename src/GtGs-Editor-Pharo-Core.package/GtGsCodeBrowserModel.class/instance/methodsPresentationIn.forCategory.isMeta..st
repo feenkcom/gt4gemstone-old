@@ -6,4 +6,6 @@ methodsPresentationIn: aComposite forCategory: aCategoryName isMeta: isClassSide
 	^ aComposite fastList 
 		display: [ (self methodsForCategoryLogic
 			gtGsBareAsCollectionFormatterOn: self gemstoneClient 
-			withArguments: { aCategoryName . className. isClassSide}) elements ]
+			withArguments: { categoryName . className. self isClassSideActive }) elements ];
+		with: [ :aPresentation |
+			aPresentation selectionActions addAll: (self methodsListActionsWith: self) ]
