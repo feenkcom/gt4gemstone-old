@@ -1,3 +1,5 @@
 finalization
 finalize
-	"self isProxyObjectActive ifTrue: [ self class decreaseGarbageCollectionCounterForOop: self selfOop ]"
+	self isProxyObjectActive 
+		ifTrue: [ self class decreaseGarbageCollectionCounterForProxy: self ]
+		ifFalse: [ self class removeFromGarbareCollectionProxy: self  ]

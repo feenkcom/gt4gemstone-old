@@ -1,3 +1,3 @@
-gci api
+gc api
 registerForGarbageCollection
-	self class registerForGarbageCollectionOop: self selfOop
+	self class registerForGarbageCollectionProxy: self 
