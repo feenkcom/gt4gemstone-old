@@ -6,4 +6,6 @@
 		"decreaseGarbageCollectionCounterForBareProxy:" : "AndreiChis 3/21/2017 22:33",
 		"garbageCollectionMutex" : "AndreiChis 3/21/2017 22:02",
 		"garbageCollectionProxyMap" : "AndreiChis 3/21/2017 22:03",
-		"registerForGarbageCollectionBareProxy:" : "AndreiChis 3/21/2017 22:30" } }
+		"registerForGarbageCollectionBareProxy:" : "AndreiChis 3/21/2017 22:30",
+		"registerForGarbageCollectionInspectorProxy:" : "AndreiChis 3/21/2017 22:45",
+		"releaseInspectorProxyWithOopAndClient:" : "AndreiChis 3/21/2017 23:09" } }
