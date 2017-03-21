@@ -7,7 +7,4 @@ sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: isClassS
 			gtGsPerformRemotelyOn: self gemstoneClient 
 			withArguments: { methodSelector . className . isClassSide } ];
 		with: [ :aPresentation | 
-			aPresentation selectionActions 
-				addAll: (aPresentation gtGsRemoteExecutionSelectionActionsWith: self);
-				addAll:  aPresentation gtGsLocalExecutionSelectionActions;
-				addAll: (aPresentation gtGsMethodCodeActionsWith: self) ]
+			self remoteCodeActionsIn: aPresentation ]

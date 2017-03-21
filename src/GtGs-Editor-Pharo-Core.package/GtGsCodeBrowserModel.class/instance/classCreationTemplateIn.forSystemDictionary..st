@@ -9,4 +9,6 @@ classCreationTemplateIn: aComposite forSystemDictionary: aSystemDictionaryName
 	poolDictionaries: #()
 	inDictionary: ''', (aSystemDictionaryName ifNil: ['']) ,'''
 	category: ''''
-	options: #()' ]
+	options: #()' ];
+		with: [ :aPresentation | 
+			self remoteCodeActionsIn: aPresentation ]

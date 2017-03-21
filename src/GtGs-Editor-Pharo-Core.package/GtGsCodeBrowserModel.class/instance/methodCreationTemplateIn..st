@@ -8,7 +8,4 @@ methodCreationTemplateIn: aComposite
 	| temporary variable names |
 	statements' ];
 		with: [ :aPresentation | 
-			aPresentation selectionActions 
-				addAll: (aPresentation gtGsRemoteExecutionSelectionActionsWith: self);
-				addAll:  aPresentation gtGsLocalExecutionSelectionActions;
-				addAll: (aPresentation gtGsMethodCodeActionsWith: self) ]
+			self remoteCodeActionsIn: aPresentation ]
