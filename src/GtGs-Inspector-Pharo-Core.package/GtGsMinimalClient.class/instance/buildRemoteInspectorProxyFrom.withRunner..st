@@ -1,10 +1,10 @@
 actions - proxy
-buildRemoteInspectorProxyFrom: aString inContext: aContextArgument 
+buildRemoteInspectorProxyFrom: aString withRunner: anOopType
 	| serializedProxy materializedProxy |
 	serializedProxy := self 
-		send: #performStringAndBuildProxyFor:inContext: 
-		to: self todeServerOopType 
-		withArgs: { aString . aContextArgument }.
+		send: #performStringAndBuildProxyFor:
+		to: anOopType 
+		withArgs: { aString }.
 	serializedProxy ifNil: [ ^ nil ].
 	materializedProxy := self objectSerializer fromString: serializedProxy.
 	materializedProxy gemstoneClient: self.

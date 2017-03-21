@@ -1,10 +1,10 @@
 actions - proxy
-performStringRemotely: aString inContext: anOopType
+performStringRemotely: aString inContext: aContextArgument
 	
 	^ self 
-		send: #performString: 
-		to: anOopType 
-		withArgs: { aString }.
+		send: #performString:inContext: 
+		to: self todeServerOopType 
+		withArgs: { aString . aContextArgument }.
 
 		
 

@@ -1,4 +1,4 @@
 *GtGs-Inspector-Pharo-Core
 performStringRemotely: aString
 
-	^ self gemstoneClient performStringRemotely: aString inContext: self selfOopType
+	^ self gemstoneClient performStringRemotely: aString withRunner: self selfOopType

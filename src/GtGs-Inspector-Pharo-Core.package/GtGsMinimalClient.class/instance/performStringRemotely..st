@@ -1,5 +1,5 @@
 actions - proxy
 performStringRemotely: aString
-	^ self performStringRemotely: aString inContext: self todeServerOopType
+	^ self performStringRemotely: aString withRunner: self todeServerOopType
 		
 
