@@ -2,6 +2,12 @@ building
 compose
 	| browser |
 	
+	self act: [:b | self updateBrowser ] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Update'.
+	self title: [ 
+		self browserName, ' - ', 
+		self browserModel gemstoneClient detailedDescription ].
+	self color: (Color blue muchDarker alpha: 0.4).
+	
 	browser := self tabulator.
 	browser 
 		row: [ :aRow |
