@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.35' message 'fixed typo in debugger dependency' id '8efa5384-d291-4227-abf3-74ef51dacff5' date '22 March 2017' time '10:35:28.204338 am' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.34' message 'Fixed dependency loop in baseline caused by GtGs-BareProxy-Pharo
-' id '5f833993-d425-5cec-848b-d23746c7739f' date '22 March 2017' time '10:33:26 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.36' message 'Added ClientPharo package to the Core group' id 'f5892547-8860-4589-b5d2-ab9abd03f9e6' date '22 March 2017' time '8:28:44.183802 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.35' message 'fixed typo in debugger dependency
+' id '3c038bd6-57c2-516a-b608-1e9cc6d2d843' date '22 March 2017' time '10:35:34 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
