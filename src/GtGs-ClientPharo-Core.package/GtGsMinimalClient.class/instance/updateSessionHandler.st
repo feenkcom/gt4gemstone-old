@@ -1,0 +1,3 @@
+login/logout
+updateSessionHandler
+	GtGsSessionsLifecycleHandler updateContent
