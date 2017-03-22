@@ -16,6 +16,15 @@ gtGsRemoteExecutionSelectionActionsWith: aGsCodeExecutor
 						(aGsCodeExecutor buildRemoteInspectorProxyFrom: aText) inspect ] ];  
 				keymap: PharoShortcuts current inspectItShortcut; 
 				icon: GLMUIThemeExtraIcons glamorousInspect;
+				yourself.
+				
+		(GLMGenericAction new) 
+				title: 'Debug it (remote)';
+				action: [ :aPresentation |
+					aPresentation highlightAndDo: [ :aText |
+						aGsCodeExecutor debugStringRemotely: aText ] ]; 
+				keymap: PharoShortcuts current debugItShortcut; 
+				icon: GLMUIThemeExtraIcons glamorousBug;
 				withSeparatorAfter;
 				yourself.
 		}
