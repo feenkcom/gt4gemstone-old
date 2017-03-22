@@ -1,3 +1,0 @@
-instance creation
-forDefaultSessionDescription
-	^ self forSessionDescriptionNamed: SCIGemStoneServerConfigSpec defaultSessionName

@@ -1,1 +1,0 @@
-I manage a set of clients for connecting to GemStone servers and provide a user interface for creating, stopping and removing clients.

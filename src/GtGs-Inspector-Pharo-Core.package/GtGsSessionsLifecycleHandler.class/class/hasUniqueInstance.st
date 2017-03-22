@@ -1,3 +1,0 @@
-accessing
-hasUniqueInstance
-	^ uniqueInstance notNil

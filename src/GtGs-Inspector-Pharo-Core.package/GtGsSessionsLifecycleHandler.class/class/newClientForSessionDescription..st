@@ -1,4 +1,0 @@
-instance creation
-newClientForSessionDescription: aSessionDescription
-
-	self defaultClientType asClass loginWith: aSessionDescription.

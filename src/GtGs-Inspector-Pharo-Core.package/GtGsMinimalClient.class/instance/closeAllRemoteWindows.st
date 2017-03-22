@@ -1,8 +1,0 @@
-actions - api
-closeAllRemoteWindows
-	| gsToolModels |
-	gsToolModels := { GtGsInspector . GtGsPlayground . GtGsGenericStackDebugger }.
-	(SystemWindow allSubInstances select: [:w | 
-		 gsToolModels anySatisfy: [ :aGsToolModel | w model class includesBehavior: aGsToolModel ] ])
-				do: [ :window | 
-					window model gemstoneClient == self ifTrue: [ window delete ] ].

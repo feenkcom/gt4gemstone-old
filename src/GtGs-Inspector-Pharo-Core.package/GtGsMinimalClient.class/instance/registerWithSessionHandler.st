@@ -1,3 +1,0 @@
-login/logout
-registerWithSessionHandler
-	GtGsSessionsLifecycleHandler addGemstoneClient: self
