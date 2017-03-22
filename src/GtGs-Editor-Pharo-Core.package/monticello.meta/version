@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.11' message 'refactorings in the code editor' id 'b379b4fd-1bd9-4b26-bf4b-13f85ac46334' date '22 March 2017' time '12:14:22.878259 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.10' message 'Separated the code browser into one for SymbolDictionaries and one for class categories.
-' id 'c0a42fe2-7020-54a8-a4e7-3803cd275bf2' date '21 March 2017' time '7:13:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.12' message 'The code browser should be able to debug strings.' id 'de656856-4de4-438f-a931-c0e0e67c5dc5' date '22 March 2017' time '11:43:50.559724 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.11' message 'refactorings in the code editor
+' id '569afba9-99a2-535b-a886-68ebadfcbb43' date '22 March 2017' time '12:14:28 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
