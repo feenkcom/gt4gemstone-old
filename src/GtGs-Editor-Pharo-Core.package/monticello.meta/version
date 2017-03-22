@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.14' message 'Added #gemstoneClient to the code browser.' id '46615bfe-81cb-4d03-91df-94e7bfee2617' date '22 March 2017' time '2:28:43.933215 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.13' message 'set the category when saving a method
-' id '88ee1718-0b26-55e5-ab7c-84b5ec997afb' date '22 March 2017' time '2:17:09 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.15' message 'Add to the client an API for opening a code browser.' id '73e2f307-c1b9-4503-8f9f-e6880023112a' date '22 March 2017' time '5:40:00.098905 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.14' message 'Added #gemstoneClient to the code browser.
+' id '93b35835-a6d4-59ec-9004-c5a63fa225c1' date '22 March 2017' time '2:28:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

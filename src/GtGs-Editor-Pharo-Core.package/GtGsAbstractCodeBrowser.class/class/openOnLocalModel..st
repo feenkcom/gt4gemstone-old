@@ -1,5 +1,5 @@
 opening
 openOnLocalModel: aBrowserModel
 
-	^ self new openOnLocalModel: aBrowserModel
+	^ (self startOnLocalModel: aBrowserModel) open
 		

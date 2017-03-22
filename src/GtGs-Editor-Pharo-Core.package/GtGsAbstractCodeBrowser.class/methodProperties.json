@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"openOnLocalModel:" : "AndreiChis 3/21/2017 18:42" },
+		"openOnLocalModel:" : "AndreiChis 3/22/2017 17:30",
+		"startOnLocalModel:" : "AndreiChis 3/22/2017 17:30" },
 	"instance" : {
 		"browser" : "AndreiChis 3/21/2017 18:18",
 		"browserModel" : "AndreiChis 3/21/2017 18:18",
@@ -16,9 +17,9 @@
 		"currentMethodsPresentation" : "AndreiChis 3/21/2017 18:18",
 		"gemstoneClient" : "AndreiChis 3/22/2017 14:23",
 		"methodsBrowserIn:isMeta:" : "AndreiChis 3/21/2017 18:18",
-		"openOnLocalModel:" : "AndreiChis 3/21/2017 18:42",
 		"selectClass:" : "AndreiChis 3/21/2017 19:03",
 		"sourcePaneTransmissionsIn:" : "AndreiChis 3/21/2017 19:10",
+		"startOnLocalModel:" : "AndreiChis 3/22/2017 17:30",
 		"updateBrowser" : "AndreiChis 3/21/2017 23:42",
 		"updateCategoriesSelectMethod:" : "AndreiChis 3/21/2017 18:18",
 		"updateMethodsListAndSelect:" : "AndreiChis 3/21/2017 18:18" } }
