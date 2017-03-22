@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"addGemstoneClient:" : "TravisCI 2/22/2017 11:33",
-		"availableSessionDescriptions" : "AndreiChis 10/22/2016 22:51:04",
+		"availableSessionDescriptions" : "AndreiChis 3/22/2017 16:10",
 		"cleanUp" : "TravisCI 2/22/2017 11:59",
 		"clearInstance" : "TravisCI 2/21/2017 21:07",
 		"createSessionDescriptionFrom:" : "AndreiChis 10/22/2016 22:51:04",
@@ -18,6 +18,7 @@
 		"open" : "TravisCI 2/21/2017 21:17",
 		"removeGemstoneClient:" : "TravisCI 2/21/2017 21:20",
 		"removeGemstoneClients" : "TravisCI 2/22/2017 15:32",
+		"sessionDescriptionsFolder" : "AndreiChis 3/22/2017 16:13",
 		"shutDown:" : "TravisCI 2/22/2017 11:54",
 		"uniqueInstance" : "AndreiChis 10/22/2016 22:51:04",
 		"updateContent" : "TravisCI 2/21/2017 21:21",
@@ -25,16 +26,16 @@
 	"instance" : {
 		"actOnBrowserClosing:" : "TravisCI 2/21/2017 21:07",
 		"compose" : "AndreiChis 3/22/2017 15:40",
-		"createSessionDescriptionAndLogIn" : "TravisCI 2/22/2017 14:53",
+		"createSessionDescriptionAndLogInFor:" : "AndreiChis 3/22/2017 16:12",
 		"defaultTitle" : "TravisCI 2/22/2017 15:25",
-		"deleteSessionDescription:" : "TravisCI 2/22/2017 15:03",
+		"deleteSessionDescription:" : "AndreiChis 3/22/2017 16:12",
 		"duplicateSessionDescription:" : "AndreiChis 3/14/2017 13:41",
 		"formatString:for:" : "TravisCI 2/22/2017 11:29",
 		"gemstoneClients" : "AndreiChis 10/22/2016 22:51:04",
 		"initialExtent" : "AndreiChis 10/22/2016 22:51:04",
 		"installSelectionActionsOn:" : "AndreiChis 3/22/2017 15:36",
-		"installToolbarActionsOn:" : "AndreiChis 2/22/2017 15:39",
+		"installToolbarActionsOn:" : "AndreiChis 3/22/2017 15:56",
 		"isClientActive:" : "TravisCI 2/22/2017 11:42",
-		"newSessionDescriptionContents" : "AndreiChis 3/14/2017 13:28",
+		"openCreateSessionDescriptionWindow" : "AndreiChis 3/22/2017 16:15",
 		"openOn:" : "AndreiChis 10/22/2016 22:51:04",
 		"sessionDescriptionCreationHelpText" : "TravisCI 2/22/2017 15:00" } }

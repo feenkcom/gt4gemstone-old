@@ -1,5 +1,5 @@
 private
-newSessionDescriptionContents
+openCreateSessionDescriptionWindow
 	| editorWindow |
 	
 	editorWindow := (TextEditorDialogWindow newWithTheme: Smalltalk ui theme)
@@ -10,12 +10,12 @@ newSessionDescriptionContents
    		     on: stream;
 			  prettyPrint: true;
    		     nextPut: (TDSessionDescription new
-					name: '<TODO>';
-					stoneHost: '<TODO>';
-    				stoneName: '<TODO>';
-    				gemHost: '<TODO>';
-					netLDI: '<TODO>';
-   					netLDIPort: '<TODO>';
+					name: 'TODO';
+					stoneHost: 'TODO';
+    				stoneName: 'TODO';
+    				gemHost: 'TODO';
+					netLDI: 'TODO';
+   					netLDIPort: 'TODO';
 					gemTask: 'gemnetobject';
 					userId: 'DataCurator';
 					password: 'swordfish';
@@ -23,4 +23,7 @@ newSessionDescriptionContents
 		entryHeight: 400.
 	"By default the text is centered."
 	editorWindow textMorph text addAttribute: TextAlignment leftFlush.
-	^ (World openModal: editorWindow) entryText.
+	editorWindow textEditorMorph hasUnacceptedEdits: false.
+	editorWindow textEditorMorph acceptAction: [ :text | 
+		self createSessionDescriptionAndLogInFor: text ].
+	editorWindow openInWorld.

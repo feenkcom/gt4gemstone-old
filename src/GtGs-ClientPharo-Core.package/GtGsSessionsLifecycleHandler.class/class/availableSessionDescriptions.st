@@ -1,7 +1,7 @@
 accessing
 availableSessionDescriptions
 	| sessionDescriptionDir |
-	sessionDescriptionDir := GsDevKitSession gsDevKitSessionDescriptionPath asFileReference.
+	sessionDescriptionDir := self sessionDescriptionsFolder.
 	^ sessionDescriptionDir exists 
 		ifFalse: [ #() ]
 		ifTrue: [ | sessionDescriptions |

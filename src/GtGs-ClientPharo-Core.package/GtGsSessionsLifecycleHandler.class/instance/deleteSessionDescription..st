@@ -2,7 +2,7 @@ private
 deleteSessionDescription: aSessionDescription
 	| sessionFile | 
 	
-	sessionFile := GsDevKitSession gsDevKitSessionDescriptionPath asFileReference / aSessionDescription name.
+	sessionFile := self class sessionDescriptionsFolder / aSessionDescription name.
 	sessionFile exists 
 		ifTrue: [ 
 			sessionFile delete.

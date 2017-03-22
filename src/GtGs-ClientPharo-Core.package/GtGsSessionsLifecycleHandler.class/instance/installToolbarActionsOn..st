@@ -21,7 +21,7 @@ installToolbarActionsOn: aPresentation
 	
 	aPresentation 
 		addAction: (GLMGenericAction new
-			action: [ self createSessionDescriptionAndLogIn ];
+			action: [ self openCreateSessionDescriptionWindow ];
 			title: 'Create session description and login').
 	
 	aPresentation act: [ self class logoutGemstoneClients ] entitled: 'Logout from all sessions'.
