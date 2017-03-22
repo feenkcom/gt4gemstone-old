@@ -46,4 +46,5 @@ loginWith: aSessionDescription
 				to: todeServerOopType
 				withArgs: {self effectiveApiVersion asString} ].
 	self initializeSessionId.
+	needsCommitIndicator := false.
 	self registerWithSessionHandler.
