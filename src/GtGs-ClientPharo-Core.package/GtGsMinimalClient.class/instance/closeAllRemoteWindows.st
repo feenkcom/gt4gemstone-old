@@ -1,7 +1,7 @@
 actions - api
 closeAllRemoteWindows
 	| gsToolModels |
-	gsToolModels := { #GtGsInspector . #GtGsPlayground . #GtGsGenericStackDebugger }.
+	gsToolModels := { #GtGsInspector . #GtGsPlayground . #GtGsGenericStackDebugger . #GtGsSymbolDictionariesBrowser . #GtGsCategoriesBrowser }.
 	(SystemWindow allSubInstances select: [:w | 
 		 gsToolModels anySatisfy: [ :aGsToolModel | w model class includesBehavior: aGsToolModel asClass ] ])
 				do: [ :window | 

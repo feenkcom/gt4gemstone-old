@@ -1,2 +1,2 @@
-(name 'GtGs-ClientPharo-Core-AndreiChis.2' message 'Added the ability to debug remotely a string.' id '707ff931-ede1-48fa-8df6-d6754aa2a932' date '22 March 2017' time '11:43:16.722693 am' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.1' message 'Moved all methods for the Pharo client to a dedicated package.
-' id 'f80def6b-1d5c-56ac-8e45-0d52b29b04c0' date '22 March 2017' time '10:17:18 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientPharo-Core-AndreiChis.3' message 'Close also the code browser when logging out from a session.' id '72188a44-1c2b-4f4e-b37b-e7c303689297' date '22 March 2017' time '2:28:06.388238 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.2' message 'Added the ability to debug remotely a string.
+' id '7d303204-53b8-56ea-b2c5-7b50b900e12a' date '22 March 2017' time '11:43:20 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
