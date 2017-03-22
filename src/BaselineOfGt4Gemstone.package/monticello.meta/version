@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.30' message 'Added #GtGs-ClientGemstone-Core to the baseline.' id 'a939879c-ad12-4d0d-81e7-6d2f38ff3f50' date '22 March 2017' time '9:38:26.68019 am' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.29' message 'added ''GtGs-Editor-Core''
-' id 'b769c9bf-3cce-5770-ac32-74a0dcd63d3e' date '17 March 2017' time '12:36:52 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.31' message 'fixed typo in baseline' id '87aea5d6-87f7-4ce9-803a-bb0594b7cf17' date '22 March 2017' time '9:44:35.530225 am' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.30' message 'Added #GtGs-ClientGemstone-Core to the baseline.
+' id 'ce8ddac5-ba8a-5bc1-9426-1c6c16be551b' date '22 March 2017' time '9:38:32 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

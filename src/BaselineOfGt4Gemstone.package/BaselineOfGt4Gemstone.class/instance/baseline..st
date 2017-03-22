@@ -35,7 +35,7 @@ baseline: spec
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-Inspector-SystemExtensions';
-			package: 'GtGs-ClientGemstone-Core'; with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-BareProxy-Pharo' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
+			package: 'GtGs-ClientGemstone-Core' with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-BareProxy-Pharo' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
