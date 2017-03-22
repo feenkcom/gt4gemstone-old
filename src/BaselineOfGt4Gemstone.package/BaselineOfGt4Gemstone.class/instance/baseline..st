@@ -35,7 +35,8 @@ baseline: spec
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-Inspector-SystemExtensions';
-			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-BareProxy-Pharo' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
+			package: 'GtGs-ClientGemstone-Core'; with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-BareProxy-Pharo' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
+			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Pharo-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
@@ -51,7 +52,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core' 'GtGs-Editor-Pharo-Core' 'GtGs-BareProxy-Pharo');
+				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-ClientGemstone-Core' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core' 'GtGs-Editor-Pharo-Core' 'GtGs-BareProxy-Pharo');
 			group: 'Tests'
 				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
@@ -70,7 +71,8 @@ baseline: spec
                 repository: 'github://dalehenrich/tode:dev/repository' ].
 
 		spec
-			package: 'GtGs-Inspector-Core' with: [ spec requires: #('Tode') ];
+			package: 'GtGs-ClientGemstone-Core' with: [ spec requires: #('Tode') ];
+			package: 'GtGs-Inspector-Core' with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-SystemExtensions';
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
@@ -81,7 +83,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core');
+				with: #('GtGs-ClientGemstone-Core' 'GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Gemstone-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'
