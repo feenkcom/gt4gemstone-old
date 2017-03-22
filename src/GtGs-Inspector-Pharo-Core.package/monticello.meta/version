@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.101' message 'Added a remote print it action.' id '15b581d3-9a4c-4ad9-a825-3a4114be231b' date '22 March 2017' time '2:06:04.235612 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.100' message 'Added a debug it actions to the text presentation.
-' id 'b7d4c5f7-9503-5e7a-a8a6-e794c6f016ee' date '22 March 2017' time '11:44:57 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.102' message 'Add more actions in the context menu of code presentations.' id '8ea8419c-ed2d-437e-9c8a-108b2e93ddcc' date '22 March 2017' time '5:40:55.224356 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.101' message 'Added a remote print it action.
+' id '27eb050c-5080-5110-a723-1fadec16def0' date '22 March 2017' time '2:06:11 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

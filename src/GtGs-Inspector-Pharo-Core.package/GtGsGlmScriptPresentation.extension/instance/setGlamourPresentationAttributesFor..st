@@ -6,7 +6,10 @@ setGlamourPresentationAttributesFor: aPresentation
 		aPresentation selectionActions 
 			add: (aPresentation gtGsRemoteDoItAndGoActionsWith: self);
 			addAll: (aPresentation gtGsRemoteExecutionSelectionActionsWith: self);
-			addAll: aPresentation gtGsLocalExecutionSelectionActions.
+			addAll: (aPresentation gtGsRemoteBrowsingSelectionActionsWith: self gemstoneClient);
+			addAll: (aPresentation gtGsLocalExecutionSelectionActions);
+			addAll: (aPresentation gtGsLocalBrowsingSelectionActions);
+			addAll: (aPresentation codeEditingSelectionActions).
 		
 		aPresentation format: [ :aListNode |
 			String streamContents: [ :stream | 
