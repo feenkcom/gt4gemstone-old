@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.100' message 'Added a debug it actions to the text presentation.' id '1398d98f-366e-4ff5-903c-25d31a862f8f' date '22 March 2017' time '11:44:49.581794 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.99' message 'Moved all methods for the Pharo client to a dedicated package.
-' id 'e9bb4db0-2e1e-5add-a55f-c7c5eb858793' date '22 March 2017' time '10:19:12 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.101' message 'Added a remote print it action.' id '15b581d3-9a4c-4ad9-a825-3a4114be231b' date '22 March 2017' time '2:06:04.235612 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.100' message 'Added a debug it actions to the text presentation.
+' id 'b7d4c5f7-9503-5e7a-a8a6-e794c6f016ee' date '22 March 2017' time '11:44:57 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

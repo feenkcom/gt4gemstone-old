@@ -10,6 +10,13 @@ gtGsRemoteExecutionSelectionActionsWith: aGsCodeExecutor
 				icon: GLMUIThemeExtraIcons glamorousSpawn;
 				yourself.
 		(GLMGenericAction new) 
+				title: 'Print it (remote)';
+				action: [ :aPresentation |
+					aPresentation gtGsRemotePrintItWith: aGsCodeExecutor ]; 
+				keymap: PharoShortcuts current printItShortcut; 
+				icon: GLMUIThemeExtraIcons glamorousSpawn;
+				yourself.
+		(GLMGenericAction new) 
 				title: 'Inspect it (remote)'; 
 				action: [ :aPresentation |
 					aPresentation highlightAndDo: [ :aText |
