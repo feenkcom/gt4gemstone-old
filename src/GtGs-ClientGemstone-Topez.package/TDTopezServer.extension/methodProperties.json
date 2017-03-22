@@ -4,6 +4,11 @@
 	"instance" : {
 		"buildDebuggerSessionForException:fromProcess:" : "AndreiChis 11/14/2016 15:59",
 		"collectDebuggerStackForProcess:" : "AndreiChis 11/8/2016 13:30",
+		"compileSource:classified:inClassNamed:onClassSideIf:" : "AndreiChis 3/22/2017 17:48",
+		"compileString:inContext:literalVars:" : "AndreiChis 3/22/2017 17:47",
+		"debugString:" : "AndreiChis 3/22/2017 17:45",
+		"debugString:inContext:" : "AndreiChis 3/22/2017 17:45",
+		"debugString:inContext:literalVars:" : "AndreiChis 3/22/2017 17:45",
 		"performString:" : "AndreiChis 10/20/2016 19:05:42",
 		"performString:inContext:" : "AndreiChis 3/8/2017 22:54",
 		"performString:inContext:literalVars:" : "AndreiChis 3/8/2017 22:53",
