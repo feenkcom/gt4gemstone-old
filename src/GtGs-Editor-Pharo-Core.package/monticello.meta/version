@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.12' message 'The code browser should be able to debug strings.' id 'de656856-4de4-438f-a931-c0e0e67c5dc5' date '22 March 2017' time '11:43:50.559724 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.11' message 'refactorings in the code editor
-' id '569afba9-99a2-535b-a886-68ebadfcbb43' date '22 March 2017' time '12:14:28 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.13' message 'set the category when saving a method' id '4e1141ef-bd9c-4141-9e2c-158ae2f35015' date '22 March 2017' time '2:17:02.78722 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.12' message 'The code browser should be able to debug strings.
+' id '5fa591d7-3036-5bca-8978-915a4da52a32' date '22 March 2017' time '11:43:56 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

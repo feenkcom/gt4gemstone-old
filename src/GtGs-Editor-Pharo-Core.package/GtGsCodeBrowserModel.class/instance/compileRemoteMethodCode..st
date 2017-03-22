@@ -4,7 +4,9 @@ compileRemoteMethodCode: aString
 	
 	newMethodCategoryName := (((categoryName = 'no messages') 
 		or: [ categoryName = '--all--' ])
-			or: [categoryName = 'as yet unclassified' ]) ifTrue: [ nil ].
+			or: [categoryName = 'as yet unclassified' ]) 
+				ifTrue: [ nil ]
+				ifFalse: [ categoryName ].
 	compiledMethodSelector := self gemstoneClient 
 		send: #compileSource:classified:inClassNamed:onClassSideIf:
 		withArgs: { aString . newMethodCategoryName . className . (currentSide = #class) }.
