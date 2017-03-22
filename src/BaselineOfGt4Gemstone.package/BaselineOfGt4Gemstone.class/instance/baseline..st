@@ -45,7 +45,7 @@ baseline: spec
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Pharo-Core' with: [ spec requires: #('GtGs-Editor-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
-			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Debugger-Pharo' 'GtGs-Inspector-Pharo-Core') ];
+			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Pharo-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Debugger-Pharo-Tests' with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Common-Resources-Tests') ];
