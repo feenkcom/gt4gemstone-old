@@ -36,11 +36,12 @@ baseline: spec
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-Inspector-SystemExtensions';
 			package: 'GtGs-ClientGemstone-Core' with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-BareProxy-Pharo' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
+			package: 'GtGs-ClientGemstone-Topez' with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Inspector-Core'  with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Pharo-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
-			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Gemstone-Stubs' 'GtGs-Inspector-Core') ];
+			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Core' 'Glamour-FastTable' 'Glamour-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
@@ -72,6 +73,7 @@ baseline: spec
 
 		spec
 			package: 'GtGs-ClientGemstone-Core' with: [ spec requires: #('Tode') ];
+			package: 'GtGs-ClientGemstone-Topez' with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Inspector-Core' with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-SystemExtensions';
@@ -83,7 +85,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-ClientGemstone-Core' 'GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core');
+				with: #('GtGs-ClientGemstone-Core' 'GtGs-ClientGemstone-Topez' 'GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Gemstone-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'

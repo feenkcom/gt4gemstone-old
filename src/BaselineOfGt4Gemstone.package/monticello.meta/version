@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.31' message 'fixed typo in baseline' id '87aea5d6-87f7-4ce9-803a-bb0594b7cf17' date '22 March 2017' time '9:44:35.530225 am' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.30' message 'Added #GtGs-ClientGemstone-Core to the baseline.
-' id 'ce8ddac5-ba8a-5bc1-9426-1c6c16be551b' date '22 March 2017' time '9:38:32 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.32' message 'Added GtGs-ClientGemstone-Topez to better package the extensions needed to make gt4gemstone work with a topez server.' id 'b9dae18c-e26e-410b-9b47-999df0f892e3' date '22 March 2017' time '9:57:58.769503 am' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.31' message 'fixed typo in baseline
+' id '50fd9193-fd9f-5dd3-85e9-df3bd56463c6' date '22 March 2017' time '9:44:41 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
