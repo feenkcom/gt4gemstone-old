@@ -1,2 +1,0 @@
-topez
-platformInitialize
