@@ -4,14 +4,26 @@ installSelectionActionsOn: aPresentation
 	aPresentation
 		selectionAct: [ :currentPresentation |
 				currentPresentation selection openGemstonePlayground ] 
-			entitled: 'Open Gemstone playground'
-			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ];
+			entitled: 'Gemstone Playground'
+			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
+	aPresentation
+		selectionAct: [ :currentPresentation |
+				currentPresentation selection openSymbolDictionariesBrowser ] 
+			entitled: 'Symbol Dictionaries Browser'
+			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
+	aPresentation
+		selectionAct: [ :currentPresentation |
+				currentPresentation selection openCategoriesBrowser ] 
+			entitled: 'Categories Browser'
+			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
+	aPresentation selectionActions last withSeparatorAfter.
+	aPresentation
 		selectionAct: [ :currentPresentation |
 				currentPresentation selection sessionDescription inspect ] 
-			entitled: 'Inspect session description';
+			entitled: 'Inspect Session Description';
 		selectionAct: [ :currentPresentation |
 				currentPresentation selection inspect ] 
-			entitled: 'Inspect client';
+			entitled: 'Inspect Client';
 		selectionAct: [ :currentPresentation |
 				(currentPresentation selection buildRemoteInspectorProxyFrom: 'SessionTemps') inspect ] 
 			entitled: 'Inspect SessionTemps (remote)'
@@ -19,7 +31,7 @@ installSelectionActionsOn: aPresentation
 		selectionAct: [ :currentPresentation | |currentClient|
 				currentClient := currentPresentation selection.
 				currentClient class loginWith: (self duplicateSessionDescription: currentClient sessionDescription) ] 
-			entitled: 'Duplicate'.
+			entitled: 'Duplicate Client'.
 	aPresentation selectionActions last withSeparatorAfter.
 	aPresentation
 		selectionAct: [ :currentPresentation |
