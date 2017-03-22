@@ -1,0 +1,1 @@
+(name 'GtGs-ClientGemstone-Topez-AndreiChis.1' message 'Moved the topez extension methods to GtGs-ClientGemstone-Topez. Until now they were packages in GtGs-Inspector-Extensions, which was a hacky solution.' id 'db1ff688-8576-4182-9ea4-4fef78798950' date '22 March 2017' time '9:52:22.559407 am' author 'AndreiChis' ancestors () stepChildren ())
