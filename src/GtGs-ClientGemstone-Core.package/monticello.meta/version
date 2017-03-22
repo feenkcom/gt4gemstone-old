@@ -1,1 +1,2 @@
-(name 'GtGs-ClientGemstone-Core-AndreiChis.1' message 'Moved the GtGsTopezServer and its helper methods to a dedicated package.' id '1912bdef-9149-4f7d-9470-930d54909e4f' date '22 March 2017' time '9:31:14.274461 am' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-ClientGemstone-Core-AndreiChis.2' message 'Added the ability to debug remotely a string.' id '3e417765-dd38-4509-99be-ed5e55ef6419' date '22 March 2017' time '11:42:29.05208 am' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Core-AndreiChis.1' message 'Moved the GtGsTopezServer and its helper methods to a dedicated package.
+' id '8d567025-56c9-52a7-ac86-96bfcbd240d0' date '22 March 2017' time '9:31:16 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
