@@ -17,7 +17,7 @@ The current stable version is 0.1. To install it use the following instructions 
     
 For installing the gt4gemstone in a stone that does not require GsDevKit see [gt4gemstone server instalation without GsDevKit](doc/bareGemStoneInstallation.md). For installing and configuring GsDevKit on Windows see [GsDevKit Windows Installation](doc/windowsGsDevKitInstallation.md)
 
-##Opening a GT Gemstone remote Playground
+## Opening a GT Gemstone remote Playground
 
 Open a Pharo Playground and execute:
 
@@ -27,7 +27,7 @@ Open a Pharo Playground and execute:
 
 This opens a specialized Playground that works remotely with Gemstone. You can see that it is distinct because it has a blue border.
 
-##Screenshots
+## Screenshots
 
 <img src="doc/raw-inspector.png"/>
 
@@ -40,7 +40,7 @@ This opens a specialized Playground that works remotely with Gemstone. You can s
 <img src="doc/basic-debugger.png"/>
 
 
-##Utility scripts
+## Utility scripts
 
 Updating the code of gt4gemstone in a Gemstone stone:
 
