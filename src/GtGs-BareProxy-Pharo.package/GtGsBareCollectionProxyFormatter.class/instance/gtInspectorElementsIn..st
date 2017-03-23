@@ -1,4 +1,4 @@
-as yet unclassified
+printing
 gtInspectorElementsIn: aComposite
 	<gtInspectorPresentationOrder: 15>
 	

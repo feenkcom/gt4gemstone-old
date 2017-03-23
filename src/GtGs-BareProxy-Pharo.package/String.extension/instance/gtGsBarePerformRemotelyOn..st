@@ -1,3 +1,3 @@
 *GtGs-BareProxy-Pharo
-gtGsPerformRemotelyOn: aGemstoneClient
+gtGsBarePerformRemotelyOn: aGemstoneClient
 	^ aGemstoneClient buildRemoteBareProxyFrom: self
