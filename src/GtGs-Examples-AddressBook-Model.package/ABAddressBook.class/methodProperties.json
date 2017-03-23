@@ -1,8 +1,8 @@
 {
 	"class" : {
 		"default" : "AndreiChis 10/12/2016 16:31",
-		"initialize" : "AndreiChis 10/12/2016 16:59",
-		"loadDefaultData" : "AndreiChis 10/28/2016 00:12",
+		"loadDefaultData" : "AndreiChis 3/12/2017 13:31",
+		"loadDefaultDataIn:" : "AndreiChis 3/12/2017 00:44",
 		"reset" : "StephanEggermont 12/8/2014 15:30" },
 	"instance" : {
 		"addContacts:" : "AndreiChis 10/22/2015 18:18",
@@ -11,7 +11,8 @@
 		"contacts:" : "AndreiChis 1/23/2015 18:29",
 		"contactsWithAddress:" : "AndreiChis 7/8/2015 15:00",
 		"contactsWithTelephone:" : "AndreiChis 7/8/2015 15:24",
-		"gtGsInspectorContactsOn:" : "TravisCI 12/1/2016 10:54",
+		"gtGsInspectorContactsOn:" : "AndreiChis 3/12/2017 18:25",
+		"initializeDefault" : "AndreiChis 3/12/2017 00:50",
 		"label" : "AndreiChis 1/23/2015 18:21",
 		"label:" : "AndreiChis 1/23/2015 18:21",
 		"printOn:" : "AndreiChis 7/8/2015 16:40" } }

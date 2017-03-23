@@ -7,13 +7,13 @@ testErrorInPrintOnMethodInExpandedChild
 	rootNodes := gsStatePresentation cacheAt: #displayValue.
 
 	gsStatePresentation updateChildNodesFor: rootNodes second.
-	self assertTreeNodesColumnsContentFor: rootNodes second rawChildNodes equals: {
+	self assertNodesColumnsContentFor: rootNodes second rawChildNodes equals: {
 		{ #x. '4' }.
 		{ #y. '2' }.
 		{ #triggerPrintingError. 'nil' } }. 
 		
 	gsStatePresentation updateChildNodesFor: rootNodes third.
-	self assertTreeNodesColumnsContentFor: rootNodes third rawChildNodes equals: {
+	self assertNodesColumnsContentFor: rootNodes third rawChildNodes equals: {
 		{ #x. '<error printing>' }.
 		{ #y. '42' }.
 		{ #triggerPrintingError. 'false' } }.

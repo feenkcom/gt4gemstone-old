@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.10' message 'The third presentation is the Items one' id '0b598b96-073d-4390-a772-dd698e70cba0' date '23 December 2016' time '2:59:28.994929 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.9' message 'Fixed typo (#testObjectWithErrorInIPrintOn)
-' id 'bd429965-37b1-52b6-a4f9-a245c7c04b85' date '21 December 2016' time '5:29:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.17' message 'fixed testStatePresentationColumnsStructure' id '2fa52ff6-29b4-45e7-bd5a-59ef3ec20d66' date '12 March 2017' time '8:59:55.467505 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.16' message 'Added an API for requesting a single presentation from the inspector.
+' id '597b8798-5ab5-5fc6-879c-cdca3202b97e' date '12 March 2017' time '5:31:01 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

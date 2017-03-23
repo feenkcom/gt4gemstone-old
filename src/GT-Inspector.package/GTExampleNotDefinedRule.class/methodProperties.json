@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"checksClass" : "AndreiChis 1/22/2016 15:46",
+		"uniqueIdentifierName" : "AndreiChis 1/22/2016 16:02" },
+	"instance" : {
+		"basicCheck:" : "AndreiChis 1/22/2016 15:56",
+		"check:forCriticsDo:ifNone:" : "AndreiChis 1/22/2016 16:15",
+		"checkClass:" : "AndreiChis 1/22/2016 16:10",
+		"containsCustomExtension:" : "AndreiChis 1/22/2016 16:09",
+		"containsGTExample:" : "AndreiChis 1/22/2016 15:59",
+		"group" : "AndreiChis 1/22/2016 15:46",
+		"name" : "AndreiChis 1/22/2016 16:00",
+		"resultClass" : "AndreiChis 1/22/2016 15:46",
+		"severity" : "AndreiChis 1/22/2016 15:46" } }

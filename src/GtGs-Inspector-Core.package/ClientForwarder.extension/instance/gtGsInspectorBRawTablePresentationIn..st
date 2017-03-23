@@ -2,7 +2,7 @@
 gtGsInspectorBRawTablePresentationIn: aComposite
 	<gtInspectorPresentationOrder: 5>
 
-	^ aComposite table
+	^ aComposite tree
 		title: [ 'Raw' ];
 		display: [
 			self gtGsVariableValuePairsWithSelfIf: true ];

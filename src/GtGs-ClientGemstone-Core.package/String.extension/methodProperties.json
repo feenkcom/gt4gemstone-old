@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"gtGsAsMetacelloVersionNumber" : "TravisCI 12/23/2016 21:23",
+		"gtGsMetacelloIntegerLessThanSelf:" : "TravisCI 12/23/2016 21:04",
+		"gtGsMetacelloStringLessThanSelf:" : "TravisCI 12/23/2016 21:04",
+		"gtGsMetacelloVersionComponentLessThan:" : "TravisCI 12/23/2016 21:04" } }

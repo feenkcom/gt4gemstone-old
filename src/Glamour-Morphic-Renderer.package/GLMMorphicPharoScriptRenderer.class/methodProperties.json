@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnVariableBindingsAccessRequest:" : "AndreiChis 3/19/2015 17:37",
+		"actOnVariableBindingsUpdated:" : "AndreiChis 3/27/2015 17:38",
+		"modelFor:" : "AndreiChis 2/23/2017 17:04",
+		"morph" : "AndreiChis 4/28/2016 11:20",
+		"registerEventsForPresentation:" : "CyrilFerlicot 5/22/2015 14:30",
+		"workspaceBindingsStrategy" : "AndreiChis 4/28/2016 11:02" } }

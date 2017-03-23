@@ -6,7 +6,7 @@ testErrorInPrintOnMethodInSelf
 	gsStatePresentation := inspectorProxy gsPresentations first.
 	rootNodes := gsStatePresentation cacheAt: #displayValue.
 
-	self assertTreeNodesColumnsContentFor: rootNodes equals: {
+	self assertNodesColumnsContentFor: rootNodes equals: {
 		{ 'self'. '<error printing>' }.
 		{ #x. '<error printing>' }.
 		{ #y. 'aGtGsTestObjectWithPrintError' }.

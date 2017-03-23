@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-TravisCI.43' message 'use gtGsAsMetacelloVersionNumber' id '54e94624-3376-44ee-bce1-8117e1879be2' date '23 December 2016' time '9:32:12.10907 pm' author 'TravisCI' ancestors ((name 'GtGs-Debugger-Core-DaleHenrichs.42' message 'fold step through into GtGsDebuggerSession>>dbStep:
-' id '5b8bd4fd-f3df-5fe6-998b-e64b81e7616a' date '22 December 2016' time '5:53:50 am' author 'DaleHenrichs' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.44' message 'Build a presentation for displaying the source code of a stack frame on the GemStone side.' id 'a93e7f35-2c25-4401-9abb-df62025878a6' date '23 February 2017' time '4:15:17.11625 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.43' message 'use gtGsAsMetacelloVersionNumber
+' id '9302d955-041b-528f-84d8-cd1119289772' date '23 December 2016' time '9:32:15 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

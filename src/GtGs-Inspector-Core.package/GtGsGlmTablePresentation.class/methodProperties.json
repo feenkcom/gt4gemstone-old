@@ -3,17 +3,9 @@
 		 },
 	"instance" : {
 		"addColumn:" : "AndreiChis 10/12/2016 18:16",
-		"buildDisplayNodeFor:" : "AndreiChis 10/12/2016 19:32:13",
-		"children:" : "AndreiChis 10/13/2016 10:20",
-		"childrenBlock" : "AndreiChis 10/12/2016 17:54",
-		"childrenBlock:" : "AndreiChis 10/13/2016 10:20",
+		"buildDisplayNodeFor:atIndex:" : "AndreiChis 1/11/2017 23:50:11",
 		"column:evaluated:" : "AndreiChis 10/13/2016 10:21",
 		"column:evaluated:width:" : "AndreiChis 10/13/2016 10:21",
 		"columns" : "AndreiChis 10/12/2016 18:16",
-		"excludedInstVarNames" : "AndreiChis 10/12/2016 18:15",
 		"listNodeClass" : "AndreiChis 10/12/2016 19:18",
-		"rootsExpanded" : "AndreiChis 10/12/2016 17:59",
-		"shouldRootsExpand" : "AndreiChis 10/12/2016 17:59",
-		"shouldRootsExpand:" : "AndreiChis 10/12/2016 17:59",
-		"updateCacheBasic" : "AndreiChis 12/15/2016 17:01:58",
-		"updateUninitializedBlocks" : "AndreiChis 10/12/2016 18:58" } }
+		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43" } }

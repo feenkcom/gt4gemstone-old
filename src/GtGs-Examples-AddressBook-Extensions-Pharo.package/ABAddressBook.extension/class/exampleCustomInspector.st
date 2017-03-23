@@ -2,5 +2,5 @@
 exampleCustomInspector
 
 	GTInspector new
-  		filterByMethods: {ABAddressBook>>#gtContactsOn: . ABContact>>#gtContactOn:};
+  		filterByMethods: {ABAddressBook>>#gtGsInspectorContactsOn: . ABContact>>#gtGsInspectorContactOn:};
   		openOn: ABAddressBook default

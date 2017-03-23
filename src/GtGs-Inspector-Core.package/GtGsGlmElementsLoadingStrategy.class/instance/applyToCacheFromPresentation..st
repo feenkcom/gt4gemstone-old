@@ -1,0 +1,4 @@
+actions
+applyToCacheFromPresentation: aGsPresentation
+
+	self applyToCache: aGsPresentation cachedDisplayValue

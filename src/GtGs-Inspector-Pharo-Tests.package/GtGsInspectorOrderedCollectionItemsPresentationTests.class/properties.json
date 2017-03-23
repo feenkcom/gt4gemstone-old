@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Inspector-Pharo-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsInspectorOrderedCollectionItemsPresentationTests",
+	"pools" : [
+		 ],
+	"super" : "GtGsInspectorCollectionPresentationTests",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnCompileText:" : "AndreiChis 7/7/2014 22:16",
+		"actOnEvaluateSelection:" : "AndreiChis 1/30/2015 14:58",
+		"actOnHighlightAndEvaluate:" : "AndreiChis 4/11/2015 21:39",
+		"debugHighlightedText" : "AndreiChis 4/11/2015 21:40",
+		"evaluateAndPopPrintHighlight" : "AliakseiSyrel 11/2/2015 00:13",
+		"evaluateAndPrintSelection" : "AndreiChis 5/30/2014 14:33",
+		"modelFor:" : "AndreiChis 2/23/2017 17:04",
+		"popupPrint" : "AliakseiSyrel 11/2/2015 00:14",
+		"profileHighlightedText" : "AndreiChis 4/11/2015 21:40",
+		"registerEventsForPresentation:" : "CyrilFerlicot 5/22/2015 14:29",
+		"selectLine" : "AndreiChis 5/7/2014 18:01" } }

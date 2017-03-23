@@ -6,7 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"iconIdBlock" ],
+		"iconIdBlock",
+		"iteratorBlock",
+		"displayObjects",
+		"amountToShow",
+		"numberOfElements",
+		"amountToIncrement" ],
 	"name" : "GtGsGlmListingPresentation",
 	"pools" : [
 		 ],

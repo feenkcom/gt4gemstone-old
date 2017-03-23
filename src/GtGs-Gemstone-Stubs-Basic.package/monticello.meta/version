@@ -1,2 +1,2 @@
-(name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.5' message 'Added #argOrTempNamed:ifAbsent:' id '23926a79-29ad-4152-aeec-aaad888ea8f4' date '9 December 2016' time '5:14:01.092709 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.4' message 'Due to an error with filetree #theSelf was missing
-' id '7cd863c9-1d36-5c4b-ae71-7a1321bef954' date '9 December 2016' time '5:12:10 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.7' message 'Use #newWithKey:value: in dotSelfLiteralArray' id '4c6f66e1-1525-4d87-b6fc-435e6bce2a3f' date '8 March 2017' time '10:42:07.545049 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-Basic-AndreiChis.6' message 'added #dotSelfLiteralArray
+' id 'db2ffa1a-eb37-5f05-9b0a-af5b87ce541a' date '23 February 2017' time '3:58:11 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

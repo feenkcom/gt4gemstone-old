@@ -1,0 +1,15 @@
+{
+	"category" : "GtGs-ClientPharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"garbageCollectionProxyMap",
+		"garbageCollectionMutex" ],
+	"name" : "GtGsProxyFinalizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

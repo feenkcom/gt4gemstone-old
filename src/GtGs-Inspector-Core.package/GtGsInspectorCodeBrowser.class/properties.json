@@ -1,0 +1,16 @@
+{
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"superclassesPresentation",
+		"methodsPresentation",
+		"codePresentation" ],
+	"name" : "GtGsInspectorCodeBrowser",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmBrowser",
+	"type" : "normal" }

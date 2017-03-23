@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Tests-AndreiChis.9' message 'reverted experiment' id '09c01f14-34dd-4022-800c-58b3f58644e2' date '23 December 2016' time '5:58:33.25052 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Tests-AndreiChis.8' message 'Experiment in #buildDebuggerSessionFor:
-' id '7b884eae-657c-5576-a349-6417c57f27ee' date '23 December 2016' time '4:46:36 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Tests-AndreiChis.10' message 'do not test for UI process in testRemoteSessionInitialization' id '73821bd3-eca1-4e48-9363-a2f81c5068d9' date '24 December 2016' time '12:58:35.057185 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Tests-AndreiChis.9' message 'reverted experiment
+' id '5368d6c4-880c-5457-9918-01836a3321a3' date '23 December 2016' time '5:58:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"applyToCache:" : "DaleHenrichs 12/21/2016 15:07:35",
-		"computeDiffToIncludeElementAt:inCache:forPresentation:" : "AndreiChis 12/12/2016 17:25:47",
-		"computeDiffToIncludeElementsBetween:and:inCache:forPresentation:" : "AndreiChis 12/15/2016 17:01:58" } }
+		"applyToCache:" : "AndreiChis 1/11/2017 23:50:11",
+		"computeDiffToIncludeElementsBetween:and:withIterator:forPresentation:" : "AndreiChis 1/11/2017 23:50:11",
+		"diff" : "AndreiChis 1/11/2017 23:50:11",
+		"diffSize" : "AndreiChis 1/11/2017 23:50:11" } }

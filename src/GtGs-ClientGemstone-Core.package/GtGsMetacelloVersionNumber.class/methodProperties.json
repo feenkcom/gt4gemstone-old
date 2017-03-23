@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"extractNumericComponent:" : "TravisCI 12/23/2016 20:45",
+		"findIn:Delimiters:startingAt:" : "TravisCI 12/23/2016 20:43",
+		"findIn:tokens:" : "AndreiChis 1/11/2017 23:50:11",
+		"fromString:" : "TravisCI 12/23/2016 20:44",
+		"skipIn:Delimiters:startingAt:" : "TravisCI 12/23/2016 20:43" },
+	"instance" : {
+		"<" : "TravisCI 12/23/2016 20:50",
+		"collapseZeros" : "TravisCI 12/23/2016 20:51",
+		"compareLessThan:" : "TravisCI 12/23/2016 20:55" } }

@@ -3,12 +3,12 @@ testStatePresentationColumnsStructure
 	| inspectorProxy statePresentation |
 	
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.
-	self assert: inspectorProxy gsPresentations size equals: 2.
+	self assert: inspectorProxy gsPresentations size equals: 3.
 	
 	statePresentation :=inspectorProxy gsPresentations first.
 	self assert: statePresentation class equals: GtGsGlmTreePresentation.
 	self assert: statePresentation gemstoneClient equals: self client.
-	self assert: statePresentation cache size equals: 2.
+	self assert: statePresentation cache size equals: 3.
 	self assert: statePresentation columns size equals: 2.
 	
 	self assert: (statePresentation cache includesKey: #title).

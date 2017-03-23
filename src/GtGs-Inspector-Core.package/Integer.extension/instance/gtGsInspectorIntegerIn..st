@@ -1,7 +1,7 @@
 *GtGs-Inspector-Core
 gtGsInspectorIntegerIn: composite
 
-	^ composite table
+	^ composite fastTable
 		title: 'Integer';
 		display: [ | associations |
 			associations :=	{

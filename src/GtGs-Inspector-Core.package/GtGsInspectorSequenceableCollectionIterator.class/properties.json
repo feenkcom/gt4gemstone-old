@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsInspectorSequenceableCollectionIterator",
+	"pools" : [
+		 ],
+	"super" : "GtGsInspectorElementsIterator",
+	"type" : "normal" }

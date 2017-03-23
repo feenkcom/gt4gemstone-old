@@ -5,6 +5,7 @@ stackWidgetIn: composite
 		title: 'Stack';
 		display: [:aSession | self retrieveStackFrom: aSession ];
 		format: #gtGsDebugString;
+		icon: [ :aStackFrame | aStackFrame gtGsDebuggingIcon ];
 		send: [ :aStackFrame |
 			aStackFrame class = GtGsDebuggerStackFrame ifTrue: [  
 				self session updateStackFrameIfRequired: aStackFrame ].

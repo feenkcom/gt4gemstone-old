@@ -1,0 +1,17 @@
+{
+	"category" : "GtGs-ClientPharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startTime",
+		"sessionId",
+		"proxyFinalizer",
+		"needsCommitIndicator" ],
+	"name" : "GtGsMinimalClient",
+	"pools" : [
+		 ],
+	"super" : "TDMinimalClient",
+	"type" : "normal" }

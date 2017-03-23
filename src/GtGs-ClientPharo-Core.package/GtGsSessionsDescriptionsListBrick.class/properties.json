@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-ClientPharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TravisCI 2/22/2017 15:12",
+	"instvars" : [
+		 ],
+	"name" : "GtGsSessionsDescriptionsListBrick",
+	"pools" : [
+		 ],
+	"super" : "GTPlaygroundPlayPagesList",
+	"type" : "normal" }

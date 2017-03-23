@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Editor-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsCategoriesBrowser",
+	"pools" : [
+		 ],
+	"super" : "GtGsAbstractCodeBrowser",
+	"type" : "normal" }

@@ -1,0 +1,20 @@
+{
+	"class" : {
+		"exampleBasicInspector" : "AndreiChis 1/27/2015 23:30",
+		"exampleCustomInspector" : "AndreiChis 1/27/2015 23:30",
+		"exampleExampleBrowser" : "AndreiChis 1/27/2015 23:30",
+		"exampleFullInspector" : "AndreiChis 1/27/2015 23:30" },
+	"instance" : {
+		"addAllTags" : "AndreiChis 12/13/2014 11:15",
+		"addAndSelectAllTags" : "AndreiChis 1/14/2015 15:21",
+		"addAndSelectTag:" : "AndreiChis 12/13/2014 11:16",
+		"addTag:" : "AndreiChis 12/13/2014 11:16",
+		"allPragmasWithTag" : "AndreiChis 12/13/2014 11:13",
+		"allTags" : "AndreiChis 1/14/2015 15:18",
+		"changeFilterRequestFor:" : "AndreiChis 12/13/2014 12:05",
+		"defaultTag:" : "AndreiChis 12/13/2014 00:38",
+		"initialize" : "AndreiChis 12/13/2014 10:59",
+		"replaceSelectedTagsWith:in:" : "AndreiChis 12/13/2014 11:40",
+		"shouldDisplayPresentationCreateBy:" : "AndreiChis 12/13/2014 11:03",
+		"tagPragmaKey" : "AndreiChis 12/13/2014 11:11",
+		"tagsFrom:" : "AndreiChis 12/13/2014 11:11" } }

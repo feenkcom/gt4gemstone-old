@@ -7,6 +7,7 @@ gtGsLocalExecutionSelectionActions
 				action: [ :aPresentation |
 					aPresentation highlightEvaluateAndDo: [ :result | ] ]; 
 				icon: GLMUIThemeExtraIcons glamorousSpawn;
+				withSeparatorBefore;
 				yourself.
 		(GLMGenericAction new) 
 				title: 'Print it (local)';

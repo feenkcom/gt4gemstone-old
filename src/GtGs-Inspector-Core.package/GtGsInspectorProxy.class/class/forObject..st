@@ -1,5 +1,8 @@
-as yet unclassified
+instance-creation
 forObject: anObject
 	
-	^ self forOop: (Reflection oopOf: anObject)
+	^ (self proxyForObject: anObject)
+		forObject: anObject;
+		linkWithTopezServer;
+		yourself
 		

@@ -1,0 +1,3 @@
+accessing
+browserName
+	^ 'Categories Browser'

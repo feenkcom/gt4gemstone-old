@@ -7,7 +7,7 @@ testStatePresentationChildrenContent
 	fourthRootNode := (gsStatePresentation cacheAt: #displayValue) fourth.
 
 	gsStatePresentation updateChildNodesFor: fourthRootNode.
-	self assertTreeNodesColumnsContentFor: fourthRootNode rawChildNodes equals: {
+	self assertNodesColumnsContentFor: fourthRootNode rawChildNodes equals: {
 		{ #x. '6' }.
 		{ #y. '7' }.
 		{ #z. '8' }.
@@ -15,7 +15,7 @@ testStatePresentationChildrenContent
 	
 	fourthRootNodeLastChild := fourthRootNode rawChildNodes fourth.
 	gsStatePresentation updateChildNodesFor: fourthRootNodeLastChild.
-	self assertTreeNodesColumnsContentFor: fourthRootNodeLastChild rawChildNodes equals: {
+	self assertNodesColumnsContentFor: fourthRootNodeLastChild rawChildNodes equals: {
 		{ #x. '9' }.
 		{ #y. '10' }.
 		{ #z. '11' }.

@@ -1,0 +1,16 @@
+{
+	"category" : "GtGs-ClientGemstone-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"ConcreteClassName" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topezClientForwarder",
+		"objectSerializer",
+		"effectiveApiVersion" ],
+	"name" : "GtGsTopezServer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

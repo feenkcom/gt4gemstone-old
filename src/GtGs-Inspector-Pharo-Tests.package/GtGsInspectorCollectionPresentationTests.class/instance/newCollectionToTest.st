@@ -1,0 +1,3 @@
+accessing
+newCollectionToTest
+	self subclassResponsibility

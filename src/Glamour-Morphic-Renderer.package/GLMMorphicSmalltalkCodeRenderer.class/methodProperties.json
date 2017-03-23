@@ -1,0 +1,15 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"actOnCompileText:" : "AndreiChis 7/7/2014 22:16",
+		"actOnEvaluateSelection:" : "AndreiChis 5/6/2014 15:13",
+		"actOnVariableBindingsUpdated:" : "AndreiChis 3/6/2014 12:14",
+		"addVariableBindingsOn:from:" : "AndreiChis 3/6/2014 12:14",
+		"debugSelection" : "AndreiChis 5/7/2014 11:22",
+		"evaluateAndPrintSelection" : "AndreiChis 11/13/2014 14:50",
+		"profileSelection" : "AndreiChis 5/6/2014 11:28",
+		"registerEventsForPresentation:" : "CyrilFerlicot 5/22/2015 14:45",
+		"textModelFor:" : "AndreiChis 5/6/2014 14:00",
+		"textMorphForModel:" : "StephaneDucasse 1/9/2016 10:08",
+		"workspaceBindingsStrategy" : "AndreiChis 9/30/2014 15:24" } }

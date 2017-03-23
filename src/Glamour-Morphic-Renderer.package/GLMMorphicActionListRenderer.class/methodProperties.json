@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"defaultWidth" : "EstebanLorenzano 12/12/2011 20:05" },
+	"instance" : {
+		"actOnPresentationUpdated:" : "EstebanLorenzano 12/12/2011 22:00",
+		"buttonMorph:" : "EstebanLorenzano 12/12/2011 19:40",
+		"morphFrom:" : "AndreiChis 8/6/2013 18:30",
+		"rectangleMorphFrom:" : "TudorGirba 11/1/2013 23:33",
+		"render:" : "CyrilFerlicot 5/22/2015 14:38" } }

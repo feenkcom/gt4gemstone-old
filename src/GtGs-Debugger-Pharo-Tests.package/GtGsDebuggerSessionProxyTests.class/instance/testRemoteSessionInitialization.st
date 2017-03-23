@@ -6,7 +6,7 @@ testRemoteSessionInitialization
 
 	self assert: sessionProxy ~= nil. 
 	self assert: sessionProxy clientProcess equals: nil. 
-	self assert: sessionProxy isAboutUIProcess equals: false. 
+	"self assert: sessionProxy isAboutUIProcess equals: false". 
 	
 	self assert: sessionProxy gemstoneClient equals: self client. 
 	self assert: sessionProxy gemstoneDebuggerSession ~= nil. 

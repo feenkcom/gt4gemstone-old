@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"childrenBlock",
-		"rootsExpanded",
 		"columns" ],
 	"name" : "GtGsGlmTablePresentation",
 	"pools" : [

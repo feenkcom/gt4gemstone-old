@@ -1,2 +1,2 @@
-(name 'GtGs-Gemstone-Stubs-AndreiChis.14' message 'Added AbstractCollisionBucket' id '6dedd8e4-192a-4575-94cb-18ed4fad3694' date '13 December 2016' time '6:53:49.234934 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.13' message 'TDStack and TDStackFrame should be in their own package as they need to be loaded in a bare 3.3.0 gemstone
-' id '153fffff-ca43-5a97-b503-26cfbe4c0578' date '15 November 2016' time '11:21:09 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Gemstone-Stubs-AndreiChis.17' message 'more stubs' id 'ec89e811-a430-47b8-8efe-d168c454e448' date '20 March 2017' time '6:50:39.947178 pm' author 'AndreiChis' ancestors ((name 'GtGs-Gemstone-Stubs-AndreiChis.16' message 'some stubs
+' id 'df9c9aa5-9a34-5dda-9ea2-7b4d2871f4de' date '16 March 2017' time '5:25:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

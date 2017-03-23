@@ -8,10 +8,11 @@
 	"instvars" : [
 		"gemstoneClient",
 		"topezServer",
+		"selfOop",
 		"targetObject",
+		"targetObjectOop",
 		"title",
-		"presentations",
-		"curentPresentationIndex" ],
+		"presentations" ],
 	"name" : "GtGsInspectorProxy",
 	"pools" : [
 		 ],

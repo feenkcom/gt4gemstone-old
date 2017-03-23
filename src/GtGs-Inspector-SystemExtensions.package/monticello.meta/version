@@ -1,0 +1,2 @@
+(name 'GtGs-Inspector-SystemExtensions-AndreiChis.2' message 'Do not add a method to the GsNMethod class.' id 'cfe07728-e1be-49ed-ab09-9937d6f81959' date '22 March 2017' time '10:21:37.392169 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-SystemExtensions-AndreiChis.1' message 'Added an extension to GsNMethod>>#gtGsInspectorSourceCodeIn:
+' id '818a9e14-1f32-5d10-8310-683fc464f2e5' date '28 February 2017' time '11:56:21 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

@@ -1,6 +1,6 @@
 accessing
 elementAt: anIndex
-	^ super elementAt: (self translateIndex: anIndex).
+	^ super elementAt: (anIndex + startIndex - 1).
 	
 	"anIndex > self elements size ifTrue: [
 		self ensureLoadingOfElementAt: anIndex ].

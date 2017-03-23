@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-ClientPharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsBareClient",
+	"pools" : [
+		 ],
+	"super" : "GtGsMinimalClient",
+	"type" : "normal" }

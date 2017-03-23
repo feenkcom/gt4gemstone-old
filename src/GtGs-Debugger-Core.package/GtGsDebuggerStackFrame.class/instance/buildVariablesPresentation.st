@@ -1,6 +1,6 @@
 private
 buildVariablesPresentation
-
+	"I am not used anywhere. I was an experiment that is currenty on hold."
 	^ GtGsGlmTablePresentation new 
 		title: [ 'Context' ];
 		display: [ self inspectorVariableNodes ];

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
+		 ],
 	"name" : "GtGsInspectorProxyTests",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "GtGsRemoteTest",
 	"type" : "normal" }
