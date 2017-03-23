@@ -21,7 +21,8 @@ ${GT4GEMSTONE}/bin/setupEnvGemstone330Bare.sh
 topaz -il <<EOF >>MFC.out
 set user SystemUser password swordfish gemstone gt4gemstone
 login
-input /gemstone/gt4gemstone/external/scripts/gs_3.3.0/load_gt4gemstone.topaz %
+input /gemstone/gt4gemstone/external/scripts/gs_3.3.0/load_gt4gemstone.topaz
+errorCount
 commit
 exit
 EOF
