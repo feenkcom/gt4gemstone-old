@@ -3,6 +3,6 @@ symbolDictionaryNameForClassNamed: aClassName
 	
 	^ [ :currentClassName | (GsSession currentSession symbolList 
 		objectNamed: currentClassName asSymbol) symbolDictionaryName asString ]
-			gtGsPerformRemotelyOn: self gemstoneClient 
+			gtGsBarePerformRemotelyOn: self gemstoneClient 
 			withArguments: { aClassName }
 	

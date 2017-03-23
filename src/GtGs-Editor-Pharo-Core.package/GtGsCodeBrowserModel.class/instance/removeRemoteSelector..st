@@ -22,7 +22,7 @@ removeRemoteSelector: aSelector
 			
 		targetClass removeSelector: currentSelectorName.
 		nextSelector ] 
-			gtGsPerformRemotelyOn: self gemstoneClient 
+			gtGsBarePerformRemotelyOn: self gemstoneClient 
 			withArguments: { className . aSelector . self isClassSideActive }.
 	
 	methodSelector := selectorToSelect.

@@ -1,4 +1,4 @@
 actions - remote
 resetClassOrganizer
 
-	[ ClassOrganizer gtGsClearCachedOrganizer ] gtGsPerformRemotelyOn: self gemstoneClient
+	[ ClassOrganizer gtGsClearCachedOrganizer ] gtGsBarePerformRemotelyOn: self gemstoneClient

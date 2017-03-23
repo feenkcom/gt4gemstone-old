@@ -4,7 +4,7 @@ sourceCodePresentationIn: aComposite forMethod: aMethodSelector isMeta: isClassS
 	self methodSelector: aMethodSelector.
 	^ aComposite pharoMethod
 		display: [ self sourceCodeForMethodLogic
-			gtGsPerformRemotelyOn: self gemstoneClient 
+			gtGsBarePerformRemotelyOn: self gemstoneClient 
 			withArguments: { methodSelector . className . isClassSide } ];
 		with: [ :aPresentation | 
 			self remoteCodeActionsIn: aPresentation ]

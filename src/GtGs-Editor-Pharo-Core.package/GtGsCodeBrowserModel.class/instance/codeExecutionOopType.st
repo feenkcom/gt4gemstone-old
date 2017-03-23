@@ -7,6 +7,6 @@ codeExecutionOopType
 			classOop := [ :currentClassName | 
 			(GsSession currentSession symbolList 
 				objectNamed: currentClassName asSymbol) asOop ] 	
-					gtGsPerformRemotelyOn: self gemstoneClient 
+					gtGsBarePerformRemotelyOn: self gemstoneClient 
 					withArguments: {className}.
 			self gemstoneClient session asOopType: classOop ]
