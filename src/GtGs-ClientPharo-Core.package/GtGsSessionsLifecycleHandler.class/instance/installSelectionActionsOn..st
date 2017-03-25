@@ -4,7 +4,20 @@ installSelectionActionsOn: aPresentation
 	aPresentation
 		selectionAct: [ :currentPresentation |
 				currentPresentation selection openGemstonePlayground ] 
-			entitled: 'Gemstone Playground'
+			entitled: 'Remote Playground'
+			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
+	aPresentation
+		selectionAct: [ :currentPresentation |
+			| page |
+			page := GTPlayPage new
+				saveContent: 'gemstoneClient';
+				yourself.
+			(GTPlayground new)
+					startOn: page;
+					title: 'Local Playground - ', currentPresentation selection detailedDescription;
+					setBindings: {'gemstoneClient' -> currentPresentation selection} asDictionary;
+					open ]
+			entitled: 'Local Playground'
 			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
 	aPresentation
 		selectionAct: [ :currentPresentation |

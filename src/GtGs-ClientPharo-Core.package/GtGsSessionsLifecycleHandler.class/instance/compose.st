@@ -6,7 +6,7 @@ compose
 		self class gemstoneClients do: #updateCommitIndicator.
 		b presentations do: #update ] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Update'.	
 
-	clientPresentation := self table.
+	clientPresentation := self fastTable.
 	clientPresentation
 		title: 'Current Active Sessions';
 		display: [ self gemstoneClients ];
