@@ -5,4 +5,4 @@ tearDown
 		ifNotNil: [ | cl |
 			cl := client.
 			client := nil.
-			cl logout ]
+			cl logoutAndRemove ]

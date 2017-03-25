@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.17' message 'fixed testStatePresentationColumnsStructure' id '2fa52ff6-29b4-45e7-bd5a-59ef3ec20d66' date '12 March 2017' time '8:59:55.467505 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.16' message 'Added an API for requesting a single presentation from the inspector.
-' id '597b8798-5ab5-5fc6-879c-cdca3202b97e' date '12 March 2017' time '5:31:01 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.18' message 'Added tests for BareProxy.' id '60eb13e1-adf0-4db1-b469-043917ce6322' date '25 March 2017' time '7:55:30.817726 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.17' message 'fixed testStatePresentationColumnsStructure
+' id 'e594db44-25a0-5c1b-b57e-b4c651055631' date '12 March 2017' time '8:59:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
