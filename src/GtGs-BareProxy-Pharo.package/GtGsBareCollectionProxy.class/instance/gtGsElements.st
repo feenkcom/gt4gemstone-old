@@ -1,3 +1,0 @@
-accessing
-gtGsElements
-	^ self gtGsBareAsCollectionFormatter elements
