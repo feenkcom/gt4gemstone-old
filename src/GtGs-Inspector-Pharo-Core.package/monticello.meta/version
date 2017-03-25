@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.102' message 'Add more actions in the context menu of code presentations.' id '8ea8419c-ed2d-437e-9c8a-108b2e93ddcc' date '22 March 2017' time '5:40:55.224356 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.101' message 'Added a remote print it action.
-' id '27eb050c-5080-5110-a723-1fadec16def0' date '22 March 2017' time '2:06:11 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.103' message 'Use #gtGsAsBlockStringArgument' id '016b29ce-6167-4d26-b569-7ab941adbe87' date '25 March 2017' time '7:54:37.346798 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.102' message 'Add more actions in the context menu of code presentations.
+' id 'ca55b8f1-c9b7-5b4d-9521-1fade06f8e2d' date '22 March 2017' time '5:41:02 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
