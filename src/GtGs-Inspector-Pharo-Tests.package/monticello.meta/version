@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.18' message 'Added tests for BareProxy.' id '60eb13e1-adf0-4db1-b469-043917ce6322' date '25 March 2017' time '7:55:30.817726 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.17' message 'fixed testStatePresentationColumnsStructure
-' id 'e594db44-25a0-5c1b-b57e-b4c651055631' date '12 March 2017' time '8:59:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.19' message 'Updated tests to reflect that change in gtGsAsBlockStringArgument.' id '05bd9f13-d949-4b64-8984-27a71f957b74' date '26 March 2017' time '3:13:30.952567 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.18' message 'Added tests for BareProxy.
+' id '3afffd07-d02c-57d6-81e1-a2005caa8545' date '25 March 2017' time '7:55:34 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
