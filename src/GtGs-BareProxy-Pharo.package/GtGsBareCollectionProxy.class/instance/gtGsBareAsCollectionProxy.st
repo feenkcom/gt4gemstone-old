@@ -1,3 +1,3 @@
 converting - proxy
-gtGsAsCollectionProxy
+gtGsBareAsCollectionProxy
 	^ self
