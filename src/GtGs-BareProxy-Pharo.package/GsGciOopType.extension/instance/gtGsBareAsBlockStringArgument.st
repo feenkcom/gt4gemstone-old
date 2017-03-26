@@ -1,3 +1,3 @@
 *GtGs-BareProxy-Pharo
-gtGsAsBlockStringArgument
+gtGsBareAsBlockStringArgument
 	^ '(Object _objectForOop: ', self asInteger asString, ')'

@@ -6,5 +6,5 @@ gtGsAsCollectionFormatter
 	knows that the remote object is a colletion the caller can directly obtain
 	a formatter without converting the proxy to a collection proxy."
 	^ self gemstoneClient buildRemoteCollectionFormatter
-			command: (self gtGsAsBlockStringArgument) ;
+			command: (self gtGsBareAsBlockStringArgument) ;
 			yourself

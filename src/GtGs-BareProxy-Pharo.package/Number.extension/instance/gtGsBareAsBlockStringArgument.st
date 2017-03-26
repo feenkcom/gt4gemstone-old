@@ -1,3 +1,3 @@
 *GtGs-BareProxy-Pharo
-gtGsAsBlockStringArgument
+gtGsBareAsBlockStringArgument
 	^ self asString

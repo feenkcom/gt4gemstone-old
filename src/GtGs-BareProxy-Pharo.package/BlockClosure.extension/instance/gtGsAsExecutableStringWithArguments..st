@@ -7,4 +7,4 @@ gtGsAsExecutableStringWithArguments: argumentsArray
 				ifTrue: [ aStream nextPutAll: ' value' ]
 				ifFalse: [ 
 					aStream nextPutAll: ' valueWithArguments: '.
-					aStream nextPutAll: argumentsArray gtGsAsBlockStringArgument ] ]) contents.
+					aStream nextPutAll: argumentsArray gtGsBareAsBlockStringArgument ] ]) contents.

@@ -4,4 +4,4 @@ gtGsAsInspectorProxy
 	provide access to dedicated views associated with the remote object."
 	
 	^ self gemstoneClient 
-		buildRemoteInspectorProxyFrom: self gtGsAsBlockStringArgument
+		buildRemoteInspectorProxyFrom: self gtGsBareAsBlockStringArgument
