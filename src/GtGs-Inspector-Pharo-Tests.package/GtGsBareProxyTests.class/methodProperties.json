@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testArrayEmptyAsStringArgument" : "AndreiChis 3/25/2017 17:28",
-		"testArrayNestedAsStringArgument" : "AndreiChis 3/25/2017 17:44",
-		"testArrayWithObjectsAsStringArgument" : "AndreiChis 3/25/2017 17:28",
-		"testArrayWithPrimitivesAsStringArgument" : "AndreiChis 3/25/2017 17:28",
-		"testBareProxyAsStringArgument" : "AndreiChis 3/25/2017 13:24",
+		"testArrayEmptyAsStringArgument" : "AndreiChis 3/26/2017 15:19",
+		"testArrayNestedAsStringArgument" : "AndreiChis 3/26/2017 15:19",
+		"testArrayWithObjectsAsStringArgument" : "AndreiChis 3/26/2017 15:19",
+		"testArrayWithPrimitivesAsStringArgument" : "AndreiChis 3/26/2017 15:19",
+		"testBareProxyAsStringArgument" : "AndreiChis 3/26/2017 15:19",
 		"testBareProxyClientInvalidArgument" : "AndreiChis 3/26/2017 15:07",
 		"testBareProxyDoesNotUnderstandChainedSends" : "AndreiChis 3/25/2017 13:00",
 		"testBareProxyDoesNotUnderstandGenericObjectArgument" : "AndreiChis 3/26/2017 14:29",
@@ -23,9 +23,9 @@
 		"testBareProxyInitialization" : "AndreiChis 3/23/2017 23:30",
 		"testBareProxyLocalAndRemoteClass" : "AndreiChis 3/23/2017 23:49",
 		"testBareProxyPrinting" : "AndreiChis 3/23/2017 23:40",
-		"testBlockClosureAsStringArgument" : "AndreiChis 3/25/2017 13:18",
+		"testBlockClosureAsStringArgument" : "AndreiChis 3/26/2017 15:19",
 		"testExecutableBlockStringWithArguments" : "AndreiChis 3/25/2017 18:00",
 		"testExecutableBlockStringWithNoArguments" : "AndreiChis 3/25/2017 17:59",
-		"testGenericObjectAsStringArgument" : "AndreiChis 3/26/2017 14:28",
+		"testGenericObjectAsStringArgument" : "AndreiChis 3/26/2017 15:19",
 		"testNoProxyForPrimitiveTypes" : "AndreiChis 3/26/2017 14:49",
-		"testPrimitiveTypesAsStringArgument" : "AndreiChis 3/26/2017 14:46" } }
+		"testPrimitiveTypesAsStringArgument" : "AndreiChis 3/26/2017 15:19" } }

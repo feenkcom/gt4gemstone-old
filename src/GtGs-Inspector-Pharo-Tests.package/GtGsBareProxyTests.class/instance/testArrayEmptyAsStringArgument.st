@@ -2,5 +2,5 @@ tests - arguments
 testArrayEmptyAsStringArgument
 	
 	self 
-		assert: {  } gtGsAsBlockStringArgument 
+		assert: {  } gtGsBareAsBlockStringArgument 
 		equals: ' {  } '.

@@ -5,9 +5,9 @@ testBareProxyAsStringArgument
 	bareProxy := self client buildRemoteBareProxyFrom: 'Object new'.
 	
 	self 
-		assert: bareProxy gtGsAsBlockStringArgument 
+		assert: bareProxy gtGsBareAsBlockStringArgument 
 		equals: '(Object _objectForOop: ', bareProxy selfOop asString, ')'.
 		
 	self 
-		assert: bareProxy selfOopType gtGsAsBlockStringArgument 
+		assert: bareProxy selfOopType gtGsBareAsBlockStringArgument 
 		equals: '(Object _objectForOop: ', bareProxy selfOop asString, ')'.
