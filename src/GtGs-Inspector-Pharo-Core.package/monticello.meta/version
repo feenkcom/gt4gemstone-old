@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Core-AndreiChis.103' message 'Use #gtGsAsBlockStringArgument' id '016b29ce-6167-4d26-b569-7ab941adbe87' date '25 March 2017' time '7:54:37.346798 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.102' message 'Add more actions in the context menu of code presentations.
-' id 'ca55b8f1-c9b7-5b4d-9521-1fade06f8e2d' date '22 March 2017' time '5:41:02 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Core-AndreiChis.104' message 'Renamed #gtGsAsBlockStringArgument to #gtGsBareAsBlockStringArgument.' id '64bdc531-6d04-4eb4-8450-ee2361a80824' date '26 March 2017' time '3:21:56.271157 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Core-AndreiChis.103' message 'Use #gtGsAsBlockStringArgument
+' id 'ffaeb9aa-437d-5f3e-a705-c800fc2b8d44' date '25 March 2017' time '7:54:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
