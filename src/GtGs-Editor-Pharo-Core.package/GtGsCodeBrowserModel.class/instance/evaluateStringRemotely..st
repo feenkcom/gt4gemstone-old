@@ -1,6 +1,6 @@
 actions - remote
-performStringRemotely: aString
+evaluateStringRemotely: aString
 
 	^ self gemstoneClient 
-		performStringRemotely: aString 
+		evaluateStringRemotely: aString 
 		inContext: self codeExecutionOopType
