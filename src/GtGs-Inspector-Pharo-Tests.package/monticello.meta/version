@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.21' message 'Added tests for the bare collection proxy.' id '9b7bd857-68e1-4abd-9c43-f8a83bd98578' date '26 March 2017' time '5:10:53.118119 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.20' message 'Renamed #gtGsAsBlockStringArgument to #gtGsBareAsBlockStringArgument.
-' id '6563ec26-a241-59c2-b116-4e09deffc152' date '26 March 2017' time '3:22:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.22' message 'test equality in proxies' id 'a5a33684-b579-46d1-beaa-fe8cac52c1b6' date '27 March 2017' time '4:06:46.996513 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.21' message 'Added tests for the bare collection proxy.
+' id 'e3bd44d4-ddc3-5362-81cc-59f02a041cf0' date '26 March 2017' time '5:10:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
