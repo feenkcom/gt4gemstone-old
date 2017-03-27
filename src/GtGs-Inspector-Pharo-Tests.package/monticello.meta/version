@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.22' message 'test equality in proxies' id 'a5a33684-b579-46d1-beaa-fe8cac52c1b6' date '27 March 2017' time '4:06:46.996513 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.21' message 'Added tests for the bare collection proxy.
-' id 'e3bd44d4-ddc3-5362-81cc-59f02a041cf0' date '26 March 2017' time '5:10:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.23' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:' id '3b9f3163-277e-44aa-9967-e565a1456934' date '27 March 2017' time '4:26:47.172391 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.22' message 'test equality in proxies
+' id '7d11a0d0-a0ca-52a1-afe7-4f4c8e3afad9' date '27 March 2017' time '4:06:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
