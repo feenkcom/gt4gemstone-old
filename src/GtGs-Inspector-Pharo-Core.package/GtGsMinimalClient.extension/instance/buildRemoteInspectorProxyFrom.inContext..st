@@ -2,7 +2,7 @@
 buildRemoteInspectorProxyFrom: aString inContext: aContextArgument 
 	| serializedProxy materializedProxy |
 	serializedProxy := self 
-		send: #performStringAndBuildProxyFor:inContext: 
+		send: #evaluateStringAndBuildProxyFor:inContext: 
 		to: self todeServerOopType 
 		withArgs: { aString . aContextArgument }.
 	serializedProxy ifNil: [ ^ nil ].
