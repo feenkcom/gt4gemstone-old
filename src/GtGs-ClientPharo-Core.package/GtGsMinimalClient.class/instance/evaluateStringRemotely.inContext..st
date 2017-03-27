@@ -1,5 +1,5 @@
 actions - proxy
-performStringRemotely: aString inContext: aContextArgument
+evaluateStringRemotely: aString inContext: aContextArgument
 	
 	^ self 
 		send: #evaluateString:inContext: 

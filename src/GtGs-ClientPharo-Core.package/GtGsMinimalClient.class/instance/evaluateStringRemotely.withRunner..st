@@ -1,5 +1,5 @@
 actions - proxy
-performStringRemotely: aString withRunner: anOopType
+evaluateStringRemotely: aString withRunner: anOopType
 	
 	^ self 
 		send: #evaluateString:
