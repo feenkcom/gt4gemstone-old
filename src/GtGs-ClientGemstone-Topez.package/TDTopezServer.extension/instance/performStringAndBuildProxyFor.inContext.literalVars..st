@@ -1,5 +1,5 @@
 *GtGs-ClientGemstone-Topez
 performStringAndBuildProxyFor: aString inContext: anObject literalVars: litVarArrayOrNil
 	| resultObject |
-	resultObject := self performString: aString inContext: anObject literalVars: litVarArrayOrNil.
+	resultObject := self evaluateString: aString inContext: anObject literalVars: litVarArrayOrNil.
 	^ resultObject gtGsSerializedInspectorProxy

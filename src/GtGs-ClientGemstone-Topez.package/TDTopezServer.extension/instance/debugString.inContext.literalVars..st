@@ -6,7 +6,7 @@ debugString: aString inContext: compilationContext literalVars: litVarArrayOrNil
 ',aString, '
 ] value'.
 	self  
-		performString: debugString 
+		evaluateString: debugString 
 		inContext: compilationContext 
 		literalVars: litVarArrayOrNil.
 	
