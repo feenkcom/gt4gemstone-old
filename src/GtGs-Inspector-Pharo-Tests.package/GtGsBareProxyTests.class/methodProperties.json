@@ -4,7 +4,7 @@
 	"instance" : {
 		"testArrayEmptyAsStringArgument" : "AndreiChis 3/26/2017 15:19",
 		"testArrayNestedAsStringArgument" : "AndreiChis 3/26/2017 15:19",
-		"testArrayWithObjectsAsStringArgument" : "AndreiChis 3/26/2017 15:19",
+		"testArrayWithObjectsAsStringArgument" : "AndreiChis 3/27/2017 18:12",
 		"testArrayWithPrimitivesAsStringArgument" : "AndreiChis 3/26/2017 15:19",
 		"testBareProxyAsStringArgument" : "AndreiChis 3/26/2017 15:19",
 		"testBareProxyClientInvalidArgument" : "AndreiChis 3/26/2017 15:07",
@@ -23,7 +23,7 @@
 		"testBareProxyInitialization" : "AndreiChis 3/23/2017 23:30",
 		"testBareProxyLocalAndRemoteClass" : "AndreiChis 3/23/2017 23:49",
 		"testBareProxyPrinting" : "AndreiChis 3/23/2017 23:40",
-		"testBlockClosureAsStringArgument" : "AndreiChis 3/26/2017 15:19",
+		"testBlockClosureAsStringArgument" : "AndreiChis 3/27/2017 18:12",
 		"testExecutableBlockStringWithArguments" : "AndreiChis 3/25/2017 18:00",
 		"testExecutableBlockStringWithNoArguments" : "AndreiChis 3/25/2017 17:59",
 		"testGenericObjectAsStringArgument" : "AndreiChis 3/26/2017 15:19",

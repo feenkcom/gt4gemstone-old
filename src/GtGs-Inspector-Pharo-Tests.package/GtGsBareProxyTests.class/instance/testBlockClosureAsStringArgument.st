@@ -3,8 +3,8 @@ testBlockClosureAsStringArgument
 	
 	self 
 		assert: [ 1 + 1 ] gtGsBareAsBlockStringArgument 
-		equals: '[ 1 + 1 ]'.
+		equals: 'nil'.
 	self 
 		assert: [ 1 +
  1 ] gtGsBareAsBlockStringArgument 
-		equals: '[ 1 + 1 ]'.
+		equals: 'nil'.
