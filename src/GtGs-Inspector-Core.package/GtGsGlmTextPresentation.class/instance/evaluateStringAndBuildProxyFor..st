@@ -1,7 +1,7 @@
 callbacks
-performStringAndBuildProxyFor: aString
+evaluateStringAndBuildProxyFor: aString
 
 	^ self topezServer 
-		performStringAndBuildProxyFor: aString 
+		evaluateStringAndBuildProxyFor: aString 
 		inContext: self doItReceiver
 		literalVars: self literalVars

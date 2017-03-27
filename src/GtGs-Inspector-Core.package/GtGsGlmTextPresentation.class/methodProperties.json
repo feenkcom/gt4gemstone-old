@@ -10,6 +10,7 @@
 		"doItReceiverBlock" : "AndreiChis 10/20/2016 19:05:42",
 		"doItReceiverBlock:" : "AndreiChis 10/20/2016 19:05:42",
 		"evaluateString:" : "AndreiChis 3/27/2017 16:09",
+		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32",
 		"excludedInstVarNames" : "AndreiChis 2/23/2017 14:21",
 		"highlightedTextAsString" : "AndreiChis 12/23/2016 14:55:43",
 		"inspectorDataSizeInMemory" : "AndreiChis 12/23/2016 14:55:43",
@@ -17,5 +18,4 @@
 		"literalVars:" : "AndreiChis 2/23/2017 14:20",
 		"literalVarsBlock" : "AndreiChis 2/23/2017 14:19",
 		"literalVarsBlock:" : "AndreiChis 2/23/2017 14:19",
-		"performStringAndBuildProxyFor:" : "AndreiChis 2/23/2017 15:12",
 		"shouldAttachCodeExecutionActions" : "AndreiChis 2/23/2017 15:11" } }
