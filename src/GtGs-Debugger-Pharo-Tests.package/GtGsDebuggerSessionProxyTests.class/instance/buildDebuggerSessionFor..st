@@ -1,7 +1,7 @@
 as yet unclassified
 buildDebuggerSessionFor: aString
 
-	[self client performStringRemotely: aString ] 
+	[self client evaluateStringRemotely: aString ] 
 		on: TDErrorNotification 
 		do: [ :notification | 
 			^ GtGsDebuggerSessionProxy 
