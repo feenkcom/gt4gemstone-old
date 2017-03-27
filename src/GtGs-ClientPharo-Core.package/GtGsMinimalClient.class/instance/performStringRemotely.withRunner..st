@@ -2,7 +2,7 @@ actions - proxy
 performStringRemotely: aString withRunner: anOopType
 	
 	^ self 
-		send: #performString:
+		send: #evaluateString:
 		to: anOopType 
 		withArgs: { aString }.
 

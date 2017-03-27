@@ -2,7 +2,7 @@ actions - proxy
 performStringRemotely: aString inContext: aContextArgument
 	
 	^ self 
-		send: #performString:inContext: 
+		send: #evaluateString:inContext: 
 		to: self todeServerOopType 
 		withArgs: { aString . aContextArgument }.
 

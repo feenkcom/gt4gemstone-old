@@ -1,2 +1,2 @@
-(name 'GtGs-ClientPharo-Core-AndreiChis.8' message 'Do not use fast table for now.' id 'd72d17b9-479e-46df-ac7b-e5a425eaf22f' date '25 March 2017' time '11:27:27.68309 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.7' message 'Added a remote and a local playground.
-' id '1bc88298-9388-52c8-9fa7-79f080e491be' date '25 March 2017' time '7:54:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientPharo-Core-AndreiChis.9' message 'Use #evaluateString: instead of #performString:' id 'f43a05cd-9f67-4e90-b118-0c70b302be29' date '27 March 2017' time '4:23:51.888319 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.8' message 'Do not use fast table for now.
+' id 'b77ad43a-aed3-5792-81ff-9f53333c1002' date '25 March 2017' time '11:27:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
