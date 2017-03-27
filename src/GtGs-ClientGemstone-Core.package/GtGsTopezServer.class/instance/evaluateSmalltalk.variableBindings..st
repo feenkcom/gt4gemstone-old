@@ -9,7 +9,7 @@ evaluateSmalltalk: smalltalkSource variableBindings: variableBindings
     ifTrue: [ litVarArray := nil ].
   "self ensureSessionMethodsEnabled."
   result := self
-    performString: smalltalkSource
+    evaluateString: smalltalkSource
     inContext: nil
     literalVars: litVarArray.
  " self ensureSessionMethodsEnabled."

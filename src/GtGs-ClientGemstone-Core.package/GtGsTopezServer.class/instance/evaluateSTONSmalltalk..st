@@ -2,6 +2,6 @@ executing
 evaluateSTONSmalltalk: smalltalkSource
   | result |
   "self ensureSessionMethodsEnabled."
-  result := self performString: smalltalkSource inContext: nil.
+  result := self evaluateString: smalltalkSource inContext: nil.
   "self ensureSessionMethodsEnabled."
   ^ self objectSerializer toString: result

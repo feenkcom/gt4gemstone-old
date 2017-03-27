@@ -1,5 +1,5 @@
 executing
-performString: aString inContext: compilationContext literalVars: litVarArrayOrNil
+evaluateString: aString inContext: compilationContext literalVars: litVarArrayOrNil
 	^ (self 
 		compileString: aString 
 		inContext: compilationContext 
