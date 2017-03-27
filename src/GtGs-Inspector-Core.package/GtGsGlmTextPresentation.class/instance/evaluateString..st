@@ -1,7 +1,7 @@
 callbacks
-performString: aString
+evaluateString: aString
 
 	^ self topezServer 
-		performString: aString 
+		evaluateString: aString 
 		inContext: self doItReceiver
 		literalVars: self literalVars
