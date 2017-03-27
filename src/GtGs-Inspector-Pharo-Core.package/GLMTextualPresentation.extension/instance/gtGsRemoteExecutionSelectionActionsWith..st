@@ -5,7 +5,7 @@ gtGsRemoteExecutionSelectionActionsWith: aGsCodeExecutor
 				title: 'Do it (remote)';
 				action: [ :aPresentation |
 					aPresentation highlightAndDo: [ :aText |
-						aGsCodeExecutor performStringRemotely: aText ] ]; 
+						aGsCodeExecutor evaluateStringRemotely: aText ] ]; 
 				keymap: PharoShortcuts current doItShortcut; 
 				icon: GLMUIThemeExtraIcons glamorousSpawn;
 				yourself.

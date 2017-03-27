@@ -10,4 +10,4 @@ gtGsRemotePrintItWith: aGsCodeExecutor
 						GtGsPrintPopper new 
 							openFromRubric: anEditor textArea 
 							withResult: (aGsCodeExecutor 
-								performStringRemotely: '[', aText, '] value gtGsInspectorName')  ] ] ])
+								evaluateStringRemotely: '[', aText, '] value gtGsInspectorName')  ] ] ])
