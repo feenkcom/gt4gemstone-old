@@ -4,14 +4,14 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AndreiChis 3/20/2017 10:49",
+	"commentStamp" : "AndreiChis 3/27/2017 18:00",
 	"instvars" : [
 		"gemstoneClient",
 		"remoteFormatBlock",
 		"localFormatBlock",
-		"shouldUseSTON",
-		"command" ],
-	"name" : "GtGsBareCollectionProxyFormatter",
+		"collectionSerializer",
+		"objectAccessorCommand" ],
+	"name" : "GtGsCollectionFormatter",
 	"pools" : [
 		 ],
 	"super" : "Object",

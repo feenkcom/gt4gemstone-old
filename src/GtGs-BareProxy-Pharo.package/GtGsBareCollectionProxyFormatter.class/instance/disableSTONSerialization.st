@@ -1,3 +1,0 @@
-accessing
-disableSTONSerialization
-	shouldUseSTON := false

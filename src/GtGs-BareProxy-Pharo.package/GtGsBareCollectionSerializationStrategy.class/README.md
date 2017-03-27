@@ -1,0 +1,3 @@
+I implement a serialization strategy that only uses plain strings and does not require gt4gemstone to exist in the remote stone.
+
+To serialize I simply split the string based on lines. It is the responsability of the client to make sure that each representation of an object fits on one line. The #remoteFormat: and #localFormat: can then be used to implement a more complex serialization/materialization of each line.

@@ -5,6 +5,5 @@ gtGsAsCollectionFormatter
 	class of the bare proxy to simplify working with collections: if the caller
 	knows that the remote object is a colletion the caller can directly obtain
 	a formatter without converting the proxy to a collection proxy."
-	^ self gemstoneClient buildRemoteCollectionFormatter
-			command: (self gtGsBareAsBlockStringArgument) ;
-			yourself
+	
+	^ self gemstoneClient buildRemoteCollectionFormatterFor: self gtGsBareAsBlockStringArgument
