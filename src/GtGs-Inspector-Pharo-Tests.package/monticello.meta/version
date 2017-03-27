@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.23' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:' id '3b9f3163-277e-44aa-9967-e565a1456934' date '27 March 2017' time '4:26:47.172391 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.22' message 'test equality in proxies
-' id '7d11a0d0-a0ca-52a1-afe7-4f4c8e3afad9' date '27 March 2017' time '4:06:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Pharo-Tests-AndreiChis.24' message 'Added tests for GtGsCollectionFormatter.' id 'cb1ac225-9331-4e23-9a66-182c40da9a9a' date '27 March 2017' time '6:06:01.379064 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Pharo-Tests-AndreiChis.23' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:
+' id 'afc35ced-bd2f-57db-b96d-f0bb789f1f5a' date '27 March 2017' time '4:26:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
