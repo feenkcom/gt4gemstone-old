@@ -1,8 +1,8 @@
 building actions
-installActionsForRootPragmas: aSymbolsCollectionOrBlock in: aPresentation
+installActionsForRootPragmas: aSymbolsCollection in: aPresentation
 
 	aPresentation dynamicActions: [ :presentation |
-		self actionsForPragmas: (aSymbolsCollectionOrBlock value collect: [ :aSymbol | #gt, aSymbol capitalized ]) ] .
+		self actionsForPragmas: (aSymbolsCollection collect: [ :aSymbol | #gt, aSymbol capitalized ]) ] .
 	
 	aPresentation dynamicActionsOnSelection: [ :presentation |
-		self actionsForPragmas: (aSymbolsCollectionOrBlock value collect: [ :aSymbol | #gtContext, aSymbol capitalized ]) ] .
+		self actionsForPragmas: (aSymbolsCollection collect: [ :aSymbol | #gtContext, aSymbol capitalized ]) ] .

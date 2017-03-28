@@ -2,5 +2,5 @@ building actions
 installStackDebuggingActionsFor: aPresentation
 
 	self 
-		installActionsForRootPragmas: [self stackDebuggingActionsPragmas]
+		installActionsForRootPragmas: self stackDebuggingActionsPragmas
 		in: aPresentation
