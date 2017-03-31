@@ -25,12 +25,7 @@ baseline: spec
                 repository:
                     'github://GsDevKit/GsDevKit_home:dev/shared/repos/TodeClient' ].
 
-		spec 
-		   package: 'GT-Debugger';
-			package: 'GT-Inspector';
-			package: 'Glamour-Core';
-			package: 'Glamour-FastTable';
-			package: 'Glamour-Morphic-Renderer';
+		spec
 			package: 'GtGs-Gemstone-Stubs';
 			package: 'GtGs-Gemstone-Stubs-Basic';
 			package: 'GtGs-ClientGemstone-Core' with: [ spec requires: #('GtGs-Gemstone-Stubs' 'Ston' 'GemStoneGCI' 'Tode' 'TodeClient') ];
@@ -41,7 +36,7 @@ baseline: spec
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-SystemExtensions' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
-			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-ClientPharo-Core' 'GtGs-Inspector-Core' 'Glamour-FastTable' 'Glamour-Core') ];
+			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-ClientPharo-Core' 'GtGs-Inspector-Core' 'Glamour-FastTable') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Pharo-Core' with: [ spec requires: #('GtGs-Editor-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
@@ -59,10 +54,23 @@ baseline: spec
 				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
 				with: #('GtGs-Examples-AddressBook-Model' 'GtGs-Examples-AddressBook-Extensions-Pharo');
-			group: 'Pharo'
-				with: #('GT-Debugger' 'GT-Inspector' 'Glamour-FastTable' 'Glamour-Core' 'Glamour-Morphic-Renderer');
-			group: 'default' with: #('Core' 'Tests' 'Examples' 'Pharo') ].
+			group: 'default' with: #('Core' 'Tests' 'Examples') ].
 		
+	 spec for: #'pharo5.x' do: [
+		spec 
+		   package: 'GT-Debugger';
+			package: 'GT-Inspector';
+			package: 'Glamour-Core';
+			package: 'Glamour-FastTable';
+			package: 'Glamour-Morphic-Renderer';
+			
+			package: 'GtGs-Inspector-Core' with: [ 
+				spec requires: #('PharoExtensions') ].
+		spec 
+			group: 'PharoExtensions'
+				with: #('GT-Debugger' 'GT-Inspector' 'Glamour-FastTable' 'Glamour-Core' 'Glamour-Morphic-Renderer').
+	].
+	
 	 spec for: #'gemstone' do: [
 
 		spec
