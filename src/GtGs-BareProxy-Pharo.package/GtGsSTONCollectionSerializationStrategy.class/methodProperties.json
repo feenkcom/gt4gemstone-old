@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"elementsFor:" : "AndreiChis 3/27/2017 15:57",
 		"fromString:for:" : "AndreiChis 3/27/2017 15:11",
-		"toExecutableString:" : "AndreiChis 3/27/2017 15:05" } }
+		"toExecutableString:" : "AndreiChis 3/27/2017 15:05",
+		"elementsFor:" : "AndreiChis 3/27/2017 15:57"
+	},
+	"class" : { }
+}

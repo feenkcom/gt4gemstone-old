@@ -10,7 +10,7 @@ elementsAsProxies
 	point to an invalid object."
 	
 	^ (self 
-		remoteFormat: [ :anObject | anObject asOop ];
-		localFormat: [ :anOop | gemstoneClient 
-			bareProxyForOopType: (gemstoneClient session asOopType: anOop)
+		remoteFormat: [ :anObject | anObject asOop asString ];
+		localFormat: [ :anOopString | gemstoneClient 
+			bareProxyForOopType: (gemstoneClient session asOopType: anOopString asInteger)
 			ofType: GtGsBareProxy ]) elements

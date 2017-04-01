@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"gtGsBareAsBlockStringArgument" : "AndreiChis 3/26/2017 15:18",
-		"gtGsBareProxyAsArgument" : "AndreiChis 3/11/2017 23:59" } }
+		"gtGsBareProxyAsArgument" : "AndreiChis 3/11/2017 23:59"
+	},
+	"class" : { }
+}

@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"elementsFor:" : "AndreiChis 3/27/2017 14:01",
-		"remoteFormatCommandStringFor:" : "AndreiChis 3/27/2017 15:44" } }
+		"remoteFormatCommandStringFor:" : "AndreiChis 3/27/2017 15:44",
+		"elementsFor:" : "AndreiChis 3/27/2017 14:01"
+	},
+	"class" : { }
+}

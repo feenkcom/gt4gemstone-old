@@ -1,14 +1,11 @@
 {
-	"category" : "GtGs-BareProxy-Pharo",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "AndreiChis 3/27/2017 17:50",
-	"instvars" : [
-		 ],
-	"name" : "GtGsCollectionSerializationStrategy",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "GtGs-BareProxy-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GtGsCollectionSerializationStrategy",
+	"type" : "normal"
+}
