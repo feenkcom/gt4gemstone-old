@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "GtGsGlmPresentation",
-	"category" : "GtGs-Inspector-Roassal-Core-GtGs-Inspector-Roassal-Core",
+	"category" : "GtGs-Inspector-Roassal-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
