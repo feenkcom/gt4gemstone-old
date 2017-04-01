@@ -1,0 +1,15 @@
+{
+	"category" : "GtGs-Inspector-Roassal-Core-GtGs-Inspector-Roassal-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selector",
+		"className" ],
+	"name" : "GtGsGlmLocalRoassal2Presentation",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmPresentation",
+	"type" : "normal" }
