@@ -1,3 +1,3 @@
 accessing
 initialViewType
-	initialViewType ifNil: [ #'RTView' ]
+	^ initialViewType ifNil: [ #'RTView' ]
