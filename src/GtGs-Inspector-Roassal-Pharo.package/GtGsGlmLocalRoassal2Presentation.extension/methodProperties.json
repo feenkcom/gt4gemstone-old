@@ -1,5 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"instantiateGlamourPresentation" : "AndreiChis 4/1/2017 22:13" } }
+		"instantiateGlamourPresentation" : "AndreiChis 4/1/2017 23:19",
+		"setGlamourPresentationAttributesFor:" : "AndreiChis 4/1/2017 23:35"
+	},
+	"class" : { }
+}

@@ -1,1 +1,2 @@
-(name 'GtGs-Inspector-Roassal-Pharo-AndreiChis.1' message 'basic template' id '9dd7a503-8d24-4e61-879a-900a7e2dc8db' date '1 April 2017' time '10:38:20.696018 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Inspector-Roassal-Pharo-AndreiChis.2' message 'Transform a gemstone roassal presentations to a Pharo one. Added an example for AddressBooksHolder' id 'e5b45580-8308-0d00-a466-9e2d09b24acf' date '1 April 2017' time '11:39:44.077315 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Pharo-AndreiChis.1' message 'basic template
+' id '08cf59d6-5982-54eb-b883-f93b7635adde' date '1 April 2017' time '10:38:26 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
