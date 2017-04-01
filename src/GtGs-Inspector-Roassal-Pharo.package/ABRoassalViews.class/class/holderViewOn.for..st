@@ -1,12 +1,9 @@
 building
-holderViewOn: aBuilder for: aHolderInspectorProxy
-	| remoteAddressBooks |
+holderViewOn: aBuilder for: aHolderProxy
 	
-	remoteAddressBooks := aHolderInspectorProxy gtGsAsBareProxy addressBooks.
-	
-	aBuilder builder shape rectangle color: Color white.	
+	aBuilder shape rectangle color: Color white.	
 	aBuilder
-		nodes: remoteAddressBooks gtGsAsCollectionFormatter elementsAsProxies 
+		nodes: aHolderProxy addressBooks gtGsAsCollectionFormatter elementsAsProxies 
 		forEach: [ :anAddressBook | 
 			aBuilder shape label
 				color: Color gray;
@@ -14,5 +11,4 @@ holderViewOn: aBuilder for: aHolderInspectorProxy
 			aBuilder nodes: anAddressBook contacts gtGsAsCollectionFormatter elementsAsProxies.
 			aBuilder layout circle radius: 200 ].
 	aBuilder flowLayout.
-	
 	^ aBuilder build

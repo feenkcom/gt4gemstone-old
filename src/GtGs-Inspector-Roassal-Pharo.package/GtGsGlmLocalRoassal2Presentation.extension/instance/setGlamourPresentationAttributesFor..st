@@ -10,4 +10,6 @@ setGlamourPresentationAttributesFor: aPresentation
 				perform: localSelector 
 				withArguments: { 
 					view . 
-					self obtainDisplayValue } ]
+					self gemstoneClient 
+						bareProxyForOopType: (self gemstoneClient session asOopType: self obtainDisplayValue)  
+						ofType: GtGsBareProxy  } ]
