@@ -36,7 +36,7 @@ baseline: spec
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-SystemExtensions' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
-			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-ClientPharo-Core' 'GtGs-Inspector-Core' 'Glamour-FastTable') ];
+			package: 'GtGs-Inspector-Pharo-Core'  with: [ spec requires: #('GtGs-ClientPharo-Core' 'GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Pharo-Core' with: [ spec requires: #('GtGs-Editor-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
