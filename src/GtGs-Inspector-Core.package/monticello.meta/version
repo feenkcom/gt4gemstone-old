@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.221' message 'Renamed #performStringAndBuildProxyFor: to #evaluateStringAndBuildProxyFor:' id '0d1a84b9-83b3-4750-94d3-7abae3f9745c' date '27 March 2017' time '4:34:42.318408 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.220' message 'Use #evaluateString: instead of #performString:
-' id '549ea262-5e22-5710-bab0-eaa037b6ed29' date '27 March 2017' time '4:23:04 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.222' message 'Added #gtGsAsBareProxy' id 'ac6f5a1d-1fc7-4d3c-9601-01be237b44a1' date '1 April 2017' time '11:01:00.760599 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.221' message 'Renamed #performStringAndBuildProxyFor: to #evaluateStringAndBuildProxyFor:
+' id 'b1304c14-f7a6-54c8-8f68-047d8e857593' date '27 March 2017' time '4:34:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
