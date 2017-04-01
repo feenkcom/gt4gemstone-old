@@ -97,7 +97,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-ClientGemstone-Core' 'GtGs-ClientGemstone-Topez' 'GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core');
+				with: #('GtGs-ClientGemstone-Core' 'GtGs-ClientGemstone-Topez' 'GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core' 'GtGs-Inspector-Roassal-Core');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Gemstone-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'
