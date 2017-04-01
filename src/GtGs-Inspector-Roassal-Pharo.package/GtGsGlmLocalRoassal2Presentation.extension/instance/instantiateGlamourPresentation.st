@@ -1,0 +1,2 @@
+*GtGs-Inspector-Roassal-Pharo
+instantiateGlamourPresentation
