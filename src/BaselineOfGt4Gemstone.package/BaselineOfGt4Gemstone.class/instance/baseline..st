@@ -41,6 +41,8 @@ baseline: spec
 			package: 'GtGs-Editor-Pharo-Core' with: [ spec requires: #('GtGs-Editor-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Inspector-Pharo-Core') ];
+			package: 'GtGs-Inspector-Roassal-Core';
+			package: 'GtGs-Inspector-Roassal-Pharo';
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Pharo-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Debugger-Pharo-Tests' with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Common-Resources-Tests') ];
@@ -88,6 +90,7 @@ baseline: spec
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Inspector-Roassal-Core';
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Gemstone-Tests' with: [ spec requires: #('GtGs-Inspector-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Examples-AddressBook-Model'.
