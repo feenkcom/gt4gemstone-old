@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Roassal-Core-AndreiChis.2' message 'Added localRoassal2' id '10865790-73f7-4a99-a48c-40e72dc38d19' date '1 April 2017' time '10:46:04.658002 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Core-AndreiChis.1' message 'Added a template for GtGsGlmLocalRoassal2Presentation
-' id 'ce0864a6-dcda-5627-96f5-df04509440d4' date '1 April 2017' time '10:32:56 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Roassal-Core-AndreiChis.3' message 'Improved the api in GtGsGlmLocalRoassal2Presentation' id '033cb978-8308-0d00-a44d-458509b24acf' date '1 April 2017' time '11:37:36.382199 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Core-AndreiChis.2' message 'Added localRoassal2
+' id '314feae9-91fc-5aec-9a35-15d0b92063e9' date '1 April 2017' time '10:46:10 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

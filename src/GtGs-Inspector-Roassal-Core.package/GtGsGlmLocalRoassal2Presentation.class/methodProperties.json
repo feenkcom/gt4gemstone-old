@@ -1,6 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"className:" : "AndreiChis 4/1/2017 22:02",
-		"selector:" : "AndreiChis 4/1/2017 22:00" } }
+		"localClassName:" : "AndreiChis 4/1/2017 23:31",
+		"localSelector:" : "AndreiChis 4/1/2017 23:31",
+		"initialViewType" : "AndreiChis 4/1/2017 23:32",
+		"initialViewType:" : "AndreiChis 4/1/2017 23:32"
+	},
+	"class" : { }
+}
