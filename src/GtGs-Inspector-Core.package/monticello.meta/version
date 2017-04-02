@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.223' message 'Always keep a reference to an inspector proxy in a remote image.' id '3426e6a5-8d08-0d00-8ba0-7e4905093c15' date '2 April 2017' time '11:46:03.97336 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.222' message 'Added #gtGsAsBareProxy
-' id '76fca720-23ba-5e55-9158-262f1c22dbce' date '1 April 2017' time '11:01:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.224' message 'Added an experimental #GtGsGlmLocalMorphPresentation' id '76fff70b-8e08-0d00-8ba8-ad0405093c15' date '2 April 2017' time '12:14:36.419204 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.223' message 'Always keep a reference to an inspector proxy in a remote image.
+' id '431f8f31-1999-580a-97ed-3dccfc549ce4' date '2 April 2017' time '11:46:09 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
