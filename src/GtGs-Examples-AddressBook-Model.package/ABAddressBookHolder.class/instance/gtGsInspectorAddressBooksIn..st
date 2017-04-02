@@ -1,6 +1,6 @@
 printing
 gtGsInspectorAddressBooksIn: aComposite
-	<gtInspectorPresentationOrder: 14>
+	<gtInspectorPresentationOrder: 9>
 	
 	^ aComposite list 	
 		title: 'Address Books';

@@ -1,14 +1,13 @@
 {
-	"category" : "GtGs-Examples-AddressBook-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"addressBooks" ],
-	"name" : "ABAddressBookHolder",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "GtGs-Examples-AddressBook-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"addressBooks"
+	],
+	"name" : "ABAddressBookHolder",
+	"type" : "normal"
+}

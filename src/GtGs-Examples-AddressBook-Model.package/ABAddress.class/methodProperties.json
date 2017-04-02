@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"=" : "AndreiChis 7/8/2015 14:16",
 		"city" : "AndreiChis 1/27/2015 22:35",
-		"city:" : "AndreiChis 1/27/2015 22:35",
+		"=" : "AndreiChis 7/8/2015 14:16",
 		"country" : "AndreiChis 1/27/2015 22:35",
+		"city:" : "AndreiChis 1/27/2015 22:35",
 		"country:" : "AndreiChis 1/27/2015 22:35",
 		"hash" : "AndreiChis 7/8/2015 14:13",
 		"printOn:" : "AndreiChis 7/8/2015 15:45",
 		"telephone" : "AndreiChis 1/27/2015 22:58",
-		"telephone:" : "AndreiChis 1/27/2015 22:58" } }
+		"telephone:" : "AndreiChis 1/27/2015 22:58"
+	},
+	"class" : { }
+}
