@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"iconId" : "AndreiChis 10/6/2016 16:38",
-		"iconId:" : "AndreiChis 10/6/2016 16:38" } }
+		"iconId:" : "AndreiChis 10/6/2016 16:38",
+		"iconId" : "AndreiChis 10/6/2016 16:38"
+	},
+	"class" : { }
+}

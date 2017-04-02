@@ -1,17 +1,16 @@
 {
-	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "GtGsGlmListingPresentation",
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"childrenBlock",
 		"hasChildNodesBlock",
 		"rootsExpanded",
-		"columns" ],
+		"columns"
+	],
 	"name" : "GtGsGlmTreePresentation",
-	"pools" : [
-		 ],
-	"super" : "GtGsGlmListingPresentation",
-	"type" : "normal" }
+	"type" : "normal"
+}

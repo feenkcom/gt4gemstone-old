@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32",
 		"evaluateStringAndBuildProxyFor:inContext:" : "AndreiChis 3/27/2017 16:32",
-		"evaluateStringAndBuildProxyFor:inContext:literalVars:" : "AndreiChis 3/27/2017 16:32" } }
+		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32",
+		"evaluateStringAndBuildProxyFor:inContext:literalVars:" : "AndreiChis 3/27/2017 16:32"
+	},
+	"class" : { }
+}

@@ -1,14 +1,15 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"computePresentationsUsing:for:" : "AndreiChis 3/3/2017 18:44",
-		"excludedInstVarNames" : "AndreiChis 3/3/2017 11:18",
-		"targetObject" : "AndreiChis 3/3/2017 11:00",
-		"targetObject:" : "AndreiChis 3/2/2017 13:54",
-		"topezServer" : "AndreiChis 3/2/2017 13:54",
-		"topezServer:" : "AndreiChis 3/2/2017 13:54",
 		"updateCache" : "AndreiChis 3/3/2017 11:19",
-		"updateCacheBasic" : "AndreiChis 3/2/2017 17:47",
+		"topezServer:" : "AndreiChis 3/2/2017 13:54",
+		"targetObject" : "AndreiChis 3/3/2017 11:00",
+		"updateForOwner:" : "AndreiChis 3/3/2017 11:24",
+		"targetObject:" : "AndreiChis 3/2/2017 13:54",
 		"updateDisplayValueCache" : "AndreiChis 3/3/2017 11:19",
-		"updateForOwner:" : "AndreiChis 3/3/2017 11:24" } }
+		"topezServer" : "AndreiChis 3/2/2017 13:54",
+		"updateCacheBasic" : "AndreiChis 3/2/2017 17:47",
+		"excludedInstVarNames" : "AndreiChis 3/3/2017 11:18",
+		"computePresentationsUsing:for:" : "AndreiChis 3/3/2017 18:44"
+	},
+	"class" : { }
+}

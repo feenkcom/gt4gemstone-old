@@ -1,13 +1,14 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"areChildNodesExpanded" : "AndreiChis 10/6/2016 17:41",
+		"isChildNodesInitialized" : "AndreiChis 10/6/2016 17:41",
+		"inspectorDataSizeInMemory" : "AndreiChis 12/23/2016 14:55:43",
+		"rawChildNodes" : "AndreiChis 12/23/2016 14:55:43",
+		"columnValues" : "AndreiChis 10/12/2016 18:41",
 		"childNodes" : "AndreiChis 10/6/2016 16:49",
 		"childNodes:" : "AndreiChis 10/6/2016 16:49",
-		"columnValues" : "AndreiChis 10/12/2016 18:41",
 		"hasChildNodes" : "AndreiChis 12/23/2016 14:55:43",
-		"hasChildNodes:" : "AndreiChis 12/23/2016 14:55:43",
-		"inspectorDataSizeInMemory" : "AndreiChis 12/23/2016 14:55:43",
-		"isChildNodesInitialized" : "AndreiChis 10/6/2016 17:41",
-		"rawChildNodes" : "AndreiChis 12/23/2016 14:55:43" } }
+		"areChildNodesExpanded" : "AndreiChis 10/6/2016 17:41",
+		"hasChildNodes:" : "AndreiChis 12/23/2016 14:55:43"
+	},
+	"class" : { }
+}

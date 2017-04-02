@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.222' message 'Added #gtGsAsBareProxy' id 'ac6f5a1d-1fc7-4d3c-9601-01be237b44a1' date '1 April 2017' time '11:01:00.760599 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.221' message 'Renamed #performStringAndBuildProxyFor: to #evaluateStringAndBuildProxyFor:
-' id 'b1304c14-f7a6-54c8-8f68-047d8e857593' date '27 March 2017' time '4:34:47 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.223' message 'Always keep a reference to an inspector proxy in a remote image.' id '3426e6a5-8d08-0d00-8ba0-7e4905093c15' date '2 April 2017' time '11:46:03.97336 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.222' message 'Added #gtGsAsBareProxy
+' id '76fca720-23ba-5e55-9158-262f1c22dbce' date '1 April 2017' time '11:01:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

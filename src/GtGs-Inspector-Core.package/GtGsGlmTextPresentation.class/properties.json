@@ -1,16 +1,15 @@
 {
-	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "GtGsGlmFormattedPresentation",
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"doItReceiverBlock",
 		"literalVarsBlock",
-		"withCodeExecutionActions" ],
+		"withCodeExecutionActions"
+	],
 	"name" : "GtGsGlmTextPresentation",
-	"pools" : [
-		 ],
-	"super" : "GtGsGlmFormattedPresentation",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,11 @@
 {
-	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "GtGsGlmElementsLoadingStrategy",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GtGsGlmElementsLoadingStrategy",
+	"type" : "normal"
+}

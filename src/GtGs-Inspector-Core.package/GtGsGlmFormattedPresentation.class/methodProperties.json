@@ -1,9 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"excludedInstVarNames" : "AndreiChis 10/20/2016 19:05:42",
-		"format:" : "AndreiChis 12/23/2016 14:55:43",
+		"updateUninitializedBlocks" : "AndreiChis 10/20/2016 19:05:42",
 		"formatBlock" : "AndreiChis 10/20/2016 19:05:42",
 		"formatBlock:" : "AndreiChis 10/20/2016 19:05:42",
-		"updateUninitializedBlocks" : "AndreiChis 10/20/2016 19:05:42" } }
+		"excludedInstVarNames" : "AndreiChis 10/20/2016 19:05:42",
+		"format:" : "AndreiChis 12/23/2016 14:55:43"
+	},
+	"class" : { }
+}
