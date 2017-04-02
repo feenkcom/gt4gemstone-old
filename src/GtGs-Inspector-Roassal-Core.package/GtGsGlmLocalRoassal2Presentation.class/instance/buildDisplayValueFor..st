@@ -1,4 +1,4 @@
-accessing
+private
 buildDisplayValueFor: anObject
 
 	"Just store the oop of the object as a display value.
