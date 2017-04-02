@@ -4,5 +4,6 @@ gtGsInspectorAPreviewOn: aComposite
 	
 	^ aComposite localMorph 
 		title: 'Preview';
+		display: [ self ];
 		morphBuilder: #'ABPreviewMorph' selector: #newForContact:
 		
