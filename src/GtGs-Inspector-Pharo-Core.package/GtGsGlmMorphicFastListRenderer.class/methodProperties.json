@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"createDataSourceFrom:" : "AndreiChis 1/10/2017 23:23:56",
-		"render:" : "AndreiChis 1/10/2017 23:23:56" } }
+		"render:" : "AndreiChis 1/10/2017 23:23:56"
+	},
+	"class" : { }
+}

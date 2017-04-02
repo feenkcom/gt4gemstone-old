@@ -1,6 +1,7 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"enableLazyLoading" : "AndreiChis 1/10/2017 23:23:56",
-		"iterator:" : "AndreiChis 1/10/2017 23:23:56" } }
+		"iterator:" : "AndreiChis 1/10/2017 23:23:56"
+	},
+	"class" : { }
+}

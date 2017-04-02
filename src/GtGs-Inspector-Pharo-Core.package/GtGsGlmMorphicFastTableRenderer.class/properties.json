@@ -1,14 +1,11 @@
 {
-	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "GtGsGlmMorphicFastTableRenderer",
-	"pools" : [
-		 ],
 	"super" : "GLMMorphicFastTableRenderer",
-	"type" : "normal" }
+	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GtGsGlmMorphicFastTableRenderer",
+	"type" : "normal"
+}

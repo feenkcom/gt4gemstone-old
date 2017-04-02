@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"instantiateGlamourPresentation" : "AndreiChis 3/2/2017 13:45",
-		"remoteCodePresentationFor:" : "AndreiChis 3/3/2017 18:51",
 		"remoteMethodsPresentationFor:" : "AndreiChis 3/3/2017 18:51",
-		"remoteSuperclassesPresentation" : "AndreiChis 3/3/2017 18:51" } }
+		"remoteSuperclassesPresentation" : "AndreiChis 3/3/2017 18:51",
+		"remoteCodePresentationFor:" : "AndreiChis 3/3/2017 18:51"
+	},
+	"class" : { }
+}
