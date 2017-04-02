@@ -1,5 +1,5 @@
 printing
-gtGsInspectorContactsOn: aComposite
+gtGsInspectorAContactsOn: aComposite
 	<gtInspectorPresentationOrder: 5>
 	
 	aComposite table
