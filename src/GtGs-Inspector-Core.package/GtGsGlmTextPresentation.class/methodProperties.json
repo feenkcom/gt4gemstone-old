@@ -1,21 +1,22 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"attachCodeExecutionActions" : "AndreiChis 2/23/2017 15:11",
+		"highlightedTextAsString" : "AndreiChis 12/23/2016 14:55:43",
 		"buildDisplayValueFor:" : "AndreiChis 12/23/2016 14:55:43",
-		"debugString:" : "AndreiChis 3/22/2017 11:34",
-		"doItReceiver" : "AndreiChis 2/23/2017 14:31",
+		"literalVars" : "AndreiChis 2/23/2017 14:31",
+		"attachCodeExecutionActions" : "AndreiChis 2/23/2017 15:11",
 		"doItReceiver:" : "AndreiChis 10/20/2016 19:05:42",
 		"doItReceiverBlock" : "AndreiChis 10/20/2016 19:05:42",
-		"doItReceiverBlock:" : "AndreiChis 10/20/2016 19:05:42",
-		"excludedInstVarNames" : "AndreiChis 2/23/2017 14:21",
-		"highlightedTextAsString" : "AndreiChis 12/23/2016 14:55:43",
 		"inspectorDataSizeInMemory" : "AndreiChis 12/23/2016 14:55:43",
-		"literalVars" : "AndreiChis 2/23/2017 14:31",
-		"literalVars:" : "AndreiChis 2/23/2017 14:20",
-		"literalVarsBlock" : "AndreiChis 2/23/2017 14:19",
+		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32",
+		"debugString:" : "AndreiChis 3/22/2017 11:34",
+		"evaluateString:" : "AndreiChis 3/27/2017 16:09",
 		"literalVarsBlock:" : "AndreiChis 2/23/2017 14:19",
-		"performString:" : "AndreiChis 2/23/2017 16:46",
-		"performStringAndBuildProxyFor:" : "AndreiChis 2/23/2017 15:12",
-		"shouldAttachCodeExecutionActions" : "AndreiChis 2/23/2017 15:11" } }
+		"literalVarsBlock" : "AndreiChis 2/23/2017 14:19",
+		"literalVars:" : "AndreiChis 2/23/2017 14:20",
+		"shouldAttachCodeExecutionActions" : "AndreiChis 2/23/2017 15:11",
+		"excludedInstVarNames" : "AndreiChis 2/23/2017 14:21",
+		"doItReceiver" : "AndreiChis 2/23/2017 14:31",
+		"doItReceiverBlock:" : "AndreiChis 10/20/2016 19:05:42"
+	},
+	"class" : { }
+}

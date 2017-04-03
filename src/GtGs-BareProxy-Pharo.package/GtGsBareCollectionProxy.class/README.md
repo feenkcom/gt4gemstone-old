@@ -1,0 +1,3 @@
+I am a bare proxy designed to work with a remote collection. I extend my superclass with specialized messages for working with collection like #collect: and #select:. I implement such messages in an optimized way.
+
+I provide no direct support for retriving the elements stored in the remote collection. For that task a GtGsBareCollectionProxyFormatter instance should be used. Such an instance can be obtain using  #gtGsAsCollectionFormatter.

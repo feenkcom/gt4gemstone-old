@@ -1,14 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"add:" : "AndreiChis 12/23/2016 14:55:43",
-		"custom:" : "AndreiChis 10/12/2016 20:01",
-		"fastList" : "AndreiChis 1/11/2017 23:50:11",
-		"fastTable" : "AndreiChis 1/11/2017 23:50:11",
 		"list" : "AndreiChis 10/12/2016 20:02",
-		"pharoScript" : "AndreiChis 10/20/2016 19:05:42",
-		"presentations" : "AndreiChis 10/12/2016 20:01",
-		"table" : "AndreiChis 10/12/2016 20:02",
 		"text" : "AndreiChis 10/20/2016 19:05:42",
-		"tree" : "AndreiChis 10/12/2016 20:02" } }
+		"pharoScript" : "AndreiChis 10/20/2016 19:05:42",
+		"fastList" : "AndreiChis 1/11/2017 23:50:11",
+		"add:" : "AndreiChis 12/23/2016 14:55:43",
+		"table" : "AndreiChis 10/12/2016 20:02",
+		"tree" : "AndreiChis 10/12/2016 20:02",
+		"fastTable" : "AndreiChis 1/11/2017 23:50:11",
+		"localMorph" : "AndreiChis 4/2/2017 12:03",
+		"presentations" : "AndreiChis 10/12/2016 20:01",
+		"custom:" : "AndreiChis 10/12/2016 20:01"
+	},
+	"class" : { }
+}

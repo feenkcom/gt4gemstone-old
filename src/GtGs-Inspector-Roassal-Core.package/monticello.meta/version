@@ -1,0 +1,2 @@
+(name 'GtGs-Inspector-Roassal-Core-AndreiChis.9' message 'fixed method category' id '0548250a-8e08-0d00-8ba7-108105093c15' date '2 April 2017' time '12:14:05.832416 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Core-AndreiChis.8' message 'Updated the API of the remote roassal presentation to be easier to instantiate it for local objects.
+' id '0408d6da-7166-54e3-ba6a-d4460f5b75cd' date '2 April 2017' time '11:22:45 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

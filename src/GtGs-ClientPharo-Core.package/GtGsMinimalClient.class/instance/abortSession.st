@@ -1,6 +1,6 @@
 actions - api
 abortSession
 
-	self performStringRemotely: 'System abort'.
+	self evaluateStringRemotely: 'System abort'.
 	self updateCommitIndicator.
 	self updateSessionHandler

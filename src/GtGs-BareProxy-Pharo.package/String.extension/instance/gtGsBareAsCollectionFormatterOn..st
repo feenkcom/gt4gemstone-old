@@ -1,0 +1,3 @@
+*GtGs-BareProxy-Pharo
+gtGsBareAsCollectionFormatterOn: aGemstoneClient
+	^ aGemstoneClient buildRemoteBareCollectionFormatterFor: self

@@ -1,14 +1,11 @@
 {
-	"category" : "GtGs-Examples-AddressBook-Model",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "AndreiChis 1/28/2015 00:37",
-	"instvars" : [
-		 ],
-	"name" : "ABDomainObject",
-	"pools" : [
-		 ],
 	"super" : "Object",
-	"type" : "normal" }
+	"category" : "GtGs-Examples-AddressBook-Model",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "ABDomainObject",
+	"type" : "normal"
+}

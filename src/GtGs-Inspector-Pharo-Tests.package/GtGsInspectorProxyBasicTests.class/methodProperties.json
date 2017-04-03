@@ -3,7 +3,7 @@
 		 },
 	"instance" : {
 		"testEvaluatorPresentationDisplayValueLazyLoad" : "AndreiChis 1/10/2017 23:14:03",
-		"testLoadingOnlyOfTheRequestedPresentation" : "AndreiChis 3/1/2017 21:08",
-		"testObjectWithErrorInPrintOn" : "AndreiChis 1/10/2017 23:14:03",
+		"testLoadingOnlyOfTheRequestedPresentation" : "AndreiChis 3/27/2017 16:25",
+		"testObjectWithErrorInPrintOn" : "AndreiChis 3/27/2017 16:25",
 		"testRemoteProxyInitialization" : "AndreiChis 1/10/2017 23:14:03",
 		"testRemoteProxyInitializationOfPresentations" : "AndreiChis 1/10/2017 23:14:03" } }

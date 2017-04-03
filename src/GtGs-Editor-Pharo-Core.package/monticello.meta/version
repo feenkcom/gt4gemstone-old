@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.16' message 'Renamed the methods that create a bare proxy.' id '45808e4c-298b-46e1-aa55-ec39d5e30d72' date '23 March 2017' time '9:23:31.081909 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.15' message 'Add to the client an API for opening a code browser.
-' id '4782825e-fd61-58b7-8c39-a9cb774079eb' date '22 March 2017' time '5:40:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.17' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:' id '0f9abb60-1d2b-4e96-917c-377a48ae8c67' date '27 March 2017' time '4:28:02.044917 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.16' message 'Renamed the methods that create a bare proxy.
+' id 'a1194180-bdc2-5732-b213-76c237054464' date '23 March 2017' time '9:23:34 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

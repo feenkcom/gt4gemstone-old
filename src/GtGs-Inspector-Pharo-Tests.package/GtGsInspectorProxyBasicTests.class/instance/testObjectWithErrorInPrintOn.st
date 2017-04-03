@@ -2,7 +2,7 @@ testing
 testObjectWithErrorInPrintOn
 	| erroneousResult |
 
-	erroneousResult := self client performStringRemotely: 
+	erroneousResult := self client evaluateStringRemotely: 
 		' | x | 
 		x := ', self newTestObjectWithPrintingError, '.
 		x gtGsInspectorName'.

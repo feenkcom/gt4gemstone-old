@@ -1,7 +1,8 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"performString:" : "AndreiChis 2/23/2017 15:12",
-		"performStringAndBuildProxyFor:" : "AndreiChis 10/20/2016 19:05:42",
-		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43" } }
+		"evaluateString:" : "AndreiChis 3/27/2017 16:09",
+		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43",
+		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32"
+	},
+	"class" : { }
+}

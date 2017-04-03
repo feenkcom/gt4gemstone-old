@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"buildInstanceUsing:" : "AndreiChis 11/21/2016 17:46",
+		"buildInstanceUsing:" : "AndreiChis 3/27/2017 16:25",
 		"buildNewInstance" : "AndreiChis 11/21/2016 18:16",
-		"fetchInstanceFromGemstoneUsing:" : "AndreiChis 11/21/2016 17:50" },
+		"fetchInstanceFromGemstoneUsing:" : "AndreiChis 3/27/2017 16:25" },
 	"instance" : {
 		"asSerializedString" : "AndreiChis 11/21/2016 18:18",
 		"excludedInstVarNames" : "AndreiChis 11/21/2016 18:15",

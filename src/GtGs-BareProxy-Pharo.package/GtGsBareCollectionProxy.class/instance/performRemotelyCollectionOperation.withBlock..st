@@ -3,5 +3,5 @@ performRemotelyCollectionOperation: aSelector withBlock: aBlock
 
 	^ self gemstoneClient 
 		buildRemoteBareProxyFrom: 
-			self gtGsAsBlockStringArgument, ' ', aSelector ,' ', aBlock gtGsAsBlockStringArgument
+			self gtGsBareAsBlockStringArgument, ' ', aSelector ,' ', aBlock sourceNode formattedCode
 		ofType: self class

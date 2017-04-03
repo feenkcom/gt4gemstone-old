@@ -1,15 +1,14 @@
 {
-	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "GtGsGlmPresentation",
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"topezServer",
-		"targetObject" ],
+		"targetObject"
+	],
 	"name" : "GtGsGlmBrowser",
-	"pools" : [
-		 ],
-	"super" : "GtGsGlmPresentation",
-	"type" : "normal" }
+	"type" : "normal"
+}

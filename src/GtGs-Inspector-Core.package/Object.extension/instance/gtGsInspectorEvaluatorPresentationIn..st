@@ -9,11 +9,11 @@ gtGsInspectorEvaluatorPresentationIn: aComposite
 		format: [ :aString | aString ];
 		gsSelectionAct: [ :aGsPresenntation |
 				aGsPresenntation selection: (
-					aGsPresenntation performString: aGsPresenntation highlightedTextAsString) gtGsInspectorProxy ] 
+					aGsPresenntation evaluateString: aGsPresenntation highlightedTextAsString) gtGsInspectorProxy ] 
 			on: nil 
 			entitled: 'Do it and go (experimental)';
 		gsSelectionAct: [ :aGsPresenntation |
-				aGsPresenntation performString: aGsPresenntation highlightedTextAsString ] 
+				aGsPresenntation evaluateString: aGsPresenntation highlightedTextAsString ] 
 			on: nil
 			entitled: 'Do it (experimental)';
 		attachCodeExecutionActions;

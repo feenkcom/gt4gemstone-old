@@ -1,11 +1,12 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"gtGsLocalBrowsingSelectionActions" : "AndreiChis 3/22/2017 16:55",
-		"gtGsLocalExecutionSelectionActions" : "AndreiChis 3/22/2017 17:34",
-		"gtGsMethodCodeActionsWith:" : "AndreiChis 3/20/2017 18:38",
+		"gtGsRemoteExecutionSelectionActionsWith:" : "AndreiChis 3/27/2017 16:25",
 		"gtGsRemoteBrowsingSelectionActionsWith:" : "AndreiChis 3/22/2017 17:33",
+		"highlightedTextAsString" : "AndreiChis 10/22/2016 22:51:04",
+		"gtGsMethodCodeActionsWith:" : "AndreiChis 3/20/2017 18:38",
 		"gtGsRemoteDoItAndGoActionsWith:" : "AndreiChis 2/23/2017 17:24",
-		"gtGsRemoteExecutionSelectionActionsWith:" : "AndreiChis 3/22/2017 14:04",
-		"highlightedTextAsString" : "AndreiChis 10/22/2016 22:51:04" } }
+		"gtGsLocalBrowsingSelectionActions" : "AndreiChis 3/22/2017 16:55",
+		"gtGsLocalExecutionSelectionActions" : "AndreiChis 3/22/2017 17:34"
+	},
+	"class" : { }
+}

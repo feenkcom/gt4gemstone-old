@@ -12,9 +12,12 @@
 		"contextToSelectFrom:" : "AndreiChis 11/13/2016 17:21",
 		"debuggingActionsPragmas" : "AndreiChis 11/26/2016 18:38:12",
 		"gemstoneClient" : "AndreiChis 3/16/2017 21:05",
+		"installActionsForRootPragmas:in:" : "AndreiChis 3/28/2017 23:22",
+		"installStackDebuggingActionsFor:" : "AndreiChis 3/28/2017 23:54",
 		"isClosing" : "AndreiChis 11/26/2016 18:38:12",
 		"retrieveStackFrom:" : "AndreiChis 11/26/2016 18:38:12",
 		"sessionForContext:" : "AndreiChis 11/26/2016 18:38:12",
 		"stackDebuggingActionsPragmas" : "AndreiChis 11/26/2016 18:38:12",
 		"stackWidgetIn:" : "AndreiChis 3/22/2017 14:38",
+		"transmitFromStackToCodeIn:" : "AndreiChis 3/28/2017 23:25",
 		"updateBrowser" : "AndreiChis 11/26/2016 18:38:12" } }

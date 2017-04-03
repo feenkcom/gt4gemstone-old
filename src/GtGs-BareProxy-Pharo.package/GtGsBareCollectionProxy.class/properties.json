@@ -1,14 +1,11 @@
 {
-	"category" : "GtGs-BareProxy-Pharo",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
-	"instvars" : [
-		 ],
-	"name" : "GtGsBareCollectionProxy",
-	"pools" : [
-		 ],
+	"commentStamp" : "AndreiChis 3/25/2017 19:10",
 	"super" : "GtGsBareProxy",
-	"type" : "normal" }
+	"category" : "GtGs-BareProxy-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "GtGsBareCollectionProxy",
+	"type" : "normal"
+}

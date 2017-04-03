@@ -1,15 +1,16 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"gtGsClassIconId" : "AndreiChis 10/12/2016 18:25",
+		"gtGsLookupSelector:" : "AndreiChis 10/26/2016 18:15",
 		"gtGsInspectorBRawTablePresentationIn:" : "AndreiChis 12/23/2016 14:55:43",
-		"gtGsInspectorEvaluatorPresentationIn:" : "AndreiChis 10/26/2016 18:25",
+		"gtGsVariableValuePairsWithSelfIf:" : "AndreiChis 10/26/2016 18:22",
+		"gtGsSerializedInspectorProxyAndSelect:" : "AndreiChis 12/23/2016 14:55:43",
+		"gtGsInspectorPresentationsIn:inContext:" : "AndreiChis 3/16/2017 22:16",
+		"gtGsSerializedInspectorProxy" : "AndreiChis 12/23/2016 14:55:43",
 		"gtGsInspectorMetaIn:" : "AndreiChis 3/3/2017 18:24",
 		"gtGsInspectorName" : "AndreiChis 12/23/2016 14:55:43",
-		"gtGsInspectorPresentationsIn:inContext:" : "AndreiChis 3/16/2017 22:16",
-		"gtGsInspectorProxy" : "AndreiChis 10/20/2016 19:05:42",
-		"gtGsLookupSelector:" : "AndreiChis 10/26/2016 18:15",
-		"gtGsSerializedInspectorProxy" : "AndreiChis 12/23/2016 14:55:43",
-		"gtGsSerializedInspectorProxyAndSelect:" : "AndreiChis 12/23/2016 14:55:43",
-		"gtGsVariableValuePairsWithSelfIf:" : "AndreiChis 10/26/2016 18:22" } }
+		"gtGsClassIconId" : "AndreiChis 10/12/2016 18:25",
+		"gtGsInspectorEvaluatorPresentationIn:" : "AndreiChis 3/27/2017 16:07",
+		"gtGsInspectorProxy" : "AndreiChis 10/20/2016 19:05:42"
+	},
+	"class" : { }
+}

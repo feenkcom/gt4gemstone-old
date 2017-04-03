@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "GtGsGlmPresentation",
+	"category" : "GtGs-Inspector-Roassal-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localSelector",
+		"localClassName",
+		"initialViewType"
+	],
+	"name" : "GtGsGlmLocalRoassal2Presentation",
+	"type" : "normal"
+}

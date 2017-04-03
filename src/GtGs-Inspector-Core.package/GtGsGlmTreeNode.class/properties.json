@@ -1,16 +1,15 @@
 {
-	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
+	"super" : "GtGsGlmListNode",
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"childNodes",
 		"columnValues",
-		"hasChildNode" ],
+		"hasChildNode"
+	],
 	"name" : "GtGsGlmTreeNode",
-	"pools" : [
-		 ],
-	"super" : "GtGsGlmListNode",
-	"type" : "normal" }
+	"type" : "normal"
+}

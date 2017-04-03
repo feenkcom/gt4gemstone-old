@@ -1,14 +1,13 @@
 {
-	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"gtGsPresentation" ],
-	"name" : "GtGsGlmFastListPresentationWrapper",
-	"pools" : [
-		 ],
 	"super" : "GLMFastListPresentation",
-	"type" : "normal" }
+	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gtGsPresentation"
+	],
+	"name" : "GtGsGlmFastListPresentationWrapper",
+	"type" : "normal"
+}

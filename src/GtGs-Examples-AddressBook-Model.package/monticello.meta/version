@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Model-AndreiChis.10' message 'set a size for the name column' id '6f790e9f-b2bb-4bb5-9daf-4c55cf0d06fb' date '12 March 2017' time '6:27:05.387408 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.9' message 'finally fixed gtGsInspectorContactOn:
-' id 'bfe363c1-da1a-5302-8cfa-8b9a239fff9e' date '12 March 2017' time '2:09:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Model-AndreiChis.13' message 'Added a display block the localMorph presentation.' id 'e21a3016-8e08-0d00-8ba9-1c5f05093c15' date '2 April 2017' time '12:17:27.868329 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.12' message 'Moved the preview view of contact objects to the gemstone side.
+' id '8f7885c5-5ba2-5ba0-840a-6e345e3af4bd' date '2 April 2017' time '12:13:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

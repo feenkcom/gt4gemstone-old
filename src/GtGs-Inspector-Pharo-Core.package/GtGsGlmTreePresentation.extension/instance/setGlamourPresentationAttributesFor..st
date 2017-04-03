@@ -13,7 +13,7 @@ setGlamourPresentationAttributesFor: aPresentation
 					aListNode childNodes ] ].
 			
 	self columns withIndexDo: [ :aGsColumn :index | 
-		aPresentation addColumn: (GLMTableColumn new
+		aPresentation columns add: (GLMTableColumn new
 			title: aGsColumn titleCache;
 			width: aGsColumn width;
 			computation: [ :aTableNode | aTableNode columnValues at: index ]) ]

@@ -1,7 +1,11 @@
 {
-	"class" : {
-		 },
 	"instance" : {
 		"buildRemoteBareProxyFrom:" : "AndreiChis 3/16/2017 16:42",
+		"instantiateRemoteCollectionFormatter" : "AndreiChis 3/27/2017 16:53",
 		"buildRemoteBareProxyFrom:ofType:" : "AndreiChis 3/17/2017 00:06",
-		"buildRemoteCollectionFormatter" : "AndreiChis 3/20/2017 11:41" } }
+		"buildRemoteBareCollectionFormatterFor:" : "AndreiChis 3/27/2017 16:52",
+		"instantiateRemoteBareCollectionFormatter" : "AndreiChis 3/27/2017 16:53",
+		"buildRemoteCollectionFormatterFor:" : "AndreiChis 3/27/2017 16:54"
+	},
+	"class" : { }
+}

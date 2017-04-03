@@ -4,7 +4,7 @@
 	"instance" : {
 		"initialize" : "AndreiChis 11/16/2016 12:33",
 		"methodCallingMethodWithBlockWithParameters" : "TudorGirba 11/20/2016 20:35:43",
-		"methodWithBlocReferringSelf" : "AndreiChis 11/23/2016 00:48",
+		"methodWithBlocReferringSelf" : "AndreiChis 11/23/2016 00:48:53",
 		"methodWithBlockWithParametersA:b:" : "AndreiChis 11/18/2016 00:24",
 		"methodWithBlockWithinBlockA:B:C:" : "AndreiChis 11/22/2016 10:55",
 		"methodWithInstructionsAfterBlock" : "AndreiChis 11/18/2016 14:29",

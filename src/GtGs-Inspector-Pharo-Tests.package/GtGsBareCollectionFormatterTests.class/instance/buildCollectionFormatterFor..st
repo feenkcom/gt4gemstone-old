@@ -1,0 +1,4 @@
+accessing
+buildCollectionFormatterFor: anExecutableString
+
+	^ self client buildRemoteBareCollectionFormatterFor: anExecutableString

@@ -1,8 +1,10 @@
 {
-	"class" : {
-		 },
 	"instance" : {
+		"performStringRemotelyAndInspect:" : "AndreiChis 3/27/2017 16:33",
+		"evaluateStringRemotelyAndInspect:" : "AndreiChis 3/27/2017 16:33",
+		"buildRemoteInspectorProxyFrom:inContext:" : "AndreiChis 3/27/2017 16:32",
 		"buildRemoteInspectorProxyFrom:" : "AndreiChis 3/21/2017 15:34",
-		"buildRemoteInspectorProxyFrom:inContext:" : "AndreiChis 3/21/2017 22:59",
-		"buildRemoteInspectorProxyFrom:withRunner:" : "AndreiChis 3/21/2017 22:59",
-		"performStringRemotelyAndInspect:" : "AndreiChis 3/16/2017 23:55" } }
+		"buildRemoteInspectorProxyFrom:withRunner:" : "AndreiChis 3/27/2017 16:32"
+	},
+	"class" : { }
+}

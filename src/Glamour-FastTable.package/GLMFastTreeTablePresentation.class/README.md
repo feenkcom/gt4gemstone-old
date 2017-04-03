@@ -1,0 +1,1 @@
+I am only a stub so that gt4gemstone is compatible with Pharo 5 and Pharo 6.

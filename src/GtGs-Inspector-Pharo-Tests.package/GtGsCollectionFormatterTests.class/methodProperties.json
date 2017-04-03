@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"isAbstract" : "AndreiChis 3/27/2017 17:24" },
+	"instance" : {
+		"buildCollectionFormatterFor:" : "AndreiChis 3/27/2017 17:24",
+		"elementsFrom:" : "AndreiChis 3/27/2017 17:24",
+		"testLocalAndRemoteFormattingIntegers" : "AndreiChis 3/27/2017 17:26",
+		"testLocalFormattingIntegers" : "AndreiChis 3/27/2017 17:26",
+		"testMultipleConsecutiveFormattingIntegers" : "AndreiChis 3/27/2017 17:26",
+		"testNumbersCollectionWithNoFormatting" : "AndreiChis 3/27/2017 17:10",
+		"testStringCollectionWithNoFormatting" : "AndreiChis 3/27/2017 17:10",
+		"testSymbolsCollectionWithNoFormatting" : "AndreiChis 3/27/2017 17:10" } }

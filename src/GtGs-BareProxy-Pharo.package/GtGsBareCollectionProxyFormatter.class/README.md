@@ -1,1 +1,0 @@
-I am a utility class that works in tandem with the collection proxy. Essentially, I know how to specify and retrieve a local collection of strings or STON representations  for the elements in the remote collection.

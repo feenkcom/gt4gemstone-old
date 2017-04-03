@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.36' message 'Added ClientPharo package to the Core group' id 'f5892547-8860-4589-b5d2-ab9abd03f9e6' date '22 March 2017' time '8:28:44.183802 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.35' message 'fixed typo in debugger dependency
-' id '3c038bd6-57c2-516a-b608-1e9cc6d2d843' date '22 March 2017' time '10:35:34 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.40' message 'Load roassal support in gemstone' id 'bdc38daa-8308-0d00-a469-358c09b24acf' date '1 April 2017' time '11:51:32.394123 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.39' message 'Added the roassal package to the baseline; they are not loaded for the moment.
+' id 'ff760fcd-20bd-574c-980f-a54eec395af5' date '1 April 2017' time '11:48:39 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

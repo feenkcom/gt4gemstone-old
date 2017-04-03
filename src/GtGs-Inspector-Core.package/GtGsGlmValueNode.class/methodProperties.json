@@ -1,17 +1,18 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"excludedInstVarNames" : "AndreiChis 10/20/2016 19:05:42",
-		"formattedValue" : "AndreiChis 10/20/2016 19:05:42",
-		"formattedValue:" : "AndreiChis 10/20/2016 19:05:42",
-		"fromSton:" : "AndreiChis 10/20/2016 19:05:42",
-		"inspectorDataSizeInMemory" : "AndreiChis 12/23/2016 14:55:43",
-		"selfOop" : "AndreiChis 10/20/2016 19:05:42",
-		"serializedInspectorProxyForTargetObject" : "AndreiChis 11/14/2016 15:25",
-		"setOops" : "AndreiChis 10/20/2016 19:05:42",
 		"stonInstVarNames" : "AndreiChis 10/20/2016 19:05:42",
-		"stonOn:" : "AndreiChis 10/20/2016 19:05:42",
-		"stonProcessSubObjects:" : "AndreiChis 10/20/2016 19:05:42",
+		"serializedInspectorProxyForTargetObject" : "AndreiChis 11/14/2016 15:25",
 		"targetObject" : "AndreiChis 10/20/2016 19:05:42",
-		"targetObject:" : "AndreiChis 10/20/2016 19:05:42" } }
+		"inspectorDataSizeInMemory" : "AndreiChis 12/23/2016 14:55:43",
+		"formattedValue:" : "AndreiChis 10/20/2016 19:05:42",
+		"targetObject:" : "AndreiChis 10/20/2016 19:05:42",
+		"setOops" : "AndreiChis 10/20/2016 19:05:42",
+		"stonOn:" : "AndreiChis 10/20/2016 19:05:42",
+		"fromSton:" : "AndreiChis 10/20/2016 19:05:42",
+		"excludedInstVarNames" : "AndreiChis 10/20/2016 19:05:42",
+		"stonProcessSubObjects:" : "AndreiChis 10/20/2016 19:05:42",
+		"formattedValue" : "AndreiChis 10/20/2016 19:05:42",
+		"selfOop" : "AndreiChis 10/20/2016 19:05:42"
+	},
+	"class" : { }
+}

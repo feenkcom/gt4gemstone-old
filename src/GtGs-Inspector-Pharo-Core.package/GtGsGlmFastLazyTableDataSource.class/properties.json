@@ -1,17 +1,16 @@
 {
-	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
-	"classinstvars" : [
-		 ],
 	"classtraitcomposition" : "GtGsGlmFastTableLazyDataSource classTrait",
-	"classvars" : [
-		 ],
-	"commentStamp" : "",
+	"classvars" : [ ],
 	"instvars" : [
 		"startIndex",
-		"stopIndex" ],
+		"stopIndex"
+	],
 	"name" : "GtGsGlmFastLazyTableDataSource",
-	"pools" : [
-		 ],
+	"commentStamp" : "",
 	"super" : "GLMFastTableDataSource",
 	"traitcomposition" : "GtGsGlmFastTableLazyDataSource",
-	"type" : "normal" }
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "GtGs-Inspector-Pharo-Core-FastTable"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "GtGs-Inspector-Pharo-Core",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "",
-	"instvars" : [
-		"dataSource" ],
-	"name" : "GtGsNavigationPagerMorph",
-	"pools" : [
-		 ],
 	"super" : "BorderedMorph",
-	"type" : "normal" }
+	"category" : "GtGs-Inspector-Pharo-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"dataSource"
+	],
+	"name" : "GtGsNavigationPagerMorph",
+	"type" : "normal"
+}

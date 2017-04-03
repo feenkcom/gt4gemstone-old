@@ -1,0 +1,14 @@
+{
+	"category" : "Glamour-FastTable-Presentations",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 3/28/2017 22:37",
+	"instvars" : [
+		 ],
+	"name" : "GLMFastTreeTablePresentation",
+	"pools" : [
+		 ],
+	"super" : "GLMFastTreePresentation",
+	"type" : "normal" }

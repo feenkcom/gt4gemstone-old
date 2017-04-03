@@ -1,6 +1,6 @@
 actions - api
 commitSession
 
-	self performStringRemotely: 'System commit'.
+	self evaluateStringRemotely: 'System commit'.
 	self updateCommitIndicator.
 	self updateSessionHandler

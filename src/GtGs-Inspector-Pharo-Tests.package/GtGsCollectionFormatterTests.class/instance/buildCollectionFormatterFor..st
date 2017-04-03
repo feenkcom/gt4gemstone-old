@@ -1,0 +1,3 @@
+accessing
+buildCollectionFormatterFor: anExecutableString
+	self subclassResponsibility

@@ -1,9 +1,11 @@
 {
-	"class" : {
-		"fromPetit:" : "AndreiChis 10/12/2016 16:52",
-		"fromXML:" : "AndreiChis 10/12/2016 16:52" },
 	"instance" : {
-		"gtPreviewOn:" : "AndreiChis 10/22/2015 17:11",
+		"spotterPreviewOldIn:" : "AndreiChis 10/22/2015 18:25",
 		"previewMorph" : "AliakseiSyrel 10/22/2015 11:27",
-		"spotterPreviewIn:" : "AndreiChis 10/22/2015 18:29",
-		"spotterPreviewOldIn:" : "AndreiChis 10/22/2015 18:25" } }
+		"spotterPreviewIn:" : "AndreiChis 10/22/2015 18:29"
+	},
+	"class" : {
+		"fromXML:" : "AndreiChis 10/12/2016 16:52",
+		"fromPetit:" : "AndreiChis 10/12/2016 16:52"
+	}
+}

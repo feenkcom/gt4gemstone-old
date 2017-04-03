@@ -1,0 +1,12 @@
+{
+	"class" : {
+		"isAbstract" : "AndreiChis 3/27/2017 17:24" },
+	"instance" : {
+		"buildCollectionFormatterFor:" : "AndreiChis 3/27/2017 17:06",
+		"elementsFrom:" : "AndreiChis 3/27/2017 17:03",
+		"testBlockAPINoArguments" : "AndreiChis 3/27/2017 17:44",
+		"testBlockAPIWithArguments" : "AndreiChis 3/27/2017 17:44",
+		"testClassNamesFormatting" : "AndreiChis 3/27/2017 17:22",
+		"testCollectionObjects" : "AndreiChis 3/27/2017 17:30",
+		"testObjectCollection" : "AndreiChis 3/27/2017 17:30",
+		"testStringAPI" : "AndreiChis 3/27/2017 17:43" } }

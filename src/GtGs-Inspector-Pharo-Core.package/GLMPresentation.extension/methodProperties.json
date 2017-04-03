@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"attachCodeExecutionActions" : "AndreiChis 10/22/2016 22:51:04",
+		"iconIdBlock:" : "AndreiChis 10/22/2016 22:51:04",
 		"gsAct:on:entitled:" : "AndreiChis 10/22/2016 22:51:04",
-		"gsSelectionAct:on:entitled:" : "AndreiChis 10/22/2016 22:51:04",
-		"iconIdBlock:" : "AndreiChis 10/22/2016 22:51:04" } }
+		"attachCodeExecutionActions" : "AndreiChis 10/22/2016 22:51:04",
+		"gsSelectionAct:on:entitled:" : "AndreiChis 10/22/2016 22:51:04"
+	},
+	"class" : { }
+}

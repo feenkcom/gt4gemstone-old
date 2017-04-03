@@ -4,7 +4,7 @@ glamourPresentationFor: anObjectSelector using: aPresentationSelector withArgume
 	^ (self 
 		remoteGlamourPresentationFor: anObjectSelector 
 		using: aPresentationSelector 
-		withArguments: argumentsArray gtGsAsStringArgumentsArray)
+		withArguments: argumentsArray gtGsBareAsBlockStringArgument)
 			ifNotNil: [ :aGsPresentation ||glamourPresentation| 
 				self gsPresentations add: aGsPresentation. "Cache the presentation"
 				glamourPresentation := aGsPresentation gtGsAsGlamourPresentation.

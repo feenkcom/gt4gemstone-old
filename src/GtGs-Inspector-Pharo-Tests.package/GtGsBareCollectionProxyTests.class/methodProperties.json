@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"assertRemoteCollection:equals:" : "AndreiChis 3/26/2017 16:50",
+		"testBareProxyConversion" : "AndreiChis 3/26/2017 17:09",
+		"testCollect" : "AndreiChis 3/26/2017 17:08",
+		"testCollectionProxyConversion" : "AndreiChis 3/26/2017 17:09",
+		"testSelectionAndSortingBag" : "AndreiChis 3/26/2017 17:09",
+		"testSelectionArray" : "AndreiChis 3/26/2017 16:53",
+		"testSortingArray" : "AndreiChis 3/26/2017 16:51",
+		"testSortingBag" : "AndreiChis 3/26/2017 16:52" } }

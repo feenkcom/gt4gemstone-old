@@ -1,3 +1,3 @@
 accessing-defaults
 defaultPlaygroundTitle
-	^ 'Gemstone Playground'
+	^ 'Remote Playground'

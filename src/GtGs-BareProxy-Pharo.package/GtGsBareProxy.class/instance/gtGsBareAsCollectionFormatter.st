@@ -1,7 +1,3 @@
 transforming
 gtGsBareAsCollectionFormatter
-
-	^ self gemstoneClient buildRemoteCollectionFormatter
-			disableSTONSerialization;
-			command: (self gtGsAsBlockStringArgument) ;
-			yourself
+	^ self gemstoneClient buildRemoteBareCollectionFormatterFor: self gtGsBareAsBlockStringArgument

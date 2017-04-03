@@ -1,0 +1,16 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"allPresentationsFromPane:" : "AndreiChis 3/31/2017 17:31",
+		"evaluateAndOpenInspectorOn:" : "AndreiChis 3/31/2017 20:09",
+		"find:in:" : "AndreiChis 3/31/2017 17:42",
+		"findSatisfying:in:" : "AndreiChis 3/31/2017 17:42",
+		"openInspectorOn:" : "AndreiChis 3/31/2017 20:09",
+		"tearDown" : "AndreiChis 3/31/2017 20:10",
+		"testInspectorOpensWithoutError" : "AndreiChis 3/31/2017 20:05",
+		"testInspectorPaneTitle" : "AndreiChis 3/31/2017 20:06",
+		"testInspectorWindowTitle" : "AndreiChis 3/31/2017 20:06",
+		"testNumberOfVisiblePresentations" : "AndreiChis 3/31/2017 20:07",
+		"testRawPresentationTableMorphContent" : "AndreiChis 3/31/2017 20:08",
+		"testRawPresentationTableMorphInitialization" : "AndreiChis 3/31/2017 20:08" } }

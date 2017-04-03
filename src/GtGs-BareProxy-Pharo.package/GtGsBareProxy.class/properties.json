@@ -1,15 +1,14 @@
 {
-	"category" : "GtGs-BareProxy-Pharo",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "AndreiChis 3/23/2017 23:05",
+	"super" : "ProtoObject",
+	"category" : "GtGs-BareProxy-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
 	"instvars" : [
 		"gemstoneClient",
-		"selfOopType" ],
+		"selfOopType"
+	],
 	"name" : "GtGsBareProxy",
-	"pools" : [
-		 ],
-	"super" : "ProtoObject",
-	"type" : "normal" }
+	"type" : "normal"
+}

@@ -1,14 +1,13 @@
 {
-	"category" : "GtGs-Examples-AddressBook-Extensions-Pharo",
-	"classinstvars" : [
-		 ],
-	"classvars" : [
-		 ],
 	"commentStamp" : "AliakseiSyrel 10/22/2015 13:54",
-	"instvars" : [
-		"contact" ],
-	"name" : "ABPreviewMorph",
-	"pools" : [
-		 ],
 	"super" : "GLMFoundationBrick",
-	"type" : "normal" }
+	"category" : "GtGs-Examples-AddressBook-Extensions-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"contact"
+	],
+	"name" : "ABPreviewMorph",
+	"type" : "normal"
+}

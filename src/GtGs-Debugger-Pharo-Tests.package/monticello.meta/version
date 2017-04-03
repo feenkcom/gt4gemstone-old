@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Pharo-Tests-AndreiChis.10' message 'do not test for UI process in testRemoteSessionInitialization' id '73821bd3-eca1-4e48-9363-a2f81c5068d9' date '24 December 2016' time '12:58:35.057185 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Tests-AndreiChis.9' message 'reverted experiment
-' id '5368d6c4-880c-5457-9918-01836a3321a3' date '23 December 2016' time '5:58:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Pharo-Tests-AndreiChis.12' message 'Remove the test session from the session manager.' id '2860602d-089d-4c86-8b7d-a10f51fff576' date '31 March 2017' time '8:13:10.523221 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Pharo-Tests-AndreiChis.11' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:
+' id '9a16b27f-4f6c-5a7e-add1-72fba8eb92a8' date '27 March 2017' time '4:28:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

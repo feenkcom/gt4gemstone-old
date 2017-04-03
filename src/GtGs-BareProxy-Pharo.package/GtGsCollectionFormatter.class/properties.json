@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "AndreiChis 3/27/2017 18:00",
+	"super" : "Object",
+	"category" : "GtGs-BareProxy-Pharo",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gemstoneClient",
+		"remoteFormatBlock",
+		"localFormatBlock",
+		"collectionSerializer",
+		"objectAccessorCommand"
+	],
+	"name" : "GtGsCollectionFormatter",
+	"type" : "normal"
+}

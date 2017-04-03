@@ -1,8 +1,9 @@
 {
-	"class" : {
-		 },
 	"instance" : {
-		"buildRemoteInspectorProxyFrom:" : "AndreiChis 3/21/2017 15:15",
-		"debugStringRemotely:" : "AndreiChis 3/22/2017 11:33",
 		"instantiateGlamourPresentation" : "AndreiChis 10/22/2016 22:51:04",
-		"performStringRemotely:" : "AndreiChis 3/21/2017 15:18" } }
+		"evaluateStringRemotely:" : "AndreiChis 3/27/2017 16:26",
+		"buildRemoteInspectorProxyFrom:" : "AndreiChis 3/21/2017 15:15",
+		"debugStringRemotely:" : "AndreiChis 3/22/2017 11:33"
+	},
+	"class" : { }
+}

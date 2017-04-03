@@ -1,0 +1,1 @@
+I am a proxy that allows remote objects to be inspected using custom remote presentations in GTInspector.

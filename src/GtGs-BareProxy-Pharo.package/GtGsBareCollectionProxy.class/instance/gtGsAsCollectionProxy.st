@@ -1,3 +1,0 @@
-converting - proxy
-gtGsAsCollectionProxy
-	^ self

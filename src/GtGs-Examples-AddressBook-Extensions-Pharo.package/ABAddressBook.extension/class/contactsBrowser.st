@@ -2,5 +2,5 @@
 contactsBrowser
 
 	GTInspector new
-  		filterByMethods: {ABAddressBook>>#gtGsInspectorContactsOn: . ABContact>>#gtGsInspectorContactOn:};
+  		filterByMethods: {ABAddressBook>>#gtGsInspectorAContactsOn: . ABContact>>#gtGsInspectorAContactOn:};
   		openOn: ABAddressBook default

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "GtGsGlmPresentation",
+	"category" : "GtGs-Inspector-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"localClassName",
+		"localSelector"
+	],
+	"name" : "GtGsGlmLocalMorphPresentation",
+	"type" : "normal"
+}

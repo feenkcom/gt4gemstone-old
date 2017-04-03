@@ -2,7 +2,7 @@
 buildRemoteInspectorProxyFrom: aString withRunner: anOopType
 	| serializedProxy materializedProxy |
 	serializedProxy := self 
-		send: #performStringAndBuildProxyFor:
+		send: #evaluateStringAndBuildProxyFor:
 		to: anOopType 
 		withArgs: { aString }.
 	serializedProxy ifNil: [ ^ nil ].

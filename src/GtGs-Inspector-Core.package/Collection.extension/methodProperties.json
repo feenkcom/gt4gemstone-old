@@ -1,6 +1,9 @@
 {
-	"class" : {
-		"gtGsClassIconId" : "AndreiChis 10/12/2016 18:25" },
 	"instance" : {
-		"gtGsInspectorAItemsIn:" : "AndreiChis 1/11/2017 23:50:11",
-		"gtGsInspectorElementsIterator" : "AndreiChis 1/11/2017 23:50:11" } }
+		"gtGsInspectorElementsIterator" : "AndreiChis 1/11/2017 23:50:11",
+		"gtGsInspectorAItemsIn:" : "AndreiChis 1/11/2017 23:50:11"
+	},
+	"class" : {
+		"gtGsClassIconId" : "AndreiChis 10/12/2016 18:25"
+	}
+}

@@ -25,7 +25,7 @@
 		"worldMenuOn:" : "TravisCI 2/22/2017 15:05" },
 	"instance" : {
 		"actOnBrowserClosing:" : "TravisCI 2/21/2017 21:07",
-		"compose" : "AndreiChis 3/22/2017 15:40",
+		"compose" : "AndreiChis 3/25/2017 22:31",
 		"createSessionDescriptionAndLogInFor:" : "AndreiChis 3/22/2017 16:12",
 		"defaultTitle" : "TravisCI 2/22/2017 15:25",
 		"deleteSessionDescription:" : "AndreiChis 3/22/2017 16:12",
@@ -33,7 +33,7 @@
 		"formatString:for:" : "TravisCI 2/22/2017 11:29",
 		"gemstoneClients" : "AndreiChis 10/22/2016 22:51:04",
 		"initialExtent" : "AndreiChis 10/22/2016 22:51:04",
-		"installSelectionActionsOn:" : "AndreiChis 3/22/2017 16:34",
+		"installSelectionActionsOn:" : "AndreiChis 3/25/2017 12:14",
 		"installToolbarActionsOn:" : "AndreiChis 3/22/2017 15:56",
 		"isClientActive:" : "TravisCI 2/22/2017 11:42",
 		"openCreateSessionDescriptionWindow" : "AndreiChis 3/22/2017 16:15",
