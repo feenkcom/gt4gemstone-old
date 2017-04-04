@@ -29,9 +29,9 @@ gt4gemstone comes with a session manager that can be opened from the World menu.
 
 A remote Pharo Playgrond that works on a remote stone is created using the context menu of a selected session. This playground has a distinct blue border and provides actions for executing and inspecting code remotely.
 
-<img src="gemstone-session-handler-remote-playground.png">
+<img src="doc/gemstone-session-handler-remote-playground.png">
 
-<img src="gemstone-playground.png">
+<img src="doc/gemstone-playground.png">
 
 Alternatively opening a Pharo Playground can be achived using the following API:
 
