@@ -46,10 +46,6 @@ gt4gemstone further comes with a moldable inspector that allows you to inspect o
 <img src="doc/raw-inspector.png"/>
 
 <img src="doc/dictionary-inspector.png"/>
-
-<img src="doc/custom-inspector.png"/>
-
-<img src="doc/string-inspector.png"/>
     
 ## Debugger & Editor
 
