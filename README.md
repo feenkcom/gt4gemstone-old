@@ -15,7 +15,7 @@ For creating a new stone containing the latest version use:
 
     createStone -u http://ws.stfx.eu/4TIV0I28KZ6O?format=text -i Gt4Gemstone -l Gt4Gemstone Gt4Gemstone 3.3.3
 
-In a stone where GsDevKit is present the server code can be installed with tODE using this the specification at https://raw.githubusercontent.com/feenkcom/gt4gemstone/master/.smalltalk.ston.
+In a stone where GsDevKit is present the server code can be installed with tODE using the specification at https://raw.githubusercontent.com/feenkcom/gt4gemstone/master/.smalltalk.ston.
 
 For installing the gt4gemstone in a stone that does not require GsDevKit see [gt4gemstone server instalation without GsDevKit](doc/bareGemStoneInstallation.md). For installing and configuring GsDevKit on Windows see [GsDevKit Windows Installation](doc/windowsGsDevKitInstallation.md)
 
@@ -51,10 +51,34 @@ gt4gemstone further comes with a moldable inspector that allows you to inspect o
 
 <img src="doc/string-inspector.png"/>
     
-## Debugger
+## Debugger & Editor
 
 <img src="doc/basic-debugger.png"/>
 
+<img src="doc/categories-browser.png"/>
+
+<img src="doc/symbol-dictionaries-browser.png"/>
+
+## Custom object view
+
+gt4gemstone uses GTInspector and allows every object to have multiple views. A similar API can be used to create views for Pharo and GemStone objects. For example, an `AddressBook` object can have a view to show the list of contacts from the address book. The following code creates this view both for an `AddressBook` object stored either in Pharo or GemStone:
+
+    gtGsInspectorAContactsOn: aComposite
+	   <gtInspectorPresentationOrder: 5>
+	
+	   aComposite table
+          title: 'Contacts';
+          display: [ self contacts ];
+          column: 'Name' evaluated: [ :aContact | 
+             aContact fullName ] width: 150;
+          column: 'Telephone' evaluated: [ :aContact | 
+             aContact address telephone fullNumber ]
+
+The first screenshot shows this view on an instance of an `AddressBook` object stored in GemStone and the second on an instance from Pharo:
+
+<img src="doc/custom-inspector-gemstone.png"/>
+
+<img src="doc/custom-inspector-pharo.png"/>
 
 ## Utility scripts
 
@@ -67,7 +91,3 @@ Updating the code of gt4gemstone in a Gemstone stone:
 Evaluating and inspecting a remote command:
 
     gtClient performStringRemotelyAndInspect: '40+2'.
-
-Triggering a debugger:
-
-    self halt. GtGsDebuggingPlaygroundTests new methodWithPrintStringInBlock
