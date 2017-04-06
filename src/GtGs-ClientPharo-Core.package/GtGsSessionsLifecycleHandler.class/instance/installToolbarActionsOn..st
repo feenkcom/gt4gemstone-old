@@ -16,7 +16,7 @@ installToolbarActionsOn: aPresentation
 								ifTrue: [ self deleteSessionDescription: aSessionDescription ] ];
 						yourself ]; 
 				icon: Smalltalk ui icons glamorousTable;
-				title: 'Session descriptions';
+				title: 'Show the list of available session descriptions.';
 				yourself).
 	
 	aPresentation 
