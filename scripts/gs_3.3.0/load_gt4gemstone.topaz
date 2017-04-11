@@ -5,7 +5,7 @@ run
   repo := CypressAbstractRepository
     onUrl: ('cypressfiletree:', repoPath) asUrl
     alias: ''.
-  #('GtGs-Gemstone-Stubs-Basic' 'GtGs-ClientGemstone-Core' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Roassal-Core' 'GtGs-Common-Resources-Tests' 'GtGs-Inspector-Gemstone-Tests' 'GtGs-Examples-AddressBook-Model' )
+  #('GtGs-Gemstone-Stubs-Basic' 'GtGs-ClientGemstone-Core' 'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Common-Resources-Tests' 'GtGs-Inspector-Gemstone-Tests' 'GtGs-Examples-AddressBook-Model' 'GtGs-Inspector-Roassal-Core' )
     do: [ :each | Transcript cr show: 'Loading ' , each , '...'.
       summary := packageManager
         loadPackageFrom: (CypressKnownPackageInformation named: each)

@@ -19,11 +19,13 @@ openCreateSessionDescriptionWindow
 					gemTask: 'gemnetobject';
 					userId: 'DataCurator';
 					password: 'swordfish';
-					gemstoneVersion: '3.3.3') ]);
-		entryHeight: 400.
+					gemstoneVersion: '3.3.3') ]).
 	"By default the text is centered."
 	editorWindow textMorph text addAttribute: TextAlignment leftFlush.
 	editorWindow textEditorMorph hasUnacceptedEdits: false.
 	editorWindow textEditorMorph acceptAction: [ :text | 
 		self createSessionDescriptionAndLogInFor: text ].
 	editorWindow openInWorld.
+	editorWindow height: (World height < 350 
+		ifTrue: [300] 
+		ifFalse: [World height * 0.75]).
