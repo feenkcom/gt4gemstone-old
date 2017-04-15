@@ -2,7 +2,17 @@
 	"class" : {
 		 },
 	"instance" : {
+		"assertGCIErrorDuring:" : "AndreiChis 4/15/2017 14:57",
+		"assertInInspectorProxyGCRegistry:" : "AndreiChis 4/15/2017 15:06",
+		"assertNoGCIErrorDuring:" : "AndreiChis 4/15/2017 15:08",
+		"assertNotInInspectorProxyGCRegistry:" : "AndreiChis 4/15/2017 15:06",
 		"testEvaluatorPresentationDisplayValueLazyLoad" : "AndreiChis 1/10/2017 23:14:03",
+		"testGargabeCollectionLocalRegistration" : "AndreiChis 4/13/2017 12:56",
+		"testGargabeCollectionRemoteRegistration" : "AndreiChis 4/15/2017 15:06",
+		"testGargabeCollectionRemoteRegistryInitialization" : "AndreiChis 4/13/2017 13:01",
+		"testGargabeCollectionRemoteRemoval" : "AndreiChis 4/15/2017 15:09",
+		"testGargabeCollectionRemovalForced" : "AndreiChis 4/15/2017 15:06",
+		"testGargabeCollectionRemovalUsingGC" : "AndreiChis 4/15/2017 15:06",
 		"testLoadingOnlyOfTheRequestedPresentation" : "AndreiChis 3/27/2017 16:25",
 		"testObjectWithErrorInPrintOn" : "AndreiChis 3/27/2017 16:25",
 		"testRemoteProxyInitialization" : "AndreiChis 1/10/2017 23:14:03",
