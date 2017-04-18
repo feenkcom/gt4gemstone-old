@@ -1,21 +1,20 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"childrenBlock" : "AndreiChis 10/5/2016 17:08:52",
 		"addColumn:" : "AndreiChis 12/23/2016 14:55:43",
-		"shouldRootsExpand:" : "AndreiChis 10/5/2016 15:03",
 		"buildDisplayNodeFor:atIndex:" : "AndreiChis 1/11/2017 23:50:11",
-		"hasChildren:" : "AndreiChis 12/23/2016 14:55:43",
-		"listNodeClass" : "AndreiChis 10/6/2016 16:53",
-		"column:evaluated:width:" : "AndreiChis 12/23/2016 14:55:43",
-		"hasChildNodesBlock" : "AndreiChis 12/23/2016 14:55:43",
-		"rootsExpanded" : "AndreiChis 10/5/2016 15:04",
-		"shouldRootsExpand" : "AndreiChis 10/5/2016 15:05",
-		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43",
-		"column:evaluated:" : "AndreiChis 12/23/2016 14:55:43",
 		"children:" : "AndreiChis 10/12/2016 18:00",
+		"childrenBlock" : "AndreiChis 10/5/2016 17:08:52",
+		"column:evaluated:" : "AndreiChis 12/23/2016 14:55:43",
+		"column:evaluated:width:" : "AndreiChis 12/23/2016 14:55:43",
 		"columns" : "AndreiChis 12/23/2016 14:55:43",
 		"excludedInstVarNames" : "AndreiChis 12/23/2016 14:55:43",
-		"updateUninitializedBlocks" : "AndreiChis 12/23/2016 14:55:43"
-	},
-	"class" : { }
-}
+		"hasChildNodesBlock" : "AndreiChis 12/23/2016 14:55:43",
+		"hasChildren:" : "AndreiChis 12/23/2016 14:55:43",
+		"listNodeClass" : "AndreiChis 10/6/2016 16:53",
+		"rootsExpanded" : "AndreiChis 10/5/2016 15:04",
+		"shouldRootsExpand" : "AndreiChis 10/5/2016 15:05",
+		"shouldRootsExpand:" : "AndreiChis 10/5/2016 15:03",
+		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43",
+		"updateUninitializedBlocks" : "AndreiChis 12/23/2016 14:55:43" } }

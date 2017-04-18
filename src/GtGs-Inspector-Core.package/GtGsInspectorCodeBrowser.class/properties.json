@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "GtGsGlmBrowser",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"superclassesPresentation",
 		"methodsPresentation",
-		"codePresentation"
-	],
+		"codePresentation" ],
 	"name" : "GtGsInspectorCodeBrowser",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmBrowser",
+	"type" : "normal" }

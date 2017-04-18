@@ -1,18 +1,17 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"computationBlock" : "AndreiChis 10/12/2016 17:51",
-		"stonInstVarNames" : "AndreiChis 10/12/2016 18:19",
-		"titleBlock:" : "AndreiChis 10/13/2016 10:08",
-		"width" : "AndreiChis 10/12/2016 17:51",
-		"titleCache" : "AndreiChis 10/13/2016 10:12",
-		"stonOn:" : "AndreiChis 10/12/2016 19:14",
 		"computationBlock:" : "AndreiChis 10/12/2016 17:51",
-		"titleBlock" : "AndreiChis 10/13/2016 10:08",
-		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43",
-		"stonProcessSubObjects:" : "AndreiChis 10/12/2016 18:19",
-		"fromSton:" : "AndreiChis 10/12/2016 18:18",
 		"excludedInstVarNames" : "AndreiChis 10/13/2016 10:08",
-		"width:" : "AndreiChis 10/12/2016 17:51"
-	},
-	"class" : { }
-}
+		"fromSton:" : "AndreiChis 10/12/2016 18:18",
+		"stonInstVarNames" : "AndreiChis 10/12/2016 18:19",
+		"stonOn:" : "AndreiChis 10/12/2016 19:14",
+		"stonProcessSubObjects:" : "AndreiChis 10/12/2016 18:19",
+		"titleBlock" : "AndreiChis 10/13/2016 10:08",
+		"titleBlock:" : "AndreiChis 10/13/2016 10:08",
+		"titleCache" : "AndreiChis 10/13/2016 10:12",
+		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43",
+		"width" : "AndreiChis 10/12/2016 17:51",
+		"width:" : "AndreiChis 10/12/2016 17:51" } }

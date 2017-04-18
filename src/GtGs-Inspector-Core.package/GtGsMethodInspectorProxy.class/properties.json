@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GtGsInspectorProxy",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "GtGsMethodInspectorProxy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GtGsInspectorProxy",
+	"type" : "normal" }

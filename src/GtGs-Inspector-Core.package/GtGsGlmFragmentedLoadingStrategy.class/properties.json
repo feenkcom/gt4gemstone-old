@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GtGsGlmElementsLoadingStrategy",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"diff"
-	],
+		"diff" ],
 	"name" : "GtGsGlmFragmentedLoadingStrategy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmElementsLoadingStrategy",
+	"type" : "normal" }

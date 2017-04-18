@@ -1,0 +1,3 @@
+scripting
+pharoMethod
+	^ self gemstoneMethod

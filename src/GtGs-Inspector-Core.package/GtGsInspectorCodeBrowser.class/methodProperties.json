@@ -1,12 +1,11 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"methodsPresentationFor:" : "AndreiChis 3/8/2017 23:02",
-		"compileSource:forMethod:" : "AndreiChis 3/8/2017 23:26",
 		"codePresentationFor:" : "AndreiChis 3/3/2017 18:45",
+		"compileSource:forMethod:" : "AndreiChis 3/8/2017 23:26",
+		"methodsPresentationFor:" : "AndreiChis 3/8/2017 23:02",
 		"saveCode:inMethodNode:" : "AndreiChis 3/4/2017 20:15",
 		"superclassesPresentationFor:" : "AndreiChis 3/13/2017 15:58",
-		"updateCacheBasic" : "AndreiChis 3/3/2017 18:46",
-		"theBehavior" : "AndreiChis 3/4/2017 19:58"
-	},
-	"class" : { }
-}
+		"theBehavior" : "AndreiChis 3/4/2017 19:58",
+		"updateCacheBasic" : "AndreiChis 3/3/2017 18:46" } }

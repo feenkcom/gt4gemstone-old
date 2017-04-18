@@ -1,6 +1,5 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"computeAndUpdateChildNodesFor:" : "AndreiChis 10/12/2016 18:52"
-	},
-	"class" : { }
-}
+		"computeAndUpdateChildNodesFor:" : "AndreiChis 10/12/2016 18:52" } }

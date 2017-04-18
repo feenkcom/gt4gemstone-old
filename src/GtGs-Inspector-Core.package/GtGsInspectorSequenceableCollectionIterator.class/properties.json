@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GtGsInspectorElementsIterator",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "GtGsInspectorSequenceableCollectionIterator",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GtGsInspectorElementsIterator",
+	"type" : "normal" }

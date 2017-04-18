@@ -1,18 +1,19 @@
 {
-	"commentStamp" : "",
-	"super" : "GtGsGlmFormattedPresentation",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"iconIdBlock",
 		"iteratorBlock",
 		"displayObjects",
 		"amountToShow",
 		"numberOfElements",
-		"amountToIncrement"
-	],
+		"amountToIncrement" ],
 	"name" : "GtGsGlmListingPresentation",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmFormattedPresentation",
+	"type" : "normal" }

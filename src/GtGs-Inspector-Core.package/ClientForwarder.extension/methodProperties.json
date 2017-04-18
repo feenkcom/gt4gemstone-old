@@ -1,12 +1,11 @@
 {
+	"class" : {
+		 },
 	"instance" : {
+		"gtGsInspectorBRawTablePresentationIn:" : "AndreiChis 1/11/2017 23:50:11",
 		"gtGsInspectorName" : "AndreiChis 11/16/2016 01:09",
 		"gtGsInspectorPresentationsIn:inContext:" : "AndreiChis 3/12/2017 17:03",
-		"gtGsVariableValuePairsWithSelfIf:" : "AndreiChis 10/26/2016 18:22",
 		"gtGsInspectorProxy" : "AndreiChis 11/18/2016 21:55",
-		"gtGsInspectorBRawTablePresentationIn:" : "AndreiChis 1/11/2017 23:50:11",
 		"gtGsSerializedInspectorProxy" : "AndreiChis 12/23/2016 14:55:43",
-		"gtGsSerializedInspectorProxyAndSelect:" : "AndreiChis 12/23/2016 14:55:43"
-	},
-	"class" : { }
-}
+		"gtGsSerializedInspectorProxyAndSelect:" : "AndreiChis 12/23/2016 14:55:43",
+		"gtGsVariableValuePairsWithSelfIf:" : "AndreiChis 10/26/2016 18:22" } }

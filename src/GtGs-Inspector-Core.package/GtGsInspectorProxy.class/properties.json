@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "AndreiChis 4/1/2017 12:18",
-	"super" : "Object",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 4/1/2017 12:18",
 	"instvars" : [
 		"gemstoneClient",
 		"topezServer",
@@ -12,8 +12,9 @@
 		"targetObject",
 		"targetObjectOop",
 		"title",
-		"presentations"
-	],
+		"presentations" ],
 	"name" : "GtGsInspectorProxy",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
