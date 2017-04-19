@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.10' message 'Update the cache in a browser before serializing it.' id 'f9982bd6-f1a4-4ac6-8aff-d82c65dd7b8d' date '19 April 2017' time '4:09:22.751272 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.9' message 'Basic skeleton for a message browser.
-' id 'c90787c7-9272-56b2-9071-287db6a521e1' date '19 April 2017' time '3:02:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.11' message 'Added GtGsMessagesBrowser>>#updateForOwner: to avoid calling #targetObject.' id '79eb04d3-b40c-4105-8b56-a7c4fe899020' date '19 April 2017' time '5:09:21.096926 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.10' message 'Update the cache in a browser before serializing it.
+' id 'e720cf21-ac4e-506d-915c-690d8265545e' date '19 April 2017' time '4:09:27 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
