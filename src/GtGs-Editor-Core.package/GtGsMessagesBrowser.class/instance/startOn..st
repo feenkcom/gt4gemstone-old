@@ -1,4 +1,6 @@
 as yet unclassified
 startOn: aMethodsList
 
-	self methodsPresentationOn: GtGsGlmCompositePresentation new  for: aMethodsList
+	self targetObject: aMethodsList. 
+	(self methodsPresentationOn: GtGsGlmCompositePresentation new for: aMethodsList)
+		updateForOwner: self
