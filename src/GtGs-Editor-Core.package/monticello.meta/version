@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.9' message 'Basic skeleton for a message browser.' id '808fe9b6-5557-425e-8264-9ae73e9cd6da' date '19 April 2017' time '3:02:49.011454 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.8' message 'fixed extension methods in ClassOrganizer
-' id 'f0eea511-8bd6-59ae-ac54-890f166dd1b8' date '21 March 2017' time '11:53:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.10' message 'Update the cache in a browser before serializing it.' id 'f9982bd6-f1a4-4ac6-8aff-d82c65dd7b8d' date '19 April 2017' time '4:09:22.751272 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.9' message 'Basic skeleton for a message browser.
+' id 'c90787c7-9272-56b2-9071-287db6a521e1' date '19 April 2017' time '3:02:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
