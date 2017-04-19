@@ -1,7 +1,7 @@
 as yet unclassified
 codePresentationFor: aMethod
 	
-	^ codePresentation := GtGsGlmTablePresentation new
+	^ codePresentation := GtGsGlmMethodPresentation new
 		display: [ aMethod sourceString ];
 		format: [ :aString | aString ];
 		doItReceiver: [ aMethod inClass ];
