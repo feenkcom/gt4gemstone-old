@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Editor-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gemstoneBrowser" ],
+	"name" : "GtGsRemoteMessagesBrowser",
+	"pools" : [
+		 ],
+	"super" : "GLMCompositePresentation",
+	"type" : "normal" }
