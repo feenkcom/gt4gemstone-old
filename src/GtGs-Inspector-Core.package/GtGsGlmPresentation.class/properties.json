@@ -1,10 +1,10 @@
 {
-	"commentStamp" : "TravisCI 10/15/2016 22:59",
-	"super" : "Object",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "TravisCI 10/15/2016 22:59",
 	"instvars" : [
 		"selfOop",
 		"cache",
@@ -17,8 +17,9 @@
 		"glamourPresentation",
 		"titleBlock",
 		"displayBlock",
-		"sendBlock"
-	],
+		"sendBlock" ],
 	"name" : "GtGsGlmPresentation",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

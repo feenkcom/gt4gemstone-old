@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GtGsGlmValueNode",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"iconId"
-	],
+		"iconId" ],
 	"name" : "GtGsGlmListNode",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmValueNode",
+	"type" : "normal" }

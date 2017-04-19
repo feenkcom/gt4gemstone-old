@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"evaluateString:" : "AndreiChis 3/27/2017 16:09",
-		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43",
-		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32"
-	},
-	"class" : { }
-}
+		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32",
+		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43" } }

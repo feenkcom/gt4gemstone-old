@@ -1,12 +1,11 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"listNodeClass" : "AndreiChis 10/12/2016 19:18",
-		"column:evaluated:" : "AndreiChis 10/13/2016 10:21",
-		"column:evaluated:width:" : "AndreiChis 10/13/2016 10:21",
-		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43",
 		"addColumn:" : "AndreiChis 10/12/2016 18:16",
 		"buildDisplayNodeFor:atIndex:" : "AndreiChis 1/11/2017 23:50:11",
-		"columns" : "AndreiChis 10/12/2016 18:16"
-	},
-	"class" : { }
-}
+		"column:evaluated:" : "AndreiChis 10/13/2016 10:21",
+		"column:evaluated:width:" : "AndreiChis 10/13/2016 10:21",
+		"columns" : "AndreiChis 10/12/2016 18:16",
+		"listNodeClass" : "AndreiChis 10/12/2016 19:18",
+		"updateCacheBasic" : "AndreiChis 12/23/2016 14:55:43" } }

@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"gtGsInspectorAOccurrencesIn:" : "AndreiChis 1/11/2017 23:50:11",
-		"gtGsInspectorAItemsIn:" : "AndreiChis 1/11/2017 23:50:11"
-	},
-	"class" : { }
-}
+		"gtGsInspectorAItemsIn:" : "AndreiChis 1/11/2017 23:50:11",
+		"gtGsInspectorAOccurrencesIn:" : "AndreiChis 1/11/2017 23:50:11" } }

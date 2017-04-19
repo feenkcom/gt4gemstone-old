@@ -4,5 +4,5 @@ gtGsInspectorAATextIn: composite
 	
 	^ composite text
 		title: 'String';
-		display: [ self truncateWithElipsisTo: 100000 ];
+		display: [ self gtGsTruncateWithElipsisTo: 100000 ];
 		format: [ :aString | aString ]

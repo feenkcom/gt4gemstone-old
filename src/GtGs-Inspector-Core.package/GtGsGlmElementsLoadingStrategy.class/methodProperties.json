@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"computeDiffToIncludeElementsBetween:and:withIterator:forPresentation:" : "AndreiChis 1/11/2017 23:50:11",
 		"applyToCache:" : "AndreiChis 1/11/2017 23:50:11",
 		"applyToCacheFromPresentation:" : "AndreiChis 1/11/2017 23:50:11",
-		"computeDiffToIncludeElementAt:withIterator:forPresentation:" : "AndreiChis 1/11/2017 23:50:11"
-	},
-	"class" : { }
-}
+		"computeDiffToIncludeElementAt:withIterator:forPresentation:" : "AndreiChis 1/11/2017 23:50:11",
+		"computeDiffToIncludeElementsBetween:and:withIterator:forPresentation:" : "AndreiChis 1/11/2017 23:50:11" } }

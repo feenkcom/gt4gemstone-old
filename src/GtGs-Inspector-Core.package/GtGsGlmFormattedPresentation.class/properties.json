@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GtGsGlmPresentation",
 	"category" : "GtGs-Inspector-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"formatBlock"
-	],
+		"formatBlock" ],
 	"name" : "GtGsGlmFormattedPresentation",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmPresentation",
+	"type" : "normal" }

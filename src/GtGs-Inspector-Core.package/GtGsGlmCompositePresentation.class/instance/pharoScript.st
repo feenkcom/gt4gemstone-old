@@ -1,3 +1,3 @@
 scripting
 pharoScript 
-	^ self custom: GtGsGlmScriptPresentation new
+	^ self gemstoneScript
