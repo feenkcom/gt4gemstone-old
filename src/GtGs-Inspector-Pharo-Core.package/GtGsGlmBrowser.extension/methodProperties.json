@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"instantiateGlamourPresentation" : "AndreiChis 3/2/2017 13:55",
 		"gtGsAsGlamourPresentation" : "AndreiChis 3/17/2017 13:33",
-		"setGlamourPresentationAttributesFor:" : "AndreiChis 3/3/2017 18:50",
-		"remotePresentationUsing:forNode:" : "AndreiChis 3/3/2017 18:53"
-	},
-	"class" : { }
-}
+		"instantiateGlamourPresentation" : "AndreiChis 3/2/2017 13:55",
+		"remotePresentationUsing:forNode:" : "AndreiChis 3/3/2017 18:53",
+		"setGlamourPresentationAttributesFor:" : "AndreiChis 3/3/2017 18:50" } }

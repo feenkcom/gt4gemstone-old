@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"highlightAndDo:" : "AndreiChis 10/22/2016 22:51:04",
-		"gtGsRemotePrintItWith:" : "AndreiChis 3/27/2017 16:25"
-	},
-	"class" : { }
-}
+		"gtGsRemotePrintItWith:" : "AndreiChis 3/27/2017 16:25",
+		"highlightAndDo:" : "AndreiChis 10/22/2016 22:51:04" } }

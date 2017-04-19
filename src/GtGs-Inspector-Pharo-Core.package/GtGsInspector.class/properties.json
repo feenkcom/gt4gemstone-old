@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GTInspector",
 	"category" : "GtGs-Inspector-Pharo-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "GtGsInspector",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GTInspector",
+	"type" : "normal" }

@@ -1,15 +1,16 @@
 {
-	"commentStamp" : "",
-	"super" : "GLMCompositePresentation",
 	"category" : "GtGs-Inspector-Pharo-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
 		"gemstoneBrowser",
 		"selectedClass",
-		"selectedMethod"
-	],
+		"selectedMethod" ],
 	"name" : "GtGsInspectorCodeBrowserClient",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMCompositePresentation",
+	"type" : "normal" }

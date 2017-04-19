@@ -1,12 +1,11 @@
 {
+	"class" : {
+		 },
 	"instance" : {
+		"classesIn:" : "AndreiChis 3/22/2017 00:15",
+		"codeIn:for:" : "AndreiChis 3/28/2017 22:41:14",
 		"compose" : "AndreiChis 3/3/2017 11:31",
-		"saveAction" : "AndreiChis 3/8/2017 23:33",
-		"codeIn:for:" : "AndreiChis 3/22/2017 00:15",
-		"saveCode:inMethodNode:" : "AndreiChis 3/8/2017 21:13",
-		"methodsIn:for:" : "AndreiChis 3/22/2017 00:15",
 		"gemstoneBrowser:" : "AndreiChis 3/3/2017 11:28",
-		"classesIn:" : "AndreiChis 3/22/2017 00:15"
-	},
-	"class" : { }
-}
+		"methodsIn:for:" : "AndreiChis 3/28/2017 22:41:14",
+		"saveAction" : "AndreiChis 3/8/2017 23:33",
+		"saveCode:inMethodNode:" : "AndreiChis 3/8/2017 21:13" } }
