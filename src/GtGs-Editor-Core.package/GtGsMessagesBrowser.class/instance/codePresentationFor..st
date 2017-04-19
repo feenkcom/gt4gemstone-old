@@ -15,7 +15,8 @@ codePresentationFor: aMethod
 					openUsing: aGsPresenntation topezServer.
 				true ]
 			on: nil 
-			entitled: 'Test (experimental)'
+			entitled: 'Test (experimental)';
+		yourself
 		"gsSelectionAct: [ :aGsPresenntation :aSymbol | |selector|  
 				selector := selectedText asSymbol.
 				selector := aSymbol.

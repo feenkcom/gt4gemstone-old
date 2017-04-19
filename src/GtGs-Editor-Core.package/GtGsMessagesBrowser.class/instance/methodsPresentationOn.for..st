@@ -15,4 +15,5 @@ methodsPresentationOn: aComposite for: aMethodsList
 					openUsing: aGsPresenntation topezServer.
 				true ]
 			on: nil 
-			entitled: 'Test (experimental)'
+			entitled: 'Test (experimental)';
+		yourself

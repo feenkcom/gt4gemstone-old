@@ -1,4 +1,4 @@
 as yet unclassified
-startOn: aMethodList
+startOn: aMethodsList
 
-	self codePresentationOn: GtGsGlmCompositePresentation new for: aMethodList
+	self methodsPresentationOn: GtGsGlmCompositePresentation new  for: aMethodsList
