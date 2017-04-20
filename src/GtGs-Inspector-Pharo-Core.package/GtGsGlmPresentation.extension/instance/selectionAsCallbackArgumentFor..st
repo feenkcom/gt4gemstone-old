@@ -2,4 +2,4 @@
 selectionAsCallbackArgumentFor: aGlamourPresentation
 	"By default I do not attempt to guess how a presentations models the selection."
 	
-	self subclassResponsibility 
+	^ nil 
