@@ -1,3 +1,3 @@
 queries - protocol
-gtGsSendersOf: aSelector
+newSendersOf: aSelector
 	^ (self classOrganizer sendersOf: aSelector) at: 1
