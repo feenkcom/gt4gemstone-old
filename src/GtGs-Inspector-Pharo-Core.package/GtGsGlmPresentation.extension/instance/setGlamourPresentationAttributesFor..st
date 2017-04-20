@@ -14,5 +14,5 @@ setGlamourPresentationAttributesFor: aPresentation
 	self gsSelectionActions withIndexDo: [ :aGsAction :anIndex |
 		aPresentation selectionActions add:
 			(aGsAction 
-				asGlamourActionFromGsPresentation: self
+				asGlamourSelectionActionFromGsPresentation: self
 				withId: anIndex) ]

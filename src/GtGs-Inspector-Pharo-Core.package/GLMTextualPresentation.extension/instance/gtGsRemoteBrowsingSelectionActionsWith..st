@@ -14,15 +14,16 @@ gtGsRemoteBrowsingSelectionActionsWith: aGemstoneClient
 				keymap: PharoShortcuts current browseSendersShortcut;
 				action: [ :aPresentation |
 					GtGsGemStoneActionRequest new
-						arguments: { aGemstoneClient todeServerOopType . selectedText findSelector };
-						actionBlock: [ :aTopezServer :arguments ||selector methodRefs|  
-							selector := arguments first copyFrom: 2 to: arguments first size.
-  							methodRefs := (Smalltalk systemNavigation newSendersOf: selector asSymbol)
+						arguments: { aGemstoneClient todeServerOopType . aPresentation selectedText asString findSelector };
+						actionBlock: [ :aTopezServer :aSelector ||methodRefs|  
+							"selector := aSymbol copyFrom: 2 to: aSymbol size."
+  							methodRefs := (Smalltalk systemNavigation newSendersOf: aSelector)
    						 		"collect: [ :gsMethod | MethodReference class: gsMethod inClass selector: gsMethod selector ]".
 							GtGsMessagesBrowser new 
-								title: 'Senders of ', selector, ' [', methodRefs size asString, ']';
+								title: 'Senders of ', aSelector, ' [', methodRefs size asString, ']';
+								updateForOwner: aTopezServer;
 								startOn: methodRefs;
-								openUsing: aTopezServer.
+								open.
 							true ];
 						executeOn: aGemstoneClient ]; 
 				"action: [ :aPresentation |
