@@ -8,11 +8,12 @@ codePresentationFor: aMethod
 		attachCodeExecutionActions;
 		gsSelectionAct: [ :aGsPresenntation :selectedText | |selector methodRefs|  
 				selector := selectedText asSymbol.
-				"selector := aSymbol."
-				methodRefs := Smalltalk systemNavigation newSendersOf: selector asSymbol.
+				methodRefs := Smalltalk systemNavigation newSendersOf: selector.
 				GtGsMessagesBrowser new 
+					title: 'Senders of ', selector, ' [', methodRefs size asString, ']';
+					updateForOwner: aGsPresenntation topezServer;
 					startOn: methodRefs;
-					openUsing: aGsPresenntation topezServer.
+					open.
 				true ]
 			on: nil 
 			entitled: 'Test (experimental)';

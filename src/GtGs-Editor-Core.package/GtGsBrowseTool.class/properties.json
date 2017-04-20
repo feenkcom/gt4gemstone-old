@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "GtGsNavigationTool",
+		"topezServer" ],
+	"name" : "GtGsBrowseTool",
 	"pools" : [
 		 ],
 	"super" : "Object",
