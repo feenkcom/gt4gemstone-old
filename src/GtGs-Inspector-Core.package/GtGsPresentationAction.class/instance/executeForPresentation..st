@@ -1,4 +1,4 @@
-as yet unclassified
+executing
 executeForPresentation: aGsPresentation
 
 	self actionBlock cull: aGsPresentation cull: aGsPresentation selfForwarder
