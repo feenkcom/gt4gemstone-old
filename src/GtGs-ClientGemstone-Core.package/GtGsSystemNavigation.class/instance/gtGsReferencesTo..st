@@ -1,3 +1,3 @@
 queries - protocol
 gtGsReferencesTo: aClassName
-	^ (self classOrganizer referencesTo: #'Object') at: 1
+	^ (self classOrganizer referencesTo: aClassName) at: 1
