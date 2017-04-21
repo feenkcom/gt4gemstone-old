@@ -2,8 +2,10 @@
 	"class" : {
 		"instanceFor:" : "AndreiChis 4/20/2017 18:58" },
 	"instance" : {
-		"browseImplementorsOf:" : "AndreiChis 4/20/2017 19:28",
-		"browseSendersOf:" : "AndreiChis 4/20/2017 19:41",
+		"browseFull:" : "AndreiChis 4/21/2017 13:15",
+		"browseImplementorsOf:" : "AndreiChis 4/21/2017 12:21",
+		"browseReferencesTo:" : "AndreiChis 4/21/2017 12:43",
+		"browseSendersOf:" : "AndreiChis 4/21/2017 12:23",
 		"openMessagesBrowserForMethods:withTitle:" : "AndreiChis 4/20/2017 19:29",
 		"topezServer" : "AndreiChis 4/20/2017 19:01",
 		"topezServer:" : "AndreiChis 4/20/2017 19:00" } }
