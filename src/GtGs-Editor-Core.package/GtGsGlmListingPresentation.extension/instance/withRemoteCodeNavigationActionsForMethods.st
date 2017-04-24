@@ -13,17 +13,17 @@ withRemoteCodeNavigationActionsForMethods
 				aGsPresentation topezServer gtGsBrowseTool browseReferencesTo: className.
 				true ]
 			on: nil 
-			entitled: 'Referente to ...'.
+			entitled: 'References to it'.
 	self
 		gsSelectionAct: [ :aGsPresentation :selectedMethod | |aSelector|  
 				aSelector := selectedMethod selector.
 				aGsPresentation topezServer gtGsBrowseTool browseSendersOf: aSelector.
 				true ]
 			on: nil 
-			entitled: 'Senders of...';
+			entitled: 'Senders of it';
 		gsSelectionAct: [ :aGsPresentation :selectedMethod | |aSelector|  
 				aSelector := selectedMethod selector.
 				aGsPresentation topezServer gtGsBrowseTool browseImplementorsOf: aSelector.
 				true ]
 			on: nil 
-			entitled: 'Implementors of...'
+			entitled: 'Implementors of it'
