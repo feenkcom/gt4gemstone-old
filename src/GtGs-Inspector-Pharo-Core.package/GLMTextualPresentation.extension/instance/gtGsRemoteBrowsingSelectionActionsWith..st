@@ -10,40 +10,33 @@ gtGsRemoteBrowsingSelectionActionsWith: aGemstoneClient
 				category: 'Code search... (remote)';
 				yourself.
 		(GLMGenericAction new) 
-				title: 'Senders of...';
+				title: 'Senders of it';
 				keymap: PharoShortcuts current browseSendersShortcut;
 				action: [ :aPresentation |
 					GtGsGemStoneActionRequest new
-						arguments: { aGemstoneClient todeServerOopType . aPresentation selectedText asString findSelector };
-						actionBlock: [ :aTopezServer :aSelector ||methodRefs|  
-							"selector := aSymbol copyFrom: 2 to: aSymbol size."
-  							methodRefs := (Smalltalk systemNavigation newSendersOf: aSelector)
-   						 		"collect: [ :gsMethod | MethodReference class: gsMethod inClass selector: gsMethod selector ]".
-							GtGsMessagesBrowser new 
-								title: 'Senders of ', aSelector, ' [', methodRefs size asString, ']';
-								updateForOwner: aTopezServer;
-								startOn: methodRefs;
-								open.
+						arguments: { 
+							aGemstoneClient todeServerOopType . 
+							aPresentation selectedText asString gtGsFindPossibleSelector  };
+						actionBlock: [ :aTopezServer :aPossibleSelector || aSelector |
+							aSelector := Symbol _existingWithAll: aPossibleSelector.
+							aTopezServer gtGsBrowseTool browseSendersOf: aSelector.
 							true ];
 						executeOn: aGemstoneClient ]; 
-				"action: [ :aPresentation |
-					aGemstoneClient requestTool: (GtGsToolSpecification new
-						toolId: #browse;
-						arguments: { aPresentation selection asString findSelector};
-						contentBlock: [ :aBrowserTool :aTopezServer :arguments ||selector|  
-							selector := arguments first.
-							(aTopezServer gtGsToolInstanceFor: #'browse') 
-								title: 'Senders of ...';
-								methods: ((aTopezServer gtGsToolInstanceFor: #'find') sendersOf: selector);
-								openUsing: aTopezServer.
-							true ]) ]; "
 				category: 'Code search... (remote)';
 				yourself. 
 		(GLMGenericAction new) 
-				title: 'Implementors of...';
+				title: 'Implementors of it';
 				keymap: PharoShortcuts current browseImplementorsShortcut;
 				action: [ :aPresentation |
-					"aGsCodeExecutor gemstoneClient removeRemoteSelector: aPresentation selection asSymbol" ]; 
+					GtGsGemStoneActionRequest new
+						arguments: { 
+							aGemstoneClient todeServerOopType . 
+							aPresentation selectedText asString gtGsFindPossibleSelector };
+						actionBlock: [ :aTopezServer :aPossibleSelector || aSelector |
+							aSelector := Symbol _existingWithAll: aPossibleSelector.
+							aTopezServer gtGsBrowseTool browseImplementorsOf: aSelector.
+							true ];
+						executeOn: aGemstoneClient ]; 
 				category: 'Code search... (remote)';
 				yourself. 
 		(GLMGenericAction new) 
@@ -51,7 +44,14 @@ gtGsRemoteBrowsingSelectionActionsWith: aGemstoneClient
 				"keymap: PharoShortcuts current browseReferencesShortcut;"
 				shortcut: $B;
 				action: [ :aPresentation |
-					"aGsCodeExecutor gemstoneClient removeRemoteSelector: aPresentation selection asSymbol" ]; 
+					GtGsGemStoneActionRequest new
+						arguments: { 
+							aGemstoneClient todeServerOopType . 
+							aPresentation selectedText asString trimBoth };
+						actionBlock: [ :aTopezServer :aClassName |
+							aTopezServer gtGsBrowseTool browseReferencesTo: aClassName.
+							true ];
+						executeOn: aGemstoneClient ]; 
 				category: 'Code search... (remote)';
 				yourself. 
 		}
