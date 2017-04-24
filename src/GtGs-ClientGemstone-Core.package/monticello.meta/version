@@ -1,2 +1,2 @@
-(name 'GtGs-ClientGemstone-Core-AndreiChis.13' message 'Do not hardcode the class name in #gtGsReferencesTo:' id '15c3a273-5262-466c-a6c9-4066bb8abf16' date '21 April 2017' time '1:27:40.096644 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Core-AndreiChis.12' message 'Added methods for computing senders/implementors/references.
-' id '081e2069-c0da-52b1-a175-457a9a2c3613' date '21 April 2017' time '1:17:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientGemstone-Core-AndreiChis.14' message 'Added #gtGsFindPossibleSelector.' id '5b4f77c4-74d8-450e-8e09-1177c1d4f543' date '24 April 2017' time '12:10:23.917332 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Core-AndreiChis.13' message 'Do not hardcode the class name in #gtGsReferencesTo:
+' id 'b8307ae0-7fee-58a0-a17e-565bf429a31c' date '21 April 2017' time '1:27:45 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
