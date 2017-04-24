@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.228' message 'Load browsing actions for lists of methods.' id '7608d9c7-f0c2-4746-a151-c3e2d11254fb' date '21 April 2017' time '1:23:23.039552 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.227' message 'Text and list presentations should obtain the selection in a different way.
-' id 'ad166737-ab6e-5dc0-9427-64296ccac2ea' date '20 April 2017' time '2:24:50 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.229' message 'Added remote code navigation to text presentations. ' id 'df2cc3d2-6d67-40ae-8229-3d60b2b444a1' date '24 April 2017' time '12:15:33.732597 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.228' message 'Load browsing actions for lists of methods.
+' id '7d40c053-589f-563d-b976-e1f8b4639de2' date '21 April 2017' time '1:23:32 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
