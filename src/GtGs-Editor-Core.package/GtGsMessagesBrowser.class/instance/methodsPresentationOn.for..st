@@ -6,4 +6,5 @@ methodsPresentationOn: aComposite for: aMethodsList
 		column: 'Class' evaluated: [ :aMethod | aMethod inClass name, '(', aMethod category asString, ')' ];
 		column: 'Selector' evaluated: [ :aMethod | aMethod selector asString ];
 		column: 'Category' evaluated: [ :aMethod | '[', aMethod inClass category asString, ']' ];
+		showOnly: 250;
 		withRemoteCodeNavigationActionsForMethods
