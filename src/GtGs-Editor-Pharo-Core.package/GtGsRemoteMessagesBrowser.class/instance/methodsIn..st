@@ -1,5 +1,10 @@
 building presentations
 methodsIn: aComposite
-
-	gemstoneBrowser remoteMethodsPresentation 
-		gtGsAsGlamourPresentationIn: aComposite
+	| gsMethodsPresentation |
+	
+	gsMethodsPresentation := gemstoneBrowser remoteMethodsPresentation.
+	^ (gsMethodsPresentation gtGsAsGlamourPresentationIn: aComposite)
+		initialize: [ :aGlmPresentation | 
+			aGlmPresentation displayValue ifNotEmpty: [ :aList |
+				aGlmPresentation selection: aList first ] ]
+	
