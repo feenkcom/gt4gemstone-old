@@ -3,7 +3,7 @@ browseClassFrom: aString
 	| codeBrowser |
 	
 	codeBrowser := self categoriesBrowser.
-	(codeBrowser hasClassNamed: aString asSymbol)
+	(codeBrowser hasClassNamed: aString)
 		ifFalse: [ 
 			self inform: 'No class found with the name ''', aString, '''' ] 
 		ifTrue: [
