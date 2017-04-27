@@ -3,7 +3,7 @@ codePresentationFor: aMethod
 	
 	^ codePresentation := GtGsGlmMethodPresentation new
 		display: [ aMethod sourceString ];
-		format: [ :aString | aString ];
+		format: [ :aString | aString gtGsWithPharoLineEndings ];
 		doItReceiver: [ aMethod inClass ];
 		attachCodeExecutionActions;
 		gtGsForGemstoneWith: [ :aGtGsPresentation |
