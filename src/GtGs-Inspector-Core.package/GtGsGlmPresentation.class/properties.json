@@ -8,6 +8,7 @@
 	"instvars" : [
 		"selfOop",
 		"cache",
+		"parameters",
 		"gsActions",
 		"gsSelectionActions",
 		"proxyOwner",
