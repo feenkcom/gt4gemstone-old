@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateForOwner: anOwner
 
 	self 

@@ -1,4 +1,4 @@
-as yet unclassified
+opening
 startOn: aMethodsList
 
 	self targetObject: aMethodsList. 

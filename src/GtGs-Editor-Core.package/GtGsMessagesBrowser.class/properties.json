@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"selectionString",
 		"methodsPresentation",
 		"codePresentation" ],
 	"name" : "GtGsMessagesBrowser",

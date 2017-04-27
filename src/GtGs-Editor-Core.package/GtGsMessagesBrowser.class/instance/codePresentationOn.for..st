@@ -1,4 +1,4 @@
-as yet unclassified
+building presentations
 codePresentationOn: aComposite for: aMethod
 	
 	^ codePresentation := aComposite gemstoneMethod
