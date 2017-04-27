@@ -2,7 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"codeIn:for:" : "AndreiChis 4/15/2017 22:44",
-		"compose" : "AndreiChis 4/15/2017 22:41",
-		"gemstoneBrowser:" : "AndreiChis 4/1/2017 13:32",
-		"methodsIn:" : "AndreiChis 4/15/2017 22:36" } }
+		"codeIn:for:" : "AndreiChis 4/27/2017 11:05",
+		"compose" : "AndreiChis 4/19/2017 15:05:05",
+		"convertToRegex:" : "AndreiChis 4/27/2017 10:58",
+		"findRegex:in:" : "AndreiChis 4/27/2017 11:02",
+		"gemstoneBrowser:" : "AndreiChis 4/19/2017 15:05:05",
+		"methodsIn:" : "AndreiChis 4/19/2017 15:05:05",
+		"updateSelectionIn:forString:" : "AndreiChis 4/27/2017 11:05" } }
