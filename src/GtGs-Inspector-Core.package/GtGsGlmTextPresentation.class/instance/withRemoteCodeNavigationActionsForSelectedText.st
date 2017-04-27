@@ -13,17 +13,27 @@ withRemoteCodeNavigationActionsForSelectedText
 				aGsPresentation topezServer gtGsBrowseTool browseReferencesTo: className.
 				true ]
 			on: nil 
-			entitled: 'References to ...'.
+			entitled: 'References to it'.
 	self
 		gsSelectionAct: [ :aGsPresentation :aSelectedText | |aSelector|  
-				aSelector := self findSelectorFor: aSelectedText.
-				aGsPresentation topezServer gtGsBrowseTool browseSendersOf: aSelector.
-				true ]
+				aSelector := aGsPresentation findSelectorFor: aSelectedText.
+				aSelector 
+					ifNil: [ aGsPresentation topezServer 
+						informClient: 'No symbol matching the selector pattern found in: ''', aSelectedText, ''''.
+						false ]
+					ifNotNil: [ 
+						aGsPresentation topezServer gtGsBrowseTool browseSendersOf: aSelector.
+						true ] ]
 			on: nil 
-			entitled: 'Senders of...';
+			entitled: 'Senders of it';
 		gsSelectionAct: [ :aGsPresentation :aSelectedText | |aSelector|  
-				aSelector := self findSelectorFor: aSelectedText.
-				aGsPresentation topezServer gtGsBrowseTool browseImplementorsOf: aSelector.
-				true ]
+				aSelector := aGsPresentation findSelectorFor: aSelectedText.
+				aSelector 
+					ifNil: [ aGsPresentation topezServer 
+						informClient: 'No symbol matching the selector pattern found in: ''', aSelectedText, ''''.
+						false ]
+					ifNotNil: [
+						aGsPresentation topezServer gtGsBrowseTool browseImplementorsOf: aSelector.
+						true ] ]
 			on: nil 
-			entitled: 'Implementors of...'
+			entitled: 'Implementors of it'
