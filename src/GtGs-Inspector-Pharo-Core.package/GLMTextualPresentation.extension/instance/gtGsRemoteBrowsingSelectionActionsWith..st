@@ -15,12 +15,17 @@ gtGsRemoteBrowsingSelectionActionsWith: aGemstoneClient
 				action: [ :aPresentation |
 					GtGsGemStoneActionRequest new
 						arguments: { 
-							aGemstoneClient todeServerOopType . 
-							aPresentation selectedText asString gtGsFindPossibleSelector  };
-						actionBlock: [ :aTopezServer :aPossibleSelector || aSelector |
-							aSelector := Symbol _existingWithAll: aPossibleSelector.
-							aTopezServer gtGsBrowseTool browseSendersOf: aSelector.
-							true ];
+							aGemstoneClient todeServerOopType .  
+							aPresentation gtGsSelectedOrHighligtedText asString };
+						actionBlock: [ :aTopezServer :aSelectedText || aSelector |
+							aSelector := aTopezServer findSelectorFor: aSelectedText.
+							aSelector 
+								ifNil: [ 
+									aTopezServer informClient: 'No symbol matching the selector pattern found in: ''', aSelectedText, ''''.
+									false ]
+								ifNotNil: [
+									aTopezServer gtGsBrowseTool browseSendersOf: aSelector.
+									true ] ];
 						executeOn: aGemstoneClient ]; 
 				category: 'Code search... (remote)';
 				yourself. 
@@ -31,11 +36,16 @@ gtGsRemoteBrowsingSelectionActionsWith: aGemstoneClient
 					GtGsGemStoneActionRequest new
 						arguments: { 
 							aGemstoneClient todeServerOopType . 
-							aPresentation selectedText asString gtGsFindPossibleSelector };
-						actionBlock: [ :aTopezServer :aPossibleSelector || aSelector |
-							aSelector := Symbol _existingWithAll: aPossibleSelector.
-							aTopezServer gtGsBrowseTool browseImplementorsOf: aSelector.
-							true ];
+							aPresentation gtGsSelectedOrHighligtedText asString };
+						actionBlock: [ :aTopezServer :aSelectedText || aSelector |
+							aSelector := aTopezServer findSelectorFor: aSelectedText.
+							aSelector
+								ifNil: [ 
+									aTopezServer informClient: 'No symbol matching the selector pattern found in: ''', aSelectedText, ''''.
+									false ]
+								ifNotNil: [ 
+									aTopezServer gtGsBrowseTool browseImplementorsOf: aSelector.
+									true ] ];
 						executeOn: aGemstoneClient ]; 
 				category: 'Code search... (remote)';
 				yourself. 
@@ -47,7 +57,7 @@ gtGsRemoteBrowsingSelectionActionsWith: aGemstoneClient
 					GtGsGemStoneActionRequest new
 						arguments: { 
 							aGemstoneClient todeServerOopType . 
-							aPresentation selectedText asString trimBoth };
+							aPresentation gtGsSelectedOrHighligtedText asString trimBoth };
 						actionBlock: [ :aTopezServer :aClassName |
 							aTopezServer gtGsBrowseTool browseReferencesTo: aClassName.
 							true ];
