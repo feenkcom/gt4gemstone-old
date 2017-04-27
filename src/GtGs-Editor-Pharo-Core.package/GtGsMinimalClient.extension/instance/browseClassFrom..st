@@ -5,9 +5,8 @@ browseClassFrom: aString
 	codeBrowser := self categoriesBrowser.
 	(codeBrowser hasClassNamed: aString)
 		ifFalse: [ 
-			self inform: 'No class found with the name ''', aString, '''' ] 
-		ifTrue: [
-			codeBrowser 
-				selectClass: aString asSymbol;
-				open ]
+			self inform: 'No class found with the name ''', aString, ''''. ^ self ] .
+	codeBrowser 
+		selectClass: aString asSymbol;
+		open 
 	
