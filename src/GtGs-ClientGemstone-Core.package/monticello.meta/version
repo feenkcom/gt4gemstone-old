@@ -1,2 +1,2 @@
-(name 'GtGs-ClientGemstone-Core-AndreiChis.16' message 'Added #informClient:' id 'ef7fb654-356c-4100-a0ac-0649d7818908' date '27 April 2017' time '5:48:15.447672 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Core-AndreiChis.15' message 'Added #findSelectorFor:
-' id '1d44bd99-4566-50b4-92eb-19f590c39bd6' date '27 April 2017' time '5:39:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientGemstone-Core-AndreiChis.17' message 'Added #gtGsWithPharoLineEndings.' id 'fba516bf-2ce0-4180-80f2-8fffd5ecbea3' date '27 April 2017' time '7:08:30.218642 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Core-AndreiChis.16' message 'Added #informClient:
+' id 'a01aedc6-51da-56b6-a96c-f347733a1fc6' date '27 April 2017' time '5:48:19 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
