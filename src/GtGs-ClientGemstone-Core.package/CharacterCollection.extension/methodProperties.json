@@ -2,5 +2,6 @@
 	"class" : {
 		"gtGsCrlfMap" : "AndreiChis 5/1/2017 23:49" },
 	"instance" : {
+		"gtGsFindFirstInString:inSet:startingAt:" : "AndreiChis 5/2/2017 00:00",
 		"gtGsWithGemstoneLineEndings" : "AndreiChis 3/8/2017 23:07",
-		"gtGsWithPharoLineEndings" : "AndreiChis 5/1/2017 23:31" } }
+		"gtGsWithPharoLineEndings" : "AndreiChis 5/2/2017 00:01" } }

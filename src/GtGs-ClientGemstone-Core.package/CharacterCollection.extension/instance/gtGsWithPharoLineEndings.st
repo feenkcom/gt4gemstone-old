@@ -10,7 +10,7 @@ gtGsWithPharoLineEndings
   outPos := 1.
   outString := String new: self size.
   [ lineEndPos := self class
-    findFirstInString: self
+    gtGsFindFirstInString: self
     inSet: self class gtGsCrlfMap
     startingAt: inPos.
   lineEndPos ~= 0 ]
