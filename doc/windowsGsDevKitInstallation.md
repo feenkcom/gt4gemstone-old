@@ -13,6 +13,10 @@ Then you need to set the `GS_HOME` variable and install the GsDevKitClient. For 
 
     export GS_HOME=C:/gt4gemstone/GsDevKit_home
     
+Alternatively, if you are installing GsDevKit on Windows using Git Bash you can use `pwd -W` instead of manually filling in the full absolute path:
+
+    export GS_HOME=`pwd -W`
+    
 After setting the path you can install the client:
 
     installClient
