@@ -11,4 +11,4 @@ gtGsCrlfMap
         add: lf asciiValue.
       SessionTemps current
         at: #'Squeak_Line_Ending_CRLF_Map'
-        put: crlf asByteArray byteArrayMap ]
+        put: crlf asByteArray gtGsByteArrayMap ]
