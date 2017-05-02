@@ -8,7 +8,7 @@ To create a new client containing the latest version, after installing [GsDevKit
 
     cd $GS_HOME/shared/repos
     git clone https://github.com/feenkcom/gt4gemstone.git
-    createClient -t pharo Gt4Gemstone -l -v Pharo5.0 -z $GS_HOME/shared/repos/gt4gemstone/.smalltalk.ston
+    createClient -t pharo Gt4Gemstone -l -v Pharo5.0 -s gs_333 -z $GS_HOME/shared/repos/gt4gemstone/.smalltalk.ston
     startClient Gt4Gemstone -s Gt4Gemstone
 
 For creating a new stone containing the latest version use:
