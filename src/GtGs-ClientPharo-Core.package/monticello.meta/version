@@ -1,2 +1,2 @@
-(name 'GtGs-ClientPharo-Core-AndreiChis.15' message 'Added #findPossibleSelectorFor:' id 'dcdbb4b2-b1fa-4ab8-898c-0d44b917e66c' date '24 April 2017' time '12:13:32.73604 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.14' message 'set the gemstoneClient for remore browsers
-' id '02fd21dc-5ae1-5342-a979-ae41e8466117' date '19 April 2017' time '9:12:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientPharo-Core-AndreiChis.16' message 'Close #GtGsRemoteMessagesBrowser when closing the remote session.' id '5e4d2804-1925-4f75-b27f-d9a1275819e2' date '2 May 2017' time '4:34:16.316166 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.15' message 'Added #findPossibleSelectorFor:
+' id 'e467e12c-a8a5-5f82-8179-bbed434810d5' date '24 April 2017' time '12:13:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
