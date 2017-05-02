@@ -6,7 +6,8 @@ usage() {
 cat <<HELP
 USAGE: $(basename $0) [-s <stone-name>] [-u <user-name>] [-p <password>] [-c <gem-temp-cache-size>] [-l <log-file>] [-f <target-file>] [-g <gemstone-version>] [-a try|commit|debug]
 
-Load the gt4gemstone project into a gemstone extent.
+Load the gt4gemstone project into a gemstone extent. Provides options for debugging and committing changes.
+In case an error happens during loading changes are not committed. 
 
 OPTIONS
   -s <stone-name>
@@ -19,6 +20,7 @@ OPTIONS
      The amount of memory in MB that used by topaz gemstone session (GEM_TEMPOBJ_CACHE_SIZE).
   -l <log-file>
      The name of the log file where the topaz output will be placed.
+     DEFAULT is '-l MFC.out'
   -f <target-file>
      The topaz file that will be loaded in the stone
   -g <gemstone-version>
@@ -29,6 +31,12 @@ OPTIONS
      commit: loads and commits the project;
      debug: loads and prints the stack; should be used if loading triggers an error;
      DEFAULT is '-a try'.
+
+EXAMPLES
+  $(basename $0)
+  $(basename $0) -s gs64stone -u SystemUser -p swordfish -a debug
+  $(basename $0) -s gs64stone -u SystemUser -p swordfish -a try   -l log.txt -c 256
+  $(basename $0) -g 3.3.0 -f load_gt4gemstone.topaz -a commit
 
 HELP
 }
@@ -64,6 +72,8 @@ while getopts "s:u:p:c:l:f:g:a:" OPT ; do
   esac
 done
 
+preLoadCommand="iferror exit 1"
+
 case "${actionType}" in
   try) postLoadCommand=`cat <<EOF
 errorCount
@@ -72,7 +82,8 @@ EOF` ;;
 errorCount
 commit
 EOF` ;;
-  debug) postLoadCommand=`cat <<EOF
+  debug) preLoadCommand="errorCount";
+postLoadCommand=`cat <<EOF
 errorCount
 display oops
 level 2
@@ -86,6 +97,7 @@ echo "[INFO] Run topaz command."
 topaz -il ${tempObjCacheCommand} <<EOF >>${logFile}
 set user ${gemuser} password ${gempassword} gemstone ${gemstone}
 login
+${preLoadCommand}
 input ${GT4GEMSTONE}/external/scripts/gs_${gemstoneVersion}/${targetFile}
 ${postLoadCommand}
 exit

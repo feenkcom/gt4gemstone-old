@@ -11,6 +11,6 @@ fi
 source ${GT4GEMSTONE}/bin/private/shFeedback.sh
 start_banner
 
-${GT4GEMSTONE}/bin/utils/gs_3.3.0/commitFull.sh "$@"
+${GT4GEMSTONE}/bin/installGT4Gemstone.sh "$@" -g 3.3.0 -a commit
 
 exit_0_banner
