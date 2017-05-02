@@ -70,7 +70,7 @@ If you do not wish to load gitfiletree, or using it causes an error, the followi
 ```
 Metacello new
    baseline: 'Gt4Gemstone';
-   repository: 'filetree:///Users/mennite/documents/GitHub/GsDevKit_home/shared/repos/gt4gemstone/src';
+   repository: 'filetree://<PATH_TO_GT4GEMSTONE_REPO>/src';
    onLock: [ :ex | ex honor ];
    onWarning: [ :ex | ex resume ];
    onConflict: [ :ex :loaded :incoming | ex useLoaded ];
