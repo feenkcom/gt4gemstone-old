@@ -1,5 +1,4 @@
 {
-	"name" : "GtGsGlmFastTableLazyDataSource",
+	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
 	"commentStamp" : "AndreiChis 12/25/2016 22:47",
-	"category" : "GtGs-Inspector-Pharo-Core-FastTable"
-}
+	"name" : "GtGsGlmFastTableLazyDataSource" }

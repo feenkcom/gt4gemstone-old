@@ -1,6 +1,12 @@
 *GtGs-Editor-Pharo-Core
 browseClassFrom: aString
-
-	self categoriesBrowser
+	| codeBrowser |
+	
+	codeBrowser := self categoriesBrowser.
+	(codeBrowser hasClassNamed: aString)
+		ifFalse: [ 
+			self inform: 'No class found with the name ''', aString, ''''. ^ self ] .
+	codeBrowser 
 		selectClass: aString asSymbol;
-		open
+		open 
+	

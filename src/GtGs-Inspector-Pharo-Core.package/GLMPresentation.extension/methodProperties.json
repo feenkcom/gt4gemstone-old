@@ -1,9 +1,10 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"iconIdBlock:" : "AndreiChis 10/22/2016 22:51:04",
-		"gsAct:on:entitled:" : "AndreiChis 10/22/2016 22:51:04",
 		"attachCodeExecutionActions" : "AndreiChis 10/22/2016 22:51:04",
-		"gsSelectionAct:on:entitled:" : "AndreiChis 10/22/2016 22:51:04"
-	},
-	"class" : { }
-}
+		"gsAct:on:entitled:" : "AndreiChis 10/22/2016 22:51:04",
+		"gsSelectionAct:on:entitled:" : "AndreiChis 10/22/2016 22:51:04",
+		"gtGsForGemstoneWith:" : "AndreiChis 4/26/2017 22:55",
+		"gtGsForPharoWith:" : "AndreiChis 4/26/2017 23:05",
+		"iconIdBlock:" : "AndreiChis 10/22/2016 22:51:04" } }

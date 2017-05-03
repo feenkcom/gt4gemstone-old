@@ -85,21 +85,3 @@ sed -e s/"System performOnServer: 'echo \$GT4GEMSTONE_REPO'"/"'${_GT4GEMSTONE_RE
 
 
 exit_0_banner
-
-
-
-# scp -r . gsadmin@192.168.4.114:/gemstone/gt4gemstone
-
-
-
-# input /home/andrei/feenk/scripts/symbolExtensions.gs
-# input /home/andrei/feenk/scripts/objectExtensions.gs
-# input /home/andrei/feenk/scripts/stringExtensions.gs
-
-# input /home/andrei/feenk/scripts/bootstrapSton.topaz
-# input /home/andrei/feenk/scripts/loadGt4GemStone.topaz
-# STON fromString: '[1,0,-1,true,false,nil]'
-# STON fromString: (STON toString: DateAndTime now).
-
-# Object gtGsInspectorPresentationsIn: GtGsGlmCompositePresentation new inContext: nil 
-# STON fromString: ((GtGsInspectorProxy forObject: Object new) asTopazSerializedString)

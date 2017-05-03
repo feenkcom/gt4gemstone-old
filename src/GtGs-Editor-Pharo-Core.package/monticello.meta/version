@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Pharo-Core-AndreiChis.17' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:' id '0f9abb60-1d2b-4e96-917c-377a48ae8c67' date '27 March 2017' time '4:28:02.044917 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.16' message 'Renamed the methods that create a bare proxy.
-' id 'a1194180-bdc2-5732-b213-76c237054464' date '23 March 2017' time '9:23:34 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Pharo-Core-AndreiChis.23' message 'Simplified #browseClassFrom:' id '141f0259-c195-4261-bd4c-a3fc5a69b448' date '27 April 2017' time '7:11:59.022762 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Pharo-Core-AndreiChis.22' message 'Do not create a new symbol when verifying if a class with a given name exists.
+' id '2c9b4152-e247-5e26-ac19-e5f0dca75799' date '27 April 2017' time '5:58:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

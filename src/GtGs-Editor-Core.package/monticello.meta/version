@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.8' message 'fixed extension methods in ClassOrganizer' id '1213bb4a-6a2e-415d-ad70-ae41b7bd6894' date '21 March 2017' time '11:53:35.063974 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.7' message 'Added support for a cache ClassOrganizer.
-' id '642eba17-210d-5cff-b80d-fd3144a9a943' date '21 March 2017' time '11:31:32 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.22' message 'Use #gtGsWithPharoLineEndings in the message browser.' id '066d897f-7481-4495-ba63-46506b812113' date '27 April 2017' time '7:08:56.437631 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.21' message 'Use #informClient: in case a message browser is opened on an empty list.
+' id 'dc77af13-d714-5ed1-a6a6-5910f5d51380' date '27 April 2017' time '5:58:15 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

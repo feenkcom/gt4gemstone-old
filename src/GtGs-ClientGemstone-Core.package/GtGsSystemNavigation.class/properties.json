@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-ClientGemstone-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Default" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsSystemNavigation",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

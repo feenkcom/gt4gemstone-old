@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"openFromRubric:withResult:" : "AndreiChis 3/22/2017 13:54",
-		"initializeInspectButton" : "AndreiChis 3/22/2017 13:54"
-	},
-	"class" : { }
-}
+		"initializeInspectButton" : "AndreiChis 3/22/2017 13:54",
+		"openFromRubric:withResult:" : "AndreiChis 3/22/2017 13:54" } }

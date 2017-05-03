@@ -1,0 +1,15 @@
+{
+	"category" : "GtGs-ClientPharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"actionBlock",
+		"arguments" ],
+	"name" : "GtGsGemStoneActionRequest",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

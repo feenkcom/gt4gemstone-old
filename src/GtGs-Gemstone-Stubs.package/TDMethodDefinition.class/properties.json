@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Gemstone-Stubs",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TDMethodDefinition",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

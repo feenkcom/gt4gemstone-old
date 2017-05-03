@@ -1,11 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GLMPrintPopper",
 	"category" : "GtGs-Inspector-Pharo-Core",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
-	"instvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
 	"name" : "GtGsPrintPopper",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMPrintPopper",
+	"type" : "normal" }

@@ -1,22 +1,18 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"requestTypeForRemotePresentation:" : "AndreiChis 3/16/2017 22:29",
-		"selfOopType" : "AndreiChis 3/1/2017 15:29",
-		"glamourPresentationFor:using:withArguments:" : "AndreiChis 3/26/2017 15:19",
-		"remoteGlamourPresentationFor:using:withArguments:" : "AndreiChis 3/16/2017 23:23",
-		"targetObjectOopType" : "AndreiChis 3/13/2017 22:01",
-		"inspectorPresentationFor:using:on:" : "AndreiChis 3/22/2017 00:15",
-		"inspectorPresentationFor:on:" : "AndreiChis 3/17/2017 11:16",
-		"remoteInspectorPresentationFor:using:" : "AndreiChis 3/16/2017 23:06",
-		"gtInspectorPresentationsFromPragmas:In:inContext:" : "AndreiChis 3/22/2017 00:15",
-		"gtInspectorActions" : "AndreiChis 10/14/2016 13:51",
-		"extractPresentationToSelectFrom:" : "AndreiChis 3/1/2017 17:47",
 		"addExplicitBareNavigationBlockIn:from:" : "AndreiChis 3/17/2017 00:09",
-		"gtInspectorMetaIn:" : "AndreiChis 2/23/2017 17:52:46",
 		"addExplicitNavigationBlockIn:from:" : "AndreiChis 3/17/2017 00:17",
-		"inspect" : "AndreiChis 10/10/2016 16:51",
+		"addInspectorImplicitNavigationBlockIn:from:" : "AndreiChis 4/2/2017 12:27:36",
+		"extractPresentationToSelectFrom:" : "AndreiChis 3/1/2017 17:47",
+		"gtInspectorActions" : "AndreiChis 10/14/2016 13:51",
+		"gtInspectorMetaIn:" : "AndreiChis 2/23/2017 17:52:46",
+		"gtInspectorPresentationsFromPragmas:In:inContext:" : "AndreiChis 3/22/2017 00:15",
 		"gtInspectorRawIn:" : "AndreiChis 10/10/2016 15:47",
-		"addInspectorImplicitNavigationBlockIn:from:" : "AndreiChis 4/2/2017 00:22"
-	},
-	"class" : { }
-}
+		"inspect" : "AndreiChis 10/10/2016 16:51",
+		"inspectorPresentationFor:on:" : "AndreiChis 3/17/2017 11:16",
+		"inspectorPresentationFor:using:on:" : "AndreiChis 3/22/2017 00:15",
+		"remoteInspectorPresentationFor:using:" : "AndreiChis 3/16/2017 23:06",
+		"selfOopType" : "AndreiChis 3/1/2017 15:29",
+		"targetObjectOopType" : "AndreiChis 3/13/2017 22:01" } }

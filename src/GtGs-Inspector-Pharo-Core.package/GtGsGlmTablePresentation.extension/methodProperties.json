@@ -1,7 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
 		"instantiateGlamourPresentation" : "AndreiChis 1/10/2017 23:23:56",
-		"setGlamourPresentationAttributesFor:" : "AndreiChis 1/10/2017 23:23:56"
-	},
-	"class" : { }
-}
+		"setGlamourPresentationAttributesFor:" : "AndreiChis 1/10/2017 23:23:56" } }

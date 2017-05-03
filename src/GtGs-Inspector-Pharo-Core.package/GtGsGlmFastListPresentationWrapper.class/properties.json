@@ -1,13 +1,14 @@
 {
-	"commentStamp" : "",
-	"super" : "GLMFastListPresentation",
 	"category" : "GtGs-Inspector-Pharo-Core-FastTable",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
 	"instvars" : [
-		"gtGsPresentation"
-	],
+		"gtGsPresentation" ],
 	"name" : "GtGsGlmFastListPresentationWrapper",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "GLMFastListPresentation",
+	"type" : "normal" }

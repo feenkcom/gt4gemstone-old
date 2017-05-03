@@ -1,18 +1,19 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"instantiateGlamourPresentation" : "AndreiChis 10/5/2016 14:58",
+		"executeRemotely:" : "AndreiChis 12/16/2016 00:59:56",
+		"executeRemotely:withArguments:" : "AndreiChis 10/22/2016 22:51:04",
 		"executeRemotely:withArguments:andDo:" : "AndreiChis 11/11/2016 18:03",
+		"executeRemotelyActionWithId:" : "AndreiChis 12/16/2016 00:59:56",
+		"executeRemotelySelectionActionWithId:forPresentation:" : "AndreiChis 4/20/2017 13:48",
+		"gtGsAsGlamourPresentation" : "AndreiChis 3/17/2017 13:33",
+		"gtGsAsGlamourPresentationIn:" : "AndreiChis 3/22/2017 00:15",
+		"instantiateGlamourPresentation" : "AndreiChis 10/5/2016 14:58",
+		"obtainDisplayValue" : "AndreiChis 10/22/2016 22:51:04",
 		"requestFromGemstoneFor:" : "AndreiChis 10/22/2016 22:51:04",
 		"requestFromGemstoneFor:withArguments:" : "AndreiChis 10/22/2016 22:51:04",
-		"executeRemotely:withArguments:" : "AndreiChis 10/22/2016 22:51:04",
-		"obtainDisplayValue" : "AndreiChis 10/22/2016 22:51:04",
-		"executeRemotely:" : "AndreiChis 12/16/2016 00:59:56",
+		"requestFromGemstoneWithoutSerializedReturnFor:withArguments:" : "AndreiChis 10/22/2016 22:51:04",
+		"selectionAsCallbackArgumentFor:" : "AndreiChis 4/20/2017 14:17",
 		"selfOopType" : "AndreiChis 10/5/2016 17:25",
-		"executeRemotelyActionWithId:" : "AndreiChis 12/16/2016 00:59:56",
-		"setGlamourPresentationAttributesFor:" : "AndreiChis 3/1/2017 17:47",
-		"gtGsAsGlamourPresentationIn:" : "AndreiChis 3/22/2017 00:15",
-		"gtGsAsGlamourPresentation" : "AndreiChis 3/17/2017 13:33",
-		"requestFromGemstoneWithoutSerializedReturnFor:withArguments:" : "AndreiChis 10/22/2016 22:51:04"
-	},
-	"class" : { }
-}
+		"setGlamourPresentationAttributesFor:" : "AndreiChis 4/20/2017 13:04" } }

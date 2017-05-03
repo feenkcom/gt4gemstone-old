@@ -1,0 +1,16 @@
+{
+	"category" : "GtGs-Editor-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectionString",
+		"methodsPresentation",
+		"codePresentation" ],
+	"name" : "GtGsMessagesBrowser",
+	"pools" : [
+		 ],
+	"super" : "GtGsGlmBrowser",
+	"type" : "normal" }

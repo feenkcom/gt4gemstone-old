@@ -1,6 +1,6 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"asGlamourActionFromGsPresentation:withId:" : "AndreiChis 10/22/2016 22:51:04"
-	},
-	"class" : { }
-}
+		"asGlamourActionFromGsPresentation:withId:" : "AndreiChis 10/22/2016 22:51:04",
+		"asGlamourSelectionActionFromGsPresentation:withId:" : "AndreiChis 4/20/2017 14:02" } }
