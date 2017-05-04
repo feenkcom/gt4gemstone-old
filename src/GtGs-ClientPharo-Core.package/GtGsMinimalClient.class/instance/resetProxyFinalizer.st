@@ -1,4 +1,4 @@
 login/logout
 resetProxyFinalizer
-	proxyFinalizer clearGarbageCollectionProxyMap.
+	proxyFinalizer ifNotNil: [ :aProxyFinalizer | aProxyFinalizer clearGarbageCollectionProxyMap ].
 	proxyFinalizer := nil.
