@@ -1,4 +1,4 @@
-testing - gc
+tests- gc
 testGargabeCollectionRemovalForced
 	| inspectorProxy |
 		

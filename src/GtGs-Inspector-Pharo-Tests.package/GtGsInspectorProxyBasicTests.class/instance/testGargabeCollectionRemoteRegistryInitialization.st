@@ -1,4 +1,4 @@
-testing - gc
+tests- gc
 testGargabeCollectionRemoteRegistryInitialization
 	| result |
 		
