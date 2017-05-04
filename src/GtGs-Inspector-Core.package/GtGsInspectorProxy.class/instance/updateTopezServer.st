@@ -1,4 +1,4 @@
 updating
 updateTopezServer
 	
-	topezServer := GtGsBareTopezServer for: 1
+	topezServer := self class activeTopezServer
