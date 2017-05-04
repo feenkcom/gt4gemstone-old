@@ -14,9 +14,11 @@ registerForGarbageCollectionRemoteTool: aRemoteTool
 	self class finalizationRegistry 
 		add: aRemoteTool 
 		executor:
+			"Pass the session to the finalizer and not the client, as the
+			 client can be initialized with a new session."
 			(ObjectFinalizer new
 				receiver: self
-				selector: #releaseRemoteToolWithOopAndClient:
-				argument: { remoteOop . aRemoteTool gemstoneClient }).
+				selector: #releaseRemoteToolWithOopAndSession:
+				argument: { remoteOop . aRemoteTool gemstoneClient session }).
 		
 	^ aRemoteTool
