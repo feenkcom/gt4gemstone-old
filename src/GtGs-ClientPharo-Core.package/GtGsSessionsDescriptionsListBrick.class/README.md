@@ -1,3 +1,3 @@
-I display a list with all Session Description files currently available in GsDevKit. For each session description I provide a list of actions. This includes actions like inspecting the session description or creating an GemStone client based on the description.
+I display a list with all Session Description files currently available in GsDevKit. For each session description I provide a list of actions. This includes actions like inspecting the session description or creating a GemStone client based on the description.
 
 I am used by GtGsSessionsLifecycleHandler that also provides an actual implementations for my actions. I only add icons for actions, I do not implement them.
