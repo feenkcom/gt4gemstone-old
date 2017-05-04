@@ -1,0 +1,1 @@
+I should provide a simple way to generate a random contact. Right  now however I just provide a way to generate a random loremIpsum string.

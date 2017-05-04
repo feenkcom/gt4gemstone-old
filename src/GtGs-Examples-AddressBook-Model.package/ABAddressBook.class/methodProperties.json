@@ -1,21 +1,18 @@
 {
-	"instance" : {
-		"label" : "AndreiChis 1/23/2015 18:21",
-		"contacts" : "AndreiChis 1/23/2015 18:33",
-		"label:" : "AndreiChis 1/23/2015 18:21",
-		"contacts:" : "AndreiChis 1/23/2015 18:29",
-		"contactsWithTelephone:" : "AndreiChis 7/8/2015 15:24",
-		"addFirst:last:" : "AndreiChis 1/23/2015 18:29",
-		"printOn:" : "AndreiChis 7/8/2015 16:40",
-		"addContacts:" : "AndreiChis 10/22/2015 18:18",
-		"contactsWithAddress:" : "AndreiChis 7/8/2015 15:00",
-		"initializeDefault" : "AndreiChis 3/12/2017 00:50",
-		"gtGsInspectorAContactsOn:" : "AndreiChis 4/2/2017 12:07"
-	},
 	"class" : {
+		"default" : "AndreiChis 10/12/2016 16:31",
 		"loadDefaultData" : "AndreiChis 3/12/2017 13:31",
-		"reset" : "StephanEggermont 12/8/2014 15:30",
 		"loadDefaultDataIn:" : "AndreiChis 3/12/2017 00:44",
-		"default" : "AndreiChis 10/12/2016 16:31"
-	}
-}
+		"reset" : "StephanEggermont 12/8/2014 15:30" },
+	"instance" : {
+		"addContacts:" : "AndreiChis 10/22/2015 18:18",
+		"addFirst:last:" : "AndreiChis 1/23/2015 18:29",
+		"contacts" : "AndreiChis 1/23/2015 18:33",
+		"contacts:" : "AndreiChis 1/23/2015 18:29",
+		"contactsWithAddress:" : "AndreiChis 7/8/2015 15:00",
+		"contactsWithTelephone:" : "AndreiChis 7/8/2015 15:24",
+		"gtGsInspectorAContactsOn:" : "AndreiChis 4/2/2017 12:17:31",
+		"initializeDefault" : "AndreiChis 3/12/2017 00:50",
+		"label" : "AndreiChis 1/23/2015 18:21",
+		"label:" : "AndreiChis 1/23/2015 18:21",
+		"printOn:" : "AndreiChis 7/8/2015 16:40" } }
