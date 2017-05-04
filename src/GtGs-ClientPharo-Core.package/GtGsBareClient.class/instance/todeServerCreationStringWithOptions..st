@@ -2,7 +2,7 @@ private
 todeServerCreationStringWithOptions: withOptions
 	| str |
 	str := '(GsSession currentSession symbolList 
-		objectNamed: #''Gt4gemstone_Topez_Class_Name'') isNil ifTrue: [ 
+		objectNamed: #''GtGsBareTopezServer'') isNil ifTrue: [ 
 			"In case gt4gemstone is not installed on the server side do not trigger an error.
 			The client should still work with limited functionality."
 			^ nil ].

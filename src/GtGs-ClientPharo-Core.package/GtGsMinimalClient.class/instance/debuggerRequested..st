@@ -2,7 +2,7 @@ exception handling
 debuggerRequested: returnValue
 	| gsNotification |
 	gsNotification := thisContext sender receiver.
-
+	
 	GtGsGenericStackDebugger useBasicStackViewer 
 		ifTrue: [
 			GtGsGenericStackDebugger openBasicStackViewerFor: gsNotification from: self ]
