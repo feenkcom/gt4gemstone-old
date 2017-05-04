@@ -5,5 +5,5 @@ forObject: anObject
 	targetObjectOop := Reflection oopOf: anObject.
 	self title: targetObject gtGsInspectorName.
 	self updateTopezServer.
-	self linkWithTopezServer.
+	self addToLocalStorage.
 	self updatePresentations.
