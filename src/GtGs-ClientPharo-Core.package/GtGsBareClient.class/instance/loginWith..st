@@ -13,6 +13,10 @@ loginWith: aSessionDescription
 				error:
 					'Unable to log into server:' , ex description , 'with: '
 						, todeServerCreationString printString ].
+	jsonString ifNil: [ 
+		self initializeWithoutTopez.
+		^ self ].	
+				
 	resultArray := self objectSerializer fromString: jsonString.
 	todeServerOop := resultArray at: 1.
 	todeClientOopType := (resultArray at: 3) gciResultToGsOopType: self session.
