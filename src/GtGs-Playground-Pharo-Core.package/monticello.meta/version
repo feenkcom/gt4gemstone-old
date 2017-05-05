@@ -1,2 +1,2 @@
-(name 'GtGs-Playground-Pharo-Core-AndreiChis.12' message 'Renamed Gemstone Playground to Remote Playground' id 'c45e757a-def6-455f-88ab-3efd7cdeac6e' date '25 March 2017' time '7:55:04.065145 pm' author 'AndreiChis' ancestors ((name 'GtGs-Playground-Pharo-Core-AndreiChis.11' message 'improved the context menu actions in the remote playground
-' id '195a216d-5509-50fc-b673-91a4beeda59e' date '22 March 2017' time '5:41:41 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Playground-Pharo-Core-AndreiChis.13' message 'Do not do syntax highlighting in the playground.' id '118fa497-7903-42fc-9595-977e435eb3d3' date '5 May 2017' time '11:10:33.104542 am' author 'AndreiChis' ancestors ((name 'GtGs-Playground-Pharo-Core-AndreiChis.12' message 'Renamed Gemstone Playground to Remote Playground
+' id '9037811d-31cd-54b1-a836-e61c4bedb4fb' date '25 March 2017' time '7:55:07 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
