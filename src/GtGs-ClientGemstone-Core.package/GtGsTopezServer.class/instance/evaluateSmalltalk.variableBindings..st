@@ -4,7 +4,7 @@ evaluateSmalltalk: smalltalkSource variableBindings: variableBindings
   litVarArray := {}.
   variableBindings keysAndValuesDo: [ :key :value | litVarArray
         add: key asSymbol;
-        add: (SymbolAssociation key: key asSymbol value: value) ].
+        add: (SymbolAssociation newWithKey: key asSymbol value: value) ].
   litVarArray isEmpty
     ifTrue: [ litVarArray := nil ].
   "self ensureSessionMethodsEnabled."
