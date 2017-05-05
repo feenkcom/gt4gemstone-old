@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Inspector-Pharo-Core-Glamour",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsGLMGemStoneScriptPresentation",
+	"pools" : [
+		 ],
+	"super" : "GLMPharoScriptPresentation",
+	"type" : "normal" }
