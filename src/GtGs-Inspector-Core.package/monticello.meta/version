@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.237' message 'Added a browse action to the list of superclasses.' id 'a8111395-5303-4cd2-ab91-fc22c873b6a7' date '8 May 2017' time '5:00:54.117356 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.236' message 'classified methods
-' id '8f55b704-a52d-5e85-8e55-ea1b2df6431d' date '5 May 2017' time '11:09:17 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.238' message 'Do not return the actual action in #gsSelectionAct:on:entitled:' id '35804dfb-2c12-45ee-b864-e8d76c758796' date '8 May 2017' time '7:59:27.572751 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.237' message 'Added a browse action to the list of superclasses.
+' id '705c2a74-f6f2-56c2-adfa-01bbfd131d67' date '8 May 2017' time '5:00:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
