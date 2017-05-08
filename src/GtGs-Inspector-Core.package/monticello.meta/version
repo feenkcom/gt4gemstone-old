@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.236' message 'classified methods' id 'd3529ea2-6f04-44c0-b19f-224ac0f0761e' date '5 May 2017' time '11:09:11.078679 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.235' message 'Refactored the gc mechanism from the inspector so that it can also be used for any glamour presentation.
-' id 'd40f71e1-de92-5506-b39d-b86c07b7b4af' date '4 May 2017' time '2:35:54 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.237' message 'Added a browse action to the list of superclasses.' id 'a8111395-5303-4cd2-ab91-fc22c873b6a7' date '8 May 2017' time '5:00:54.117356 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.236' message 'classified methods
+' id '8f55b704-a52d-5e85-8e55-ea1b2df6431d' date '5 May 2017' time '11:09:17 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
