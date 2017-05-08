@@ -12,7 +12,8 @@ removeRemoteSelector: aSelector
 		"This is an ugly solution. Ideally the fast table presentation on the Pharo side should determine
 		which selector to select next."
 		sortedSelectors := (targetClass selectors sortWithBlock: [ :a :b | a < b ]) select: [ :s |
-			(targetClass compiledMethodAt: s) category = (targetClass compiledMethodAt: currentSelectorName) category ].
+			((targetClass compiledMethodAt: s) inClass categoryOfSelector: s )= 
+				((targetClass compiledMethodAt: currentSelectorName) inClass categoryOfSelector: currentSelectorName) ].
 		selectorIndex := sortedSelectors indexOf: currentSelectorName.
 		(selectorIndex = sortedSelectors size) 
 			ifTrue: [ selectorIndex := selectorIndex - 1 ]
