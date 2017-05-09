@@ -102,4 +102,4 @@ Another option is to rely on the 'GemStone Session manager' to specify the conte
 
 ## Code examples
 
-Now that you have gt4gemstone installed you can take at a look at some [examples](doc/basicCodeSnippets.md) of how to programatically use a gemstone client.
+Now that you have gt4gemstone installed you can take at a look at some [examples](/doc/basicCodeSnippets.md) of how to programatically use a gemstone client.
