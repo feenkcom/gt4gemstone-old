@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.23' message 'Prevent the garbage collection of the message browser.' id '4c18334f-5eff-43a2-abe1-399be3a32afd' date '4 May 2017' time '2:34:21.084904 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.22' message 'Use #gtGsWithPharoLineEndings in the message browser.
-' id '548a6fef-185f-5952-a1f6-fbc5679aeea4' date '27 April 2017' time '7:09 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.24' message 'Fixed more issues related to #category' id '31647f61-177a-4bb2-b235-e3ac76b91f45' date '9 May 2017' time '11:58:29.285152 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.23' message 'Prevent the garbage collection of the message browser.
+' id '5fbf9fc3-f9d7-5090-b1e6-ffeda59f7afe' date '4 May 2017' time '2:34:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
