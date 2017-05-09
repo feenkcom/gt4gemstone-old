@@ -15,7 +15,7 @@ compileSource: theSource forMethod: aMethod
 			aMethod methodClass
 				compileMethod: theSource gtGsWithGemstoneLineEndings
    				dictionaries: GsCurrentSession currentSession symbolList
-    			category: ((aMethod inClass categoryOfSelector: aMethod category) ifNil: [ 'as yet unclassified' ])
+    			category: ((aMethod inClass categoryOfSelector: aMethod selector) ifNil: [ 'as yet unclassified' ])
    				environmentId: 0 ]
 
   

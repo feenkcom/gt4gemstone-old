@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.239' message 'Do not call GsNMethod>>#category as it is defined by Cypress.' id '8b65ee44-15a2-45cc-9809-c838f833c479' date '9 May 2017' time '12:05:34.879876 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.238' message 'Do not return the actual action in #gsSelectionAct:on:entitled:
-' id 'be552484-5452-5539-80c9-4d2b87663e55' date '8 May 2017' time '7:59:33 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.240' message 'Fixed more issues related to #category' id '9ec1913f-c1f1-4511-995a-cbe3b46cb67f' date '9 May 2017' time '11:57:38.630622 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.239' message 'Do not call GsNMethod>>#category as it is defined by Cypress.
+' id 'eab43439-e19c-55d3-8f5c-90da6ac4c457' date '9 May 2017' time '12:05:41 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
