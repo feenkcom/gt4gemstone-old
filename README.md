@@ -21,6 +21,8 @@ For installing gt4gemstone in a stone that does not require GsDevKit see [gt4gem
 
 For installing and configuring GsDevKit on Windows see [GsDevKit Windows Installation](doc/windowsGsDevKitInstallation.md).
 
+Once you installed gt4gemstone you can take at a look at some [examples](doc/basicCodeSnippets.md) of how to programatically use a gemstone client.
+
 ## Connecting to a stone
 
 gt4gemstone comes with a session manager that can be opened from the World menu. This manager allows you to create connections to stones based on session descriptions. By default it uses the session descriptions present in the GsDevKit installation.
