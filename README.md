@@ -17,11 +17,11 @@ For creating a new stone containing the latest version use:
 
 For installing gt4gemstone in a stone that has GsDevKit installed see [gt4gemstone server instalation using GsDevKit](doc/gsdevkitGemStoneInstallation.md).
 
-For installing gt4gemstone in a stone that does not require GsDevKit see [gt4gemstone server instalation without GsDevKit](doc/bareGemStoneInstallation.md). 
+For installing gt4gemstone in a stone doesn't have GsDevKit see [gt4gemstone server instalation without GsDevKit](doc/bareGemStoneInstallation.md). 
 
 For installing and configuring GsDevKit on Windows see [GsDevKit Windows Installation](doc/windowsGsDevKitInstallation.md).
 
-Once you installed gt4gemstone you can take at a look at some [examples](doc/basicCodeSnippets.md) of how to programatically use a gemstone client.
+Once you installed gt4gemstone you can take at a look at some [examples](doc/basicCodeSnippets.md) of how to use a gemstone client.
 
 ## Connecting to a stone
 
