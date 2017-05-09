@@ -6,9 +6,13 @@ This document covers the case where you want to install gt4gemstone in an alread
 
 The simplest way to load gt4gemstone is using the following tODE command:
 
-    project load --install --stone --url=https://raw.githubusercontent.com/feenkcom/gt4gemstone/master/Gt4Gemstone.ston Gt4Gemstone
+    project load --install --stone --url=https://raw.githubusercontent.com/feenkcom/gt4gemstone/master/Gt4Gemstone.ston Gt4Gemstone   
 
 In case you already cloned gt4gemstone in `$GS_HOME/shared/repos` you will get the following warning:  `A git repo is already present at '$GS_HOME/shared/repos/gt4gemstone'`. If no erros occur during the installation then you can safetely ignore the warning.
+
+Also in case you get the error `ss13_get_server_certificate:certificate verify failed` it means that SSL support is not available. In this case you should use an URL pointing to `Gt4Gemstone.ston` that does not require SSL. For this case we also provide the file at `http://ws.stfx.eu/4TIV0I28KZ6O?format=text`. You should use this URL in the remainder of this document instead of the one from `https://raw.githubusercontent.com` if you encounter this error.
+
+    project load --install --stone --url=http://ws.stfx.eu/4TIV0I28KZ6O?format=text Gt4Gemstone   
  
 The above command produces the same results as the commands bellow. In case you already cloned gt4gemstone in `$GS_HOME/shared/repos` then the install command is not needed.
 
