@@ -1,4 +1,4 @@
-testing
+tests
 testLoadingOnlyOfTheRequestedPresentation
 	| inspectorProxy gsItemsPresentation gsOtherPresentations |
 	

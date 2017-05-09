@@ -7,7 +7,7 @@ compileSource: theSource forMethod: aMethod
 		ifTrue: [ 
 			newSelector := aMethod methodClass
  		   		compile: theSource gtGsWithGemstoneLineEndings
-   				classified: (aMethod category ifNil: [ 'as yet unclassified' ]).
+   				classified: ((aMethod inClass categoryOfSelector: aMethod selector)  ifNil: [ 'as yet unclassified' ]).
   			(selector asSymbol ~~ newSelector "or: [ self object username notNil ]")
     			ifTrue: [ "self differentMethodCreated: newSelector" ].
   			^ newSelector ]
@@ -15,7 +15,7 @@ compileSource: theSource forMethod: aMethod
 			aMethod methodClass
 				compileMethod: theSource gtGsWithGemstoneLineEndings
    				dictionaries: GsCurrentSession currentSession symbolList
-    			category: (aMethod category ifNil: [ 'as yet unclassified' ])
+    			category: ((aMethod inClass categoryOfSelector: aMethod selector) ifNil: [ 'as yet unclassified' ])
    				environmentId: 0 ]
 
   

@@ -8,4 +8,4 @@ buildRemoteInspectorProxyFrom: aString withRunner: anOopType
 	serializedProxy ifNil: [ ^ nil ].
 	materializedProxy := self objectSerializer fromString: serializedProxy.
 	materializedProxy gemstoneClient: self.
-	^ self proxyFinalizer registerForGarbageCollectionInspectorProxy: materializedProxy
+	^ self proxyFinalizer registerForGarbageCollectionRemoteTool: materializedProxy

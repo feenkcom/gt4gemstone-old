@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.232' message 'Simplified #findSelectorFor: and updated the code browsing actions.' id '8e746f8e-b98a-49cf-ba7a-2a4ca733a8a3' date '27 April 2017' time '5:41:47.461101 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.231' message 'Added #gtGsForGemstoneWith: and #gtGsForPharoWith:
-' id '697c13c7-dc32-5e3c-ac11-ebad12cc819f' date '27 April 2017' time '11:11:49 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.240' message 'Fixed more issues related to #category' id '9ec1913f-c1f1-4511-995a-cbe3b46cb67f' date '9 May 2017' time '11:57:38.630622 am' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.239' message 'Do not call GsNMethod>>#category as it is defined by Cypress.
+' id 'eab43439-e19c-55d3-8f5c-90da6ac4c457' date '9 May 2017' time '12:05:41 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

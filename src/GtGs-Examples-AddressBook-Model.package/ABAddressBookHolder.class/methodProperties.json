@@ -1,8 +1,7 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"addressBooks" : "AndreiChis 3/12/2017 00:45",
 		"addAddressBook:" : "AndreiChis 3/12/2017 00:45",
-		"gtGsInspectorAddressBooksIn:" : "AndreiChis 4/2/2017 11:18"
-	},
-	"class" : { }
-}
+		"addressBooks" : "AndreiChis 3/12/2017 00:45",
+		"gtGsInspectorAddressBooksIn:" : "AndreiChis 4/2/2017 12:17:31" } }

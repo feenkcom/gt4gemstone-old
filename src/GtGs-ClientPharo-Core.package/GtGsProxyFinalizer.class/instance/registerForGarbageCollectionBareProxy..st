@@ -1,5 +1,8 @@
 gc api
 registerForGarbageCollectionBareProxy: aBareProxy
+	"I register the given bare proxy for garbage collection. I implement a simple reference counting gc
+	based on the oop of the proxy. When no more bare proxies exist with the given oop I release the
+	corresponding object on the remote side."
 	| oopOccurences proxyOop |
 	
 	proxyOop := aBareProxy selfOop.
@@ -13,9 +16,11 @@ registerForGarbageCollectionBareProxy: aBareProxy
 		self class finalizationRegistry 
 			add: aBareProxy 
 			executor:
+			   "Pass the session to the finalizer and not the client, as the
+			   client can be initialized with a new session."
 				(ObjectFinalizer new
 					receiver: self
-					selector: #decreaseGarbageCollectionCounterForBareProxy:
-					argument: aBareProxy executor).
+					selector: #decreaseGarbageCollectionCounterForBareProxyAndSession:
+					argument: {proxyOop . aBareProxy gemstoneClient session} ).
 		
 		^ aBareProxy ]

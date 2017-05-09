@@ -1,9 +1,10 @@
 {
 	"class" : {
-		 },
+		"temporarySessionStorage" : "AndreiChis 5/4/2017 13:31" },
 	"instance" : {
 		"actOnRequestExecuteActionWithId:" : "AndreiChis 4/20/2017 14:00",
 		"actOnRequestExecuteSelectionActionWithId:andSelection:" : "AndreiChis 4/20/2017 14:19",
+		"addToLocalStorage" : "AndreiChis 5/4/2017 14:15",
 		"buildDisplayValueFor:" : "AndreiChis 10/20/2016 19:05:42",
 		"cache" : "AndreiChis 4/26/2017 23:12",
 		"cacheAt:" : "AndreiChis 10/5/2016 18:02",
@@ -25,7 +26,7 @@
 		"glamourPresentation:" : "AndreiChis 10/20/2016 19:05:42",
 		"gsAct:on:entitled:" : "AndreiChis 10/20/2016 19:05:42",
 		"gsActions" : "AndreiChis 10/20/2016 19:05:42",
-		"gsSelectionAct:on:entitled:" : "AndreiChis 10/20/2016 19:05:42",
+		"gsSelectionAct:on:entitled:" : "AndreiChis 5/8/2017 19:58",
 		"gsSelectionActions" : "AndreiChis 10/20/2016 19:05:42",
 		"gtGsForGemstoneWith:" : "AndreiChis 4/26/2017 22:58",
 		"gtGsForPharoWith:" : "AndreiChis 4/26/2017 23:08",
@@ -33,6 +34,7 @@
 		"parameters" : "AndreiChis 4/26/2017 23:10",
 		"proxyOwner" : "AndreiChis 10/20/2016 19:05:42",
 		"proxyOwner:" : "AndreiChis 2/23/2017 15:39",
+		"removeFromSessionStorage" : "AndreiChis 5/4/2017 14:12",
 		"requestToPharoPresentationFor:" : "AndreiChis 12/23/2016 14:55:43",
 		"requestToPharoPresentationFor:withArguments:" : "AndreiChis 12/23/2016 14:55:43",
 		"requestToPharoPresentationWithoutSerializedReturnFor:withArguments:" : "AndreiChis 12/23/2016 14:55:43",
@@ -48,6 +50,7 @@
 		"stonInstVarNames" : "AndreiChis 10/5/2016 14:01",
 		"stonOn:" : "AndreiChis 10/5/2016 14:10",
 		"stonProcessSubObjects:" : "AndreiChis 10/5/2016 14:01",
+		"temporarySessionStorage" : "AndreiChis 5/4/2017 14:12",
 		"title:" : "AndreiChis 10/12/2016 19:43",
 		"titleBlock" : "AndreiChis 10/5/2016 14:01",
 		"titleBlock:" : "AndreiChis 10/5/2016 14:01",

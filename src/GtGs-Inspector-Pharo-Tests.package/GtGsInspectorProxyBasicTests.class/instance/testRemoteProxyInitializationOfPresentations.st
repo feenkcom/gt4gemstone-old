@@ -1,4 +1,4 @@
-testing
+tests
 testRemoteProxyInitializationOfPresentations
 	| inspectorProxy gsStatePresentation gsEvaluatorPresentation |
 	

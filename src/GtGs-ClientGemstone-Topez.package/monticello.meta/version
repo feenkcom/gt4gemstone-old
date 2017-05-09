@@ -1,2 +1,2 @@
-(name 'GtGs-ClientGemstone-Topez-AndreiChis.8' message 'Duplicate #informClient: in TDTopezServer' id 'bc803061-94a8-4338-8272-4af282e4a37c' date '27 April 2017' time '5:57:29.798362 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Topez-AndreiChis.7' message 'Duplicated #findSelectorFor: in TDTopezServer
-' id '6a7dc7c9-a706-5294-b93e-1080f89c7cd9' date '27 April 2017' time '5:39:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientGemstone-Topez-AndreiChis.11' message 'Extract the actual compiled method in #gtGsImplementorsOf:' id '7e48e0c2-73c0-4c9b-a7a1-edcf3a92ac43' date '8 May 2017' time '4:36:40.476706 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Topez-AndreiChis.10' message 'Updated #gtGsImplementorsOf:
+' id '0c950339-6c1b-5433-9fd0-4dcccab394d0' date '8 May 2017' time '4:32:09 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

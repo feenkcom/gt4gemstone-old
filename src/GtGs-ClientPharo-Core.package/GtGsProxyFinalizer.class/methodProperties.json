@@ -3,9 +3,10 @@
 		 },
 	"instance" : {
 		"clearGarbageCollectionProxyMap" : "AndreiChis 3/21/2017 22:24",
-		"decreaseGarbageCollectionCounterForBareProxy:" : "AndreiChis 3/21/2017 22:33",
-		"garbageCollectionMutex" : "AndreiChis 3/21/2017 22:02",
-		"garbageCollectionProxyMap" : "AndreiChis 3/21/2017 22:03",
-		"registerForGarbageCollectionBareProxy:" : "AndreiChis 3/21/2017 22:30",
-		"registerForGarbageCollectionInspectorProxy:" : "AndreiChis 3/21/2017 22:45",
-		"releaseInspectorProxyWithOopAndClient:" : "AndreiChis 3/21/2017 23:15" } }
+		"decreaseGarbageCollectionCounterForBareProxyAndSession:" : "AndreiChis 5/4/2017 22:56",
+		"garbageCollectionMutex" : "AndreiChis 5/4/2017 22:14",
+		"garbageCollectionProxyMap" : "AndreiChis 5/4/2017 22:15",
+		"initialize" : "AndreiChis 5/4/2017 22:15",
+		"registerForGarbageCollectionBareProxy:" : "AndreiChis 5/4/2017 22:52",
+		"registerForGarbageCollectionRemoteTool:" : "AndreiChis 5/4/2017 22:53",
+		"releaseRemoteToolWithOopAndSession:" : "AndreiChis 5/4/2017 22:53" } }

@@ -20,7 +20,6 @@ OPTIONS
      The amount of memory in MB that used by topaz gemstone session (GEM_TEMPOBJ_CACHE_SIZE).
   -l <log-file>
      The name of the log file where the topaz output will be placed.
-     DEFAULT is '-l MFC.out'
   -f <target-file>
      The topaz file that will be loaded in the stone
   -g <gemstone-version>
@@ -54,7 +53,7 @@ gemstone="gt4gemstone"
 gemuser="SystemUser"
 gempassword="swordfish"
 tempObjCacheCommand=""
-logFile="MFC.out"
+logFileCommand=""
 targetFile="load_full.topaz"
 gemstoneVersion="3.3.0"
 actionType="try"
@@ -64,7 +63,7 @@ while getopts "s:u:p:c:l:f:g:a:" OPT ; do
     u) gemuser="${OPTARG}" ;;
     p) gempassword="${OPTARG}" ;;
     c) tempObjCacheCommand="-C GEM_TEMPOBJ_CACHE_SIZE=${OPTARG}MB";;
-    l) logFile="${OPTARG}" ;;
+    l) logFileCommand=">> ${OPTARG}" ;;
     f) targetFile="${OPTARG}" ;;
     g) gemstoneVersion="${OPTARG}" ;;
     a) actionType="${OPTARG}" ;;
@@ -94,7 +93,7 @@ esac
 
 echo "[INFO] Run topaz command."
 
-topaz -il ${tempObjCacheCommand} <<EOF >>${logFile}
+topaz -il ${tempObjCacheCommand} <<EOF ${logFileCommand}
 set user ${gemuser} password ${gempassword} gemstone ${gemstone}
 login
 ${preLoadCommand}

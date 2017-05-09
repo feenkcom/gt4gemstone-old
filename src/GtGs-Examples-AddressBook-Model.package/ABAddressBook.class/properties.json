@@ -1,16 +1,15 @@
 {
-	"commentStamp" : "AndreiChis 7/8/2015 16:07",
-	"super" : "Object",
 	"category" : "GtGs-Examples-AddressBook-Model",
 	"classinstvars" : [
-		"default"
-	],
-	"pools" : [ ],
-	"classvars" : [ ],
+		"default" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 7/8/2015 16:07",
 	"instvars" : [
 		"label",
-		"contacts"
-	],
+		"contacts" ],
 	"name" : "ABAddressBook",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,17 +1,18 @@
 {
-	"commentStamp" : "AndreiChis 1/28/2015 00:37",
-	"super" : "ABDomainObject",
 	"category" : "GtGs-Examples-AddressBook-Model",
-	"classinstvars" : [ ],
-	"pools" : [ ],
-	"classvars" : [ ],
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 1/28/2015 00:37",
 	"instvars" : [
 		"address",
 		"firstName",
 		"lastName",
 		"avatarId",
-		"description"
-	],
+		"description" ],
 	"name" : "ABContact",
-	"type" : "normal"
-}
+	"pools" : [
+		 ],
+	"super" : "ABDomainObject",
+	"type" : "normal" }

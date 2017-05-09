@@ -1,4 +1,4 @@
-testing - gc
+tests- gc
 testGargabeCollectionRemoteRegistration
 	| inspectorProxy |
 	inspectorProxy := self client buildRemoteInspectorProxyFrom: self newBasicTestObject.

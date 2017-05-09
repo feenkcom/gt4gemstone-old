@@ -1,7 +1,7 @@
 login/logout
 loginWith: aSessionDescription
 	| todeServerCreationString jsonString resultArray todeServerOop transcriptOopType authorId |
-	self startTime: DateAndTime now.
+
 	self sessionDescription: aSessionDescription.
 	session := (GsDevKitSession new sessionDescription: aSessionDescription) session.
 	session clientObj: self.
@@ -13,6 +13,11 @@ loginWith: aSessionDescription
 				error:
 					'Unable to log into server:' , ex description , 'with: '
 						, todeServerCreationString printString ].
+	jsonString ifNil: [ 
+		self initializeWithoutTopez.
+		self postLoginInitialization.
+		^ self ].	
+				
 	resultArray := self objectSerializer fromString: jsonString.
 	todeServerOop := resultArray at: 1.
 	todeClientOopType := (resultArray at: 3) gciResultToGsOopType: self session.
@@ -45,6 +50,5 @@ loginWith: aSessionDescription
 				send: #effectiveApiVersion:
 				to: todeServerOopType
 				withArgs: {self effectiveApiVersion asString} ].
-	self initializeSessionId.
-	needsCommitIndicator := false.
-	self registerWithSessionHandler.
+	
+	self postLoginInitialization

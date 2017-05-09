@@ -1,4 +1,4 @@
-testing - gc
+tests- gc
 testGargabeCollectionRemovalForced
 	| inspectorProxy |
 		
@@ -6,7 +6,7 @@ testGargabeCollectionRemovalForced
 	self assertInInspectorProxyGCRegistry: inspectorProxy selfOop.
 	
 	self client 
-			send: #removeFromTopezCache
+			send: #removeFromSessionStorage
 			to: inspectorProxy selfOopType.
 	
 	self assert: (self client finalizationRegistry keys includes: inspectorProxy).	

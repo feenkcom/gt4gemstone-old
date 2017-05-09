@@ -9,8 +9,7 @@ methodsForCategoryLogic
 		
 		(currentCategoryName = '--all--') 
 			ifTrue: [ targetClass selectors sortWithBlock: [ :a :b | a < b ] ]
-			ifFalse: [ (targetClass selectors select: [ :aSelector |
-				(targetClass compiledMethodAt: aSelector) category = targetCategory ])
+			ifFalse: [ (targetClass selectors select: [ :aSelector ||gsnMethod|
+				gsnMethod := targetClass compiledMethodAt: aSelector.
+				(gsnMethod inClass categoryOfSelector: gsnMethod selector) = targetCategory ])
 					sortWithBlock: [ :a :b | a < b ] ] ]
-	
-	

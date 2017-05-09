@@ -1,7 +1,7 @@
 login/logout
 logout
 	super logout.
-	self proxyFinalizer clearGarbageCollectionProxyMap.
+	self resetProxyFinalizer.
 	self closeAllRemoteWindows.
 	sessionId := nil.
 	needsCommitIndicator := nil.

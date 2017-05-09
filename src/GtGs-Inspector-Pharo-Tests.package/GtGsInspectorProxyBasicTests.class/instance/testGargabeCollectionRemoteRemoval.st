@@ -1,4 +1,4 @@
-testing - gc
+tests- gc
 testGargabeCollectionRemoteRemoval
 	| inspectorProxy inspectorProxyOop inspectorProxyOopType optainedOop |
 	

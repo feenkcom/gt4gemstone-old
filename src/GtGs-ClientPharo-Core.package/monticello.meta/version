@@ -1,2 +1,2 @@
-(name 'GtGs-ClientPharo-Core-AndreiChis.15' message 'Added #findPossibleSelectorFor:' id 'dcdbb4b2-b1fa-4ab8-898c-0d44b917e66c' date '24 April 2017' time '12:13:32.73604 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.14' message 'set the gemstoneClient for remore browsers
-' id '02fd21dc-5ae1-5342-a979-ae41e8466117' date '19 April 2017' time '9:12:55 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientPharo-Core-AndreiChis.21' message 'Only reset the proxy finalizer if it''s not nil.' id '399ab74c-9af7-44d5-a0a7-5113323c7306' date '4 May 2017' time '11:26:10.645455 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientPharo-Core-AndreiChis.20' message 'Fixed the remote garbage collection to not trigger errors if a client logs out and then logs in again.
+' id '0c5d7d2e-5979-5b9c-b44f-491596cd51c7' date '4 May 2017' time '11:11:58 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
