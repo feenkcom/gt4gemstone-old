@@ -18,7 +18,7 @@ The above command produces the same results as the commands bellow. In case you 
    
 In case you are already have a `Gt4Gemstone.ston` file at `/sys/local/server/projects` you can use it:
  
-   project load --install --local Gt4Gemstone
+    project load --install --local Gt4Gemstone
    
 The above commands represent tODE commands that can be executed in a tODE shell from a tODE client image connected with the stone. A different way of executing these commands is from another gt4gemstone client image. In that case, you need to create a `TDMinimalClient`, connect it to the stone, and run the corresponsing tODE commands through the client. A `TDMinimalClient` is needed as gt4gemstone is not present in the remote stone. For example, gt4gemstone can be loaded as follows. `<...>` should be replaced with the name of the corresponding session description. `SCIGemStoneServerConfigSpec defaultSessionName` can be used if that session description is the default one.
 
@@ -41,13 +41,15 @@ The command to update the project in the tODE shell is:
      
 The following code can be used within a playground in an image that already has gt4gemstone installed. `SCIGemStoneServerConfigSpec defaultSessionName` can be replaced with the name of the session description, if it is not the default one.
 
-     gemstoneClient := GtGsSessionsLifecycleHandler defaultClientType asClass forSessionDescriptionNamed: SCIGemStoneServerConfigSpec defaultSessionName.
+     gemstoneClient := GtGsMinimalClient forSessionDescriptionNamed: SCIGemStoneServerConfigSpec defaultSessionName.
      gemstoneClient evaluateCommandStream: 'project load Gt4Gemstone' readStream .
      gemstoneClient evaluateCommandStream: 'commit' readStream.
      "Logout is optional if you do not want to use this client any more"
      gemstoneClient logout.
 
-Instead of creating a client manually you can create a client using the 'Gemstone Session Handler' tool (select 'Gt4Gemstone -> Open Session handler' from the world menu). Then you can open a 'Local Playground' where the variable `gemstoneClient` is bound to the selected client.
+Here an instance of `GtGsMinimalClient` should be used. gt4gemstone also provides another client, `GtGsBareClient`, however this client cannot execute tODE commands. It's also possible to use an instance of `TDMinimalClient`.
+
+Instead of creating a client manually you can create a client using the 'Gemstone Session Handler' tool (select 'Gt4Gemstone -> Open Session handler' from the world menu). Then you can open a 'Local Playground' where the variable `gemstoneClient` is bound to the selected client. However, this will only work if the client is of type `GtGsMinimalClient`.
 
 ## Code examples
 
