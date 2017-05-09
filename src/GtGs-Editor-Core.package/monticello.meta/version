@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.24' message 'Fixed more issues related to #category' id '31647f61-177a-4bb2-b235-e3ac76b91f45' date '9 May 2017' time '11:58:29.285152 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.23' message 'Prevent the garbage collection of the message browser.
-' id '5fbf9fc3-f9d7-5090-b1e6-ffeda59f7afe' date '4 May 2017' time '2:34:25 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.25' message 'Return an explicit nill is GtGs_Cached_Class_Organizer is missing in the SessionTemps' id '94c949c8-4508-4888-8fec-a282c47d71a8' date '9 May 2017' time '10:22:45.981226 pm' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.24' message 'Fixed more issues related to #category
+' id '474acc5a-29df-561d-83f1-c32d1c3dd309' date '9 May 2017' time '11:58:34 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
