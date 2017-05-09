@@ -51,4 +51,4 @@ Instead of creating a client manually you can create a client using the 'Gemston
 
 ## Code examples
 
-Now that you have gt4gemstone installed you can take at a look at some [examples](doc/basicCodeSnippets.md) of how to programatically use a gemstone client.
+Now that you have gt4gemstone installed you can take at a look at some [examples](/doc/basicCodeSnippets.md) of how to programatically use a gemstone client.
