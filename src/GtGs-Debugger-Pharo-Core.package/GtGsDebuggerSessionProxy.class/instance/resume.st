@@ -1,6 +1,6 @@
 pharo - debuggins actions
 resume
-	| processResult newDebugger |
+	| processResult |
 	processResult := self basicResumeGemstoneProcess.
 
 	processResult first = #closeAndReturn 
@@ -21,7 +21,4 @@ resume
 	self debugger removeSessionSilently.
 	
 	"The resume action will close the debugger."
-	newDebugger:= self debugger class new.
-	self debugger: newDebugger. 
-	newDebugger session: self.
-	self spawnDebugger: newDebugger.
+	self spawnDebugger: (self debugger class on: self).

@@ -3,5 +3,5 @@ spawnDebugger: aNewDebugger
 	| previousDebugger |
 
 	previousDebugger := self debugger.
-	"self debugger: aNewDebugger."
+	self debugger: aNewDebugger.
 	aNewDebugger openAndInitialize: aNewDebugger.
