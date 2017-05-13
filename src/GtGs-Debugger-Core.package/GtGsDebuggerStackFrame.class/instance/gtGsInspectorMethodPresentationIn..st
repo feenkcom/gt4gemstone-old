@@ -1,5 +1,5 @@
 ui
 gtGsInspectorMethodPresentationIn: aComposite
-	<gtInspectorPresentationOrder: 12>
+	"<gtInspectorPresentationOrder: 12>"
 	
 	^ aComposite custom: self buildMethodPresentation

@@ -8,4 +8,5 @@ updateFromFrame: aStackFrame
 	sourceCode := aStackFrame cachedSourceCode.
 	methodPresentation := aStackFrame methodPresentation.
 	selectionRange := aStackFrame selectionRange.
+	cachedSelector := aStackFrame selector.
 	inspectorVariableNodes := aStackFrame inspectorVariableNodes
