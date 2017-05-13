@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"signal" ],
+	"name" : "GtGsLogBasicEvent",
+	"pools" : [
+		 ],
+	"super" : "GtGsLogEvent",
+	"type" : "normal" }

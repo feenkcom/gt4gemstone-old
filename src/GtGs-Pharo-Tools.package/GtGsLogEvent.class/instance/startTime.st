@@ -1,0 +1,3 @@
+accessing
+startTime
+	self subclassResponsibility 

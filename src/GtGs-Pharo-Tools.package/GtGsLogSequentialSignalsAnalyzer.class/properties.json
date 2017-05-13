@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sessionStacks" ],
+	"name" : "GtGsLogSequentialSignalsAnalyzer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

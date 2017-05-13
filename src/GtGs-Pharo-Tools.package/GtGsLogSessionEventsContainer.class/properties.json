@@ -1,0 +1,18 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gemstoneClient",
+		"sessionDetails",
+		"events",
+		"sessionName",
+		"sessionHash" ],
+	"name" : "GtGsLogSessionEventsContainer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
