@@ -5,4 +5,6 @@ logout
 	self closeAllRemoteWindows.
 	sessionId := nil.
 	needsCommitIndicator := nil.
-	self updateSessionHandler
+	self updateSessionHandler.
+	#GtGsGemstoneClientLoggedOutSignal asClassIfPresent: [ :signalClass |
+		signalClass emitForClient: self ]
