@@ -1,4 +1,4 @@
-as yet unclassified
+api - gemstone
 executeSecondForwarderCallToGemstoneWithArg: anInteger
-	self halt.
+	"self halt."
 	^ selfForwarder sendThirdForwarderCallToGemstoneWithArg: anInteger + 1

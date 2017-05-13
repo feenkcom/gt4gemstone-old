@@ -1,4 +1,4 @@
-as yet unclassified
+api - pharo
 sendThirdForwarderCallToGemstoneWithArg: anInteger
-	self halt.
+	"self halt."
 	^ anInteger + 2

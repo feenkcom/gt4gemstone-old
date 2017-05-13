@@ -1,2 +1,2 @@
-(name 'GtGs-Common-Resources-Tests-AndreiChis.15' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:' id 'c5c82683-8ab5-4714-9a60-ee70c9fd7034' date '27 March 2017' time '4:28:51.347761 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.14' message 'Improved GtGsTestObjectWithPrintError
-' id '1fa599c5-cf52-5aa7-98e4-8481d9f21092' date '21 December 2016' time '4:47:51 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Common-Resources-Tests-AndreiChis.16' message 'Fixed GtGsPharoGemstonePingPong' id '84806101-82ef-4386-979a-a27d71e8650e' date '13 May 2017' time '4:15:56.064953 pm' author 'AndreiChis' ancestors ((name 'GtGs-Common-Resources-Tests-AndreiChis.15' message 'Renamed #performStringRemotely: to #evaluateStringRemotely:
+' id 'f5023ac6-d0c5-5db7-9313-93b9243b2d0d' date '27 March 2017' time '4:28:54 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
