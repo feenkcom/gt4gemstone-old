@@ -4,6 +4,7 @@
 	"instance" : {
 		"buildDebuggerSessionForException:fromProcess:" : "AndreiChis 11/14/2016 15:59",
 		"collectDebuggerStackForProcess:" : "AndreiChis 11/8/2016 13:30",
+		"compileSource:classified:inClass:" : "AndreiChis 5/14/2017 12:42",
 		"compileSource:classified:inClassNamed:onClassSideIf:" : "AndreiChis 3/22/2017 17:48",
 		"compileString:inContext:literalVars:" : "AndreiChis 3/22/2017 17:47",
 		"debugString:" : "AndreiChis 3/22/2017 17:45",
