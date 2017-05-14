@@ -22,6 +22,7 @@ methodCodeIn: aComposite forDebugger: aDebugger
 				ifNil: [ 1 to: 0]
 				ifNotNil: [aDebugger session  selectedCodeRangeForContext: aDebugger currentContext] ) ] ] .
 		
-	aComposite custom: self methodPresentation glamourPresentation
+	aComposite custom: (self methodPresentation glamourPresentation
+		with: [ :code | aDebugger installCodeActionsFor: code ] )
 	
 	
