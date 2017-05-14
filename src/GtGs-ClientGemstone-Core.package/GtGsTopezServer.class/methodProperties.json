@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"compileSource:classified:inClassNamed:onClassSideIf:" : "AndreiChis 3/22/2017 17:46",
+		"compileSource:classified:inClass:" : "AndreiChis 5/14/2017 17:41",
+		"compileSource:classified:inClassNamed:onClassSideIf:" : "AndreiChis 5/14/2017 12:43",
 		"concreteClass" : "AndreiChis 10/26/2016 15:44",
 		"concreteClassName" : "AndreiChis 10/26/2016 14:57",
 		"concreteClassName:" : "TravisCI 10/26/2016 13:40",
@@ -8,11 +9,11 @@
 		"for:" : "TravisCI 10/26/2016 13:35",
 		"initialize" : "TravisCI 10/26/2016 13:35",
 		"instanceMap" : "TravisCI 10/26/2016 13:44",
-		"parseSelector:for:" : "AndreiChis 3/22/2017 17:47",
 		"select" : "TravisCI 10/26/2016 13:35",
 		"todeServerAPIVersionString" : "AndreiChis 12/23/2016 14:55:43" },
 	"instance" : {
 		"authorInitials:" : "TravisCI 10/26/2016 14:02",
+		"compileSource:classified:inClass:" : "AndreiChis 5/14/2017 12:42",
 		"compileSource:classified:inClassNamed:onClassSideIf:" : "AndreiChis 3/22/2017 17:47",
 		"compileString:inContext:literalVars:" : "AndreiChis 3/22/2017 11:21",
 		"debugString:" : "AndreiChis 3/22/2017 11:26",
