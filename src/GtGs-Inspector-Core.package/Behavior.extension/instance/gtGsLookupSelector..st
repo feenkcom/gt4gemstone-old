@@ -6,7 +6,7 @@ gtGsLookupSelector: selector
 	Return nil if no method is found."
 
   | lookupClass |
-  lookupClass := (Reflection classOf: self).
+  lookupClass := self.
   [ lookupClass == nil ]
     whileFalse: [ 
       (lookupClass includesSelector: selector)
