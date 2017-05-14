@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.47' message 'Added a debug action for saving the code in the code pane.' id '8411366b-06c8-4bfc-b62d-30970d03fa5c' date '14 May 2017' time '5:45:24.432351 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.46' message 'Do not override frameIndex:
-' id 'dc1fc7ec-12c6-5d18-badc-d548709cb6bd' date '14 May 2017' time '1:02:05 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.48' message 'Changed #dbSave: to correctly determine of a new selector was added.' id 'ee60098f-76a6-436a-9dfb-cb75de2892dc' date '14 May 2017' time '6:09:43.026946 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.47' message 'Added a debug action for saving the code in the code pane.
+' id '07596935-c53d-52db-9d94-96effa0e7eea' date '14 May 2017' time '5:45:29 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
