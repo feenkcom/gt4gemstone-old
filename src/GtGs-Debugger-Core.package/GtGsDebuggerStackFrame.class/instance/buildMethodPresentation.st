@@ -11,3 +11,7 @@ buildMethodPresentation
 		format: [ :aString | aString ];
 		attachCodeExecutionActions;
 		when: [ self gtGsIsGemstone ]
+		"gsSelectionAct: [ :aGsPresentation | 	
+				true ]
+			on: nil 
+			entitled: 'Accept'"

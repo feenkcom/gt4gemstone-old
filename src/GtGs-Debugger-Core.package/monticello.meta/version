@@ -1,2 +1,2 @@
-(name 'GtGs-Debugger-Core-AndreiChis.46' message 'Do not override frameIndex:' id '314cc21e-9da9-4fc9-9676-e88ddfdc3dcf' date '14 May 2017' time '1:01:59.992254 am' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.45' message '- Changed the way #selector is initialized in a frame context- return the computed value on resume
-' id '01853583-2b91-5441-9f20-5b21e29b3159' date '14 May 2017' time '12:33:08 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Debugger-Core-AndreiChis.47' message 'Added a debug action for saving the code in the code pane.' id '8411366b-06c8-4bfc-b62d-30970d03fa5c' date '14 May 2017' time '5:45:24.432351 pm' author 'AndreiChis' ancestors ((name 'GtGs-Debugger-Core-AndreiChis.46' message 'Do not override frameIndex:
+' id 'dc1fc7ec-12c6-5d18-badc-d548709cb6bd' date '14 May 2017' time '1:02:05 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
