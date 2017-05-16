@@ -88,6 +88,7 @@ baseline: spec
 			package: 'GtGs-Inspector-Core' with: [ spec requires: #('GtGs-ClientGemstone-Core') ];
 			package: 'GtGs-Inspector-SystemExtensions' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Extensions'  with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Spotter-Gemstone-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Debugger-Core'  with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Inspector-Roassal-Core';
@@ -97,7 +98,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-ClientGemstone-Core' 'GtGs-ClientGemstone-Topez' 'GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core' 'GtGs-Inspector-Roassal-Core');
+				with: #('GtGs-ClientGemstone-Core' 'GtGs-ClientGemstone-Topez' 'GtGs-Inspector-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Debugger-Core' 'GtGs-Spotter-Gemstone-Core' 'GtGs-Inspector-Roassal-Core');
 			group: 'Tests'
 				with: #('GtGs-Inspector-Gemstone-Tests' 'GtGs-Common-Resources-Tests');
 			group: 'Examples'

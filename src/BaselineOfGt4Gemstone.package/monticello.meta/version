@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-AndreiChis.40' message 'Load roassal support in gemstone' id 'bdc38daa-8308-0d00-a469-358c09b24acf' date '1 April 2017' time '11:51:32.394123 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.39' message 'Added the roassal package to the baseline; they are not loaded for the moment.
-' id 'ff760fcd-20bd-574c-980f-a54eec395af5' date '1 April 2017' time '11:48:39 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.41' message 'Added GtGs-Spotter-Gemstone-Core to the gemstone baseline.' id '56d49378-eeb2-431d-bda6-8344caa60546' date '16 May 2017' time '11:18:07.347094 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.40' message 'Load roassal support in gemstone
+' id '9683f580-cdbc-51ff-8648-83e451873084' date '1 April 2017' time '11:51:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
