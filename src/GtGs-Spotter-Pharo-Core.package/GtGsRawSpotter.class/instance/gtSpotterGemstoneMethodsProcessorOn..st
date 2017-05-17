@@ -11,13 +11,15 @@ gtSpotterGemstoneMethodsProcessorOn: aStep
 			self gemstoneClient onServerDo: [ 
 				(Object _objectForOop: topezOop) gtGsBrowseTool browseImplementorsOf: item.
 				true ] ];
-		gemstoneItems: [ :topezServer :queryString | | allSelectors |
+		gemstoneItems: [ :topezServer :queryString | 
+			| allSelectors formattedQuery |
 			allSelectors := Set new.
+			formattedQuery := queryString ifNotNil: [ queryString asLowercase ].
 			topezServer gtGsSystemNavigation classOrganizer classes do: [ :aClass |
 				allSelectors addAll: (aClass selectors select: [ :each | 
-					queryString isNil 
+					formattedQuery isNil 
 						ifTrue: [ true ]
-						ifFalse: [ (each asLowercase findString: queryString startingAt: 1) > 0 ] ]) ].
+						ifFalse: [ (each asLowercase findString: formattedQuery startingAt: 1) > 0 ] ]) ].
 			allSelectors asArray ];
 		"gemstoneAllCandidates: [ :topezServer | | allSelectors |
 				allSelectors := Set new.

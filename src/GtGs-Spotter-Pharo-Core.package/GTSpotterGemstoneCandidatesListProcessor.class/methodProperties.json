@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"gemstoneAllCandidates:" : "AndreiChis 5/16/2017 20:12",
-		"gemstoneClient" : "AndreiChis 5/16/2017 16:27",
-		"gemstoneClient:" : "AndreiChis 5/16/2017 16:26",
-		"gemstoneItemName:" : "AndreiChis 5/16/2017 15:10",
-		"gemstoneItems:" : "AndreiChis 5/16/2017 20:31",
-		"performCompleteSearchFor:andServerOop:" : "AndreiChis 5/16/2017 20:22",
-		"performSearchBlockFor:andServerOop:" : "AndreiChis 5/16/2017 20:22",
-		"proxyToSearchResultForContext:" : "AndreiChis 5/16/2017 20:21",
-		"updateItemsBlock" : "AndreiChis 5/16/2017 20:19" } }
+		"gemstoneAllCandidates:" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneClient" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneClient:" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneItemName:" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneItems:" : "AndreiChis 5/16/2017 20:56:42",
+		"performCompleteSearchFor:andServerOop:" : "smalltalkCI 5/17/2017 10:53",
+		"performSearchBlockFor:andServerOop:" : "AndreiChis 5/16/2017 20:56:42",
+		"proxyToSearchResultForContext:" : "smalltalkCI 5/17/2017 10:49",
+		"updateItemsBlock" : "AndreiChis 5/16/2017 20:56:42" } }

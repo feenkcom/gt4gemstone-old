@@ -2,7 +2,7 @@ searching
 proxyToSearchResultForContext: aContext
 	| searchQuery topesServerOop|
 	topesServerOop := self gemstoneClient todeServerOopType asInteger .
-	searchQuery := 	aContext text ifEmpty: [ nil ] ifNotEmpty: [ :text2 | text2 asLowercase ] .
+	searchQuery := 	aContext text ifEmpty: [ nil ] ifNotEmpty: [ :text2 | text2 trimBoth ] .
 
 	gemstoneAllCandidatesBlock ifNotNil: [ 
 		^ self performCompleteSearchFor: searchQuery andServerOop: topesServerOop ].

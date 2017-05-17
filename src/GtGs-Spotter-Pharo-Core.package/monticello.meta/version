@@ -1,1 +1,2 @@
-(name 'GtGs-Spotter-Pharo-Core-AndreiChis.1' message 'First try at a spotter for searching through gemstone.' id '21120c82-8ad9-46b2-b136-c4d768c46be1' date '16 May 2017' time '8:56:40.832609 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Spotter-Pharo-Core-smalltalkCI.2' message 'Do not convert the query sring to lowercase be default.' id '483dc505-f211-4cf6-865f-9a9427b21301' date '17 May 2017' time '10:59:10.51484 am' author 'smalltalkCI' ancestors ((name 'GtGs-Spotter-Pharo-Core-AndreiChis.1' message 'First try at a spotter for searching through gemstone.
+' id '390500b0-0969-5558-a608-cce4a8f21407' date '16 May 2017' time '8:56:42 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

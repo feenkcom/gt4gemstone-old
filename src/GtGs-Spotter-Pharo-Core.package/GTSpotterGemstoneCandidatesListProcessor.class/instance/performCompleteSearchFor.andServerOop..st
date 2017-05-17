@@ -2,7 +2,7 @@ searching
 performCompleteSearchFor: aQuery andServerOop: aTopezServerOop
 
 	^ ([ :topezOop :searchQuery :candidatesBlockString :formatBlockString |
-			|candidatesBlock formatBlock possibleCandidates|
+			|candidatesBlock formattedQuery formatBlock possibleCandidates|
 			candidatesBlock := candidatesBlockString evaluate.
 			formatBlock := formatBlockString ifNotNil: [ formatBlockString evaluate ].
 			
@@ -11,8 +11,9 @@ performCompleteSearchFor: aQuery andServerOop: aTopezServerOop
 				ifNil: [ possibleCandidates asArray ] 
 				ifNotNil: [ possibleCandidates asArray collect: [ :each | formatBlock value: each ] ].
 			searchQuery = nil ifFalse: [ 
+				formattedQuery := searchQuery asLowercase.
 				possibleCandidates := possibleCandidates select: [ :each | 
-					(each asLowercase findString: searchQuery startingAt: 1) > 0 ] ].
+					(each asLowercase findString: formattedQuery startingAt: 1) > 0 ] ].
 			possibleCandidates
 		] gtGsBarePerformRemotelyOn: self gemstoneClient withArguments: 
 			{ 

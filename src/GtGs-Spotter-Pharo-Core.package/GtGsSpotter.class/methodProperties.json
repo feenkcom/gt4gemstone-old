@@ -1,14 +1,14 @@
 {
 	"class" : {
-		"instantiateUsingGemstoneClient:" : "AndreiChis 5/15/2017 18:11" },
+		"instantiateUsingGemstoneClient:" : "AndreiChis 5/16/2017 20:56:42" },
 	"instance" : {
-		"gemstoneClassesProcessorOn:" : "AndreiChis 5/16/2017 20:38",
-		"gemstoneClient" : "AndreiChis 5/15/2017 18:11",
-		"gemstoneClient:" : "AndreiChis 5/15/2017 18:11",
-		"gemstoneUsersProcessorOn:" : "AndreiChis 5/16/2017 20:38",
-		"gtSpotterGemstoneClassesProcessorOn:" : "AndreiChis 5/16/2017 20:38",
-		"obtainSearchResultForQuery:withProcessor:" : "AndreiChis 5/15/2017 19:07",
-		"obtainSpotterProcessorsConfigurations" : "AndreiChis 5/15/2017 18:20",
-		"spotterModelOopType" : "AndreiChis 5/15/2017 18:11",
-		"spotterModelOopType:" : "AndreiChis 5/15/2017 18:12",
-		"spotterProcessorsFor:" : "AndreiChis 5/15/2017 23:06" } }
+		"gemstoneClassesProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneClient" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneClient:" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneUsersProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"gtSpotterGemstoneClassesProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"obtainSearchResultForQuery:withProcessor:" : "AndreiChis 5/16/2017 20:56:42",
+		"obtainSpotterProcessorsConfigurations" : "AndreiChis 5/16/2017 20:56:42",
+		"spotterModelOopType" : "AndreiChis 5/16/2017 20:56:42",
+		"spotterModelOopType:" : "AndreiChis 5/16/2017 20:56:42",
+		"spotterProcessorsFor:" : "AndreiChis 5/16/2017 20:56:42" } }
