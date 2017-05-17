@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Model-smalltalkCI.16' message 'Utility API for creating random contacts.' id '373dedc4-ecc9-4f27-b99b-fa37fff3c618' date '17 May 2017' time '4:23:15.761334 pm' author 'smalltalkCI' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.15' message 'Improved examples
-' id '3206e57e-2e31-56b2-b1dc-9e083c6f319d' date '17 May 2017' time '3:40:22 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Model-smalltalkCI.17' message 'small fixes in the API' id '5798ff61-53bf-42b0-8328-016111cc8163' date '17 May 2017' time '7:33:18.776487 pm' author 'smalltalkCI' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.16' message 'Utility API for creating random contacts.
+' id 'fcba79d3-4e7c-537d-82a5-ee100bb84c12' date '17 May 2017' time '4:23:21 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

@@ -1,7 +1,7 @@
 {
 	"category" : "GtGs-Examples-AddressBook-Model",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "smalltalkCI 5/17/2017 15:29",
