@@ -10,7 +10,7 @@ compose
 	
 	clientPresentation := self table.
 	clientPresentation
-		title: 'Current Active Sessions';
+		title: 'Current Sessions';
 		display: [ self gemstoneClients ];
 		column: 'Name' evaluated: [ :aGemstoneClient | 
 			self 
