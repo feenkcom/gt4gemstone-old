@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"exampleHolderSimple" : "smalltalkCI 5/17/2017 15:28",
+		"exampleHolderWithLargeAddressBook" : "smalltalkCI 5/17/2017 15:28" },
 	"instance" : {
 		"addAddressBook:" : "AndreiChis 3/12/2017 00:45",
 		"addressBooks" : "AndreiChis 3/12/2017 00:45",
