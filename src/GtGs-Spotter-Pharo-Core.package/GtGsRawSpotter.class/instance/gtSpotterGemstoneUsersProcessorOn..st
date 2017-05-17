@@ -2,7 +2,7 @@ as yet unclassified
 gtSpotterGemstoneUsersProcessorOn: aStep
 	<spotterOrder: 5>
 	aStep listProcessor
-		title: 'Gemstone Users';
+		title: (self formatProcessorTitle: 'Users');
 		itemName: [ :name | name ];
 		actLogic: [ :item :step |
 			step exit.

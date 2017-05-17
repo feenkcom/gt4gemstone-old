@@ -2,7 +2,7 @@ as yet unclassified
 gtSpotterGemstoneSendersProcessorOn: aStep
 	<spotterOrder: 10>
 	aStep listProcessor
-		title: 'Gemstone Senders';
+		title: (self formatProcessorTitle: 'Senders');
 		itemName: [ :name | name ];
 		filter: GTFilterSubstring item: [ :filter :context || searchQuery topezOop |
 			searchQuery := context text ifEmpty: [ nil ].

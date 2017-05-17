@@ -2,7 +2,7 @@ as yet unclassified
 gtSpotterGemstoneImplementorsProcessorOn: aStep
 	<spotterOrder: 10>
 	aStep gemstoneListProcessor
-		title: 'Gemstone Implementors';
+		title: (self formatProcessorTitle: 'Implementors');
 		itemName: [ :name | name ];
 		gemstoneItems: [ :topezServer :queryString | 
 			(topezServer gtGsSystemNavigation gtGsImplementorsOf: queryString asSymbol) collect: [ :aMethod |

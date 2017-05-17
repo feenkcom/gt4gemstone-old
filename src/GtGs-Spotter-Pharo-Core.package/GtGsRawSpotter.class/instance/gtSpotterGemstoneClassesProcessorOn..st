@@ -2,7 +2,7 @@ as yet unclassified
 gtSpotterGemstoneClassesProcessorOn: aStep
 	<spotterOrder: 5>
 	aStep gemstoneListProcessor
-		title: 'Gemstone Classes';
+		title: (self formatProcessorTitle: 'Classes');
 		itemName: [ :name | name ];
 		actLogic: [ :item :step |
 			step exit.

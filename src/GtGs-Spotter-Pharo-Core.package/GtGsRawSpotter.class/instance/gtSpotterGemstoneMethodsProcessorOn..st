@@ -2,7 +2,7 @@ as yet unclassified
 gtSpotterGemstoneMethodsProcessorOn: aStep
 	<spotterOrder: 10>
 	aStep gemstoneListProcessor
-		title: 'Gemstone Methods';
+		title: (self formatProcessorTitle: 'Methods');
 		itemName: [ :name | name ];
 		filter: GTFilterSubstring;
 		actLogic: [ :item :step || topezOop |
