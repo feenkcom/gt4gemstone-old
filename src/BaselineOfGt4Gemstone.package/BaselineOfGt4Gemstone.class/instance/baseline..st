@@ -40,6 +40,8 @@ baseline: spec
 			package: 'GtGs-Editor-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
 			package: 'GtGs-Editor-Pharo-Core' with: [ spec requires: #('GtGs-Editor-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Playground-Pharo-Core'  with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
+			package: 'GtGs-Spotter-Gemstone-Core' with: [ spec requires: #('GtGs-Inspector-Core') ];
+			package: 'GtGs-Spotter-Pharo-Core' with: [ spec requires: #('GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Inspector-Roassal-Core';
 			package: 'GtGs-Inspector-Roassal-Pharo';
@@ -51,7 +53,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-ClientGemstone-Core' 'GtGs-ClientPharo-Core' 'GtGs-ClientGemstone-Topez'  'GtGs-Inspector-Core' 'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core' 'GtGs-Editor-Pharo-Core' 'GtGs-BareProxy-Pharo');
+				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-ClientGemstone-Core' 'GtGs-ClientPharo-Core' 'GtGs-ClientGemstone-Topez'  'GtGs-Inspector-Core'  'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Spotter-Gemstone-Core' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core' 'GtGs-Editor-Pharo-Core' 'GtGs-Spotter-Pharo-Core' 'GtGs-BareProxy-Pharo' );
 			group: 'Tests'
 				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
