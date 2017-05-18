@@ -1,5 +1,5 @@
 actions
-loadDefaultDataIn: anAddressBook
+loadDefaultContactsIn: anAddressBook
 
 	anAddressBook contacts add: (
 	ABContact new

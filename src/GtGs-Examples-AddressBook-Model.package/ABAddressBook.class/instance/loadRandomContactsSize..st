@@ -1,3 +1,3 @@
 initialization
-initializeRandomDataSize: anInteger
+loadRandomContactsSize: anInteger
 	self class loadIn: self randomContactsSize: anInteger

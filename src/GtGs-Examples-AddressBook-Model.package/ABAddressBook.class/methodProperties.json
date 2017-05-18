@@ -1,8 +1,7 @@
 {
 	"class" : {
 		"default" : "AndreiChis 10/12/2016 16:31",
-		"loadDefaultData" : "AndreiChis 3/12/2017 13:31",
-		"loadDefaultDataIn:" : "AndreiChis 3/12/2017 00:44",
+		"loadDefaultContactsIn:" : "smalltalkCI 5/17/2017 23:54",
 		"loadIn:randomContactsSize:" : "smalltalkCI 5/17/2017 16:01",
 		"reset" : "StephanEggermont 12/8/2014 15:30" },
 	"instance" : {
@@ -14,8 +13,8 @@
 		"contactsWithTelephone:" : "AndreiChis 7/8/2015 15:24",
 		"gtGsInspectorAAContactsIn:" : "smalltalkCI 5/17/2017 17:47",
 		"gtGsInspectorAContactsOn:" : "smalltalkCI 5/17/2017 15:15",
-		"initializeDefault" : "AndreiChis 3/12/2017 00:50",
-		"initializeRandomDataSize:" : "smalltalkCI 5/17/2017 17:49",
 		"label" : "AndreiChis 1/23/2015 18:21",
 		"label:" : "AndreiChis 1/23/2015 18:21",
+		"loadDefaultContacts" : "smalltalkCI 5/17/2017 23:54",
+		"loadRandomContactsSize:" : "smalltalkCI 5/17/2017 23:52",
 		"printOn:" : "AndreiChis 7/8/2015 16:40" } }

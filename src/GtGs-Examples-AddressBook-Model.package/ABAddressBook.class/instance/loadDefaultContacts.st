@@ -1,0 +1,3 @@
+initialization
+loadDefaultContacts
+	self class loadDefaultContactsIn: self
