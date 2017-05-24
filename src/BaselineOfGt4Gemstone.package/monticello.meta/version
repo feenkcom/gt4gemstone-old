@@ -1,2 +1,2 @@
-(name 'BaselineOfGt4Gemstone-smalltalkCI.42' message 'Load spotter into the gemstone client.' id 'c0288569-3c98-43d7-b7d7-071f60cdcca8' date '17 May 2017' time '11:19:21.60002 pm' author 'smalltalkCI' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.41' message 'Added GtGs-Spotter-Gemstone-Core to the gemstone baseline.
-' id '760d3782-0b05-5356-8677-0065c14da5d1' date '16 May 2017' time '11:18:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGt4Gemstone-AndreiChis.43' message 'Load Beacon together with the custom Loggers' id 'e396fec0-7035-407d-a0ee-bf1148713403' date '24 May 2017' time '5:49:25.627255 pm' author 'AndreiChis' ancestors ((name 'BaselineOfGt4Gemstone-AndreiChis.42' message 'Load spotter into the gemstone client.
+' id '57d88019-ce0b-518f-b1f4-065eec52dd72' date '17 May 2017' time '11:19:28 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

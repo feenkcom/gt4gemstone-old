@@ -24,6 +24,13 @@ baseline: spec
                 loads: #('GsDevKitClient' 'GsDevKitClient Tests');
                 repository:
                     'github://GsDevKit/GsDevKit_home:dev/shared/repos/TodeClient' ].
+		spec
+        configuration: 'Beacon' 
+			 with: [ 
+        		  spec
+                className: 'ConfigurationOfBeacon';
+                versionString: #'development';
+                repository: 'http://www.smalltalkhub.com/mc/Pharo/Beacon/main' ].
 
 		spec
 			package: 'GtGs-Gemstone-Stubs';
@@ -45,6 +52,7 @@ baseline: spec
 			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Inspector-Roassal-Core';
 			package: 'GtGs-Inspector-Roassal-Pharo';
+			package: 'GtGs-Pharo-Tools'; with: [ spec requires: #('Beacon') ];
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Pharo-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Debugger-Pharo-Tests' with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Common-Resources-Tests') ];
@@ -53,7 +61,7 @@ baseline: spec
 			
 		spec
 			group: 'Core'
-				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-ClientGemstone-Core' 'GtGs-ClientPharo-Core' 'GtGs-ClientGemstone-Topez'  'GtGs-Inspector-Core'  'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Spotter-Gemstone-Core' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core' 'GtGs-Editor-Pharo-Core' 'GtGs-Spotter-Pharo-Core' 'GtGs-BareProxy-Pharo' );
+				with: #('GtGs-Gemstone-Stubs' 'GtGs-Gemstone-Stubs-Basic' 'GtGs-ClientGemstone-Core' 'GtGs-ClientPharo-Core' 'GtGs-ClientGemstone-Topez'  'GtGs-Inspector-Core'  'GtGs-Debugger-Core' 'GtGs-Editor-Core' 'GtGs-Inspector-Extensions' 'GtGs-Spotter-Gemstone-Core' 'GtGs-Inspector-Pharo-Core' 'GtGs-Playground-Pharo-Core' 'GtGs-Debugger-Pharo-Core' 'GtGs-Editor-Pharo-Core' 'GtGs-Spotter-Pharo-Core' 'GtGs-BareProxy-Pharo' 'GtGs-Pharo-Tools');
 			group: 'Tests'
 				with: #('GtGs-Common-Resources-Tests' 'GtGs-Inspector-Pharo-Tests' 'GtGs-Debugger-Pharo-Tests');
 			group: 'Examples'
