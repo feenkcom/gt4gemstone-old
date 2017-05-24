@@ -4,6 +4,9 @@ gtSpotterRawGemstoneSendersProcessorOn: aStep
 	aStep listProcessor
 		title: 'Gemstone Senders';
 		itemName: [ :name | name ];
+		actLogic: [ :item :step |
+			step exit.
+			self gemstoneClient browseMethodFromSignature: item ];
 		filter: GTFilterSubstring item: [ :filter :context || searchQuery topezOop |
 			searchQuery := context text ifEmpty: [ nil ].
 			searchQuery ifNotNil: [ |signatures|

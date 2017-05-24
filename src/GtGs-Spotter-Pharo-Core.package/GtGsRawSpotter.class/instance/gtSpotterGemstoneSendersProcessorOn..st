@@ -1,15 +1,14 @@
 as yet unclassified
 gtSpotterGemstoneSendersProcessorOn: aStep
 	<spotterOrder: 10>
-	aStep listProcessor
+	aStep gemstoneListProcessor
 		title: (self formatProcessorTitle: 'Senders');
 		itemName: [ :name | name ];
-		filter: GTFilterSubstring item: [ :filter :context || searchQuery topezOop |
-			searchQuery := context text ifEmpty: [ nil ].
-			searchQuery ifNotNil: [ |signatures|
-				topezOop := self gemstoneClient todeServerOopType asInteger.
-				signatures := self gemstoneClient onServerDo: [
-					((Object _objectForOop: topezOop) gtGsSystemNavigation gtGsSendersOf: searchQuery asSymbol) collect: [ :aMethod |
-						aMethod inClass name, '>>#', aMethod selector ] ].
-				signatures do: [ :each | filter value: each ] ] ];
+		actLogic: [ :item :step |
+			step exit.
+			self gemstoneClient browseMethodFromSignature: item ];
+		gemstoneItems: [ :topezServer :queryString | 
+			(topezServer gtGsSystemNavigation gtGsSendersOf: queryString asSymbol) collect: [ :aMethod |
+					aMethod inClass name, '>>#', aMethod selector ] ];
+		gemstoneClient: self gemstoneClient;
 		wantsToDisplayOnEmptyQuery: false	
