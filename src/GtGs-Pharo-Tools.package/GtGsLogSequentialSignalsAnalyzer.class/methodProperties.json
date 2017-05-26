@@ -2,11 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
-		"addEvent:" : "AndreiChis 5/13/2017 17:29",
-		"completedSignalExistsFor:inData:" : "AndreiChis 5/13/2017 17:54",
-		"groupedEventsPerSessionFor:" : "AndreiChis 5/13/2017 18:43",
-		"processBasicSignal:withData:" : "AndreiChis 5/13/2017 17:50",
-		"processRemoteNotificationSignal:withData:" : "AndreiChis 5/13/2017 18:00",
-		"processRequestCompletedSignal:withData:" : "AndreiChis 5/13/2017 17:58",
-		"processRequestInitiatedSignal:withData:" : "AndreiChis 5/13/2017 17:51",
-		"stackForSignal:" : "AndreiChis 5/13/2017 17:29" } }
+		"addEvent:" : "AndreiChis 5/14/2017 18:27:45",
+		"completedSignalExistsFor:inData:" : "AndreiChis 5/14/2017 18:27:45",
+		"groupedEventsPerSessionFor:" : "AndreiChis 5/14/2017 18:27:45",
+		"processBasicSignal:withData:" : "AndreiChis 5/14/2017 18:27:45",
+		"processRemoteNotificationSignal:withData:" : "AndreiChis 5/14/2017 18:27:45",
+		"processRequestCompletedSignal:withData:" : "AndreiChis 5/14/2017 18:27:45",
+		"processRequestInitiatedSignal:withData:" : "AndreiChis 5/14/2017 18:27:45",
+		"stackForSignal:" : "AndreiChis 5/14/2017 18:27:45" } }

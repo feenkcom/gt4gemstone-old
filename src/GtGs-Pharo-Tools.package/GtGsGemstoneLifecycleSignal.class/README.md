@@ -1,0 +1,1 @@
+I am a signal containing information about a standalone event. 

@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "AndreiChis 5/24/2017 18:18",
+	"commentStamp" : "AndreiChis 5/24/2017 18:07",
 	"instvars" : [
 		 ],
-	"name" : "GtGsRequestCompleteStepSignal",
+	"name" : "GtGsGemstoneLifecycleSignal",
 	"pools" : [
 		 ],
-	"super" : "GtGsRequestStepSignal",
+	"super" : "GtGsLogBasicSignal",
 	"type" : "normal" }

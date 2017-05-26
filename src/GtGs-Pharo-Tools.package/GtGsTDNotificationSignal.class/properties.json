@@ -10,5 +10,5 @@
 	"name" : "GtGsTDNotificationSignal",
 	"pools" : [
 		 ],
-	"super" : "GtGsRemoteNotificationSignal",
+	"super" : "GtGsGCIInternalNotificationSignal",
 	"type" : "normal" }

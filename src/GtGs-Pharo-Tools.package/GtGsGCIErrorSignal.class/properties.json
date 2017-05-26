@@ -10,5 +10,5 @@
 	"name" : "GtGsGCIErrorSignal",
 	"pools" : [
 		 ],
-	"super" : "GtGsRemoteNotificationSignal",
+	"super" : "GtGsGCIInternalNotificationSignal",
 	"type" : "normal" }

@@ -1,3 +1,2 @@
-(name 'GtGs-Pharo-Tools-AndreiChis.3' message 'Added #applyPatches as a temporary solution for instrumenting GciCode.' id 'eac27cf6-fa28-4f37-966c-8be100720bfc' date '14 May 2017' time '6:27:43.771755 pm' author 'AndreiChis' ancestors ((name 'GtGs-Pharo-Tools-AndreiChis.2' message 'Extended the logging support.
-' id 'afc9cc52-da24-589b-b69c-bcbe70efe848' date '13 May 2017' time '9:06:25 pm' author 'AndreiChis' ancestors ((name 'GtGs-Pharo-Tools-AndreiChis.1' message 'Basic logging support using Beacon.
-' id '3f828303-f5ac-5409-be1a-a96072801465' date '4 December 2016' time '7:49 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())) stepChildren ())
+(name 'GtGs-Pharo-Tools-AndreiChis.4' message 'Added some class comments.' id '48284828-69e7-4065-8bd6-831e4542b736' date '26 May 2017' time '11:14:10.597708 am' author 'AndreiChis' ancestors ((name 'GtGs-Pharo-Tools-AndreiChis.3' message 'Added #applyPatches as a temporary solution for instrumenting GciCode.
+' id '66ab0cdc-0acd-5874-994b-4eb41fe7599d' date '14 May 2017' time '6:27:45 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

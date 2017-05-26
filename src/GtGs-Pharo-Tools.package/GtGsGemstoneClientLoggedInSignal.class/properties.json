@@ -10,5 +10,5 @@
 	"name" : "GtGsGemstoneClientLoggedInSignal",
 	"pools" : [
 		 ],
-	"super" : "GtGsLogBasicSignal",
+	"super" : "GtGsGemstoneLifecycleSignal",
 	"type" : "normal" }
