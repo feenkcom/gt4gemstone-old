@@ -1,2 +1,2 @@
-(name 'GtGs-Editor-Core-AndreiChis.27' message 'Fixed #browseFullMethod:' id '477cc8d8-42da-4a4d-87f4-331680d0783f' date '26 May 2017' time '10:46:08.871282 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.26' message 'Open the method and not just the class when browsing a method from the senders browser.
-' id '4e67a8dc-8c92-5280-9d5b-2daa5c2746f8' date '26 May 2017' time '10:37:47 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Editor-Core-AndreiChis.28' message 'Fixed #browseFullMethod: - try 2' id 'f0495bb5-4c7f-441f-96b4-25ac313801f0' date '26 May 2017' time '10:49:51.443056 am' author 'AndreiChis' ancestors ((name 'GtGs-Editor-Core-AndreiChis.27' message 'Fixed #browseFullMethod:
+' id 'f6cd607e-7f5b-5adb-8794-8a9b3f286c50' date '26 May 2017' time '10:46:14 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
