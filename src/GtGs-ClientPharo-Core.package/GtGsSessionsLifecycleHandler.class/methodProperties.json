@@ -25,7 +25,7 @@
 		"shutDown:" : "TravisCI 2/22/2017 11:54",
 		"uniqueInstance" : "AndreiChis 10/22/2016 22:51:04",
 		"updateContent" : "TravisCI 2/21/2017 21:21",
-		"worldMenuOn:" : "TravisCI 2/22/2017 15:05" },
+		"worldMenuOn:" : "AndreiChis 5/17/2017 19:28:41" },
 	"instance" : {
 		"actOnBrowserClosing:" : "TravisCI 2/21/2017 21:07",
 		"compose" : "smalltalkCI 5/17/2017 19:26",
@@ -41,4 +41,5 @@
 		"isClientActive:" : "TravisCI 2/22/2017 11:42",
 		"openCreateSessionDescriptionWindow" : "AndreiChis 4/6/2017 11:17:58",
 		"openOn:" : "AndreiChis 10/22/2016 22:51:04",
+		"selectClient:" : "AndreiChis 5/24/2017 19:05",
 		"sessionDescriptionCreationHelpText" : "TravisCI 2/22/2017 15:00" } }
