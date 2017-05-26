@@ -1,6 +1,6 @@
 *GtGs-Editor-Pharo-Core
 browseMethodFromSignature: aMethodSignarute
-	| codeBrowser position aClassName aMethodName isClassSide |
+	| position aClassName aMethodName isClassSide |
 	
 	position := aMethodSignarute findString: '>>#'.
 	position = 0 ifTrue: [ 
@@ -14,11 +14,5 @@ browseMethodFromSignature: aMethodSignarute
 		isClassSide := true.
 		aClassName := aClassName copyFrom: 1 to: aClassName size - ' class' size ].
 	
-	codeBrowser := self categoriesBrowser.
-	(codeBrowser hasClassNamed: aClassName)
-		ifFalse: [ 
-			self inform: 'No class found with the name ''', aClassName, ''''. ^ self ] .
-	codeBrowser 
-		open;
-		selectMethod: aMethodName fromClass: aClassName classSide: isClassSide
+	self browseMethod: aMethodName fromClass: aClassName classSide: isClassSide
 	
