@@ -52,7 +52,7 @@ baseline: spec
 			package: 'GtGs-Debugger-Pharo-Core'  with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Inspector-Pharo-Core') ];
 			package: 'GtGs-Inspector-Roassal-Core';
 			package: 'GtGs-Inspector-Roassal-Pharo';
-			package: 'GtGs-Pharo-Tools'; with: [ spec requires: #('Beacon') ];
+			package: 'GtGs-Pharo-Tools' with: [ spec requires: #('Beacon') ];
 			package: 'GtGs-Common-Resources-Tests';
 			package: 'GtGs-Inspector-Pharo-Tests' with: [ spec requires: #('GtGs-Inspector-Pharo-Core' 'GtGs-Common-Resources-Tests') ];
 			package: 'GtGs-Debugger-Pharo-Tests' with: [ spec requires: #('GtGs-Debugger-Core' 'GtGs-Common-Resources-Tests') ];
