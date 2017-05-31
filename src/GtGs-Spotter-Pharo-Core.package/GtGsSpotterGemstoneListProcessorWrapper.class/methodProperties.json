@@ -4,8 +4,8 @@
 	"instance" : {
 		"gemstoneClient" : "AndreiChis 5/31/2017 19:17",
 		"gemstoneClient:" : "AndreiChis 5/31/2017 19:17",
-		"initializeFromConfiguration:" : "AndreiChis 5/31/2017 19:16",
-		"obtainSearchResultForQuery:" : "AndreiChis 5/31/2017 19:52",
+		"initializeFromConfiguration:" : "AndreiChis 5/31/2017 20:19",
+		"obtainSearchResultsProxyForQuery:" : "AndreiChis 5/31/2017 20:19",
 		"stepOop" : "AndreiChis 5/31/2017 19:21",
 		"stepOop:" : "AndreiChis 5/31/2017 19:17",
 		"stepOopType" : "AndreiChis 5/31/2017 19:21" } }

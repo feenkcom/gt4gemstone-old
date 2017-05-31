@@ -10,7 +10,7 @@ initializeFromConfiguration: aConfiguration
 		| searchQuery inspectorProxy gsListPresentation | 
 			
 		searchQuery := context text ifEmpty: [ nil ] ifNotEmpty: [ :queryText | queryText asLowercase ].
-		inspectorProxy := self obtainSearchResultForQuery: searchQuery.
+		inspectorProxy := self obtainSearchResultsProxyForQuery: searchQuery.
 		gsListPresentation := inspectorProxy  
 			remoteInspectorPresentationFor: #targetObject
 			using: #gtGsSpotterItemsIn:.
