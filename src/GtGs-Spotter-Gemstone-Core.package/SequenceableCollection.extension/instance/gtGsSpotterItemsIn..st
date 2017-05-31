@@ -5,4 +5,4 @@ gtGsSpotterItemsIn: aComposite
 		title: 'Items';
 		enableLazyLoading;
 		display: [ self ];
-		format: [ :anItem | anItem gtGsInspectorName ]
+		format: [ :anItem | anItem ]

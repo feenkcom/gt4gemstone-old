@@ -1,2 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.3' message 'Updated the searching functionality in a processor.' id '90fd13cc-cfb4-471e-8813-ebc74a3591e5' date '31 May 2017' time '3:28:38.670216 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.2' message 'Added missing methods in the processor.
-' id 'dcf2c8f3-056e-56fb-bbed-bf1a5270bec2' date '31 May 2017' time '2:51:31 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.4' message 'Added a processor for searching through users.' id '5fb86fc4-f0b0-4454-8b61-85c6bec8533c' date '31 May 2017' time '4:59:02.077951 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.3' message 'Updated the searching functionality in a processor.
+' id 'a807605e-704f-54a3-9f0a-cf8935aec011' date '31 May 2017' time '3:28:52 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
