@@ -1,6 +1,6 @@
 as yet unclassified
 gtSpotterGemstoneClassesProcessorOn: aStep
-	<spotterOrder: 1>
+	"<spotterOrder: 1>"
 	aStep gemstoneListProcessor
 		title: 'Classes';
 		itemName: [ :name | name ];

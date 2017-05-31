@@ -1,6 +1,7 @@
 as yet unclassified
 obtainSpotterProcessorsConfigurations
 
-	^ self topezServer
+	^ self gemstoneClient
 		executeRemotely: #spotterProcessorsConfigurationsRequest
 		on: self spotterModelOopType
+		withArguments: #()

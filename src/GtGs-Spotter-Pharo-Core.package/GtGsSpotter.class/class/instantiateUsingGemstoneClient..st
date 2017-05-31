@@ -3,8 +3,9 @@ instantiateUsingGemstoneClient: aGemstoneClient
 	| resultDictionary spotterModelOop spotterModelOopType spotterModelForwarderOopType spotterModel |
 	
 	resultDictionary := aGemstoneClient 
-		send: #buildRemoteSpotterModel 
-		to: aGemstoneClient todeServerOopType.
+		executeRemotely: #buildRemoteSpotterModel 
+		on: aGemstoneClient todeServerOopType
+		withArguments: #().
 		
 	spotterModelOop := resultDictionary at: 'selfOop'.
 	spotterModelOopType := spotterModelOop gciResultToGsOopType: aGemstoneClient session.
@@ -12,6 +13,6 @@ instantiateUsingGemstoneClient: aGemstoneClient
 	spotterModel := self new 
 		gemstoneClient: aGemstoneClient;
 		spotterModelOopType: spotterModelOopType.
-	self session registerClientObjectForwarderOopType: spotterModelForwarderOopType for: spotterModel.
+	aGemstoneClient session registerClientObjectForwarderOopType: spotterModelForwarderOopType for: spotterModel.
 	
 	^ spotterModel
