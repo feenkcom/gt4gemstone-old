@@ -12,7 +12,8 @@
 		"targetObject",
 		"targetObjectOop",
 		"title",
-		"presentations" ],
+		"presentations",
+		"cache" ],
 	"name" : "GtGsInspectorProxy",
 	"pools" : [
 		 ],
