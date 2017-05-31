@@ -1,1 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.1' message 'First try at a spotter for searching through gemstone.' id 'f09f249f-da7a-467d-a2d6-6d1303cc5ba4' date '16 May 2017' time '8:56:58.362404 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.2' message 'Added missing methods in the processor.' id '356894a3-05fd-428d-ab6d-fa64240390e6' date '31 May 2017' time '2:51:28.514282 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.1' message 'First try at a spotter for searching through gemstone.
+' id 'd6a3c2d0-538b-59a3-b8e5-7ff7e3c050e2' date '16 May 2017' time '8:56:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
