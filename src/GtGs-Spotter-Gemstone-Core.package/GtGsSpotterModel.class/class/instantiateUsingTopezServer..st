@@ -7,7 +7,10 @@ instantiateUsingTopezServer: aTopezServer
 		topezServer: aTopezServer;
 		spotterForwarder: spotterModelForwarder.
 	
-	"aTopezServer addToLocalStorage: spotterModel"
+	"aTopezServer addToLocalStorage: spotterModel."
+	(GsSession currentSession symbolList 
+		objectNamed: #'GtGsGlmPresentation' ) temporarySessionStorage
+			 at: spotterModel asOop put: spotterModel.
 	
 	resultDictionary := Dictionary new 
 		at: 'selfOop' put: spotterModel asOop;

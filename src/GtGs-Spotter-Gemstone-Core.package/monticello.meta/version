@@ -1,2 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.4' message 'Added a processor for searching through users.' id '5fb86fc4-f0b0-4454-8b61-85c6bec8533c' date '31 May 2017' time '4:59:02.077951 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.3' message 'Updated the searching functionality in a processor.
-' id 'a807605e-704f-54a3-9f0a-cf8935aec011' date '31 May 2017' time '3:28:52 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.5' message 'Prevent the spotter model from being garbaged collected.' id 'e653b0fa-4e97-4fa5-a6f7-3a0f6444a1ee' date '31 May 2017' time '5:32:01.890709 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.4' message 'Added a processor for searching through users.
+' id 'bfdbd6a8-c0a0-5a80-a7ca-921cbe6e89f9' date '31 May 2017' time '4:59:13 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
