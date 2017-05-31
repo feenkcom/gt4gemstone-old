@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 titleValue
 	^ self titleBlock ifNotNil: [ :aBlock | aBlock value ]

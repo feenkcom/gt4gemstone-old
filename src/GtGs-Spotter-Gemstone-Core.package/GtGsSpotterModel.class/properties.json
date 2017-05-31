@@ -7,7 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"topezServer",
-		"spotterForwarder" ],
+		"spotterForwarder",
+		"spotterStep" ],
 	"name" : "GtGsSpotterModel",
 	"pools" : [
 		 ],

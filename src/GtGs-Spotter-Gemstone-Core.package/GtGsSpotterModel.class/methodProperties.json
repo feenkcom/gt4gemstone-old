@@ -2,10 +2,11 @@
 	"class" : {
 		"instantiateUsingTopezServer:" : "AndreiChis 5/16/2017 20:56:59" },
 	"instance" : {
-		"gtGsSpotterForClassesFor:" : "AndreiChis 5/16/2017 20:56:59",
+		"gtGsSpotterForClassesFor:" : "AndreiChis 5/31/2017 15:25",
+		"searchProcessorWithOpp:" : "AndreiChis 5/31/2017 15:01",
 		"searchResultsRequestForQuery:withProcessorOop:" : "AndreiChis 5/16/2017 20:56:59",
 		"spotterForwarder" : "AndreiChis 5/16/2017 20:56:59",
 		"spotterForwarder:" : "AndreiChis 5/16/2017 20:56:59",
-		"spotterProcessorsConfigurationsRequest" : "AndreiChis 5/16/2017 20:56:59",
+		"spotterProcessorsConfigurationsRequest" : "AndreiChis 5/31/2017 15:00",
 		"topezServer" : "AndreiChis 5/16/2017 20:56:59",
 		"topezServer:" : "AndreiChis 5/16/2017 20:56:59" } }

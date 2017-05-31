@@ -1,4 +1,4 @@
-as yet unclassified
+actions
 createConfiguration
 	| processorConfiguration |
 	processorConfiguration := Dictionary new. 

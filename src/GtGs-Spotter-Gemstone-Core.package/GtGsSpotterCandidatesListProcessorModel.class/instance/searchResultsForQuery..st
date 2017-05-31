@@ -1,8 +1,8 @@
-as yet unclassified
+searching
 searchResultsForQuery: searchQuery
 
 	^ searchQuery = nil 
 		ifTrue: [ self allCachedCandidates ]
 		ifFalse: [ 
-			self allCachedCandidates allSatisfying: [ :each |  
-				(each name asLowercase findString: searchQuery startingAt: 1) > 0 ] ] 
+			self allCachedCandidates select: [ :anObject |  
+				((self itemNameFor: anObject) findString: searchQuery startingAt: 1 caseSensitive: false) > 0 ] ] 
