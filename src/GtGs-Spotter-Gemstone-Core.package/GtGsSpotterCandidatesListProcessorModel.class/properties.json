@@ -8,8 +8,9 @@
 	"instvars" : [
 		"allCandidatesBlock",
 		"titleBlock",
+		"itemNameBlock",
 		"cachedCandidates",
-		"itemNameBlock" ],
+		"searchResults" ],
 	"name" : "GtGsSpotterCandidatesListProcessorModel",
 	"pools" : [
 		 ],
