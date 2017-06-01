@@ -1,2 +1,2 @@
-(name 'GtGs-Spotter-Pharo-Core-AndreiChis.9' message 'Restructured methods in the search processor' id 'fd8e3655-8c0f-476a-bf59-cb9855d8aad0' date '1 June 2017' time '3:08:24.163305 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Pharo-Core-AndreiChis.8' message '- Refactored the API for creating an inpector proxy to avoid duplication- Removed dead code
-' id '8dd8707d-d15a-5907-b567-64e2c4cac642' date '31 May 2017' time '8:29:58 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Spotter-Pharo-Core-AndreiChis.10' message 'Execute remote actions' id 'f1813ca9-7a9d-4407-9016-8c64faea6cf4' date '1 June 2017' time '6:24:17.776979 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Pharo-Core-AndreiChis.9' message 'Restructured methods in the search processor
+' id '4ba89da7-c9b4-5f09-9e4a-080b60796eba' date '1 June 2017' time '3:08:30 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
