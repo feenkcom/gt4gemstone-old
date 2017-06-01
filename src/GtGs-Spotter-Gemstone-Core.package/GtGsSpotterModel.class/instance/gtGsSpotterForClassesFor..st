@@ -5,8 +5,9 @@ gtGsSpotterForClassesFor: aStep
 		title: 'Classes';
 		itemName: [ :aClass | aClass name ];
 		allCandidates: [ 
-			 self topezServer gtGsSystemNavigation classOrganizer classes ]";
+			 self topezServer gtGsSystemNavigation classOrganizer classes ];
+		wantsToDisplayOnEmptyQuery: true
+		";
 		filter: GTFilterSubstring;
 		itemIcon: #systemIcon;
-		keyBinding: $b meta;
-		wantsToDisplayOnEmptyQuery: false"
+		keyBinding: $b meta;"

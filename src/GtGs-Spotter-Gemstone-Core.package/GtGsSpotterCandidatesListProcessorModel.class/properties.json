@@ -9,6 +9,7 @@
 		"allCandidatesBlock",
 		"titleBlock",
 		"itemNameBlock",
+		"wantsToDisplayOnEmptyQuery",
 		"cachedCandidates",
 		"searchResults" ],
 	"name" : "GtGsSpotterCandidatesListProcessorModel",

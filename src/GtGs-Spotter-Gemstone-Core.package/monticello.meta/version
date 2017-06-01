@@ -1,2 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.10' message 'Updated the search processors' id 'd80a0c5c-bd9a-4e78-b0bb-b69da9a780fd' date '1 June 2017' time '3:05:31.829108 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.9' message 'GtGsSpotterCandidatesListProcessorModel should be responsible with constructing a list presentation with the results.
-' id '1208e635-6a38-5124-ba93-34eab5be3d4a' date '1 June 2017' time '2:43:45 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.11' message 'Added two more processors' id '48d772fc-ec67-4e9d-b546-59abc21a1623' date '1 June 2017' time '4:08:57.654053 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.10' message 'Updated the search processors
+' id '115dabaa-2375-570f-b5d7-ab9229e74d27' date '1 June 2017' time '3:05:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
