@@ -1,2 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.15' message 'Added more actions to processors.' id 'd9ed20fa-7354-4775-83c8-d81af85a22fd' date '1 June 2017' time '6:21:07.19317 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.14' message 'Allow remote processors to define remote actions.
-' id '3ef80cb1-882e-59bf-8508-fc1668fb3412' date '1 June 2017' time '6:05:40 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.16' message 'Fixed callbacks for opening the message browser.' id '4122326d-951b-48be-96fb-593491d4ca48' date '1 June 2017' time '6:38:30.973659 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.15' message 'Added more actions to processors.
+' id '021b8d17-ec73-5abf-a506-a30c2891e538' date '1 June 2017' time '6:21:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
