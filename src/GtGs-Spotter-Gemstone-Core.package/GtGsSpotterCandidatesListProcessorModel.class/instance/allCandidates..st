@@ -1,6 +1,7 @@
 scripting
 allCandidates: aBlock
-	^ self allCandidatesBlock: [ :searchQuery |
+	self allCandidatesBlock: aBlock.
+	^ self itemsBlock: [ :searchQuery |
 		searchQuery = nil 
 			ifTrue: [ self allCachedCandidates ]
 			ifFalse: [ 

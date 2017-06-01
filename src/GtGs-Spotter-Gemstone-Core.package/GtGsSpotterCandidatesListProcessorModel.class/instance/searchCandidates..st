@@ -1,3 +1,3 @@
 scripting
 searchCandidates: aBlock
-	self allCandidatesBlock: aBlock
+	self itemsBlock: aBlock

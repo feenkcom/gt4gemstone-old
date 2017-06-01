@@ -1,5 +1,5 @@
 searching
 performSearchForQuery: searchQuery
 
-	searchResults := self allCandidatesBlock cull: searchQuery.
+	searchResults := self itemsBlock cull: searchQuery.
 	^ self gtGsSerializedInspectorProxyAndSelect: nil.

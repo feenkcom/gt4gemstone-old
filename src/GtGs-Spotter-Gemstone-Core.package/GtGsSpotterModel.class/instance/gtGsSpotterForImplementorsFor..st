@@ -4,7 +4,7 @@ gtGsSpotterForImplementorsFor: aStep
 	aStep listProcessor
 		title: 'Implementors';
 		itemName: [ :aMethod | aMethod inClass name, '>>#', aMethod selector ];
-		filter: GTFilterSubstring item: [ :filter :queryString |
+		searchCandidates: [ :filter :queryString |
 			topezServer gtGsSystemNavigation gtGsImplementorsOf: queryString asSymbol ];
 		wantsToDisplayOnEmptyQuery: false
 		
