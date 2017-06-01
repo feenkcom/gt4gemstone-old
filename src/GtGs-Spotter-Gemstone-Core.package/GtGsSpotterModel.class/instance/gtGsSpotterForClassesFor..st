@@ -5,7 +5,7 @@ gtGsSpotterForClassesFor: aStep
 		title: 'Classes';
 		itemName: [ :aClass | aClass name ];
 		allCandidates: [ 
-			GsCurrentSession currentSession symbolList allSatisfying: [ :each | each isBehavior ] ]";
+			 self topezServer gtGsSystemNavigation classOrganizer classes ]";
 		filter: GTFilterSubstring;
 		itemIcon: #systemIcon;
 		keyBinding: $b meta;
