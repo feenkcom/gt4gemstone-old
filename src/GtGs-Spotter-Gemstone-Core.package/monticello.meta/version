@@ -1,2 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.16' message 'Fixed callbacks for opening the message browser.' id '4122326d-951b-48be-96fb-593491d4ca48' date '1 June 2017' time '6:38:30.973659 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.15' message 'Added more actions to processors.
-' id '021b8d17-ec73-5abf-a506-a30c2891e538' date '1 June 2017' time '6:21:12 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.17' message 'Browse the full method when searching for implementors/senders' id '63723c48-a8e0-4639-aead-3f79f9de9ab5' date '1 June 2017' time '6:59:28.875668 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.16' message 'Fixed callbacks for opening the message browser.
+' id '06fb8634-a636-509f-aa0c-e216d8efa828' date '1 June 2017' time '6:38:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

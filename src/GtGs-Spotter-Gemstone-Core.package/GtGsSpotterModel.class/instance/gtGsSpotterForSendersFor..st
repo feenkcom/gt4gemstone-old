@@ -7,7 +7,7 @@ gtGsSpotterForSendersFor: aStep
 		searchCandidates: [ :queryString |
 			topezServer gtGsSystemNavigation gtGsSendersOf: queryString asSymbol ];
 		gsActLogic: [ :aMethod |
-			self topezServer gtGsBrowseTool browseSendersOf: aMethod selector ];
+			self topezServer gtGsBrowseTool browseFullMethod: aMethod ];
 		wantsToDisplayOnEmptyQuery: false
 		
 		"; ]
