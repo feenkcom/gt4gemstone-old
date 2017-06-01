@@ -1,2 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.14' message 'Allow remote processors to define remote actions.' id 'b2c75bd3-e079-46d6-bf8d-d5b82883f170' date '1 June 2017' time '6:05:34.488625 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.13' message 'Don''t send #asLowercase be default to the search query
-' id 'cc9464f2-284b-5e16-b86f-bcbc6a30f011' date '1 June 2017' time '4:43:33 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.15' message 'Added more actions to processors.' id 'd9ed20fa-7354-4775-83c8-d81af85a22fd' date '1 June 2017' time '6:21:07.19317 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.14' message 'Allow remote processors to define remote actions.
+' id '3ef80cb1-882e-59bf-8508-fc1668fb3412' date '1 June 2017' time '6:05:40 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

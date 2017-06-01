@@ -1,3 +1,3 @@
 scripting
-gsActBlock: aBlock
+gsActLogic: aBlock
 	gsActBlock := aBlock

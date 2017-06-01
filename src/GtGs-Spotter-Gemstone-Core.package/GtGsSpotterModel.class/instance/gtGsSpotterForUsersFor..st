@@ -6,6 +6,8 @@ gtGsSpotterForUsersFor: aStep
 		itemName: [ :aUser | aUser userId ];
 		allCandidates: [ 
 			(GsCurrentSession currentSession symbolList objectNamed: #'System') users asArray ];
+		gsActLogic: [ :aUser |
+			self topezServer gtGsInspect: aUser ];
 		wantsToDisplayOnEmptyQuery: true
 		
 		";

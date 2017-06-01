@@ -6,6 +6,8 @@ gtGsSpotterForImplementorsFor: aStep
 		itemName: [ :aMethod | aMethod inClass name, '>>#', aMethod selector ];
 		searchCandidates: [ :queryString |
 			topezServer gtGsSystemNavigation gtGsImplementorsOf: queryString asSymbol ];
+		gsActLogic: [ :aMethod |
+			self topezServer gtGsBrowseTool browseImplementorsOf: aMethod name ];
 		wantsToDisplayOnEmptyQuery: false
 		
 		";
