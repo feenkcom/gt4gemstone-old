@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Core-AndreiChis.242' message 'Added a cache to the inspector proxy.' id 'f683e16a-f7c3-4812-9b5b-847f600245a1' date '31 May 2017' time '7:43:52.714977 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.241' message 'Moved #gtGsLookupSelector: from Object to Behavior.
-' id 'd74cf0f0-c998-5c4d-82b4-00854da9a5ca' date '14 May 2017' time '5:44:01 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Core-AndreiChis.243' message 'Added #gtGsInspect: as a way to trigger the inspector from the gemstone side.' id '34bb2711-1e4a-4563-8360-69be31bd4764' date '1 June 2017' time '6:35:44.828093 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Core-AndreiChis.242' message 'Added a cache to the inspector proxy.
+' id '61963279-9c10-54d4-aa9f-1a8bf0f06570' date '31 May 2017' time '7:43:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

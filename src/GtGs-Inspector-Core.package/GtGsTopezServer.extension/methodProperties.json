@@ -4,4 +4,5 @@
 	"instance" : {
 		"evaluateStringAndBuildProxyFor:" : "AndreiChis 3/27/2017 16:32",
 		"evaluateStringAndBuildProxyFor:inContext:" : "AndreiChis 3/27/2017 16:32",
-		"evaluateStringAndBuildProxyFor:inContext:literalVars:" : "AndreiChis 3/27/2017 16:32" } }
+		"evaluateStringAndBuildProxyFor:inContext:literalVars:" : "AndreiChis 3/27/2017 16:32",
+		"gtGsInspect:" : "AndreiChis 6/1/2017 18:29" } }
