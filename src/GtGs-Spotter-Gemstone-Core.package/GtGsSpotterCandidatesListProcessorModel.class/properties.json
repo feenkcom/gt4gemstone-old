@@ -10,6 +10,7 @@
 		"allCandidatesBlock",
 		"titleBlock",
 		"itemNameBlock",
+		"gsActBlock",
 		"wantsToDisplayOnEmptyQuery",
 		"cachedCandidates",
 		"searchResults" ],

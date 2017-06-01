@@ -1,4 +1,4 @@
-searching
+callbacks
 performSearchForQuery: searchQuery
 
 	searchResults := self itemsBlock cull: searchQuery.
