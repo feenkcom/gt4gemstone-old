@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"emitForClient:withResponse:andRequestId:" : "AndreiChis 5/14/2017 18:27:45" },
+	"instance" : {
+		"acceptAnalyzer:withData:" : "AndreiChis 5/14/2017 18:27:45",
+		"gtInspectorDetails" : "AndreiChis 5/14/2017 18:27:45",
+		"printOneLineContentsOn:" : "AndreiChis 5/14/2017 18:27:45",
+		"responseObject" : "AndreiChis 5/14/2017 18:27:45",
+		"responseObject:" : "AndreiChis 5/14/2017 18:27:45",
+		"resposeSizeDetails" : "AndreiChis 5/14/2017 18:27:45" } }

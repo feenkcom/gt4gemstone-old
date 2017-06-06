@@ -1,0 +1,9 @@
+as yet unclassified
+basicFilterInContext: aSpotterContext
+	
+	self prepareProcessorInContext: aSpotterContext.
+	(self shouldFilterInContext: aSpotterContext) ifTrue: [
+		allFilteredCandidates := self doFilterInContext: aSpotterContext ].
+	aSpotterContext stream 
+		performSymbol: #onAmountChanged:in: 
+		withArguments: { (totalNumberOfElements ifNil: [0]) . self }

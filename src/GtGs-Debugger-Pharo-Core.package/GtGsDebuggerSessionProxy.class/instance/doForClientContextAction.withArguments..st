@@ -3,7 +3,7 @@ doForClientContextAction: anAction withArguments: anArray
 	| processResult currentClientSession |
 
 	processResult := self basicResumeGemstoneProcess.
-	processResult first = #close ifFalse: [ ^ self handleResponseActions: processResult ].
+	processResult first = #closeAndReturn ifFalse: [ ^ self handleResponseActions: processResult ].
 	
 	"If the GemStone process resumed successfuly continue the action on the Pharo process."
 	self clientSession perform: anAction withArguments: anArray.

@@ -3,10 +3,11 @@ resume
 	| processResult |
 	processResult := self basicResumeGemstoneProcess.
 
-	processResult first = #close 
+	processResult first = #closeAndReturn 
 		"Resume the client process as the debugging actions calling this method 
 		will close the debugger and clear the client process."
 		ifTrue: [ 
+			resumeResult := self remoteReturnValue.
 			self clientSession 
 				resume;
 				clear.

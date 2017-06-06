@@ -3,7 +3,7 @@ compileSource: theSource forMethod: aMethod
   | selector newSelector |
   selector := aMethod selector.
 
-	(aMethod methodClass includesSelector: #compile:classified:)
+	(aMethod methodClass gtGsLookupSelector: #compile:classified:) notNil
 		ifTrue: [ 
 			newSelector := aMethod methodClass
  		   		compile: theSource gtGsWithGemstoneLineEndings

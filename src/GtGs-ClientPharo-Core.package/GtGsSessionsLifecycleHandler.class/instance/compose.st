@@ -3,12 +3,14 @@ compose
 	| clientPresentation |
 	self title: self defaultTitle.
 	self act: [ :b | 
+		 self class openSettingsBrowser ] icon: Smalltalk ui icons configuration entitled: 'Settings'.
+	self act: [ :b | 
 		self class gemstoneClients do: #updateCommitIndicator.
 		b presentations do: #update ] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Update'.	
-
+	
 	clientPresentation := self table.
 	clientPresentation
-		title: 'Current Active Sessions';
+		title: 'Current Sessions';
 		display: [ self gemstoneClients ];
 		column: 'Name' evaluated: [ :aGemstoneClient | 
 			self 

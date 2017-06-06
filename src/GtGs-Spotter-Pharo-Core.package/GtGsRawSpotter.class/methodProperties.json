@@ -1,0 +1,21 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"formatProcessorTitle:" : "smalltalkCI 5/17/2017 19:13",
+		"gemstoneClient" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneClient:" : "AndreiChis 5/16/2017 20:56:42",
+		"gtDisplayOn:" : "smalltalkCI 5/17/2017 19:16",
+		"gtSpotterGemstoneClassesProcessorOn:" : "smalltalkCI 5/17/2017 19:12",
+		"gtSpotterGemstoneImplementorsProcessorOn:" : "AndreiChis 5/24/2017 15:25",
+		"gtSpotterGemstoneMethodsProcessorOn:" : "smalltalkCI 5/17/2017 19:12",
+		"gtSpotterGemstoneSendersProcessorOn:" : "AndreiChis 5/24/2017 17:36",
+		"gtSpotterGemstoneUsersProcessorOn:" : "smalltalkCI 5/17/2017 19:12",
+		"gtSpotterRawGemstoneClassesProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"gtSpotterRawGemstoneImplementorsProcessorOn:" : "AndreiChis 5/24/2017 17:35",
+		"gtSpotterRawGemstoneMethodsProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"gtSpotterRawGemstoneSendersProcessorOn:" : "AndreiChis 5/24/2017 17:35",
+		"gtSpotterRawGemstoneUsersProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"isStandalone" : "smalltalkCI 5/17/2017 10:54",
+		"makeStandalone" : "smalltalkCI 5/17/2017 10:54",
+		"spotterProcessorsFor:" : "AndreiChis 5/16/2017 20:56:42" } }

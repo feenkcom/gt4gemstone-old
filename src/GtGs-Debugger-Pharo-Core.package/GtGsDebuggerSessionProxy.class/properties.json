@@ -11,7 +11,8 @@
 		"gemstoneClient",
 		"gemstoneNotification",
 		"gemstoneDebuggerSession",
-		"ignoreNextClear" ],
+		"ignoreNextClear",
+		"resumeResult" ],
 	"name" : "GtGsDebuggerSessionProxy",
 	"pools" : [
 		 ],

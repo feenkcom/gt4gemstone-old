@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Spotter-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsSpotterGemstoneListProcessorWrapper",
+	"pools" : [
+		 ],
+	"super" : "GTSpotterAbstractGemstoneProcessor",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsGCINotificationSignal",
+	"pools" : [
+		 ],
+	"super" : "GtGsGCIInternalNotificationSignal",
+	"type" : "normal" }

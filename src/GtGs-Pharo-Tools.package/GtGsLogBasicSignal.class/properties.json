@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 5/24/2017 18:20",
+	"instvars" : [
+		 ],
+	"name" : "GtGsLogBasicSignal",
+	"pools" : [
+		 ],
+	"super" : "BeaconSignal",
+	"type" : "normal" }

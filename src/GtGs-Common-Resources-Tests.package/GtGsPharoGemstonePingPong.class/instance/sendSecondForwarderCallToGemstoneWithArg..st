@@ -1,7 +1,7 @@
 api - pharo
 sendSecondForwarderCallToGemstoneWithArg: anInteger
-	self halt.
+	"self halt."
 	^ self gemstoneClient
-		executeRemotely: #executeSecondForwarderCallToGemstoneWithArg:
-		on: self selfOopType
-		withArguments: {anInteger+1}.
+		send: #executeSecondForwarderCallToGemstoneWithArg:
+		to: self selfOopType
+		withArgs: {anInteger+1}.

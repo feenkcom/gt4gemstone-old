@@ -1,0 +1,14 @@
+{
+	"class" : {
+		"instantiateUsingGemstoneClient:" : "AndreiChis 5/16/2017 20:56:42" },
+	"instance" : {
+		"gemstoneClassesProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneClient" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneClient:" : "AndreiChis 5/16/2017 20:56:42",
+		"gemstoneUsersProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"gtSpotterGemstoneClassesProcessorOn:" : "AndreiChis 5/16/2017 20:56:42",
+		"obtainSearchResultForQuery:withProcessor:" : "AndreiChis 5/16/2017 20:56:42",
+		"obtainSpotterProcessorsConfigurations" : "AndreiChis 5/16/2017 20:56:42",
+		"spotterModelOopType" : "AndreiChis 5/16/2017 20:56:42",
+		"spotterModelOopType:" : "AndreiChis 5/16/2017 20:56:42",
+		"spotterProcessorsFor:" : "AndreiChis 5/16/2017 20:56:42" } }

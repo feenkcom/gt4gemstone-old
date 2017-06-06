@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Examples-AddressBook-Extensions-Pharo",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "smalltalkCI 5/17/2017 15:31",
+	"instvars" : [
+		 ],
+	"name" : "ABAddressBooksBrowser",
+	"pools" : [
+		 ],
+	"super" : "GLMCompositePresentation",
+	"type" : "normal" }

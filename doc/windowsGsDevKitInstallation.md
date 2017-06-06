@@ -2,11 +2,10 @@
 
 For the installation in Mac Os or windows follow the instructions from the [GsDevKit website](https://github.com/GsDevKit/GsDevKit_home/blob/master/docs/installation/README.md#installation-overview).
 
-First you need to clone GsDevKit, switch to the dev_tode branch and update the PATH variable
+First you need to clone GsDevKit and update the PATH variable
 
     git clone https://github.com/GsDevKit/GsDevKit_home.git
     cd GsDevKit_home
-    git checkout dev_tode
     export PATH=`pwd`/bin:$PATH 
 
 Then you need to set the `GS_HOME` variable and install the GsDevKitClient. For this you need to use a path that has the format from Windows and not Linux. For example, if the GsDevKit intalation is on the `C` drive in the  folder `gt4gemstone`, then the instruction for setting the path is:  

@@ -1,0 +1,3 @@
+accessing
+oneLineContents
+	self subclassResponsibility 

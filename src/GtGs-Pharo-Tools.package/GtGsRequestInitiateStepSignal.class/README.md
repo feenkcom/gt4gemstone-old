@@ -1,0 +1,1 @@
+I indicate that a request was started. If no errors appear another signal will indicate that the request was completed successfully. However, if an error appears no completion event will be raised. In that case the signal modeling the error ends the request.

@@ -1,5 +1,7 @@
 building
 compose
+	self dynamicActions: [ 
+		self gemstoneClient globalToolbarActions ].
 	self tabulator with: [ :browser |
 		browser
 			row: #methods;

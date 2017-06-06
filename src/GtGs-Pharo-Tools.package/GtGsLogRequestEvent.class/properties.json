@@ -1,0 +1,16 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"startSignal",
+		"endSignal",
+		"nestedEvents" ],
+	"name" : "GtGsLogRequestEvent",
+	"pools" : [
+		 ],
+	"super" : "GtGsLogEvent",
+	"type" : "normal" }

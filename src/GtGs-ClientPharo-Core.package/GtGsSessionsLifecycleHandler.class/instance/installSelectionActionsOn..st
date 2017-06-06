@@ -13,6 +13,9 @@ installSelectionActionsOn: aPresentation
 				saveContent: 'gemstoneClient';
 				yourself.
 			(GTPlayground new)
+					act: [ currentPresentation selection openRemoteSpotter ] 
+						icon: FinderUI icon 
+						entitled: 'Spotter' ;
 					startOn: page;
 					title: 'Local Playground - ', currentPresentation selection detailedDescription;
 					setBindings: {'gemstoneClient' -> currentPresentation selection} asDictionary;
@@ -28,6 +31,11 @@ installSelectionActionsOn: aPresentation
 		selectionAct: [ :currentPresentation |
 				currentPresentation selection openCategoriesBrowser ] 
 			entitled: 'Categories Browser'
+			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
+	aPresentation
+		selectionAct: [ :currentPresentation |
+				currentPresentation selection openRemoteSpotter ] 
+			entitled: 'Spotter'
 			condition: [ :currentPresentation | self isClientActive: currentPresentation selection ].
 	aPresentation selectionActions last withSeparatorAfter.
 	aPresentation

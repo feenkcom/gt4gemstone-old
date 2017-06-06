@@ -1,0 +1,3 @@
+accessing
+sessionDetails
+	self subclassResponsibility 

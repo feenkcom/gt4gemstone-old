@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"codeActionsPragmas" : "AndreiChis 5/14/2017 18:16:36",
 		"process:" : "AndreiChis 11/26/2016 18:38:12",
 		"stackDebuggingActionsPragmas" : "AndreiChis 11/26/2016 18:38:12",
 		"updateStackFrameIfRequired:" : "AndreiChis 11/26/2016 18:38:12" } }

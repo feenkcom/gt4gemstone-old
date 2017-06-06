@@ -79,7 +79,8 @@ Metacello new
 
 ## Connecting to this server
 
-Afterwards a connection to a stone that does not use GsDevKit can be created using the class `GtGsBareClient`.
+Afterwards a connection to a stone that does not use GsDevKit can be created using the class `GtGsBareClient`. One way to create this client is to manually create a session description directly in a playground:
+
 ```
 session := TDSessionDescription new 
 	name: 'Gt4Gemstone33_VirtualBox';
@@ -92,36 +93,13 @@ session := TDSessionDescription new
 	userId: 'SystemUser';
 	password: 'swordfish';
 	gemstoneVersion: '3.3.0'.
-gtClient := GtGsBareClient loginWith: session.
-
-"---INSPECTOR---"
-gtClient performStringRemotelyAndInspect: 'Object'.
-gtClient performStringRemotelyAndInspect: 'Dictionary new add: (1->2); yourself'.
-gtClient performStringRemotelyAndInspect: 'System stoneName asString.'.
-
-gtClient performStringRemotely: '
-| size collection |
-size := 1000000.
-collection := IdentityDictionary new: size.
-1 to:  size do: [ :index |
-    collection at: index put: index ].
-SessionTemps current at: #LARGE_COLLECTION put: collection'.
-gtClient performStringRemotelyAndInspect: '(SessionTemps current at: #LARGE_COLLECTION) '.
-
-"---PLAYGROUND---"
-gtClient openGemstonePlayground. 
-gtClient openGemstonePlaygroundWithContents: 'ABAddressBook 
-        reset; 
-        loadDefaultData.
-ABAddressBook default.'.
-
-"---DEBUGGER---"
-gtClient openGemstonePlaygroundWithContents: 'self halt. GtGsDebuggingPlaygroundTests new methodWithPrintStringInBlock'.
-gtClient performStringRemotely: '1/0'.
-gtClient performStringRemotely: '
-    ABAddressBook loadDefaultData.
-    self halt.
-    ABAddressBook reset'.
-
-gtClient logout
+gemstoneClient := GtGsBareClient loginWith: session.
+"...."
+gemstoneClient logoutAndRemove.
 ```
+
+Another option is to rely on the 'GemStone Session manager' to specify the content of a session description and start/stop clients.
+
+## Code examples
+
+Now that you have gt4gemstone installed you can take at a look at some [examples](/doc/basicCodeSnippets.md) of how to programatically use a gemstone client.

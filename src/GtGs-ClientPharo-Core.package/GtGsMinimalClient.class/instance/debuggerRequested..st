@@ -1,14 +1,20 @@
 exception handling
 debuggerRequested: returnValue
-	| gsNotification |
+	| gsNotification  |
 	gsNotification := thisContext sender receiver.
 	
 	GtGsGenericStackDebugger useBasicStackViewer 
 		ifTrue: [
 			GtGsGenericStackDebugger openBasicStackViewerFor: gsNotification from: self ]
-		ifFalse: [
-			GtGsGenericStackDebugger debugSession: (GtGsDebuggerSessionProxy 
-				forClient: self andNotification: gsNotification in: Processor activeProcess).].
+		ifFalse: [ 
+			|debuggingSession|
+			debuggingSession := (GtGsDebuggerSessionProxy 
+					forClient: self 
+					andNotification: gsNotification 
+					in: Processor activeProcess).
+			GtGsGenericStackDebugger 
+				debugSession: debuggingSession.
+			^ debuggingSession resumeResult ].
 		
-	^ nil
+	^ returnValue
 		

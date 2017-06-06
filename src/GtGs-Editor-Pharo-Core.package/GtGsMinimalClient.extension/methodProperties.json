@@ -2,7 +2,9 @@
 	"class" : {
 		 },
 	"instance" : {
-		"browseClassFrom:" : "AndreiChis 4/27/2017 17:59",
+		"browseClassFrom:" : "AndreiChis 5/26/2017 10:25",
+		"browseMethod:fromClass:classSide:" : "AndreiChis 5/26/2017 10:23",
+		"browseMethodFromSignature:" : "AndreiChis 5/26/2017 10:24",
 		"categoriesBrowser" : "AndreiChis 3/22/2017 17:31",
 		"openCategoriesBrowser" : "AndreiChis 3/22/2017 17:32",
 		"openSymbolDictionariesBrowser" : "AndreiChis 3/22/2017 17:32" } }

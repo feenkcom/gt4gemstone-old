@@ -1,0 +1,1 @@
+I am a signal that models a notication/error raises within the communication framework. If I represent an error I indicate that current pending requests are terminated.

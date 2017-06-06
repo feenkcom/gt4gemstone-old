@@ -7,6 +7,7 @@ updateCacheBasic
 	
 	| ws |
 	ws := PrintStream printingOn: String new maxSize: 100.
+	self updateCachedSelector.
   	self printDebugOn: ws.
   	frameLabel := ws contents.
 

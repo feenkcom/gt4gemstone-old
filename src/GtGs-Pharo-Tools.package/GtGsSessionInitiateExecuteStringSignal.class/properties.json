@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "GtGsSessionInitiateExecuteStringSignal",
+	"pools" : [
+		 ],
+	"super" : "GtGsRequestInitiateStepSignal",
+	"type" : "normal" }

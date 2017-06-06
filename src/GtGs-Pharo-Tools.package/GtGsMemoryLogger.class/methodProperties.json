@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"applyPatches" : "AndreiChis 5/14/2017 18:27:45",
+		"patchGsGciClientForwarderSend" : "AndreiChis 5/14/2017 18:27:45",
+		"patchGsGciSession" : "AndreiChis 5/14/2017 18:27:45",
+		"patchGsGsGci32xErrSType" : "AndreiChis 5/14/2017 18:27:45" },
+	"instance" : {
+		"groupedEventsPerSession" : "AndreiChis 5/14/2017 18:27:45",
+		"gtInspectorSesssionEventsIn:" : "AndreiChis 5/14/2017 18:27:45" } }

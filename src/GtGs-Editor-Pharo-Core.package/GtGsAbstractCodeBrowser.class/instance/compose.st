@@ -2,7 +2,11 @@ building
 compose
 	| browser |
 	
-	self act: [:b | self updateBrowser ] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Update'.
+	self act: [:b | self updateBrowser ] 
+	  icon: GLMUIThemeExtraIcons glamorousRefresh 
+	  entitled: 'Update'.
+	self dynamicActions: [ 
+		self gemstoneClient globalToolbarActions ].
 	self title: [ 
 		self browserName, ' - ', 
 		self browserModel gemstoneClient detailedDescription ].

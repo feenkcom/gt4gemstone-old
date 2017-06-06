@@ -1,0 +1,11 @@
+{
+	"class" : {
+		"instantiateUsingTopezServer:" : "AndreiChis 5/15/2017 17:23" },
+	"instance" : {
+		"gtGsSpotterForClassesFor:" : "AndreiChis 5/15/2017 17:54",
+		"searchResultsRequestForQuery:withProcessorOop:" : "AndreiChis 5/15/2017 23:01",
+		"spotterForwarder" : "AndreiChis 5/15/2017 16:10",
+		"spotterForwarder:" : "AndreiChis 5/15/2017 16:11",
+		"spotterProcessorsConfigurationsRequest" : "AndreiChis 5/15/2017 18:53",
+		"topezServer" : "AndreiChis 5/15/2017 16:10",
+		"topezServer:" : "AndreiChis 5/15/2017 16:10" } }

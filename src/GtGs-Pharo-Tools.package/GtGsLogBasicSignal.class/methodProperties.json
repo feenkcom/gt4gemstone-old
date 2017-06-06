@@ -1,0 +1,25 @@
+{
+	"class" : {
+		"signalTypeName" : "AndreiChis 5/14/2017 18:27:45" },
+	"instance" : {
+		"acceptAnalyzer:withData:" : "AndreiChis 5/14/2017 18:27:45",
+		"clientDetails" : "AndreiChis 5/14/2017 18:27:45",
+		"clientHash" : "AndreiChis 5/14/2017 18:27:45",
+		"clientStartTime" : "AndreiChis 5/14/2017 18:27:45",
+		"gemstoneClient" : "AndreiChis 5/14/2017 18:27:45",
+		"gemstoneSession" : "AndreiChis 5/14/2017 18:27:45",
+		"gtInspectorDetails" : "AndreiChis 5/14/2017 18:27:45",
+		"gtInspectorDetailsIn:" : "AndreiChis 5/14/2017 18:27:45",
+		"gtInspectorPropertiesIn:" : "AndreiChis 5/14/2017 18:27:45",
+		"hasGemstoneClient" : "AndreiChis 5/14/2017 18:27:45",
+		"hasSessionName" : "AndreiChis 5/14/2017 18:27:45",
+		"initializeForClient:" : "AndreiChis 5/14/2017 18:27:45",
+		"initializeForSession:" : "AndreiChis 5/14/2017 18:27:45",
+		"isRemoteNotificationSignal" : "AndreiChis 5/14/2017 18:27:45",
+		"isRequestStepSignal" : "AndreiChis 5/14/2017 18:27:45",
+		"printOneLineContentsOn:" : "AndreiChis 5/14/2017 18:27:45",
+		"sessionDetails" : "AndreiChis 5/14/2017 18:27:45",
+		"sessionHash" : "AndreiChis 5/14/2017 18:27:45",
+		"sessionId" : "AndreiChis 5/14/2017 18:27:45",
+		"sessionName" : "AndreiChis 5/14/2017 18:27:45",
+		"userId" : "AndreiChis 5/14/2017 18:27:45" } }

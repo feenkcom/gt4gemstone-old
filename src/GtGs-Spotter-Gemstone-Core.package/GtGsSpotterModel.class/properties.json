@@ -1,0 +1,15 @@
+{
+	"category" : "GtGs-Spotter-Gemstone-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"topezServer",
+		"spotterForwarder" ],
+	"name" : "GtGsSpotterModel",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,15 @@
+{
+	"category" : "GtGs-Spotter-Pharo-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gemstoneClient",
+		"isStandalone" ],
+	"name" : "GtGsRawSpotter",
+	"pools" : [
+		 ],
+	"super" : "GTSpotter",
+	"type" : "normal" }

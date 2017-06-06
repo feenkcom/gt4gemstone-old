@@ -1,0 +1,2 @@
+(name 'GtGs-Spotter-Pharo-Core-AndreiChis.5' message 'Added a Spotter processor for searching through the current sessions.' id 'a44ccd77-4a38-4e53-be94-46df623e86b9' date '26 May 2017' time '11:13:03.158006 am' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Pharo-Core-AndreiChis.4' message 'Open methods using the code browser.
+' id '150c0a86-bff2-5f5a-81e8-00b5f80a5b23' date '24 May 2017' time '5:37:38 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

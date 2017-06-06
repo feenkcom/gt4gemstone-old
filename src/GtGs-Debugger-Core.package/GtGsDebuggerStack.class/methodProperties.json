@@ -4,9 +4,12 @@
 	"instance" : {
 		"createFrames" : "AndreiChis 11/11/2016 16:19",
 		"currentFrame" : "AndreiChis 11/11/2016 16:17",
+		"debugSession" : "AndreiChis 5/14/2017 18:09:48",
+		"debugSession:" : "AndreiChis 5/14/2017 18:09:48",
 		"excludedInstVarNames" : "AndreiChis 11/11/2016 18:21",
 		"fromSton:" : "AndreiChis 11/11/2016 18:22",
 		"printOn:" : "AndreiChis 11/15/2016 23:01",
+		"processOop" : "AndreiChis 5/31/2017 10:56",
 		"stonInstVarNames" : "AndreiChis 11/11/2016 18:22",
 		"stonOn:" : "AndreiChis 11/11/2016 18:42",
 		"stonProcessSubObjects:" : "AndreiChis 11/11/2016 18:22",

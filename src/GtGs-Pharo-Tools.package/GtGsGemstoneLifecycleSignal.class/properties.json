@@ -1,0 +1,14 @@
+{
+	"category" : "GtGs-Pharo-Tools",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "AndreiChis 5/24/2017 18:07",
+	"instvars" : [
+		 ],
+	"name" : "GtGsGemstoneLifecycleSignal",
+	"pools" : [
+		 ],
+	"super" : "GtGsLogBasicSignal",
+	"type" : "normal" }
