@@ -23,7 +23,7 @@ baseline: spec
               spec
                 loads: #('GsDevKitClient' 'GsDevKitClient Tests');
                 repository:
-                    'github://GsDevKit/GsDevKit_home:dev/shared/repos/TodeClient' ].
+                    'github://GsDevKit/GsDevKit_home:dev/shared/repos/todeClient' ].
 		spec
         configuration: 'Beacon' 
 			 with: [ 
