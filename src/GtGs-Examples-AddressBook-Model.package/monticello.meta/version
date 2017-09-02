@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Model-AndreiChis.19' message 'Removed not needed extensions.' id '3092914a-c832-4c8a-b882-4132d205adbd' date '18 May 2017' time '11:38:53.863589 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.18' message 'Fixed API
-' id '9f399715-7407-53f4-b028-e655d473f87e' date '18 May 2017' time '11:06:29 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Model-AndreiChis.20' message 'Updated AddressBook examples.' id 'ad8eadec-cb6e-42a4-b3ab-ed734290c45f' date '2 September 2017' time '10:29:10.176123 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.19' message 'Removed not needed extensions.
+' id '908493ad-1acf-5828-a5b7-a9f491aad2e4' date '18 May 2017' time '11:38:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
