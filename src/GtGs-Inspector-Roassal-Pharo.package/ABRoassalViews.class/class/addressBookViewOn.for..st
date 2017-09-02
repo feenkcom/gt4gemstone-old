@@ -1,9 +1,9 @@
 building
-holderViewOn: aBuilder for: aHolderProxy
+addressBookViewOn: aBuilder for: anAddressBookProxy
 	
 	aBuilder shape rectangle color: Color white.	
 	aBuilder
-		nodes: aHolderProxy addressBooks gtGsBareElementsAsProxies
+		nodes: {anAddressBookProxy}
 		forEach: [ :anAddressBook | 
 			aBuilder shape shape: (RTBitmap new
 				form: [ :aContact | 
