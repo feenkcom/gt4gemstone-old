@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Roassal-Core-AndreiChis.9' message 'fixed method category' id '0548250a-8e08-0d00-8ba7-108105093c15' date '2 April 2017' time '12:14:05.832416 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Core-AndreiChis.8' message 'Updated the API of the remote roassal presentation to be easier to instantiate it for local objects.
-' id '0408d6da-7166-54e3-ba6a-d4460f5b75cd' date '2 April 2017' time '11:22:45 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Roassal-Core-AndreiChis.10' message 'Updated AddressBook examples.' id 'f7ad1651-a7cb-42c2-8eab-197b3da02fa0' date '2 September 2017' time '10:29:52.000307 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Core-AndreiChis.9' message 'fixed method category
+' id 'e1400d81-2b64-57ec-a441-2263dd173d1a' date '2 April 2017' time '12:14:08 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

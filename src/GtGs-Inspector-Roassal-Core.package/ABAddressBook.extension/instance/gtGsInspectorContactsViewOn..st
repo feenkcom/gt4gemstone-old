@@ -1,11 +1,10 @@
 *GtGs-Inspector-Roassal-Core
 gtGsInspectorContactsViewOn: aComposite
 	<gtInspectorPresentationOrder: 30>
-	1 to: self addressBooks size do: [ :anIndex |
-		(self addressBooks at: anIndex) contacts size > 100 ifTrue: [ ^ self ] ].
+	self contacts size > 100 ifTrue: [ ^ self ].
 	aComposite localRoassal2 
 		title: 'Contacts (cluster)';
 		display: [ self ];
 		initialViewType: #'RTMondrian';
-		viewBuilder: #'ABRoassalViews' selector: #holderViewOn:for:
+		viewBuilder: #'ABRoassalViews' selector: #addressBookViewOn:for:
 		
