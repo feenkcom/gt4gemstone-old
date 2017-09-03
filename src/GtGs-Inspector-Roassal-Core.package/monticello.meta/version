@@ -1,2 +1,2 @@
-(name 'GtGs-Inspector-Roassal-Core-AndreiChis.10' message 'Updated AddressBook examples.' id 'f7ad1651-a7cb-42c2-8eab-197b3da02fa0' date '2 September 2017' time '10:29:52.000307 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Core-AndreiChis.9' message 'fixed method category
-' id 'e1400d81-2b64-57ec-a441-2263dd173d1a' date '2 April 2017' time '12:14:08 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Inspector-Roassal-Core-AndreiChis.11' message 'Return nil if the presentation is not constructed.' id '5885a9b4-bf9d-4bf0-9010-65b7dbac8621' date '3 September 2017' time '8:56:05.738415 pm' author 'AndreiChis' ancestors ((name 'GtGs-Inspector-Roassal-Core-AndreiChis.10' message 'Updated AddressBook examples.
+' id '2353819e-3967-5e70-b7df-fe8bd80b024a' date '2 September 2017' time '10:29:57 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
