@@ -4,7 +4,8 @@ computeInspectorPresentationFor: anObjectSelector using: aPresentationSelector
 
 	aComposite := GtGsGlmCompositePresentation new.
 	(self perform: anObjectSelector) perform: aPresentationSelector with: aComposite.
-	aComposite presentations size = 0 ifTrue: [ ^ nil ].
+	aComposite presentations size = 0 ifTrue: [ 
+		^ self topezServer objectSerializer toString: nil ].
 	
 	presentation := aComposite presentations first.
 	presentation 
