@@ -7,9 +7,7 @@ holderViewOn: aBuilder for: aHolderProxy
 		forEach: [ :anAddressBook | 
 			aBuilder shape shape: (RTBitmap new
 				form: [ :aContact | 
-					aContact avatarId 
-						ifNil:  [ self formFromMorph: aContact fullName asMorph asReadOnlyMorph ]
-						ifNotNil: [ aContact avatar scaledToSize: 140 @140  ] ]).
+					(self avaratFor: aContact) scaledToSize: 140 @140 ]).
 			"aBuilder shape label
 				color: Color gray;
 				text: [ :aContact | aContact fullName]."
