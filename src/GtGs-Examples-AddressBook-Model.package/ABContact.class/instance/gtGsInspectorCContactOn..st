@@ -1,6 +1,6 @@
 printing
-gtGsInspectorAContactOn: aComposite
-	<gtInspectorPresentationOrder: 8>
+gtGsInspectorCContactOn: aComposite
+	<gtInspectorPresentationOrder: 15>
 	
 	^ aComposite table
 		title: [ 'Details' ];

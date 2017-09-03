@@ -1,6 +1,6 @@
 printing
-gtGsInspectorAPreviewOn: aComposite
-	<gtInspectorPresentationOrder: 9>
+gtGsInspectorCPreviewOn: aComposite
+	<gtInspectorPresentationOrder: 20>
 	
 	^ aComposite localMorph 
 		title: 'Preview';
