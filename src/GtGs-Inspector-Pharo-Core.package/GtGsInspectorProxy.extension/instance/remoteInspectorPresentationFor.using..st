@@ -6,6 +6,7 @@ remoteInspectorPresentationFor: anObjectSelector using: aPresentationSelector
 		executeRemotely: #computeInspectorPresentationFor:using:
 		on: (self gemstoneClient session asOopType: self selfOop)
 		withArguments: { anObjectSelector. aPresentationSelector }.
-	^ remotePresentation 
-		gemstoneClient: self gemstoneClient;
-		yourself
+	^ remotePresentation ifNotNil: [
+		remotePresentation 
+			gemstoneClient: self gemstoneClient;
+			yourself ]
