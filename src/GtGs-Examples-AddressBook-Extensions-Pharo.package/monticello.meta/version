@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.12' message 'better naming' id '943170c3-2884-47d9-91de-885ad934a460' date '19 May 2017' time '1:16:20.018676 am' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.11' message 'Added an example browser for exploring address books.
-' id 'ecbd38e6-922f-53e9-b6b9-f5d42cdf4cb6' date '17 May 2017' time '3:36:35 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.13' message 'Add ids to more contacts.' id 'eb84c2d1-b888-4ecd-b69b-ad84aa0b00c4' date '3 September 2017' time '8:17:28.845167 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Extensions-Pharo-AndreiChis.12' message 'better naming
+' id '63994ed8-4229-5194-a775-89ea3e2010b6' date '19 May 2017' time '1:16:24 am' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
