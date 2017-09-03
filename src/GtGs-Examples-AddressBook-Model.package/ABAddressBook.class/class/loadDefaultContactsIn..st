@@ -6,6 +6,7 @@ loadDefaultContactsIn: anAddressBook
 		firstName: 'Andrei';
 		lastName: 'Chis';
 		description: (ABContactGenerator loremIpsum);
+		avatarId: 'andrei.png';
 		address: (
 			ABAddress new
 				city: 'Bern';
@@ -17,6 +18,7 @@ loadDefaultContactsIn: anAddressBook
 		firstName: 'Aliaksei';
 		lastName: 'Syrel';
 		description: (ABContactGenerator loremIpsum);
+		avatarId: 'alex.png';
 		address: (
 			ABAddress new
 				city: 'Bern';
@@ -28,6 +30,7 @@ loadDefaultContactsIn: anAddressBook
 		firstName: 'Tudor';
 		lastName: 'Girba';
 		description: (ABContactGenerator loremIpsum);
+		avatarId: 'tudor.png';
 		address: (
 			ABAddress new
 				city: 'Bern';
@@ -40,6 +43,7 @@ loadDefaultContactsIn: anAddressBook
 		firstName: 'Juraj';
 		lastName: 'Kubelka';
 		description: (ABContactGenerator loremIpsum);
+		avatarId: 'juraj.png';
 		address: (
 			ABAddress new
 				city: 'Santiago';
@@ -50,6 +54,7 @@ loadDefaultContactsIn: anAddressBook
 	ABContact new
 		firstName: 'Stefan';
 		lastName: 'Reichhart';
+		avatarId: 'stefan.png';
 		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new
@@ -61,6 +66,7 @@ loadDefaultContactsIn: anAddressBook
 	ABContact new
 		firstName: 'John';
 		lastName: 'Doe';
+		avatarId: 'john.png';
 		description: (ABContactGenerator loremIpsum);
 		address: (
 			ABAddress new

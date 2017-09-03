@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Model-AndreiChis.20' message 'Updated AddressBook examples.' id 'ad8eadec-cb6e-42a4-b3ab-ed734290c45f' date '2 September 2017' time '10:29:10.176123 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.19' message 'Removed not needed extensions.
-' id '908493ad-1acf-5828-a5b7-a9f491aad2e4' date '18 May 2017' time '11:38:59 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Model-AndreiChis.21' message 'Add ids to more contacts.' id '7870cf14-3227-4949-b7aa-fdb36a5f8cd9' date '3 September 2017' time '8:15:59.41357 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.20' message 'Updated AddressBook examples.
+' id 'f69aa73c-a2df-5f2a-90e7-59d31c810a51' date '2 September 2017' time '10:29:15 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"default" : "smalltalkCI 5/17/2017 18:51",
-		"exampleHolderSimple" : "AndreiChis 9/2/2017 22:07",
+		"exampleHolderSimple" : "AndreiChis 9/2/2017 23:21",
 		"exampleHolderWithLargeAddressBook" : "AndreiChis 9/2/2017 22:07" },
 	"instance" : {
 		"addAddressBook:" : "AndreiChis 3/12/2017 00:45",
