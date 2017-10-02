@@ -21,7 +21,7 @@ addressBookBrowser transmit
 	from: #contacts;
 	to: #details;
 	andShowDynamic: [ :aComposite :aContact |
-		aContact gtGsInspectorAContactOn: aComposite.
-		aContact gtGsInspectorAPreviewOn: aComposite ].
+		aContact gtGsInspectorCContactOn: aComposite.
+		aContact gtGsInspectorCPreviewOn: aComposite ].
 		
 self custom: addressBookBrowser.

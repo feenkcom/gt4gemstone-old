@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"stepOop",
+		"gemstoneClient",
+		"processorProxy" ],
 	"name" : "GtGsSpotterGemstoneListProcessorWrapper",
 	"pools" : [
 		 ],

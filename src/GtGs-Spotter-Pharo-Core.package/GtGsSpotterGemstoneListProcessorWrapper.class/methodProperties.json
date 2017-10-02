@@ -1,5 +1,13 @@
 {
 	"class" : {
-		 },
+		"newFromConfiguration:" : "AndreiChis 5/31/2017 19:23" },
 	"instance" : {
-		 } }
+		"actFor:in:" : "AndreiChis 6/1/2017 18:10",
+		"gemstoneClient" : "AndreiChis 5/31/2017 19:17",
+		"gemstoneClient:" : "AndreiChis 5/31/2017 19:17",
+		"initializeFromConfiguration:" : "AndreiChis 6/1/2017 18:21",
+		"performSearchForFilter:inContext:" : "AndreiChis 6/1/2017 18:15",
+		"runRemoteProcessorForQuery:" : "AndreiChis 6/1/2017 14:37",
+		"stepOop" : "AndreiChis 5/31/2017 19:21",
+		"stepOop:" : "AndreiChis 5/31/2017 19:17",
+		"stepOopType" : "AndreiChis 5/31/2017 19:21" } }

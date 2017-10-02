@@ -1,9 +1,8 @@
 {
+	"class" : {
+		 },
 	"instance" : {
-		"viewBuilder:selector:" : "AndreiChis 4/2/2017 11:10",
-		"initialViewType" : "AndreiChis 4/1/2017 23:53",
-		"buildDisplayValueFor:" : "AndreiChis 4/1/2017 23:58",
-		"initialViewType:" : "AndreiChis 4/1/2017 23:32"
-	},
-	"class" : { }
-}
+		"buildDisplayValueFor:" : "AndreiChis 4/2/2017 12:14:08",
+		"initialViewType" : "AndreiChis 4/2/2017 12:14:08",
+		"initialViewType:" : "AndreiChis 4/2/2017 12:14:08",
+		"viewBuilder:selector:" : "AndreiChis 4/2/2017 12:14:08" } }

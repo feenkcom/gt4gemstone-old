@@ -1,2 +1,2 @@
-(name 'GtGs-Examples-AddressBook-Model-AndreiChis.19' message 'Removed not needed extensions.' id '3092914a-c832-4c8a-b882-4132d205adbd' date '18 May 2017' time '11:38:53.863589 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.18' message 'Fixed API
-' id '9f399715-7407-53f4-b028-e655d473f87e' date '18 May 2017' time '11:06:29 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-Examples-AddressBook-Model-AndreiChis.22' message 'Change the order of the contact presentations.' id 'f1d80c2a-4256-4df1-9a80-460a073b83c1' date '3 September 2017' time '8:54:02.81767 pm' author 'AndreiChis' ancestors ((name 'GtGs-Examples-AddressBook-Model-AndreiChis.21' message 'Add ids to more contacts.
+' id '090c9f19-223c-5cb5-baaa-f4b452684a61' date '3 September 2017' time '8:16:05 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

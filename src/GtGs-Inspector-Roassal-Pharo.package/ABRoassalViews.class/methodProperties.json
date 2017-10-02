@@ -1,6 +1,8 @@
 {
-	"instance" : { },
 	"class" : {
-		"holderViewOn:for:" : "AndreiChis 4/2/2017 11:17"
-	}
-}
+		"addressBookViewOn:for:" : "AndreiChis 9/2/2017 23:31",
+		"avaratFor:" : "AndreiChis 9/2/2017 23:32",
+		"formFromMorph:" : "AndreiChis 9/2/2017 22:15",
+		"holderViewOn:for:" : "AndreiChis 9/2/2017 23:32" },
+	"instance" : {
+		 } }

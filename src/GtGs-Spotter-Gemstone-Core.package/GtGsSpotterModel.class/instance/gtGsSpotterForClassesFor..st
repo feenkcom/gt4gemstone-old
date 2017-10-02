@@ -2,10 +2,14 @@ extensions
 gtGsSpotterForClassesFor: aStep
 	<spotterOrder: 10>
 	aStep listProcessor
+		title: 'Classes';
+		itemName: [ :aClass | aClass name ];
 		allCandidates: [ 
-			GsCurrentSession currentSession symbolList allSatisfying: [ :each | each isBehavior ] ];
-		title: 'Classes'";
+			 self topezServer gtGsSystemNavigation classOrganizer classes ];
+		gsActLogic: [ :aClass |
+			self topezServer gtGsBrowseTool browseFull: aClass name ];
+		wantsToDisplayOnEmptyQuery: true
+		";
 		filter: GTFilterSubstring;
 		itemIcon: #systemIcon;
-		keyBinding: $b meta;
-		wantsToDisplayOnEmptyQuery: false"
+		keyBinding: $b meta;"

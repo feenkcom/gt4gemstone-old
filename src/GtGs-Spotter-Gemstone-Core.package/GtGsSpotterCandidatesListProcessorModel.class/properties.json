@@ -6,8 +6,14 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"itemsBlock",
 		"allCandidatesBlock",
-		"titleBlock" ],
+		"titleBlock",
+		"itemNameBlock",
+		"gsActBlock",
+		"wantsToDisplayOnEmptyQuery",
+		"cachedCandidates",
+		"searchResults" ],
 	"name" : "GtGsSpotterCandidatesListProcessorModel",
 	"pools" : [
 		 ],

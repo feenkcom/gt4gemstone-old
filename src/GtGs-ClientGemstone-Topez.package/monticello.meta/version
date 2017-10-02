@@ -1,2 +1,2 @@
-(name 'GtGs-ClientGemstone-Topez-AndreiChis.12' message 'Added #compileSource:classified:inClass:' id '63eddcae-f624-4c07-9411-ced70b343bf5' date '14 May 2017' time '5:42:34.046689 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Topez-AndreiChis.11' message 'Extract the actual compiled method in #gtGsImplementorsOf:
-' id '0a0f9508-3554-5c64-9027-e577efbe94ee' date '8 May 2017' time '4:36:44 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())
+(name 'GtGs-ClientGemstone-Topez-AndreiChis.14' message 'Renamed #buildRemoteSpotterModel to #buildRemoteSpotterProxy' id '610653c1-4cd0-4793-8132-00161d3463f9' date '31 May 2017' time '8:27:29.162114 pm' author 'AndreiChis' ancestors ((name 'GtGs-ClientGemstone-Topez-AndreiChis.13' message 'Added TDTopezServer>>#buildRemoteSpotterModel
+' id '48f71fa8-01e5-5a4d-b9fc-0007716921ef' date '31 May 2017' time '6:07:27 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

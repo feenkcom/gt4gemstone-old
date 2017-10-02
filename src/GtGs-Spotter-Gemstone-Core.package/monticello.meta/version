@@ -1,1 +1,2 @@
-(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.1' message 'First try at a spotter for searching through gemstone.' id 'f09f249f-da7a-467d-a2d6-6d1303cc5ba4' date '16 May 2017' time '8:56:58.362404 pm' author 'AndreiChis' ancestors () stepChildren ())
+(name 'GtGs-Spotter-Gemstone-Core-AndreiChis.17' message 'Browse the full method when searching for implementors/senders' id '63723c48-a8e0-4639-aead-3f79f9de9ab5' date '1 June 2017' time '6:59:28.875668 pm' author 'AndreiChis' ancestors ((name 'GtGs-Spotter-Gemstone-Core-AndreiChis.16' message 'Fixed callbacks for opening the message browser.
+' id '06fb8634-a636-509f-aa0c-e216d8efa828' date '1 June 2017' time '6:38:37 pm' author 'AndreiChis' ancestors () stepChildren ())) stepChildren ())

@@ -1,11 +1,10 @@
 {
 	"class" : {
-		"instantiateUsingTopezServer:" : "AndreiChis 5/15/2017 17:23" },
+		 },
 	"instance" : {
-		"gtGsSpotterForClassesFor:" : "AndreiChis 5/15/2017 17:54",
-		"searchResultsRequestForQuery:withProcessorOop:" : "AndreiChis 5/15/2017 23:01",
-		"spotterForwarder" : "AndreiChis 5/15/2017 16:10",
-		"spotterForwarder:" : "AndreiChis 5/15/2017 16:11",
-		"spotterProcessorsConfigurationsRequest" : "AndreiChis 5/15/2017 18:53",
-		"topezServer" : "AndreiChis 5/15/2017 16:10",
-		"topezServer:" : "AndreiChis 5/15/2017 16:10" } }
+		"gtGsSpotterForClassesFor:" : "AndreiChis 6/1/2017 18:17",
+		"gtGsSpotterForImplementorsFor:" : "AndreiChis 6/1/2017 18:58",
+		"gtGsSpotterForSendersFor:" : "AndreiChis 6/1/2017 18:58",
+		"gtGsSpotterForUsersFor:" : "AndreiChis 6/1/2017 18:20",
+		"topezServer" : "AndreiChis 5/16/2017 20:56:59",
+		"topezServer:" : "AndreiChis 5/16/2017 20:56:59" } }

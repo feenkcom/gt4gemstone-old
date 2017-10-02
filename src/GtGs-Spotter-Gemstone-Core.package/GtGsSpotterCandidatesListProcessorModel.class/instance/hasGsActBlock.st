@@ -1,0 +1,3 @@
+testing
+hasGsActBlock
+	^ gsActBlock notNil
