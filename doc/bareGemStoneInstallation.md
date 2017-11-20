@@ -10,7 +10,7 @@ $ export GT4GEMSTONE=`pwd`
 $ ./bin/setupEnvGemstone330Bare.sh
 $ ./bin/loadIntoGemstone330Bare.sh -s <stone-name>
 ``` 
-The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies, sets the environmental variable and configures the installation scripts. The script `loadIntoGemstone330Bare.sh` loads the project into a given running stone. This scripr provides several options to control the loading:
+The script `setupEnvGemstone330Bare.sh` dowloads all required dependencies, sets the environmental variable and configures the installation scripts. The script `loadIntoGemstone330Bare.sh` loads the project into a given running stone. This script provides several options to control the loading:
 ```
 $ ./bin/loadIntoGemstone330Bare.sh -s gt4gemstone -u DataCurator -p swordfish
 $ ./bin/loadIntoGemstone330Bare.sh -s gt4gemstone -u DataCurator -p swordfish -a try
